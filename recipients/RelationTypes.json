@@ -1,4 +1,4 @@
-[
+{[
 		{ "Id": "SweetheartF",    "RecipientTypeTag": "9E2D23", "Gender": "F", usualRecipient : true, subscribableRecipient : true, "dashLabel": "Ma chérie",      "MailLabel": "mailVotre chérie",  "LocalLabel": "Votre chérie", "TuOuVous" : "T", "Importance" : 1},
 		{ "Id": "SweetheartM",    "RecipientTypeTag": "9E2D23", "Gender": "H", usualRecipient : true, subscribableRecipient : true, "dashLabel": "Mon chéri",      "MailLabel": "mailVotre chéri", "LocalLabel": "Votre chéri", "TuOuVous" : "T", "Importance" : 2},
     { "Id": "CloseFriends",   "RecipientTypeTag": "3B9BF2", "Gender": null,usualRecipient : true, subscribableRecipient : true, "dashLabel": "Ami(e) proche",  "MailLabel": "mailVos copains et copines", "LocalLabel": "Vos copains et copines", "TuOuVous" : "T","Importance" : 2.5},
@@ -13,4 +13,4 @@
     { "Id": "FamillyYoungsters","RecipientTypeTag": "420A3E", "Gender": null,usualRecipient : false,subscribableRecipient : false,"dashLabel": "Enfant, neveux, filleul", "MailLabel": "mailEnfant, neveux, filleul", "LocalLabel": "Enfant, neveux, filleul", "TuOuVous" : "T","Importance" : 10},
 		{ "Id": "DistantRelatives","RecipientTypeTag": "BCA601","Gender": null,usualRecipient : false,subscribableRecipient : false,"dashLabel": "Famille éloignée","MailLabel": "mailLa famille éloignée", "LocalLabel": "La famille éloignée", "TuOuVous" : "T","Importance" : 11},
     { "Id": "OtherFriends",   "RecipientTypeTag": "6E7DFB",  "Gender": null,usualRecipient : true,subscribableRecipient : true,"dashLabel": "Amis divers",   "MailLabel": "mailVos autres amis", "LocalLabel": "Vos autres amis", "TuOuVous" : "T","Importance" : 2.66},
-]
+]}
