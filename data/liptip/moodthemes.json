@@ -1,0 +1,49 @@
+{ 
+"path" : "themes/kittens",
+"Labels":
+  [
+  {"Language":"fr-FR","Lable":"Chatons"},
+  {"Language":"en-EN","Lable":"Kittens"},
+  {"Language":"es-ES","Lable":"Kittens"}
+  ]
+}
+,
+{ 
+"path" : "themes/puppies",
+"Labels":
+  [
+  {"Language":"fr-FR","Lable":"Chiens"},
+  {"Language":"en-EN","Lable":"Puppies"},
+  {"Language":"es-ES","Lable":"Puppies"}
+  ]
+}
+,
+{ 
+"path" : "themes/horses",
+"Labels":
+  [
+  {"Language":"fr-FR","Lable":"Cheveaux"},
+  {"Language":"en-EN","Lable":"Horses"},
+  {"Language":"es-ES","Lable":"Horses"}
+  ]
+}
+,
+{ 
+"path" : "themes/animals",
+"Labels":
+  [
+  {"Language":"fr-FR","Lable":"Animaux"},
+  {"Language":"en-EN","Lable":"Animals"},
+  {"Language":"es-ES","Lable":"Animals"}
+  ]
+}
+,
+{ 
+"path" : "themes/nature",
+"Labels":
+  [
+  {"Language":"fr-FR","Lable":"Nature"},
+  {"Language":"en-EN","Lable":"Nature"},
+  {"Language":"es-ES","Lable":"Nature"}
+  ]
+}
