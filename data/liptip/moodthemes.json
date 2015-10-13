@@ -2,9 +2,9 @@
 "path" : "themes/kittens",
 "Labels":
   [
-  {"Language":"fr-FR","Lable":"Chatons"},
-  {"Language":"en-EN","Lable":"Kittens"},
-  {"Language":"es-ES","Lable":"Kittens"}
+  {"Language":"fr-FR","Label":"Chatons"},
+  {"Language":"en-EN","Label":"Kittens"},
+  {"Language":"es-ES","Label":"Kittens"}
   ]
 }
 ,
@@ -12,9 +12,9 @@
 "path" : "themes/puppies",
 "Labels":
   [
-  {"Language":"fr-FR","Lable":"Chiens"},
-  {"Language":"en-EN","Lable":"Puppies"},
-  {"Language":"es-ES","Lable":"Puppies"}
+  {"Language":"fr-FR","Label":"Chiens"},
+  {"Language":"en-EN","Label":"Puppies"},
+  {"Language":"es-ES","Label":"Puppies"}
   ]
 }
 ,
@@ -22,9 +22,9 @@
 "path" : "themes/horses",
 "Labels":
   [
-  {"Language":"fr-FR","Lable":"Cheveaux"},
-  {"Language":"en-EN","Lable":"Horses"},
-  {"Language":"es-ES","Lable":"Horses"}
+  {"Language":"fr-FR","Label":"Cheveaux"},
+  {"Language":"en-EN","Label":"Horses"},
+  {"Language":"es-ES","Label":"Horses"}
   ]
 }
 ,
@@ -32,9 +32,9 @@
 "path" : "themes/animals",
 "Labels":
   [
-  {"Language":"fr-FR","Lable":"Animaux"},
-  {"Language":"en-EN","Lable":"Animals"},
-  {"Language":"es-ES","Lable":"Animals"}
+  {"Language":"fr-FR","Label":"Animaux"},
+  {"Language":"en-EN","Label":"Animals"},
+  {"Language":"es-ES","Label":"Animals"}
   ]
 }
 ,
@@ -42,8 +42,8 @@
 "path" : "themes/nature",
 "Labels":
   [
-  {"Language":"fr-FR","Lable":"Nature"},
-  {"Language":"en-EN","Lable":"Nature"},
-  {"Language":"es-ES","Lable":"Nature"}
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Nature"}
   ]
 }
