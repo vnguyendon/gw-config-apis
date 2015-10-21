@@ -1,16 +1,16 @@
 {
   "weigthedIntentions":
   [
-    { "id": "0B1EA1", "slug": "jokes", "weight": 0.3},
-    { "id": "A64962", "slug": "a-few-words-for-you", "weight": 1},
-    { "id": "2E2986", "slug": "facebook-status",     "weight": 0.15},
-    { "id": "67CC40", "slug": "positive-thoughts",   "weight": 0.3},
-    { "id": "016E91", "slug": "I-think-of-you",      "weight": 1},
-    { "id": "5CDCF2", "slug": "I-love-you",          "weight": 1},
-    { "id": "8ED62C", "slug": "I-miss-you",          "weight": 1},
-    { "id": "1778B7", "slug": "thank-you",           "weight": 0.2},
-    { "id": "B0D576", "slug": "there-is-something-missing",  "weight": 0.2},
-    { "id": "1395B6", "slug": "surprise-me",         "weight": 0.3},
-    { "id": "F4566D", "slug": "I-want-you",         "weight": 0.8}
+    { "id": "0B1EA1", "slug": "jokes",               "weight": 0.5},
+    { "id": "A64962", "slug": "a-few-words-for-you", "weight": 0.5},
+    { "id": "2E2986", "slug": "facebook-status",     "weight": 0.75},
+    { "id": "67CC40", "slug": "positive-thoughts",   "weight": 0.5},
+    { "id": "016E91", "slug": "I-think-of-you",      "weight": 2.0},
+    { "id": "5CDCF2", "slug": "I-love-you",          "weight": 1.0},
+    { "id": "8ED62C", "slug": "I-miss-you",          "weight": 1.5},
+    { "id": "1778B7", "slug": "thank-you",           "weight": 0.25},
+    { "id": "B0D576", "slug": "there-is-something-missing", "weight": 0.25},
+    { "id": "1395B6", "slug": "surprise-me",         "weight": 0.5},
+    { "id": "F4566D", "slug": "I-want-you",         "weight": 0.5}
   ]
 }
