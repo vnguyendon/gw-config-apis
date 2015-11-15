@@ -1,3 +1,4 @@
+{
 { 
 "path" : "themes/kittens",
 "Labels":
@@ -46,4 +47,5 @@
   {"Language":"en-EN","Label":"Nature"},
   {"Language":"es-ES","Label":"Nature"}
   ]
+}
 }
