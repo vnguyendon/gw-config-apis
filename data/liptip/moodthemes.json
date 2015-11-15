@@ -1,6 +1,8 @@
 {
+"Themes":
+[
 { 
-"path" : "themes/kittens",
+"Path" : "themes/kittens",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Chatons"},
@@ -10,7 +12,7 @@
 }
 ,
 { 
-"path" : "themes/puppies",
+"Path" : "themes/puppies",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Chiens"},
@@ -20,7 +22,7 @@
 }
 ,
 { 
-"path" : "themes/horses",
+"Path" : "themes/horses",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Cheveaux"},
@@ -30,7 +32,7 @@
 }
 ,
 { 
-"path" : "themes/animals",
+"Path" : "themes/animals",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Animaux"},
@@ -40,7 +42,7 @@
 }
 ,
 { 
-"path" : "themes/nature",
+"Path" : "themes/nature",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Nature"},
@@ -48,4 +50,5 @@
   {"Language":"es-ES","Label":"Nature"}
   ]
 }
+]
 }
