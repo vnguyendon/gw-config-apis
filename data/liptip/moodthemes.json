@@ -3,6 +3,7 @@
 [
 { 
 "Path" : "themes/kittens",
+"DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Chatons"},
@@ -13,6 +14,7 @@
 ,
 { 
 "Path" : "themes/puppies",
+"DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Chiens"},
@@ -23,6 +25,7 @@
 ,
 { 
 "Path" : "themes/horses",
+"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Cheveaux"},
@@ -32,7 +35,18 @@
 }
 ,
 { 
-"Path" : "themes/animals",
+"Path" : "themes/flowers",
+"DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Fleurs"},
+  {"Language":"en-EN","Label":"Flowers"},
+  {"Language":"es-ES","Label":"Flowers"}
+  ]
+}
+,
+{ 
+"Path" : "themes/animals/small/iStock_000015359145_Large.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Animaux"},
@@ -43,6 +57,7 @@
 ,
 { 
 "Path" : "themes/nature",
+"Path" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Nature"},
