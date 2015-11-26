@@ -58,7 +58,7 @@
 ,
 { 
 "Path" : "themes/nature",
-"Path" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Nature"},
