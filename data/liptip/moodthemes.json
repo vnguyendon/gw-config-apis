@@ -47,6 +47,7 @@
 ,
 { 
 "Path" : "themes/animals/small/iStock_000015359145_Large.jpg",
+"DefaultImage" : "themes/animals/small/iStock_000015359145_Large.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Animaux"},
