@@ -1,0 +1,7 @@
+{
+  "weigthedIntentions":
+  [
+    { "id": "2E2986", "slug": "facebook-status",     "weight": 1.0},
+    { "id": "67CC40", "slug": "positive-thoughts",   "weight": 0.5}
+  ]
+}
