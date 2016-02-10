@@ -1,0 +1,70 @@
+{
+"Themes":
+[
+{ 
+"Path" : "themes/kittens",
+"DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chatons"},
+  {"Language":"en-EN","Label":"Kittens"},
+  {"Language":"es-ES","Label":"Kittens"}
+  ]
+}
+,
+{ 
+"Path" : "themes/puppies",
+"DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chiens"},
+  {"Language":"en-EN","Label":"Puppies"},
+  {"Language":"es-ES","Label":"Puppies"}
+  ]
+}
+,
+{ 
+"Path" : "themes/horses",
+"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Cheveaux"},
+  {"Language":"en-EN","Label":"Horses"},
+  {"Language":"es-ES","Label":"Horses"}
+  ]
+}
+,
+{ 
+"Path" : "themes/flowers",
+"DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Fleurs"},
+  {"Language":"en-EN","Label":"Flowers"},
+  {"Language":"es-ES","Label":"Flowers"}
+  ]
+}
+,
+{ 
+"Path" : "themes/animals",
+"DefaultImage" : "themes/animals/small/iStock_000015359145_Large.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Animaux"},
+  {"Language":"en-EN","Label":"Animals"},
+  {"Language":"es-ES","Label":"Animals"}
+  ]
+}
+,
+{ 
+"Path" : "themes/nature",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Nature"}
+  ]
+}
+]
+}
