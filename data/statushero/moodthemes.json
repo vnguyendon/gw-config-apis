@@ -66,5 +66,16 @@
   {"Language":"es-ES","Label":"Nature"}
   ]
 }
+,
+{ 
+"Path" : "themes/sexy",
+"DefaultImage" : "themes/sexy/small/shutterstock_258481907.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Sexy"},
+  {"Language":"en-EN","Label":"Sexy"},
+  {"Language":"es-ES","Label":"Sexy"}
+  ]
+}
 ]
 }
