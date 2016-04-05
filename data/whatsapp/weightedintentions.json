@@ -1,0 +1,9 @@
+{
+  "weigthedIntentions":
+  [
+    { "id": "2E2986", "slug": "facebook-status",     "weight": 1.0},
+    { "id": "016E91", "slug": "I-think-of-you",      "weight": 2.0},
+    { "id": "8ED62C", "slug": "I-miss-you",          "weight": 1.5},
+    { "id": "67CC40", "slug": "positive-thoughts",   "weight": 0.5}
+  ]
+}
