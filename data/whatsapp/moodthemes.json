@@ -68,13 +68,13 @@
 }
 ,
 { 
-"Path" : "themes/sexy",
-"DefaultImage" : "themes/sexy/small/shutterstock_258481907.jpg",
+"Path" : "themes/emoticons",
+"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Sexy"},
-  {"Language":"en-EN","Label":"Sexy"},
-  {"Language":"es-ES","Label":"Sexy"}
+  {"Language":"fr-FR","Label":"Smileys"},
+  {"Language":"en-EN","Label":"Smileys"},
+  {"Language":"es-ES","Label":"Smileys"}
   ]
 }
 ]
