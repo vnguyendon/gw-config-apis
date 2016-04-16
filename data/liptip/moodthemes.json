@@ -77,5 +77,16 @@
   {"Language":"es-ES","Label":"Sexy"}
   ]
 }
+,
+{ 
+"Path" : "themes/emoticons",
+"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoticônes"},
+  {"Language":"en-EN","Label":"Emoticons"},
+  {"Language":"es-ES","Label":"Emoticons"}
+  ]
+}
 ]
 }
