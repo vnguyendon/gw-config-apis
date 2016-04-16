@@ -83,9 +83,9 @@
 "DefaultImage" : "themes/emoticons/small/000075070105.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoticônes"},
-  {"Language":"en-EN","Label":"Emoticons"},
-  {"Language":"es-ES","Label":"Emoticons"}
+  {"Language":"fr-FR","Label":"Smileys"},
+  {"Language":"en-EN","Label":"Smileys"},
+  {"Language":"es-ES","Label":"Smileys"}
   ]
 }
 ]
