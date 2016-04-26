@@ -2,6 +2,28 @@
 "Themes":
 [
 { 
+"Path" : "themes/nature",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Nature"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons",
+"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji"},
+  {"Language":"en-EN","Label":"Emoji"},
+  {"Language":"es-ES","Label":"Emoji"}
+  ]
+}
+,
+{ 
 "Path" : "themes/kittens",
 "DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
 "Labels":
@@ -53,28 +75,6 @@
   {"Language":"fr-FR","Label":"Animaux"},
   {"Language":"en-EN","Label":"Animals"},
   {"Language":"es-ES","Label":"Animals"}
-  ]
-}
-,
-{ 
-"Path" : "themes/nature",
-"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Nature"},
-  {"Language":"en-EN","Label":"Nature"},
-  {"Language":"es-ES","Label":"Nature"}
-  ]
-}
-,
-{ 
-"Path" : "themes/emoticons",
-"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji"},
-  {"Language":"en-EN","Label":"Emoji"},
-  {"Language":"es-ES","Label":"Emoji"}
   ]
 }
 ]
