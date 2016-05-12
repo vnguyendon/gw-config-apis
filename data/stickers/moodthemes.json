@@ -41,7 +41,7 @@
   [
   {"Language":"fr-FR","Label":"Fleurs"},
   {"Language":"en-EN","Label":"Flowers"},
-  {"Language":"es-ES","Label":"Flowers"}
+  {"Language":"es-ES","Label":"Flores"}
   ]
 }
 ,
@@ -75,6 +75,17 @@
   {"Language":"fr-FR","Label":"Emoji"},
   {"Language":"en-EN","Label":"Emoji"},
   {"Language":"es-ES","Label":"Emoji"}
+  ]
+}
+,
+{ 
+"Path" : "themes/pairs",
+"DefaultImage" : "themes/pairs/small/iStock_000003160811_Medium.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Paires"},
+  {"Language":"en-EN","Label":"Pairs"},
+  {"Language":"es-ES","Label":"Pares"}
   ]
 }
 ]
