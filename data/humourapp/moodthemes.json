@@ -77,5 +77,16 @@
   {"Language":"es-ES","Label":"Emoji"}
   ]
 }
+,
+{ 
+"Path" : "themes/pairs",
+"DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Paires"},
+  {"Language":"en-EN","Label":"Pairs"},
+  {"Language":"es-ES","Label":"Pares"}
+  ]
+}
 ]
 }
