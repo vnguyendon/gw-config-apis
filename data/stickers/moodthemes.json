@@ -80,7 +80,7 @@
 ,
 { 
 "Path" : "themes/strange",
-"DefaultImage" : "themes/pairs/small/310928_10150295389296564_166896605_n.jpg",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
 "Labels":
   [
   {"Language":"fr-FR","Label":"Etrange"},
