@@ -79,6 +79,17 @@
 }
 ,
 { 
+"Path" : "themes/strange",
+"DefaultImage" : "themes/pairs/small/310928_10150295389296564_166896605_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
+  ]
+}
+,
+{ 
 "Path" : "themes/pairs",
 "DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
 "Labels":
