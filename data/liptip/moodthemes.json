@@ -8,7 +8,7 @@
   [
   {"Language":"fr-FR","Label":"Nature"},
   {"Language":"en-EN","Label":"Nature"},
-  {"Language":"es-ES","Label":"Nature"}
+  {"Language":"es-ES","Label":"Naturaleza"}
   ]
 }
 ,
@@ -30,7 +30,7 @@
   [
   {"Language":"fr-FR","Label":"Chatons"},
   {"Language":"en-EN","Label":"Kittens"},
-  {"Language":"es-ES","Label":"Kittens"}
+  {"Language":"es-ES","Label":"Gatitos"}
   ]
 }
 ,
@@ -41,7 +41,7 @@
   [
   {"Language":"fr-FR","Label":"Chiens"},
   {"Language":"en-EN","Label":"Puppies"},
-  {"Language":"es-ES","Label":"Puppies"}
+  {"Language":"es-ES","Label":"Cachorros"}
   ]
 }
 ,
@@ -52,7 +52,7 @@
   [
   {"Language":"fr-FR","Label":"Chevaux"},
   {"Language":"en-EN","Label":"Horses"},
-  {"Language":"es-ES","Label":"Horses"}
+  {"Language":"es-ES","Label":"Caballos"}
   ]
 }
 ,
@@ -63,7 +63,7 @@
   [
   {"Language":"fr-FR","Label":"Fleurs"},
   {"Language":"en-EN","Label":"Flowers"},
-  {"Language":"es-ES","Label":"Flowers"}
+  {"Language":"es-ES","Label":"Flores"}
   ]
 }
 ,
@@ -74,7 +74,7 @@
   [
   {"Language":"fr-FR","Label":"Animaux"},
   {"Language":"en-EN","Label":"Animals"},
-  {"Language":"es-ES","Label":"Animals"}
+  {"Language":"es-ES","Label":"Animales"}
   ]
 }
 ,
