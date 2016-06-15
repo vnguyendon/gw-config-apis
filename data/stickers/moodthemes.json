@@ -99,5 +99,16 @@
   {"Language":"es-ES","Label":"Pares"}
   ]
 }
+,
+{ 
+"Path" : "themes/football",
+"DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Football"},
+  {"Language":"en-EN","Label":"Football"},
+  {"Language":"es-ES","Label":"Fútbol"}
+  ]
+}
 ]
 }
