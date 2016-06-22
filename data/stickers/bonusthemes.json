@@ -66,5 +66,16 @@
   {"Language":"es-ES","Label":"Emoji Pandas"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiPuppies",
+"DefaultImage" : "themes/emojiPuppies/small/shutterstock_398942398_16.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chiots"},
+  {"Language":"en-EN","Label":"Emoji Puppies"},
+  {"Language":"es-ES","Label":"Emoji Perros"}
+  ]
+}
 ]
 }
