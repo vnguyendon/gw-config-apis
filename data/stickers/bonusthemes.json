@@ -99,5 +99,16 @@
   {"Language":"es-ES","Label":"Emoji Mapaches"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiTigers",
+"DefaultImage" : "themes/emojiTigers/small/shutterstock_399642061_13.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Tigres"},
+  {"Language":"en-EN","Label":"Emoji Tigers"},
+  {"Language":"es-ES","Label":"Emoji Tigres"}
+  ]
+}
 ]
 }
