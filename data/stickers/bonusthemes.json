@@ -55,5 +55,17 @@
   {"Language":"es-ES","Label":"Emoji Búhos"}
   ]
 }
+,
+,
+{ 
+"Path" : "themes/emojiPandas",
+"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pandas"},
+  {"Language":"en-EN","Label":"Emoji Pandas"},
+  {"Language":"es-ES","Label":"Emoji Pandas"}
+  ]
+}
 ]
 }
