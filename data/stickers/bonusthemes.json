@@ -88,5 +88,16 @@
   {"Language":"es-ES","Label":"Emoji Conejos"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiRaccoons",
+"DefaultImage" : "themes/emojiRaccoons/small/shutterstock_416608975_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Ratons"},
+  {"Language":"en-EN","Label":"Emoji Raccoons"},
+  {"Language":"es-ES","Label":"Emoji Mapaches"}
+  ]
+}
 ]
 }
