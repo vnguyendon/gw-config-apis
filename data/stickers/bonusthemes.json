@@ -33,5 +33,16 @@
   {"Language":"es-ES","Label":"Emoji Osos"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiKittens",
+"DefaultImage" : "themes/emojiKittens/small/shutterstock_397906726_12.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chatons"},
+  {"Language":"en-EN","Label":"Emoji Kittens"},
+  {"Language":"es-ES","Label":"Emoji Gatitos"}
+  ]
+}
 ]
 }
