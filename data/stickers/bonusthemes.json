@@ -77,5 +77,16 @@
   {"Language":"es-ES","Label":"Emoji Perros"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiRabbits",
+"DefaultImage" : "themes/emojiRabbits/small/shutterstock_431193436_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Lapins"},
+  {"Language":"en-EN","Label":"Emoji Rabbits"},
+  {"Language":"es-ES","Label":"Emoji Conejos"}
+  ]
+}
 ]
 }
