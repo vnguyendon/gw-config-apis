@@ -22,5 +22,16 @@
   {"Language":"es-ES","Label":"Emoji Leones"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiBears",
+"DefaultImage" : "themes/emojiBears/small/shutterstock_417336076_17.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Ours"},
+  {"Language":"en-EN","Label":"Emoji Bears"},
+  {"Language":"es-ES","Label":"Emoji Osos"}
+  ]
+}
 ]
 }
