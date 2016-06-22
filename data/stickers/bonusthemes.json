@@ -11,5 +11,16 @@
   {"Language":"es-ES","Label":"Caballos"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiLions",
+"DefaultImage" : "themes/emojiLions/small/shutterstock_402952978_14.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Lions"},
+  {"Language":"en-EN","Label":"Emoji Lions"},
+  {"Language":"es-ES","Label":"Emoji Leones"}
+  ]
+}
 ]
 }
