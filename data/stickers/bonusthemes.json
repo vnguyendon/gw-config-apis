@@ -44,5 +44,16 @@
   {"Language":"es-ES","Label":"Emoji Gatitos"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiOwls",
+"DefaultImage" : "themes/emojiOwls/small/shutterstock_386688127_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chouettes"},
+  {"Language":"en-EN","Label":"Emoji Owls"},
+  {"Language":"es-ES","Label":"Emoji Búhos"}
+  ]
+}
 ]
 }
