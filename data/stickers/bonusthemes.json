@@ -110,5 +110,27 @@
   {"Language":"es-ES","Label":"Emoji Tigres"}
   ]
 }
+,
+{ 
+"Path" : "themes/penguins",
+"DefaultImage" : "themes/penguins/small/shutterstock_326065541_2.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Pingoins"},
+  {"Language":"en-EN","Label":"Penguins"},
+  {"Language":"es-ES","Label":"Pingüinos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/holidays",
+"DefaultImage" : "themes/holidays/small/shutterstock_258312176_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Vacances"},
+  {"Language":"en-EN","Label":"Holidays"},
+  {"Language":"es-ES","Label":"Vacaciones"}
+  ]
+}
 ]
 }
