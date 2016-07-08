@@ -33,5 +33,38 @@
   }
  ]
 }
+,
+{ 
+"Id" : "ppReceptiveTo",
+"DefaultImage" : "themes/emoticons/small/000015195705.jpg",
+"Question":
+  [
+  {"Language":"fr-FR","Label":"Vous êtes plus réceptif"},
+  {"Language":"en-EN","Label":"You are more receptive to"},
+  {"Language":"es-ES","Label":"Usted es más receptivo a"}
+  ],
+"Answers":
+  [
+  {
+  "Id" : "Facts",
+  "Labels":
+    [
+    {"Language":"fr-FR","Label":"aux faits, à la réalité"},
+    {"Language":"en-EN","Label":"facts and reality"},
+    {"Language":"es-ES","Label":"los hechos, la realidad"}
+    ]
+  }
+  ,
+  {
+  "Id" : "Ideas",
+  "Labels":
+    [
+    {"Language":"fr-FR","Label":"aux théories, aux possibilités"},
+    {"Language":"en-EN","Label":"theories and possibilities"},
+    {"Language":"es-ES","Label":"las teorías, las posibilidades"}
+    ]
+  }
+ ]
+}
 ]
 }
