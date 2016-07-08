@@ -143,5 +143,16 @@
   {"Language":"es-ES","Label":"Vacaciones"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiVanilla",
+"DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji vanille"},
+  {"Language":"en-EN","Label":"Emoji vanilla"},
+  {"Language":"es-ES","Label":"Emoji vainilla"}
+  ]
+}
 ]
 }
