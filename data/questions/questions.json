@@ -1,0 +1,37 @@
+{
+"Questions":
+[
+{ 
+"Id" : "ppEnergeticAfter",
+"DefaultImage" : "themes/emoticons/small/000018292730.jpg",
+"Question":
+  [
+  {"Language":"fr-FR","Label":"Vous avez plus d'énergie après avoir été"},
+  {"Language":"en-EN","Label":"You feel more energetic after"},
+  {"Language":"es-ES","Label":"Su energía aumenta cuándo ha estado"}
+  ],
+"Answers":
+  [
+  {
+  "Id" : "WithPeople",
+  "Labels":
+    [
+    {"Language":"fr-FR","Label":"avec d'autres personnes"},
+    {"Language":"en-EN","Label":"being with people"},
+    {"Language":"es-ES","Label":"con otras personas"}
+    ]
+  }
+  ,
+  {
+  "Id" : "OnYourOwn",
+  "Labels":
+    [
+    {"Language":"fr-FR","Label":"avec vous-même"},
+    {"Language":"en-EN","Label":"being with people"},
+    {"Language":"es-ES","Label":"being alone"}
+    ]
+  }
+ ]
+}
+]
+}
