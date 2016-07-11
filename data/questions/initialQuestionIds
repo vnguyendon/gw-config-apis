@@ -3,6 +3,7 @@
   [
   "ppEnergeticAfter",
   "ppReceptiveTo",
-  "ppDecisionsAriseFrom"
+  "ppDecisionsAriseFrom",
+  "ppOpenedOrSettled"
   ]
 }
