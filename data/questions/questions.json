@@ -201,7 +201,7 @@
 ,
 { 
 "Id" : "ppPreferBooksToParties",
-"DefaultImage" : "themes/emoticons/small/11703101_735140276597245_1438742967970096196_n.jpg",
+"DefaultImage" : "canonical/11703101_735140276597245_1438742967970096196_n.jpg",
 "Question":
   [
   {"Language":"en-EN","Label":"You often prefer books to parties"},
