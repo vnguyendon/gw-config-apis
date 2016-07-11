@@ -198,6 +198,39 @@
     }
   ]
 }
+,
+{ 
+"Id" : "ppPreferBooksToParties",
+"DefaultImage" : "themes/emoticons/small/11703101_735140276597245_1438742967970096196_n.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You often prefer books to parties"},
+  {"Language":"fr-FR","Label":"Vous préférez souvent les livres aux fêtes"},
+  {"Language":"es-ES","Label":"A menudo prefiere los libros a las fiestas"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Books",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"yes"},
+      {"Language":"fr-FR","Label":"oui"},
+      {"Language":"es-ES","Label":"sí"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Parties",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"no"},
+      {"Language":"fr-FR","Label":"non"},
+      {"Language":"es-ES","Label":"no"}
+      ]
+    }
+  ]
+}
 
 
 ]
