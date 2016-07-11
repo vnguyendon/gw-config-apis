@@ -132,6 +132,41 @@
     }
   ]
 }
+,
+{ 
+"Id" : "ppSocialInteraction",
+"DefaultImage" : "themes/emoticons/small/000068850269.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"Social interaction comes to you"},
+  {"Language":"fr-FR","Label":"Les contacts sociaux vous viennent"},
+  {"Language":"es-ES","Label":"La interacción social ocurre"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Naturally",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"naturally"},
+      {"Language":"fr-FR","Label":"naturellement"},
+      {"Language":"es-ES","Label":"naturalmente"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "WithEffort",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"with effort"},
+      {"Language":"fr-FR","Label":"avec effort"},
+      {"Language":"es-ES","Label":"cuándo me esfuerzo"}
+      ]
+    }
+  ]
+}
+
+
 
 ]
 }
