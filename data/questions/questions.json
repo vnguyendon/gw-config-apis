@@ -66,6 +66,40 @@
     }
   ]
 }
+,
+{ 
+"Id" : "ppDecisionsAriseFrom",
+"DefaultImage" : "themes/emoticons/small/000073674269.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You decisions arise from"},
+  {"Language":"fr-FR","Label":"Vos décisions sont guidées par"},
+  {"Language":"es-ES","Label":"Sus decisiones están guiadas por"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Feelings",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"your values and feelings"},
+      {"Language":"fr-FR","Label":"vos valeurs, vos sentiments"},
+      {"Language":"es-ES","Label":"sus valores, sus sentimientos"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Thinking",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"rational thinking"},
+      {"Language":"fr-FR","Label":"aux faits, à la réalité"},
+      {"Language":"es-ES","Label":"razonamientos lógicos"}
+      ]
+    }
+  ]
+}
+
 
 ]
 }
