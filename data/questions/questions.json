@@ -6,8 +6,8 @@
 "DefaultImage" : "themes/emoticons/small/000018292730.jpg",
 "Question":
   [
-  {"Language":"fr-FR","Label":"Vous avez plus d'énergie après avoir été"},
   {"Language":"en-EN","Label":"You feel more energetic after"},
+  {"Language":"fr-FR","Label":"Vous avez plus d'énergie après avoir été"},
   {"Language":"es-ES","Label":"Su energía aumenta cuándo ha estado"}
   ],
 "Answers":
@@ -16,8 +16,8 @@
   "Id" : "WithPeople",
   "Labels":
     [
-    {"Language":"fr-FR","Label":"avec d'autres personnes"},
     {"Language":"en-EN","Label":"being with people"},
+    {"Language":"fr-FR","Label":"avec d'autres personnes"},
     {"Language":"es-ES","Label":"con otras personas"}
     ]
   }
@@ -26,8 +26,8 @@
   "Id" : "OnYourOwn",
   "Labels":
     [
-    {"Language":"fr-FR","Label":"avec vous-même"},
     {"Language":"en-EN","Label":"being with people"},
+    {"Language":"fr-FR","Label":"avec vous-même"},
     {"Language":"es-ES","Label":"being alone"}
     ]
   }
@@ -39,8 +39,8 @@
 "DefaultImage" : "themes/emoticons/small/000015195705.jpg",
 "Question":
   [
-  {"Language":"fr-FR","Label":"Vous êtes plus réceptif"},
   {"Language":"en-EN","Label":"You are more receptive to"},
+  {"Language":"fr-FR","Label":"Vous êtes plus réceptif"},
   {"Language":"es-ES","Label":"Usted es más receptivo a"}
   ],
 "Answers":
@@ -49,8 +49,8 @@
     "Id" : "Ideas",
     "Labels":
       [
-      {"Language":"fr-FR","Label":"aux théories, aux possibilités"},
       {"Language":"en-EN","Label":"theories and possibilities"},
+      {"Language":"fr-FR","Label":"aux théories, aux possibilités"},
       {"Language":"es-ES","Label":"las teorías, las posibilidades"}
       ]
      }
@@ -59,8 +59,8 @@
     "Id" : "Facts",
     "Labels":
       [
-      {"Language":"fr-FR","Label":"aux faits, à la réalité"},
       {"Language":"en-EN","Label":"facts and reality"},
+      {"Language":"fr-FR","Label":"aux faits, à la réalité"},
       {"Language":"es-ES","Label":"los hechos, la realidad"}
       ]
     }
