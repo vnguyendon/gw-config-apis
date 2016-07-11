@@ -165,7 +165,39 @@
     }
   ]
 }
-
+,
+{ 
+"Id" : "ppPreferGoals",
+"DefaultImage" : "themes/emoticons/small/000018386450.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You prefer goals that are"},
+  {"Language":"fr-FR","Label":"Vous préférez les objectifs"},
+  {"Language":"es-ES","Label":"Prefiere objetivos que sean"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Flexible",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"flexible, evolving"},
+      {"Language":"fr-FR","Label":"flexibles, évolutifs"},
+      {"Language":"es-ES","Label":"flexibles"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Structured",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"structured, well defined"},
+      {"Language":"fr-FR","Label":"structurés, bien définis"},
+      {"Language":"es-ES","Label":"bien organizados"}
+      ]
+    }
+  ]
+}
 
 
 ]
