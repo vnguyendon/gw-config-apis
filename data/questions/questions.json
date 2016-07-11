@@ -99,7 +99,39 @@
     }
   ]
 }
-
+,
+{ 
+"Id" : "ppOpenedOrSettled",
+"DefaultImage" : "themes/emoticons/small/000016089832.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You feel better when things are"},
+  {"Language":"fr-FR","Label":"Vous préférez que les choses soient"},
+  {"Language":"es-ES","Label":"Usted prefiere que las cosas sean"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Settled",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"settled, decided"},
+      {"Language":"fr-FR","Label":"tranchées, décidées"},
+      {"Language":"es-ES","Label":"cortadas, decididas"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Opened",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"interpretable, evolving"},
+      {"Language":"fr-FR","Label":"interprétables, évolutives"},
+      {"Language":"es-ES","Label":"interpretables, evolutivas"}
+      ]
+    }
+  ]
+}
 
 ]
 }
