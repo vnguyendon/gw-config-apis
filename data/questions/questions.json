@@ -26,9 +26,9 @@
   "Id" : "OnYourOwn",
   "Labels":
     [
-    {"Language":"en-EN","Label":"being with people"},
+    {"Language":"en-EN","Label":"being on your own"},
     {"Language":"fr-FR","Label":"avec vous-même"},
-    {"Language":"es-ES","Label":"being alone"}
+    {"Language":"es-ES","Label":"con usted mismo"}
     ]
   }
  ]
