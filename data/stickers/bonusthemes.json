@@ -154,5 +154,16 @@
   {"Language":"es-ES","Label":"Emoji vainilla"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji soleil"},
+  {"Language":"en-EN","Label":"Emoji sun"},
+  {"Language":"es-ES","Label":"Emoji sol"}
+  ]
+}
 ]
 }
