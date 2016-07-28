@@ -99,5 +99,16 @@
   {"Language":"es-ES","Label":"Fútbol"}
   ]
 }
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+}
 ]
 }
