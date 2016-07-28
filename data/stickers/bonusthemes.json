@@ -149,9 +149,9 @@
 "DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji vanille"},
-  {"Language":"en-EN","Label":"Emoji vanilla"},
-  {"Language":"es-ES","Label":"Emoji vainilla"}
+  {"Language":"fr-FR","Label":"Emoji Vanille"},
+  {"Language":"en-EN","Label":"Emoji Vanilla"},
+  {"Language":"es-ES","Label":"Emoji Vainilla"}
   ]
 }
 ,
@@ -160,9 +160,9 @@
 "DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji soleil"},
-  {"Language":"en-EN","Label":"Emoji sun"},
-  {"Language":"es-ES","Label":"Emoji sol"}
+  {"Language":"fr-FR","Label":"Emoji Soleil"},
+  {"Language":"en-EN","Label":"Emoji Sun"},
+  {"Language":"es-ES","Label":"Emoji Sol"}
   ]
 }
 ]
