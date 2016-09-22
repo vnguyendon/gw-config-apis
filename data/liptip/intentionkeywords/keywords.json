@@ -1,0 +1,46 @@
+{
+"IntentionIds":
+[
+  { 
+  "IntentionId": "2E2986",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["status", "facebook status"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["statut","statuts", "statut facebook", "statuts facebook"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["estados de facebook","estados"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "5CDCF2",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["love","I love you"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["amour","je t'aime","je l'aime"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["amor","te amo"]
+      }
+    ]
+  }
+]
+}
