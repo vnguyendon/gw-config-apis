@@ -1,0 +1,358 @@
+[
+  { 
+  "IntentionId": "2E2986",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["status", "facebook status","facebook"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["statut","statuts", "statut facebook", "statuts facebook","facebook"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["estados de facebook","estados"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "5CDCF2",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["love","I love you"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["amour","je t'aime","je l'aime"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["amor","te amo"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "451563",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["sad","I'm sad","I am sad"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["triste","je suis triste"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["triste","estoy triste"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "9B2C8B",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["late","I'm late","I am late"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["retard","je suis en retard"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["tarde","Voy tarde"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "A730B4",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["birthday","happy birthday"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["anniversaire","bon anniversaire","joyeux anniversaire"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["cumpleanos","feliz cumpleanos"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "1778B7",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["thanks","thank you"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["merci"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["gracias"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "8FB4AF",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["praise","best","wow"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["waouh","waou"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["wow"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "0ECC82",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["grr","jibe","taunt","insult","creep","thrust"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["grr","moquerie"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["pulla","escarmio","dicterio","grr"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "8ED62C",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["miss","miss you","I miss you"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["manque","manques","tu me manques"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["me haces falta","haces falta","falta","haces"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "D392C1",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["good night","night"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["bonne nuit","nuit"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["buenas noches","noches"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "030FD0",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["good morning","morning"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["bonjour"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["buenos días","días"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "0B1EA1",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["joke","humour","humor"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["blague","humour"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["humor","broma"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "64B504",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["I like you","like"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["Tu me plais","plaire","agathe","jolie julie"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["me gustas","gusta"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "916FFC",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["let's have a drink","drink"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["prenons un verre","verre","boire"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["vamos a tomar algo","tomar","algo","vidrio","bebida"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "F4566D",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["I want you"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["j'ai envie de toi"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["te deseo"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "938493",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["happy new year","new year"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["bonne année","nouvelle année"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["feliz ano","ano"]
+      }
+    ]
+  }
+  ,
+  { 
+  "IntentionId": "EEDAC3",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["have a nice trip","trip"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["bon voyage","voyage"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["buen viaje","viaje"]
+      }
+    ]
+  }
+]
