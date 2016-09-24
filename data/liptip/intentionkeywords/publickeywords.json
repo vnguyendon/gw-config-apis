@@ -1,0 +1,16 @@
+[
+    {
+        "Language": "en-EN",
+        "Keywords": ["love", "sad", "late", "status", "birthday", "thanks", "thank you", "wow", "creep", "miss you", "good night", "good morning", "joke", "like", "drink"]
+    }
+    ,
+    {
+        "Language": "fr-FR",
+        "Keywords": ["amour", "triste", "retard", "statut", "anniversaire", "merci", "waouh", "grr", "manque", "bonne nuit", "bonjour", "humour", "plaire", "verre"]
+    }
+    ,
+    {
+        "Language": "es-ES",
+        "Keywords": ["amor", "triste", "tarde", "estados", "cumpleaños", "gracias", "wow", "pulla", "me haces falta", "buenas noches", "buenos días", "broma", "gusta", "bebida"]
+    }
+]
