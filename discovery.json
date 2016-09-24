@@ -1,0 +1,8 @@
+{
+  "bot": {
+    "intentionkeywords":"/bot/intentionkeywords/keywords.json"
+  },
+  "recipients": {
+    "relationTypes": "recipients/RelationTypes.json"
+  }
+}
