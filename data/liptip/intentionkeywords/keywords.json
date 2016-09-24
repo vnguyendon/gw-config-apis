@@ -10,7 +10,7 @@
       ,
       {
       "Language" : "fr-FR",
-      "Keywords" : ["statut","statuts", "statut facebook", "statuts facebook"]
+      "Keywords" : ["statut","statuts", "statut facebook", "statuts facebook","facebook"]
       }
       ,
       {
@@ -241,7 +241,7 @@
       ,
       {
       "Language" : "fr-FR",
-      "Keywords" : ["blague"]
+      "Keywords" : ["blague","humour"]
       }
       ,
       {
@@ -288,7 +288,7 @@
       ,
       {
       "Language" : "es-ES",
-      "Keywords" : ["vamos a tomar algo","tomar","algo"]
+      "Keywords" : ["vamos a tomar algo","tomar","algo","vidrio","bebida"]
       }
     ]
   }
