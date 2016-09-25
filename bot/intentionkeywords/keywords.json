@@ -355,4 +355,25 @@
       }
     ]
   }
+  ,
+  { 
+  "IntentionId": "D1A4ED",
+  "Languages" :
+    [
+      {
+      "Language" : "en-EN",
+      "Keywords" : ["who are you","who are you?","who","who?"]
+      }
+      ,
+      {
+      "Language" : "fr-FR",
+      "Keywords" : ["qui es tu","qui es-tu","qui es-tu?"]
+      }
+      ,
+      {
+      "Language" : "es-ES",
+      "Keywords" : ["quién eres tú","¿quién eres tú?"]
+      }
+    ]
+  }  
 ]
