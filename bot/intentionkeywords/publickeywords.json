@@ -1,16 +1,16 @@
 [
     {
         "Language": "en-EN",
-        "Keywords": ["who are you","love", "sad", "late", "status", "birthday", "thanks", "thank you", "wow", "creep", "miss you", "good night", "good morning", "joke", "like", "drink"]
+        "Keywords": ["who are you","love", "sad", "late", "status", "birthday", "thank you", "miss you", "good night", "good morning", "joke", "like", "drink", "wow", "creep"]
     }
     ,
     {
         "Language": "fr-FR",
-        "Keywords": ["qui es-tu","amour", "triste", "retard", "statut", "anniversaire", "merci", "waouh", "grr", "manque", "bonne nuit", "bonjour", "humour", "plaire", "verre"]
+        "Keywords": ["qui es-tu","amour", "triste", "retard", "statut", "anniversaire", "merci", "manque", "bonne nuit", "bonjour", "humour", "plaire", "verre", "waouh", "grr"]
     }
     ,
     {
         "Language": "es-ES",
-        "Keywords": ["quién eres tú","amor", "triste", "tarde", "estados", "cumpleaños", "gracias", "wow", "pulla", "me haces falta", "buenas noches", "buenos días", "broma", "gusta", "bebida"]
+        "Keywords": ["quién eres tú","amor", "triste", "tarde", "estados", "cumpleaños", "gracias", "me haces falta", "buenas noches", "buenos días", "broma", "gusta", "bebida", "wow", "pulla"]
     }
 ]
