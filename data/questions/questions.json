@@ -72,7 +72,7 @@
 "DefaultImage" : "themes/emoticons/small/000073674269.jpg",
 "Question":
   [
-  {"Language":"en-EN","Label":"You decisions arise from"},
+  {"Language":"en-EN","Label":"Your decisions arise from"},
   {"Language":"fr-FR","Label":"Vos décisions sont guidées par"},
   {"Language":"es-ES","Label":"Sus decisiones están guiadas por"}
   ],
