@@ -13,17 +13,6 @@
 }
 ,
 { 
-"Path" : "themes/horses",
-"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Chevaux"},
-  {"Language":"en-EN","Label":"Horses"},
-  {"Language":"es-ES","Label":"Caballos"}
-  ]
-}
-,
-{ 
 "Path" : "themes/emojiLions",
 "DefaultImage" : "themes/emojiLions/small/shutterstock_402952978_14.jpg",
 "Labels":
