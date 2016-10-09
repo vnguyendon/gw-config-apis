@@ -90,15 +90,15 @@
 }
 ,
 { 
-"Path" : "themes/pairs",
-"DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Paires"},
-  {"Language":"en-EN","Label":"Pairs"},
-  {"Language":"es-ES","Label":"Pares"}
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
   ]
-}
+} 
 ,
 { 
 "Path" : "themes/football",
@@ -112,14 +112,14 @@
 }
 ,
 { 
-"Path" : "themes/emoticons3",
-"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Path" : "themes/pairs",
+"DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji II"},
-  {"Language":"en-EN","Label":"Emoji II"},
-  {"Language":"es-ES","Label":"Emoji II"}
+  {"Language":"fr-FR","Label":"Paires"},
+  {"Language":"en-EN","Label":"Pairs"},
+  {"Language":"es-ES","Label":"Pares"}
   ]
-}
+}  
 ]
 }
