@@ -200,6 +200,39 @@
 }
 ,
 { 
+"Id" : "ppJusticeOverPity",
+"DefaultImage" : "themes/emoticons/small/000016009511.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You primarily value"},
+  {"Language":"fr-FR","Label":"Vous donnez plus d'importance à"},
+  {"Language":"es-ES","Label":"Valora principalmente"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Justice",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"justice"},
+      {"Language":"fr-FR","Label":"la justice"},
+      {"Language":"es-ES","Label":"la justicia"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Pity",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"mercy"},
+      {"Language":"fr-FR","Label":"la pitié"},
+      {"Language":"es-ES","Label":"la compasión"}
+      ]
+    }
+  ]
+}  
+,
+{ 
 "Id" : "ppPreferBooksToParties",
 "DefaultImage" : "canonical/11703101_735140276597245_1438742967970096196_n.jpg",
 "Question":
