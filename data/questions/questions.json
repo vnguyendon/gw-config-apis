@@ -230,7 +230,40 @@
       ]
     }
   ]
-}  
+}
+,
+{ 
+"Id" : "ppImportantQuality",
+"DefaultImage" : "themes/emoticons/small/000022011350.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"The most important quality of friends"},
+  {"Language":"fr-FR","Label":"La qualité la plus importante d'un ami"},
+  {"Language":"es-ES","Label":"La cualidad más importante de un amigo"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "Curious",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"being curious"},
+      {"Language":"fr-FR","Label":"être curieux"},
+      {"Language":"es-ES","Label":"curiosidad"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Positive",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"being positive"},
+      {"Language":"fr-FR","Label":"être positif"},
+      {"Language":"es-ES","Label":"optimismo"}
+      ]
+    }
+  ]
+}   
 ,
 { 
 "Id" : "ppPreferBooksToParties",
