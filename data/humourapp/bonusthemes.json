@@ -1,0 +1,125 @@
+{
+"Themes":
+[
+{ 
+"Path" : "themes/emojiLions",
+"DefaultImage" : "themes/emojiLions/small/shutterstock_402952978_14.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Lions"},
+  {"Language":"en-EN","Label":"Emoji Lions"},
+  {"Language":"es-ES","Label":"Emoji Leones"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiBears",
+"DefaultImage" : "themes/emojiBears/small/shutterstock_417336076_17.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Ours"},
+  {"Language":"en-EN","Label":"Emoji Bears"},
+  {"Language":"es-ES","Label":"Emoji Osos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiKittens",
+"DefaultImage" : "themes/emojiKittens/small/shutterstock_397906726_12.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chatons"},
+  {"Language":"en-EN","Label":"Emoji Kittens"},
+  {"Language":"es-ES","Label":"Emoji Gatitos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiOwls",
+"DefaultImage" : "themes/emojiOwls/small/shutterstock_386688127_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chouettes"},
+  {"Language":"en-EN","Label":"Emoji Owls"},
+  {"Language":"es-ES","Label":"Emoji Búhos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiPandas",
+"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pandas"},
+  {"Language":"en-EN","Label":"Emoji Pandas"},
+  {"Language":"es-ES","Label":"Emoji Pandas"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiRabbits",
+"DefaultImage" : "themes/emojiRabbits/small/shutterstock_431193436_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Lapins"},
+  {"Language":"en-EN","Label":"Emoji Rabbits"},
+  {"Language":"es-ES","Label":"Emoji Conejos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiRaccoons",
+"DefaultImage" : "themes/emojiRaccoons/small/shutterstock_416608975_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Ratons"},
+  {"Language":"en-EN","Label":"Emoji Raccoons"},
+  {"Language":"es-ES","Label":"Emoji Mapaches"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiTigers",
+"DefaultImage" : "themes/emojiTigers/small/shutterstock_399642061_13.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Tigres"},
+  {"Language":"en-EN","Label":"Emoji Tigers"},
+  {"Language":"es-ES","Label":"Emoji Tigres"}
+  ]
+}
+,
+{ 
+"Path" : "themes/penguins",
+"DefaultImage" : "themes/penguins/small/shutterstock_326065541_2.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Pinguoins"},
+  {"Language":"en-EN","Label":"Penguins"},
+  {"Language":"es-ES","Label":"Pingüinos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/holidays",
+"DefaultImage" : "themes/holidays/small/shutterstock_258312176_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Vacances"},
+  {"Language":"en-EN","Label":"Holidays"},
+  {"Language":"es-ES","Label":"Vacaciones"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiVanilla",
+"DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Vanille"},
+  {"Language":"en-EN","Label":"Emoji Vanilla"},
+  {"Language":"es-ES","Label":"Emoji Vainilla"}
+  ]
+}
+]
+}
