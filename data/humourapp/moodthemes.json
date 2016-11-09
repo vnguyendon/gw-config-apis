@@ -2,6 +2,29 @@
 "Themes":
 [
 { 
+"Path" : "themes/emoticons",
+"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji"},
+  {"Language":"en-EN","Label":"Emoji"},
+  {"Language":"es-ES","Label":"Emoji"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+} 
+  
+,
+{ 
 "Path" : "themes/kittens",
 "DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
 "Labels":
@@ -24,17 +47,6 @@
 }
 ,
 { 
-"Path" : "themes/horses",
-"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Chevaux"},
-  {"Language":"en-EN","Label":"Horses"},
-  {"Language":"es-ES","Label":"Caballos"}
-  ]
-}
-,
-{ 
 "Path" : "themes/flowers",
 "DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
 "Labels":
@@ -44,6 +56,17 @@
   {"Language":"es-ES","Label":"Flores"}
   ]
 }
+,
+{ 
+"Path" : "themes/horses",
+"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chevaux"},
+  {"Language":"en-EN","Label":"Horses"},
+  {"Language":"es-ES","Label":"Caballos"}
+  ]
+}  
 ,
 { 
 "Path" : "themes/animals",
@@ -68,13 +91,24 @@
 }
 ,
 { 
-"Path" : "themes/emoticons",
-"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"Path" : "themes/strange",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji"},
-  {"Language":"en-EN","Label":"Emoji"},
-  {"Language":"es-ES","Label":"Emoji"}
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
+  ]
+}
+,
+{ 
+"Path" : "themes/football",
+"DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Football"},
+  {"Language":"en-EN","Label":"Football"},
+  {"Language":"es-ES","Label":"Fútbol"}
   ]
 }
 ,
@@ -87,6 +121,6 @@
   {"Language":"en-EN","Label":"Pairs"},
   {"Language":"es-ES","Label":"Pares"}
   ]
-}
+}  
 ]
 }
