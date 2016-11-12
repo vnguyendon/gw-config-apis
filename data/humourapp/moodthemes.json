@@ -33,50 +33,6 @@
   {"Language":"es-ES","Label":"Emojis 3D"}
   ]
 }
-,
-{ 
-"Path" : "themes/emojiSun",
-"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Soleil"},
-  {"Language":"en-EN","Label":"Emoji Sun"},
-  {"Language":"es-ES","Label":"Emoji Sol"}
-  ]
-}  
-,
-{ 
-"Path" : "themes/emojiPuppies",
-"DefaultImage" : "themes/emojiPuppies/small/shutterstock_398942398_16.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Chiens"},
-  {"Language":"en-EN","Label":"Emoji Puppies"},
-  {"Language":"es-ES","Label":"Emoji Perros"}
-  ]
-}
-, 
-{ 
-"Path" : "themes/strange",
-"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Etrange"},
-  {"Language":"en-EN","Label":"Weird"},
-  {"Language":"es-ES","Label":"Extraño"}
-  ]
-}
-, 
-{ 
-"Path" : "themes/emojiPandas",
-"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Pandas"},
-  {"Language":"en-EN","Label":"Emoji Pandas"},
-  {"Language":"es-ES","Label":"Emoji Pandas"}
-  ]
-}
 ,  
 { 
 "Path" : "themes/kittens",
@@ -110,6 +66,17 @@
   {"Language":"es-ES","Label":"Flores"}
   ]
 }
+, 
+{ 
+"Path" : "themes/emojiPandas",
+"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pandas"},
+  {"Language":"en-EN","Label":"Emoji Pandas"},
+  {"Language":"es-ES","Label":"Emoji Pandas"}
+  ]
+}
 ,
 { 
 "Path" : "themes/horses",
@@ -141,6 +108,39 @@
   {"Language":"fr-FR","Label":"Nature"},
   {"Language":"en-EN","Label":"Nature"},
   {"Language":"es-ES","Label":"Naturaleza"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Soleil"},
+  {"Language":"en-EN","Label":"Emoji Sun"},
+  {"Language":"es-ES","Label":"Emoji Sol"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/emojiPuppies",
+"DefaultImage" : "themes/emojiPuppies/small/shutterstock_398942398_16.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chiens"},
+  {"Language":"en-EN","Label":"Emoji Puppies"},
+  {"Language":"es-ES","Label":"Emoji Perros"}
+  ]
+}
+, 
+{ 
+"Path" : "themes/strange",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
   ]
 }
 ,
