@@ -121,17 +121,6 @@
   {"Language":"es-ES","Label":"Emoji Sol"}
   ]
 }  
-,
-{ 
-"Path" : "themes/emojiPuppies",
-"DefaultImage" : "themes/emojiPuppies/small/shutterstock_398942398_16.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Chiens"},
-  {"Language":"en-EN","Label":"Emoji Puppies"},
-  {"Language":"es-ES","Label":"Emoji Perros"}
-  ]
-}
 , 
 { 
 "Path" : "themes/strange",
