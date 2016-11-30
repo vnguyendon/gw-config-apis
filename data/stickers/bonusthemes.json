@@ -6,9 +6,9 @@
 "DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emojis 3D"},
-  {"Language":"en-EN","Label":"Emojis 3D"},
-  {"Language":"es-ES","Label":"Emojis 3D"}
+  {"Language":"fr-FR","Label":"Emoji 3D"},
+  {"Language":"en-EN","Label":"Emoji 3D"},
+  {"Language":"es-ES","Label":"Emoji 3D"}
   ]
 }
 ,
@@ -154,5 +154,61 @@
   {"Language":"es-ES","Label":"Emoji Sol"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Girlie"},
+  {"Language":"en-EN","Label":"Emoji Girlie"},
+  {"Language":"es-ES","Label":"Emoji Girlie"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiHandDrawn",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_391162699_7.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Peints"},
+  {"Language":"en-EN","Label":"Emoji HandDrawn"},
+  {"Language":"es-ES","Label":"Emoji Pintado"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons4",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_404046766_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji IV"},
+  {"Language":"en-EN","Label":"Emoji IV"},
+  {"Language":"es-ES","Label":"Emoji IV"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons5",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_387300097_14.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji V"},
+  {"Language":"en-EN","Label":"Emoji V"},
+  {"Language":"es-ES","Label":"Emoji V"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons6",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_429136261_73.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji VI"},
+  {"Language":"en-EN","Label":"Emoji VI"},
+  {"Language":"es-ES","Label":"Emoji VI"}
+  ]
+}
+  
 ]
 }
