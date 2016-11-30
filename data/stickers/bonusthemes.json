@@ -209,6 +209,95 @@
   {"Language":"es-ES","Label":"Emoji VI"}
   ]
 }
+,
+{ 
+"Path" : "themes/emoticons7",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_461742151_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji VII"},
+  {"Language":"en-EN","Label":"Emoji VII"},
+  {"Language":"es-ES","Label":"Emoji VII"}
+  ]
+}  
+
+,
+{ 
+"Path" : "themes/emojiNeon",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_396851035_21.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Néon"},
+  {"Language":"en-EN","Label":"Emoji Neon"},
+  {"Language":"es-ES","Label":"Emoji Neón"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiBlue",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_419416588_11.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Bleu"},
+  {"Language":"en-EN","Label":"Emoji Blue"},
+  {"Language":"es-ES","Label":"Emoji Azul"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiCats",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_429770818_4.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chats"},
+  {"Language":"en-EN","Label":"Emoji Cats"},
+  {"Language":"es-ES","Label":"Emoji Gatos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiBubble",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_443842231_blue_29.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Bulle"},
+  {"Language":"en-EN","Label":"Emoji Bubble"},
+  {"Language":"es-ES","Label":"Emoji Burbuja"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiNonsense",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Non-sens"},
+  {"Language":"en-EN","Label":"Emoji Nonsense"},
+  {"Language":"es-ES","Label":"Emoji Disparates"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiPastel",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_384708250_31.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pastel"},
+  {"Language":"en-EN","Label":"Emoji Pastel"},
+  {"Language":"es-ES","Label":"Emoji Pastel"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiVarious",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Variés"},
+  {"Language":"en-EN","Label":"Emoji Various"},
+  {"Language":"es-ES","Label":"Emoji Vario"}
+  ]
+} 
   
 ]
 }
