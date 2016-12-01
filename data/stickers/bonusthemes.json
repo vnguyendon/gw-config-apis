@@ -267,17 +267,6 @@
 }
 ,
 { 
-"Path" : "themes/emojiNonsense",
-"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Non-sens"},
-  {"Language":"en-EN","Label":"Emoji Nonsense"},
-  {"Language":"es-ES","Label":"Emoji Disparates"}
-  ]
-}
-,
-{ 
 "Path" : "themes/emojiPastel",
 "DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_384708250_31.jpg",
 "Labels":
