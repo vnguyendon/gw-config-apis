@@ -1,0 +1,125 @@
+{
+"Themes":
+[
+{ 
+"Path" : "themes/kittens",
+"DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chatons"},
+  {"Language":"en-EN","Label":"Kittens"},
+  {"Language":"es-ES","Label":"Gatitos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/puppies",
+"DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chiens"},
+  {"Language":"en-EN","Label":"Puppies"},
+  {"Language":"es-ES","Label":"Cachorros"}
+  ]
+}
+,
+{ 
+"Path" : "themes/flowers",
+"DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Fleurs"},
+  {"Language":"en-EN","Label":"Flowers"},
+  {"Language":"es-ES","Label":"Flores"}
+  ]
+}
+,
+{ 
+"Path" : "themes/horses",
+"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chevaux"},
+  {"Language":"en-EN","Label":"Horses"},
+  {"Language":"es-ES","Label":"Caballos"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/animals",
+"DefaultImage" : "themes/animals/small/iStock_000015359145_Large.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Animaux"},
+  {"Language":"en-EN","Label":"Animals"},
+  {"Language":"es-ES","Label":"Animales"}
+  ]
+}
+,
+{ 
+"Path" : "themes/nature",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Naturaleza"}
+  ]
+}
+,
+{ 
+"Path" : "themes/strange",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+} 
+,
+{ 
+"Path" : "themes/emojiNonsense",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Non-sens"},
+  {"Language":"en-EN","Label":"Emoji Nonsense"},
+  {"Language":"es-ES","Label":"Emoji Disparates"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/football",
+"DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Football"},
+  {"Language":"en-EN","Label":"Football"},
+  {"Language":"es-ES","Label":"Fútbol"}
+  ]
+}
+,
+{ 
+"Path" : "themes/pairs",
+"DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Paires"},
+  {"Language":"en-EN","Label":"Pairs"},
+  {"Language":"es-ES","Label":"Pares"}
+  ]
+}  
+]
+}
