@@ -1,0 +1,70 @@
+{
+"Themes":
+[
+{ 
+"Path" : "themes/emoticons",
+"DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji"},
+  {"Language":"en-EN","Label":"Emoji"},
+  {"Language":"es-ES","Label":"Emoji"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+} 
+,
+{ 
+"Path" : "themes/emoticons2",
+"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emojis 3D"},
+  {"Language":"en-EN","Label":"Emojis 3D"},
+  {"Language":"es-ES","Label":"Emojis 3D"}
+  ]
+}
+,  
+{ 
+"Path" : "themes/kittens",
+"DefaultImage" : "themes/kittens/small/shutterstock_101654053.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chatons"},
+  {"Language":"en-EN","Label":"Kittens"},
+  {"Language":"es-ES","Label":"Gatitos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/puppies",
+"DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chiens"},
+  {"Language":"en-EN","Label":"Puppies"},
+  {"Language":"es-ES","Label":"Cachorros"}
+  ]
+}
+,
+{ 
+"Path" : "themes/flowers",
+"DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Fleurs"},
+  {"Language":"en-EN","Label":"Flowers"},
+  {"Language":"es-ES","Label":"Flores"}
+  ]
+}
+]
+}
