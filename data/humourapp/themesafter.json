@@ -1,0 +1,92 @@
+{
+"Themes":
+[
+{ 
+"Path" : "themes/emojiPandas",
+"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pandas"},
+  {"Language":"en-EN","Label":"Emoji Pandas"},
+  {"Language":"es-ES","Label":"Emoji Pandas"}
+  ]
+}
+,
+{ 
+"Path" : "themes/horses",
+"DefaultImage" : "themes/horses/small/shutterstock_173706239.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Chevaux"},
+  {"Language":"en-EN","Label":"Horses"},
+  {"Language":"es-ES","Label":"Caballos"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/animals",
+"DefaultImage" : "themes/animals/small/iStock_000015359145_Large.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Animaux"},
+  {"Language":"en-EN","Label":"Animals"},
+  {"Language":"es-ES","Label":"Animales"}
+  ]
+}
+,
+{ 
+"Path" : "themes/nature",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Naturaleza"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Soleil"},
+  {"Language":"en-EN","Label":"Emoji Sun"},
+  {"Language":"es-ES","Label":"Emoji Sol"}
+  ]
+}  
+, 
+{ 
+"Path" : "themes/strange",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
+  ]
+}
+,
+{ 
+"Path" : "themes/football",
+"DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Football"},
+  {"Language":"en-EN","Label":"Football"},
+  {"Language":"es-ES","Label":"Fútbol"}
+  ]
+}
+,
+{ 
+"Path" : "themes/pairs",
+"DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Paires"},
+  {"Language":"en-EN","Label":"Pairs"},
+  {"Language":"es-ES","Label":"Pares"}
+  ]
+}  
+]
+}
