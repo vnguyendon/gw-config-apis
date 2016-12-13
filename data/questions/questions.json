@@ -263,7 +263,41 @@
       ]
     }
   ]
-}   
+}
+  
+,
+{ 
+"Id" : "ppAlmostNeverLate",
+"DefaultImage" : "themes/emoticons/small/000025388355.jpg",
+"Question":
+  [
+  {"Language":"en-EN","Label":"You are almost never late for appointments"},
+  {"Language":"fr-FR","Label":"Vous n'êtes presque jamais en retard aux rendez-vous"},
+  {"Language":"es-ES","Label":"Casi nunca llega tarde a sus citas"}
+  ],
+"Answers":
+  [
+    {
+    "Id" : "NeverLate",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"yes"},
+      {"Language":"fr-FR","Label":"oui"},
+      {"Language":"es-ES","Label":"sí"}
+      ]
+     }
+  ,  
+    {
+    "Id" : "Late",
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"no"},
+      {"Language":"fr-FR","Label":"non"},
+      {"Language":"es-ES","Label":"no"}
+      ]
+    }
+  ]
+}    
 ,
 { 
 "Id" : "ppPreferBooksToParties",
