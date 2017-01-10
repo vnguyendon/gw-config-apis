@@ -1,0 +1,5 @@
+[
+  { "actionType":"AdRequested"},
+  { "actionType":"AdError"},
+  { "actionType":"TabSelect"}
+]
