@@ -2,17 +2,6 @@
 "Themes":
 [
 { 
-"Path" : "themes/emoticons2",
-"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji 3D"},
-  {"Language":"en-EN","Label":"Emoji 3D"},
-  {"Language":"es-ES","Label":"Emoji 3D"}
-  ]
-}
-,
-{ 
 "Path" : "themes/emojiLions",
 "DefaultImage" : "themes/emojiLions/small/shutterstock_402952978_14.jpg",
 "Labels":
