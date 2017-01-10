@@ -1,5 +1,6 @@
 [
   { "actionType":"AdRequested"},
   { "actionType":"AdError"},
-  { "actionType":"TabSelect"}
+  { "actionType":"TabSelect"},
+  { "actionType":"SelectTab"}
 ]
