@@ -2,5 +2,7 @@
   { "actionType":"AdRequested"},
   { "actionType":"AdError"},
   { "actionType":"TabSelect"},
+    { "actionType":"NetworkTest"},
+  { "actionType":"BackFromImage"}, 
   { "actionType":"SelectTab"}
 ]
