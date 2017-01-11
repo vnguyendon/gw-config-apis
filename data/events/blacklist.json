@@ -1,5 +1,5 @@
 [
-  { "actionType":"AdRequested", "discard":true},
+  { "actionType":"AdRequested", "discard":false},
   { "actionType":"AdError", "discard":true},
   { "actionType":"TabSelect", "discard":true},
   { "actionType":"NetworkTest", "discard":true},
