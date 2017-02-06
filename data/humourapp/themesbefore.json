@@ -24,15 +24,15 @@
 }
 ,
 { 
-"Path" : "themes/emoticons2",
-"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
+"Path" : "themes/emojiNonsense",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emojis 3D"},
-  {"Language":"en-EN","Label":"Emojis 3D"},
-  {"Language":"es-ES","Label":"Emojis 3D"}
+  {"Language":"fr-FR","Label":"Emoji Non-sens"},
+  {"Language":"en-EN","Label":"Emoji Nonsense"},
+  {"Language":"es-ES","Label":"Emoji Disparates"}
   ]
-}
+}   
 ,
 { 
 "Path" : "themes/puppies",
@@ -46,15 +46,15 @@
 }
 ,
 { 
-"Path" : "themes/emoticons3",
-"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Path" : "themes/emoticons2",
+"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji II"},
-  {"Language":"en-EN","Label":"Emoji II"},
-  {"Language":"es-ES","Label":"Emoji II"}
+  {"Language":"fr-FR","Label":"Emojis 3D"},
+  {"Language":"en-EN","Label":"Emojis 3D"},
+  {"Language":"es-ES","Label":"Emojis 3D"}
   ]
-} 
+}
 ,
 { 
 "Path" : "themes/flowers",
@@ -66,5 +66,39 @@
   {"Language":"es-ES","Label":"Flores"}
   ]
 }
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Soleil"},
+  {"Language":"en-EN","Label":"Emoji Sun"},
+  {"Language":"es-ES","Label":"Emoji Sol"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/nature",
+"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Nature"},
+  {"Language":"en-EN","Label":"Nature"},
+  {"Language":"es-ES","Label":"Naturaleza"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiVanilla",
+"DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Vanille"},
+  {"Language":"en-EN","Label":"Emoji Vanilla"},
+  {"Language":"es-ES","Label":"Emoji Vainilla"}
+  ]
+}  
+  
 ]
 }
