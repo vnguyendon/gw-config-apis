@@ -11,28 +11,6 @@
   {"Language":"es-ES","Label":"Emoji"}
   ]
 }
-,
-{ 
-"Path" : "themes/emoticons3",
-"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji II"},
-  {"Language":"en-EN","Label":"Emoji II"},
-  {"Language":"es-ES","Label":"Emoji II"}
-  ]
-} 
-,
-{ 
-"Path" : "themes/emoticons2",
-"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emojis 3D"},
-  {"Language":"en-EN","Label":"Emojis 3D"},
-  {"Language":"es-ES","Label":"Emojis 3D"}
-  ]
-}
 ,  
 { 
 "Path" : "themes/kittens",
@@ -46,6 +24,17 @@
 }
 ,
 { 
+"Path" : "themes/emoticons2",
+"DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emojis 3D"},
+  {"Language":"en-EN","Label":"Emojis 3D"},
+  {"Language":"es-ES","Label":"Emojis 3D"}
+  ]
+}
+,
+{ 
 "Path" : "themes/puppies",
 "DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
 "Labels":
@@ -55,6 +44,17 @@
   {"Language":"es-ES","Label":"Cachorros"}
   ]
 }
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+} 
 ,
 { 
 "Path" : "themes/flowers",
