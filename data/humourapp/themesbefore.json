@@ -90,6 +90,28 @@
 }
 ,
 { 
+"Path" : "themes/emojiVarious",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Variés"},
+  {"Language":"en-EN","Label":"Emoji Various"},
+  {"Language":"es-ES","Label":"Emoji Vario"}
+  ]
+}  
+,
+{ 
+"Path" : "themes/emojiGirlie",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Girlie"},
+  {"Language":"en-EN","Label":"Emoji Girlie"},
+  {"Language":"es-ES","Label":"Emoji Girlie"}
+  ]
+}  
+,  
+{ 
 "Path" : "themes/emojiVanilla",
 "DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
 "Labels":
@@ -98,7 +120,6 @@
   {"Language":"en-EN","Label":"Emoji Vanilla"},
   {"Language":"es-ES","Label":"Emoji Vainilla"}
   ]
-}  
-  
+}    
 ]
 }
