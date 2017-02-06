@@ -33,28 +33,6 @@
   {"Language":"es-ES","Label":"Animales"}
   ]
 }
-,
-{ 
-"Path" : "themes/nature",
-"DefaultImage" : "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Nature"},
-  {"Language":"en-EN","Label":"Nature"},
-  {"Language":"es-ES","Label":"Naturaleza"}
-  ]
-}
-,
-{ 
-"Path" : "themes/emojiSun",
-"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Soleil"},
-  {"Language":"en-EN","Label":"Emoji Sun"},
-  {"Language":"es-ES","Label":"Emoji Sol"}
-  ]
-}  
 , 
 { 
 "Path" : "themes/strange",
@@ -66,6 +44,19 @@
   {"Language":"es-ES","Label":"Extraño"}
   ]
 }
+,
+{ 
+"Path" : "themes/emoticons3",
+"DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji II"},
+  {"Language":"en-EN","Label":"Emoji II"},
+  {"Language":"es-ES","Label":"Emoji II"}
+  ]
+} 
+
+  
 ,
 { 
 "Path" : "themes/football",
