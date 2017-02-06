@@ -57,17 +57,6 @@
 }
 ,
 { 
-"Path" : "themes/emojiPandas",
-"DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Emoji Pandas"},
-  {"Language":"en-EN","Label":"Emoji Pandas"},
-  {"Language":"es-ES","Label":"Emoji Pandas"}
-  ]
-}
-,
-{ 
 "Path" : "themes/emojiRabbits",
 "DefaultImage" : "themes/emojiRabbits/small/shutterstock_431193436_6.jpg",
 "Labels":
@@ -123,13 +112,113 @@
 }
 ,
 { 
-"Path" : "themes/emojiVanilla",
-"DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+"Path" : "themes/emojiHandDrawn",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_391162699_7.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji Vanille"},
-  {"Language":"en-EN","Label":"Emoji Vanilla"},
-  {"Language":"es-ES","Label":"Emoji Vainilla"}
+  {"Language":"fr-FR","Label":"Emoji Peints"},
+  {"Language":"en-EN","Label":"Emoji HandDrawn"},
+  {"Language":"es-ES","Label":"Emoji Pintado"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons4",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_404046766_3.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji IV"},
+  {"Language":"en-EN","Label":"Emoji IV"},
+  {"Language":"es-ES","Label":"Emoji IV"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons5",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_387300097_14.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji V"},
+  {"Language":"en-EN","Label":"Emoji V"},
+  {"Language":"es-ES","Label":"Emoji V"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons6",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_429136261_73.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji VI"},
+  {"Language":"en-EN","Label":"Emoji VI"},
+  {"Language":"es-ES","Label":"Emoji VI"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emoticons7",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_461742151_8.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji VII"},
+  {"Language":"en-EN","Label":"Emoji VII"},
+  {"Language":"es-ES","Label":"Emoji VII"}
+  ]
+}  
+
+,
+{ 
+"Path" : "themes/emojiNeon",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_396851035_21.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Néon"},
+  {"Language":"en-EN","Label":"Emoji Neon"},
+  {"Language":"es-ES","Label":"Emoji Neón"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiBlue",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_419416588_11.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Bleu"},
+  {"Language":"en-EN","Label":"Emoji Blue"},
+  {"Language":"es-ES","Label":"Emoji Azul"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiCats",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_429770818_4.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Chats"},
+  {"Language":"en-EN","Label":"Emoji Cats"},
+  {"Language":"es-ES","Label":"Emoji Gatos"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiBubble",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_443842231_blue_29.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Bulle"},
+  {"Language":"en-EN","Label":"Emoji Bubble"},
+  {"Language":"es-ES","Label":"Emoji Burbuja"}
+  ]
+}
+,
+{ 
+"Path" : "themes/emojiPastel",
+"DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_384708250_31.jpg",
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Pastel"},
+  {"Language":"en-EN","Label":"Emoji Pastel"},
+  {"Language":"es-ES","Label":"Emoji Pastel"}
   ]
 }
 ]
