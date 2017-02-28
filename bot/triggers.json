@@ -1,0 +1,24 @@
+[
+{
+"EventId": "MorningMessage",
+"Action": "ShowAskHuggyMorningMessage",
+"TriggersRule": "AllTriggersPassed",
+"Active": "Yes",
+"Triggers": [
+{ "TriggerId": "TriggerByTimePeriod", "TriggerType": "TimePeriod", "TimeFrom": 7, "TimeTo": 10 }
+,
+{ "TriggerId": "TriggerByAppResume", "TriggerType": "AppResume" }
+]
+},
+{
+"EventId": "EveningMessage",
+"Action": "ShowAskHuggyEveningMessage",
+"TriggersRule": "AllTriggersPassed",
+"Active": "Yes",
+"Triggers": [
+{ "TriggerId": "TriggerByTimePeriod", "TriggerType": "TimePeriod", "TimeFrom": 21, "TimeTo": 23 }
+,
+{ "TriggerId": "TriggerByAppResume", "TriggerType": "AppResume" }
+]
+}
+]
