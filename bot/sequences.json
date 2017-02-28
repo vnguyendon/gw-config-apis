@@ -1,0 +1,224 @@
+[
+{
+"QuestionId": "WhatDoYouLikeSending",
+"SequenceType": "Question",
+"Label": [
+{ "en": "What do you like sending?" }
+,
+{ "fr": "Qu'aimez-vous envoyer ?" }
+,
+{ "es": "¿Qué te gusta enviar?" }
+],
+"Commands": [
+{ "CommandId": "Kittens", "TargetType": "Theme", "TargetId": "themes/kittens", "Action": "ShowImages" }
+,
+{ "CommandId": "Flowers", "TargetType": "Theme", "TargetId": "themes/flowers", "Action": "ShowImages" }
+,
+{ "CommandId": "Penguins", "TargetType": "Theme", "TargetId": "themes/penguins", "Action": "ShowImages" }
+]
+},
+{
+"QuestionId": "DoYouHaveRegrets",
+"SequenceType": "Question",
+"Label": [
+{ "en": "Do you have regrets?" }
+,
+{ "fr": "Avez-vous des regrets ?" }
+,
+{ "es": "¿Tiene algún remordimiento?" }
+],
+"Commands": [
+{
+"CommandId": "RegretsYes",
+"TargetType": "Intention",
+"TargetId": "03B6E4",
+"TargetDescription": "I-am-here-for-you",
+"Label": [
+{ "en": "Yes" }
+,
+{ "fr": "Oui" }
+,
+{ "es": "Si" }
+],
+"Action": "ShowCardsForUser"
+},
+{
+"CommandId": "RegretsNo",
+"TargetType": "Intention",
+"TargetId": "8FB4AF",
+"TargetDescription": "you-are-the-best",
+"Label": [
+{ "en": "No" }
+,
+{ "fr": "Non" }
+,
+{ "es": "No" }
+],
+"Action": "ShowCardsForUser"
+}
+]
+},
+{
+"QuestionId": "HowAboutMessageSuggestions",
+"SequenceType": "Question",
+"Label": [
+{ "en": "Do you want message suggestions?" }
+,
+{ "fr": "Voulez-vous des idées de messages ?" }
+,
+{ "es": "¿Quieres ideas de mensajes?" }
+],
+"Commands": [
+{ "CommandId": "SuggestionsJoke", "TargetType": "Intention", "TargetId": "0B1EA1", "TargetDescription": "jokes", "Action": "ShowCardsToSend" }
+,
+{ "CommandId": "SuggestionsPoems", "TargetType": "Intention", "TargetId": "43B296", "TargetDescription": "poems", "Action": "ShowCardsToSend" }
+,
+{
+"CommandId": "SuggestionsNo",
+"TargetType": "Custom",
+"Label": [
+{ "en": "No" }
+,
+{ "fr": "Non" }
+,
+{ "es": "No" }
+],
+"Action": "Exit"
+}
+]
+},
+{
+"QuestionId": "WouldYouLikeToFeelZen",
+"SequenceType": "QuestionIntention",
+"Label": [
+{ "en": "A bit of zen?" }
+,
+{ "fr": "Un peu de récomfort ?" }
+,
+{ "es": "¿Un pequeño zen?" }
+],
+"Commands": [
+{
+"CommandId": "ZenYes",
+"TargetType": "Custom",
+"Action": "ShowCommands",
+"Label": [
+{ "en": "Yes" }
+,
+{ "fr": "Oui" }
+,
+{ "es": "Si" }
+],
+"Commands": [
+{ "CommandId": "SuggestionsPoems", "TargetType": "Intention", "TargetId": "43B296", "TargetDescription": "poems", "Action": "ShowCardsToSend" }
+,
+{ "CommandId": "SuggestionsPositiveThoughts", "TargetType": "Intention", "TargetId": "67CC40", "TargetDescription": "positive-thoughts", "Action": "ShowCardsToSend" }
+,
+{ "CommandId": "SuggestionsNature", "TargetType": "Theme", "TargetId": "themes/nature", "Action": "ShowImages" }
+]
+},
+{
+"CommandId": "ZenNo",
+"TargetType": "Custom",
+"Action": "ShowCommands",
+"Label": [
+{ "en": "No" }
+,
+{ "fr": "Non" }
+,
+{ "es": "No" }
+],
+"Commands": [
+{ "CommandId": "ZenStopWorld", "TargetType": "Intention", "TargetId": "451563", "TargetDescription": "stop-the-world", "Action": "ShowCardsToSend" }
+,
+{ "CommandId": "ZenIAmHereForYou", "TargetType": "Intention", "TargetId": "03B6E4", "TargetDescription": "I-am-here-for-you", "Action": "ShowCardsToSend" }
+]
+}
+]
+},
+{
+"QuestionId": "PleaseTalkToMe",
+"SequenceType": "FreeText",
+"Label": [
+{ "en": "Please tell me something!" }
+,
+{ "fr": "Dites-moi quelque chose svp !" }
+,
+{ "es": "Por favor, dime algo" }
+]
+},
+{
+"QuestionId": "SeeAnAdvert",
+"SequenceType": "QuestionCustom",
+"Label": [
+{ "en": "Would you like to see an advert?" }
+,
+{ "fr": "Voulez-vous voir une pub ?" }
+,
+{ "es": "¿Te gustaría ver un anuncio?" }
+],
+"Commands": [
+{
+"CommandId": "AdvertYes",
+"TargetType": "Custom",
+"Label": [
+{ "en": "Yes" }
+,
+{ "fr": "Oui" }
+,
+{ "es": "Si" }
+],
+"Action": "ShowAdvert"
+},
+{
+"CommandId": "AdvertNo",
+"TargetType": "Custom",
+"Label": [
+{ "en": "No" }
+,
+{ "fr": "Non" }
+,
+{ "es": "No" }
+],
+"Action": "Exit"
+}
+]
+},
+{
+"QuestionId": "CreateAnimatedEmoji",
+"SequenceType": "QuestionCustom",
+"Label": [
+{ "en": "Would you like to created an animated emoji?" }
+,
+{ "fr": "Voulez-vous créer un emoji animé ?" }
+,
+{ "es": "¿Te gustaría crear un emoji animado?" }
+],
+"Commands": [
+{
+"CommandId": "AnimatedEmojiYes",
+"TargetType": "Custom",
+"Label": [
+{ "en": "Yes" }
+,
+{ "fr": "Oui" }
+,
+{ "es": "Si" }
+],
+"Action": "CreateAnimatedEmoji"
+},
+{
+"CommandId": "AnimatedEmojiNo",
+"TargetType": "Custom",
+"Label": [
+{ "en": "No" }
+,
+{ "fr": "Non" }
+,
+{ "es": "No" }
+],
+"Action": "Exit"
+}
+]
+}
+]
