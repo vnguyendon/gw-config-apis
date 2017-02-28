@@ -3,7 +3,7 @@
 "EventId": "MorningMessage",
 "Action": "ShowAskHuggyMorningMessage",
 "TriggersRule": "AllTriggersPassed",
-"Active": "Yes",
+"Active": "true",
 "Triggers": [
 { "TriggerId": "TriggerByTimePeriod", "TriggerType": "TimePeriod", "TimeFrom": 7, "TimeTo": 10 }
 ,
@@ -14,7 +14,7 @@
 "EventId": "EveningMessage",
 "Action": "ShowAskHuggyEveningMessage",
 "TriggersRule": "AllTriggersPassed",
-"Active": "Yes",
+"Active": "true",
 "Triggers": [
 { "TriggerId": "TriggerByTimePeriod", "TriggerType": "TimePeriod", "TimeFrom": 21, "TimeTo": 23 }
 ,
