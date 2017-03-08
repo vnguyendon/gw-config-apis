@@ -91,7 +91,7 @@
 "QuestionId": "WouldYouLikeToFeelZen",
 "SequenceType": "QuestionIntention",
 "Label": [
-{ "en": "A bit of zen?" }
+{ "en": "A little comfort?" }
 ,
 { "fr": "Un peu de récomfort ?" }
 ,
