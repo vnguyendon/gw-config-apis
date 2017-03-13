@@ -142,7 +142,7 @@
 "Label": [
 { "en": "Please tell me something!" }
 ,
-{ "fr": "Dites-moi quelque chose svp !" }
+{ "fr": "Dis-moi quelque chose stp !" }
 ,
 { "es": "Por favor, dime algo" }
 ]
@@ -151,9 +151,9 @@
 "QuestionId": "SeeAnAdvert",
 "SequenceType": "QuestionCustom",
 "Label": [
-{ "en": "Would you like to see an advert?" }
+{ "en": "Can I please show you an advert?" }
 ,
-{ "fr": "Voulez-vous voir une pub ?" }
+{ "fr": "Puis-je te montrer une pub ?" }
 ,
 { "es": "¿Te gustaría ver un anuncio?" }
 ],
