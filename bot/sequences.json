@@ -1,4 +1,52 @@
 [
+  {
+    "QuestionId": "AreYouSingle",
+    "SequenceType": "Question",
+    "TopPriority": "true",
+    "Label": [
+      {
+        "en": "Are you single?"
+      },
+      {
+        "fr": "Êtes-vous célibataire ?"
+      },
+      {
+        "es": "¿Estas soltero?"
+      }
+    ],
+    "Commands": [
+      {
+        "CommandId": "SingleYes",
+        "Action": "EnableSingleMode",
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
+        ]
+      },
+      {
+        "CommandId": "SingleNo",
+        "Action": "DisableSingleMode",
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ]
+      }
+    ]
+  },
 {
 "QuestionId": "WhatDoYouLikeSending",
 "SequenceType": "Question",
