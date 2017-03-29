@@ -8,7 +8,7 @@
         "en": "Are you single?"
       },
       {
-        "fr": "Êtes-vous célibataire ?"
+        "fr": "Es-tu célibataire ?"
       },
       {
         "es": "¿Estas soltero?"
@@ -112,7 +112,7 @@
 "Label": [
 { "en": "Do you want message suggestions?" }
 ,
-{ "fr": "Voulez-vous des idées de messages ?" }
+{ "fr": "Quelques idées de messages ?" }
 ,
 { "es": "¿Quieres ideas de mensajes?" }
 ],
@@ -238,7 +238,7 @@
 "Label": [
 { "en": "Would you like to created an animated emoji?" }
 ,
-{ "fr": "Voulez-vous créer un emoji animé ?" }
+{ "fr": "Veux-tu créer un emoji animé ?" }
 ,
 { "es": "¿Te gustaría crear un emoji animado?" }
 ],
