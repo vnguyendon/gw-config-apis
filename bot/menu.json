@@ -10,10 +10,10 @@
         "en": "Sweetheart"
       },
       {
-        "fr": ""
+        "fr": "Mon amour"
       },
       {
-        "es": ""
+        "es": "Mi amor"
       }
     ],
     "Label": [
@@ -21,10 +21,10 @@
         "en": "Message my sweetheart"
       },
       {
-        "fr": ""
+        "fr": "Envoyer un message"
       },
       {
-        "es": ""
+        "es": "Enviar un mensaje"
       }
     ]
   },
@@ -36,13 +36,13 @@
     "Action": "ShowImages",
     "Title": [
       {
-        "en": "Status"
+        "en": "Facebook"
       },
       {
-        "fr": ""
+        "fr": "Facebook"
       },
       {
-        "es": ""
+        "es": "Facebook"
       }
     ],
     "Label": [
@@ -50,10 +50,10 @@
         "en": "Post a status"
       },
       {
-        "fr": ""
+        "fr": "Poster un statut"
       },
       {
-        "es": ""
+        "es": "Publicar un estado"
       }
     ]
   },
