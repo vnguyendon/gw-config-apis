@@ -5,6 +5,17 @@
     "TargetType": "9E2D23",
     "TargetId": "SweetheartF",
     "ImageName": "iStock_000008350300_Medium.jpg",
+    "Title": [
+      {
+        "en": "Sweetheart"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Message my sweetheart"
@@ -23,6 +34,17 @@
     "TargetId": "2E2986",
     "ImageName": "10406436_1051564041525124_3832381646842635029_n.jpg",
     "Action": "ShowImages",
+    "Title": [
+      {
+        "en": "Status"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Post a status"
@@ -39,6 +61,17 @@
     "CommandId": "MessageIdeas",
     "ImageName": "shutterstock_151777982.jpg",
     "Action": "ShowDailyIdeas",
+    "Title": [
+      {
+        "en": "Ideas"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Message ideas"
@@ -55,6 +88,17 @@
     "CommandId": "CreateAnimatedEmoji",
     "ImageName": "000084168591.jpg",
     "Action": "CreateAnimatedEmoji",
+    "Title": [
+      {
+        "en": "Create gif"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Animated emoji"
@@ -71,6 +115,17 @@
     "CommandId": "TrendingGifs",
     "ImageName": "000046281694.jpg",
     "Action": "ShowTrendingGifs",
+    "Title": [
+      {
+        "en": "Gifs"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Trending gifs"
@@ -89,6 +144,17 @@
     "TargetId": "8ED62C",
     "ImageName": "302560_441589152544948_505119604_n.jpg",
     "Action": "ShowImages",
+    "Title": [
+      {
+        "en": "Miss you cards"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Say I miss you"
@@ -105,9 +171,20 @@
     "CommandId": "TrendingMessages",
     "ImageName": "iStock_000002415327_Medium.jpg",
     "Action": "ShowTrendingMessages",
+    "Title": [
+      {
+        "en": "Popular cards"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
-        "en": "Popular messages"
+        "en": "Show popular messages"
       },
       {
         "fr": ""
@@ -121,9 +198,20 @@
     "CommandId": "FindUsers",
     "ImageName": "209405-1000-14471607885805610-R3L8T8D-990-29apr14_085355.jpg",
     "Action": "ShowUsers",
+    "Title": [
+      {
+        "en": "Users"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
-        "en": "Users like me"
+        "en": "Find some user profiles"
       },
       {
         "fr": ""
@@ -137,6 +225,17 @@
     "CommandId": "Reminder",
     "ImageName": "iStock_000003405797_Medium.jpg",
     "Action": "SetReminder",
+    "Title": [
+      {
+        "en": "Reminder"
+      },
+      {
+        "fr": ""
+      },
+      {
+        "es": ""
+      }
+    ],
     "Label": [
       {
         "en": "Set a reminder"
