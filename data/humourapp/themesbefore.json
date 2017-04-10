@@ -26,6 +26,7 @@
 { 
 "Path" : "themes/emojiNonsense",
 "DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
+"SearchText" : "emoji cute", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Non-sens"},
@@ -48,6 +49,7 @@
 { 
 "Path" : "themes/emoticons2",
 "DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
+"SearchText" : "emoji apple watch", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emojis 3D"},
@@ -70,6 +72,7 @@
 { 
 "Path" : "themes/emojiSun",
 "DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"SearchText" : "smiley sun", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Soleil"},
