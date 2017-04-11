@@ -7,8 +7,14 @@
       "iOSId": "1727516507493157_1886351058276367",
       "AndroidId": "TBD"
     },
+     {
+      "name": "firstActivityResume",
+      "type": "interstitial",
+      "iOSId": "TBD",
+      "AndroidId": "TBD"
+    },
     {
-      "name": "resumeActivity",
+      "name": "otherActivityResume",
       "type": "interstitial",
       "iOSId": "1727516507493157_1886351148276358",
       "AndroidId": "TBD"
