@@ -1,0 +1,24 @@
+{
+"placements": 
+  [
+    {
+      "name": "firstLaunch",
+      "type": "interstitial",
+      "iOSId": "1727516507493157_1886351058276367",
+      "AndroidId": "TBD"
+    },
+    {
+      "name": "resumeActivity",
+      "type": "interstitial",
+      "iOSId": "1727516507493157_1886351148276358",
+      "AndroidId": "TBD"
+    },
+    {
+      "name": "belowStickerGalleries",
+      "type": "native",
+      "iOSId": "TBD",
+      "AndroidId": "TBD"
+    }
+  ]
+}
+
