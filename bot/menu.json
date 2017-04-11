@@ -66,10 +66,10 @@
         "en": "Ideas"
       },
       {
-        "fr": ""
+        "fr": "Idées"
       },
       {
-        "es": ""
+        "es": "Ideas"
       }
     ],
     "Label": [
@@ -77,10 +77,10 @@
         "en": "Message ideas"
       },
       {
-        "fr": ""
+        "fr": "Idées de message"
       },
       {
-        "es": ""
+        "es": "Ideas de mensajes"
       }
     ]
   },
@@ -93,10 +93,10 @@
         "en": "Create gif"
       },
       {
-        "fr": ""
+        "fr": "Créer un gif"
       },
       {
-        "es": ""
+        "es": "Crear animacion"
       }
     ],
     "Label": [
@@ -104,10 +104,10 @@
         "en": "Animated emoji"
       },
       {
-        "fr": ""
+        "fr": "Emoji animé"
       },
       {
-        "es": ""
+        "es": "Emoji animado"
       }
     ]
   },
@@ -120,10 +120,10 @@
         "en": "Gifs"
       },
       {
-        "fr": ""
+        "fr": "Gifs"
       },
       {
-        "es": ""
+        "es": "Gifs"
       }
     ],
     "Label": [
@@ -131,10 +131,10 @@
         "en": "Trending gifs"
       },
       {
-        "fr": ""
+        "fr": "Gifs les plus partagés"
       },
       {
-        "es": ""
+        "es": "Gifs tendencias"
       }
     ]
   },
@@ -149,10 +149,10 @@
         "en": "Miss you cards"
       },
       {
-        "fr": ""
+        "fr": "Tu me manques"
       },
       {
-        "es": ""
+        "es": "Te echo de menos"
       }
     ],
     "Label": [
@@ -160,10 +160,10 @@
         "en": "Say I miss you"
       },
       {
-        "fr": ""
+        "fr": "Dis: tu me manques"
       },
       {
-        "es": ""
+        "es": "Di: te echo de menos"
       }
     ]
   },
@@ -176,10 +176,10 @@
         "en": "Popular cards"
       },
       {
-        "fr": ""
+        "fr": "Cartes populaires"
       },
       {
-        "es": ""
+        "es": "Tarjetas populares"
       }
     ],
     "Label": [
@@ -187,10 +187,10 @@
         "en": "Show popular messages"
       },
       {
-        "fr": ""
+        "fr": "Montrer les messages populaires"
       },
       {
-        "es": ""
+        "es": "Mostrar mensajes populares"
       }
     ]
   },
@@ -203,10 +203,10 @@
         "en": "Users"
       },
       {
-        "fr": ""
+        "fr": "Utilisateurs"
       },
       {
-        "es": ""
+        "es": "Usuarios"
       }
     ],
     "Label": [
@@ -214,10 +214,10 @@
         "en": "Find some user profiles"
       },
       {
-        "fr": ""
+        "fr": "Trouver des profiles utilisateurs"
       },
       {
-        "es": ""
+        "es": "Encontrar algunos perfiles de usuario"
       }
     ]
   },
@@ -230,10 +230,10 @@
         "en": "Reminder"
       },
       {
-        "fr": ""
+        "fr": "Rappel"
       },
       {
-        "es": ""
+        "es": "Recordatorio"
       }
     ],
     "Label": [
@@ -241,10 +241,10 @@
         "en": "Set a reminder"
       },
       {
-        "fr": ""
+        "fr": "Définir un rappel"
       },
       {
-        "es": ""
+        "es": "Establecer un recordatorio"
       }
     ]
   }
