@@ -4,6 +4,7 @@
 { 
 "Path" : "themes/emoticons",
 "DefaultImage" : "themes/emoticons/small/000075070105.jpg",
+"SearchText" : "emoticonshappy", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji"},
@@ -95,6 +96,7 @@
 { 
 "Path" : "themes/emojiVanilla",
 "DefaultImage" : "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+"SearchText" : "smiley vanilla", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Vanille"},
