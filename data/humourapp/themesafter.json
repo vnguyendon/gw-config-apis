@@ -4,6 +4,7 @@
 { 
 "Path" : "themes/emojiPandas",
 "DefaultImage" : "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+"SearchText" : "panda cartoon", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Pandas"},
@@ -37,6 +38,7 @@
 { 
 "Path" : "themes/strange",
 "DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"SearchText" : "strange fun", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Etrange"},
@@ -48,6 +50,7 @@
 { 
 "Path" : "themes/emoticons3",
 "DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"SearchText" : "smiley loop", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji II"},
@@ -61,6 +64,7 @@
 { 
 "Path" : "themes/football",
 "DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"SearchText" : "soccer", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Football"},
@@ -72,6 +76,7 @@
 { 
 "Path" : "themes/emojiVarious",
 "DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg",
+"SearchText" : "emoji dance", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Variés"},
@@ -83,10 +88,11 @@
 { 
 "Path" : "themes/emojiGirlie",
 "DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg",
+"SearchText" : "smiley girly", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Girlie"},
-  {"Language":"en-EN","Label":"Emoji Girlie"},
+  {"Language":"en-EN","Label":"Emoji Girly"},
   {"Language":"es-ES","Label":"Emoji Girlie"}
   ]
 }    
@@ -94,6 +100,7 @@
 { 
 "Path" : "themes/pairs",
 "DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"SearchText" : "twins", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Paires"},
