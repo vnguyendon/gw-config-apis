@@ -5,25 +5,25 @@
       "name": "firstLaunch",
       "type": "interstitial",
       "iOSId": "1727516507493157_1886351058276367",
-      "AndroidId": "TBD"
+      "AndroidId": "1727516507493157_1926435530934586"
     },
      {
       "name": "firstActivityResume",
       "type": "interstitial",
-      "iOSId": "TBD",
-      "AndroidId": "TBD"
+      "iOSId": "1727516507493157_1926436580934481",
+      "AndroidId": "1727516507493157_1926435734267899"
     },
     {
       "name": "otherActivityResume",
       "type": "interstitial",
       "iOSId": "1727516507493157_1886351148276358",
-      "AndroidId": "TBD"
+      "AndroidId": "1727516507493157_1926436330934506"
     },
     {
-      "name": "belowStickerGalleries",
+      "name": "belowImageGalleries",
       "type": "native",
-      "iOSId": "TBD",
-      "AndroidId": "TBD"
+      "iOSId": "1727516507493157_1926437010934438",
+      "AndroidId": "1727516507493157_1926435960934543"
     }
   ]
 }
