@@ -4,6 +4,7 @@
 { 
 "Path" : "themes/emoticons2",
 "DefaultImage" : "themes/emoticons2/small/shutterstock_231122902_10.jpg",
+"SearchText" : "emoji apple watch", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji 3D"},
@@ -70,6 +71,7 @@
 { 
 "Path" : "themes/strange",
 "DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"SearchText" : "strange fun", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Etrange"},
@@ -81,6 +83,7 @@
 { 
 "Path" : "themes/emoticons3",
 "DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+"SearchText" : "smiley loop", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji II"},
@@ -92,6 +95,7 @@
 { 
 "Path" : "themes/emojiNonsense",
 "DefaultImage" : "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg",
+"SearchText" : "emoji cute", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji Non-sens"},
@@ -103,6 +107,7 @@
 { 
 "Path" : "themes/football",
 "DefaultImage" : "themes/football/small/shutterstock_75105484_1.jpg",
+"SearchText" : "soccer", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Football"},
@@ -114,6 +119,7 @@
 { 
 "Path" : "themes/pairs",
 "DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
+"SearchText" : "twins", 
 "Labels":
   [
   {"Language":"fr-FR","Label":"Paires"},
