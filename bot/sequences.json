@@ -18,6 +18,7 @@
       {
         "CommandId": "SingleYes",
         "Action": "EnableSingleMode",
+        "FeedbackMediaInternal": "TBD",
         "Label": [
           {
             "en": "Yes"
@@ -33,6 +34,7 @@
       {
         "CommandId": "SingleNo",
         "Action": "DisableSingleMode",
+        "FeedbackMediaExternal": "TBD",
         "Label": [
           {
             "en": "No"
@@ -79,6 +81,7 @@
 {
 "CommandId": "RegretsYes",
 "TargetType": "Intention",
+ "FeedbackMediaExternal": "TBD",
 "TargetId": "03B6E4",
 "TargetDescription": "I-am-here-for-you",
 "Label": [
@@ -93,6 +96,7 @@
 {
 "CommandId": "RegretsNo",
 "TargetType": "Intention",
+"FeedbackMediaInternal": "TBD",
 "TargetId": "8FB4AF",
 "TargetDescription": "you-are-the-best",
 "Label": [
