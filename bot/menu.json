@@ -211,13 +211,13 @@
     ],
     "Label": [
       {
-        "en": "Find some user profiles"
+        "en": "Similar profiles"
       },
       {
-        "fr": "Trouver des profiles utilisateurs"
+        "fr": "Ils/elles me ressemblent"
       },
       {
-        "es": "Encontrar algunos perfiles de usuario"
+        "es": "Perfiles similares"
       }
     ]
   },
