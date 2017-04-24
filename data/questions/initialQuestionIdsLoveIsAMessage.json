@@ -1,1 +1,131 @@
 
+{
+"Questions":
+[
+
+{ 
+"Id" : "ppRelationStatus",
+"DefaultImage" : "TBD",
+"Question":
+  [
+  {"Language":"en-EN","Label":"Are you single or in a relationship?"},
+  {"Language":"fr-FR","Label":"Etes-vous célibataire ou en couple?"},
+  {"Language":"es-ES","Label":"TBD"}
+  ],
+"Answers":
+  [  
+    {
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"In a relationship"},
+      {"Language":"fr-FR","Label":"En couple"},
+      {"Language":"es-ES","Label":"TBD"}
+      ],
+      "Question":
+		[
+		{"Language":"en-EN","Label":"Are you happy with your relationship?"},
+		{"Language":"fr-FR","Label":"Etes-vous heureux/se de votre couple?"},
+		{"Language":"es-ES","Label":"TBD"}
+		],
+	  	"Answers":
+		  	[
+			  {
+			  "Id" : "CoupleHappy",
+			  "Labels":
+			    [
+			    {"Language":"en-EN","Label":"Yes!"},
+			    {"Language":"fr-FR","Label":"Oui !"},
+			    {"Language":"es-ES","Label":"Si !"}
+			    ],
+    		  },
+			  {
+			  "Id" : "CoupleUnhappy",
+			  "Labels":
+			    [
+			    {"Language":"en-EN","Label":"It could be better"},
+			    {"Language":"fr-FR","Label":"Ca pourrait aller mieux"},
+			    {"Language":"es-ES","Label":"TBD"}
+			    ],
+    		  },
+    		  {
+			  "Id" : "TransitionUnhappy",
+			  "Labels":
+			    [
+			    {"Language":"en-EN","Label":"It's complicated.."},
+			    {"Language":"fr-FR","Label":"C'est compliqué.."},
+			    {"Language":"es-ES","Label":"TBD"}
+			    ],
+    		  }
+    		]
+    },
+    {
+    "Labels":
+      [
+      {"Language":"en-EN","Label":"Single"},
+      {"Language":"fr-FR","Label":"Célibataire"},
+      {"Language":"es-ES","Label":"TBD"}
+      ],
+      "Question":
+		[
+		{"Language":"en-EN","Label":"Are you currently looking for a relationship?"},
+		{"Language":"fr-FR","Label":"Etes-vous en ce moment à la recherche d'une relation (sérieuse ou pas)?"},
+		{"Language":"es-ES","Label":"TBD"}
+		],
+	  	"Answers":
+		  	[
+			  {
+			  "Id" : "TransitionHappy",
+			  "Labels":
+			    [
+			    {"Language":"en-EN","Label":"Yes"},
+			    {"Language":"fr-FR","Label":"Oui"},
+			    {"Language":"es-ES","Label":"Si"}
+			    ],
+    		  },
+    		  {
+			  "Labels":
+			    [
+			    {"Language":"en-EN","Label":"No"},
+			    {"Language":"fr-FR","Label":"Non"},
+			    {"Language":"es-ES","Label":"No"}
+			    ],
+			    "Question":
+					[
+					{"Language":"en-EN","Label":"Have you been disappointed by a recent relationship?"},
+					{"Language":"fr-FR","Label":"Avez-vous été déçu par une récente relation?"},
+					{"Language":"es-ES","Label":"TBD"}
+					],
+					"Answers":
+		  				[
+						  {
+						  "Id" : "SingleUnhappy",
+						  "Labels":
+						    [
+						    {"Language":"en-EN","Label":"Yes"},
+						    {"Language":"fr-FR","Label":"Oui"},
+						    {"Language":"es-ES","Label":"Si"}
+						    ],
+			    		  },
+			    		  {
+			    		  "Id" : "SingleHappy",
+						  "Labels":
+						    [
+						    {"Language":"en-EN","Label":"No"},
+						    {"Language":"fr-FR","Label":"Non"},
+						    {"Language":"es-ES","Label":"No"}
+						    ]
+						   }
+  						]
+
+    		  },
+    		]
+    }
+  ]
+}
+
+
+]
+}
+
+
+
