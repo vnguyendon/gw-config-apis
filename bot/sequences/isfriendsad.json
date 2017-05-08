@@ -1,77 +1,77 @@
 [																									
 	{																								
-	"QuestionID":	"IsFriendSad"																							
-	"SequenceType" :	"Question"																							
-	"Label" : 	
+	"QuestionID":	"IsFriendSad",																							
+	"SequenceType": "Question",																							
+	"Label": 	
 		[																							
-			{	"en":	"Do you have a sad or unhappy friend?"	}	,																		
-			{	"fr":	"TBD"	}	,																		
-			{	"es":	"TBD"	}																			
-		]	,																						
+			{"en":	"Do you have a sad or unhappy friend?"},																		
+			{"fr":	"TBD"},																		
+			{"es":	"TBD"}																			
+		],																						
 		"Commands":	[																						
-				{	"CommandId":	"FriendSad"	,																		
-					"FeedbackType":	"Giphy/Gif"	,																		
-					"FeedbackSource":	"External"	,																		
-					"FeedbackUrl":	"3oriOfOHtS196yioJG"	,																		
+				{	"CommandId":	"FriendSad",																		
+					"FeedbackType":	"Giphy/Gif",																		
+					"FeedbackSource":	"External",																		
+					"FeedbackUrl":	"3oriOfOHtS196yioJG",																		
 					"Label":	
 						[																			
-							{	"en":	"Yes"	}	,														
-							{	"fr":	"Oui"	}	,														
-							{	"es":	"Si"	}															
+							{"en":	"Yes"	},														
+							{"fr":	"Oui"	},														
+							{"es":	"Si"	}															
 						]	,																		
 							[																		
-								{	"QuestionID":	"IsFriendSadMessage"															
-									"SequenceType":	"Question"															
+								{	"QuestionID":	"IsFriendSadMessage",														
+									"SequenceType":	"Question",															
 									"Label": 	
 										[															
-											{	"en"	"How about sending a message?"	}	,										
-											{	"fr":	"TBD"	}	,										
-											{	"es":	"TBD"	}											
-										]	,														
+											{"en"	"How about sending a message?"}	,										
+											{"fr":	"TBD"}	,										
+											{"es":	"TBD"}											
+										],														
 										"Commands":	
 											[														
-												{	"CommandId":	"FriendSadMessageYes"	,										
-													"FeedbackType":	"Giphy/Gif"	,										
-													"FeedbackSource":	"External"	,										
-													"FeedbackUrl":	"Bj9k1U69GZ8Iw"	,										
+												{	"CommandId":"FriendSadMessageYes",										
+													"FeedbackType":	"Giphy/Gif",										
+													"FeedbackSource":"External",										
+													"FeedbackUrl":"Bj9k1U69GZ8Iw",										
 													"Label":	
 														[											
-															{	"en":	"Yes"	}	,						
-															{	"fr":	"Oui"	}	,						
-															{	"es":	"Si"	}							
-														]	,										
+															{"en":	"Yes"},						
+															{"fr":	"Oui"},						
+															{"es":	"Si"}							
+														],										
 															[										
 																{									
-																"QuestionID":	"IsFriendSadMessageChoice"								
-																"SequenceType":	"Question"								
+																"QuestionID":	"IsFriendSadMessageChoice",								
+																"SequenceType":	"Question",						
 																"Label": 	
 																	[								
-																		{	"en":	"What could you send?"	}	,			
-																		{	"fr":	"TBD"	}	,			
-																		{	"es":	"TBD"	}				
-																	]	,							
+																		{"en":	"What could you send?"},			
+																		{"fr":	"TBD"},			
+																		{"es":	"TBD"}				
+																	],							
 																	"Commands":	
 																		[	
 																			{						
-																			"CommandID":	"I'm here for you"	,				
-																			"TargetType":	"Intention"	,				
-																			"TargetID":	"TBD"	,				
+																			"CommandID":"I'm here for you",				
+																			"TargetType":"Intention",				
+																			"TargetID":"TBD",				
 																			"Label":	
 																				[					
-																					{	"en":	"Im here for you"	}	,
-																					{	"fr":	"Je suis là pour toi"	}	,
+																					{	"en":	"Im here for you"	},
+																					{	"fr":	"Je suis là pour toi"	},
 																					{	"es":	"TBD"	}	
 																				]	,				
 																				"Action":	"ShowCardsToSend"					
-																			}	,					
+																			},					
 																			{						
-																			"CommandID":	"Positive thoughts"	,				
-																			"TargetType":	"Intention"	,				
-																			"TargetID":	"TBD"	,				
+																			"CommandID":	"Positive thoughts",				
+																			"TargetType":	"Intention",				
+																			"TargetID":	"TBD",				
 																			"Label":	
 																				[					
-																					{	"en":	"Positive thoughts	}	,
-																					{	"fr":	"Pensées positives"	}	,
+																					{	"en":	"Positive thoughts	},
+																					{	"fr":	"Pensées positives"	},
 																					{	"es":	"TBD"	}	
 																				]	,				
 																				"Action":	"ShowCardsToSend"					
@@ -83,7 +83,7 @@
 																			"Label":	
 																				[					
 																					{	"en":	"You're the best"	}	,
-																					{	"fr":	"Tu es le/la meilleur(e)	}	,
+																					{	"fr":	"Tu es le/la meilleur(e)"	}	,
 																					{	"es":	"TBD"	}	
 																				]	,				
 																				"Action":	"ShowCardsToSend"					
