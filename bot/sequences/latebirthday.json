@@ -3,7 +3,7 @@
 	"QuestionID":	"LateBirthday"																	
 	"SequenceType":	"Question"																	
 	"Label": 	[																	
-			{	"en":	"Have you forgotten to wish a happy birthday recently?"	}	,												
+			{	"en":	"Have you forgotten to wish someone a happy birthday recently?"	}	,												
 			{	"fr":	"As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?"	}	,								 				
 			{	"es":	"TBD"	}													
 		]	,																
