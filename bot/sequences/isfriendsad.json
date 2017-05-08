@@ -73,7 +73,7 @@
 																			"Label":	[					
 																					{	"en":	"You're the best"	}	,
 																					{	"fr":	"Tu es le/la meilleur(e)	}	,
-																					{	"es":	''TBD''	}	
+																					{	"es":	"TBD"	}	
 																				]	,				
 																			"Action":	"ShowCardsToSend"					
 																			}	,					
@@ -84,7 +84,7 @@
 																			"Label":	[					
 																					{	"en":	"How are you?"	}	,
 																					{	"fr":	"Comment vas-tu?"	}	,
-																					{	"es":	''TBD''	}	
+																					{	"es":	"TBD"	}	
 																				]	,				
 																			"Action":	"ShowCardsToSend"					
 																			}						
