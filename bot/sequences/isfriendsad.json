@@ -1,0 +1,130 @@
+
+[																									
+	{																								
+	"QuestionID":	"IsFriendSad"																							
+	"SequenceType":	"Question"																							
+	"Label": 	[																							
+			{	"en":	"Do you have a sad or unhappy friend?"	}	,																		
+			{	"fr":	"TBD"	}	,																		
+			{	"es":	"TBD"	}																			
+		]	,																						
+		"Commands":	[																						
+				{	"CommandId":	"FriendSad"	,																		
+					"FeedbackType":	"Giphy/Gif"	,																		
+					"FeedbackSource":	"External"	,																		
+					"FeedbackUrl":	"3oriOfOHtS196yioJG"	,																		
+					"Label":	[																			
+							{	"en":	"Yes"	}	,														
+							{	"fr":	"Oui"	}	,														
+							{	"es":	"Si"	}															
+						]	,																		
+							[																		
+								{	"QuestionID":	"IsFriendSadMessage"															
+									"SequenceType":	"Question"															
+									"Label": 	[															
+											{	"en"	"How about sending a message?"'	}	,										
+											{	"fr":	"TBD"	}	,										
+											{	"es":	"TBD"	}											
+										]	,														
+										"Commands":	[														
+												{	"CommandId":	"FriendSadMessageYes"	,										
+													"FeedbackType":	"Giphy/Gif"	,										
+													"FeedbackSource":	"External"	,										
+													"FeedbackUrl":	"Bj9k1U69GZ8Iw"	,										
+													"Label":	[											
+															{	"en":	"Yes"	}	,						
+															{	"fr":	"Oui"	}	,						
+															{	"es":	"Si"	}							
+														]	,										
+															[										
+																{									
+																"QuestionID":	"IsFriendSadMessageChoice"								
+																"SequenceType":	"Question"								
+																"Label": 	[								
+																		{	"en":	"What could you send?"	}	,			
+																		{	"fr":	"TBD"	}	,			
+																		{	"es":	"TBD"	}				
+																	]	,							
+																	"Commands":	[	{						
+																			"CommandID":	"I'm here for you"	,				
+																			"TargetType":	"Intention"	,				
+																			"TargetID":	"TBD"	,				
+																			"Label":	[					
+																					{	"en":	"TBD"	}	,
+																					{	"fr":	"TBD"	}	,
+																					{	"es":	"TBD"	}	
+																				]	,				
+																			"Action":	"ShowCardsToSend"					
+																			}	,					
+																			{						
+																			"CommandID":	"Positive thoughts"	,				
+																			"TargetType":	"Intention"	,				
+																			"TargetID":	"TBD"	,				
+																			"Label":	[					
+																					{	"en":	"TBD"	}	,
+																					{	"fr":	"TBD"	}	,
+																					{	"es":	"TBD" }	
+																				]	,				
+																			"Action":	"ShowCardsToSend"					
+																			}	,					
+																			{						
+																			"CommandID":	"You're the best"	,				
+																			"TargetType":	"Intention"	,				
+																			"TargetID":	"TBD"	,				
+																			"Label":	[					
+																					{	"en":	"TBD"	}	,
+																					{	"fr":	"TBD"	}	,
+																					{	"es":	"TBD" }	
+																				]	,				
+																			"Action":	"ShowCardsToSend"					
+																			}	,					
+																			{						
+																			"CommandID":	"How are you?"	,				
+																			"TargetType":	"Intention"	,				
+																			"TargetID":	"TBD"	,				
+																			"Label":	[					
+																					{	"en":	"TBD"	}	,
+																					{	"fr":	"TBD"	}	,
+																					{	"es":	"TBD"	}	
+																				]	,				
+																			"Action":	"ShowCardsToSend"					
+																			}						
+																		]							
+																}									
+															]										
+												}	,												
+												{	"CommandId":	"FriendSadMessageLater"	,										
+													"Label":	[											
+															{	"en":	"Later"	}	,						
+															{	"fr":	"Plus tard"	}	,						
+															{	"es":	"Mas Tarde"	}							
+														]	,										
+													"Action":	"ShowcommandsLater"											
+												}	,												
+												{	"CommandId":	"FriendSadMessageNo"	,										
+													"Label":	[											
+															{	"en":	"No"	}	,						
+															{	"fr":	"Non"	}	,						
+															{	"es":	"No"	}							
+														]	,										
+													"Action":	"ShowcommandsNo"											
+												}													
+											]														
+								}																	
+							]																		
+				}	,																				
+				{	"CommandId":	"NoFriendSad"	,																		
+					"FeedbackType":	"Giphy/Gif"	,																		
+					"FeedbackSource":	"External"	,																		
+					"FeedbackUrl":	"26ufbhAiPrAlyvY4g"	,																		
+					"Label":	[																			
+							{	"en":	"No"	}	,														
+							{	"fr":	"Non"	}	,														
+							{	"es":	"No"	}															
+						]	,																		
+					"Action":	"ShowcommandsNo"																			
+				}																					
+			]																						
+	}																								
+]																									
+																									
