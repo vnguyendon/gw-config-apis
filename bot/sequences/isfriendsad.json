@@ -1,8 +1,8 @@
 [																									
 	{																								
 	"QuestionID":	"IsFriendSad"																							
-	"SequenceType":	"Question"																							
-	"Label": 	[																							
+	"SequenceType" :	"Question"																							
+	"Label" : 	[																							
 			{	"en":	"Do you have a sad or unhappy friend?"	}	,																		
 			{	"fr":	"TBD"	}	,																		
 			{	"es":	"TBD"	}																			
