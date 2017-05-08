@@ -1,0 +1,75 @@
+[																			
+	{																		
+	"QuestionID":	"LateBirthday"																	
+	"SequenceType":	"Question"																	
+	"Label": 	[																	
+			{	"en":	'Have you forgotten to wish a happy birthday recently?'	}	,												
+			{	"fr":	'TBD'	}	,												
+			{	"es":	'TBD'	}													
+		]	,																
+			"Commands":	[															
+					{	"CommandId":	"LateBirthdayYes"	,											
+						"FeedbackType":	'Giphy/Gif'	,											
+						"FeedbackSource":	"External"	,											
+						"FeedbackUrl":	'oXV6IEt10fvIQ'	,											
+						"Label":	[												
+								{	"en":	'Yes'	}	,							
+								{	"fr":	'TBD'	}	,							
+								{	"es":	'TBD'	}								
+							]	,											
+								[											
+									{										
+									"QuestionID":	"LateBirthdayWish"									
+									"SequenceType":	"Question"									
+									"Label": 	[									
+											{	"en":	'Would you like to wish this person a late happy birthday?'	}	,				
+											{	"fr":	'TBD'	}	,				
+											{	"es":	'TBD'	}					
+										]	,								
+											"Commands":	[							
+													{						
+													"CommandID":	"LateBirthdayWishYes"	,				
+													"TargetType":	"Intention"	,				
+													"TargetID":	'TBD'	,				
+													"Label":	[					
+															{	"en":	"Yes"	}	,
+															{	"fr":	"Oui" }	,
+															{	"es":	"Si"	}	
+														]	,				
+													"Action":	"ShowCardsToSend"					
+													}	,					
+													{						
+													"CommandId":	"LateBirthdayWishLater"	,				
+													"Label":	[					
+															{	"en":	"Later"	}	,
+															{	"fr":	"Plus tard"	}	,
+															{	"es":	"Mas Tarde"	}	
+														]	,				
+													"Action":	"ShowcommandsNo"					
+													}	,					
+													{						
+													"CommandId":	"LateBirthdayWishNo"	,				
+													"Label":	[					
+															{	"en":	"No"	}	,
+															{	"fr":	"Non"	}	,
+															{	"es":	"No"	}	
+														]	,				
+													"Action":	"ShowcommandsNo"					
+													}						
+												]							
+									}										
+								]											
+					}	,						,							
+					{	"CommandId":	"LateBirthdayNo"	,											
+						"FeedbackType":	'Giphy/Gif'	,											
+						"FeedbackSource":	"External"	,											
+						"FeedbackUrl":	''l1ugbvVp9O98ds6Ig''	,											
+						"Label":	[												
+								{	"en":	"No"	}	,							
+								{	"fr":	"Non"	}	,							
+								{	"es":	"No"	}								
+							]												
+					}														
+				]															
+	}																		
+]																			
