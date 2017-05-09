@@ -7,7 +7,7 @@
         "Label":    [                                                                   
             {   "en":   "Have you forgotten to wish someone a happy birthday recently?" }   ,                                               
             {   "fr":   "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?"  }   ,                                               
-            {   "es":   "TBD"   }                                                   
+            {   "es":   "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?"   }                                                   
         ]   ,                                                               
         "Commands": [                                                           
             {   "CommandId":    "LateBirthdayYes"   ,                                           
@@ -24,13 +24,14 @@
                 "Label":   [                                   
                     {   "en":   "Would you like to wish this person a late happy birthday?" }   ,               
                     {   "fr":   "Est-ce que tu voudrais lui envoyer un message?"    }   ,               
-                    {   "es":   "TBD"   }                   
+                    {   "es":   "Le gustaría enviarle un mensaje?"   }                   
                 ]   ,                               
                 "Commands": [                           
                     {                       
                         "CommandID":    "LateBirthdayWishYes"   ,               
                         "TargetType":   "Intention" ,               
-                        "TargetID": "TBD"   ,               
+                        "TargetID": "A730B4"   ,
+                        "TargetDescription": "happy-birthday",
                         "Label":    [                   
                             {   "en":   "Yes"   }   ,
                             {   "fr":   "Oui"   }   ,
@@ -54,7 +55,7 @@
                             {   "fr":   "Non"   }   ,
                             {   "es":   "No"    }   
                         ]   ,               
-                        "Action":   "ShowcommandsNo"                    
+                        "Action":  "ShowcommandsNo"                    
                     }                       
                 ]                                                                     
             }   ,                       ,                           
