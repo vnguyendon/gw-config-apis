@@ -3,7 +3,7 @@
   {
     "QuestionID": "LateBirthday",
     "SequenceType": "Question",
-    "Label": [
+    "Label-Q": [
       { "en": "Have you forgotten to wish someone a happy birthday recently?" },
       { "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?" },
       { "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?" }
@@ -14,36 +14,31 @@
         "FeedbackType": "Giphy/Gif",
         "FeedbackSource": "External",
         "FeedbackUrl": "oXV6IEt10fvIQ",
-        "Label": [
+        "Label-A": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+        "QuestionID": "LateBirthdayWish",
+        "SequenceType": "Question",
+        "Label-Q": [
           { "en": "Would you like to wish this person a late happy birthday?" },
           { "fr": "Est-ce que tu voudrais lui envoyer un message?" },
           { "es": "Le gustaría enviarle un mensaje?" }
         ],
-        "QuestionID": "LateBirthdayWish",
-        "SequenceType": "Question",
         "Commands": [
           {
             "CommandID": "LateBirthdayWishYes",
             "TargetType": "Intention",
             "TargetID": "A730B4",
             "TargetDescription": "happy-birthday",
-            "Label": [
-              { "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }
-            ],
+            "Label-A": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
             "Action": "ShowCardsToSend"
           },
           {
             "CommandId": "LateBirthdayWishLater",
-            "Label": [
-              { "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }
-            ],
-            "Action": "ShowcommandsNo"
+            "Label-A": [{ "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }],
+            "Action": "ShowcommandsLater"
           },
           {
             "CommandId": "LateBirthdayWishNo",
-            "Label": [
-              { "en": "No" },{ "fr": "Non" },{ "es": "No" }
-            ],
+            "Label-A": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
             "Action": "ShowcommandsNo"
           }
         ]
@@ -53,9 +48,7 @@
         "FeedbackType": "Giphy/Gif",
         "FeedbackSource": "External",
         "FeedbackUrl": "l1ugbvVp9O98ds6Ig",
-        "Label": [
-          { "en": "No" },{ "fr": "Non" },{ "es": "No" }
-        ]
+        "Label-A": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
       }
     ]
   }
