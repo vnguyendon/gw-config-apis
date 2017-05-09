@@ -1,0 +1,24 @@
+
+[
+{
+    "Action": "ShowQuestion",
+    "QuestionId": "AreYouSingle",
+    "Label": [{ "en": "Are you single?" },{ "fr": "Es-tu célibataire ?" },{ "es": "¿Estas soltero?" }],
+    "Commands": 
+        [
+            {
+            "Action-1": "EnableSingleMode",
+            "Action-2": "ShowCommandsNext",
+            "CommandId": "SingleYes",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+            },
+            {
+            "Action-1": "DisableSingleMode",
+            "Action-2": "ShowCommandsNext",
+            "CommandId": "SingleNo",
+            "Label": [{"en": "No" },{ "fr": "Non" },{ "es": "No" }]
+            }
+        ]
+}
+]
+

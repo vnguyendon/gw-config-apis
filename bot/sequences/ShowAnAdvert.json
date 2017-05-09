@@ -1,0 +1,23 @@
+
+[
+{
+    "Action": "ShowQuestion",
+    "QuestionId": "SeeAnAdvert",
+    "Label": [{ "en": "Can I please show you an advert?" },{ "fr": "Puis-je te montrer une pub ?" },{ "es": "¿Te gustaría ver un anuncio?" }],
+    "Commands": 
+        [
+            {
+            "Action": "ShowAdvert",
+            "CommandId": "AdvertYes",
+            "TargetType": "Custom",
+            "Label": [{ "en": "Yes"},{ "fr": "Oui" },{ "es": "Si" }]
+            }
+            ,
+            {   
+            "Action": "ShowCommandsNext",
+            "CommandId": "AdvertNo",
+            "Label": [ { "en": "No" },{ "fr": "Non" },{"es": "No" }]
+            }
+        ]     
+}
+]

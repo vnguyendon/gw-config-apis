@@ -1,0 +1,9 @@
+
+[
+{
+    "Action": "ShowQuestion",
+    "QuestionId": "PleaseTalkToMe",
+    "Label": [{ "en": "Please tell me something!" },{ "fr": "Dis-moi quelque chose stp !" },{ "es": "Por favor, dime algo"}] 
+}
+]   
+

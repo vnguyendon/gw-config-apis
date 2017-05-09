@@ -1,0 +1,30 @@
+
+[
+{
+    "Action": "ShowQuestion",
+    "QuestionId": "HowAboutMessageSuggestions",
+    "Label": [{ "en": "Do you want message suggestions?" },{ "fr": "Quelques idées de messages ?" },{ "es": "¿Quieres ideas de mensajes?" }],
+    "Commands": 
+        [
+            { 
+            "Action": "ShowCards",
+            "CommandId": "SuggestionsJoke", 
+            "TargetType": "Intention", 
+            "TargetId": "0B1EA1", 
+            "TargetDescription": "jokes" 
+            },
+            { 
+            "Action": "ShowCards", 
+            "CommandId": "SuggestionsPoems", 
+            "TargetType": "Intention", 
+            "TargetId": "43B296", 
+            "TargetDescription": "poems" 
+            },
+            {
+            "Action": "ShowCommandsNext", 
+            "CommandId": "SuggestionsNo",
+            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+            }
+        ]
+}
+]

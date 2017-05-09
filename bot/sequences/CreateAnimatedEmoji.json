@@ -1,0 +1,26 @@
+
+[
+{
+    "Action": "ShowQuestion",
+    "QuestionId": "CreateAnimatedEmoji",
+    "Label": 
+        [
+            { "en": "Would you like to created an animated emoji?" }, 
+            { "fr": "Veux-tu créer un emoji animé ?" },
+            { "es": "¿Te gustaría crear un emoji animado?" }
+        ],
+        "Commands": 
+            [
+                {
+                "Action": "CreateAnimatedEmoji",
+                "CommandId": "AnimatedEmojiYes",
+                "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+                },
+                {
+                "Action": "SHowCommandsNext",
+                "CommandId": "AnimatedEmojiNo",
+                "Label": [{ "en": "No" }, { "fr": "Non" },{ "es": "No" }]
+                }
+            ]
+}
+]

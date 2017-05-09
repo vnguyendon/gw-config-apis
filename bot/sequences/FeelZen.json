@@ -1,0 +1,67 @@
+
+[
+{
+     "Action": "ShowQuestion",
+     "QuestionId": "WouldYouLikeToFeelZen",
+     "Label": [{ "en": "A little comfort?" },{ "fr": "Un peu de récomfort ?" },{ "es": "¿Un pequeño zen?" }],
+     "Commands": 
+        [
+            {
+            "Action": "ShowCommands",
+            "CommandId": "ZenYes",
+            "OptionalMediaType": "AnimatedGif",
+            "OptionalMediaSource": "Giphy",
+            "OptionalMediaPath": "oXV6IEt10fvIQ",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+            "Commands": 
+                [
+                    { 
+                    "Action": "ShowCards",
+                    "CommandId": "SuggestionsPoems", 
+                    "TargetType": "Intention", 
+                    "TargetId": "43B296", 
+                    "TargetDescription": "poems" 
+                    },
+                    { 
+                    "Action": "ShowCards",  
+                    "CommandId": "SuggestionsPositiveThoughts",
+                    "TargetType": "Intention", 
+                    "TargetId": "67CC40", 
+                    "TargetDescription": "positive-thoughts" 
+                    },
+                    { 
+                    "Action": "ShowImages", 
+                    "CommandId": "SuggestionsNature", 
+                    "TargetType": "Theme", 
+                    "TargetId": "themes/nature",
+                    "Label": [{ "en": "Nature" },{ "fr": "Nature" },{ "es": "TBD" }]
+                    }
+                ]
+            }
+            ,
+            {
+            "Action": "ShowCommands",
+            "CommandId": "ZenNo",
+            "TargetType": "Custom",
+            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+            "Commands": 
+                [
+                    { 
+                    "Action": "ShowCards",
+                    "CommandId": "ZenStopWorld", 
+                    "TargetType": "Intention", 
+                    "TargetId": "451563", 
+                    "TargetDescription": "stop-the-world" 
+                    },
+                    { 
+                    "Action": "ShowCards",
+                    "CommandId": "ZenIAmHereForYou", 
+                    "TargetType": "Intention", 
+                    "TargetId": "03B6E4", 
+                    "TargetDescription": "I-am-here-for-you" 
+                    }
+                ]
+            }
+        ]
+}
+]
