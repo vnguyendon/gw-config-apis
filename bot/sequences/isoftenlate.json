@@ -9,11 +9,11 @@
             {"es":"¿Está a menudo tarde?"}                                                   
         ]   ,                                                               
         "Commands": [                                                           
-            {   "CommandId": "OftenLate"    ,                                           
-                "FeedbackType": "Giphy/Gif" ,                                           
-                "FeedbackSource":   "External"  ,                                           
-                "FeedbackUrl":  "V2MJADdC027gk" ,                                           
-                "Label-A":  [{"en":"Yes"},{"fr":"Oui"},{"es":"Si" }]   ,                                                                                   
+            {   "CommandId": "OftenLate",                                           
+                "FeedbackType": "Giphy/Gif",                                           
+                "FeedbackSource":   "External",                                           
+                "FeedbackUrl":  "V2MJADdC027gk",                                           
+                "Label-A":  [{"en":"Yes"},{"fr":"Oui"},{"es":"Si" }],                                                                                   
                 "QuestionID":"OftenLateMessage",                                 
                 "SequenceType": "Question",                                 
                 "Label-Q":  [                                   
