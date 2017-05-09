@@ -28,27 +28,21 @@
             "TargetID": "A730B4",
             "TargetDescription": "happy-birthday",
             "Label": [
-              { "en": "Yes" },
-              { "fr": "Oui" },
-              { "es": "Si" }
+              { "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }
             ],
             "Action": "ShowCardsToSend"
           },
           {
             "CommandId": "LateBirthdayWishLater",
             "Label": [
-              { "en": "Later" },
-              { "fr": "Plus tard" },
-              { "es": "Mas Tarde" }
+              { "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }
             ],
             "Action": "ShowcommandsNo"
           },
           {
             "CommandId": "LateBirthdayWishNo",
             "Label": [
-              { "en": "No" },
-              { "fr": "Non" },
-              { "es": "No" }
+              { "en": "No" },{ "fr": "Non" },{ "es": "No" }
             ],
             "Action": "ShowcommandsNo"
           }
@@ -60,9 +54,7 @@
         "FeedbackSource": "External",
         "FeedbackUrl": "l1ugbvVp9O98ds6Ig",
         "Label": [
-          { "en": "No" },
-          { "fr": "Non" },
-          { "es": "No" }
+          { "en": "No" },{ "fr": "Non" },{ "es": "No" }
         ]
       }
     ]
