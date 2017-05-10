@@ -2,6 +2,7 @@
 Sequences
 =================
 
+
 The sequences are a set of pre-defined interactions, questions and answers between a user and a bot.
 This is a guide to follow for the implementation of the sequences stored in the folder gw-config-apis/bot/sequences.
 
@@ -10,13 +11,15 @@ Our goal is
 - To provide bits of sequence templates subsequently
 
 
-## Scenario
+# Scenario
 
 We want to describe dialogue sequences between a bot and a human:
 * The sequence starts with the bot asking a question
 * The human is then offered a selection of possible answers
 * The human selects an answer
 * The bot replies, either by another questions or by providing the human with cards
+
+
 
 ### Asking a question
 
@@ -46,6 +49,8 @@ Adding this key, the json becomes:
               { "es": "¿Un pequeño zen?" }
               ],
      
+     
+     
 
 ### Providing answer options to the user
 
@@ -65,6 +70,8 @@ To answer a question, users typically choose from a set of commands. It can be d
       ]      
       
 
+
+
 ### Reacting to the user's choice
 
 When the user interacts with the bot, we want the bot be able to react with a direct pre-defined piece of content. We will call this direct reaction an 'instant feedback'
@@ -82,6 +89,8 @@ When the user clicks "Yes" to the question "A little comfort?", the bot should t
 - an Animated Gif (OptionalMediaType -> defines the type of the Media)
 - pulled from the website Giphy (OptionalMediaSource -> defines the source of the content)
 - with the URL path: oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
+
+
 
 
 ### Providing cards to the user
@@ -112,7 +121,12 @@ Here is an example of two choices of cards:
 In this example 67CC40 is the code name for the intention: positive-thoughts (which contains a library of messages that express positive thoughts), and TargetDescription contains a human readable description of what we want to say.
 
 
+
+
 ### Exit the conversation
+
+
+
 
 
 
