@@ -1,12 +1,56 @@
 
+Sequences
+=================
+
+The sequences are a set of pre-defined interactions, questions and answers between a user and a bot.
 This is a guide to follow for the implementation of the sequences stored in the folder gw-config-apis/bot/sequences.
 
 Our goal is 
 - To describe clearly what each key/value pair does and how to implement it
-- To provide bits of sequence templates
+- To provide bits of sequence templates subsequently
 
 
-I. Definition and implementation of keys:
+## Asking a question
+
+### Scenario
+
+We want to describe dialogue sequences between a bot and a human, starting with asking a question.
+An interaction contains actions.
+The most common action is "ShowQuestion"  
+
+The following json sample describes a question asked by the bot, with it’s translations
+
+    "Action": "ShowQuestion",
+    "Label": [
+             { "en": "Do you have regrets?" },
+             { "fr": "Avez-vous des regrets ?"},
+             { "es": "¿Tiene algún remordimiento?" }
+             ]
+     
+Each question has a question Id, so we need to add a QuestionId attribute:
+     "Action": "ShowQuestion",
+     "QuestionId": "DoYouHaveRegrets",
+
+
+## Providing answer options to the user
+
+### Scenario
+
+
+
+## Reacting to the user's choice
+
+### Scenario
+
+
+
+
+## Providing cards to the user
+
+### Scenario
+
+
+
 
 
 1. "Action" 
