@@ -10,44 +10,109 @@ Our goal is
 - To provide bits of sequence templates subsequently
 
 
-## Asking a question
+## Scenario
 
-### Scenario
+We want to describe dialogue sequences between a bot and a human:
+* The sequence starts with the bot asking a question
+* The human is then offered a selection of possible answers
+* The human selects an answer
+* The bot replies, either by another questions or by providing the human with cards
 
-We want to describe dialogue sequences between a bot and a human, starting with asking a question.
+### Asking a question
+
 An interaction contains actions.
 The most common action is "ShowQuestion"  
 
-The following json sample describes a question asked by the bot, with it’s translations
+The following json sample describes a question asked by the bot, with its translations
 
-    "Action": "ShowQuestion",
-    "Label": [
-             { "en": "Do you have regrets?" },
-             { "fr": "Avez-vous des regrets ?"},
-             { "es": "¿Tiene algún remordimiento?" }
-             ]
+     "Action": "ShowQuestion",
+     "Label": [
+              { "en": "A little comfort?" },
+              { "fr": "Un peu de récomfort ?" },
+              { "es": "¿Un pequeño zen?" }
+              ],
      
 Each question has a question Id, so we need to add a QuestionId attribute:
      "Action": "ShowQuestion",
-     "QuestionId": "DoYouHaveRegrets",
+     "QuestionId": "WouldYouLikeToFeelZen",
+
+Adding this key, the json becomes: 
+
+     "Action": "ShowQuestion",
+     "QuestionId": "WouldYouLikeToFeelZen",
+     "Label": [
+              { "en": "A little comfort?" },
+              { "fr": "Un peu de récomfort ?" },
+              { "es": "¿Un pequeño zen?" }
+              ],
+     
+
+### Providing answer options to the user
+
+To answer a question, users typically choose from a set of commands. It can be described as follows:
+    
+    Commands: 
+      [
+          {    
+            "CommandId": "ZenYes",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+           }
+           ,
+           {
+            "CommandId": "ZenNo",
+            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+           }
+      ]      
+      
+
+### Reacting to the user's choice
+
+When the user interacts with the bot, we want the bot be able to react with a direct pre-defined piece of content. We will call this direct reaction an 'instant feedback'
+This instant feedback usually appears after the user makes a choice and before the bot's next message.
+
+Here is an example of this, applied to the ZenYes command: 
+
+    "CommandId": "ZenYes",
+    "OptionalMediaType": "AnimatedGif",
+    "OptionalMediaSource": "Giphy",
+    "OptionalMediaPath": "oXV6IEt10fvIQ",
+    "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+         
+When the user clicks "Yes" to the question "A little comfort?", the bot should then send:
+- an Animated Gif (OptionalMediaType -> defines the type of the Media)
+- pulled from the website Giphy (OptionalMediaSource -> defines the source of the content)
+- with the URL path: oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
 
 
-## Providing answer options to the user
+### Providing cards to the user
 
-### Scenario
+Another common action is "ShowCards" which picks a random message (made of a text plus an image). We need to know where this message comes from. One way of doing that is by pointing the Intention we wish to express ("GoodMorning", "ThankYou",...), the Area (with a number) or the Theme (theme/dogs).
+
+Here is an example of two choices of cards: 
+
+       Commands:         
+         [
+             { 
+             "Action": "ShowCards",
+             "CommandId": "SuggestionsPoems", 
+             "TargetType": "Intention", 
+             "TargetId": "43B296", 
+             "TargetDescription": "poems" 
+             }
+             ,
+             { 
+             "Action": "ShowCards",  
+             "CommandId": "SuggestionsPositiveThoughts",
+             "TargetType": "Intention", 
+             "TargetId": "67CC40", 
+             "TargetDescription": "positive-thoughts" 
+             }
+         ]
+
+In this example 67CC40 is the code name for the intention: positive-thoughts (which contains a library of messages that express positive thoughts), and TargetDescription contains a human readable description of what we want to say.
 
 
-
-## Reacting to the user's choice
-
-### Scenario
-
-
-
-
-## Providing cards to the user
-
-### Scenario
+### Exit the conversation
 
 
 
