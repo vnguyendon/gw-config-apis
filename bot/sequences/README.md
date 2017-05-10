@@ -86,17 +86,19 @@ In our example, one command will lead to a poem message, the other will lead to 
 
 ## Displaying a message card 
 
-We now want to show a poem or a positive thoughts message as a message card. 
+We now want to show a message of type "Poems" or "Positive thoughts"
+- To make messages more enticing we can display them along with an image
+- We can do that with message cards
 - A message card is made of a text + an image.
 - The Action used to show a message card is "ShowCard"
 
-To display a message card, you need to specify the source of the message.
-- One way of specifying the source of a message is to specify a message "Intention". 
-- An intention is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". 
+To display a message card, we need to specify the source of the text.
+- One way of specifying the source of a  text is to specify a message "Intention". 
+- An Intention is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". 
 - We need to know the relevant Intention Id.
 - Alternativaly, we could specify other sources, such as message Areas, which are groups of Intentions, or message recommandations, which take into account the user personality traits, past app usage or current context.
 
-In this example, as a user, I can choose betweeen the Intention "Poems" (Intention Id "43B296") and the Intention "Positive thougts" (Intention Id is "67CC40") 
+In this example, as a user, I can choose betweeen Intention "Poems" (Intention Id "43B296") and Intention "Positive thougts" (Intention Id "67CC40")
 
        Commands:         
          [
@@ -126,8 +128,8 @@ The Action for that is "Exit".
 
 ## Optional content
 
-When describing a sequence step, to make it more enticing, we can specify an extra piece of content that will be displayed above the sequence question and/or the sequence command set. 
-Here is an example in the context of the ZenYes command: 
+When describing a sequence step, we can specify an extra piece of optional content that will be displayed above the sequence question and/or the sequence command set. 
+Here is an example which can provide fun feedback when the ZenYes command has been chosen: 
 
     "CommandId": "ZenYes",
     "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
