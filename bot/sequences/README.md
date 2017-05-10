@@ -2,31 +2,24 @@
 Sequences
 =================
 
-
-The sequences are a set of pre-defined interactions, questions and answers between a user and a bot.
-This is a guide to follow for the implementation of the sequences stored in the folder gw-config-apis/bot/sequences.
-
-Our goal is 
-- To describe clearly what each key/value pair does and how to implement it
-- To provide bits of sequence templates subsequently
-
+Sequences are sets of conversational steps between a user and a bot. 
+Those steps can consist in asking a question or providing an answer. 
+This guide explains how to implement sequences stored in folder gw-config-apis/bot/sequences [mettre le lien]
 
 ## Scenario
 
-We want to describe dialogue sequences between a bot and a human:
-* The sequence starts with the bot asking a question
-* The human is then offered a selection of possible answers
-* The human selects an answer
-* The bot replies, either by another question, other possible answers or by providing the human with cards
-* The chooses a card
-* The human exits the conversation
-
-
+We will build a sequence where, as a user:
+* The bot asks a question
+* The bot suggests answers as a set of commands
+* I choose one of the suggested commands
+* The bot suggests relevant message categories
+* I choose one of the message categorie
+* The bot displays a random message from the selected categorie
 
 ## Asking a question
 
-An interaction contains actions.
-The most common action is "ShowQuestion"  
+An sequence contains Actions. 
+The most common Action is "ShowQuestion"  
 
 The following json sample describes a question asked by the bot, with its translations
 
@@ -37,11 +30,10 @@ The following json sample describes a question asked by the bot, with its transl
               { "es": "¿Un pequeño zen?" }
               ],
      
-Each question has a question Id, so we need to add a QuestionId attribute:
+Each question has a QuestionId, so we need to add a QuestionId attribute:
      "Action": "ShowQuestion",
      "QuestionId": "WouldYouLikeToFeelZen",
-
-Adding this key, the json becomes: 
+The json becomes: 
 
      "Action": "ShowQuestion",
      "QuestionId": "WouldYouLikeToFeelZen",
@@ -51,9 +43,11 @@ Adding this key, the json becomes:
               { "es": "¿Un pequeño zen?" }
               ],
      
-## Providing answer options to the user
+## Displaying command buttons below the question
 
-To answer a question, users typically choose from a set of commands. As with questions, each command has a command Id. It can be described as follows:
+To answer a question, users typically choose from a set of commands. 
+Each command has a unique CommandId. 
+A set of commands  can be described as follow:
     
     Commands: 
       [
@@ -68,60 +62,55 @@ To answer a question, users typically choose from a set of commands. As with que
            }
       ]      
       
+## Displaying a second set of commands
 
-Each of these commands needs to be followed by an Action. Apart from ShowQuestion, the threee most common Actions are ShowCommands, ShowCards and Exit.
+As a user, after I choose Yes, I get to choose a message categorie.
+This time I don't see a question, just a set of commands. 
+In that case instead of "ShowQuestion", the Action for this step is "ShowCommands"
 
-## Providing new commands to the user
+In this example, we offer to possible commands. One will lead to a poem message, the other to a choice of positive thoughts message.
 
-The Action "ShowCommands" means that for a given Command selected, other Command options will be offered to the user.
-
-Here is an example following on "ZenYes" Command:
-
-     "Action": "ShowCommands"
      "CommandId": "ZenYes",
      "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+     "Action": "ShowCommands",
      "Commands":         
-     [
-        { 
-        "CommandId": "SuggestionsPoems",
-        "TargetDescription": "poems"
-        }
-        ,
-        { 
-        "CommandId": "SuggestionsPositiveThoughts",
-        "TargetDescription": "positive-thoughts" 
-        }
-     ]
+          [
+              { 
+             "CommandId": "PoemSuggestions",
+              }
+              ,
+              { 
+              "CommandId": "PositiveThoughtsSuggestions",
+              }
+          ]
 
-As the user has answered "Yes" to the question "A little comfort?", he/she is offered two new commands: "poems" and "positive thoughts"
+## Display a message card 
 
-
-## Providing cards to the user
-
-The Action "ShowCards"  picks a random card (made of a text plus an image). We need to know where this message comes from. One way of doing that is by pointing the Intention we wish to express ("GoodMorning", "ThankYou",...), the Area (with a number) or the Theme (theme/dogs).
+A message card is made of a text + an image.
+The Action used to show a message card is "ShowCard"
+To display a message card, you also need to specify the source of the message.
+One way of doing that is to specify a message "Intention" : this is a message categorie such as "GoodMorning", "ThankYou", "Positive thoughts". We could also specify a message Area, which is a group of Intentions.
 
 Here is an example of two choices of cards:
 
        Commands:         
          [
              { 
+             "CommandId": "PoemSuggestions", 
              "Action": "ShowCards",
-             "CommandId": "SuggestionsPoems", 
              "TargetType": "Intention", 
-             "TargetId": "43B296", 
-             "TargetDescription": "poems" 
+             "TargetId": "43B296"
              }
              ,
              { 
+             "CommandId": "PositiveThoughtsSuggestions",
              "Action": "ShowCards",  
-             "CommandId": "SuggestionsPositiveThoughts",
              "TargetType": "Intention", 
-             "TargetId": "67CC40", 
-             "TargetDescription": "positive-thoughts" 
+             "TargetId": "67CC40" 
              }
          ]
 
-In this example 67CC40 is the code name for the intention: positive-thoughts (which contains a library of messages that express positive thoughts), and TargetDescription contains a human readable description of what we want to say.
+In this example 67CC40 is the code name for Tntention: positive-thoughts (which contains a library of messages that express positive thoughts), and TargetDescription contains a human readable description of what we want to say.
 
 
 ## Exit the conversation
