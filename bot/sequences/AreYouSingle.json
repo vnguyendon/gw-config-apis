@@ -7,14 +7,14 @@
     "Commands": 
         [
             {
-            "Action-1": "EnableSingleMode",
-            "Action-2": "ShowCommandsNext",
+            "ServerAction": "EnableSingleMode",
+            "CommandAction": "ShowCommandsNext",
             "CommandId": "SingleYes",
             "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
             },
             {
-            "Action-1": "DisableSingleMode",
-            "Action-2": "ShowCommandsNext",
+            "ServerAction": "DisableSingleMode",
+            "CommandAction": "Exit",
             "CommandId": "SingleNo",
             "Label": [{"en": "No" },{ "fr": "Non" },{ "es": "No" }]
             }

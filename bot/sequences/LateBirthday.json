@@ -12,15 +12,15 @@
      "Commands": 
         [
             {
-            "Action-1": "ShowCommand",
+            "CommandAction": "ShowCommand",
             "CommandId": "LateBirthdayYes",
             "OptionalMediaType": "AnimatedGif",
             "OptionalMediaSource": "Giphy",
             "OptionalMediaPath": "oXV6IEt10fvIQ",
-            "Label-1": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-                "Action-2" : "ShowQuestion",
+            "CommandLabel": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+                "QuestionAction": "ShowQuestion",
                 "QuestionId": "LateBirthdayWish",
-                "Label-2": 
+                "QuestionLabel": 
                     [
                     { "en": "Would you like to wish this person a late happy birthday?" },
                     { "fr": "Est-ce que tu voudrais lui envoyer un message?" },
@@ -33,27 +33,27 @@
                         "CommandId": "LateBirthdayWishYes",
                         "TargetType": "Intention",
                         "TargetId": "A730B4",
-                        "Label-A": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+                        "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
                         },
                         {
                         "Action": "ShowCommandsLater",
                         "CommandId": "LateBirthdayWishLater",
-                        "Label-A": [{ "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }]
+                        "Label": [{ "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }]
                         },
                         {
-                        "Action": "ShowCommandsNext",
+                        "Action": "Exit",
                         "CommandId": "LateBirthdayWishNo",
-                        "Label-A": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+                        "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
                         }
                     ]
             },
             {
-            "Action": "ShowCommandsNext",  
+            "Action": "Exit",  
             "CommandId": "LateBirthdayNo",
             "OptionalMediaType": "AnimatedGif",
             "OptionalMediaSource": "Giphy",
             "OptionalMediaPath": "l1ugbvVp9O98ds6Ig",
-            "Label-A": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
             }
         ]
 }
