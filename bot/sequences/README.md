@@ -2,9 +2,9 @@
 Sequences
 =================
 
-Sequences are sets of conversational steps between a user and a bot. 
-Those steps can consist in asking a question or providing an answer. 
-This guide explains how to implement sequences stored in folder gw-config-apis/bot/sequences [mettre le lien]
+- A sequence is a set of conversational steps between a user and a bot. 
+- Those steps can consist in asking a question or providing an answer. 
+- This guide explains how to implement sequences stored in folder gw-config-apis/bot/sequences [mettre le lien]
 
 ## Scenario
 
