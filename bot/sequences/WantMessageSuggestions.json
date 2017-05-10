@@ -21,7 +21,7 @@
             "TargetDescription": "poems" 
             },
             {
-            "Action": "ShowCommandsNext", 
+            "Action": "Exit", 
             "CommandId": "SuggestionsNo",
             "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
             }
