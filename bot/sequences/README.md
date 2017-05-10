@@ -162,15 +162,15 @@ When users clicks "Yes", before displaying further commands the bot will display
                  "Commands": 
                      [
                          { 
-                         "Action": "ShowCards",
                          "CommandId": "PoemSuggestions", 
+                         "Action": "ShowCards",
                          "TargetType": "Intention", 
                          "TargetId": "43B296"
                          }
                          ,
                          { 
-                         "Action": "ShowCards",  
                          "CommandId": "PositiveThoughtsSuggestions",
+                         "Action": "ShowCards",  
                          "TargetType": "Intention", 
                          "TargetId": "67CC40"
                          }
