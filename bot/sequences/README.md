@@ -8,13 +8,13 @@ This guide explains how to implement sequences stored in folder gw-config-apis/b
 
 ## Scenario
 
-We will build a sequence where, as a user:
-* The bot asks a question
-* The bot suggests answers as a set of commands
-* I choose one of the suggested commands
-* The bot suggests relevant message categories
-* I choose one of the message categorie
-* The bot displays a random message from the selected categorie
+In this sequence, as a user:
+* The bot asksme a question (A little comfort?
+* The bot suggests answers as a set of commands (Yes or No)
+* I pick Yes
+* The bot suggests two message Intentions (Poems and positive thoughts)
+* I choose one of those two Intentions 
+* The bot displays a random message from the selected Intention
 
 ## Asking a question
 
