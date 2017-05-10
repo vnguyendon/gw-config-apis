@@ -33,7 +33,7 @@
     "TargetType": "Intention",
     "TargetId": "2E2986",
     "ImageName": "10406436_1051564041525124_3832381646842635029_n.jpg",
-    "Action": "ShowImages",
+    "Action": "ShowCardsToSend",
     "Title": [
       {
         "en": "Facebook"
