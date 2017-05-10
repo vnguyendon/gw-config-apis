@@ -9,12 +9,12 @@ This guide explains how to implement sequences stored in folder gw-config-apis/b
 ## Scenario
 
 In this sequence, as a user:
-* The bot asksme a question (A little comfort?
-* The bot suggests answers as a set of commands (Yes or No)
+* The bot asksme a question ("A little comfort?")
+* The bot suggests answers as a set of commands ("Yes" or "No")
 * I pick Yes
-* The bot suggests two message Intentions (Poems and positive thoughts)
-* I choose one of those two Intentions 
-* The bot displays a random message from the selected Intention
+* The bot suggests two message categories (Poems and positive thoughts)
+* I pick one
+* The bot displays a random message from the message categorie (also called an Intention) that I picked
 
 ## Asking a question
 
@@ -68,7 +68,7 @@ As a user, after I choose Yes, I get to choose a message categorie.
 This time I don't see a question, just a set of commands. 
 In that case instead of "ShowQuestion", the Action for this step is "ShowCommands"
 
-In this example, we offer to possible commands. One will lead to a poem message, the other to a choice of positive thoughts message.
+In our example, one command will lead to a poem message, the other to a positive thoughts message.
 
      "CommandId": "ZenYes",
      "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
@@ -84,14 +84,16 @@ In this example, we offer to possible commands. One will lead to a poem message,
               }
           ]
 
-## Display a message card 
+## Displaying a message card 
 
 A message card is made of a text + an image.
+
 The Action used to show a message card is "ShowCard"
-To display a message card, you also need to specify the source of the message.
+
+To display a message card, you need to specify the source of the message.
 One way of doing that is to specify a message "Intention" : this is a message categorie such as "GoodMorning", "ThankYou", "Positive thoughts". We could also specify a message Area, which is a group of Intentions.
 
-Here is an example of two choices of cards:
+This is how we offer useres to choose betweeen the Intention "Poems" (it's Intention Id is "43B296") and the Intention "Positive thougts" (it's Intention Id is "67CC40") 
 
        Commands:         
          [
