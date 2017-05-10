@@ -14,7 +14,7 @@
             }
             ,
             {   
-            "Action": "ShowCommandsNext",
+            "Action": "Exit",
             "CommandId": "AdvertNo",
             "Label": [ { "en": "No" },{ "fr": "Non" },{"es": "No" }]
             }
