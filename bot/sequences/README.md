@@ -141,8 +141,7 @@ When users clicks "Yes", before displaying further commands the bot will display
 - an animated gif (OptionalMediaType -> defines the type of the Media)
 - pulled from website Giphy (OptionalMediaSource -> defines the source of the content)
 - using id oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
-If OptionalMediaSource was "Web", OptionalMediaPath would contain a full url.
-If OptionalMediaSource was "Internal", OptionalMediaPath would contain the path of one of our own images.
+- If OptionalMediaSource was "Web", OptionalMediaPath would contain a full url. If OptionalMediaSource was "Internal", OptionalMediaPath would contain the path of one of our own images.
 
 ## Putting it all together
 
