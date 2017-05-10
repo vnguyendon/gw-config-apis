@@ -12,9 +12,9 @@ In this sequence, as a user:
 * The bot asksme a question ("A little comfort?")
 * The bot suggests answers as a set of commands ("Yes" or "No")
 * I pick Yes
-* The bot suggests two message categories (Poems and positive thoughts)
-* I pick one
-* The bot displays a random message from the message categorie (also called an Intention) that I picked
+* The bot suggests two message categories ("Poems" and "Positive thoughts")
+* I pick one those message categories (also called Intentions)
+* The bot displays a random message from the selected message categorie
 
 ## Asking a question
 
@@ -91,9 +91,9 @@ A message card is made of a text + an image.
 The Action used to show a message card is "ShowCard"
 
 To display a message card, you need to specify the source of the message.
-One way of doing that is to specify a message "Intention" : this is a message categorie such as "GoodMorning", "ThankYou", "Positive thoughts". We could also specify a message Area, which is a group of Intentions.
+One way of doing that is to specify a message "Intention" : this is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". We need to know their Intention Id (We could also specify other sources, such as message Areas, which are groups of Intentions, or message recommandations, which take into account the user personality traits, context and app usage)
 
-This is how we offer useres to choose betweeen the Intention "Poems" (it's Intention Id is "43B296") and the Intention "Positive thougts" (it's Intention Id is "67CC40") 
+This is how we offer useres to choose betweeen the Intention "Poems" (Intention Id "43B296") and the Intention "Positive thougts" (Intention Id is "67CC40") 
 
        Commands:         
          [
@@ -112,42 +112,34 @@ This is how we offer useres to choose betweeen the Intention "Poems" (it's Inten
              }
          ]
 
-In this example 67CC40 is the code name for Tntention: positive-thoughts (which contains a library of messages that express positive thoughts), and TargetDescription contains a human readable description of what we want to say.
+## Exiting the sequence
 
+As a user, if I choose "No" to the first question, I will terminate the sequence.
+The Action for that is "Exit". 
 
-## Exit the conversation
-
-The user can also choose to select the Command "No" to the bot's question, leading the conversation to a dead-end. This sequence needs to be followed by an Action as well.
-
-A common Action for this type of interaction is "Exit". Here is an example:
-
-     "Action": "Exit",
      "CommandId": "ZenNo",
      "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+     "Action": "Exit"
 
-The "Exit" Action will redirect the user to the main menu. 
+## Optional step content
 
-## Reacting to the user's choice
-
-When the user interacts with the bot, we want the bot be able to react with a direct pre-defined piece of content. We will call this direct reaction an 'instant feedback'
-This instant feedback usually appears after the user makes a choice and before the bot's next message.
-
-Here is an example of this, applied to the ZenYes command: 
+When describing a sequence step, to make it more enticing, we can specify an extra piece of content that will be displayed above the sequence question and/or the sequence command set. 
+Here is an example in the context of the ZenYes command: 
 
     "CommandId": "ZenYes",
+    "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
     "OptionalMediaType": "AnimatedGif",
     "OptionalMediaSource": "Giphy",
     "OptionalMediaPath": "oXV6IEt10fvIQ",
-    "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
          
-When the user clicks "Yes" to the question "A little comfort?", the bot should then send:
-- an Animated Gif (OptionalMediaType -> defines the type of the Media)
-- pulled from the website Giphy (OptionalMediaSource -> defines the source of the content)
-- with the URL path: oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
+When users clicks "Yes", before displaying further commands the bot will display:
+- an animated gif (OptionalMediaType -> defines the type of the Media)
+- pulled from website Giphy (OptionalMediaSource -> defines the source of the content)
+- using id oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
+If OptionalMediaSource was "Web", OptionalMediaPath would contain a full url.
+If OptionalMediaSource was "Internal", OptionalMediaPath would contain the path of one of our own images.
 
-## Summary of the sequence
-
-The sequence we just built bit by bit through the examples is here:
+## Putting it all together
 
      [
      {
@@ -157,41 +149,36 @@ The sequence we just built bit by bit through the examples is here:
           "Commands": 
              [
                  {
-                 "Action": "ShowCommands",
                  "CommandId": "ZenYes",
                  "OptionalMediaType": "AnimatedGif",
                  "OptionalMediaSource": "Giphy",
                  "OptionalMediaPath": "oXV6IEt10fvIQ",
                  "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+                 "Action": "ShowCommands",
                  "Commands": 
                      [
                          { 
                          "Action": "ShowCards",
-                         "CommandId": "SuggestionsPoems", 
+                         "CommandId": "PoemSuggestions", 
                          "TargetType": "Intention", 
-                         "TargetId": "43B296", 
-                         "TargetDescription": "poems" 
+                         "TargetId": "43B296"
                          }
                          ,
                          { 
                          "Action": "ShowCards",  
-                         "CommandId": "SuggestionsPositiveThoughts",
+                         "CommandId": "PositiveThoughtsSuggestions",
                          "TargetType": "Intention", 
-                         "TargetId": "67CC40", 
-                         "TargetDescription": "positive-thoughts" 
+                         "TargetId": "67CC40"
                          }
                      ]
                  }
                  ,
                  {
-                 "Action": "Exit",
                  "CommandId": "ZenNo",
-                 "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+                 "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+                 "Action": "Exit"
                  }
              ]
      }
      ]
-
-
-
 
