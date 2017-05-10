@@ -32,8 +32,8 @@ The following json sample describes a question asked by the bot, with its transl
               ],
      
 Each question has a QuestionId, so we need to add a QuestionId attribute:
-     "Action": "ShowQuestion",
-     "QuestionId": "WouldYouLikeToFeelZen",
+- "QuestionId": "WouldYouLikeToFeelZen"
+
 The json becomes: 
 
      "Action": "ShowQuestion",
@@ -65,8 +65,8 @@ Each command has a unique CommandId.
 ## Displaying a second set of commands
 
 As a user, after I choose Yes, I get to choose a message categorie.
-This time, I don't see a question, just a set of commands. 
-In that case instead of "ShowQuestion", the Action for this step is "ShowCommands"
+- This time, I don't see a question, just a set of commands. 
+- In that case, instead of "ShowQuestion", the Action for this step is "ShowCommands"
 
 In our example, one command will lead to a poem message, the other will lead to a positive thoughts message.
 
@@ -184,4 +184,3 @@ If OptionalMediaSource was "Internal", OptionalMediaPath would contain the path 
              ]
      }
      ]
-
