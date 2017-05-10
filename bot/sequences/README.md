@@ -2,19 +2,20 @@
 Sequences
 =================
 
-- A sequence is a set of conversational steps between a user and a bot. 
-- Those steps can consist in asking a question or providing an answer. 
-- This guide explains how to implement sequences stored in folder gw-config-apis/bot/sequences [mettre le lien]
+- A sequence is a set of conversational steps between a user and a bot
+- Those steps typically consist in asking a question or providing an answer
+- This guide walks you through an example
+- Sequence files can be found here: https://github.com/GhostWording/gw-config-apis/tree/master/bot/sequences
 
 ## Scenario
 
 In this sequence, as a user:
-* The bot asksme a question ("A little comfort?")
+* The bot asks me a question ("A little comfort?")
 * The bot suggests answers as a set of commands ("Yes" or "No")
 * I pick Yes
 * The bot suggests two message categories ("Poems" and "Positive thoughts")
-* I pick one those message categories (also called Intentions)
-* The bot displays a random message from the selected message categorie
+* I pick one those message categories (we call them message Intentions)
+* The bot displays a random message from the selected Intention
 
 ## Asking a question
 
@@ -45,9 +46,8 @@ The json becomes:
      
 ## Displaying command buttons below the question
 
-To answer a question, users typically choose from a set of commands. 
+As a user, to answer a question, I  typically choose from a set of commands. 
 Each command has a unique CommandId. 
-A set of commands  can be described as follow:
     
     Commands: 
       [
@@ -65,10 +65,10 @@ A set of commands  can be described as follow:
 ## Displaying a second set of commands
 
 As a user, after I choose Yes, I get to choose a message categorie.
-This time I don't see a question, just a set of commands. 
+This time, I don't see a question, just a set of commands. 
 In that case instead of "ShowQuestion", the Action for this step is "ShowCommands"
 
-In our example, one command will lead to a poem message, the other to a positive thoughts message.
+In our example, one command will lead to a poem message, the other will lead to a positive thoughts message.
 
      "CommandId": "ZenYes",
      "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
@@ -86,14 +86,17 @@ In our example, one command will lead to a poem message, the other to a positive
 
 ## Displaying a message card 
 
-A message card is made of a text + an image.
-
-The Action used to show a message card is "ShowCard"
+We now want to show a poem or a positive thoughts message as a message card. 
+- A message card is made of a text + an image.
+- The Action used to show a message card is "ShowCard"
 
 To display a message card, you need to specify the source of the message.
-One way of doing that is to specify a message "Intention" : this is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". We need to know their Intention Id (We could also specify other sources, such as message Areas, which are groups of Intentions, or message recommandations, which take into account the user personality traits, context and app usage)
+- One way of specifying the source of a message is to specify a message "Intention". 
+- An intention is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". 
+- We need to know the relevant Intention Id.
+- Alternativaly, we could specify other sources, such as message Areas, which are groups of Intentions, or message recommandations, which take into account the user personality traits, past app usage or current context.
 
-This is how we offer useres to choose betweeen the Intention "Poems" (Intention Id "43B296") and the Intention "Positive thougts" (Intention Id is "67CC40") 
+In this example, as a user, I can choose betweeen the Intention "Poems" (Intention Id "43B296") and the Intention "Positive thougts" (Intention Id is "67CC40") 
 
        Commands:         
          [
@@ -121,7 +124,7 @@ The Action for that is "Exit".
      "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
      "Action": "Exit"
 
-## Optional step content
+## Optional content
 
 When describing a sequence step, to make it more enticing, we can specify an extra piece of content that will be displayed above the sequence question and/or the sequence command set. 
 Here is an example in the context of the ZenYes command: 
