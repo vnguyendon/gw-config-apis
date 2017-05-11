@@ -1,6 +1,6 @@
 
 [
-  all-sequences:
+  "all-sequences":
       {
       "/bot/sequences/AreYouSingle.json",
       "/bot/sequences/CreateAnimatedEmoji.json",
