@@ -1,7 +1,7 @@
 
-[
+{
   "all-sequences":
-      {
+      [
       "/bot/sequences/AreYouSingle.json",
       "/bot/sequences/CreateAnimatedEmoji.json",
       "/bot/sequences/HaveYouRegrets.json",
@@ -11,5 +11,5 @@
       "/bot/sequences/TalkToMe.json",
       "/bot/sequences/WantMessageSuggestions.json",
       "/bot/sequences/WhatLikeSending.json"
-      } 
-]
+      ] 
+}
