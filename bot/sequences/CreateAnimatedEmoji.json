@@ -17,7 +17,7 @@
             "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
             },
             {
-            "Action": "Exit",
+            "Action": "Nothing",
             "CommandId": "AnimatedEmojiNo",
             "Label": [{ "en": "No" }, { "fr": "Non" },{ "es": "No" }]
             }
