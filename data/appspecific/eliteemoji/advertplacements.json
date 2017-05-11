@@ -20,6 +20,12 @@
       "AndroidId": "1727516507493157_1926436330934506"
     },
     {
+      "name": "belowStickerCategoriesAndroidInterstitial",
+      "type": "interstitial",
+      "iOSId": "1727516507493157_1939319619646177",
+      "AndroidId": "1727516507493157_1939319042979568"
+    },
+    {
       "name": "belowImageGalleries",
       "type": "native",
       "iOSId": "1727516507493157_1926437010934438",
