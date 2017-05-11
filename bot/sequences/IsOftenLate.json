@@ -41,7 +41,7 @@
             "OptionalMediaType": "AnimatedGif",
             "OptionalMediaSource": "Giphy",
             "OptionalMediaPath": "K8Ec9kPOCwRSU" ,                                           
-            "Label-A":  [{"en":"No"} ,{"fr":"Non"},{"es":"No"}]                                               
+            "Label":  [{"en":"No"} ,{"fr":"Non"},{"es":"No"}]                                               
             }                                                       
         ]                                                           
 }                                                                 
