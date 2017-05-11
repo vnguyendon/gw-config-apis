@@ -5,47 +5,46 @@
      "QuestionId": "LateBirthday",
      "Label": 
         [
-        { "en": "Have you forgotten to wish someone a happy birthday recently?" },
-        { "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?" },
-        { "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?" }
+             { "en": "Have you forgotten to wish someone a happy birthday recently?" },
+             { "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?" },
+             { "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?" }
         ],
      "Commands": 
         [
             {
-            "CommandAction": "ShowCommand",
             "CommandId": "LateBirthdayYes",
             "OptionalMediaType": "AnimatedGif",
             "OptionalMediaSource": "Giphy",
             "OptionalMediaPath": "oXV6IEt10fvIQ",
             "CommandLabel": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-                "QuestionAction": "ShowQuestion",
-                "QuestionId": "LateBirthdayWish",
-                "QuestionLabel": 
-                    [
-                    { "en": "Would you like to wish this person a late happy birthday?" },
-                    { "fr": "Est-ce que tu voudrais lui envoyer un message?" },
-                    { "es": "Le gustaría enviarle un mensaje?" }
-                    ],
-                "Commands": 
-                    [
-                        {
-                        "Action": "ShowCards",
-                        "CommandId": "LateBirthdayWishYes",
-                        "TargetType": "Intention",
-                        "TargetId": "A730B4",
-                        "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
-                        },
-                        {
-                        "Action": "ShowCommandsLater",
-                        "CommandId": "LateBirthdayWishLater",
-                        "Label": [{ "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }]
-                        },
-                        {
-                        "Action": "Exit",
-                        "CommandId": "LateBirthdayWishNo",
-                        "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
-                        }
-                    ]
+           "Action": "ShowQuestion",
+           "QuestionId": "LateBirthdayWish",
+           "QuestionLabel": 
+               [
+               { "en": "Would you like to wish this person a late happy birthday?" },
+               { "fr": "Est-ce que tu voudrais lui envoyer un message?" },
+               { "es": "Le gustaría enviarle un mensaje?" }
+               ],
+           "Commands": 
+               [
+                   {
+                   "Action": "ShowCards",
+                   "CommandId": "LateBirthdayWishYes",
+                   "TargetType": "Intention",
+                   "TargetId": "A730B4",
+                   "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+                   },
+                   {
+                   "Action": "ShowCommandsLater",
+                   "CommandId": "LateBirthdayWishLater",
+                   "Label": [{ "en": "Later" },{ "fr": "Plus tard" },{ "es": "Mas Tarde" }]
+                   },
+                   {
+                   "Action": "Exit",
+                   "CommandId": "LateBirthdayWishNo",
+                   "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+                   }
+               ]
             },
             {
             "Action": "Exit",  
