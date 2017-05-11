@@ -9,18 +9,18 @@
             { "fr": "Veux-tu créer un emoji animé ?" },
             { "es": "¿Te gustaría crear un emoji animado?" }
         ],
-        "Commands": 
-            [
-                {
-                "Action": "CreateAnimatedEmoji",
-                "CommandId": "AnimatedEmojiYes",
-                "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
-                },
-                {
-                "Action": "Exit",
-                "CommandId": "AnimatedEmojiNo",
-                "Label": [{ "en": "No" }, { "fr": "Non" },{ "es": "No" }]
-                }
-            ]
+    "Commands": 
+        [
+            {
+            "Action": "CreateAnimatedEmoji",
+            "CommandId": "AnimatedEmojiYes",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+            },
+            {
+            "Action": "Exit",
+            "CommandId": "AnimatedEmojiNo",
+            "Label": [{ "en": "No" }, { "fr": "Non" },{ "es": "No" }]
+            }
+        ]
 }
 ]
