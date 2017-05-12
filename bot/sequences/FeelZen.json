@@ -1,67 +1,72 @@
 
 [
 {
-     "Action": "ShowQuestion",
-     "QuestionId": "WouldYouLikeToFeelZen",
-     "Label": [{ "en": "A little comfort?" },{ "fr": "Un peu de récomfort ?" },{ "es": "¿Un pequeño zen?" }],
-     "Commands": 
-        [
-            {
-            "Action": "ShowCommands",
-            "CommandId": "ZenYes",
-            "OptionalMediaType": "AnimatedGif",
-            "OptionalMediaSource": "Giphy",
-            "OptionalMediaPath": "oXV6IEt10fvIQ",
-            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-            "Commands": 
-                [
-                    { 
-                    "Action": "ShowCards",
-                    "CommandId": "SuggestionsPoems", 
-                    "TargetType": "Intention", 
-                    "TargetId": "43B296", 
-                    "TargetDescription": "poems" 
-                    },
-                    { 
-                    "Action": "ShowCards",  
-                    "CommandId": "SuggestionsPositiveThoughts",
-                    "TargetType": "Intention", 
-                    "TargetId": "67CC40", 
-                    "TargetDescription": "positive-thoughts" 
-                    },
-                    { 
-                    "Action": "ShowImages", 
-                    "CommandId": "SuggestionsNature", 
-                    "TargetType": "Theme", 
-                    "TargetId": "themes/nature",
-                    "Label": [{ "en": "Nature" },{ "fr": "Nature" },{ "es": "TBD" }]
+    "Action": "ShowQuestion",
+    "Question":
+        {
+        "QuestionId": "WouldYouLikeToFeelZen",
+        "Label": [{ "en": "A little comfort?" },{ "fr": "Un peu de récomfort ?" },{ "es": "¿Un pequeño zen?" }],
+        "Choices": 
+            [
+                {
+                "Id": "ZenYes",
+                "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+                "OptionalFeedback": {"Type": "AnimatedGif","Source": "Giphy","Path": "oXV6IEt10fvIQ"},
+                "Action": "ShowQuestion",
+                "Question": 
+                    {
+                    "QuestionId": "nill",
+                    "Label": "nill",
+                    "Choices": 
+                        [
+                            {
+                            "Id": "SuggestionsPoems",
+                            "Action": "ShowCards",
+                            "CardSource": {"Type": "Intention", "Id": "43B296", "Description": "poems"}
+                            }
+                            ,
+                            {
+                            "Id": "SuggestionsPositiveThoughts",
+                            "Action": "ShowCards",
+                            "CardSource": {"Type": "Intention", "Id": "67CC40", "Description": "positive-thoughts"}
+                            }
+                            ,
+                            {
+                            "Id": "SuggestionsNature",
+                            "Label": [{ "en": "Nature" },{ "fr": "Nature" },{ "es": "Naturaleza" }],
+                            "Action": "ShowCards",
+                            "CardSource": {"Type": "Theme", "Id": "themes/nature"}
+                            }
+                        ]
                     }
-                ]
-            }
-            ,
-            {
-            "Action": "ShowCommands",
-            "CommandId": "ZenNo",
-            "TargetType": "Custom",
-            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
-            "Commands": 
-                [
-                    { 
-                    "Action": "ShowCards",
-                    "CommandId": "ZenStopWorld", 
-                    "TargetType": "Intention", 
-                    "TargetId": "451563", 
-                    "TargetDescription": "stop-the-world" 
-                    },
-                    { 
-                    "Action": "ShowCards",
-                    "CommandId": "ZenIAmHereForYou", 
-                    "TargetType": "Intention", 
-                    "TargetId": "03B6E4", 
-                    "TargetDescription": "I-am-here-for-you" 
+                }
+                ,
+                {
+                "Id": "ZenNo",
+                "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+                "Action": "ShowQuestion",
+                "Question": 
+                    {
+                    "QuestionId": "nill",
+                    "Label": "nill",
+                    "Choices": 
+                        [
+                            {
+                            "Id": "ZenStopWorld",
+                            "Action": "ShowCards",
+                            "CardSource": {"Type": "Intention", "Id": "451563", "Description": "stop-the-world"}
+                            }
+                            ,
+                            {
+                            "Id": "ZenIAmHereForYou",
+                            "Action": "ShowCards",
+                            "CardSource": {"Type": "Intention", "Id": "03B6E4", "Description": "I-am-here-for-you"}                            
+                            }
+                        ]
                     }
-                ]
-            }
-        ]
+                }
+            ]
+     }
 }
+]
 ]
