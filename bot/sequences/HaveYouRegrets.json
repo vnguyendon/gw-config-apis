@@ -1,10 +1,9 @@
 
 [
 {
-     "Action": "ShowQuestion",
      "QuestionId": "DoYouHaveRegrets",
      "Label": [{ "en": "Do you have regrets?" },{ "fr": "Avez-vous des regrets ?"},{ "es": "¿Tiene algún remordimiento?" }],
-     "Commands": 
+     "Choices": 
         [
             {
             "Action": "ShowCards",
