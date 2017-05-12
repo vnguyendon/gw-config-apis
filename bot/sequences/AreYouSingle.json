@@ -1,22 +1,49 @@
-
 [
-{
-    "Action": "ShowQuestion",
+  {
     "QuestionId": "AreYouSingle",
-    "Label": [{ "en": "Are you single?" },{ "fr": "Es-tu célibataire ?" },{ "es": "¿Estas soltero?" }],
-    "Commands": 
-        [
-            {
-            "Action": "EnableSingleMode",
-            "CommandId": "SingleYes",
-            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
-            },
-            {
-            "Action": "DisableSingleMode",
-            "CommandId": "SingleNo",
-            "Label": [{"en": "No" },{ "fr": "Non" },{ "es": "No" }]
-            }
+    "Label": [
+      {
+        "en": "Are you single?"
+      },
+      {
+        "fr": "Es-tu célibataire ?"
+      },
+      {
+        "es": "¿Estas soltero?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "EnableSingleMode",
+        "Id": "SingleYes",
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
         ]
-}
+      },
+      {
+        "Action": "DisableSingleMode",
+        "Id": "SingleNo",
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ]
+      }
+    ]
+  }
 ]
 
