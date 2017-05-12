@@ -1,51 +1,108 @@
-[                                                                           
-{                                                                      
-    "Action": "ShowQuestion", 
-    "Question": 
-        { 
-        "QuestionId":"AreYouOftenLate",                                                                  
-        "Label": [{"en":"Are you often late?"},{"fr":"Es-tu souvent en retard?"},{"es":"¿Está a menudo tarde?"}],                                                               
-        "Choices": 
-            [                                                           
+[
+  {
+    "QuestionId": "AreYouOftenLate",
+    "Label": [
+      {
+        "en": "Are you often late?"
+      },
+      {
+        "fr": "Es-tu souvent en retard?"
+      },
+      {
+        "es": "¿Está a menudo tarde?"
+      }
+    ],
+    "Choices": [
+      {
+        "Id": "OftenLate",
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
+        ],
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "V2MJADdC027gk"
+        },
+        "Action": "ShowQuestion",
+        "Question": {
+          "QuestionId": "CanISuggestOftenLateMessages",
+          "Label": [
+            {
+              "en": "Can I suggest you messages to send when you're late?"
+            },
+            {
+              "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?"
+            },
+            {
+              "es": "¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"
+            }
+          ],
+          "Choices": [
+            {
+              "Id": "OftenLateMessageYes",
+              "Label": [
                 {
-                "Id": "OftenLate",
-                "Label":[{"en":"Yes"},{"fr":"Oui"},{"es":"Si" }],
-                "OptionalFeedback": {"Type": "AnimatedGif","Source": "Giphy","Path": "V2MJADdC027gk"},                                                                              
-                "Action":"ShowQuestion",
-                "Question": 
-                    {
-                    "QuestionId":"CanISuggestOftenLateMessages",
-                    "Label":
-                        [                                   
-                            {"en":"Can I suggest you messages to send when you're late?"},           
-                            {"fr":"Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?"},           
-                            {"es":"¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"}                
-                        ],
-                    "Choices": 
-                        [
-                            { 
-                            "Id": "OftenLateMessageYes",             
-                            "Label": [{"en":"Yes"},{"fr":"Oui"},{"es":"Si" }],              
-                            "Action": "ShowCards",
-                            "CardSource": {"Type": "Intention","Id": "9B2C8B"}
-                            }
-                            ,                                
-                            {
-                            "Id":"OftenLateMessageNo",               
-                            "Label":  [{"en":"No" },{"fr":"Non"},{"es":"No" }],   
-                            "Action":"Nothing"                    
-                            }                       
-                        ]     
-                    }                               
+                  "en": "Yes"
+                },
+                {
+                  "fr": "Oui"
+                },
+                {
+                  "es": "Si"
                 }
-                ,                     
+              ],
+              "Action": "ShowCards",
+              "CardSource": {
+                "Type": "Intention",
+                "Id": "9B2C8B"
+              }
+            },
+            {
+              "Id": "OftenLateMessageNo",
+              "Label": [
                 {
-                "Id":"NotOftenLate",
-                "Label": [{"en":"No"} ,{"fr":"Non"},{"es":"No"}],                                               
-                "OptionalFeedback": {"Type": "AnimatedGif","Source": "Giphy","Path": "K8Ec9kPOCwRSU"},                                      
-                "Action": "Nothing"  
-                }                                                   
-            ]                                      
-        }                                                                                       
-}                                                                 
+                  "en": "No"
+                },
+                {
+                  "fr": "Non"
+                },
+                {
+                  "es": "No"
+                }
+              ],
+              "Action": "Nothing"
+            }
+          ]
+        }
+      },
+      {
+        "Id": "NotOftenLate",
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ],
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "K8Ec9kPOCwRSU"
+        },
+        "Action": "Nothing"
+      }
+    ]
+  }
 ] 
