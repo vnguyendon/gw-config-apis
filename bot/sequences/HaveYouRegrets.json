@@ -1,26 +1,58 @@
-
 [
-{
-     "QuestionId": "DoYouHaveRegrets",
-     "Label": [{ "en": "Do you have regrets?" },{ "fr": "Avez-vous des regrets ?"},{ "es": "¿Tiene algún remordimiento?" }],
-     "Choices": 
-        [
-            {
-            "Action": "ShowCards",
-            "CommandId": "RegretsYes",
-            "TargetType": "Intention", 
-            "TargetId": "03B6E4",
-            "TargetDescription": "I-am-here-for-you",
-            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
-            },
-            {
-            "Action": "ShowCards",
-            "CommandId": "RegretsNo",
-            "TargetType": "Intention",
-            "TargetId": "8FB4AF",
-            "TargetDescription": "you-are-the-best",
-            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
-            }
+  {
+    "QuestionId": "DoYouHaveRegrets",
+    "Label": [
+      {
+        "en": "Do you have regrets?"
+      },
+      {
+        "fr": "Avez-vous des regrets ?"
+      },
+      {
+        "es": "¿Tiene algún remordimiento?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "ShowCards",
+        "Id": "RegretsYes",
+        "CardSource": {
+          "Type": "Intention",
+          "Id": "03B6E4",
+          "Description": "I-am-here-for-you"
+        },
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
         ]
-}
+      },
+      {
+        "Action": "ShowCards",
+        "Id": "RegretsNo",
+        "CardSource": {
+          "Type": "Intention",
+          "Id": "8FB4AF",
+          "Description": "you-are-the-best"
+        },
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ]
+      }
+    ]
+  }
 ]
