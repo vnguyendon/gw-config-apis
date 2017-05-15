@@ -1,0 +1,66 @@
+
+[
+  {
+    "QuestionId": "RealBot",
+    "Label": [
+      {
+        "en": "Do you think I am a real bot or a cool sexy human pretending to be a bot?"
+      },
+      {
+        "fr": "Penses-tu que je sois un vrai bot ou juste un humain cool et sexy qui prétend être un bot?"
+      },
+      {
+        "es": "¿Cree que soy un robot real o simplemente un ser humano fresco y sexy que dice ser un bot?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "Nothing",
+        "Id": "RealBotYes",
+        "Label": [
+          {
+            "en": "A real bot !"
+          },
+          {
+            "fr": "Un vrai bot !"
+          },
+          {
+            "es": "Un robot real !"
+          }
+        ]
+      },
+      {
+        "Action": "Nothing",
+        "Id": "CoolSexyHuman",
+        "Label": [
+          {
+            "en": "A cool, sexy human"
+          },
+          {
+            "fr": "Un humain cool et sexy"
+          },
+          {
+            "es": "Un humano fesco y sexy"
+          }
+        ]
+      },
+      {
+        "Action": "Nothing",
+        "Id": "ZombieKitten",
+        "Label": [
+          {
+            "en": "A zombie kitten.."
+          },
+          {
+            "fr": "Un chaton zombie.."
+          },
+          {
+            "es": "Un gatito zombie.."
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
