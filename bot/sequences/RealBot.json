@@ -17,6 +17,11 @@
       {
         "Action": "Nothing",
         "Id": "RealBotYes",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "1Mng0gXC5Tpcs"
+        },
         "Label": [
           {
             "en": "A real bot !"
@@ -32,6 +37,11 @@
       {
         "Action": "Nothing",
         "Id": "CoolSexyHuman",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "TZFmvyDvr3WaQ"
+        },
         "Label": [
           {
             "en": "A cool, sexy human"
@@ -47,6 +57,11 @@
       {
         "Action": "Nothing",
         "Id": "ZombieKitten",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "UIpzEC5QTvuOQ"
+        },
         "Label": [
           {
             "en": "A zombie kitten.."
@@ -62,5 +77,6 @@
     ]
   }
 ]
+
 
 
