@@ -49,6 +49,7 @@
             {
               "Action": "ShowCards",
               "Id": "LateBirthdayWishYes",
+              "StepValue" : "1", 
               "CardSource": {
                 "Type": "Intention",
                 "Id": "A730B4"
