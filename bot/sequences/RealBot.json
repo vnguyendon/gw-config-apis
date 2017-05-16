@@ -24,13 +24,13 @@
         },
         "Label": [
           {
-            "en": "A real bot !"
+            "en": "Real bot"
           },
           {
-            "fr": "Un vrai bot !"
+            "fr": "Un vrai bot"
           },
           {
-            "es": "Un robot real !"
+            "es": "Un robot real"
           }
         ]
       },
@@ -44,13 +44,13 @@
         },
         "Label": [
           {
-            "en": "A cool, sexy human"
+            "en": "Cool human"
           },
           {
-            "fr": "Un humain cool et sexy"
+            "fr": "Un humain cool"
           },
           {
-            "es": "Un humano fesco y sexy"
+            "es": "Un humano fesco"
           }
         ]
       },
@@ -64,13 +64,13 @@
         },
         "Label": [
           {
-            "en": "A zombie kitten.."
+            "en": "A zombie kitten"
           },
           {
-            "fr": "Un chaton zombie.."
+            "fr": "Un chaton zombie"
           },
           {
-            "es": "Un gatito zombie.."
+            "es": "Un gatito zombie"
           }
         ]
       }
