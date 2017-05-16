@@ -11,6 +11,7 @@
       "/bot/sequences/WantMessageSuggestions.json",
       "/bot/sequences/WhatLikeSending.json",
       "/bot/sequences/RealBot.json",
-      "/bot/sequences/FirstTimeBot.json"
+      "/bot/sequences/FirstTimeBot.json",
+      "/bot/sequences/Age.json"
       ] 
 }
