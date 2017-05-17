@@ -17,6 +17,7 @@
       {
         "Action": "Nothing",
         "Id": "RealBotYes",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
@@ -37,6 +38,7 @@
       {
         "Action": "Nothing",
         "Id": "CoolSexyHuman",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
@@ -57,6 +59,7 @@
       {
         "Action": "Nothing",
         "Id": "ZombieKitten",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
