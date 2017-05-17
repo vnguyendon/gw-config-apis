@@ -15,6 +15,7 @@
     "Choices": [
       {
         "Id": "OftenLate",
+        "StepValue" : "1",
         "Label": [
           {
             "en": "Yes"
@@ -48,6 +49,7 @@
           "Choices": [
             {
               "Id": "OftenLateMessageYes",
+              "StepValue" : "1",
               "Label": [
                 {
                   "en": "Yes"
@@ -67,6 +69,7 @@
             },
             {
               "Id": "OftenLateMessageNo",
+              "StepValue" : "0",
               "Label": [
                 {
                   "en": "No"
@@ -85,6 +88,7 @@
       },
       {
         "Id": "NotOftenLate",
+        "StepValue" : "0",
         "Label": [
           {
             "en": "No"
