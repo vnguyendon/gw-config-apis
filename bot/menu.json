@@ -245,6 +245,31 @@
       },
       {
         "es": "Establecer un recordatorio"
+      },
+      {
+    "CommandId": "TalkToMe",
+    "ImageName": "iStock_000010808899_Medium.jpg",
+    "Action": "TalkToMe",
+    "Title": [
+      {
+        "en": "Huggy"
+      },
+      {
+        "fr": "Huggy"
+      },
+      {
+        "es": "Huggy"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Let's talk"
+      },
+      {
+        "fr": "Parlons"
+      },
+      {
+        "es": "Hablemos"
       }
     ]
   }
