@@ -16,6 +16,7 @@
       {
         "Action": "ShowCards",
         "Id": "SuggestionsJoke",
+        "StepValue" : "1",
         "CardSource": {
           "Type": "Intention",
           "Id": "0B1EA1"
@@ -24,6 +25,7 @@
       {
         "Action": "ShowCards",
         "Id": "SuggestionsPoems",
+        "StepValue" : "1",
         "CardSource": {
           "Type": "Intention",
           "Id": "43B296"
@@ -32,6 +34,7 @@
       {
         "Action": "Nothing",
         "Id": "SuggestionsNo",
+        "StepValue" : "0",
         "Label": [
           {
             "en": "No"
