@@ -11,78 +11,83 @@ Sequences
 
 In this sequence, as a user:
 * The bot asks me a question ("A little comfort?")
-* The bot suggests answers as a set of commands ("Yes" or "No")
-* I pick Yes
+* The bot suggests answers as a set of choices ("Yes" or "No")
+* I choose Yes
 * The bot suggests two message categories ("Poems" and "Positive thoughts")
-* I pick one those message categories (we call them message Intentions)
+* I choose one those message categories (we call them message Intentions)
 * The bot displays a random message from the selected Intention
 
 ## Asking a question
 
-An sequence contains Actions. 
-The most common Action is "ShowQuestion"  
+Question steps are identified by the presence of a "QuestionId"
 
 The following json sample describes a question asked by the bot, with its translations
 
-     "Action": "ShowQuestion",
-     "Label": [
-              { "en": "A little comfort?" },
-              { "fr": "Un peu de récomfort ?" },
-              { "es": "¿Un pequeño zen?" }
-              ],
-     
-Each question has a QuestionId, so we need to add a QuestionId attribute:
-- "QuestionId": "WouldYouLikeToFeelZen"
-
-The json becomes: 
-
-     "Action": "ShowQuestion",
      "QuestionId": "WouldYouLikeToFeelZen",
      "Label": [
               { "en": "A little comfort?" },
               { "fr": "Un peu de récomfort ?" },
               { "es": "¿Un pequeño zen?" }
-              ],
+              ]
      
-## Displaying command buttons below the question
+## Displaying choices buttons below the question
 
-As a user, to answer a question, I  typically choose from a set of commands. 
-Each command has a unique CommandId. 
+As a user, to answer a question, I  typically choose from a set of choices. 
+Each choice has a unique Id. 
     
-    Commands: 
+    Choices: 
       [
           {    
-            "CommandId": "ZenYes",
+            "Id": "ZenYes",
             "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
            }
            ,
            {
-            "CommandId": "ZenNo",
+            "Id": "ZenNo",
             "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
            }
       ]      
       
-## Displaying a second set of commands
+## Displaying a second set of choices
 
-As a user, after I choose Yes, I get to choose a message categorie.
-- This time, I don't see a question, just a set of commands. 
-- In that case, instead of "ShowQuestion", the Action for this step is "ShowCommands"
+After the user makes a choice, an Action will take place. The Action will be described below the choice.
 
-In our example, one command will lead to a poem message, the other will lead to a positive thoughts message.
+For instance, if I were to choose "yes" to the previous question, the sequence could then be:
 
-     "CommandId": "ZenYes",
-     "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-     "Action": "ShowCommands",
-     "Commands":         
+    Choices: 
+      [
+          {    
+            "Id": "ZenYes",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+            "Action": "ShowChoices",
+           }
+           ,
+           ...
+           
+- In this case, we want to display a second set of choices, 
+- There is no question, just a set of choices offered directly to the user as a consequence of the first choice
+
+In our example, one choice will lead to a poem message, the other will lead to a positive thoughts message.
+
+     "Choices":
+     [
+          {
+          "Id": "ZenYes",
+          "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+          "Action": "ShowChoices",
+          "Choices":         
           [
               { 
-             "CommandId": "PoemSuggestions",
+             "Id": "PoemSuggestions",
               }
               ,
               { 
-              "CommandId": "PositiveThoughtsSuggestions",
+              "Id": "PositiveThoughtsSuggestions",
               }
           ]
+          }
+          ,
+          ...
 
 ## Displaying a message card 
 
@@ -92,95 +97,147 @@ We now want to show a message of type "Poems" or "Positive thoughts"
 - A message card is made of a text + an image.
 - The Action used to show a message card is "ShowCard"
 
-To display a message card, we need to specify the source of the text.
-- One way of specifying the source of a  text is to specify a message "Intention". 
-- An Intention is a message categorie such as "GoodMorning", "ThankYou" or "Positive thoughts". 
+To display a message card, we need to specify the source of the text using the key "CardSource"
+- One way to fill "CardSource" is to specify a message "Intention", its "Id" and its "Description"
+- An Intention is a message category such as "GoodMorning", "ThankYou" or "Positive thoughts". 
 - We need to know the relevant Intention Id.
 - Alternativaly, we could specify other sources, such as message Areas, which are groups of Intentions, or message recommandations, which take into account the user personality traits, past app usage or current context.
 
 In this example, as a user, I can choose betweeen Intention "Poems" (Intention Id "43B296") and Intention "Positive thougts" (Intention Id "67CC40")
 
-       Commands:         
+       "Choices":         
          [
              { 
-             "CommandId": "PoemSuggestions", 
+             "Id": "PoemSuggestions", 
              "Action": "ShowCards",
-             "TargetType": "Intention", 
-             "TargetId": "43B296"
+             "CardSource": {
+               "Type": "Intention",
+               "Id": "43B296",
+               "Description": "poems"
+               }
              }
              ,
              { 
-             "CommandId": "PositiveThoughtsSuggestions",
-             "Action": "ShowCards",  
-             "TargetType": "Intention", 
-             "TargetId": "67CC40" 
+             "Id": "PositiveThoughtsSuggestions",
+             "Action": "ShowCards",
+             "CardSource": {
+               "Type": "Intention",
+               "Id": "67CC40",
+               "Description": "positive-thoughts"
+               }
              }
          ]
 
-## Exiting the sequence
+## When there is no action
 
-As a user, if I choose "No" to the first question, I will terminate the sequence.
-The Action for that is "Exit". 
+As a user, if I choose "No" to the first question, I will de facto terminate the sequence.
+The Action for that is "Nothing". 
 
+     "Action": "Nothing"
      "CommandId": "ZenNo",
      "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
-     "Action": "Exit"
+
+Eventually, it should redirect the user to a generic menu.
 
 ## Optional content
 
-When describing a sequence step, we can specify an extra piece of optional content that will be displayed above the sequence question and/or the sequence command set. 
-Here is an example which can provide fun feedback when the ZenYes command has been chosen: 
+When describing a sequence step, we can specify an extra piece of optional content that will be displayed above the sequence question and/or the sequence command set. We name this piece of optional content an Optional Feedback.
+Here is an example which can provide fun Optional Feedback when the ZenYes command has been chosen: 
 
-    "CommandId": "ZenYes",
+    "Id": "ZenYes",
     "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-    "OptionalMediaType": "AnimatedGif",
-    "OptionalMediaSource": "Giphy",
-    "OptionalMediaPath": "oXV6IEt10fvIQ",
+    "OptionalFeedback": {
+         "Type": "AnimatedGif",
+         "Source": "Giphy",
+         "Path": "oXV6IEt10fvIQ"
+     },
+     "Action": "ShowChoices",
+     ...
          
-When users clicks "Yes", before displaying further commands the bot will display:
-- an animated gif (OptionalMediaType -> defines the type of the Media)
-- pulled from website Giphy (OptionalMediaSource -> defines the source of the content)
-- using id oXV6IEt10fvIQ (OptionalMediaPath -> define the path to access the content)
-- If OptionalMediaSource was "Web", OptionalMediaPath would contain a full url. If OptionalMediaSource was "Internal", OptionalMediaPath would contain the path of one of our own images.
+When users clicks "Yes", before displaying further choices, the bot will display:
+- an animated gif (Type -> defines the type of the Media)
+- pulled from the website Giphy (Source -> defines the source of the content)
+- using id oXV6IEt10fvIQ (Path -> define the path to access the content)
+- In this case, we assume the client is using Giphy's API to call for gifs via URL code
+- If the Source was "Web", Path would contain a full url. If Source was "Internal", Path would contain the path of one of our own images.
+
+## Assessing the value of each step
+
+For analytical purposes, you may want to distinguish the steps that are the most valuable to your user from the steps that are not valuable to the user.
+To do so, you can add the field "StepValue":
+- turn it to "1" if you think this brings value to your user
+- turn it to "0" if you do not think this step is valuable to your user
+
+In our example, we think we asked a valuable question to the user if he or she answers yes - alternatively, if the answer is "no", we deem the question was not of any value to him or her. Therefore:
+
+     "Choices":
+     [
+          {
+         "Id": "ZenYes",
+         "StepValue": "1",
+         "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
+         }
+         ,
+         {
+         "Id": "ZenNo",
+         "StepValue": "0",
+         "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }]
+         }
+     ]
 
 ## Putting it all together
 
      [
-     {
-          "Action": "ShowQuestion",
+          {
           "QuestionId": "WouldYouLikeToFeelZen",
-          "Label": [{ "en": "A little comfort?" },{ "fr": "Un peu de récomfort ?" },{ "es": "¿Un pequeño zen?" }],
-          "Commands": 
+          "Label": [
+               { "en": "A little comfort?" },
+               { "fr": "Un peu de récomfort ?" },
+               { "es": "¿Un pequeño zen?" }
+           ]
+          "Choices": 
              [
                  {
-                 "CommandId": "ZenYes",
-                 "OptionalMediaType": "AnimatedGif",
-                 "OptionalMediaSource": "Giphy",
-                 "OptionalMediaPath": "oXV6IEt10fvIQ",
+                 "Id": "ZenYes",
+                 "StepValue": "1",
                  "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
-                 "Action": "ShowCommands",
-                 "Commands": 
+                 "OptionalFeeback": {
+                      "Type": "AnimatedGif",
+                      "Source": "Giphy",
+                      "Path": "oXV6IEt10fvIQ"
+                      },
+                 "Action": "ShowChoices",
+                 "Choices": 
                      [
-                         { 
-                         "CommandId": "PoemSuggestions", 
+                         {
                          "Action": "ShowCards",
-                         "TargetType": "Intention", 
-                         "TargetId": "43B296"
+                         "StepValue": "1",
+                         "Id": "PoemSuggestions",
+                         "CardSource": {
+                              "Type": "Intention",
+                              "Id": "43B296",
+                              "Description": "positive-thoughts"
+                              }
                          }
                          ,
-                         { 
-                         "CommandId": "PositiveThoughtsSuggestions",
-                         "Action": "ShowCards",  
-                         "TargetType": "Intention", 
-                         "TargetId": "67CC40"
+                         {
+                         "Action": "ShowCards",
+                         "StepValue": "1",
+                         "Id": "PositiveThoughtsSuggestions",
+                         "CardSource": {
+                              "Type": "Intention",
+                              "Id": "67CC40",
+                              "Description": "positive-thoughts"
+                              }
                          }
                      ]
                  }
                  ,
                  {
-                 "CommandId": "ZenNo",
+                 "Id": "ZenNo",
+                 "StepValue": "0",
                  "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
-                 "Action": "Exit"
+                 "Action": "Nothing"
                  }
              ]
      }
