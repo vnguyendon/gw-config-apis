@@ -15,6 +15,7 @@
     "Choices": [
       {
         "Id": "LateBirthdayYes",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
@@ -68,6 +69,7 @@
             },
             {
               "Action": "Nothing",
+              "StepValue" : "0",
               "Id": "LateBirthdayWishLater",
               "Label": [
                 {
@@ -83,6 +85,7 @@
             },
             {
               "Action": "Nothing",
+              "StepValue" : "0",
               "Id": "LateBirthdayWishNo",
               "Label": [
                 {
@@ -101,6 +104,7 @@
       },
       {
         "Id": "LateBirthdayNo",
+        "StepValue" : "0",
         "Action": "Nothing",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
