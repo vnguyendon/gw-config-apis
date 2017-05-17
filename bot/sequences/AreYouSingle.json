@@ -16,6 +16,7 @@
       {
         "Action": "EnableSingleMode",
         "Id": "SingleYes",
+        "StepValue" : "1",
         "Label": [
           {
             "en": "Yes"
@@ -31,6 +32,7 @@
       {
         "Action": "DisableSingleMode",
         "Id": "SingleNo",
+        "StepValue" : "1",
         "Label": [
           {
             "en": "No"
