@@ -17,6 +17,7 @@
       {
         "Action": "Nothing",
         "Id": "FirstTimeBotYes",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
@@ -37,6 +38,7 @@
       {
         "Action": "Nothing",
         "Id": "FirstTimeBotNo",
+        "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
