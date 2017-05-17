@@ -7,12 +7,14 @@
         [
             {
             "Action": "ShowAdvert",
+            "StepValue" : "1",
             "Id": "AdvertYes",
             "Label": [{ "en": "Yes"},{ "fr": "Oui" },{ "es": "Si" }]
             }
             ,
             {   
             "Action": "Nothing",
+            "StepValue" : "0",
             "Id": "AdvertNo",
             "Label": [ { "en": "No" },{ "fr": "Non" },{"es": "No" }]
             }
