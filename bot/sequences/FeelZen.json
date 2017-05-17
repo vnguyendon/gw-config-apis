@@ -35,6 +35,7 @@
         "Choices": [
           {
             "Id": "SuggestionsPoems",
+            "StepValue" : "1",
             "Action": "ShowCards",
             "CardSource": {
               "Type": "Intention",
@@ -44,6 +45,7 @@
           },
           {
             "Id": "SuggestionsPositiveThoughts",
+            "StepValue" : "1",
             "Action": "ShowCards",
             "CardSource": {
               "Type": "Intention",
@@ -53,6 +55,7 @@
           },
           {
             "Id": "SuggestionsNature",
+            "StepValue" : "1",
             "Label": [
               {
                 "en": "Nature"
@@ -89,6 +92,7 @@
         "Choices": [
           {
             "Id": "ZenStopWorld",
+            "StepValue" : "1",
             "Action": "ShowCards",
             "CardSource": {
               "Type": "Intention",
@@ -98,6 +102,7 @@
           },
           {
             "Id": "ZenIAmHereForYou",
+            "StepValue" : "1",
             "Action": "ShowCards",
             "CardSource": {
               "Type": "Intention",
