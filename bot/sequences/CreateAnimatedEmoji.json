@@ -13,10 +13,12 @@
             {
             "Action": "CreateAnimatedEmoji",
             "Id": "AnimatedEmojiYes",
+            "StepValue" : "1",
             "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }]
             },
             {
             "Action": "Nothing",
+             "StepValue" : "0",
             "Id": "AnimatedEmojiNo",
             "Label": [{ "en": "No" }, { "fr": "Non" },{ "es": "No" }]
             }
