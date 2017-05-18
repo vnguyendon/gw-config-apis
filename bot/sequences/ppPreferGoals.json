@@ -1,0 +1,34 @@
+
+[
+{
+    "QuestionId" : "ppPreferGoals",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000018386450.jpg"
+        },
+    "Label": 
+        [
+        {"en":"You prefer goals that are"},
+        {"fr":"Vous préférez les objectifs"},
+        {"es":"Prefiere objetivos que sean"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Flexible",
+        "StepValue" : "1",
+        "Labels": [{"en":"flexible, evolving"},{"fr":"flexibles, évolutifs"},{"es":"flexibles"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Structured",
+        "StepValue" : "1",
+        "Labels": [{"en":"structured, well defined"},{"fr":"structurés, bien définis"},{"es":"bien organizados"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
