@@ -1,0 +1,30 @@
+
+[
+{
+    "QuestionId" : "ppOpenedOrSettled",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000016089832.jpg"
+        },
+    "Label":[{"en":"You feel better when things are"},{"fr":"Vous préférez que les choses soient"},{"es":"Usted prefiere que las cosas sean"}],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Settled",
+        "StepValue" : "1",
+        "Labels":[{"en":"settled, decided"},{"fr":"tranchées, décidées"},{"es":"cortadas, decididas"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Opened",
+        "StepValue" : "1",
+        "Labels":[{"en":"interpretable, evolving"},{"fr":"interprétables, évolutives"},{"es":"interpretables, evolutivas"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
