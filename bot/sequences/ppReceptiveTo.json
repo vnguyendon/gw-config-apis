@@ -1,0 +1,36 @@
+
+[
+{
+    "QuestionId" : "ppReceptiveTo",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000015195705.jpg"
+        },
+    "Label":
+        [
+        {"en":"You are more receptive to"},
+        {"fr":"Vous êtes plus réceptif"},
+        {"es":"Usted es más receptivo a"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Ideas",
+        "StepValue" : "1",
+        "Labels": [{"en":"Theories and possibilities"},{"fr":"Aux théories, aux possibilités"},{"es":"Las teorías, las posibilidades"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Facts",
+        "StepValue" : "1",
+        "Labels": [{"en":"Facts and reality"},{"fr":"Aux faits, à la réalité"},{"es":"Los hechos, la realidad"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
+
