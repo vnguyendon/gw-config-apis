@@ -1,0 +1,35 @@
+
+[
+{
+    "QuestionId" : "ppJusticeOverPity",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000016009511.jpg"
+        },
+    "Label": 
+        [
+        {"en":"You primarily value"},
+        {"fr":"Vous donnez plus d'importance à"},
+        {"es":"Valora principalmente"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Justice",
+        "StepValue" : "1",
+        "Labels": [{"en":"justice"},{"fr":"la justice"},{"es":"la justicia"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Pity",
+        "StepValue" : "1",
+        "Labels": [{"en":"mercy"},{"fr":"la pitié"},{"es":"la compasión"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
