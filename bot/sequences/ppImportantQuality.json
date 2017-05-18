@@ -1,0 +1,36 @@
+
+[
+{
+    "QuestionId" : "ppImportantQuality",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000022011350.jpg"
+        },
+    "Label": 
+        [
+        {"en":"The most important quality of friends"},
+        {"fr":"La qualité la plus importante d'un ami"},
+        {"es":"La cualidad más importante de un amigo"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Curious",
+        "StepValue" : "1",
+        "Labels": [{"en":"being curious"},{"fr":"être curieux"},{"es":"curiosidad"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Positive",
+        "StepValue" : "1",
+        "Labels": [{"en":"being positive"},{"fr":"être positif"},{"es":"optimismo"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
+
