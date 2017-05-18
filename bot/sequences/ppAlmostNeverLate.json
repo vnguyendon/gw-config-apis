@@ -1,0 +1,38 @@
+
+[
+{
+    "QuestionId" : "ppAlmostNeverLate",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000025388355.jpg"
+        },
+    "Label": 
+        [
+        {"en":"You are almost never late for appointments"},
+        {"fr":"Vous n'êtes presque jamais en retard aux rendez-vous"},
+        {"es":"Casi nunca llega tarde a sus citas"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "NeverLate",
+        "StepValue" : "1",
+        "Labels": [{"en":"Yes"},{"fr":"Oui"},{"es":"Sí"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Late",
+        "StepValue" : "1",
+        "Labels": [{"en":"No"},{"fr":"Non"},{"es":"No"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
+
+
+
