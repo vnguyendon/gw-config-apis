@@ -1,0 +1,34 @@
+
+[
+{
+    "QuestionId" : "ppEnergeticAfter",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000018292730.jpg"
+        },
+    "Label":
+        [
+        {"en":"You feel more energetic after"},
+        {"fr":"Vous avez plus d'énergie après avoir été"},
+        {"es":"Su energía aumenta cuándo ha estado"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "WithPeople",
+        "StepValue" : "1",
+        "Labels": [{"en":"Being with people"},{"fr":"Avec d'autres personnes"},{"es":"Con otras personas"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "OnYourOwn",
+        "StepValue" : "1",
+        "Labels": [{"en":"Being on your own"},{"fr":"Avec vous-même"},{"es":"Con usted mismo"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
