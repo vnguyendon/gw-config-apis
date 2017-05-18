@@ -11,7 +11,7 @@ Sequences
 
 In this sequence, as a user:
 * The bot asks me a question ("A little comfort?")
-* The bot suggests answers as a set of choices ("Yes" or "No")
+* The bot suggests answers as a set of choices ("Yes" or "No"), either randomized or not
 * I choose Yes
 * The bot suggests two message categories ("Poems" and "Positive thoughts")
 * I choose one those message categories (we call them message Intentions)
@@ -35,7 +35,7 @@ The following json sample describes a question asked by the bot, with its transl
 As a user, to answer a question, I  typically choose from a set of choices. 
 Each choice has a unique Id. 
     
-    Choices: 
+    "Choices": 
       [
           {    
             "Id": "ZenYes",
@@ -47,7 +47,29 @@ Each choice has a unique Id.
             "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
            }
       ]      
-      
+
+## Randomizing choices
+
+I may sometimes want to randomize the choices I offer to my users, so that they do not always see the same choices first and choose them by default.
+
+We can do so by introducing the key "Randomize", just before the "Choices". We need to turn it to "true". In our example, that would mean:
+
+    "Randomize": "true",
+    "Choices": 
+      [
+          {    
+            "Id": "ZenYes",
+            "Label": [{ "en": "Yes" },{ "fr": "Oui" },{ "es": "Si" }],
+           }
+           ,
+           {
+            "Id": "ZenNo",
+            "Label": [{ "en": "No" },{ "fr": "Non" },{ "es": "No" }],
+           }
+      ]    
+
+In this case, users will see Yes or No first, and the other choice in second, depending on the randomization.
+
 ## Displaying a second set of choices
 
 After the user makes a choice, an Action will take place. The Action will be described below the choice.
@@ -195,6 +217,7 @@ In our example, we think we asked a valuable question to the user if he or she a
                { "fr": "Un peu de récomfort ?" },
                { "es": "¿Un pequeño zen?" }
            ]
+          "Randomize": "true",
           "Choices": 
              [
                  {
