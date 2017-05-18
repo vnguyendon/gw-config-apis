@@ -1,0 +1,35 @@
+
+[
+{
+    "QuestionId" : "ppPreferBooksToParties",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "canonical/11703101_735140276597245_1438742967970096196_n.jpg"
+        },
+    "Label": 
+        [
+        {"en":"You often prefer books to parties"},
+        {"fr":"Vous préférez souvent les livres aux fêtes"},
+        {"es":"A menudo prefiere los libros a las fiestas"}
+        ],
+    "Randomize": "true",
+    "Choices":
+    [
+        {
+        "Id" : "Books",
+        "StepValue" : "1",
+        "Labels": [{"en":"Yes"},{"fr":"Oui"},{"es":"Sí"}],
+        "Action": "SetUserProperty"
+        }
+        ,
+        {
+        "Id" : "Parties",
+        "StepValue" : "1",
+        "Labels": [{"en":"No"},{"fr":"Non"},{"es":"No"}],
+        "Action": "SetUserProperty"
+        }
+    ]
+}
+]
+
