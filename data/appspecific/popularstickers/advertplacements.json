@@ -8,27 +8,27 @@
       "AndroidIds": {
         "variation0": {
             "Provider": "Facebook",
-            "ID": "TBD"
+            "ID": "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
             },
         "variation1": {
             "Provider" : "Facebook",
-            "ID" : "TBD"
+            "ID" : "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
             },
         "variation2": {
             "Provider" : "Appodeal",
-            "ID" : "TBD"
+            "ID" : "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
             },
         "variation3": {
             "Provider" : "Mopub",
-            "ID" : "TBD"
+            "ID" : "af33eccff22d4214b8500bd51e34ea3c"
             },
         "variation4": {
             "Provider" : "AdMob",
-            "ID" : "TBD"
+            "ID" : "ca-app-pub-7822741681642396~8086906263"
             },
         "variation5": {
-            "Provider" : "StartApp",
-            "ID" : "TBD"
+            "Provider" : "AdCash",
+            "ID" : "1591995"
             }
       }
     }
