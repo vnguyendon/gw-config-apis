@@ -1,0 +1,284 @@
+[
+  {
+    "Id": "MessagesForSweetheart",
+    "Action": "MessagesByRecipient",
+    "CardSource": {
+      "Type": "9E2D23",
+      "Id": "SweetheartF"
+    },
+    "ImageName": "iStock_000008350300_Medium.jpg",
+    "Title": [
+      {
+        "en": "Sweetheart"
+      },
+      {
+        "fr": "Mon amour"
+      },
+      {
+        "es": "Mi amor"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Message my sweetheart"
+      },
+      {
+        "fr": "Envoyer un message"
+      },
+      {
+        "es": "Enviar un mensaje"
+      }
+    ]
+  },
+  {
+    "Id": "PostStatus",
+    "CardSource": {
+      "Type": "Intention",
+      "Id": "2E2986"
+    },
+    "ImageName": "10406436_1051564041525124_3832381646842635029_n.jpg",
+    "Action": "ShowCards",
+    "Title": [
+      {
+        "en": "Facebook"
+      },
+      {
+        "fr": "Facebook"
+      },
+      {
+        "es": "Facebook"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Post a status"
+      },
+      {
+        "fr": "Poster un statut"
+      },
+      {
+        "es": "Publicar un estado"
+      }
+    ]
+  },
+  {
+    "Id": "MessageIdeas",
+    "ImageName": "shutterstock_151777982.jpg",
+    "Action": "ShowDailyIdeas",
+    "Title": [
+      {
+        "en": "Ideas"
+      },
+      {
+        "fr": "Idées"
+      },
+      {
+        "es": "Ideas"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Message ideas"
+      },
+      {
+        "fr": "Idées de message"
+      },
+      {
+        "es": "Ideas de mensajes"
+      }
+    ]
+  },
+  {
+    "Id": "CreateAnimatedEmoji",
+    "ImageName": "000084168591.jpg",
+    "Action": "CreateAnimatedEmoji",
+    "Title": [
+      {
+        "en": "Create gif"
+      },
+      {
+        "fr": "Créer un gif"
+      },
+      {
+        "es": "Crear animacion"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Animated emoji"
+      },
+      {
+        "fr": "Emoji animé"
+      },
+      {
+        "es": "Emoji animado"
+      }
+    ]
+  },
+  {
+    "Id": "TrendingGifs",
+    "ImageName": "000046281694.jpg",
+    "Action": "ShowTrendingGifs",
+    "Title": [
+      {
+        "en": "Gifs"
+      },
+      {
+        "fr": "Gifs"
+      },
+      {
+        "es": "Gifs"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Trending gifs"
+      },
+      {
+        "fr": "Gifs les plus partagés"
+      },
+      {
+        "es": "Gifs tendencias"
+      }
+    ]
+  },
+  {
+    "Id": "MissYou",
+    "CardSource": {
+      "Type": "Intention",
+      "Id": "8ED62C"
+    },
+    "ImageName": "302560_441589152544948_505119604_n.jpg",
+    "Action": "ShowCards",
+    "Title": [
+      {
+        "en": "Miss you cards"
+      },
+      {
+        "fr": "Tu me manques"
+      },
+      {
+        "es": "Te echo de menos"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Say I miss you"
+      },
+      {
+        "fr": "Dis: tu me manques"
+      },
+      {
+        "es": "Di: te echo de menos"
+      }
+    ]
+  },
+  {
+    "Id": "TrendingMessages",
+    "ImageName": "iStock_000002415327_Medium.jpg",
+    "Action": "ShowTrendingMessages",
+    "Title": [
+      {
+        "en": "Popular cards"
+      },
+      {
+        "fr": "Cartes populaires"
+      },
+      {
+        "es": "Tarjetas populares"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Show popular messages"
+      },
+      {
+        "fr": "Montrer les messages populaires"
+      },
+      {
+        "es": "Mostrar mensajes populares"
+      }
+    ]
+  },
+  {
+    "Id": "FindUsers",
+    "ImageName": "209405-1000-14471607885805610-R3L8T8D-990-29apr14_085355.jpg",
+    "Action": "ShowUsers",
+    "Title": [
+      {
+        "en": "Users"
+      },
+      {
+        "fr": "Utilisateurs"
+      },
+      {
+        "es": "Usuarios"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Similar profiles"
+      },
+      {
+        "fr": "Ils/elles me ressemblent"
+      },
+      {
+        "es": "Perfiles similares"
+      }
+    ]
+  },
+  {
+    "Id": "Reminder",
+    "ImageName": "iStock_000003405797_Medium.jpg",
+    "Action": "SetReminder",
+    "Title": [
+      {
+        "en": "Reminder"
+      },
+      {
+        "fr": "Rappel"
+      },
+      {
+        "es": "Recordatorio"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Set a reminder"
+      },
+      {
+        "fr": "Définir un rappel"
+      },
+      {
+        "es": "Establecer un recordatorio"
+      }
+    ]
+  },
+  {
+    "Id": "TalkToMe",
+    "ImageName": "iStock_000010808899_Medium.jpg",
+    "Action": "TalkToMe",
+    "Title": [
+      {
+        "en": "Huggy"
+      },
+      {
+        "fr": "Huggy"
+      },
+      {
+        "es": "Huggy"
+      }
+    ],
+    "Label": [
+      {
+        "en": "Let's talk"
+      },
+      {
+        "fr": "Parlons"
+      },
+      {
+        "es": "Hablemos"
+      }
+    ]
+  }
+]
