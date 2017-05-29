@@ -1,1 +1,37 @@
 
+{
+"placements": 
+  [
+    {
+      "name": "ActivityResume",
+      "type": "interstitial",
+      "AndroidIds": {
+        "variation0": {
+            "Provider": "Facebook",
+            "ID": "1001221899915187_1108694192501290"
+            },
+        "variation1": {
+            "Provider" : "Facebook",
+            "ID" : "1001221899915187_1108694192501290"
+            },
+        "variation2": {
+            "Provider" : "Facebook",
+            "ID" : "1001221899915187_1108694192501290"
+            },
+        "variation3": {
+            "Provider" : "Appodeal",
+            "ID" : "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
+            },
+        "variation4": {
+            "Provider" : "Appodeal",
+            "ID" : "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
+            },
+        "variation5": {
+            "Provider" : "Appodeal",
+            "ID" : "a3abcee598e4eea64ed76524bfed9cd5aaf549856f6e72a9"
+            }
+      }
+    }
+  ]
+}
+
