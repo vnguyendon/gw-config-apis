@@ -15,12 +15,12 @@
             "ID" : "1102012976529819_1192666364131146"
             },
         "variation2": {
-            "Provider" : "Mopub",
-            "ID" : "f085af11871b4ffe855a8afb4bbdbe9c"
+            "Provider" : "Facebook",
+            "ID" : "1102012976529819_1192666364131146"
             },
         "variation3": {
-            "Provider" : "Mopub",
-            "ID" : "f085af11871b4ffe855a8afb4bbdbe9c"
+            "Provider" : "AdCash",
+            "ID" : "1594487"
             },
         "variation4": {
             "Provider" : "AdCash",
