@@ -1,0 +1,38 @@
+
+{
+"placements": 
+  [
+    {
+      "name": "ActivityResume",
+      "type": "interstitial",
+      "AndroidIds": {
+        "variation0": {
+            "Provider": "Facebook",
+            "ID": "TBD"
+            },
+        "variation1": {
+            "Provider" : "Facebook",
+            "ID" : "TBD"
+            },
+        "variation2": {
+            "Provider" : "Mopub",
+            "ID" : "TBD"
+            },
+        "variation3": {
+            "Provider" : "Mopub",
+            "ID" : "TBD"
+            },
+        "variation4": {
+            "Provider" : "Adcash",
+            "ID" : "TBD"
+            },
+        "variation5": {
+            "Provider" : "Adcash",
+            "ID" : "TBD"
+            }
+      }
+    }
+  ]
+}
+
+
