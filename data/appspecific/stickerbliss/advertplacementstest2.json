@@ -8,19 +8,19 @@
       "AndroidIds": {
         "variation0": {
             "Provider": "Facebook",
-            "ID": "TBD"
+            "ID": "1102012976529819_1192666364131146"
             },
         "variation1": {
             "Provider" : "Facebook",
-            "ID" : "TBD"
+            "ID" : "1102012976529819_1192666364131146"
             },
         "variation2": {
             "Provider" : "Mopub",
-            "ID" : "TBD"
+            "ID" : "f085af11871b4ffe855a8afb4bbdbe9c"
             },
         "variation3": {
             "Provider" : "Mopub",
-            "ID" : "TBD"
+            "ID" : "f085af11871b4ffe855a8afb4bbdbe9c"
             },
         "variation4": {
             "Provider" : "Adcash",
