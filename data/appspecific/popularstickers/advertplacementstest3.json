@@ -1,0 +1,36 @@
+
+{
+"placements": 
+  [
+    {
+      "name": "ActivityResume",
+      "type": "interstitial",
+      "AndroidIds": {
+        "variation0": {
+            "Provider": "Facebook",
+            "ID": "1594200494225037_1656581587986927"
+            },
+        "variation1": {
+            "Provider" : "Facebook",
+            "ID" : "1594200494225037_1656581587986927"
+            },
+        "variation2": {
+            "Provider" : "Facebook",
+            "ID" : "1594200494225037_1656581587986927"
+            },
+        "variation3": {
+            "Provider" : "Smaato",
+            "ID" : "130278153"
+            },
+        "variation4": {
+            "Provider" : "Smaato",
+            "ID" : "130278153"
+            },
+        "variation5": {
+            "Provider" : "Smaato",
+            "ID" : "130278153"
+            }
+      }
+    }
+  ]
+}
