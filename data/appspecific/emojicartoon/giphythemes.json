@@ -12,7 +12,7 @@
     {"Es": "TBD"}
     ]
   }
-  .
+  ,
   { 
   "Path" : "common/giphycontent/flowers.json",
   "DefaultImage" : "TBD",
@@ -23,7 +23,7 @@
     {"Es": "TBD"}
     ]
   }
-  .
+  ,
   { 
   "Path" : "common/giphycontent/howareyou.json",
   "DefaultImage" : "TBD",
@@ -34,7 +34,7 @@
     {"Es": "TBD"}
     ]
   }
-  .
+  ,
   { 
   "Path" : "common/giphycontent/love.json",
   "DefaultImage" : "TBD",
@@ -45,7 +45,7 @@
     {"Es": "TBD"}
     ]
   }
-  .
+  ,
   { 
   "Path" : "common/giphycontent/miss.json",
   "DefaultImage" : "/specialoccasions/I-miss-you/default/small?dl=0&preview=iStock_000037784564_Large.jpg",
@@ -56,7 +56,7 @@
     {"Es": "Te echo de menos"}
     ]
   }
-  .
+  ,
   { 
   "Path" : "common/giphycontent/morning.json",
   "DefaultImage" : "TBD",
