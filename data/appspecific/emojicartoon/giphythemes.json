@@ -2,15 +2,136 @@
 {
 "Themes":
 [
-{ 
-"Path" : "common/giphycontent/miss.json",
-"DefaultImage" : "TBD",
-"Labels":
-  [
-  {"en": "I miss you"},
-  {"fr": "Tu me manques"},
-  {"Es": "Te echo de menos"}
-  ]
-}
+  { 
+  "Path" : "common/giphycontent/birthday.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Happy Birthday"},
+    {"fr": "Joyeux anniversaire"},
+    {"Es": "TBD"}
+    ]
+  }
+  .
+  { 
+  "Path" : "common/giphycontent/flowers.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Flowers"},
+    {"fr": "Fleurs"},
+    {"Es": "TBD"}
+    ]
+  }
+  .
+  { 
+  "Path" : "common/giphycontent/howareyou.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "How are you?"},
+    {"fr": "Comment vas-tu?"},
+    {"Es": "TBD"}
+    ]
+  }
+  .
+  { 
+  "Path" : "common/giphycontent/love.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "I love you"},
+    {"fr": "Je t'aime"},
+    {"Es": "TBD"}
+    ]
+  }
+  .
+  { 
+  "Path" : "common/giphycontent/miss.json",
+  "DefaultImage" : "/specialoccasions/I-miss-you/default/small?dl=0&preview=iStock_000037784564_Large.jpg",
+  "Labels":
+    [
+    {"en": "I miss you"},
+    {"fr": "Tu me manques"},
+    {"Es": "Te echo de menos"}
+    ]
+  }
+  .
+  { 
+  "Path" : "common/giphycontent/morning.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Good morning"},
+    {"fr": "Bonjour"},
+    {"Es": "TBD"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/nature.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Nature"},
+    {"fr": "Nature"},
+    {"Es": "Natura"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/night.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Good night"},
+    {"fr": "Bonne nuit"},
+    {"Es": "TBD"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/sorry.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "I am sorry"},
+    {"fr": "Je suis désolé"},
+    {"Es": "TBD"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/think.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "TBD"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/wantdinner.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Come over for dinner"},
+    {"fr": "TBD"},
+    {"Es": "TBD"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "common/giphycontent/wantdrink.json",
+  "DefaultImage" : "TBD",
+  "Labels":
+    [
+    {"en": "Would you care for a drink?"},
+    {"fr": "TBD"},
+    {"Es": "TBD"}
+    ]
+  }
 ]
 }
