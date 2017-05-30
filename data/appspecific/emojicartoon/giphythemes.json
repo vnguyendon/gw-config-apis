@@ -1,0 +1,16 @@
+
+{
+"Themes":
+[
+{ 
+"Path" : "common/giphycontent/miss.json",
+"DefaultImage" : "TBD",
+"Labels":
+  [
+  {"en": "I miss you"},
+  {"fr": "Tu me manques"},
+  {"Es": "Te echo de menos"}
+  ]
+}
+]
+}
