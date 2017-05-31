@@ -35,6 +35,7 @@
     ]
   }
   ,
+  {
   "Path" : "/common/giphycontent/jokes.json",
   "DefaultImage" : "/themes/funny/small/310928_10150295389296564_166896605_n.jpg?dl=0",
   "Labels":
