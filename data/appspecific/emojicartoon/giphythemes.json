@@ -46,8 +46,8 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/howareyou.json",
-  "DefaultImage" : "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
+  "Path": "/common/giphycontent/howareyou.json",
+  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
   "Labels":
     [
     {"en": "How are you?"},
