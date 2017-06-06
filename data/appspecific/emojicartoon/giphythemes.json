@@ -114,7 +114,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/nature.json",
-  "DefaultImage" : "/themes/nature/small?dl=0&preview=74775_306806669430610_1152613767_n.jpg",
+  "DefaultImage" : "/themes/nature/small/74775_306806669430610_1152613767_n.jpg",
   "Labels":
     [
     {"en": "Nature"},
