@@ -1,0 +1,37 @@
+
+
+{
+"placements": 
+  [
+    {
+      "name": "ActivityResume",
+      "type": "interstitial",
+      "AndroidIds": {
+        "variation0": {
+            "Provider": "Facebook",
+            "ID": "1594200494225037_1656581587986927"
+            },
+        "variation1": {
+            "Provider" : "Facebook",
+            "ID" : "1594200494225037_1656581587986927"
+            },
+        "variation2": {
+            "Provider" : "Facebook",
+            "ID" : "1594200494225037_1656581587986927"
+            },
+        "variation3": {
+            "Provider" : "InMobi",
+            "ID" : "1498603535179 "
+            },
+        "variation4": {
+            "Provider" : "InMobi",
+            "ID" : "1498603535179 "
+            },
+        "variation5": {
+            "Provider" : "InMobi",
+            "ID" : "1498603535179 "
+            }
+      }
+    }
+  ]
+}
