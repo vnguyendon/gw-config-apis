@@ -1,0 +1,61 @@
+
+
+[
+  { 
+    "id" : "dating-videos-for-women"
+    "description": "videos selected specifical"
+    "medias" : [
+      {
+        "id"    : "video",
+        "label" : "Video",
+        "sections" : [
+            {
+              "id" : "youtube",
+              "label" : "Youtube",
+              "values" : [
+                "dC0on3nEog8",
+                "hIGJmGFmhKA",
+                "rUCjxc4ngnw",
+                "dTnv9QHS6SM",
+                "4sOlwpSBBJ0",
+                "HqTVxTPJDgg",
+                "XReDt6Ifiaw",
+                "qbPu1m7foR4",
+                "tDwNa7_C8WA"
+              ]
+            }
+          ]
+      }
+    ]
+  }
+  ,
+    { 
+    "id" : "dating-videos-for-men"
+    "description": "videos selected specifical"
+    "medias" : [
+      {
+        "id"    : "video",
+        "label" : "Video",
+        "sections" : [
+            {
+              "id" : "youtube",
+              "label" : "Youtube",
+              "values" : [
+                "TzhkZeVUNWU",
+                "UJBuVtGSAvA",
+                "qRTwS5D7MiI",
+                "bygz-UGcZCg",
+                "QO0mwf9PnS8",
+                "waPVDRoF7qk",
+                "XReDt6Ifiaw",
+                "hkK2AcOG854",
+                "QzadqIuseGE",
+                "QdDZIo1YBp0"
+              ]
+            }
+          ]
+      }
+    ]
+  }
+]
+
