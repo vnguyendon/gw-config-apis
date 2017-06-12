@@ -3,7 +3,7 @@
 [
   { 
     "id" : "dating-videos-for-women",
-    "description": "videos selected specifical"
+    "description": "videos selected specifically for giving dating tips to women",
     "medias" : [
       {
         "id"    : "video",
@@ -30,7 +30,7 @@
   ,
     { 
     "id" : "dating-videos-for-men",
-    "description": "videos selected specifical"
+    "description": "videos selected specifically for giving dating tips to men"
     "medias" : [
       {
         "id"    : "video",
