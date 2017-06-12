@@ -10,8 +10,8 @@
             "Provider": "Facebook",
             "ID": "1594200494225037_1656581587986927",
             "Fallback": {
-              "Provider": "Facebook",
-              "ID": "1594200494225037_1656581587986927"
+              "Provider": "AdMob",
+              "ID": "ca-app-pub-7822741681642396/2575065062"
               }
             }
       }
