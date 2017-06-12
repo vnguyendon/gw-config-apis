@@ -2,16 +2,15 @@
 
 [
   { 
-    "id" : "dating-videos-for-women"
+    "id" : "dating-videos-for-women",
     "description": "videos selected specifical"
     "medias" : [
       {
         "id"    : "video",
-        "label" : "Video",
+        "label" : "Tips for women",
         "sections" : [
             {
               "id" : "youtube",
-              "label" : "Youtube",
               "values" : [
                 "dC0on3nEog8",
                 "hIGJmGFmhKA",
@@ -30,16 +29,15 @@
   }
   ,
     { 
-    "id" : "dating-videos-for-men"
+    "id" : "dating-videos-for-men",
     "description": "videos selected specifical"
     "medias" : [
       {
         "id"    : "video",
-        "label" : "Video",
+        "label" : "Tips for men",
         "sections" : [
             {
               "id" : "youtube",
-              "label" : "Youtube",
               "values" : [
                 "TzhkZeVUNWU",
                 "UJBuVtGSAvA",
