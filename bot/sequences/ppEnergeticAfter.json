@@ -19,6 +19,11 @@
         {
         "Id" : "WithPeople",
         "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "3oz8xTlubEXQJmkRva or SRg3ooTXBgryE or l0HlE9viiSfxHg7p6 or hBdKJQwWJ98aI"
+        },
         "Labels": [{"en":"Being with people"},{"fr":"Avec d'autres personnes"},{"es":"Con otras personas"}],
         "Action": "SetUserProperty"
         }
@@ -26,6 +31,11 @@
         {
         "Id" : "OnYourOwn",
         "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "26tPaBeEc1XtBx04w or 3o7btY8gCPXMW6soVi or B51EAJ0Frooq4 or 3oz8xsTTDHL2D8Hluw"
+        },
         "Labels": [{"en":"Being on your own"},{"fr":"Avec vous-même"},{"es":"Con usted mismo"}],
         "Action": "SetUserProperty"
         }
