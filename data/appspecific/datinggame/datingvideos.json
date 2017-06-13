@@ -7,10 +7,10 @@
     "medias" : [
       {
         "id"    : "video",
-        "label" : "Tips for women",
         "sections" : [
             {
               "id" : "youtube",
+              "label" : "Tips for women",
               "values" : [
                 "dC0on3nEog8",
                 "hIGJmGFmhKA",
@@ -24,31 +24,21 @@
               ]
             }
           ]
-      }
-    ]
-  }
-  ,
-    { 
-    "id" : "dating-videos-for-men",
-    "description": "videos selected specifically for giving dating tips to men",
-    "medias" : [
-      {
-        "id"    : "video",
-        "label" : "Tips for men",
-        "sections" : [
+          ,
+          [
             {
               "id" : "youtube",
+              "label" : "Tips for women",
               "values" : [
-                "TzhkZeVUNWU",
-                "UJBuVtGSAvA",
-                "qRTwS5D7MiI",
-                "bygz-UGcZCg",
-                "QO0mwf9PnS8",
-                "waPVDRoF7qk",
+                "dC0on3nEog8",
+                "hIGJmGFmhKA",
+                "rUCjxc4ngnw",
+                "dTnv9QHS6SM",
+                "4sOlwpSBBJ0",
+                "HqTVxTPJDgg",
                 "XReDt6Ifiaw",
-                "hkK2AcOG854",
-                "QzadqIuseGE",
-                "QdDZIo1YBp0"
+                "qbPu1m7foR4",
+                "tDwNa7_C8WA"
               ]
             }
           ]
