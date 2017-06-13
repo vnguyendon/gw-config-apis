@@ -14,6 +14,11 @@
         {
         "Id" : "Settled",
         "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "3o6wrgjaCbOUYEWwOQ or 26vUNhQzmhMtArwC4 or yMfrJKl1GmRtm or ToMjGpu0Jwzjb14u1va"
+        },
         "Labels":[{"en":"settled, decided"},{"fr":"tranchées, décidées"},{"es":"cortadas, decididas"}],
         "Action": "SetUserProperty"
         }
@@ -21,6 +26,11 @@
         {
         "Id" : "Opened",
         "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "DWlJeG2pGW4jC or 3KUaEj1bT7Vao or l0HlUsr30YgIHASl2 or 3orifgB50UFpOc9CH6"
+        },
         "Labels":[{"en":"interpretable, evolving"},{"fr":"interprétables, évolutives"},{"es":"interpretables, evolutivas"}],
         "Action": "SetUserProperty"
         }
