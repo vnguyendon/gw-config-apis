@@ -1,57 +1,91 @@
-
-
 [
-  { 
-    "id" : "dating-videos-for-women",
+  {
+    "id": "dating-videos-for-women",
     "description": "videos selected specifically for giving dating tips to women",
-    "medias" : [
+    "label": "Tips for women",
+    "youtube_videos": [
       {
-        "id"    : "video",
-        "label" : "Tips for women",
-        "sections" : [
-            {
-              "id" : "youtube",
-              "values" : [
-                "dC0on3nEog8",
-                "hIGJmGFmhKA",
-                "rUCjxc4ngnw",
-                "dTnv9QHS6SM",
-                "4sOlwpSBBJ0",
-                "HqTVxTPJDgg",
-                "XReDt6Ifiaw",
-                "qbPu1m7foR4",
-                "tDwNa7_C8WA"
-              ]
-            }
-          ]
+        "id": "dC0on3nEog8",
+        "label": "test1"
+      },
+      {
+        "id": "hIGJmGFmhKA",
+        "label": "test1"
+      },
+      {
+        "id": "rUCjxc4ngnw",
+        "label": "test1"
+      },
+      {
+        "id": "dTnv9QHS6SM",
+        "label": "test1"
+      },
+      {
+        "id": "4sOlwpSBBJ0",
+        "label": "test1"
+      },
+      {
+        "id": "HqTVxTPJDgg",
+        "label": "test1"
+      },
+      {
+        "id": "XReDt6Ifiaw",
+        "label": "test1"
+      },
+      {
+        "id": "qbPu1m7foR4",
+        "label": "test1"
+      },
+      {
+        "id": "tDwNa7_C8WA",
+        "label": "test1"
       }
     ]
-  }
-  ,
-    { 
-    "id" : "dating-videos-for-men",
+  },
+  {
+    "id": "dating-videos-for-men",
     "description": "videos selected specifically for giving dating tips to men",
-    "medias" : [
+    "label": "Tips for men",
+    "youtube_videos": [
       {
-        "id"    : "video",
-        "label" : "Tips for men",
-        "sections" : [
-            {
-              "id" : "youtube",
-              "values" : [
-                "TzhkZeVUNWU",
-                "UJBuVtGSAvA",
-                "qRTwS5D7MiI",
-                "bygz-UGcZCg",
-                "QO0mwf9PnS8",
-                "waPVDRoF7qk",
-                "XReDt6Ifiaw",
-                "hkK2AcOG854",
-                "QzadqIuseGE",
-                "QdDZIo1YBp0"
-              ]
-            }
-          ]
+        "id": "TzhkZeVUNWU",
+        "label": "test1"
+      },
+      {
+        "id": "UJBuVtGSAvA",
+        "label": "test1"
+      },
+      {
+        "id": "qRTwS5D7MiI",
+        "label": "test1"
+      },
+      {
+        "id": "bygz-UGcZCg",
+        "label": "test1"
+      },
+      {
+        "id": "QO0mwf9PnS8",
+        "label": "test1"
+      },
+      {
+        "id": "waPVDRoF7qk",
+        "label": "test1"
+      },
+      {
+        "id": "XReDt6Ifiaw",
+        "label": "test1"
+      },
+      {
+        "id": "hkK2AcOG854",
+        "label": "test1"
+      },
+      {
+        "id": "QzadqIuseGE",
+        "label": "test1"
+      },
+      {
+        "id": "QdDZIo1YBp0",
+        "label": "test1"
       }
     ]
   }
