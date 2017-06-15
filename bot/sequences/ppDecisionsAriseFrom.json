@@ -17,7 +17,7 @@
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
-          "Path": "B0vFTrb0ZGDf2 or sMaW02wUllmFi or 26uffpTgqWlSpgK2Y or 14hWUIZK0rKFS8"
+          "Path": "14hWUIZK0rKFS8"
         },
         "Labels":[{"en":"Your values and feelings"},{"fr":"Vos valeurs, vos sentiments"},{"es":"Sus valores, sus sentimientos"}],
         "Action": "SetUserProperty"
@@ -29,7 +29,7 @@
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
-          "Path": "ojmB7lOn3VUU8 or l0MYM98IwMYDIn1fO or a5viI92PAF89q or d3mlE7uhX8KFgEmY"
+          "Path": "a5viI92PAF89q"
         },
         "Labels":[{"en":"Rational thinking"},{"fr":"Des raisonnements logiques"},{"es":"Razonamientos lógicos"}],
         "Action": "SetUserProperty"
