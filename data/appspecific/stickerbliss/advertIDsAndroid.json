@@ -8,7 +8,7 @@
       "ID": "ca-app-pub-7822741681642396/6495403866"
     }
   },
-  "FirstActivityResume": {
+  "FirstResumeActivity": {
     "Provider": "Facebook",
     "ID": "1102012976529819_1192666364131146",
     "Fallback": {
@@ -16,7 +16,7 @@
       "ID": "ca-app-pub-7822741681642396/5018670662"
     }
   },
-  "OtherActivityResume": {
+  "OtherResumeActivity": {
     "Provider": "Facebook",
     "ID": "1102012976529819_1192666364131146",
     "Fallback": {
