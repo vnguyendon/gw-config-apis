@@ -1,0 +1,33 @@
+
+{
+  "FirstLaunchOniOS": {
+    "Provider": "Facebook",
+    "ID": "1102012976529819_1322999474431167",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/2630280662"
+    }
+  },
+  "FirstResumeActivityOniOS": {
+    "Provider": "Facebook",
+    "ID": "1102012976529819_1322999887764459",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4107013864"
+    }
+  },
+  "OtherResumeActivityOniOS": {
+    "Provider": "Facebook",
+    "ID": "1102012976529819_1322999887764459",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4107013864"
+    }
+  },
+  "GalleryNative": {
+    "Provider": "Facebook",
+    "ID": "1102012976529819_1238551979542584"
+  }
+}
+
+
