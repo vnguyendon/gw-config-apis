@@ -22,7 +22,7 @@
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
-          "Path": "B5BP3OYgVN5ss or tO2Ws20kv13Dq or de4cuJOUYRo6k or xUA7b6oaRIgzmAKpUY"
+          "Path": "xUA7b6oaRIgzmAKpUY"
         },
         "Labels": [{"en":"Theories and possibilities"},{"fr":"Aux théories, aux possibilités"},{"es":"Las teorías, las posibilidades"}],
         "Action": "SetUserProperty"
@@ -34,7 +34,7 @@
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
-          "Path": "zagB8wzgm4Ce4 or VaC1P0Gz0D3NK or l0MYMe3UJsn1zCIMg or MeFiwDSGDApHy"
+          "Path": "zagB8wzgm4Ce4"
         },
         "Labels": [{"en":"Facts and reality"},{"fr":"Aux faits, à la réalité"},{"es":"Los hechos, la realidad"}],
         "Action": "SetUserProperty"
