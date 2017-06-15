@@ -2,90 +2,166 @@
   {
     "id": "dating-videos-for-women",
     "description": "videos selected specifically for giving dating tips to women",
-    "label": "Tips for women",
+    "label": [
+      {"en": "Tips for women"},
+      {"fr": "Conseils pour les femmes"},
+      {"es": "Consejos para las mujeres"}
+    ],
     "youtube_videos": [
       {
         "id": "dC0on3nEog8",
-        "label": "test1"
+        "label": [
+          {"en": "5 Fun Facts About Men and Dating (You've Never Heard Before)"},
+          {"fr": "5 Fun Facts About Men and Dating (You've Never Heard Before)"},
+          {"es": "5 Fun Facts About Men and Dating (You've Never Heard Before)"}
+        ]
       },
       {
         "id": "hIGJmGFmhKA",
-        "label": "test1"
+        "label": [
+          {"en": "Dating Tips For Women Of All Ages "},
+          {"fr": "Dating Tips For Women Of All Ages "},
+          {"es": "Dating Tips For Women Of All Ages "}
+        ]
       },
       {
         "id": "rUCjxc4ngnw",
-        "label": "test1"
+        "label": [
+          {"en": "Is He Worth It? Dating Tips"},
+          {"fr": "Is He Worth It? Dating Tips"},
+          {"es": "Is He Worth It? Dating Tips"}
+        ]
       },
       {
         "id": "dTnv9QHS6SM",
-        "label": "test1"
+        "label": [
+          {"en": "7 Dating Tips For Introverts That Will Change Everything"},
+          {"fr": "7 Dating Tips For Introverts That Will Change Everything"},
+          {"es": "7 Dating Tips For Introverts That Will Change Everything"}
+        ]
       },
       {
         "id": "4sOlwpSBBJ0",
-        "label": "test1"
+        "label": [
+          {"en": "Ellen's Got Great Dating Tips"},
+          {"fr": "Ellen's Got Great Dating Tips"},
+          {"es": "Ellen's Got Great Dating Tips"}
+        ]
       },
       {
         "id": "HqTVxTPJDgg",
-        "label": "test1"
+        "label": [
+          {"en": "TINY TALK: FIRST DATE TIPS | tinytwisst"},
+          {"fr": "TINY TALK: FIRST DATE TIPS | tinytwisst"},
+          {"es": "TINY TALK: FIRST DATE TIPS | tinytwisst"}
+        ]
       },
       {
         "id": "XReDt6Ifiaw",
-        "label": "test1"
+        "label": [
+          {"en": "DATING ADVICE FT CLOECOUTURE | Valentine’s Day Edition"},
+          {"fr": "DATING ADVICE FT CLOECOUTURE | Valentine’s Day Edition"},
+          {"es": "DATING ADVICE FT CLOECOUTURE | Valentine’s Day Edition"}
+        ]
       },
       {
         "id": "qbPu1m7foR4",
-        "label": "test1"
+        "label": [
+          {"en": "7 TEXTING MISTAKES That Turn Guys Off"},
+          {"fr": "7 TEXTING MISTAKES That Turn Guys Off"},
+          {"es": "7 TEXTING MISTAKES That Turn Guys Off"}
+        ]
       },
       {
         "id": "tDwNa7_C8WA",
-        "label": "test1"
+        "label": [
+          {"en": "Q&A: Dating Men With Kids"},
+          {"fr": "Q&A: Dating Men With Kids"},
+          {"es": "Q&A: Dating Men With Kids"}
+        ]
       }
     ]
   },
   {
     "id": "dating-videos-for-men",
     "description": "videos selected specifically for giving dating tips to men",
-    "label": "Tips for men",
+    "label": [
+      {"en": "Tips for men"},
+      {"fr": "Conseils pour les hommes"},
+      {"es": "Consejos para hombres"}
+    ],
     "youtube_videos": [
       {
         "id": "TzhkZeVUNWU",
-        "label": "test1"
+        "label": [
+          {"en": "9 Simple But Very Effective First Date Tips For Men..."},
+          {"fr": "9 Simple But Very Effective First Date Tips For Men..."},
+          {"es": "9 Simple But Very Effective First Date Tips For Men..."}
+        ]
       },
       {
         "id": "UJBuVtGSAvA",
-        "label": "test1"
+        "label": [
+          {"en": "How to make her want you more"},
+          {"fr": "How to make her want you more"},
+          {"es": "How to make her want you more"}
+        ]
       },
       {
         "id": "qRTwS5D7MiI",
-        "label": "test1"
+        "label": [
+          {"en": "Top 10 Top Dating DON'Ts For Dudes | How To Ruin A Date INSTANTLY!"},
+          {"fr": "Top 10 Top Dating DON'Ts For Dudes | How To Ruin A Date INSTANTLY!"},
+          {"es": "Top 10 Top Dating DON'Ts For Dudes | How To Ruin A Date INSTANTLY!"}
+        ]
       },
       {
         "id": "bygz-UGcZCg",
-        "label": "test1"
+        "label": [
+          {"en": "First Date Tips For Men: 3 GOLDEN Nuggets of Advice"},
+          {"fr": "First Date Tips For Men: 3 GOLDEN Nuggets of Advice"},
+          {"es": "First Date Tips For Men: 3 GOLDEN Nuggets of Advice"}
+        ]
       },
       {
         "id": "QO0mwf9PnS8",
-        "label": "test1"
+        "label": [
+          {"en": "7 TEXTING MISTAKES That Turn Guys Off"},
+          {"fr": "7 TEXTING MISTAKES That Turn Guys Off"},
+          {"es": "7 TEXTING MISTAKES That Turn Guys Off"}
+        ]
       },
       {
         "id": "waPVDRoF7qk",
-        "label": "test1"
-      },
-      {
-        "id": "XReDt6Ifiaw",
-        "label": "test1"
+        "label": [
+          {"en": "5 Successful Dating Tips | Make Sure You get a Second Date!"},
+          {"fr": "5 Successful Dating Tips | Make Sure You get a Second Date!"},
+          {"es": "5 Successful Dating Tips | Make Sure You get a Second Date!"}
+        ]
       },
       {
         "id": "hkK2AcOG854",
-        "label": "test1"
+        "label": [
+          {"en": "The 14 Red Flags of Dating | The Art of Manliness"},
+          {"fr": "The 14 Red Flags of Dating | The Art of Manliness"},
+          {"es": "The 14 Red Flags of Dating | The Art of Manliness"}
+        ]
       },
       {
         "id": "QzadqIuseGE",
-        "label": "test1"
+        "label": [
+          {"en": "The BIGGEST Mistake People Make In Dating"},
+          {"fr": "The BIGGEST Mistake People Make In Dating"},
+          {"es": "The BIGGEST Mistake People Make In Dating"}
+        ]
       },
       {
         "id": "QdDZIo1YBp0",
-        "label": "test1"
+        "label": [
+          {"en": "Talking To Women: 5 Easy Tips"},
+          {"fr": "Talking To Women: 5 Easy Tips"},
+          {"es": "Talking To Women: 5 Easy Tips"}
+        ]
       }
     ]
   }
