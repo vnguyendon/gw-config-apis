@@ -48,17 +48,6 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/wantdinner.json",
-  "DefaultImage" : "/specialoccasions/come-over-for-dinner/default/small/Table-for-two-on-the-beach-000072048563_Medium.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "Come over for dinner"},
-    {"fr": "Viens diner"},
-    {"Es": "Vamos a cenar"}
-    ]
-  }
-  ,
-  { 
   "Path" : "/common/giphycontent/wantdrink.json",
   "DefaultImage" : "/specialoccasions/would-you-care-for-a-drink/default/small/iStock_000067829773_Medium.jpg?dl=0",
   "Labels":
