@@ -1,0 +1,13 @@
+{
+  "stopwords": [ "sex", "sexe", "fuck", "putain", "chier" ],
+  "polishedWords": [
+    {
+      "stopwords": [ "enculé" ],
+      "correct": "vilain"
+    },
+    {
+      "stopwords": [ "fucked" ],
+      "correct": "bored"
+    }
+  ]
+}
