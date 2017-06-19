@@ -1,5 +1,34 @@
 {
-  "stopwords": [ "sex", "sexe", "fuck", "putain", "chier" ],
+  "stopwords": [
+        "anal", "anus", "arse", "ass",
+        "ballsack", "balls", "bastard", "bitch", "biatch", "blowjob", "blow job", "bollock", "bollok", "boner", "boob", "bugger", "bum", "butt", "buttplug",
+        "clitoris", "cock", "coon", "crap", "cunt",
+        "dick", "dildo", "dyke",
+        "fag", "feck", "fellate", "fellatio", "felching", "fuck", "f u c k", "fudgepacker", "fudge packer", "flange",
+        "jerk",
+        "knobend", "knob end",
+        "labia",
+        "muff",
+        "nigger", "nigga",
+        "penis", "piss", "poop", "prick", "pube", "pussy",
+        "queer",
+        "scrotum", "sex", "shit", "s hit", "sh1t", "slut", "smegma", "spunk",
+        "tit", "tosser", "turd", "twat", "vagina", "wank", "whore",
+        
+        
+        "bite", "bougnoule", "batard",
+        "chier", "con", "conne", "connard", "connasse", "cul",
+        "enculé", "encule",
+        "feuj",
+        "gueule",
+        "masturber", "merde",
+        "negre",
+        "pd", "penis", "petasse", "putain", "pute",
+        "salop", "salope", "saloperie", "suce", "sucer", "sexe",
+        "teub"
+        
+        ]
+        ,
   "polishedWords": [
     {
       "stopwords": [ "enculé" ],
