@@ -1,0 +1,337 @@
+{
+  "appName": "QuoteoBot",
+  "welcomeMessage": [
+    {
+      "key": "Message01",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Le meilleur de la vie se passe à dire “Il est trop tôt”, puis “Il est trop tard”."
+        },
+        {
+          "culture": "en-EN",
+          "value": "The best moments in life are spent saying, “It’s too soon“, and then “It’s too late“."
+        },
+        {
+          "culture": "es-ES",
+          "value": "Lo mejor de la vida se pasa diciendo “es demasiado pronto“, y después “es demasiado tarde“."
+        }
+      ]
+    },
+
+    {
+      "key": "Message02",
+      "labels": [
+        {
+          "culture": "fr-FR","value": "Quel est le plus important ?\nLa liberté, la lucidité ou les légumes ?\nEvitez les erreurs courantes !\nSuivez les conseils des poètes et des écrivains disparus pour une vie meilleure !"
+        },
+        {
+          "culture": "en-EN", "value": "What is the most important?\nResilience, Responsibility or Raspberries? \nSteer clear of common mistakes! \nLet vanished writers and poets guide you towards a good life!"
+        },
+        {
+          "culture": "es-ES","value": "¿Cuál es el más importante?\nResiliencia, Responsabilidad o Patatas?\nEvite los errores comunes!\n¡Deja que los escritores y poetas desaparecidos te guíen hacia una buena vida!"
+        }
+      ]
+    }
+  ],
+  "text": [
+    {
+      "key": "quotes",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Citations"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Quotes"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Citacions"
+        }
+      ]
+    },
+    {
+      "key": "welcome",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bienvenue"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Welcome"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Bienvenidos"
+        }
+      ]
+    },
+    {
+      "key": "ditnotgetthat",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je n'ai pas compris"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I did not get that"
+        },
+        {
+          "culture": "es-ES",
+          "value": "No entendí eso"
+        }
+      ]
+    },
+    {
+      "key": "errorMessageFromException",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je suis désolé, j'ai des problèmes pour vous comprendre. Veuillez ré-essayer"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm sorry, I'm having issues understanding you. Let's try again."
+        },
+        {
+          "culture": "es-ES",
+          "value": "Lo siento, tengo problemas para entenderte. Vamos a intentarlo de nuevo."
+        }
+      ]
+    }
+
+  ],
+  "commands": [
+    {
+      "key": "imfeelinglucky",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "J'ai de la chance"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm feeling lucky"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Me siento afortunado"
+        }
+      ],
+      "alternates": [ "lucky", "tengo suerte" ]
+    },
+    {
+      "key": "start",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Démarrer"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Start"
+        },
+        {
+          
+          "culture": "es-ES",
+          "value": "Empezar"
+        }
+      ],
+      "alternates": [ "hi", "hello", "bonjour", "ola","start"]
+    }
+  ],
+  "intentions": [
+    {
+      "key": "03B6E4",
+      "slug": "I-am-here-for-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je suis déprimé"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm depressed"
+        },
+        {  
+          "culture": "es-ES",
+          "value": "Estoy deprimido"
+        }
+      ],
+      "alternates": [ "bof", "depressed" ]
+    },
+    {
+      "key": "0ECC82",
+      "slug": "humorous-insults",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je suis en colère"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm angry"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy enojado"
+        }
+        
+      ],
+      "alternates": [ "fun", "jokes" ]
+    },
+    {
+      "key": "2E2986",
+      "slug": "facebook-status",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je m'ennuie"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm bored"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy aburrido"
+        }
+      ],
+      "alternates": [ "status", "statut", "statuto" ]
+    },
+    {
+      "key": "43B296",
+      "slug": "poems",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Poèmes"
+        },
+        {
+
+          "culture": "en-EN",
+          "value": "Poems"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Poemas"
+        }
+      ]
+    },
+    {
+      "key": "451563",
+      "slug": "stop-the-world",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Pourquoi?"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Why?"
+        },
+        {
+          "culture": "es-ES",
+          "value": "¿Por qué?"
+        }
+      ]
+
+    },
+    {
+      "key": "5CDCF2",
+      "slug": "I-love-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je suis amoureux"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm in love"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy enamorado"
+        }
+      ],
+      "alternates": [ "love", "amour", "chérie" ]
+    },
+    {
+      "key": "67CC40",
+      "slug": "positive-thoughts",
+      "labels": [
+
+        {
+          "culture": "fr-FR",
+          "value": "Je suis triste"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm sad"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy triste"
+        }
+      ]
+    },
+    {
+      "key": "8ED62C",
+      "slug": "I-miss-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Mon amour me manque"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I miss my sweetheart"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Extraño a mi amor"
+        }
+      ]
+    },
+    {
+      "key": "A730B4",
+      "slug": "happy-birthday",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Messages d'anniversaire"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Birthday messages"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Mensajes de cumpleaños"
+        }
+      ]
+    },
+    {
+      "key": "D392C1",
+      "slug": "good-night",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bonne nuit!"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Good night!"
+        },
+        {
+          "culture": "es-ES",
+          "value": "¡Buenas noches!"
+        }
+      ]
+    }
+  ]
+}
