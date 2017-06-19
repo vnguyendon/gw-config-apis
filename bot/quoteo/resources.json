@@ -87,6 +87,23 @@
       ]
     },
     {
+      "key": "showanother",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Une autre"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Show Another"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Otra"
+        }
+      ]
+    },
+    {
       "key": "errorMessageFromException",
       "labels": [
         {
