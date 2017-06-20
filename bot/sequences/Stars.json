@@ -25,13 +25,13 @@
         },
         "Label": [
           {
-            "en": "Five - 5"
+            "en": "5"
           },
           {
-            "fr": "Cinq - 5"
+            "fr": "5"
           },
           {
-            "es": "Cinco - 5"
+            "es": "5"
           }
         ],
         "Action": "ShowQuestion",
@@ -39,10 +39,10 @@
             "QuestionId": "RateStore",
             "Label": [
               {
-                "en": "Would you like to rate us on the Store? This would help us a lot !"
+                "en": "Great, thanks! Please rate us on the store!"
               },
               {
-                "fr": "Est-ce que tu voudrais nous noter sur le Store? Ca nous aiderait beaucoup !"
+                "fr": "Super, merci ! Tu veux laisser une note sur le store ?"
               },
               {
                 "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
