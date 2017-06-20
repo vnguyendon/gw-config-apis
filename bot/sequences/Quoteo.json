@@ -4,13 +4,13 @@
     "QuestionId": "Quoteo",
     "Label": [
       {
-        "en": "Do you like talking birds and quotes?"
+        "en": "Do you like talking birds?"
       },
       {
-        "fr": "Est-ce que tu aimes les oiseaux et les citations?"
+        "fr": "Est-ce que tu aimes les oiseaux parlants?"
       },
       {
-        "es": "¿Te gustan los pájaros y las citas?"
+        "es": "¿Te gustan los pájaros que hablan?"
       }
     ],
     "Choices": [
