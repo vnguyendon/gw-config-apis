@@ -1,0 +1,77 @@
+
+[
+  {
+    "QuestionId": "Quoteo",
+    "Label": [
+      {
+        "en": "Do you like birds and quotes?"
+      },
+      {
+        "fr": "Est-ce que tu aimes les oiseaux et les citations?"
+      },
+      {
+        "es": "¿Te gustan los pájaros y las citas?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "EmbedLink",
+        "Id": "QuoteoYes",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "56YRqBPUEvIDm"
+        },
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
+        ],
+          "Link": {
+            "URL": "https://m.me/QuoteoBot",
+            "Label": [
+              {
+                "en": "I think you should try Quoteo ! He is a friend of mine"
+              },
+              {
+                "fr": "Tu devrais essayer Quoteo ! C'est un ami"
+              },
+              {
+                "es": "Deberias probar Quoteo ! Es un amigo"
+              }
+            ]
+          }
+      }
+      ,
+      {
+        "StepValue" : "0",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "9Y5BbDSkSTiY8"
+        },
+        "Id": "QuoteoNo",
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
