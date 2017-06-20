@@ -70,6 +70,23 @@
       ]
     },
     {
+      "key": "languagechanged",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "La langue de la conversation a bien été changée en Français"
+        },
+        {
+          "culture": "en-EN",
+          "value": "The language of the conversation has been changed to English"
+        },
+        {
+          "culture": "es-ES",
+          "value": "El lenguaje de la conversación se ha cambiado a Español"
+        }
+      ]
+    },
+    {
       "key": "ditnotgetthat",
       "labels": [
         {
