@@ -7,7 +7,7 @@
         "en": "Do you like talking birds?"
       },
       {
-        "fr": "Est-ce que tu aimes les oiseaux parlants?"
+        "fr": "Aimes-tu les oiseaux qui parlent ?"
       },
       {
         "es": "¿Te gustan los pájaros que hablan?"
@@ -38,10 +38,10 @@
           "URL": "https://m.me/QuoteoBot",
           "Label": [
             {
-              "en": "I think you should try Quoteo ! He is a friend of mine"
+              "en": "Try Quoteo! It's a cute and friendly bot!"
             },
             {
-              "fr": "Tu devrais essayer Quoteo ! C'est un ami"
+              "fr": "Essaye Quoteo ! C'est un bot très amical !"
             },
             {
               "es": "Deberias probar Quoteo ! Es un amigo"
@@ -73,5 +73,4 @@
     ]
   }
 ]
-
 
