@@ -1,0 +1,181 @@
+
+
+[
+  {
+    "QuestionId": "Stars",
+    "Label": [
+      {
+        "en": "How many stars would you rate us on the store?"
+      },
+      {
+        "fr": "Combien d'étoiles nous noterais-tu sur le store?"
+      },
+      {
+        "es": "¿Qué nota nos darías?"
+      }
+    ],
+    "Choices": [
+      {
+        "Id": "FiveStars",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "3ohzdQoCngNoESFV28"
+        },
+        "Label": [
+          {
+            "en": "5"
+          },
+          {
+            "fr": "5"
+          },
+          {
+            "es": "5"
+          }
+        ],
+        "Action": "ShowQuestion",
+          "Question": {
+            "QuestionId": "RateStore",
+            "Label": [
+              {
+                "en": "Would you like to rate us on the Store? This would help us a lot !"
+              },
+              {
+                "fr": "Est-ce que tu voudrais nous noter sur le Store? Ca nous aiderait beaucoup !"
+              },
+              {
+                "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
+              }
+            ],
+        "Choices": [
+            {
+              "Id": "StoreYes",
+              "StepValue" : "1",
+              "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "TBD"
+              },
+              "Label": [
+                {
+                  "en": "Yes"
+                },
+                {
+                  "fr": "Oui"
+                },
+                {
+                  "es": "Si"
+                }
+              ],
+              "Action": "EmbedLink",
+              "Link": {
+                "URL": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers",
+                "Label": [
+                  {
+                    "en": "Rate us here"
+                  },
+                  {
+                    "fr": "Notez-nous ici"
+                  },
+                  {
+                    "es": "Notar aquí"
+                  }
+                ]
+              }
+            }
+            ,
+            {
+            "Action": "Exit",
+            "Id": "StoreNo",
+              "StepValue" : "0",
+              "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "TBD"
+              },
+              "Label": [
+                {
+                  "en": "No"
+                },
+                {
+                  "fr": "Non"
+                },
+                {
+                  "es": "No"
+                }
+              ]
+            }
+          ]
+        }
+      }
+      ,
+      {
+        "Action": "Exit",
+        "StepValue" : "0",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "l2R0eYcNq9rJUsVAA"
+        },
+        "Id": "FourStars",
+        "Label": [
+          {
+            "en": "4"
+          },
+          {
+            "fr": "4"
+          },
+          {
+            "es": "4"
+          }
+        ]
+      },
+      {
+        "StepValue" : "0",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "1009wQ2WcsEmBO"
+        },
+        "Id": "ThreeStars",
+        "Label": [
+          {
+            "en": "3"
+          },
+          {
+            "fr": "3"
+          },
+          {
+            "es": "3"
+          }
+        ]
+      },
+      {
+        "StepValue" : "0",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "9Y5BbDSkSTiY8"
+        },
+        "Id": "LessThreeStars",
+        "Label": [
+          {
+            "en": "Less than 3"
+          },
+          {
+            "fr": "Moins de 3"
+          },
+          {
+            "es": "Menos de 3"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
+
