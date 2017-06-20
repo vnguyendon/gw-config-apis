@@ -25,13 +25,13 @@
         },
         "Label": [
           {
-            "en": "5"
+            "en": "Five - 5"
           },
           {
-            "fr": "5"
+            "fr": "Cinq - 5"
           },
           {
-            "es": "5"
+            "es": "Cinco - 5"
           }
         ],
         "Action": "ShowQuestion",
@@ -132,6 +132,7 @@
         ]
       },
       {
+        "Action": "Exit",
         "StepValue" : "0",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
@@ -152,6 +153,7 @@
         ]
       },
       {
+        "Action": "Exit",
         "StepValue" : "0",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
