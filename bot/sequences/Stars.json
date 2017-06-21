@@ -50,6 +50,7 @@
             ],
         "Choices": [
             {
+              "Action": "EmbedLink",
               "Id": "StoreYes",
               "StepValue" : "1",
               "OptionalFeedback": {
@@ -68,9 +69,9 @@
                   "es": "Si"
                 }
               ],
-              "Action": "EmbedLink",
               "Link": {
-                "URL": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers",
+                "Source": "External"
+                "Path": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers",
                 "Label": [
                   {
                     "en": "Rate us here"
@@ -92,7 +93,7 @@
               "OptionalFeedback": {
                 "Type": "AnimatedGif",
                 "Source": "Giphy",
-                "Path": "TBD"
+                "Path": "l41lUjUgLLwWrz20w"
               },
               "Label": [
                 {
