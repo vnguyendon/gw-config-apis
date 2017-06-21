@@ -70,7 +70,7 @@
                 }
               ],
               "Link": {
-                "Source": "External"
+                "Source": "External",
                 "Path": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers",
                 "Label": [
                   {
