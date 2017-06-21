@@ -51,6 +51,7 @@
       }
       ,
       {
+        "Action": "Exit",
         "StepValue" : "0",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
