@@ -35,7 +35,8 @@
           }
         ],
         "Link": {
-          "URL": "https://m.me/QuoteoBot",
+          "Source": "External",
+          "Path": "https://m.me/QuoteoBot",
           "Label": [
             {
               "en": "Try Quoteo! It's a cute and friendly bot!"
@@ -52,13 +53,13 @@
       ,
       {
         "Action": "Exit",
+        "Id": "QuoteoNo",
         "StepValue" : "0",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
           "Source": "Giphy",
           "Path": "9Y5BbDSkSTiY8"
         },
-        "Id": "QuoteoNo",
         "Label": [
           {
             "en": "No"
