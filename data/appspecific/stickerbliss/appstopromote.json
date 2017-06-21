@@ -1,0 +1,18 @@
+
+{
+"apps": 
+  [
+    {
+      "title": "Emoji Cartoon",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
+    }
+    ,
+    {
+      "title": "Elite Emoji",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
+    }
+  ]
+}
+
