@@ -1,0 +1,17 @@
+
+{
+"apps": 
+  [
+    {
+      "title": "Emoji Cartoon",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
+    }
+    ,
+    {
+      "title": "Popular Stickers",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Stickers/small/Stickers256x256.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers"
+    }
+  ]
+}
