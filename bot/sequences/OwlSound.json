@@ -1,0 +1,72 @@
+
+[
+  {
+    "QuestionId": "OwlSound",
+    "Label": [
+      {
+        "en": "Do you want to hear what an owl sounds like?"
+      },
+      {
+        "fr": "Est-ce que tu veux entendre un hiboux hululer?"
+      },
+      {
+        "es": "¿Quieres escuchar cómo suena un búho?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "PlaySound",
+        "Id": "OwlSoundYes",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "EIVudBZ6cjN8A"
+        },
+        "Label": [
+          {
+            "en": "Yes"
+          },
+          {
+            "fr": "Oui"
+          },
+          {
+            "es": "Si"
+          }
+        ],
+          "Sound": {
+            "Source": "FreeSound",
+            "Path": "/people/Johnc/sounds/20684/"
+          }
+      }
+      ,
+      {
+        "Action": "Exit",
+        "Id": "OwlSoundNo",
+        "StepValue" : "0",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "vQqeT3AYg8S5O"
+        },
+        "Label": [
+          {
+            "en": "No"
+          },
+          {
+            "fr": "Non"
+          },
+          {
+            "es": "No"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
+
+
