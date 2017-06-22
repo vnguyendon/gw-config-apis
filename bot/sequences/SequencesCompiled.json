@@ -12,7 +12,5 @@
       "/bot/sequences/WhatLikeSending.json",
       "/bot/sequences/RealBot.json",
       "/bot/sequences/FirstTimeBot.json",
-      "/bot/sequences/Age.json",
-      "/bot/sequences/OwlSound.json"
-      ] 
+      "/bot/sequences/Age.json"      ] 
 }
