@@ -12,16 +12,6 @@
       "/bot/sequences/WhatLikeSending.json",
       "/bot/sequences/RealBot.json",
       "/bot/sequences/FirstTimeBot.json",
-      "/bot/sequences/Age.json",
-      "/bot/sequences/ppAlmostNeverLate.json",
-      "/bot/sequences/ppDecisionsAriseFrom.json",
-      "/bot/sequences/ppEnergeticAfter.json",
-      "/bot/sequences/ppImportantQuality.json",
-      "/bot/sequences/ppJusticeOverPity.json",
-      "/bot/sequences/ppOpenedOrSettled.json",
-      "/bot/sequences/ppPreferBooksToParties.json",
-      "/bot/sequences/ppPreferGoals.json",
-      "/bot/sequences/ppReceptiveTo.json",
-      "/bot/sequences/ppSocialInteraction.json"
+      "/bot/sequences/Age.json"
       ] 
 }
