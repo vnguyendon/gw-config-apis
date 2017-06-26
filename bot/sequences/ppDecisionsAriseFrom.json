@@ -19,7 +19,7 @@
           "Source": "Giphy",
           "Path": "14hWUIZK0rKFS8"
         },
-        "Labels":[{"en":"Your values and feelings"},{"fr":"Vos valeurs, vos sentiments"},{"es":"Sus valores, sus sentimientos"}],
+        "Label":[{"en":"Your values and feelings"},{"fr":"Vos valeurs, vos sentiments"},{"es":"Sus valores, sus sentimientos"}],
         "Action": "SetUserProperty"
         }
         ,
@@ -31,7 +31,7 @@
           "Source": "Giphy",
           "Path": "a5viI92PAF89q"
         },
-        "Labels":[{"en":"Rational thinking"},{"fr":"Des raisonnements logiques"},{"es":"Razonamientos lógicos"}],
+        "Label":[{"en":"Rational thinking"},{"fr":"Des raisonnements logiques"},{"es":"Razonamientos lógicos"}],
         "Action": "SetUserProperty"
         }
     ]
