@@ -19,14 +19,14 @@
         {
         "Id" : "Flexible",
         "StepValue" : "1",
-        "Labels": [{"en":"flexible, evolving"},{"fr":"flexibles, évolutifs"},{"es":"flexibles"}],
+        "Label": [{"en":"flexible, evolving"},{"fr":"flexibles, évolutifs"},{"es":"flexibles"}],
         "Action": "SetUserProperty"
         }
         ,
         {
         "Id" : "Structured",
         "StepValue" : "1",
-        "Labels": [{"en":"structured, well defined"},{"fr":"structurés, bien définis"},{"es":"bien organizados"}],
+        "Label": [{"en":"structured, well defined"},{"fr":"structurés, bien définis"},{"es":"bien organizados"}],
         "Action": "SetUserProperty"
         }
     ]
