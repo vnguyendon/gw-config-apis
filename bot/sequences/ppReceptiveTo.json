@@ -24,7 +24,7 @@
           "Source": "Giphy",
           "Path": "xUA7b6oaRIgzmAKpUY"
         },
-        "Labels": [{"en":"Theories and possibilities"},{"fr":"Aux théories, aux possibilités"},{"es":"Las teorías, las posibilidades"}],
+        "Label": [{"en":"Theories and possibilities"},{"fr":"Aux théories, aux possibilités"},{"es":"Las teorías, las posibilidades"}],
         "Action": "SetUserProperty"
         }
         ,
@@ -36,7 +36,7 @@
           "Source": "Giphy",
           "Path": "zagB8wzgm4Ce4"
         },
-        "Labels": [{"en":"Facts and reality"},{"fr":"Aux faits, à la réalité"},{"es":"Los hechos, la realidad"}],
+        "Label": [{"en":"Facts and reality"},{"fr":"Aux faits, à la réalité"},{"es":"Los hechos, la realidad"}],
         "Action": "SetUserProperty"
         }
     ]
