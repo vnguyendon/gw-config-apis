@@ -19,14 +19,14 @@
         {
         "Id" : "Naturally",
         "StepValue" : "1",
-        "Labels": [{"Language":"en-EN","Label":"naturally"},{"Language":"fr-FR","Label":"naturellement"},{"Language":"es-ES","Label":"naturalmente"}],
+        "Label": [{"Language":"en-EN","Label":"naturally"},{"Language":"fr-FR","Label":"naturellement"},{"Language":"es-ES","Label":"naturalmente"}],
         "Action": "SetUserProperty"
         }
         ,
         {
         "Id" : "WithEffort",
         "StepValue" : "1",
-        "Labels": [{"Language":"en-EN","Label":"with effort"},{"Language":"fr-FR","Label":"avec effort"},{"Language":"es-ES","Label":"cuándo me esfuerzo"}],
+        "Label": [{"Language":"en-EN","Label":"with effort"},{"Language":"fr-FR","Label":"avec effort"},{"Language":"es-ES","Label":"cuándo me esfuerzo"}],
         "Action": "SetUserProperty"
         }
     ]
