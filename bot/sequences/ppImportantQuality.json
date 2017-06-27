@@ -19,14 +19,14 @@
         {
         "Id" : "Curious",
         "StepValue" : "1",
-        "Labels": [{"en":"being curious"},{"fr":"être curieux"},{"es":"curiosidad"}],
+        "Label": [{"en":"being curious"},{"fr":"être curieux"},{"es":"curiosidad"}],
         "Action": "SetUserProperty"
         }
         ,
         {
         "Id" : "Positive",
         "StepValue" : "1",
-        "Labels": [{"en":"being positive"},{"fr":"être positif"},{"es":"optimismo"}],
+        "Label": [{"en":"being positive"},{"fr":"être positif"},{"es":"optimismo"}],
         "Action": "SetUserProperty"
         }
     ]
