@@ -19,7 +19,7 @@
           "Source": "Giphy",
           "Path": "26vUNhQzmhMtArwC4"
         },
-        "Labels":[{"en":"settled, decided"},{"fr":"tranchées, décidées"},{"es":"cortadas, decididas"}],
+        "Label":[{"en":"settled, decided"},{"fr":"tranchées, décidées"},{"es":"cortadas, decididas"}],
         "Action": "SetUserProperty"
         }
         ,
@@ -31,7 +31,7 @@
           "Source": "Giphy",
           "Path": "3orifgB50UFpOc9CH6"
         },
-        "Labels":[{"en":"interpretable, evolving"},{"fr":"interprétables, évolutives"},{"es":"interpretables, evolutivas"}],
+        "Label":[{"en":"interpretable, evolving"},{"fr":"interprétables, évolutives"},{"es":"interpretables, evolutivas"}],
         "Action": "SetUserProperty"
         }
     ]
