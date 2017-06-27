@@ -216,23 +216,43 @@
         }
         
       ],
-      "alternates": [ "fun", "jokes" ]
+      "alternates": [ "fun" ]
     },
+    {
+      "key": "0B1EA1",
+      "slug": "jokes",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Fais-moi rire""
+        },
+        {
+          "culture": "en-EN",
+          "value": "Make me laugh"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Me hacen reír"
+        }
+        
+      ],
+      "alternates": [ "laugh","jokes","rire","blague" ]
+    }
     {
       "key": "2E2986",
       "slug": "facebook-status",
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je m'ennuie"
+          "value": "Dis un truc sur toi"
         },
         {
           "culture": "en-EN",
-          "value": "I'm bored"
+          "value": "Tell me about you"
         },
         {
           "culture": "es-ES",
-          "value": "Estoy aburrido"
+          "value": "Cuéntame de ti"
         }
       ],
       "alternates": [ "status", "statut", "statuto" ]
