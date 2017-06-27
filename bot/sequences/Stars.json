@@ -50,7 +50,7 @@
             ],
         "Choices": [
             {
-              "Action": "EmbedLink",
+              "Action": "RateUs",
               "Id": "StoreYes",
               "StepValue" : "1",
               "OptionalFeedback": {
@@ -68,22 +68,7 @@
                 {
                   "es": "Si"
                 }
-              ],
-              "Link": {
-                "Source": "External",
-                "Path": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers",
-                "Label": [
-                  {
-                    "en": "Rate us here"
-                  },
-                  {
-                    "fr": "Notez-nous ici"
-                  },
-                  {
-                    "es": "Notar aquí"
-                  }
-                ]
-              }
+              ]
             }
             ,
             {
