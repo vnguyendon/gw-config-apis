@@ -24,7 +24,7 @@
           "Source": "Giphy",
           "Path": "hBdKJQwWJ98aI"
         },
-        "Labels": [{"en":"Being with people"},{"fr":"Avec d'autres personnes"},{"es":"Con otras personas"}],
+        "Label": [{"en":"Being with people"},{"fr":"Avec d'autres personnes"},{"es":"Con otras personas"}],
         "Action": "SetUserProperty"
         }
         ,
@@ -36,7 +36,7 @@
           "Source": "Giphy",
           "Path": "B51EAJ0Frooq4"
         },
-        "Labels": [{"en":"Being on your own"},{"fr":"Avec vous-même"},{"es":"Con usted mismo"}],
+        "Label": [{"en":"Being on your own"},{"fr":"Avec vous-même"},{"es":"Con usted mismo"}],
         "Action": "SetUserProperty"
         }
     ]
