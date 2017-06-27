@@ -19,14 +19,14 @@
         {
         "Id" : "Justice",
         "StepValue" : "1",
-        "Labels": [{"en":"justice"},{"fr":"la justice"},{"es":"la justicia"}],
+        "Label": [{"en":"justice"},{"fr":"la justice"},{"es":"la justicia"}],
         "Action": "SetUserProperty"
         }
         ,
         {
         "Id" : "Pity",
         "StepValue" : "1",
-        "Labels": [{"en":"mercy"},{"fr":"la pitié"},{"es":"la compasión"}],
+        "Label": [{"en":"mercy"},{"fr":"la pitié"},{"es":"la compasión"}],
         "Action": "SetUserProperty"
         }
     ]
