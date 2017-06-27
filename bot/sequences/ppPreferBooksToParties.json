@@ -19,14 +19,14 @@
         {
         "Id" : "Books",
         "StepValue" : "1",
-        "Labels": [{"en":"Yes"},{"fr":"Oui"},{"es":"Sí"}],
+        "Label": [{"en":"Yes"},{"fr":"Oui"},{"es":"Sí"}],
         "Action": "SetUserProperty"
         }
         ,
         {
         "Id" : "Parties",
         "StepValue" : "1",
-        "Labels": [{"en":"No"},{"fr":"Non"},{"es":"No"}],
+        "Label": [{"en":"No"},{"fr":"Non"},{"es":"No"}],
         "Action": "SetUserProperty"
         }
     ]
