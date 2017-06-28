@@ -1,0 +1,74 @@
+
+
+[
+  {
+    "QuestionId": "TabRedirection",
+    "Label": [
+      {
+        "en": "What would you like to do?"
+      },
+      {
+        "fr": "Qu'est ce que tu aimerais faire?"
+      },
+      {
+        "es": "¿TBD?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "RedirectToEmoji",
+        "Id": "CatEmoji",
+        "StepValue" : "1",
+        "Label": [
+          {
+            "en": "Send an Emoji"
+          },
+          {
+            "fr": "Envoyer un Emoji"
+          },
+          {
+            "es": "Enviar un Emoji"
+          }
+        ]
+      }
+      ,
+      {
+        "Action": "RedirectToStickers",
+        "Id": "TabStickers",
+        "StepValue" : "1",
+        "Label": [
+          {
+            "en": "Browse Stickers"
+          },
+          {
+            "fr": "Découvrir les Stickers"
+          },
+          {
+            "es": "Descubrir los Stickers"
+          }
+        ]
+      }
+      ,
+      {
+        "Action": "RedirectToReciptients",
+        "Id": "TabRecipient",
+        "StepValue" : "1",
+        "Label": [
+          {
+            "en": "Message someone"
+          },
+          {
+            "fr": "Ecrire à quelqu'un"
+          },
+          {
+            "es": "Escribir a alguien"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
