@@ -25,13 +25,13 @@
         },
         "Label": [
           {
-            "en": "5"
+            "en": "*****"
           },
           {
-            "fr": "5"
+            "fr": "*****"
           },
           {
-            "es": "5"
+            "es": "*****"
           }
         ],
         "Action": "ShowQuestion",
@@ -107,13 +107,13 @@
         "Id": "FourStars",
         "Label": [
           {
-            "en": "4"
+            "en": "****"
           },
           {
-            "fr": "4"
+            "fr": "****"
           },
           {
-            "es": "4"
+            "es": "****"
           }
         ]
       },
@@ -128,13 +128,13 @@
         "Id": "ThreeStars",
         "Label": [
           {
-            "en": "3"
+            "en": "***"
           },
           {
-            "fr": "3"
+            "fr": "***"
           },
           {
-            "es": "3"
+            "es": "***"
           }
         ]
       },
@@ -149,13 +149,13 @@
         "Id": "LessThreeStars",
         "Label": [
           {
-            "en": "Less than 3"
+            "en": "Less than ***"
           },
           {
-            "fr": "Moins de 3"
+            "fr": "Moins de ***"
           },
           {
-            "es": "Menos de 3"
+            "es": "Menos de ***"
           }
         ]
       }
