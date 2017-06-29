@@ -5,32 +5,44 @@
         "Source": "Dropbox",
         "Path": "themes/emoticons/small/000073674269.jpg"
         },
-    "Label": [{"en":"Your decisions arise from"},{"fr":"Vos décisions sont guidées par"},{"es":"Sus decisiones están guiadas por"}],
-    "Randomize": "true",
+    "Label": {
+      "en":"Your decisions arise from",
+      "fr":"Vos décisions sont guidées par",
+      "es":"Sus decisiones están guiadas por"
+    },
+    "Randomize": true,
     "Choices":
     [
         {
-        "Id" : "Feelings",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "14hWUIZK0rKFS8"
-        },
-        "Label":[{"en":"Your values and feelings"},{"fr":"Vos valeurs, vos sentiments"},{"es":"Sus valores, sus sentimientos"}],
-        "Action": "SetUserProperty"
+          "Id" : "Feelings",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "14hWUIZK0rKFS8"
+          },
+          "Label":{
+            "en":"Your values and feelings",
+            "fr":"Vos valeurs, vos sentiments",
+            "es":"Sus valores, sus sentimientos"
+          },
+          "Action": "SetUserProperty"
         }
         ,
         {
-        "Id" : "Thinking",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "a5viI92PAF89q"
-        },
-        "Label":[{"en":"Rational thinking"},{"fr":"Des raisonnements logiques"},{"es":"Razonamientos lógicos"}],
-        "Action": "SetUserProperty"
+          "Id" : "Thinking",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "a5viI92PAF89q"
+          },
+          "Label":{
+              "en":"Rational thinking",
+              "fr":"Des raisonnements logiques",
+              "es":"Razonamientos lógicos"
+          },
+          "Action": "SetUserProperty"
         }
     ]
 }
