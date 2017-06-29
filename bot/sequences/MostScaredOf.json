@@ -1,0 +1,107 @@
+
+
+[
+  {
+    "QuestionId": "MostScaredOF",
+    "Label": [
+      {
+        "en": "What are you most scared of?"
+      },
+      {
+        "fr": "De quoi as-tu le plus peur?"
+      },
+      {
+        "es": "¿De que estas mas asustado?"
+      }
+    ],
+    "Choices": [
+      {
+        "Action": "Exit",
+        "Id": "ScaredInsects",
+        "StepValue" : "1",
+        "ChoiceImage": {
+          "Source": "External",
+          "Path": "http://www.nhm.ac.uk/natureplus/servlet/JiveServlet/showImage/2-5980-5940/Spider.jpg"
+        },
+        "Label": [
+          {
+            "en": "Insects"
+          },
+          {
+            "fr": "Insectes"
+          },
+          {
+            "es": "Insectos"
+          }
+         ]
+      }
+      ,
+      {
+        "Action": "Exit",
+        "Id": "ScaredSnakes",
+        "StepValue" : "1",
+        "ChoiceImage": {
+          "Source": "External",
+          "Path": "http://ichef.bbci.co.uk/naturelibrary/images/ic/credit/640x395/s/sn/snake/snake_1.jpg"
+        },
+        "Label": [
+          {
+            "en": "Snakes"
+          },
+          {
+            "fr": "Serpents"
+          },
+          {
+            "es": "Serpientes"
+          }
+        ]
+      }
+      ,
+      {
+        "Action": "Exit",
+        "Id": "ScaredHeight",
+        "StepValue" : "1",
+        "ChoiceImage": {
+          "Source": "External",
+          "Path": "http://i.imgur.com/NBA97x3.jpg"
+        },
+        "Label": [
+          {
+            "en": "Height"
+          },
+          {
+            "fr": "La hauteur"
+          },
+          {
+            "es": "Altura"
+          }
+        ]
+      }
+      ,
+      {
+        "Action": "Exit",
+        "Id": "ScaredCrowds",
+        "StepValue" : "1",
+        "ChoiceImage": {
+          "Source": "External",
+          "Path": "http://www.abc.net.au/news/image/3785260-3x2-940x627.jpg"
+        },
+        "Label": [
+          {
+            "en": "Crowds"
+          },
+          {
+            "fr": "La foule"
+          },
+          {
+            "es": "La multitud"
+          }
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
