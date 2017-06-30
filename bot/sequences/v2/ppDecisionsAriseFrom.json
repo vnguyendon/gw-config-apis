@@ -26,7 +26,10 @@
             "fr":"Vos valeurs, vos sentiments",
             "es":"Sus valores, sus sentimientos"
           },
-          "Action": "SetUserProperty"
+          "Action": {
+                "Name : "SetUserProperty",
+                "Options" : {}
+          }
         }
         ,
         {
@@ -42,7 +45,10 @@
               "fr":"Des raisonnements logiques",
               "es":"Razonamientos lógicos"
           },
-          "Action": "SetUserProperty"
+          "Action": {
+                "Name : "SetUserProperty",
+                "Options" : {}
+          }
         }
     ]
 }
