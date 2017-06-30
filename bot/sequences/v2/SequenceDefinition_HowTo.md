@@ -58,6 +58,7 @@ For each property:
      - for simplicity, the format used for culture is 2 letters (ie: use "en" for english instead of "en-GB" for exemple)
      - whereas the label is not mandatory, you should always provide labels with the choices as it will be seen by the user 
      the visible question
+     - if the question is a child question present in a choice list, then this label is used as the label shown in choice list not as a separe question for the next step.
 * OptionalFeedback:
   * mandatory : false
   * type : object =>
@@ -137,4 +138,6 @@ For each Property:
   
  
 
+## Discussions
 
+* it's not clear that we'll need 2 kind of labels for the questions or not? We have 2 situations : when the label is used to show the text of the question to the user and one when the question is a continuation of the previous question within a choice list
