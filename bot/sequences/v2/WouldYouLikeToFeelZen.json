@@ -1,0 +1,116 @@
+{
+    "QuestionId": "WouldYouLikeToFeelZen",
+    "Label": {
+          "en": "A little comfort?",
+          "fr": "Un peu de récomfort ?",
+          "es": "¿Un pequeño zen?"
+    },
+    "Choices": [
+      {
+        "Id": "ZenYes",
+        "Label": {
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+        },
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "9WHE2bo5Na9Gg"
+        },
+        "Action": {
+            "Name" : "ShowChoices",
+            "Options" : {
+                "Type" : "Choices",
+                "Value": [
+                    {
+                      "Id": "SuggestionsPoems",
+                      "StepValue" : "1",
+                      "Action": {
+                          "Name"    : "ShowCards",
+                          "Options" : {
+                              "Type"  : "CardSource",
+                              "Value" : {
+                                  "Type": "Intention",
+                                  "Id": "43B296",
+                                  "Description": "poems"
+                              }
+                          }
+                       }
+                    },
+                    {
+                      "Id": "SuggestionsPositiveThoughts",
+                      "StepValue" : "1",
+                      "Action": {
+                          "Name"    : "ShowCards",
+                          "Options" : {
+                              "Type"  : "CardSource",
+                              "Value" : {
+                                  "Type": "Intention",
+                                  "Id": "67CC40",
+                                  "Description": "positive-thoughts"
+                              }
+                          }
+                       }
+                    },
+                    {
+                      "Id": "SuggestionsNature",
+                      "StepValue" : "1",
+                      "Label": {
+                          "en": "Nature",
+                          "fr": "Nature",
+                          "es": "Naturaleza"
+                      },
+                      "Action": {
+                          "Name"    : "ShowCards",
+                          "Options" : {
+                              "Type"  : "CardSource",
+                              "Value" : {
+                                  "Type": "Theme",
+                                  "Id": "themes/nature"
+                              }
+                          }
+                       }
+                    }
+                  ]
+               }
+        }
+      },
+      {
+        "Id": "ZenNo",
+        "Label": {
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+        },
+        "Action": {
+            "Name": "ShowChoices",
+            "Options" : {
+                "Type" : "Choices",
+                "Value" : [
+                    {
+                      "Id": "ZenStopWorld",
+                      "StepValue" : "1",
+                      "Action": "ShowCards",
+                      "CardSource": {
+                        "Type": "Intention",
+                        "Id": "451563",
+                        "Description": "stop-the-world"
+                      }
+                    },
+                    {
+                      "Id": "ZenIAmHereForYou",
+                      "StepValue" : "1",
+                      "Action": "ShowCards",
+                      "CardSource": {
+                        "Type": "Intention",
+                        "Id": "03B6E4",
+                        "Description": "I-am-here-for-you"
+                      }
+                    }
+                ]
+            }
+         }
+      }
+    ]
+  }
