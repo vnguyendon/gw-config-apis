@@ -35,7 +35,8 @@ Question =
           "Id" : "source id or full path"
         }
         "Choices":[ question | action, ... ],
-        "DisplayMode": "Default"
+        "DisplayMode": "Default",
+        "Randomize": true
       }
      
 For each property:
@@ -75,7 +76,10 @@ For each property:
   * mandatory : false,
   * type : string
   * comments : this is manly a hint for indicating the apps how to display the list of choices (all at the same time, one by one, etc...)
-  
+* Randomize:
+  * mandatory : false,
+  * type : boolean. if property is missing, it will consided as _false_
+  * commments : if true, it means the choices presented to the user have to be present each time in a random order.
   
   ## Action
   
@@ -137,6 +141,13 @@ For each Property:
   where you'll pick the cards (ex: Intention) and an identifier within the source (ex: the intention id, 67CC40)
   
  
+## Additional notes
+
+**Action Labels**, 
+
+some labels should be implicitely provided by the apps. If I'm in a _ShowCard_ action, and I provided the _Type=Intention_ and _Id=67CC40_ then it means that the app is able to get the label for this intention from another service.
+
+for the exact same case, if the _Label_ property is present, then the app is supposed to use this one even if it can guess the values from other sources.
 
 ## Discussions
 
