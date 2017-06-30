@@ -1,5 +1,7 @@
 {
-    "QuestionId" : "ppDecisionsAriseFrom",
+    "Type" : "Question",
+    "Id" : "ppDecisionsAriseFrom",
+    "Comments": "this is question to help having informations on people profile",
     "OptionalFeedback": {
         "Type": "Image",
         "Source": "Dropbox",
@@ -25,14 +27,10 @@
             "en":"Your values and feelings",
             "fr":"Vos valeurs, vos sentiments",
             "es":"Sus valores, sus sentimientos"
-          },
-          "Action": {
-                "Name" : "SetUserProperty",
-                "Options" : {}
           }
-        }
-        ,
+        },
         {
+          "Type": "SetUserProperty",
           "Id" : "Thinking",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -44,10 +42,6 @@
               "en":"Rational thinking",
               "fr":"Des raisonnements logiques",
               "es":"Razonamientos lógicos"
-          },
-          "Action": {
-                "Name" : "SetUserProperty",
-                "Options" : {}
           }
         }
     ]
