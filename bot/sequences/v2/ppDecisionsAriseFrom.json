@@ -27,7 +27,7 @@
             "es":"Sus valores, sus sentimientos"
           },
           "Action": {
-                "Name : "SetUserProperty",
+                "Name" : "SetUserProperty",
                 "Options" : {}
           }
         }
@@ -46,7 +46,7 @@
               "es":"Razonamientos lógicos"
           },
           "Action": {
-                "Name : "SetUserProperty",
+                "Name" : "SetUserProperty",
                 "Options" : {}
           }
         }
