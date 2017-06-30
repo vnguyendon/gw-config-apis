@@ -1,13 +1,17 @@
 {
-    "QuestionId": "WouldYouLikeToFeelZen",
-    "Label": {
-          "en": "A little comfort?",
-          "fr": "Un peu de récomfort ?",
-          "es": "¿Un pequeño zen?"
-    },
-    "Choices": [
+  "Type"     : "Question",
+  "Id"       : "WouldYouLikeToFeelZen",
+  "Comments" : "Ask a question about feeling zen in order to decide what kind of cards to display",
+  "Label": {
+    "en": "A little comfort?",
+    "fr": "Un peu de récomfort ?",
+    "es": "¿Un pequeño zen?"
+  },
+  "Choices": [
       {
-        "Id": "ZenYes",
+        "Type" : "Question",
+        "Id"   : "ZenYes",
+        "Comments": "represents the Yes answer, then we continue with another implicit question showing the different options for cards",
         "Label": {
             "en": "Yes",
             "fr": "Oui",
@@ -18,99 +22,76 @@
           "Source": "Giphy",
           "Path": "9WHE2bo5Na9Gg"
         },
-        "Action": {
-            "Name" : "ShowChoices",
-            "Options" : {
-                "Type" : "Choices",
-                "Value": [
-                    {
-                      "Id": "SuggestionsPoems",
-                      "StepValue" : "1",
-                      "Action": {
-                          "Name"    : "ShowCards",
-                          "Options" : {
-                              "Type"  : "CardSource",
-                              "Value" : {
-                                  "Type": "Intention",
-                                  "Id": "43B296",
-                                  "Description": "poems"
-                              }
-                          }
-                       }
-                    },
-                    {
-                      "Id": "SuggestionsPositiveThoughts",
-                      "StepValue" : "1",
-                      "Action": {
-                          "Name"    : "ShowCards",
-                          "Options" : {
-                              "Type"  : "CardSource",
-                              "Value" : {
-                                  "Type": "Intention",
-                                  "Id": "67CC40",
-                                  "Description": "positive-thoughts"
-                              }
-                          }
-                       }
-                    },
-                    {
-                      "Id": "SuggestionsNature",
-                      "StepValue" : "1",
-                      "Label": {
-                          "en": "Nature",
-                          "fr": "Nature",
-                          "es": "Naturaleza"
-                      },
-                      "Action": {
-                          "Name"    : "ShowCards",
-                          "Options" : {
-                              "Type"  : "CardSource",
-                              "Value" : {
-                                  "Type": "Theme",
-                                  "Id": "themes/nature"
-                              }
-                          }
-                       }
-                    }
-                  ]
-               }
-        }
+        "Choices": [
+            {
+              "Type" : "ShowCards",
+              "Id"   : "SuggestionsPoems",
+              "Comments" : "if selected we'll show a Poem card",
+              "StepValue" : 1,
+              "Parameters":{ 
+                "Type": "Intention",
+                "Id" : "43B296"
+              }
+            },
+            {
+              "Type" : "ShowCards",
+              "Id"   : "SuggestionsPositiveThoughts",
+              "Comments" : "if selected we'll show a positive-thoughts card",
+              "StepValue" : 1,
+              "Parameters":{ 
+                "Type": "Intention",
+                "Id" : "67CC40"
+              }
+            },
+            {
+              "Type" : "ShowCards",
+              "Id"   : "SuggestionsNature",
+              "Comments" : "if selected we'll show a card associated the image theme nature",
+              "StepValue" : 1,
+              "Label": {
+                  "en": "Nature",
+                  "fr": "Nature",
+                  "es": "Naturaleza"
+              },
+              "Parameters":{ 
+                "Type": "Theme",
+                "Id": "themes/nature"
+              }
+            }
+          
+        ]
       },
       {
-        "Id": "ZenNo",
+        "Type" : "Question",
+        "Id"   : "ZenNo",
+        "Comments": "represents the No answer, then we continue with another implicit question showing the different options for cards",
         "Label": {
             "en": "No",
             "fr": "Non",
             "es": "No"
         },
-        "Action": {
-            "Name": "ShowChoices",
-            "Options" : {
-                "Type" : "Choices",
-                "Value" : [
-                    {
-                      "Id": "ZenStopWorld",
-                      "StepValue" : "1",
-                      "Action": "ShowCards",
-                      "CardSource": {
-                        "Type": "Intention",
-                        "Id": "451563",
-                        "Description": "stop-the-world"
-                      }
-                    },
-                    {
-                      "Id": "ZenIAmHereForYou",
-                      "StepValue" : "1",
-                      "Action": "ShowCards",
-                      "CardSource": {
-                        "Type": "Intention",
-                        "Id": "03B6E4",
-                        "Description": "I-am-here-for-you"
-                      }
-                    }
-                ]
+        "Choices": [
+            {
+              "Type" : "ShowCards",
+              "Id"   : "ZenStopWorld",
+              "Comments" : "if selected we'll show a stop-the-world card",
+              "StepValue" : 1,
+              "Parameters":{ 
+                "Type": "Intention",
+                "Id" : "451563"
+              }
+            },
+            {
+              "Type" : "ShowCards",
+              "Id"   : "ZenIAmHereForYou",
+              "Comments" : "if selected we'll show a I-am-here-for-you card",
+              "StepValue" : 1,
+              "Parameters":{ 
+                "Type": "Intention",
+                "Id" : "03B6E4"
+              }
             }
-         }
+        ]
       }
     ]
-  }
+}
