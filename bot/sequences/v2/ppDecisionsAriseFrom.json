@@ -16,6 +16,7 @@
     "Choices":
     [
         {
+          "Type": "SetUserProperty",
           "Id" : "Feelings",
           "StepValue" : "1",
           "OptionalFeedback": {
