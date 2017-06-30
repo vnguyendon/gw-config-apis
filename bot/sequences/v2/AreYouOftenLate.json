@@ -7,56 +7,61 @@
         "fr": "Es-tu souvent en retard?",
         "es": "¿Está a menudo tarde?"
       },
-    "Choices": [
+    "Commands": [
       {
-        "Type":"Question",
-        "Id": "CanISuggestOftenLateMessages",
-        "Comments":"if yes, then we can show suggestion messages for excuses!",
+        "Type" : "ShowQuestion",
+        "Id" : "OftenLate",
         "StepValue" : "1",
         "Label": {
-            "en": "Yes",
-            "fr": "Oui",
-            "es": "Si"
-          },
-        "QuestionLabel": {
-            "en": "Can I suggest you messages to send when you're late?",
-            "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?",
-            "es": "¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"
-          },
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "V2MJADdC027gk"
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Si"
         },
-        "Choices": [
-          {
-            "Type":"ShowCards",
-            "Id": "OftenLateMessageYes",
-            "StepValue" : "1",
-            "Label": {
-                "en": "Yes",
-                "fr": "Oui",
-                "es": "Si"
+        "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "V2MJADdC027gk"
+        },
+        "LinksTo" : {
+          "Type":"Question",
+          "Id": "CanISuggestOftenLateMessages",
+          "Comments":"if yes, then we can show suggestion messages for excuses!",
+          "Label": {
+              "en": "Can I suggest you messages to send when you're late?",
+              "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?",
+              "es": "¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"
             },
-            "Parameters": {
-              "Type": "Intention",
-              "Id": "9B2C8B"
-            }
-          },
-          {
-            "Type" : "Nothing",
-            "Id": "OftenLateMessageNo",
-            "StepValue" : "0",
-            "Label": {
-                "en": "No",
-                "fr": "Non",
-                "es": "No"
+          "Commands": [
+            {
+              "Type":"ShowCards",
+              "Id": "OftenLateMessageYes",
+              "StepValue" : "1",
+              "Label": {
+                  "en": "Yes",
+                  "fr": "Oui",
+                  "es": "Si"
+              },
+              "LinksTo": {
+                "Type": "Intention",
+                "Id": "9B2C8B"
               }
-          }
-        ]
+            },
+            {
+              "Type" : "DoNothing",
+              "Id": "OftenLateMessageNo",
+              "StepValue" : "0",
+              "Label": {
+                  "en": "No",
+                  "fr": "Non",
+                  "es": "No"
+                }
+            }
+          ]
+        }
       },
       {
-        "Id": "Nothing",
+        "Type":"DoNothing",
+        "Id": "NotOftenLate",
         "StepValue" : "0",
         "Label": {
             "en": "No",
