@@ -242,7 +242,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Fais-moi rire""
+          "value": "Fais-moi rire"
         },
         {
           "culture": "en-EN",
@@ -255,7 +255,7 @@
         
       ],
       "alternates": [ "laugh","jokes","rire","blague" ]
-    }
+    },
     {
       "key": "2E2986",
       "slug": "facebook-status",
