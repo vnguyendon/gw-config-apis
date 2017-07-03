@@ -7,9 +7,9 @@
     "fr": "Un peu de récomfort ?",
     "es": "¿Un pequeño zen?"
   },
-  "Choices": [
+  "Commands": [
       {
-        "Type" : "Question",
+        "Type" : "ShowQuestion",
         "Id"   : "ZenYes",
         "Comments": "represents the Yes answer, then we continue with another implicit question showing the different options for cards",
         "Label": {
@@ -22,13 +22,17 @@
           "Source": "Giphy",
           "Path": "9WHE2bo5Na9Gg"
         },
-        "Choices": [
+        "LinksTo" : {
+          "Type" : "Question",
+          "Id" : "ShowFeelzenYesCardsSuggestions",
+          "Comments" : "if Yes selected, then we'll continue showing some Cards suggestions",
+          "Commands": [
             {
               "Type" : "ShowCards",
               "Id"   : "SuggestionsPoems",
               "Comments" : "if selected we'll show a Poem card",
               "StepValue" : 1,
-              "Parameters":{ 
+              "LinksTo":{ 
                 "Type": "Intention",
                 "Id" : "43B296"
               }
@@ -38,7 +42,7 @@
               "Id"   : "SuggestionsPositiveThoughts",
               "Comments" : "if selected we'll show a positive-thoughts card",
               "StepValue" : 1,
-              "Parameters":{ 
+              "LinksTo":{ 
                 "Type": "Intention",
                 "Id" : "67CC40"
               }
@@ -53,13 +57,15 @@
                   "fr": "Nature",
                   "es": "Naturaleza"
               },
-              "Parameters":{ 
+              "LinksTo":{ 
                 "Type": "Theme",
                 "Id": "themes/nature"
               }
             }
           
         ]
+        }
+        
       },
       {
         "Type" : "Question",
@@ -70,13 +76,17 @@
             "fr": "Non",
             "es": "No"
         },
-        "Choices": [
+        "LinksTo" : {
+          "Type" : "Question",
+          "Id" : "ShowFeelzenYesCardsSuggestions",
+          "Comments" : "if No selected, then we'll continue showing some Cards suggestions",
+          "Commands": [
             {
               "Type" : "ShowCards",
               "Id"   : "ZenStopWorld",
               "Comments" : "if selected we'll show a stop-the-world card",
               "StepValue" : 1,
-              "Parameters":{ 
+              "LinksTo":{ 
                 "Type": "Intention",
                 "Id" : "451563"
               }
@@ -86,12 +96,14 @@
               "Id"   : "ZenIAmHereForYou",
               "Comments" : "if selected we'll show a I-am-here-for-you card",
               "StepValue" : 1,
-              "Parameters":{ 
+              "LinksTo":{ 
                 "Type": "Intention",
                 "Id" : "03B6E4"
               }
             }
         ]
+        }
+        
       }
     ]
 }
