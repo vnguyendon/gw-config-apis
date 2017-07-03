@@ -90,7 +90,8 @@ Question =
         }
         "Commands":[ question | action, ... ],
         "DisplayMode": "Default",
-        "Randomize": true
+        "Randomize": true,
+        "Skipable":"true"
       }
      
 For each property specific to questions:
@@ -108,7 +109,11 @@ For each property specific to questions:
   * mandatory : false,
   * type : boolean. if property is missing, it will consided as _false_
   * commments : if true, it means the choices presented to the user have to be present each time in a random order.
-  
+* Skipable:
+  * mandatory : false,
+  * type : boolean. if property is missing, it will consided as _false_
+  * commments : if true, it means that the app will add a skip button at the end of the choices to allow user to skip question and return to normal conversation.
+ 
   
   ## Action
   
