@@ -124,7 +124,8 @@ Action =
         "Comments" : "this should be 42",
         "StepValue" : 1,
         "Label" : {"key":"value",...},
-        "LinksTo":{ anything needed for the action in key/value form },
+        "LinksTo":{ next action information },
+        "Parameters": { additional information for the realization of the action}
         "DisplayMode": "Default"
       }
      
@@ -136,11 +137,18 @@ For each Property:
   to "0" this means "we don't care". If "1" this means, "we care". If more than 1 then it means "We care and this is the level of importance"
 * LinksTo:
   * mandatory : false,
-  * type : object. for simplicity, keep it in a dictionary form, with only one level of key/values (except for type=question)
-  * comments: you should put here all the information needed for the execution of the action. for exemple if the action is of 
+  * type : object. Contains information about the next step. Can be the body of a question if type=question of the type & id of an intention if Type=ShowCards.
+  * comments: you should put here all the information needed to link to the next action. for exemple if the action is of 
   type "ShowCards", this means we want to show cards (text+image) to the users. then you should provide the type of the source
   where you'll pick the cards (ex: Intention) and an identifier within the source (ex: the intention id, 67CC40)
-  
+ * Parameters:
+  * mandatory : false,
+  * type : object. for simplicity, keep it in a dictionary form, with only one level of key/values.
+  * comments: you should put here all the information needed for the execution of the action. For exemple if action is "SetUserProperty" you can add  `"Parameters" = {"Property":"propName", "value":"123"}`.
+  
+ 
+ 
+ 
  
 ## Additional notes
 
