@@ -1,5 +1,6 @@
 {
-  "QuestionId": "ppOpenedOrSettled",
+  "Type":"Question",
+  "Id": "ppOpenedOrSettled",
   "OptionalFeedback": {
     "Type": "Image",
     "Source": "Dropbox",
@@ -11,9 +12,10 @@
     "es": "Usted prefiere que las cosas sean"
   },
   "Randomize": "true",
-  "Choices": [
+  "Commands": [
     {
-      "Id": "Settled",
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsSettled",
       "StepValue": "1",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
@@ -25,10 +27,14 @@
         "fr": "tranchées, décidées",
         "es": "cortadas, decididas"
       },
-      "Action": "SetUserProperty"
+       "LinksTo" : {
+      			 "property" : "ppOpenedOrSettled",
+      		     "value" : "Settled"
+      		}
     },
     {
-      "Id": "Opened",
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsOpened",
       "StepValue": "1",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
@@ -40,7 +46,10 @@
         "fr": "interprétables, évolutives",
         "es": "interpretables, evolutivas"
       },
-      "Action": "SetUserProperty"
+      "LinksTo" : {
+      			 "property" : "ppOpenedOrSettled",
+      		   "value" : "Opened"
+      		}
     }
   ]
 }
