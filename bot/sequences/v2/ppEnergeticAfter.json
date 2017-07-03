@@ -17,43 +17,43 @@
     "Choices":
     [
         {
-         "Type": "SetUserProperty",
-          "Id" : "EnergeticAfterWithPeople",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "hBdKJQwWJ98aI"
-        },
-        "Label": {
-          "en":"Being with people",
-          "fr":"Avec d'autres personnes",
-          "es":"Con otras personas"
-        },
-        "LinksTo" : {
-      			 "property" : "ppEnergeticAfter",
-      		    "value" : "WithPeople"
-      		}
+             "Type": "SetUserProperty",
+              "Id" : "EnergeticAfterWithPeople",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "hBdKJQwWJ98aI"
+            },
+            "Label": {
+              "en":"Being with people",
+              "fr":"Avec d'autres personnes",
+              "es":"Con otras personas"
+            },
+            "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "WithPeople"
+            }
         }
         ,
         {
-          "Type": "SetUserProperty",
-           "Id" : "EnergeticAfterOnYourOwn",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "B51EAJ0Frooq4"
-        },
-        "Label": {
-          "en":"Being on your own",
-          "fr":"Avec vous-même",
-          "es":"Con usted mismo"
-        },
-         "LinksTo" : {
-      			 "property" : "ppEnergeticAfter",
-      		    "value" : "OnYourOwn"
-      		}
+            "Type": "SetUserProperty",
+            "Id" : "EnergeticAfterOnYourOwn",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "B51EAJ0Frooq4"
+            },
+            "Label": {
+              "en":"Being on your own",
+              "fr":"Avec vous-même",
+              "es":"Con usted mismo"
+            },
+             "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "OnYourOwn"
+             }
         }
     ]
 }
