@@ -27,10 +27,10 @@
         "fr": "tranchées, décidées",
         "es": "cortadas, decididas"
       },
-       "LinksTo" : {
-      			 "property" : "ppOpenedOrSettled",
-      		     "value" : "Settled"
-      		}
+       "Parameters" : {
+      			"property" : "ppOpenedOrSettled",
+      		   "value" : "Settled"
+       }
     },
     {
       "Type": "SetUserProperty",
@@ -46,10 +46,10 @@
         "fr": "interprétables, évolutives",
         "es": "interpretables, evolutivas"
       },
-      "LinksTo" : {
-      			 "property" : "ppOpenedOrSettled",
-      		   "value" : "Opened"
-      		}
+      "Parameters" : {
+           "property" : "ppOpenedOrSettled",
+           "value" : "Opened"
+        }
     }
   ]
 }
