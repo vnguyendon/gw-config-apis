@@ -29,10 +29,10 @@
             "fr":"Vos valeurs, vos sentiments",
             "es":"Sus valores, sus sentimientos"
           },
-          "LinksTo" : {
-      			 "property" : "ppDecisionsAriseFrom",
-      		     "value" : "Feelings"
-      		}
+          "Parameters" : {
+             "property" : "ppDecisionsAriseFrom",
+             "value" : "Feelings"
+      	  }
         },
         {
           "Type": "SetUserProperty",
@@ -48,9 +48,9 @@
               "fr":"Des raisonnements logiques",
               "es":"Razonamientos lógicos"
           },
-          "LinksTo" : {
-      			 "property" : "ppDecisionsAriseFrom",
-      		    "value" : "Thinking"
+          "Parameters" : {
+            "property" : "ppDecisionsAriseFrom",
+            "value" : "Thinking"
       		}
         }
     ]
