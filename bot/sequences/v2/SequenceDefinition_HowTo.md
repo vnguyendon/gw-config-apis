@@ -96,7 +96,7 @@ Question =
      
 For each property specific to questions:
     
-* Choices :
+* Commands :
   * mandatory : true,
   * type : array of tree elements. this means that the array can contain terminal actions or other questions.
   * comments : this property is mandatory for obvious reasons but it should also be mandatory that the number of 
