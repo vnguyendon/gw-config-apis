@@ -1,7 +1,7 @@
 {
     "Type" : "Question",
     "Id" : "ppDecisionsAriseFrom",
-    "Comments": "this is question to help having informations on people profile",
+    "Comments": "this question give us information about peoples's profile",
     "OptionalFeedback": {
         "Type": "Image",
         "Source": "Dropbox",
@@ -13,11 +13,11 @@
       "es":"Sus decisiones están guiadas por"
     },
     "Randomize": true,
-    "Choices":
+    "Commands":
     [
         {
           "Type": "SetUserProperty",
-          "Id" : "Feelings",
+          "Id" : "DecisionsAriseFromFeelings",
           "StepValue" : "1",
           "OptionalFeedback": {
             "Type": "AnimatedGif",
@@ -28,11 +28,15 @@
             "en":"Your values and feelings",
             "fr":"Vos valeurs, vos sentiments",
             "es":"Sus valores, sus sentimientos"
-          }
+          },
+          "LinksTo" : {
+      			 "property" : "ppDecisionsAriseFrom",
+      		     "value" : "Feelings"
+      		}
         },
         {
           "Type": "SetUserProperty",
-          "Id" : "Thinking",
+          "Id" : "DecisionsAriseFromThinking",
           "StepValue" : "1",
           "OptionalFeedback": {
             "Type": "AnimatedGif",
@@ -43,7 +47,11 @@
               "en":"Rational thinking",
               "fr":"Des raisonnements logiques",
               "es":"Razonamientos lógicos"
-          }
+          },
+          "LinksTo" : {
+      			 "property" : "ppDecisionsAriseFrom",
+      		    "value" : "Thinking"
+      		}
         }
     ]
 }
