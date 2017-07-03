@@ -1,5 +1,6 @@
 {
-    "QuestionId" : "ppEnergeticAfter",
+    "Type" : "Question",
+    "Id" : "ppEnergeticAfter",
     "OptionalFeedback": {
         "Type": "Image",
         "Source": "Dropbox",
@@ -16,7 +17,8 @@
     "Choices":
     [
         {
-        "Id" : "WithPeople",
+         "Type": "SetUserProperty",
+          "Id" : "EnergeticAfterWithPeople",
         "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
@@ -28,12 +30,15 @@
           "fr":"Avec d'autres personnes",
           "es":"Con otras personas"
         },
-        "Action": "SetUserProperty",
-        "ActionOptions": {}
+        "LinksTo" : {
+      			 "property" : "ppEnergeticAfter",
+      		    "value" : "WithPeople"
+      		}
         }
         ,
         {
-        "Id" : "OnYourOwn",
+          "Type": "SetUserProperty",
+           "Id" : "EnergeticAfterOnYourOwn",
         "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
@@ -45,8 +50,10 @@
           "fr":"Avec vous-même",
           "es":"Con usted mismo"
         },
-        "Action": "SetUserProperty",
-        "ActionOptions":{}
+         "LinksTo" : {
+      			 "property" : "ppEnergeticAfter",
+      		    "value" : "OnYourOwn"
+      		}
         }
     ]
 }
