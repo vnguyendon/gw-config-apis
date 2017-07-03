@@ -1,5 +1,6 @@
 {
-    "QuestionId" : "ppReceptiveTo",
+    "Type" : "Question",
+    "Id" : "ppReceptiveTo",
     "OptionalFeedback": {
         "Type": "Image",
         "Source": "Dropbox",
@@ -11,10 +12,11 @@
       "es":"Usted es más receptivo a"
       },
     "Randomize": "true",
-    "Choices":
+    "Commands":
     [
         {
-        "Id" : "Ideas",
+        "Type": "SetUserProperty",
+          "Id" : "ReceptiveToIdeas",
         "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
@@ -26,11 +28,15 @@
           "fr":"Aux théories, aux possibilités",
           "es":"Las teorías, las posibilidades"
         },
-        "Action": "SetUserProperty"
+       "LinksTo" : {
+      			 "property" : "ppReceptiveTo",
+      		     "value" : "Ideas"
+      		}
         }
         ,
         {
-        "Id" : "Facts",
+        "Type": "SetUserProperty",
+          "Id" : "ReceptiveToFacts",
         "StepValue" : "1",
         "OptionalFeedback": {
           "Type": "AnimatedGif",
@@ -42,7 +48,10 @@
           "fr":"Aux faits, à la réalité",
           "es":"Los hechos, la realidad"
           },
-        "Action": "SetUserProperty"
+        "LinksTo" : {
+      			 "property" : "ppReceptiveTo",
+      		     "value" : "Facts"
+      		}
         }
     ]
 }
