@@ -185,19 +185,37 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je suis déprimé"
+          "value": "Réconforte-moi"
         },
         {
           "culture": "en-EN",
-          "value": "I'm depressed"
+          "value": "Comfort me"
         },
         {  
           "culture": "es-ES",
-          "value": "Estoy deprimido"
+          "value": "Consolado"
         }
       ],
       "alternates": [ "bof", "depressed" ]
     },
+    {
+      "key": "A64962",
+      "slug": "*",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Quelques mots pour moi"
+        },
+        {
+          "culture": "en-EN",
+          "value": "A few words for me"
+        },
+        {  
+          "culture": "es-ES",
+          "value": "Palabras para mi"
+        }
+      ]
+    }
     {
       "key": "0ECC82",
       "slug": "humorous-insults",
