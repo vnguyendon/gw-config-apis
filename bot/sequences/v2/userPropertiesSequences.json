@@ -1,195 +1,230 @@
 [
-  {
-    "QuestionId": "ppDecisionsAriseFrom",
-    "OptionalFeedback": {
-      "Type": "Image",
-      "Source": "Dropbox",
-      "Path": "themes/emoticons/small/000073674269.jpg"
-    },
-    "Label": {
-      "en": "Your decisions arise from",
-      "fr": "Vos décisions sont guidées par",
-      "es": "Sus decisiones están guiadas por"
-    },
-    "Randomize": true,
-    "Choices": [
-      {
-        "Id": "Feelings",
-        "StepValue": "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "14hWUIZK0rKFS8"
-        },
-        "Label": {
-          "en": "Your values and feelings",
-          "fr": "Vos valeurs, vos sentiments",
-          "es": "Sus valores, sus sentimientos"
-        },
-        "Action": "SetUserProperty"
-      },
-      {
-        "Id": "Thinking",
-        "StepValue": "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "a5viI92PAF89q"
-        },
-        "Label": {
-          "en": "Rational thinking",
-          "fr": "Des raisonnements logiques",
-          "es": "Razonamientos lógicos"
-        },
-        "Action": "SetUserProperty"
-      }
-    ]
-  },
-  {
-    "QuestionId" : "ppEnergeticAfter",
-    "OptionalFeedback": {
-        "Type": "Image",
-        "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000018292730.jpg"
-        },
-    "Label":
-        { 
-          "en":"You feel more energetic after",
-          "fr":"Vous avez plus d'énergie après avoir été",
-          "es":"Su energía aumenta cuándo ha estado"
-        }
-    ,
-    "Randomize": "true",
-    "Choices":
-    [
-        {
-        "Id" : "WithPeople",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "hBdKJQwWJ98aI"
-        },
-        "Label": {
-          "en":"Being with people",
-          "fr":"Avec d'autres personnes",
-          "es":"Con otras personas"
-        },
-        "Action": "SetUserProperty",
-        "ActionOptions": {}
-        }
-        ,
-        {
-        "Id" : "OnYourOwn",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "B51EAJ0Frooq4"
-        },
-        "Label": {
-          "en":"Being on your own",
-          "fr":"Avec vous-même",
-          "es":"Con usted mismo"
-        },
-        "Action": "SetUserProperty",
-        "ActionOptions":{}
-        }
-    ]
-  },
-  
-  {
-  "QuestionId": "ppOpenedOrSettled",
-  "OptionalFeedback": {
-    "Type": "Image",
-    "Source": "Dropbox",
-    "Path": "themes/emoticons/small/000016089832.jpg"
-  },
-  "Label": {
-    "en": "You feel better when things are",
-    "fr": "Vous préférez que les choses soient",
-    "es": "Usted prefiere que las cosas sean"
-  },
-  "Randomize": "true",
-  "Choices": [
     {
-      "Id": "Settled",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "26vUNhQzmhMtArwC4"
-      },
-      "Label": {
-        "en": "settled, decided",
-        "fr": "tranchées, décidées",
-        "es": "cortadas, decididas"
-      },
-      "Action": "SetUserProperty"
+        "Type" : "Question",
+        "Id" : "ppDecisionsAriseFrom",
+        "Comments": "this question give us information about peoples's profile",
+        "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "Dropbox",
+            "Path": "themes/emoticons/small/000073674269.jpg"
+            },
+        "Label": {
+          "en":"Your decisions arise from",
+          "fr":"Vos décisions sont guidées par",
+          "es":"Sus decisiones están guiadas por"
+        },
+        "Randomize": true,
+        "Commands":
+        [
+            {
+              "Type": "SetUserProperty",
+              "Id" : "DecisionsAriseFromFeelings",
+              "StepValue" : "1",
+              "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "14hWUIZK0rKFS8"
+              },
+              "Label":{
+                "en":"Your values and feelings",
+                "fr":"Vos valeurs, vos sentiments",
+                "es":"Sus valores, sus sentimientos"
+              },
+              "Parameters" : {
+                 "property" : "ppDecisionsAriseFrom",
+                 "value" : "Feelings"
+              }
+            },
+            {
+              "Type": "SetUserProperty",
+              "Id" : "DecisionsAriseFromThinking",
+              "StepValue" : "1",
+              "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "a5viI92PAF89q"
+              },
+              "Label":{
+                  "en":"Rational thinking",
+                  "fr":"Des raisonnements logiques",
+                  "es":"Razonamientos lógicos"
+              },
+              "Parameters" : {
+                "property" : "ppDecisionsAriseFrom",
+                "value" : "Thinking"
+              }
+            }
+        ]
     },
     {
-      "Id": "Opened",
-      "StepValue": "1",
+        "Type" : "Question",
+        "Id" : "ppEnergeticAfter",
+        "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "Dropbox",
+            "Path": "themes/emoticons/small/000018292730.jpg"
+            },
+        "Label":
+            { 
+              "en":"You feel more energetic after",
+              "fr":"Vous avez plus d'énergie après avoir été",
+              "es":"Su energía aumenta cuándo ha estado"
+            }
+        ,
+        "Randomize": "true",
+        "Choices":
+        [
+            {
+                 "Type": "SetUserProperty",
+                  "Id" : "EnergeticAfterWithPeople",
+                "StepValue" : "1",
+                "OptionalFeedback": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "hBdKJQwWJ98aI"
+                },
+                "Label": {
+                  "en":"Being with people",
+                  "fr":"Avec d'autres personnes",
+                  "es":"Con otras personas"
+                },
+                "Parameters" : {
+                    "property" : "ppEnergeticAfter",
+                    "value" : "WithPeople"
+                }
+            }
+            ,
+            {
+                "Type": "SetUserProperty",
+                "Id" : "EnergeticAfterOnYourOwn",
+                "StepValue" : "1",
+                "OptionalFeedback": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "B51EAJ0Frooq4"
+                },
+                "Label": {
+                  "en":"Being on your own",
+                  "fr":"Avec vous-même",
+                  "es":"Con usted mismo"
+                },
+                 "Parameters" : {
+                    "property" : "ppEnergeticAfter",
+                    "value" : "OnYourOwn"
+                 }
+            }
+        ]
+    },
+    {
+      "Type":"Question",
+      "Id": "ppOpenedOrSettled",
       "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "3orifgB50UFpOc9CH6"
-      },
-      "Label": {
-        "en": "interpretable, evolving",
-        "fr": "interprétables, évolutives",
-        "es": "interpretables, evolutivas"
-      },
-      "Action": "SetUserProperty"
-    }
-  ]
-},
-  {
-    "QuestionId" : "ppReceptiveTo",
-    "OptionalFeedback": {
         "Type": "Image",
         "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000015195705.jpg"
-        },
-    "Label": {
-      "en":"You are more receptive to",
-      "fr":"Vous êtes plus réceptif",
-      "es":"Usted es más receptivo a"
+        "Path": "themes/emoticons/small/000016089832.jpg"
       },
-    "Randomize": "true",
-    "Choices":
-    [
+      "Label": {
+        "en": "You feel better when things are",
+        "fr": "Vous préférez que les choses soient",
+        "es": "Usted prefiere que las cosas sean"
+      },
+      "Randomize": "true",
+      "Commands": [
         {
-        "Id" : "Ideas",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "xUA7b6oaRIgzmAKpUY"
-        },
-        "Label": {
-          "en":"Theories and possibilities",
-          "fr":"Aux théories, aux possibilités",
-          "es":"Las teorías, las posibilidades"
-        },
-        "Action": "SetUserProperty"
-        }
-        ,
-        {
-        "Id" : "Facts",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "zagB8wzgm4Ce4"
-        },
-        "Label": {
-          "en":"Facts and reality",
-          "fr":"Aux faits, à la réalité",
-          "es":"Los hechos, la realidad"
+          "Type": "SetUserProperty",
+          "Id": "OpenedOrSettledIsSettled",
+          "StepValue": "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26vUNhQzmhMtArwC4"
           },
-        "Action": "SetUserProperty"
+          "Label": {
+            "en": "settled, decided",
+            "fr": "tranchées, décidées",
+            "es": "cortadas, decididas"
+          },
+           "Parameters" : {
+                "property" : "ppOpenedOrSettled",
+                 "value" : "Settled"
+           }
+        },
+        {
+          "Type": "SetUserProperty",
+          "Id": "OpenedOrSettledIsOpened",
+          "StepValue": "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3orifgB50UFpOc9CH6"
+          },
+          "Label": {
+            "en": "interpretable, evolving",
+            "fr": "interprétables, évolutives",
+            "es": "interpretables, evolutivas"
+          },
+          "Parameters" : {
+               "property" : "ppOpenedOrSettled",
+               "value" : "Opened"
+            }
         }
-    ]
-}
+      ]
+    },
+    {
+        "Type" : "Question",
+        "Id" : "ppReceptiveTo",
+        "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "Dropbox",
+            "Path": "themes/emoticons/small/000015195705.jpg"
+            },
+        "Label": {
+          "en":"You are more receptive to",
+          "fr":"Vous êtes plus réceptif",
+          "es":"Usted es más receptivo a"
+          },
+        "Randomize": "true",
+        "Commands":
+        [
+            {
+            "Type": "SetUserProperty",
+              "Id" : "ReceptiveToIdeas",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "xUA7b6oaRIgzmAKpUY"
+            },
+            "Label": {
+              "en":"Theories and possibilities",
+              "fr":"Aux théories, aux possibilités",
+              "es":"Las teorías, las posibilidades"
+            },
+           "LinksTo" : {
+                 "property" : "ppReceptiveTo",
+                   "value" : "Ideas"
+              }
+            }
+            ,
+            {
+            "Type": "SetUserProperty",
+              "Id" : "ReceptiveToFacts",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "zagB8wzgm4Ce4"
+            },
+            "Label": {
+              "en":"Facts and reality",
+              "fr":"Aux faits, à la réalité",
+              "es":"Los hechos, la realidad"
+              },
+            "LinksTo" : {
+                 "property" : "ppReceptiveTo",
+                   "value" : "Facts"
+              }
+            }
+        ]
+    }
 ]
