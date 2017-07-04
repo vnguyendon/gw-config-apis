@@ -14,7 +14,7 @@
         }
     ,
     "Randomize": "true",
-    "Choices":
+    "Commands":
     [
         {
              "Type": "SetUserProperty",
