@@ -1,3 +1,18 @@
 [
-  "file1.json"
+  {
+    "GroupName":"UserProperties",
+    "Sequences" : [
+        "ppDecisionsAriseFrom.json",
+        "ppEnergeticAfter.json",
+        "ppOpenedOrSettled.json",
+        "ppReceptiveTo.json"
+      ]
+  },
+  {
+    "GroupName":"NotCategorized",
+    "Sequences" : [
+        "AreYouOftenLate.json",
+        "WouldYouLikeToFeelZen.json"
+      ]
+  }
 ]
