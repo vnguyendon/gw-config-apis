@@ -1,0 +1,51 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "FirstTimeBot",
+  "Label":
+    {
+      "en": "Is it your first time with a bot?",
+      "fr": "Est-ce que c'est ta première fois avec un bot?",
+      "es": "¿Esta es tu primera vez con un bot?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "FirstTimeBotYes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Ps89uHS7n72j6"
+          },
+          "Label":{
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "FirstTimeBotNo",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oz8xOnvv0wBikdNuw"
+          },
+          "Label":{
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          }
+        }
+      ]
+}
+
+
