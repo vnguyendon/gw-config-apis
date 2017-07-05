@@ -1,0 +1,18 @@
+[
+  {
+    "GroupName":"UserProperties",
+    "SequenceFiles" : [
+        "ppDecisionsAriseFrom.json",
+        "ppEnergeticAfter.json",
+        "ppOpenedOrSettled.json",
+        "ppReceptiveTo.json"
+      ]
+  },
+  {
+    "GroupName":"NotCategorized",
+    "SequenceFiles" : [
+        "AreYouOftenLate.json",
+        "WouldYouLikeToFeelZen.json"
+      ]
+  }
+]
