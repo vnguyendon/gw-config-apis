@@ -1,7 +1,7 @@
 [
   {
     "GroupName":"UserProperties",
-    "Sequences" : [
+    "SequenceFiles" : [
         "ppDecisionsAriseFrom.json",
         "ppEnergeticAfter.json",
         "ppOpenedOrSettled.json",
@@ -10,7 +10,7 @@
   },
   {
     "GroupName":"NotCategorized",
-    "Sequences" : [
+    "SequenceFiles" : [
         "AreYouOftenLate.json",
         "WouldYouLikeToFeelZen.json"
       ]
