@@ -24,9 +24,9 @@
           "Path": "xUA7b6oaRIgzmAKpUY"
         },
         "Label": {
-          "en":"theories & possibilities",
-          "fr":"théories & possibilités",
-          "es":"las teorías & posibilidades"
+          "en":"theories &amp; possibilities",
+          "fr":"théories &amp; possibilités",
+          "es":"las teorías &amp; posibilidades"
         },
        "LinksTo" : {
       			 "property" : "ppReceptiveTo",
