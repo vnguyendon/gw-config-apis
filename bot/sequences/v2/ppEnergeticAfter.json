@@ -8,9 +8,9 @@
         },
     "Label":
         { 
-          "en":"You feel more energetic after",
-          "fr":"Vous avez plus d'énergie après avoir été",
-          "es":"Su energía aumenta cuándo ha estado"
+          "en":"You feel more energetic after being",
+          "fr":"Vous avez plus d'énergie après avoir été avec",
+          "es":"Su energía aumenta cuándo ha estado con"
         }
     ,
     "Randomize": "true",
@@ -26,9 +26,9 @@
               "Path": "hBdKJQwWJ98aI"
             },
             "Label": {
-              "en":"Being with people",
-              "fr":"Avec d'autres personnes",
-              "es":"Con otras personas"
+              "en":"with people",
+              "fr":"d'autres personnes",
+              "es":"otras personas"
             },
             "Parameters" : {
                 "property" : "ppEnergeticAfter",
@@ -46,9 +46,9 @@
               "Path": "B51EAJ0Frooq4"
             },
             "Label": {
-              "en":"Being on your own",
-              "fr":"Avec vous-même",
-              "es":"Con usted mismo"
+              "en":"on your own",
+              "fr":"vous-même",
+              "es":"usted mismo"
             },
              "Parameters" : {
                 "property" : "ppEnergeticAfter",
