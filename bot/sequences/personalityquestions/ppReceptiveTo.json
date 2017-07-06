@@ -1,63 +1,58 @@
 
 
 {
-    "Type" : "Question",
-    "Id" : "ppReceptiveTo",
-    "OptionalFeedback": {
-        "Type": "Image",
-        "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000015195705.jpg"
-        },
-    "Label": {
-      "en":"You are more receptive to",
-      "fr":"Vous êtes plus réceptif",
-      "es":"Usted es más receptivo a"
+  "Type":"Question",
+  "Id": "ppOpenedOrSettled",
+  "OptionalFeedback": {
+    "Type": "Image",
+    "Source": "Dropbox",
+    "Path": "themes/emoticons/small/000016089832.jpg"
+  },
+  "Label": {
+    "en": "You feel better when things are",
+    "fr": "Vous préférez que les choses soient",
+    "es": "Usted prefiere que las cosas sean"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsSettled",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "26vUNhQzmhMtArwC4"
       },
-    "Randomize": "true",
-    "Commands":
-    [
-        {
-        "Type": "SetUserProperty",
-          "Id" : "ReceptiveToIdeas",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "xUA7b6oaRIgzmAKpUY"
+      "Label": {
+        "en": "settled, decided",
+        "fr": "tranchées, décidées",
+        "es": "cortadas, decididas"
+      },
+       "Parameters" : {
+      	    "property" : "ppOpenedOrSettled",
+      		"value" : "Settled"
+       }, 
+       "NextSequence":"YourPsychoProfile"
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsOpened",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3orifgB50UFpOc9CH6"
+      },
+      "Label": {
+        "en": "interpretable, evolving",
+        "fr": "interprétables, évolutives",
+        "es": "interpretables, evolutivas"
+      },
+      "Parameters" : {
+           "property" : "ppOpenedOrSettled",
+           "value" : "Opened"
         },
-        "Label": {
-          "en":"Theories and possibilities",
-          "fr":"Aux théories, aux possibilités",
-          "es":"Las teorías, las posibilidades"
-        },
-       "LinksTo" : {
-      			 "property" : "ppReceptiveTo",
-      		   "value" : "Ideas"
-      		},
-        "Nextsequence":"ppDecisionsAriseFrom"
-        }
-        ,
-        {
-        "Type": "SetUserProperty",
-          "Id" : "ReceptiveToFacts",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "zagB8wzgm4Ce4"
-        },
-        "Label": {
-          "en":"Facts and reality",
-          "fr":"Aux faits, à la réalité",
-          "es":"Los hechos, la realidad"
-          },
-        "LinksTo" : {
-      			 "property" : "ppReceptiveTo",
-      		   "value" : "Facts"
-      		},
-        "Nextsequence":"ppDecisionsAriseFrom"
-        }
-    ]
+    }
+  ]
 }
-
-
