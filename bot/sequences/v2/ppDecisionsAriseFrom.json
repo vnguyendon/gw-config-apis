@@ -8,9 +8,9 @@
         "Path": "themes/emoticons/small/000073674269.jpg"
         },
     "Label": {
-      "en":"Your decisions arise from",
-      "fr":"Vos décisions sont guidées par",
-      "es":"Sus decisiones están guiadas por"
+      "en":"Your decisions arise from your",
+      "fr":"Vos décisions sont guidées par vos",
+      "es":"Sus decisiones están guiadas por sus"
     },
     "Randomize": true,
     "Commands":
@@ -25,9 +25,9 @@
             "Path": "14hWUIZK0rKFS8"
           },
           "Label":{
-            "en":"Your values and feelings",
-            "fr":"Vos valeurs, vos sentiments",
-            "es":"Sus valores, sus sentimientos"
+            "en":"values & feelings",
+            "fr":"valeurs & sentiments",
+            "es":"valores y sentimientos"
           },
           "Parameters" : {
              "property" : "ppDecisionsAriseFrom",
@@ -44,9 +44,9 @@
             "Path": "a5viI92PAF89q"
           },
           "Label":{
-              "en":"Rational thinking",
-              "fr":"Des raisonnements logiques",
-              "es":"Razonamientos lógicos"
+              "en":"rational thinking",
+              "fr":"raisonnements logiques",
+              "es":"razonamientos lógicos"
           },
           "Parameters" : {
             "property" : "ppDecisionsAriseFrom",
