@@ -1,0 +1,63 @@
+
+{
+    "Type" : "Question",
+    "Id" : "ppEnergeticAfter",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000018292730.jpg"
+        },
+    "Label":
+        { 
+          "en":"You feel more energetic after",
+          "fr":"Vous avez plus d'énergie après avoir été",
+          "es":"Su energía aumenta cuándo ha estado"
+        }
+    ,
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+            "Type": "SetUserProperty",
+            "Id" : "EnergeticAfterWithPeople",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "hBdKJQwWJ98aI"
+            },
+            "Label": {
+              "en":"Being with people",
+              "fr":"Avec d'autres personnes",
+              "es":"Con otras personas"
+            },
+            "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "WithPeople"
+            },
+            "Nextsequence":"ppReceptiveTo"
+        }
+        ,
+        {
+            "Type": "SetUserProperty",
+            "Id" : "EnergeticAfterOnYourOwn",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "B51EAJ0Frooq4"
+            },
+            "Label": {
+              "en":"Being on your own",
+              "fr":"Avec vous-même",
+              "es":"Con usted mismo"
+            },
+             "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "OnYourOwn"
+             },
+            "Nextsequence":"ppReceptiveTo"
+        }
+    ]
+}
+
