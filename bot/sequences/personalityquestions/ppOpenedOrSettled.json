@@ -1,0 +1,60 @@
+
+
+{
+  "Type":"Question",
+  "Id": "ppOpenedOrSettled",
+  "OptionalFeedback": {
+    "Type": "Image",
+    "Source": "Dropbox",
+    "Path": "themes/emoticons/small/000016089832.jpg"
+  },
+  "Label": {
+    "en": "You feel better when things are",
+    "fr": "Vous préférez que les choses soient",
+    "es": "Usted prefiere que las cosas sean"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsSettled",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "26vUNhQzmhMtArwC4"
+      },
+      "Label": {
+        "en": "settled, decided",
+        "fr": "tranchées, décidées",
+        "es": "cortadas, decididas"
+      },
+       "Parameters" : {
+      	    "property" : "ppOpenedOrSettled",
+      		"value" : "Settled"
+       }, 
+       "NextSequence":"YourPsychoProfile"
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "OpenedOrSettledIsOpened",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3orifgB50UFpOc9CH6"
+      },
+      "Label": {
+        "en": "interpretable, evolving",
+        "fr": "interprétables, évolutives",
+        "es": "interpretables, evolutivas"
+      },
+      "Parameters" : {
+           "property" : "ppOpenedOrSettled",
+           "value" : "Opened"
+        },
+      "NextSequence":"YourPsychoProfile"
+    }
+  ]
+}
+
