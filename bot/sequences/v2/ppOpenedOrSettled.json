@@ -42,9 +42,9 @@
         "Path": "3orifgB50UFpOc9CH6"
       },
       "Label": {
-        "en": "interpretable, evolving",
-        "fr": "interprétables, évolutives",
-        "es": "interpretables, evolutivas"
+        "en": "adaptable, evolving",
+        "fr": "adaptables, évolutives",
+        "es": "evolutivas"
       },
       "Parameters" : {
            "property" : "ppOpenedOrSettled",
