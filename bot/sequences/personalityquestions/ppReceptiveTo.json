@@ -1,0 +1,63 @@
+
+
+{
+    "Type" : "Question",
+    "Id" : "ppReceptiveTo",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000015195705.jpg"
+        },
+    "Label": {
+      "en":"You are more receptive to",
+      "fr":"Vous êtes plus réceptif",
+      "es":"Usted es más receptivo a"
+      },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+        "Type": "SetUserProperty",
+          "Id" : "ReceptiveToIdeas",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "xUA7b6oaRIgzmAKpUY"
+        },
+        "Label": {
+          "en":"Theories and possibilities",
+          "fr":"Aux théories, aux possibilités",
+          "es":"Las teorías, las posibilidades"
+        },
+       "LinksTo" : {
+      			 "property" : "ppReceptiveTo",
+      		   "value" : "Ideas"
+      		},
+        "Nextsequence":"ppDecisionsAriseFrom"
+        }
+        ,
+        {
+        "Type": "SetUserProperty",
+          "Id" : "ReceptiveToFacts",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "zagB8wzgm4Ce4"
+        },
+        "Label": {
+          "en":"Facts and reality",
+          "fr":"Aux faits, à la réalité",
+          "es":"Los hechos, la realidad"
+          },
+        "LinksTo" : {
+      			 "property" : "ppReceptiveTo",
+      		   "value" : "Facts"
+      		},
+        "Nextsequence":"ppDecisionsAriseFrom"
+        }
+    ]
+}
+
+
