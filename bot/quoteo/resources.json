@@ -121,6 +121,23 @@
       ]
     },
     {
+      "key": "talktome",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Parle-moi"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Talk to me"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Habla me"
+        }
+      ]
+    },
+    {
       "key": "errorMessageFromException",
       "labels": [
         {
