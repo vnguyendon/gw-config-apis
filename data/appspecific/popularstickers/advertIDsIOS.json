@@ -5,7 +5,7 @@
     "ID": "1001221899915187_1425382524165787",
     "Fallback": {      
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/9911261466"
     }
   },
   "FirstResumeActivity": {
@@ -13,7 +13,7 @@
     "ID": "1001221899915187_1425393494164690",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/8118300664"
     }
   },
   "OtherResumeActivity": {
@@ -21,7 +21,7 @@
     "ID": "1001221899915187_1425394800831226",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/2071767060"
     }
   },
   "CategoriesScroll": {
@@ -29,7 +29,7 @@
     "ID": "1001221899915187_1425396310831075",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/3548500262"
     }
   },
   "GalleryNative": {
