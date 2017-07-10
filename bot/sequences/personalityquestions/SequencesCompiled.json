@@ -1,0 +1,11 @@
+
+{
+  "ordered-sequences":
+      [
+      "/bot/sequences/ppEnergeticAfter.json",
+      "/bot/sequences/ppReceptiveTo.json",
+      "/bot/sequences/ppDecisionsAriseFrom.json",
+      "/bot/sequences/ppOpenedOrSettled.json"
+      ] 
+}
+
