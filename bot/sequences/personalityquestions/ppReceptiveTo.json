@@ -3,7 +3,7 @@
 {
   "Type":"Question",
   "Id": "ppOpenedOrSettled",
-  "OptionalFeedback": {
+  "OptionalPrompt": {
     "Type": "Image",
     "Source": "Dropbox",
     "Path": "themes/emoticons/small/000016089832.jpg"
