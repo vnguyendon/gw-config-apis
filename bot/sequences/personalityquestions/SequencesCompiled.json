@@ -7,6 +7,13 @@
       "/bot/sequences/ppReceptiveTo.json",
       "/bot/sequences/ppDecisionsAriseFrom.json",
       "/bot/sequences/ppOpenedOrSettled.json"
-      ] 
+      ],
+  "conditional-sequences":
+      [
+      "/bot/sequences/personalityquestions/ESFJ.json",
+      "/bot/sequences/personalityquestions/ESTJ.json",
+      "/bot/sequences/personalityquestions/ISFJ.json",
+      "/bot/sequences/personalityquestions/ISTJ.json",
+      ]
 }
 
