@@ -1,0 +1,75 @@
+
+{
+    "Type" : "Question",
+    "Id" : "ESTJ",
+    "Comments": "We are displaying the user's psychological profile if he/she is ESTJ. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"You are a super sociable and reliable person who enjoys spending time within clubs, associations or churches. You are good at planning, coordinating and organizing events and usually prefer to stick to conventional and tried ways to tackle a specific topic. You are a hard-working and highly disciplined person who values traditional and family values.",
+      "fr":"Tu es une personne sociable et fiable, qui aime passer du temps dans des clubs et des associations. Tu es excellent dans le domaine de la planification, de la coordination et de l'organisation d’événements et préfères généralement t'en tenir à des façons connues et éprouvés de faire les choses ou de résoudre des problèmes. Tu travailles dur, fais preuve de discipline et as un goût prononcé pour les valeurs traditionnelles et familiales. ",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ESTJYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ESTJ"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ESTJNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          },
+          "LinksTo" : {
+            "Type":"Question",
+            "Id": "WantToStartAgain",
+            "Comments":"Asking if the user wants to rerun the personality quizz",
+            "Label": {
+                "en": "Do you want to restart the personality quizz?",
+                "fr": "Est-ce que tu veux recommencer le test de personalité?",
+                "es": "TBD"
+              },
+            "Commands": [
+              {
+                "Type":"RestartMasterSequence",
+                "Id": "StartAgainPersonailityQuizz",
+                "StepValue" : "1",
+                "Label": {
+                    "en": "Yes",
+                    "fr": "Oui",
+                    "es": "Si"
+                }
+              },
+              {
+                "Type" : "DoNothing",
+                "Id": "StopPersonalityQuizz",
+                "StepValue" : "0",
+                "Label": {
+                    "en": "No",
+                    "fr": "Non",
+                    "es": "No"
+                  }
+              }
+            ]
+          }
+        }
+    ]
+}
