@@ -34,8 +34,7 @@
             "Parameters" : {
                 "property" : "ppEnergeticAfter",
                 "value" : "WithPeople"
-            },
-            "Nextsequence":"ppReceptiveTo"
+            }
         }
         ,
         {
@@ -55,8 +54,7 @@
              "Parameters" : {
                 "property" : "ppEnergeticAfter",
                 "value" : "OnYourOwn"
-             },
-            "Nextsequence":"ppReceptiveTo"
+             }
         }
     ]
 }
