@@ -25,9 +25,7 @@
             "en": "Yes",
             "fr": "Oui",
             "es": "Si"
-          },
-          "NextSequence":"ppEnergeticAfter"
-        }
+          }        }
         ,
         {
           "Type": "DoNothing",
@@ -42,8 +40,7 @@
             "en": "No",
             "fr": "Non",
             "es": "No"
-          },
-          "NextSequence":"ppEnergeticAfter"
+          }
         }
       ]
 }
