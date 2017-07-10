@@ -34,8 +34,7 @@
           "Parameters" : {
              "property" : "ppDecisionsAriseFrom",
              "value" : "Feelings"
-      	  },
-          "NextSequence":"ppOpenedOrSettled"
+      	  }
         },
         {
           "Type": "SetUserProperty",
@@ -54,8 +53,7 @@
           "Parameters" : {
             "property" : "ppDecisionsAriseFrom",
             "value" : "Thinking"
-      		},
-           "NextSequence":"ppOpenedOrSettled"
+      		}
         }
     ]
 }
