@@ -2,7 +2,7 @@
 {
     "Type" : "Question",
     "Id" : "ppEnergeticAfter",
-    "OptionalFeedback": {
+    "OptionalPrompt": {
         "Type": "Image",
         "Source": "Dropbox",
         "Path": "themes/emoticons/small/000018292730.jpg"
