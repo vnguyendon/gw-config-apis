@@ -4,7 +4,7 @@
     "Type" : "Question",
     "Id" : "ppDecisionsAriseFrom",
     "Comments": "this question give us information about peoples's profile",
-    "OptionalFeedback": {
+    "OptionalPrompt": {
         "Type": "Image",
         "Source": "Dropbox",
         "Path": "themes/emoticons/small/000073674269.jpg"
