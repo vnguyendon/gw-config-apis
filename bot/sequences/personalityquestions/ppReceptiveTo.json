@@ -32,8 +32,7 @@
        "Parameters" : {
       	    "property" : "ppOpenedOrSettled",
       		"value" : "Settled"
-       }, 
-       "NextSequence":"YourPsychoProfile"
+       }
     },
     {
       "Type": "SetUserProperty",
@@ -52,7 +51,7 @@
       "Parameters" : {
            "property" : "ppOpenedOrSettled",
            "value" : "Opened"
-        },
+        }
     }
   ]
 }
