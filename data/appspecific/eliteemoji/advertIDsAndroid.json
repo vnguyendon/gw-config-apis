@@ -2,7 +2,7 @@
 {
   "FirstLaunch": {
     "Provider": "Facebook",
-    "ID": "1727516507493157_1961173950794077",
+    "ID": "1727516507493157_1972147769696695",
     "Fallback": {      
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/4077307864"
@@ -18,7 +18,7 @@
   },
   "OtherResumeActivity": {
     "Provider": "Facebook",
-    "ID": "1727516507493157_1926436330934506",
+    "ID": "1727516507493157_1972148299696642",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/5997059467"
