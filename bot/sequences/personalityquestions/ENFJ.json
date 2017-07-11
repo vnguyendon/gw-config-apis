@@ -1,0 +1,44 @@
+
+
+{
+    "Type" : "Question",
+    "Id" : "ENFJ",
+    "Comments": "We are displaying the user's psychological profile if he/she is ENFJ. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"A born mentor, you see potential in all of your acquaintances and are willing to help them grow so as to reach their true potential. A highly sociable and positive person, you have outstanding speech abilities and are often popular and easy to get along with. As your life is built around your social engagements, you value planification in order to make sure that you honor your commitments. You have a natural instinct for your emotions and that of your friends and family, whom with you are closely connected.",
+      "fr":"Tu es un mentor né et as un don pour voir le véritable potentiel des personnes que tu connais, que tu es prêt à aider pour qu'elles grandissent et progressent. Tu es une personne sociable et positive, dotée d'excellentes capacités orales. Tu es populaire et il est facile de bien s'entendre avec toi. Ta vie étant organisée autour de tes différents engagements sociaux, tu aimes la planification afin de t'assurer que tu honores tes engagements. Tu as un instinct fort pour sentir tes émotions ainsi que celles de tes amis et de ta famille, avec qui tu entretiens des relations proches.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ENFJYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ENFJ"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ENFJNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
