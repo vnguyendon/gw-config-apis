@@ -6,7 +6,13 @@
     "110": "/bot/sequences/ppEnergeticAfter.json",
     "120": "/bot/sequences/ppReceptiveTo.json",
     "130": "/bot/sequences/ppDecisionsAriseFrom.json",
-    "140": "/bot/sequences/ppOpenedOrSettled.json"
+    "140": "/bot/sequences/ppOpenedOrSettled.json",
+    "150": [
+      "/bot/sequences/personalityquestions/ISTJ.json",
+      "/bot/sequences/personalityquestions/ISFJ.json",
+      "/bot/sequences/personalityquestions/ESTJ.json",
+      "/bot/sequences/personalityquestions/ESFJ.json"
+    ]
   }
 }
 
