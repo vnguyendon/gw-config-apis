@@ -36,38 +36,6 @@
               "en":"No, that doesn't sound like me",
               "fr":"Non, je ne me reconnais pas",
               "es":"No"
-          },
-          "LinksTo" : {
-            "Type":"Question",
-            "Id": "WantToStartAgain",
-            "Comments":"Asking if the user wants to rerun the personality quizz",
-            "Label": {
-                "en": "Do you want to restart the personality quizz?",
-                "fr": "Est-ce que tu veux recommencer le test de personalité?",
-                "es": "TBD"
-              },
-            "Commands": [
-              {
-                "Type":"RestartMasterSequence",
-                "Id": "StartAgainPersonailityQuizz",
-                "StepValue" : "1",
-                "Label": {
-                    "en": "Yes",
-                    "fr": "Oui",
-                    "es": "Si"
-                }
-              },
-              {
-                "Type" : "DoNothing",
-                "Id": "StopPersonalityQuizz",
-                "StepValue" : "0",
-                "Label": {
-                    "en": "No",
-                    "fr": "Non",
-                    "es": "No"
-                  }
-              }
-            ]
           }
         }
     ]
