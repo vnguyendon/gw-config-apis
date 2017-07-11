@@ -1,57 +1,58 @@
 
-
 {
-  "Type":"Question",
-  "Id": "ppOpenedOrSettled",
-  "OptionalPrompt": {
-    "Type": "Image",
-    "Source": "Dropbox",
-    "Path": "themes/emoticons/small/000016089832.jpg"
-  },
-  "Label": {
-    "en": "You feel better when things are",
-    "fr": "Vous préférez que les choses soient",
-    "es": "Usted prefiere que las cosas sean"
-  },
-  "Randomize": "true",
-  "Commands": [
-    {
-      "Type": "SetUserProperty",
-      "Id": "OpenedOrSettledIsSettled",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "26vUNhQzmhMtArwC4"
+    "Type" : "Question",
+    "Id" : "ppReceptiveTo",
+    "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000015195705.jpg"
+        },
+    "Label": {
+      "en":"You are more receptive to",
+      "fr":"Vous êtes plus réceptif aux",
+      "es":"Usted es más receptivo a"
       },
-      "Label": {
-        "en": "settled, decided",
-        "fr": "tranchées, décidées",
-        "es": "cortadas, decididas"
-      },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+        "Type": "SetUserProperty",
+          "Id" : "ReceptiveToIdeas",
+        "StepValue" : "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "xUA7b6oaRIgzmAKpUY"
+        },
+        "Label": {
+          "en":"theories, possibilities",
+          "fr":"théories, possibilités",
+          "es":"teorías, posibilidades"
+        },
        "Parameters" : {
-      	    "property" : "ppOpenedOrSettled",
-      		"value" : "Settled"
-       }
-    },
-    {
-      "Type": "SetUserProperty",
-      "Id": "OpenedOrSettledIsOpened",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "3orifgB50UFpOc9CH6"
-      },
-      "Label": {
-        "en": "interpretable, evolving",
-        "fr": "interprétables, évolutives",
-        "es": "interpretables, evolutivas"
-      },
-      "Parameters" : {
-           "property" : "ppOpenedOrSettled",
-           "value" : "Opened"
+      			 "Property" : "ppReceptiveTo",
+      		     "Value" : "Ideas"
+      		}
         }
-    }
-  ]
+        ,
+        {
+            "Type": "SetUserProperty",
+            "Id" : "ReceptiveToFacts",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "zagB8wzgm4Ce4"
+            },
+            "Label": {
+                "en":"facts, reality",
+                "fr":"faits, à la réalité",
+                "es":"la realidad"
+            },
+            "Parameters" : {
+      			 "Property" : "ppReceptiveTo",
+      		     "Value" : "Facts"
+      		}
+        }
+    ]
 }
