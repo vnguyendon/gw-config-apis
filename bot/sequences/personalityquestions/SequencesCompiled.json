@@ -1,19 +1,12 @@
 
 {
-  "ordered-sequences":
-      [
-      "/bot/sequences/WouldLikePsychoProfile.json",
-      "/bot/sequences/ppEnergeticAfter.json",
-      "/bot/sequences/ppReceptiveTo.json",
-      "/bot/sequences/ppDecisionsAriseFrom.json",
-      "/bot/sequences/ppOpenedOrSettled.json"
-      ],
-  "conditional-sequences":
-      [
-      "/bot/sequences/personalityquestions/ESFJ.json",
-      "/bot/sequences/personalityquestions/ESTJ.json",
-      "/bot/sequences/personalityquestions/ISFJ.json",
-      "/bot/sequences/personalityquestions/ISTJ.json",
-      ]
+  "all-sequences":
+  {
+    "100": "/bot/sequences/WouldLikePsychoProfile.json",
+    "110": "/bot/sequences/ppEnergeticAfter.json",
+    "120": "/bot/sequences/ppReceptiveTo.json",
+    "130": "/bot/sequences/ppDecisionsAriseFrom.json",
+    "140": "/bot/sequences/ppOpenedOrSettled.json"
+  }
 }
 
