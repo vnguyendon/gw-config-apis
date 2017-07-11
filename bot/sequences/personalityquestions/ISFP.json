@@ -1,0 +1,45 @@
+
+
+{
+    "Type" : "Question",
+    "Id" : "ISFP",
+    "Comments": "We are displaying the user's psychological profile if he/she is ISFP. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"Kind, sensitive and gifted, you are highly connected to your inner senses and feelings. You tend to be a quiet person and express yourself through arts and creation rather than language. You dislike planning and do the things you do only if and because you feel that you ought to. Your strong instincts give you the inner ability to connect easily with children and animals, often finding their company easier and more rewarding than that of other people.",
+      "fr":"Gentil, sensible et doué dans de nombreux domaines, tu es très connecté à tes instincts et sentiments profonds. Tu es une personne calme qui s'exprime par le biais de la création artistique plutôt que par le langage. Tu n'aimes pas prévoir quoi que ce soit et agis uniquement si ton instinct te dit de le faire. Ta grande sensibilité te permet d'entretenir facilement des relations avec les enfants et les animaux, dont tu trouves la compagnie plus simple et plus satisfaisante que celle de ton entourage.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ISFPYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ISFP"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ISFPNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
+
