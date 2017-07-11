@@ -1,0 +1,42 @@
+{
+    "Type" : "Question",
+    "Id" : "ESFP",
+    "Comments": "We are displaying the user's psychological profile if he/she is ESFP. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"You are a natural entertainer who is always keen to share jokes and stories with your large social circle. You make an outstanding buddy who wants to live life to its fullest extent, always seeking eccentric pleasures and new adventures. Highly generous, optimistic and kind, you are rather impulsive and tend to dislike any hinderance to your freedom.",
+      "fr":"Tu es un grand comédien, qui aime partager des plaisanteries ou des histoires avec ses nombreux amis. Tu es un super camarade qui aime croquer la vie à pleine dents en recherchant constamment des nouvelles aventures ou des plaisirs originaux. Très généreux, optimiste et gentil, tu es aussi impulsif et n'aimes pas que l'on restreigne ta liberté.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ESFPYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ESFP"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ESFPNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
