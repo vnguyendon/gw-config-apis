@@ -1,0 +1,43 @@
+
+{
+    "Type" : "Question",
+    "Id" : "INFP",
+    "Comments": "We are displaying the user's psychological profile if he/she is INFP. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"You are a quiet, shy person who experiences an extreme range of inner emotions even though you always seem to remain calm and in control. A highly idealistic person, you value solitude and are willing to make sacrifices to defend your beliefs and the few people you love. Blessed with a vivid imagination since you were a child, you are open to exploring new paths and follow your instincts. You master the intricacies of languages and make an outstanding writer. However, the combination of your privacy and lack of self-esteem often means that no one will ever see your notebooks, which is for the best as you very much value solitude.",
+      "fr":"Tu es une personne calme, timide et très sensible même si tu donnes toujours l'impression de toujours rester calme et de te contrôler. Très idéaliste, tu apprécies la solitude et es capable de faire des sacrifices pour défendre tes opinions avec les quelques personnes que tu aimes. Doté(e) d'une grande imagination depuis ton enfance, tu aimes explorer de nouvelles contrées et suivre ton instinct. Ta maîtrise de toutes les subtilités du langage fait de toi un(e) excellent(e) écrivain(e). Cependant, le fait que tu sois très secrèt(e) et que tu manques de confiance en toi signifie que personne ne verra jamais ce que tu écris, ce qui te convient tout à fait car tu apprécies le calme et la solitude.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "INFPYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "INFP"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "INFPNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
