@@ -1,0 +1,44 @@
+
+{
+    "Type" : "Question",
+    "Id" : "ESTP",
+    "Comments": "We are displaying the user's psychological profile if he/she is ISTJ. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"You are a quiet and dedicated person who enjoys making sure that traditional rules and laws are thoroughly respected and applied as prescribed. You enjoy transmitting your moral values in settings such as youth organizations. However sociable you may look, you may also be shy and often prefer meeting with not too many people at the same time.",
+      "fr":"Tu es une personne calme et appliquée, qui aime s'assurer que les règles et principes traditionnels sont respectés et appliqués comme ils doivent l'être. Comme tu aimes transmettre tes valeurs, tu adores travailler avec des jeunes. Même si tu parais sociable, tu peux aussi être timide et tu préfères le plus souvent des rencontres en petit comité.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ESTPYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ESTP"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ESTPNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No, TBD"
+          }
+        }
+    ]
+}
+
