@@ -8,10 +8,23 @@
     "130": "/bot/sequences/ppDecisionsAriseFrom.json",
     "140": "/bot/sequences/ppOpenedOrSettled.json",
     "150": [
-      "/bot/sequences/personalityquestions/ISTJ.json",
-      "/bot/sequences/personalityquestions/ISFJ.json",
+      "/bot/sequences/personalityquestions/ENFJ.json",
+      "/bot/sequences/personalityquestions/ENFP.json",
+      "/bot/sequences/personalityquestions/ENTJ.json",
+      "/bot/sequences/personalityquestions/ENTP.json",
+      "/bot/sequences/personalityquestions/ESFJ.json",
+      "/bot/sequences/personalityquestions/ESFP.json",
       "/bot/sequences/personalityquestions/ESTJ.json",
-      "/bot/sequences/personalityquestions/ESFJ.json"
+      "/bot/sequences/personalityquestions/ESTP.json",
+      "/bot/sequences/personalityquestions/INFJ.json",
+      "/bot/sequences/personalityquestions/INFP.json",
+      "/bot/sequences/personalityquestions/INTJ.json",
+      "/bot/sequences/personalityquestions/INTP.json",
+      "/bot/sequences/personalityquestions/ISFJ.json",
+      "/bot/sequences/personalityquestions/ISFP.json",
+      "/bot/sequences/personalityquestions/ISTJ.json",
+      "/bot/sequences/personalityquestions/ISTP.json
+      
     ]
   }
 }
