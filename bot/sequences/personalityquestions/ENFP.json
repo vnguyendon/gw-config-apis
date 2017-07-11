@@ -1,0 +1,43 @@
+
+{
+    "Type" : "Question",
+    "Id" : "ENFP",
+    "Comments": "We are displaying the user's psychological profile if he/she is ENFP. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "Text",
+        "Path": "Here is your psychological profile. Does that sound like you?"
+        },
+    "Label": {
+      "en":"Full of emotions, highly interested in novelty and fascinated with new experiences, you are an inspiring and restless person who is keen to living life to its fullest extent. You are a highly intuitive person, able to read any situation or individual thanks to your excellent observation skills. Highly sensitive, you are also a sociable, tolerant and energetic person who is willing to go the extra mile to make a difference and a positive contribution to your community.",
+      "fr":"Riche en émotions, passionné par la nouveauté et fasciné par les nouvelles expériences, tu es une personne inspirante et pleine d'énergie, désireuse de croquer la vie à pleines dents. Tu as une grande intuition et tu es capable de lire rapidement une situation ou une personne grâce à ton excellent sens de l'observation. Très sensible, tu es aussi une personne sociable, tolérante et énergétique, qui sera toujours prête à faire des efforts pour changer le monde.",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "ENFPYes",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "ENFP"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "ENFPNo",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
