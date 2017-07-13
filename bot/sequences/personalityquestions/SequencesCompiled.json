@@ -2,29 +2,12 @@
 {
   "all-sequences":
   {
-    "100": "/bot/sequences/WouldLikePsychoProfile.json",
-    "110": "/bot/sequences/ppEnergeticAfter.json",
-    "120": "/bot/sequences/ppReceptiveTo.json",
-    "130": "/bot/sequences/ppDecisionsAriseFrom.json",
-    "140": "/bot/sequences/ppOpenedOrSettled.json",
-    "150": [
-      "/bot/sequences/personalityquestions/ENFJ.json",
-      "/bot/sequences/personalityquestions/ENFP.json",
-      "/bot/sequences/personalityquestions/ENTJ.json",
-      "/bot/sequences/personalityquestions/ENTP.json",
-      "/bot/sequences/personalityquestions/ESFJ.json",
-      "/bot/sequences/personalityquestions/ESFP.json",
-      "/bot/sequences/personalityquestions/ESTJ.json",
-      "/bot/sequences/personalityquestions/ESTP.json",
-      "/bot/sequences/personalityquestions/INFJ.json",
-      "/bot/sequences/personalityquestions/INFP.json",
-      "/bot/sequences/personalityquestions/INTJ.json",
-      "/bot/sequences/personalityquestions/INTP.json",
-      "/bot/sequences/personalityquestions/ISFJ.json",
-      "/bot/sequences/personalityquestions/ISFP.json",
-      "/bot/sequences/personalityquestions/ISTJ.json",
-      "/bot/sequences/personalityquestions/ISTP.json"
-    ]
+    "100": "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
+    "110": "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
+    "120": "/bot/sequences/personalityquestions/ppReceptiveTo.json",
+    "130": "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
+    "140": "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
+    "150": "/bot/sequences/personalityquestions/ppRevealed.json
   }
 }
 
