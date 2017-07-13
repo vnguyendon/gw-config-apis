@@ -17,6 +17,7 @@
       "/bot/sequences/ppReceptiveTo.json",
       "/bot/sequences/ppDecisionsAriseFrom.json",
       "/bot/sequences/ppOpenedOrSettled.json",
+      "/bot/sequences/Quoteo.json",
       "/bot/sequences/MostScaredOf.json",
       "/bot/sequences/TalkToMe.json"
       ] 
