@@ -2,12 +2,12 @@
 {
   "all-sequences":
   {
-    "100": "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
-    "110": "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
-    "120": "/bot/sequences/personalityquestions/ppReceptiveTo.json",
-    "130": "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
-    "140": "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
-    "150": "/bot/sequences/personalityquestions/ppRevealed.json
+    "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
+    "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
+    "/bot/sequences/personalityquestions/ppReceptiveTo.json",
+    "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
+    "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
+    "/bot/sequences/personalityquestions/ppRevealed.json
   }
 }
 
