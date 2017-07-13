@@ -7,7 +7,7 @@
     "OptionalPrompt": {
         "Type": "PsychologicalProfile",
         "Source": "GitHub",
-        "Path": "/bot/sequences/personalityquestions/PersonalityProfiles.json"
+        "Path": "/bot/sequences/personalityquestions/PsychologicalProfiles.json"
         },
     "Label": {
       "en":"Here is your psychological profile. Does that sound like you?",
