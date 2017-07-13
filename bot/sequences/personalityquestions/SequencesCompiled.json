@@ -1,13 +1,13 @@
 
 {
   "all-sequences":
-  {
+  [
     "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
     "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
     "/bot/sequences/personalityquestions/ppReceptiveTo.json",
     "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
     "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
     "/bot/sequences/personalityquestions/ppRevealed.json
-  }
+  ]
 }
 
