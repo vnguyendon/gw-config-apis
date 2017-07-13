@@ -1,0 +1,47 @@
+
+
+{
+    "Type" : "Question",
+    "Id" : "ppRevealed",
+    "Comments": "We are displaying the user's psychological profile of the user, using the optional prompt to pull the right sequence. We then ask for feeback",
+    "OptionalPrompt": {
+        "Type": "PsychologicalProfile",
+        "Source": "GitHub",
+        "Path": "/bot/sequences/personalityquestions/PersonalityProfiles.json"
+        },
+    "Label": {
+      "en":"Here is your psychological profile. Does that sound like you?",
+      "fr":"Voici ton profil psychologique. Est-ce qu'il te ressemble?",
+      "es":"TBD"
+    },
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+          "Type": "SetUserProperty",
+          "Id" : "RightProfile",
+          "StepValue" : "1",
+          "Label":{
+            "en":"It sounds like me",
+            "fr":"C'est tout moi",
+            "es":"TBD"
+          },
+          "Parameters" : {
+             "property" : "PsychologicalProfile",
+             "value" : "custom"
+      	  }
+        },
+        {
+          "Type": "DoNothing",
+          "Id" : "WrongProfile",
+          "StepValue" : "1",
+          "Label":{
+              "en":"No, that doesn't sound like me",
+              "fr":"Non, je ne me reconnais pas",
+              "es":"No"
+          }
+        }
+    ]
+}
+
+
