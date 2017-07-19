@@ -24,17 +24,17 @@
     }
   },
   "FirstLaunchAlternative": {
-    "Countries": "Switzerland, Austria, Spain, France, Denmark, Norway, Ukraine",
+    "Countries": "France, Italy, Ukraine",
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2448053465"
   },
   "FirstResumeActivityAlternative": {
-    "Countries": "Switzerland, Austria, Spain, France, Denmark, Norway, Ukraine",
+    "Countries": "France, Italy, Ukraine",
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4130046664"
   },
   "OtherResumeActivityAlternative": {
-    "Countries": "Switzerland, Austria, Spain, France, Denmark, Norway, Ukraine",
+    "Countries": "France, Italy, Ukraine",
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4130046664"
   },
