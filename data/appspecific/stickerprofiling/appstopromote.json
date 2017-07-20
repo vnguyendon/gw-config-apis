@@ -3,7 +3,13 @@
 "apps": 
   [
     {
-      "title": "Emoji Cartoon",
+      "title": "Try me, I'm a bot!",
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/animals/small/7651.jpg",
+      "storeUrl": "https://m.me/QuoteoBot"
+    }
+    ,
+    {
+      "title": "Say it with GIFS",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
     }
@@ -12,12 +18,6 @@
       "title": "Elite Emoji",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
-    }
-    ,
-    {
-      "title": "Quoteo",
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/animals/small/7651.jpg",
-      "storeUrl": "https://m.me/QuoteoBot"
     }
   ]
 }
