@@ -1,0 +1,39 @@
+
+[
+  {
+    "GroupName":"UserProperties",
+    "SequenceFiles" : [
+    "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
+    "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
+    "/bot/sequences/personalityquestions/ppReceptiveTo.json",
+    "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
+    "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
+    "/bot/sequences/personalityquestions/ppRevealed.json
+      ]
+  },
+  {
+    "GroupName":"NotCategorized",
+    "SequenceFiles" : [
+      "/bot/sequences/FirstTimeBot.json",
+      "/bot/sequences/WhatLikeSending.json",
+      "/bot/sequences/ShowAnAdvert.json",
+      "/bot/sequences/WantMessageSuggestions.json",
+      "/bot/sequences/CreateAnimatedEmoji.json",
+      "/bot/sequences/HaveYouRegrets.json",
+      "/bot/sequences/IsOftenLate.json",
+      "/bot/sequences/LateBirthday.json",
+      "/bot/sequences/RealBot.json",
+      "/bot/sequences/AreYouSingle.json",
+      "/bot/sequences/Age.json",
+      "/bot/sequences/Stars.json",
+      "/bot/sequences/ppEnergeticAfter.json",
+      "/bot/sequences/ppReceptiveTo.json",
+      "/bot/sequences/ppDecisionsAriseFrom.json",
+      "/bot/sequences/ppOpenedOrSettled.json",
+      "/bot/sequences/Quoteo.json",
+      "/bot/sequences/MostScaredOf.json",
+      "/bot/sequences/TalkToMe.json"
+      ]
+  }
+]
+
