@@ -4,8 +4,8 @@
   "Id": "PsychoProfile",
   "Label":
     {
-      "en": "Would you like to know more on your psychological profile?",
-      "fr": "Est-ce que tu veux en savoir plus sur ton profile psychologique?",
+      "en": "Would you like to know more on your psychological profile? You only need to answer 4 questions",
+      "fr": "Est-ce que tu veux en savoir plus sur ton profile psychologique? Tu n'as qu'à répondre à 4 questions",
       "es": "¿XXX?"
     }
   ,
@@ -25,7 +25,8 @@
             "en": "Yes",
             "fr": "Oui",
             "es": "Si"
-          }        }
+          }        
+        }
         ,
         {
           "Type": "DoNothing",
