@@ -9,9 +9,9 @@
         },
     "Label":
         { 
-          "en":"You feel more energetic after",
-          "fr":"Vous avez plus d'énergie après avoir été",
-          "es":"Su energía aumenta cuándo ha estado"
+          "en":"(1/4) You feel more energetic after",
+          "fr":"(1/4) Vous avez plus d'énergie après avoir été",
+          "es":"(1/4) Su energía aumenta cuándo ha estado"
         }
     ,
     "Randomize": "true",
