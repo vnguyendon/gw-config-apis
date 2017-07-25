@@ -1,0 +1,48 @@
+
+
+{
+  "Type": "Question",
+  "Id": "CatsOrDogs",
+  "Label":
+    {
+      "en": "Are you more...",
+      "fr": "Est-ce que tu préfères...",
+      "es": "Te gustan mas..."
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferCats",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "MDJ9IbxxvDUQM"
+          },
+          "Label":{
+            "en": "A cat person",
+            "fr": "les chats",
+            "es": "los gatos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferDogs",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "fegzospsGS6Os"
+          },
+          "Label":{
+            "en": "A dog person",
+            "fr": "les chiens",
+            "es": "los perros"
+          }
+        }
+      ]
+}
