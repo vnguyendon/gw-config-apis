@@ -8,9 +8,9 @@
         "Path": "themes/emoticons/small/000015195705.jpg"
         },
     "Label": {
-      "en":"You are more receptive to",
-      "fr":"Vous êtes plus réceptif aux",
-      "es":"Usted es más receptivo a"
+      "en":"(2/4) You are more receptive to",
+      "fr":"(2/4) Vous êtes plus réceptif aux",
+      "es":"(2/4) Usted es más receptivo a"
       },
     "Randomize": "true",
     "Commands":
