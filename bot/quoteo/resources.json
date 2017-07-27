@@ -239,11 +239,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je suis en colère"
+          "value": "Je me défoule"
         },
         {
           "culture": "en-EN",
-          "value": "I'm angry"
+          "value": "Let it out"
         },
         {
           "culture": "es-ES",
@@ -356,15 +356,15 @@
 
         {
           "culture": "fr-FR",
-          "value": "Je suis triste"
+          "value": "Aide-moi"
         },
         {
           "culture": "en-EN",
-          "value": "I'm sad"
+          "value": "Lift me up"
         },
         {
           "culture": "es-ES",
-          "value": "Estoy triste"
+          "value": "Ayudame"
         }
       ]
     },
