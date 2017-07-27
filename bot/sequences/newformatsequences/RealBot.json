@@ -9,7 +9,7 @@
       "es": "¿Cree que soy un robot real o simplemente un ser humano fresco y sexy que dice ser un bot?"
     },
   "Randomize": "true",
-  "Choices": [
+  "Commands": [
     {
       "Type": "Nothing",
       "Id": "RealBotYes",
