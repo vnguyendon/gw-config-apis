@@ -1,0 +1,59 @@
+
+{
+  "Type": "Question",
+  "Id": "WhatDoYouLikeSending",
+  "Label":
+    {
+      "en": "What do you like sending?",
+      "fr": "Qu'aimez-vous envoyer ?",
+      "es": "¿Qué te gusta enviar?"
+    },
+  "Choices": [
+    {
+      "Type": "ShowImages",
+      "Id": "Kittens",
+      "StepValue" : "1",
+      "CardSource": {
+        "Type": "Theme",
+        "Id": "themes/kittens"
+      },
+      "Label":
+        {
+          "en": "Kittens",
+          "fr": "Chats",
+          "es": "Gatos"
+        }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Flowers",
+      "StepValue" : "1",
+      "CardSource": {
+        "Type": "Theme",
+        "Id": "themes/flowers"
+      },
+      "Label":
+        {
+          "en": "Flowers",
+          "fr": "Fleurs",
+          "es": "Flores"
+        }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Penguins",
+      "StepValue" : "1",
+      "CardSource": {
+        "Type": "Theme",
+        "Id": "themes/penguins"
+      },
+      "Label":
+        {
+          "en": "Nature",
+          "fr": "Nature",
+          "es": "Naturaleza"
+        }
+    }
+  ]
+}
+
