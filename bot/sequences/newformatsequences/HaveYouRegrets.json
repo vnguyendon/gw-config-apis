@@ -1,0 +1,47 @@
+
+
+{
+  "Type": "Question",
+  "Id": "DoYouHaveRegrets",
+  "Label":
+    {
+      "en": "Do you have regrets?",
+      "fr": "Avez-vous des regrets ?",
+      "es": "¿Tiene algún remordimiento?"
+    },
+  "Commands": [
+    {
+      "Ty[e": "ShowCards",
+      "Id": "RegretsYes",
+      "StepValue" : "1",
+      "CardSource": {
+        "Type": "Intention",
+        "Id": "03B6E4",
+        "Description": "I-am-here-for-you"
+      },
+      "Label":
+        {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Si"
+        }
+    },
+    {
+      "Ty[e": "ShowCards",
+      "Id": "RegretsNo",
+      "StepValue" : "0",
+      "CardSource": {
+        "Type": "Intention",
+        "Id": "8FB4AF",
+        "Description": "you-are-the-best"
+      },
+      "Label":
+        {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        }
+    }
+  ]
+}
+
