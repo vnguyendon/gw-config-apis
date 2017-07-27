@@ -1,0 +1,95 @@
+
+{
+  "Type": "Question",
+  "Id": "LateBirthday",
+  "Label": [
+    {
+      "en": "Have you forgotten to wish someone a happy birthday recently?",
+      "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?",
+      "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?"
+    }
+  ],
+  "Commands": [
+    {
+      "Id": "LateBirthdayYes",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "oXV6IEt10fvIQ"
+      },
+      "Label":
+        {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Si"
+        },
+      "LinksTo": {
+        "Type": "Question",
+        "Id": "LateBirthdayWish",
+        "Label":
+          {
+            "en": "Would you like to wish this person a late happy birthday?",
+            "fr": "Est-ce que tu voudrais lui envoyer un message?",
+            "es": "Le gustaría enviarle un mensaje?"
+          },
+        "Commands": [
+          {
+            "Action": "ShowCards",
+            "Id": "LateBirthdayWishYes",
+            "StepValue" : "1", 
+            "CardSource": {
+              "Type": "Intention",
+              "Id": "A730B4"
+            },
+            "Label":
+              {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Si"
+              }
+          },
+          {
+            "Type": "Nothing",
+            "StepValue" : "0",
+            "Id": "LateBirthdayWishLater",
+            "Label":
+              {
+                "en": "Later",
+                "fr": "Plus tard",
+                "es": "Mas Tarde"
+              }
+          },
+          {
+            "Type": "Nothing",
+            "StepValue" : "0",
+            "Id": "LateBirthdayWishNo",
+            "Label":
+              {
+                "en": "No",
+                "fr": "Non",
+                "es": "No"
+              }
+            }
+          ]
+        }
+    },
+    {
+      "Id": "LateBirthdayNo",
+      "StepValue" : "0",
+      "Action": "Nothing",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "l1ugbvVp9O98ds6Ig"
+      },
+      "Label":
+        {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        }
+    }
+  ]
+}
+
