@@ -1,0 +1,109 @@
+
+{
+  "Type": "Question",
+  "Id": "WouldYouLikeToFeelZen",
+  "Comments": "Ask a question about feeling zen in order to decide what kind of cards to display",
+  "Label": {
+    "en": "A little comfort?",
+    "fr": "Un peu de récomfort ?",
+    "es": "¿Un pequeño zen?"
+  },
+  "Commands": [
+      {
+        "Type": "ShowQuestion",
+        "Id": "ZenYes",
+        "Comments": "represents the Yes answer, then we continue with another implicit question showing the different options for cards",
+        "Label": {
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+        },
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "9WHE2bo5Na9Gg"
+        },
+        "LinksTo":{
+          "Type":"Question",
+          "Id":"ShowFeelzenYesCardsSuggestions",
+          "Comments":"if Yes selected, then we'll continue showing some Cards suggestions",
+          "Commands":[
+            {
+              "Type": "ShowCards",
+              "Id": "SuggestionsPoems",
+              "Comments" : "if selected we'll show a Poem card",
+              "StepValue" : 1,
+              "LinksTo":{ 
+                "Type": "Intention",
+                "Id": "43B296"
+              }
+            },
+            {
+              "Type": "ShowCards",
+              "Id": "SuggestionsPositiveThoughts",
+              "Comments": "if selected we'll show a positive-thoughts card",
+              "StepValue": 1,
+              "LinksTo":{ 
+                "Type": "Intention",
+                "Id": "67CC40"
+              }
+            },
+            {
+              "Type": "ShowCards",
+              "Id": "SuggestionsNature",
+              "Comments": "if selected we'll show a card associated the image theme nature",
+              "StepValue": 1,
+              "Label": {
+                  "en": "Nature",
+                  "fr": "Nature",
+                  "es": "Naturaleza"
+              },
+              "LinksTo":{ 
+                "Type": "Theme",
+                "Id": "themes/nature"
+              }
+            }
+          
+        ]
+        }
+      },
+      {
+        "Type": "Question",
+        "Id": "ZenNo",
+        "Comments": "represents the No answer, then we continue with another implicit question showing the different options for cards",
+        "Label": {
+            "en":"No",
+            "fr":"Non",
+            "es":"No"
+        },
+        "LinksTo":{
+          "Type": "Question",
+          "Id": "ShowFeelzenYesCardsSuggestions",
+          "Comments": "if No selected, then we'll continue showing some Cards suggestions",
+          "Commands": [
+            {
+              "Type": "ShowCards",
+              "Id": "ZenStopWorld",
+              "Comments" : "if selected we'll show a stop-the-world card",
+              "StepValue" : 1,
+              "LinksTo":{ 
+                "Type": "Intention",
+                "Id" : "451563"
+              }
+            },
+            {
+              "Type": "ShowCards",
+              "Id": "ZenIAmHereForYou",
+              "Comments" : "if selected we'll show a I-am-here-for-you card",
+              "StepValue" : 1,
+              "LinksTo":{ 
+                "Type": "Intention",
+                "Id" : "03B6E4"
+              }
+            }
+        ]
+        }
+      }
+    ]
+}
+
