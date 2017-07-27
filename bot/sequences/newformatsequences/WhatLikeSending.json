@@ -8,7 +8,7 @@
       "fr": "Qu'aimez-vous envoyer ?",
       "es": "¿Qué te gusta enviar?"
     },
-  "Choices": [
+  "Commands": [
     {
       "Type": "ShowImages",
       "Id": "Kittens",
