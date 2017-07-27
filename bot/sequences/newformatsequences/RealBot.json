@@ -1,0 +1,63 @@
+
+{
+  "Type": "Question",
+  "Id": "RealBot",
+  "Label":
+    {
+      "en": "Do you think I am a real bot or a cool sexy human pretending to be a bot?",
+      "fr": "Penses-tu que je sois un vrai bot ou juste un humain cool et sexy qui prétend être un bot?",
+      "es": "¿Cree que soy un robot real o simplemente un ser humano fresco y sexy que dice ser un bot?"
+    },
+  "Randomize": "true",
+  "Choices": [
+    {
+      "Type": "Nothing",
+      "Id": "RealBotYes",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "1Mng0gXC5Tpcs"
+      },
+      "Label":
+        {
+          "en": "Real bot",
+          "fr": "Un vrai bot",
+          "es": "Un robot real"
+        }
+    },
+    {
+      "Type": "Nothing",
+      "Id": "CoolSexyHuman",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "TZFmvyDvr3WaQ"
+      },
+      "Label":
+        {
+          "en": "Cool human",
+          "fr": "Un humain cool",
+          "es": "Un humano fesco"
+        }
+    },
+    {
+      "Type": "Nothing",
+      "Id": "ZombieKitten",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "UIpzEC5QTvuOQ"
+      },
+      "Label":
+        {
+          "en": "A zombie kitten",
+          "fr": "Un chaton zombie",
+          "es": "Un gatito zombie"
+        }
+    }
+  ]
+}
+
