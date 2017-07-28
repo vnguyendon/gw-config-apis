@@ -1,6 +1,6 @@
 {
   "Id": "ShowAdvert",
-  "Type": "SeeAnAdvert",
+  "Type": "ShowAdvert",
   "Label": {
     "en": "Can I please show you an advert?",
     "fr": "Puis-je te montrer une pub ?",
