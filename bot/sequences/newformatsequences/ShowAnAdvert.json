@@ -1,37 +1,31 @@
-
 {
-  "QuestionId": "SeeAnAdvert",
-  "Label": 
-    { 
-      "en": "Can I please show you an advert?", 
-      "fr": "Puis-je te montrer une pub ?", 
-      "es": "¿Te gustaría ver un anuncio?" 
+  "Id": "ShowAdvert",
+  "Type": "SeeAnAdvert",
+  "Label": {
+    "en": "Can I please show you an advert?",
+    "fr": "Puis-je te montrer une pub ?",
+    "es": "¿Te gustaría ver un anuncio?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowAdvert",
+      "StepValue": "1",
+      "Id": "AdvertYes",
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      }
     },
-  "Commands": 
-      [
-          {
-          "Type": "ShowAdvert",
-          "StepValue" : "1",
-          "Id": "AdvertYes",
-          "Label": 
-            { 
-              "en": "Yes", 
-              "fr": "Oui", 
-              "es": "Si" 
-            }
-          }
-          ,
-          {   
-          "Type": "Nothing",
-          "StepValue" : "0",
-          "Id": "AdvertNo",
-          "Label": 
-            { 
-              "en": "No", 
-              "fr": "Non",
-              "es": "No" 
-            }
-          }
-      ]     
+    {
+      "Type": "DoNothing",
+      "StepValue": "0",
+      "Id": "AdvertNo",
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
 }
-
