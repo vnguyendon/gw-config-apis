@@ -1,27 +1,22 @@
-
-
-
 {
   "Type": "Question",
   "Id": "HowAboutMessageSuggestions",
-  "Label":
-    {
-      "en": "Do you want message suggestions?",
-      "fr": "Quelques idées de messages?",
-      "es": "¿Quieres ideas de mensajes?"
-    },
+  "Label": {
+    "en": "Do you want message suggestions?",
+    "fr": "Quelques idées de messages?",
+    "es": "¿Quieres ideas de mensajes?"
+  },
   "Commands": [
     {
       "Type": "ShowCards",
       "Id": "SuggestionsJoke",
-      "StepValue" : "1",
-      "Label":
-        {
-          "en": "Jokes",
-          "fr": "Blagues",
-          "es": "Bromas"
-        },
-      "CardSource": {
+      "StepValue": "1",
+      "Label": {
+        "en": "Jokes",
+        "fr": "Blagues",
+        "es": "Bromas"
+      },
+      "LinksTo": {
         "Type": "Intention",
         "Id": "0B1EA1"
       }
@@ -29,32 +24,26 @@
     {
       "Type": "ShowCards",
       "Id": "SuggestionsPoems",
-      "StepValue" : "1",
-      "Label":
-        {
-          "en": "Poems",
-          "fr": "Poèmes",
-          "es": "Poemas"
-        },
-      "CardSource": {
+      "StepValue": "1",
+      "Label": {
+        "en": "Poems",
+        "fr": "Poèmes",
+        "es": "Poemas"
+      },
+      "LinksTo": {
         "Type": "Intention",
         "Id": "43B296"
       }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "SuggestionsNo",
-      "StepValue" : "0",
-      "Label":
-        {
-          "en": "No",
-          "fr": "Non",
-          "es": "No"
-        }
+      "StepValue": "0",
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
     }
   ]
 }
-
-
-
-
