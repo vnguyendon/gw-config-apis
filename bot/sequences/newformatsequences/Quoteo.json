@@ -1,56 +1,50 @@
-
-
+{
   "Type": "Question",
   "Id": "Quoteo",
-  "Label":
-    {
-      "en": "Do you like talking birds?",
-      "fr": "Aimes-tu les oiseaux qui parlent ?",
-      "es": "¿Te gustan los pájaros que hablan?"
-    },
+  "Label": {
+    "en": "Do you like talking birds?",
+    "fr": "Aimes-tu les oiseaux qui parlent ?",
+    "es": "¿Te gustan los pájaros que hablan?"
+  },
   "Commands": [
     {
       "Type": "EmbedLink",
       "Id": "QuoteoYes",
-      "StepValue" : "1",
+      "StepValue": "1",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "56YRqBPUEvIDm"
       },
-      "Label":
-        {
-          "en": "Yes",
-          "fr": "Oui",
-          "es": "Si"
-        },
-      "Link": {
-        "Source": "External",
-        "Path": "https://m.me/QuoteoBot",
-        "Label":
-          {
-            "en": "Try Quoteo! It's a cute and friendly bot!",
-            "fr": "Essaye Quoteo ! C'est un bot très amical !",
-            "es": "Deberias probar Quoteo ! Es un amigo"
-          }
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      },
+      "LinksTo": {
+        "Type": "Link",
+        "Id": "https://m.me/QuoteoBot",
+        "Label": {
+          "en": "Try Quoteo! It's a cute and friendly bot!",
+          "fr": "Essaye Quoteo ! C'est un bot très amical !",
+          "es": "Deberias probar Quoteo ! Es un amigo"
+        }
       }
-    }
-    ,
+    },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "QuoteoNo",
-      "StepValue" : "0",
+      "StepValue": "0",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "9Y5BbDSkSTiY8"
       },
-      "Label":
-        {
-          "en": "No",
-          "fr": "Non",
-          "es": "No"
-        }
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
     }
   ]
 }
