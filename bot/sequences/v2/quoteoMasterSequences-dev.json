@@ -1,0 +1,18 @@
+[
+  {
+    "GroupName":"UserProperties",
+    "SequenceFiles" : [
+        { "order" : 10, "file": "ppDecisionsAriseFrom.json" },
+        { "order" : 20, "file": "ppEnergeticAfter.json" },
+        { "order" : 30, "file": "ppOpenedOrSettled.json" },
+        { "order" : 40, "file": "ppReceptiveTo.json" }
+      ]
+  },
+  {
+    "GroupName":"NotCategorized",
+    "SequenceFiles" : [
+        { "order" : 100, "file": "AreYouOftenLate.json" },
+        { "order" : 100, "file": "WouldYouLikeToFeelZen.json" }
+      ]
+  }
+]
