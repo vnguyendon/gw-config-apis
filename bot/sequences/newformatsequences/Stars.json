@@ -2,122 +2,111 @@
 {
   "Type": "Question",
   "Id": "Stars",
-  "Label": 
-    {
-      "en": "How many stars would you rate us?",
-      "fr": "Combien d'étoiles nous noterais-tu?",
-      "es": "¿Qué nota nos darías?"
-    },
+  "Label": {
+    "en": "How many stars would you rate us?",
+    "fr": "Combien d'étoiles nous noterais-tu?",
+    "es": "¿Qué nota nos darías?"
+  },
   "Commands": [
     {
       "Id": "FiveStars",
-      "StepValue" : "1",
+      "Type": "ShowQuestion",
+      "StepValue": "1",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "3ohzdQoCngNoESFV28"
       },
-      "Label": 
-        {
-          "en": "*****",
-          "fr": "*****",
-          "es": "*****"
+      "Label": {
+        "en": "*****",
+        "fr": "*****",
+        "es": "*****"
+      },
+      "Question": {
+        "QuestionId": "RateStore",
+        "Label": {
+          "en": "Great, thanks! Please rate us on the store!",
+          "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
+          "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
         },
-      "Type": "ShowQuestion",
-        "Question": {
-          "QuestionId": "RateStore",
-          "Label":
-            {
-              "en": "Great, thanks! Please rate us on the store!",
-              "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
-              "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
-            },
-      "Choices": [
+        "Commands": [
           {
             "Type": "RateUs",
             "Id": "StoreYes",
-            "StepValue" : "1",
+            "StepValue": "1",
             "OptionalFeedback": {
               "Type": "AnimatedGif",
               "Source": "Giphy",
               "Path": "yoJC2El7xJkYCadlWE"
             },
-            "Label":
-              {
-                "en": "Yes",
-                "fr": "Oui",
-                "es": "Si"
-              }
-          }
-          ,
+            "Label": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Si"
+            }
+          },
           {
-          "Type": "Exit",
-          "Id": "StoreNo",
-            "StepValue" : "0",
+            "Type": "DoNothing",
+            "Id": "StoreNo",
+            "StepValue": "0",
             "OptionalFeedback": {
               "Type": "AnimatedGif",
               "Source": "Giphy",
               "Path": "l41lUjUgLLwWrz20w"
             },
-            "Label":
-              {
-                "en": "No",
-                "fr": "Non",
-                "es": "No"
-              }
+            "Label": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No"
+            }
           }
         ]
       }
-    }
-    ,
+    },
     {
-      "Type": "Exit",
-      "StepValue" : "0",
+      "Type": "DoNothing",
+      "StepValue": "0",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "l2R0eYcNq9rJUsVAA"
       },
       "Id": "FourStars",
-      "Label":
-        {
-          "en": "****",
-          "fr": "****",
-          "es": "****"
-        }
+      "Label": {
+        "en": "****",
+        "fr": "****",
+        "es": "****"
+      }
     },
     {
-      "Type": "Exit",
-      "StepValue" : "0",
+      "Type": "DoNothing",
+      "StepValue": "0",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "1009wQ2WcsEmBO"
       },
       "Id": "ThreeStars",
-      "Label":
-        {
-          "en": "***",
-          "fr": "***",
-          "es": "***"
-        }
+      "Label": {
+        "en": "***",
+        "fr": "***",
+        "es": "***"
+      }
     },
     {
-      "Type": "Exit",
-      "StepValue" : "0",
+      "Type": "DoNothing",
+      "StepValue": "0",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
         "Path": "9Y5BbDSkSTiY8"
       },
       "Id": "LessThreeStars",
-      "Label":
-        {
-          "en": "Less than ***",
-          "fr": "Moins de ***",
-          "es": "Menos de ***"
-        }
+      "Label": {
+        "en": "Less than ***",
+        "fr": "Moins de ***",
+        "es": "Menos de ***"
+      }
     }
   ]
 }
-
