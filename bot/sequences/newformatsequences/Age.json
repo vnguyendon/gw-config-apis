@@ -10,7 +10,7 @@
     },
   "Commands": [
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "EighteenLess",
       "StepValue" : "1", 
       "Label":
@@ -21,7 +21,7 @@
         }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "EighteenThirtyNine",
       "StepValue" : "1", 
       "Label":
@@ -32,7 +32,7 @@
         }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "FourtySixtyFour",
       "StepValue" : "1", 
       "Label":
@@ -43,7 +43,7 @@
         }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "SixtyFourMore",
       "StepValue" : "1", 
       "Label":
