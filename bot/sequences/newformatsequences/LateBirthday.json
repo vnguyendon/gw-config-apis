@@ -30,10 +30,10 @@
         },
         "Commands": [
           {
-            "Action": "ShowCards",
+            "Type": "ShowCards",
             "Id": "LateBirthdayWishYes",
             "StepValue": "1",
-            "CardSource": {
+            "LinksTo": {
               "Type": "Intention",
               "Id": "A730B4"
             },
@@ -44,7 +44,7 @@
             }
           },
           {
-            "Type": "Nothing",
+            "Type": "DoNothing",
             "StepValue": "0",
             "Id": "LateBirthdayWishLater",
             "Label": {
@@ -54,7 +54,7 @@
             }
           },
           {
-            "Type": "Nothing",
+            "Type": "DoNothing",
             "StepValue": "0",
             "Id": "LateBirthdayWishNo",
             "Label": {
@@ -69,7 +69,7 @@
     {
       "Id": "LateBirthdayNo",
       "StepValue": "0",
-      "Action": "Nothing",
+      "Type": "DoNothing",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
@@ -83,4 +83,3 @@
     }
   ]
 }
-
