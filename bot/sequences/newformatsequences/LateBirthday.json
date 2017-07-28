@@ -9,6 +9,7 @@
   "Commands": [
     {
       "Id": "LateBirthdayYes",
+      "Type" : "ShowQuestion",
       "StepValue": "1",
       "OptionalFeedback": {
         "Type": "AnimatedGif",
