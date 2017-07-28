@@ -11,7 +11,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "RealBotYes",
       "StepValue" : "1",
       "OptionalFeedback": {
@@ -27,7 +27,7 @@
         }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "CoolSexyHuman",
       "StepValue" : "1",
       "OptionalFeedback": {
@@ -43,7 +43,7 @@
         }
     },
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "ZombieKitten",
       "StepValue" : "1",
       "OptionalFeedback": {
