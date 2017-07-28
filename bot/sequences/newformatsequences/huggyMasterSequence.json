@@ -15,21 +15,21 @@
   {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
-      "/bot/sequences/FirstTimeBot.json",
-      "/bot/sequences/WhatLikeSending.json",
-      "/bot/sequences/ShowAnAdvert.json",
-      "/bot/sequences/WantMessageSuggestions.json",
-      "/bot/sequences/CreateAnimatedEmoji.json",
-      "/bot/sequences/HaveYouRegrets.json",
-      "/bot/sequences/IsOftenLate.json",
-      "/bot/sequences/LateBirthday.json",
-      "/bot/sequences/RealBot.json",
-      "/bot/sequences/AreYouSingle.json",
-      "/bot/sequences/Age.json",
-      "/bot/sequences/Stars.json",
-      "/bot/sequences/Quoteo.json",
-      "/bot/sequences/MostScaredOf.json",
-      "/bot/sequences/TalkToMe.json"
+      "/bot/sequences/newformatsequences/FirstTimeBot.json",
+      "/bot/sequences/newformatsequences/WhatLikeSending.json",
+      "/bot/sequences/newformatsequences/ShowAnAdvert.json",
+      "/bot/sequences/newformatsequences/WantMessageSuggestions.json",
+      "/bot/sequences/newformatsequences/CreateAnimatedEmoji.json",
+      "/bot/sequences/newformatsequences/HaveYouRegrets.json",
+      "/bot/sequences/newformatsequences/IsOftenLate.json",
+      "/bot/sequences/newformatsequences/LateBirthday.json",
+      "/bot/sequences/newformatsequences/RealBot.json",
+      "/bot/sequences/newformatsequences/AreYouSingle.json",
+      "/bot/sequences/newformatsequences/Age.json",
+      "/bot/sequences/newformatsequences/Stars.json",
+      "/bot/sequences/newformatsequences/Quoteo.json",
+      "/bot/sequences/newformatsequences/MostScaredOf.json",
+      "/bot/sequences/newformatsequences/TalkToMe.json"
       ]
   }
 ]
