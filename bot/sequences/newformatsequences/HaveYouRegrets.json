@@ -1,47 +1,39 @@
-
-
 {
   "Type": "Question",
   "Id": "DoYouHaveRegrets",
-  "Label":
-    {
-      "en": "Do you have regrets?",
-      "fr": "Avez-vous des regrets ?",
-      "es": "¿Tiene algún remordimiento?"
-    },
+  "Label": {
+    "en": "Do you have regrets?",
+    "fr": "Avez-vous des regrets ?",
+    "es": "¿Tiene algún remordimiento?"
+  },
   "Commands": [
     {
-      "Ty[e": "ShowCards",
+      "Type": "ShowCards",
       "Id": "RegretsYes",
-      "StepValue" : "1",
-      "CardSource": {
+      "StepValue": "1",
+      "LinksTo": {
         "Type": "Intention",
-        "Id": "03B6E4",
-        "Description": "I-am-here-for-you"
+        "Id": "03B6E4"
       },
-      "Label":
-        {
-          "en": "Yes",
-          "fr": "Oui",
-          "es": "Si"
-        }
+      "Label": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      }
     },
     {
-      "Ty[e": "ShowCards",
+      "Type": "ShowCards",
       "Id": "RegretsNo",
-      "StepValue" : "0",
-      "CardSource": {
+      "StepValue": "0",
+      "LinksTo": {
         "Type": "Intention",
-        "Id": "8FB4AF",
-        "Description": "you-are-the-best"
+        "Id": "8FB4AF"
       },
-      "Label":
-        {
-          "en": "No",
-          "fr": "Non",
-          "es": "No"
-        }
+      "Label": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
     }
   ]
 }
-
