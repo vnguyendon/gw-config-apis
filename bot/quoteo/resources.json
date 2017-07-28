@@ -138,6 +138,23 @@
       ]
     },
     {
+      "key": "continue conversation",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Suite Conversation"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Continue Talking"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Seguir Hablando"
+        }
+      ]
+    },
+    {
       "key": "errorMessageFromException",
       "labels": [
         {
