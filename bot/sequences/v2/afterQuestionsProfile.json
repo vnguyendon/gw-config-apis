@@ -1,0 +1,10 @@
+{
+    "Type" : "ShowCards",
+    "Id"   : "AfterQuestionsProfile",
+    "Comments" : "show as a result of 4 responses to profile questions",
+    "StepValue" : 1,
+    "LinksTo":{ 
+      "Type": "Intention",
+      "Id" : "1778B7"
+    }
+  }
