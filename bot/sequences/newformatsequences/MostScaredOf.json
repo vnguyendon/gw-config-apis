@@ -43,7 +43,7 @@
     }
     ,
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "ScaredHeight",
       "StepValue" : "1",
       "ChoiceImage": {
