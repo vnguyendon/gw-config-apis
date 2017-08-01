@@ -11,7 +11,7 @@
     },
   "Commands": [
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "ScaredInsects",
       "StepValue" : "1",
       "ChoiceImage": {
@@ -27,7 +27,7 @@
     }
     ,
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "ScaredSnakes",
       "StepValue" : "1",
       "ChoiceImage": {
@@ -59,7 +59,7 @@
     }
     ,
     {
-      "Type": "Nothing",
+      "Type": "DoNothing",
       "Id": "ScaredCrowds",
       "StepValue" : "1",
       "ChoiceImage": {
