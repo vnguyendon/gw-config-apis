@@ -29,7 +29,7 @@
       "/bot/sequences/newformatsequences/Stars.json",
       "/bot/sequences/newformatsequences/Quoteo.json",
       "/bot/sequences/newformatsequences/MostScaredOf.json",
-      "/bot/sequences/newformatsequences/TalkToMe.json"
+      "/bot/sequences/newformatsequences/PleaseTalkToMe.json"
       ]
   }
 ]
