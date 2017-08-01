@@ -24,7 +24,7 @@
       },
       "LinksTo": {
         "Id": "RateStore",
-        "Type" : "Question"
+        "Type" : "Question",
         "Label": {
           "en": "Great, thanks! Please rate us on the store!",
           "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
