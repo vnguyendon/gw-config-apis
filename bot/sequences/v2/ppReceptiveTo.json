@@ -1,7 +1,7 @@
 {
     "Type" : "Question",
     "Id" : "ppReceptiveTo",
-    "OptionalFeedback": {
+    "OptionalPrompt": {
         "Type": "Image",
         "Source": "Dropbox",
         "Path": "themes/emoticons/small/000015195705.jpg"
@@ -15,34 +15,33 @@
     "Commands":
     [
         {
-        "Type": "SetUserProperty",
-          "Id" : "ReceptiveToIdeas",
-        "StepValue" : "1",
-        "OptionalFeedback": {
-          "Type": "AnimatedGif",
-          "Source": "Giphy",
-          "Path": "xUA7b6oaRIgzmAKpUY"
+            "Type": "SetUserProperty",
+              "Id" : "ReceptiveToIdeas",
+            "StepValue" : "1",
+            "Label": {
+              "en":"theories, possibilities",
+              "fr":"théories, possibilités",
+              "es":"teorías, posibilidades"
+            },
+           "Parameters" : {
+                     "Property" : "ppReceptiveTo",
+                     "Value" : "Ideas"
+            },
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "xUA7b6oaRIgzmAKpUY",
+              "AdditionalLabels": [{
+                  "en":"Your creative potential seems limitless.",
+                  "fr":"Ton potentiel créatif semble sans limites.",
+                  "es":"Tu potencial creativo no tiene limites."
+                }],
+            }
         },
-        "Label": {
-          "en":"theories, possibilities",
-          "fr":"théories, possibilités",
-          "es":"teorías, posibilidades"
-        },
-       "Parameters" : {
-      			 "Property" : "ppReceptiveTo",
-      		     "Value" : "Ideas"
-      		}
-        }
-        ,
         {
             "Type": "SetUserProperty",
             "Id" : "ReceptiveToFacts",
             "StepValue" : "1",
-            "OptionalFeedback": {
-                "Type": "AnimatedGif",
-                "Source": "Giphy",
-                "Path": "zagB8wzgm4Ce4"
-            },
             "Label": {
                 "en":"facts, reality",
                 "fr":"faits, à la réalité",
@@ -51,7 +50,17 @@
             "Parameters" : {
       			 "Property" : "ppReceptiveTo",
       		     "Value" : "Facts"
-      		}
+      		},
+            "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "zagB8wzgm4Ce4",
+                 "AdditionalLabels": [{
+                  "en":"Your creative potential seems limitless.",
+                  "fr":"Ton potentiel créatif semble sans limites.",
+                  "es":"Tu potencial creativo no tiene limites."
+                }],
+            }
         }
     ]
 }
