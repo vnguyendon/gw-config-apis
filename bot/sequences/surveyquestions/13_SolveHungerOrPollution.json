@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "SolveHungerOrPollution",
+  "Label":
+    {
+      "en": "You can only solve one worldwide issue between the two :",
+      "fr": "Tu ne peux résoudre qu'un seul fléau à l'échelle mondiale :",
+      "es": "Solo puedes solucionar uno de estas dos plagas mundiales :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "SolveHunger",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oz8xB06mHyoGE7ZoQ"
+          },
+          "Label":{
+            "en": "hunger",
+            "fr": "la faim",
+            "es": "el hambre"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "SolvePollution",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "aK4wh0UE3oddS"
+          },
+          "Label":{
+            "en": "pollution",
+            "fr": "la pollution",
+            "es": "la contaminación"
+          }
+        }
+      ]
+}
+

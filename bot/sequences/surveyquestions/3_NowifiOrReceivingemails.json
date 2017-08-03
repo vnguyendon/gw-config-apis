@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "NowifiOrReceivingemails",
+  "Label":
+    {
+      "en": "What's worse :",
+      "fr": "C'est quoi le pire ?",
+      "es": "¿Qué es lo peor?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "WorseNowifi",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "O4iaxRcEmwq2Y"
+          },
+          "Label":{
+            "en": "no wifi",
+            "fr": "ne pas avoir de wifi",
+            "es": "no tener el wifi"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "WorseReceivingemails",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTiTnJ3BooiDs8dL7W"
+          },
+          "Label":{
+            "en": "receiving one email every minute",
+            "fr": "recevoir un mail par minute",
+            "es": "recibir un e-mail por minuto"
+          }
+        }
+      ]
+}
+

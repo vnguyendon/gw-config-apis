@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "TeaOrCoffee",
+  "Label":
+    {
+      "en": "In the morning, you prefer to drink :",
+      "fr": "Le matin, tu préfères boire :",
+      "es": "Por la mañana prefieres beber :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "PreferTea",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "M1VL81pAxfj3y"
+          },
+          "Label":{
+            "en": "tea",
+            "fr": "du thé",
+            "es": "té"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "PreferCoffee",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l2SpXensc5RhNzfK8"
+          },
+          "Label":{
+            "en": "coffee",
+            "fr": "du café",
+            "es": "café"
+          }
+        }
+      ]
+}
+

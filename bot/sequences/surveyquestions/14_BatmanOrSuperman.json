@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "WhowinsBatmanOrSuperman",
+  "Label":
+    {
+      "en": "Who wins ?",
+      "fr": "Qui gagne ?",
+      "es": "¿Quién gana?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "BatmanWins",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "14bhmZtBNhVnIk"
+          },
+          "Label":{
+            "en": "Batman",
+            "fr": "Batman",
+            "es": "Batman"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "SupermanWins",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "R8MIGe47XWx68"
+          },
+          "Label":{
+            "en": "Superman",
+            "fr": "Superman",
+            "es": "Superman"
+          }
+        }
+      ]
+}
+

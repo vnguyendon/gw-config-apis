@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "WizardOrNinja",
+  "Label":
+    {
+      "en": "Would you rather be :",
+      "fr": "Tu préférerais être :",
+      "es": "Preferías ser :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "PreferWizard",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "GyUiQcGVVeiKk"
+          },
+          "Label":{
+            "en": "a wizard",
+            "fr": "un sorcier",
+            "es": "un brujo"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "PreferNinja",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ErdfMetILIMko"
+          },
+          "Label":{
+            "en": "a ninja",
+            "fr": "un ninja",
+            "es": "un ninja"
+          }
+        }
+      ]
+}
+
