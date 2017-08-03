@@ -6,9 +6,9 @@
   "Id": "PepsiOrCoke",
   "Label":
     {
-      "en": "Pepsi or Coke ?",
+      "en": "Pepsi or Coke?",
       "fr": "Pepsi ou Coca-Cola ?",
-      "es": "¿ Pepsi o Coca-Cola ?"
+      "es": "¿Pepsi o Coca-Cola?"
     }
   ,
   "Randomize": "true",
@@ -40,7 +40,7 @@
             "Path": "v2YxCO2pwHjji"
           },
           "Label":{
-            "en": "Bring me a coke please !",
+            "en": "Bring me a coke please!",
             "fr": "Un Coca svp !",
             "es": "¡Un Coca por favor!"
           }
