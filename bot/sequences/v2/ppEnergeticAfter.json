@@ -1,11 +1,6 @@
 {
     "Type" : "Question",
     "Id" : "ppEnergeticAfter",
-    "OptionalFeedback": {
-        "Type": "Image",
-        "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000018292730.jpg"
-        },
     "Label":
         { 
           "en":"You feel more energetic after being",
