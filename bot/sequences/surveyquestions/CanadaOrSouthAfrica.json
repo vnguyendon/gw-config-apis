@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "CanadaOrSouthAfrica",
+  "Label":
+    {
+      "en": "You are offered an all-inclusive trip! You choose to visit:",
+      "fr": "On t'offre un voyage tout compris. Tu préfères visiter :",
+      "es": "Te ofrecen un viaje todo incluido. Prefieres ir a :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "VisitCanada",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "vLyMUEtQdTXC8"
+          },
+          "Label":{
+            "en": "Canada",
+            "fr": "le Canada",
+            "es": "Canadá"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "VisitSouthAfrica",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "NIdvqjqSf2COI"
+          },
+          "Label":{
+            "en": "South Africa",
+            "fr": "l'Afrique du Sud",
+            "es": "Sudáfrica"
+          }
+        }
+      ]
+}
+
