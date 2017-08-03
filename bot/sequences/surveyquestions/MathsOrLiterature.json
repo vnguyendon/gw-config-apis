@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "MathsOrLiterature",
+  "Label":
+    {
+      "en": "Would you rather study :",
+      "fr": "Tu préférerais étudier :",
+      "es": "Preferías estudiar :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "PreferMaths",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "DHqth0hVQoIzS"
+          },
+          "Label":{
+            "en": "Mathematics",
+            "fr": "les maths",
+            "es": "las matemáticas"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "PreferLiterature",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "zuNdVweFYGXy8"
+          },
+          "Label":{
+            "en": "Literature",
+            "fr": "les lettres",
+            "es": "la literatura"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "KindOrFunny",
+  "Label":
+    {
+      "en": "What's most important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "ImportantKindness",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "lXiRKBj0SAA0EWvbG"
+          },
+          "Label":{
+            "en": "being kind",
+            "fr": "la gentillesse",
+            "es": "ser amable"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "ImportantFunny",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ZqlvCTNHpqrio"
+          },
+          "Label":{
+            "en": "being funny",
+            "fr": "l'humour",
+            "es": "ser gracioso"
+          }
+        }
+      ]
+}
+

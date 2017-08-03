@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "PandasOrLions",
+  "Label":
+    {
+      "en": "You can only save one species from extinction. You choose:",
+      "fr": "Tu ne peux sauver qu'une seule espèce de l'extinction. Tu choisis :",
+      "es": "Solo puedes salvar una especie de la extinción. Eliges :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "SavePandas",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l3vRbgCJxtSXS9jFe"
+          },
+          "Label":{
+            "en": "pandas",
+            "fr": "les pandas",
+            "es": "los pandas"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "SaveLions",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l46C8pSaCzoiZVXAk"
+          },
+          "Label":{
+            "en": "lions",
+            "fr": "les lions",
+            "es": "los leones"
+          }
+        }
+      ]
+}
+

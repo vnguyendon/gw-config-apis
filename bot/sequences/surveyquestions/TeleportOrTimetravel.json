@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "TeleportOrTimetravel",
+  "Label":
+    {
+      "en": "What's most useful? Being able to:",
+      "fr": "C'est le quoi le plus utile : pouvoir voyager instantanément dans :",
+      "es": "¿Qué es lo más útil ?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "UsefulTeleport",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3o7TKLzBYFrRWcXk9q"
+          },
+          "Label":{
+            "en": "teleport in space",
+            "fr": "l'espace",
+            "es": "teletransportarse"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "UsefulTimetravel",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l1IYhPKrQqn8nnFkc"
+          },
+          "Label":{
+            "en": "travel in time",
+            "fr": "le temps",
+            "es": "viajar en el tiempo"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "ArtistOrEngineer",
+  "Label":
+    {
+      "en": "You have to marry someone. You choose:",
+      "fr": "Tu dois te marier avec quelqu'un. Tu choisis :",
+      "es": "Tienes que casarte. Eliges :"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "MarryArtist",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "d31vTpVi1LAcDvdm"
+          },
+          "Label":{
+            "en": "an artist",
+            "fr": "un(e) artiste",
+            "es": "un artista"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "MarryEngineer",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l44QkVjrTiBgettq8"
+          },
+          "Label":{
+            "en": "an engineer",
+            "fr": "un(e) ingénieur(e)",
+            "es": "un(a) ingeniero/a"
+          }
+        }
+      ]
+}
+
