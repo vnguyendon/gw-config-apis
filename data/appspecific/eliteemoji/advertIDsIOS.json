@@ -1,0 +1,22 @@
+{
+  "FirstLaunch": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1886351058276367"
+  },
+  "FirstResumeActivity": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1926436580934481"
+  },
+  "OtherResumeActivity": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1886351148276358"
+  },
+  "CategoriesScroll": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1886353001609506"
+  },
+  "GalleryNative": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1980107925567346"
+  }
+}
