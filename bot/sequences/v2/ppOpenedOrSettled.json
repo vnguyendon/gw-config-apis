@@ -1,15 +1,10 @@
 {
   "Type":"Question",
   "Id": "ppOpenedOrSettled",
-  "OptionalFeedback": {
-    "Type": "Image",
-    "Source": "Dropbox",
-    "Path": "themes/emoticons/small/000016089832.jpg"
-  },
   "Label": {
     "en": "You feel better when things are",
-    "fr": "Vous préférez que les choses soient",
-    "es": "Usted prefiere que las cosas sean"
+    "fr": "Tu préfères que les choses soient",
+    "es": "Prefiere que las cosas sean"
   },
   "Randomize": "true",
   "Commands": [
