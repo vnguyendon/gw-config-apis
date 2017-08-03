@@ -2,14 +2,9 @@
     "Type" : "Question",
     "Id" : "ppDecisionsAriseFrom",
     "Comments": "this question give us information about peoples's profile",
-    "OptionalFeedback": {
-        "Type": "Image",
-        "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000073674269.jpg"
-        },
     "Label": {
       "en":"Your decisions arise from",
-      "fr":"Vos décisions sont guidées par vos",
+      "fr":"Tes décisions sont guidées par vos",
       "es":"Sus decisiones están guiadas por sus"
     },
     "Randomize": true,
