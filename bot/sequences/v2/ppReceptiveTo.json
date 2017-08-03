@@ -1,14 +1,9 @@
 {
     "Type" : "Question",
     "Id" : "ppReceptiveTo",
-    "OptionalPrompt": {
-        "Type": "Image",
-        "Source": "Dropbox",
-        "Path": "themes/emoticons/small/000015195705.jpg"
-        },
     "Label": {
       "en":"You are more receptive to",
-      "fr":"Vous êtes plus réceptif aux",
+      "fr":"Tu es plus réceptif aux",
       "es":"Usted es más receptivo a"
       },
     "Randomize": "true",
@@ -19,9 +14,9 @@
               "Id" : "ReceptiveToIdeas",
             "StepValue" : "1",
             "Label": {
-              "en":"theories, possibilities",
-              "fr":"théories, possibilités",
-              "es":"teorías, posibilidades"
+              "en":"theories,possibilities",
+              "fr":"théories,possibilités",
+              "es":"teorías,posibilidades"
             },
            "Parameters" : {
                      "Property" : "ppReceptiveTo",
@@ -56,9 +51,9 @@
                 "Source": "Giphy",
                 "Path": "zagB8wzgm4Ce4",
                  "AdditionalLabels": [{
-                  "en":"The word «perfect» has 7 letters, just like «youuuuu». Coincidence? I think not!",
-                  "fr":"Ton potentiel créatif semble sans limites.",
-                  "es":"Tu potencial creativo no tiene limites."
+                  "en":"I like you more than a rabbit likes carrots",
+                  "fr":"Je t'aime encore plus que le lapin n’aime ses carottes",
+                  "es":"Me gustas más de lo que a un conejo le gustan las zanahorias"
                 }],
             }
         }
