@@ -6,9 +6,9 @@
   "Id": "TeaOrCoffee",
   "Label":
     {
-      "en": "In the morning, you prefer to drink :",
+      "en": "In the morning, you prefer to drink:",
       "fr": "Le matin, tu préfères boire :",
-      "es": "Por la mañana prefieres beber :"
+      "es": "Por la mañana prefieres beber:"
     }
   ,
   "Randomize": "true",
