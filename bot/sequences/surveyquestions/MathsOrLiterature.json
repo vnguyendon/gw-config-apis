@@ -15,7 +15,7 @@
   "Commands":
       [
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferMaths",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -31,7 +31,7 @@
         }
         ,
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferLiterature",
           "StepValue" : "1",
           "OptionalFeedback": {
