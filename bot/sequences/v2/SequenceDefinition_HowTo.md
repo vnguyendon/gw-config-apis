@@ -28,10 +28,16 @@ Element =
         "Id"   : "mynodeid",
         "Comments" : "the question of life",
         "Label" : {"key":"value",...},
-        "OptionalFeedback":{
+        "OptionalPrompt":{
           "Type" : "source type",
           "Source" : "source name",
-          "Id" : "source id or full path"
+          "Id" : "source id or full path",
+          "AdditionalLabels" :[
+               {
+                    "en":"would you like to continue?",
+                    "fr":"veut tu continuer?",
+                    "es":"Quieres continuar?"
+          ]
         }
         "DisplayMode": "Default"
       }
@@ -61,13 +67,14 @@ For each property:
      the visible question
      - if the question is a child question present in a choice list, then this label is used as the label shown in choice list not as a separe question for the next step.
      
-* OptionalFeedback:
+* OptionalPrompt:
   * mandatory : false
   * type : object =>
       * Type : string, defining the type of the feedback to show user (Image, AnimatedGif, Video, ...). This can be necessary to choose how to display the feedback
       * Source : string, defining the origin of the media used for the feedback (can be Custom, Giphy, Youtube,...)
       * Id : string, something that identifies uniquely the media to show. it can be a full Url or a unique id for the choosen source.
-  * comments: this optional feedback, if present, will be something that we'll show to the users between the presentation of the question and the choices   
+      * AdditionalLabels: Array of labels dictionary(string,string). this contains additional labels that will printed before the question as an optional prompt
+  * comments: this optional prompt, if present, will be something that we'll show to the users between the presentation of the question and the choices   
   
   
 ## Question
@@ -131,7 +138,8 @@ Action =
         "Label" : {"key":"value",...},
         "LinksTo":{ next action information },
         "Parameters": { additional information for the realization of the action}
-        "DisplayMode": "Default"
+        "DisplayMode": "Default",
+        "OptionalFeedback":{}
       }
      
 For each Property:
@@ -150,7 +158,15 @@ For each Property:
   * mandatory : false,
   * type : object. for simplicity, keep it in a dictionary form, with only one level of key/values.
   * comments: you should put here all the information needed for the execution of the action. For exemple if action is "SetUserProperty" you can add  `"Parameters" = {"Property":"propName", "value":"123"}`.
-  
+* OptionalFeedback:
+  * mandatory : false
+  * type : object =>
+      * Type : string, defining the type of the feedback to show user (Image, AnimatedGif, Video, ...). This can be necessary to choose how to display the feedback
+      * Source : string, defining the origin of the media used for the feedback (can be Custom, Giphy, Youtube,...)
+      * Id : string, something that identifies uniquely the media to show. it can be a full Url or a unique id for the choosen source.
+      * AdditionalLabels: Array of labels dictionary(string,string). this contains additional labels that will printed before the question as an optional prompt
+  * comments: this optional feedback, if present, will be presented to the user just after it's command choice and before continuing to the next step. You can put here a conclusion phrase for the sequence or something that could anounce some other...
+    
  
  
  
