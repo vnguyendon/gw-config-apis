@@ -9,7 +9,7 @@
         "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?"
       },
       {
-        "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?"
+        "es": "¿Has olvidado el cumpleaños de alguien?"
       }
     ],
     "Choices": [
@@ -43,7 +43,7 @@
               "fr": "Est-ce que tu voudrais lui envoyer un message?"
             },
             {
-              "es": "Le gustaría enviarle un mensaje?"
+              "es": "¿Te gustaría enviarle un mensaje?"
             }
           ],
           "Choices": [
