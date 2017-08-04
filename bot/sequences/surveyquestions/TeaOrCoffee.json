@@ -15,7 +15,7 @@
   "Commands":
       [
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferTea",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -31,7 +31,7 @@
         }
         ,
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferCoffee",
           "StepValue" : "1",
           "OptionalFeedback": {
