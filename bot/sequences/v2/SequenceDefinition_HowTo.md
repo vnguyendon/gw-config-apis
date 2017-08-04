@@ -179,3 +179,6 @@ some labels should be implicitely provided by the apps. If I'm in a _ShowCard_ a
 
 for the exact same case, if the _Label_ property is present, then the app is supposed to use this one even if it can guess the values from other sources.
 
+**Files**
+
+for simplicity, files must be named as the id of it's question : if a file contains a question with Id="hello", your file must be "hello.json"
