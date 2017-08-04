@@ -9,7 +9,7 @@
         "fr": "Es-tu souvent en retard?"
       },
       {
-        "es": "¿Está a menudo tarde?"
+        "es": "¿Llegas tarde con frecuencia?"
       }
     ],
     "Choices": [
@@ -43,7 +43,7 @@
               "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?"
             },
             {
-              "es": "¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"
+              "es": "¿Puedo sugerirte mensajes para enviar cuando llegues tarde?"
             }
           ],
           "Choices": [
