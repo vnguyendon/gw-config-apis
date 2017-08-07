@@ -15,7 +15,12 @@
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "26vUNhQzmhMtArwC4"
+        "Path": "26vUNhQzmhMtArwC4",
+          "AdditionalLabels": [{
+            "en":"«I will go anywhere as long as it is forward.»",
+            "fr":"«J'irai n'importe où tant que c'est en avant.»",
+            "es":"«Iré en cualquiera dirección si está adelante.»"
+            }]
       },
       "Label": {
         "en": "settled, decided",
@@ -34,7 +39,12 @@
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "lELRD773cY7Sg"
+        "Path": "lELRD773cY7Sg",
+          "AdditionalLabels": [{
+            "en":"Complex problems have simple, easy to understand, wrong answers.",
+            "fr":"Les problèmes complexes ont des réponses simples, faciles à comprendre et joliment erronées.",
+            "es":"Complejos problemas tienen soluciones simples, fáciles de entender y sobre todo: falsas."
+            }]
       },
       "Label": {
         "en": "adaptable, evolving",
