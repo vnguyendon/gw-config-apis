@@ -26,7 +26,7 @@
           "culture": "fr-FR","value": "Qu'est-ce qui est important pour toi ?\nLa liberté ? La lucidité ? Les légumes ?\nJ'aimerais te connaître un peu !"
         },
         {
-          "culture": "en-EN", "value": "What is  important for you?\nResilience? Responsibility? Raspberries?\nI would like to know you a bit!"
+          "culture": "en-EN", "value": "What's important for you?\nResilience? Responsibility? Raspberries?\nI would like to know you a bit!"
         },
         {
           "culture": "es-ES","value": "¿Lo que es importante para usted?\nResiliencia? Responsabilidad? Patatas?\n¡Me gustaría conocerte un poco!"
@@ -270,7 +270,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je me défoule"
+          "value": "Grrrr"
         },
         {
           "culture": "en-EN",
@@ -387,15 +387,15 @@
 
         {
           "culture": "fr-FR",
-          "value": "Aide-moi"
+          "value": "Encourage-moi"
         },
         {
           "culture": "en-EN",
-          "value": "Lift me up"
+          "value": "Encourage me"
         },
         {
           "culture": "es-ES",
-          "value": "Ayudame"
+          "value": "Anímame"
         }
       ]
     },
