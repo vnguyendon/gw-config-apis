@@ -3,7 +3,7 @@
     "Id": "DoYouWantAKittenGif",
     "Comments":"sending a kitten gif",
     "Label": {
-        "en": "Would you like me to show you a cute kitten?",
+        "en": "Would you like me to show you a kitten?",
         "fr": "Tu veux que je te montre un chaton trop mignon ?",
         "es": "¿Puedo mostrarte un gatito bonito?"
       },
@@ -28,7 +28,7 @@
           "Comments":"if yes, then we can show another one!",
           "Label": {
               "en": "It's super cute, isn't it?",
-              "fr": "Il est trop mignon, non ?",
+              "fr": "Il est vraiment chou, non ?",
               "es": "¿Es muy lindo, no?"
             },
           "Commands": [
@@ -56,7 +56,7 @@
                   "fr": "Non",
                   "es": "No"
                 },
-				"OptionalFeedback": {
+		"OptionalFeedback": {
                 "Type": "AnimatedGif",
                 "Source": "Giphy",
                 "Path": "71PLYtZUiPRg4"
