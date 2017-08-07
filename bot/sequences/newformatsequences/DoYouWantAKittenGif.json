@@ -1,0 +1,84 @@
+{
+    "Type":"Question",
+    "Id": "DoYouWantAKittenGif",
+    "Comments":"sending a kitten gif",
+    "Label": {
+        "en": "Would you like me to show you a cute kitten?",
+        "fr": "Tu veux que je te montre un chaton trop mignon ?",
+        "es": "¿Puedo mostrarte un gatito bonito?"
+      },
+    "Commands": [
+      {
+        "Type" : "ShowQuestion",
+        "Id" : "YesCuteKitten",
+        "StepValue" : "1",
+        "Label": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Sí"
+        },
+        "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "gyRWkLSQVqlPi"
+        },
+        "LinksTo" : {
+          "Type":"Question",
+          "Id": "DidYouLikeIt",
+          "Comments":"if yes, then we can show another one!",
+          "Label": {
+              "en": "It's super cute, isn't it?",
+              "fr": "Il est trop mignon, non ?",
+              "es": "¿Es muy lindo, no?"
+            },
+          "Commands": [
+            {
+              "Type":"DoNothing",
+              "Id": "ItsCuteYes",
+              "StepValue" : "1",
+              "Label": {
+                  "en": "Yes",
+                  "fr": "Oui",
+                  "es": "Sí"
+              },
+              "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "WYEWpk4lRPDq0"
+              }
+            },
+            {
+              "Type" : "DoNothing",
+              "Id": "ItsNotCute",
+              "StepValue" : "0",
+              "Label": {
+                  "en": "No",
+                  "fr": "Non",
+                  "es": "No"
+                },
+				"OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "71PLYtZUiPRg4"
+              }
+            }
+          ]
+        }
+      },
+      {
+        "Type":"DoNothing",
+        "Id": "DontWantCuteKitten",
+        "StepValue" : "0",
+        "Label": {
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          },
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "d78vbBA54uHFS"
+        }
+      }
+    ]
+  }
