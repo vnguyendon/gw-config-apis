@@ -18,7 +18,7 @@
     [
         {
           "Type": "SetUserProperty",
-          "Id" : "RightProfile",
+          "Id" : "ProfileLooksGood",
           "StepValue" : "1",
           "Label":{
             "en":"Yes",
@@ -26,19 +26,23 @@
             "es":"Si"
           },
           "Parameters" : {
-             "property" : "PsychologicalProfile",
-             "value" : "custom"
+             "property" : "ppPsychologicalProfileLooksGood",
+             "value" : "true"
       	  }
         },
         {
-          "Type": "DoNothing",
-          "Id" : "WrongProfile",
+          "Type": "SetUserProperty",
+          "Id" : "ProfileLooksBad",
           "StepValue" : "1",
           "Label":{
-              "en":"No",
-              "fr":"Non",
-              "es":"No"
-          }
+             "en":"No",
+             "fr":"Non",
+             "es":"No"
+          },
+          "Parameters" : {
+             "property" : "ppPsychologicalProfileLooksGood",
+             "value" : "false"
+      	  }
         }
     ]
 }
