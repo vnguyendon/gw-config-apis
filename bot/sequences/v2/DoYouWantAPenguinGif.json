@@ -16,7 +16,12 @@
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "11StaZ9Lj74oCY"
+        "Path": "11StaZ9Lj74oCY",
+          "AdditionalLabels": [{
+            "en":";)",
+            "fr":";)",
+            "es":";)"
+             }]
       },
       "Label":
         {
