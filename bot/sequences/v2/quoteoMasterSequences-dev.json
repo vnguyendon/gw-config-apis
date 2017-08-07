@@ -5,7 +5,8 @@
         { "order" : 10, "file": "ppDecisionsAriseFrom.json" },
         { "order" : 20, "file": "ppEnergeticAfter.json" },
         { "order" : 30, "file": "ppOpenedOrSettled.json" },
-        { "order" : 40, "file": "ppReceptiveTo.json" }
+        { "order" : 40, "file": "ppReceptiveTo.json" },
+        { "order" : 50, "file": "ppRevealed.json" }
       ]
   },
   {
