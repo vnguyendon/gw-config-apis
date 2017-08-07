@@ -49,9 +49,9 @@
             "Source": "Giphy",
             "Path": "gxxlowyvtfS0M",
           "AdditionalLabels": [{
-            "en":"I agree. Dogs are so cute :)",
-            "fr":"Je suis d'accord, ils sont trop mignons :)",
-            "es":"Estoy de acuerdo. Son tan bonitos :)"
+            "en":"I agree. Dogs are so cute =)",
+            "fr":"Je suis d'accord, ils sont trop mignons =)",
+            "es":"Estoy de acuerdo. Son tan bonitos =)"
              }]
       }
     },
