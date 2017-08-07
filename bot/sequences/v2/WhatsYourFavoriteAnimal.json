@@ -1,0 +1,69 @@
+{
+  "Type": "Question",
+  "Id": "WhichIsYourFavorite",
+  "Label": {
+    "en": "What is your favorite animal?",
+    "fr": "Quel est ton animal préféré ?",
+    "es": "¿Qué es tu animal preferido?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowImages",
+      "Id": "Kittens",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/kittens"
+      },
+      "Label": {
+        "en": "Cats",
+        "fr": "Chats",
+        "es": "Gatos"
+      },
+	  "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "10rW4Xw9eO0RmU"
+      }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Puppies",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/puppies"
+      },
+      "Label": {
+        "en": "Dogs",
+        "fr": "Chiens",
+        "es": "Perros"
+      },
+	  "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "gxxlowyvtfS0M"
+      }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Penguins",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/penguins"
+      },
+      "Label": {
+        "en": "Penguins",
+        "fr": "Pingouins",
+        "es": "Pingüinos"
+      },
+	  "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "gbjAtqpO716Hm"
+      }
+    }
+  ]
+}
+
