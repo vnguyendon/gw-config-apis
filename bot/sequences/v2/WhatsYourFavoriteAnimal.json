@@ -23,7 +23,12 @@
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "10rW4Xw9eO0RmU"
+            "Path": "10rW4Xw9eO0RmU",
+          "AdditionalLabels": [{
+            "en":"I like them too! <3",
+            "fr":"Moi aussi je les adore <3",
+            "es":"Me gustan también <3"
+             }]
       }
     },
     {
@@ -42,7 +47,12 @@
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "gxxlowyvtfS0M"
+            "Path": "gxxlowyvtfS0M",
+          "AdditionalLabels": [{
+            "en":"I agree. Dogs are so cute :)",
+            "fr":"Je suis d'accord, ils sont trop mignons :)",
+            "es":"Estoy de acuerdo. Son tan bonitos :)"
+             }]
       }
     },
     {
@@ -61,7 +71,12 @@
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "gbjAtqpO716Hm"
+            "Path": "gbjAtqpO716Hm",
+          "AdditionalLabels": [{
+            "en":"I understand, they are really funny :D",
+            "fr":"Je te comprends, ils sont vraiment drôles :D",
+            "es":"Te comprendo, son divertidos :D"
+             }]
       }
     }
   ]
