@@ -11,6 +11,10 @@
   {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
+        { "order" : 100, "file": "DoYouWantAKittenGif.json" },
+        { "order" : 100, "file": "WhatsYourFavoriteAnimal.json" },
+        { "order" : 100, "file": "DoYouWantAPenguinGif.json" },
+        { "order" : 100, "file": "YouPreferRomanticOrFunnyQuotes.json" },
         { "order" : 100, "file": "RealBot.json" },
         { "order" : 200, "file": "AreYouOftenLate.json" },
         { "order" : 200, "file": "WhatDoYouLikeSending.json" },
