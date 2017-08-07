@@ -17,7 +17,12 @@
           "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "pYCZPDymIVjeo"
+            "Path": "pYCZPDymIVjeo",
+          "AdditionalLabels": [{
+            "en":"It's easier to die for what we believe than to believe a little less.",
+            "fr":"Il est plus facile de mourir pour ce qu'on croit que d'y croire un peu moins.",
+            "es":"Es mas fácil morir por lo que uno cree que creer un poco menos."
+             }]
           },
           "Label":{
             "en":"values & feelings",
@@ -36,7 +41,12 @@
           "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "a5viI92PAF89q"
+            "Path": "a5viI92PAF89q",
+          "AdditionalLabels": [{
+            "en":"Everything that is simple is false, everything that is complicated is useless.",
+            "fr":"Ce qui est simple est faux. Ce qui est compliqué est inutile.",
+            "es":"Lo que es simple es falso. Lo que es complicado es inútil."
+            }]
           },
           "Label":{
               "en":"rational thinking",
