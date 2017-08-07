@@ -23,6 +23,20 @@
       "key": "Message02",
       "labels": [
         {
+          "culture": "fr-FR","value": "Qu'est-ce qui est important pour toi ?\nLa liberté ? La lucidité ? Les légumes ?\nJ'aimerais te connaître un peu !"
+        },
+        {
+          "culture": "en-EN", "value": "What is  important for you?\nResilience? Responsibility? Raspberries?\nI would like to know you a bit!"
+        },
+        {
+          "culture": "es-ES","value": "¿Lo que es importante para usted?\nResiliencia? Responsabilidad? Patatas?\n¡Me gustaría conocerte un poco!"
+        }
+      ]
+    },
+    {
+      "key": "Message02Old",
+      "labels": [
+        {
           "culture": "fr-FR","value": "Quel est le plus important ?\nLa liberté, la lucidité ou les légumes ?\nEvite les erreurs courantes !\nLes écrivains et les poètes disparus te guideront vers une vie meilleure !"
         },
         {
@@ -32,7 +46,7 @@
           "culture": "es-ES","value": "¿Cuál es el más importante?\nResiliencia, Responsabilidad o Patatas?\nEvite los errores comunes!\n¡Deja que los escritores y poetas desaparecidos te guíen hacia una buena vida!"
         }
       ]
-    }
+    }    
   ],
   "text": [
     {
