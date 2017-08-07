@@ -1,6 +1,6 @@
 {
   "Type": "Question",
-  "Id": "WhichIsYourFavorite",
+  "Id": "WhatsYourFavoriteAnimal",
   "Label": {
     "en": "What is your favorite animal?",
     "fr": "Quel est ton animal préféré ?",
