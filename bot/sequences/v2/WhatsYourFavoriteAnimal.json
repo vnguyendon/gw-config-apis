@@ -2,9 +2,9 @@
   "Type": "Question",
   "Id": "WhatsYourFavoriteAnimal",
   "Label": {
-    "en": "What is your favorite animal?",
-    "fr": "Quel est ton animal préféré ?",
-    "es": "¿Qué es tu animal preferido?"
+    "en": "What are your favorite animals?",
+    "fr": "Quel sont tes animaux préférés ?",
+    "es": "¿Qué son tus animales favoritos?"
   },
   "Commands": [
     {
@@ -49,9 +49,9 @@
             "Source": "Giphy",
             "Path": "gxxlowyvtfS0M",
           "AdditionalLabels": [{
-            "en":"I agree. Dogs are man's best friends, aren't they? =)",
-            "fr":"Je suis d'accord, après tout, le chien est le meilleur ami de l'homme ! =)",
-            "es":"Estoy de acuerdo. El perro es el mejor amigo del hombre, ¿no? =)"
+            "en":"I agree. Dogs are man's best friends! =)",
+            "fr":"Je suis d'accord, après tout, le chien est le meilleur ami de l'homme! =)",
+            "es":"Estoy de acuerdo. ¡El perro es el mejor amigo del hombre! =)"
              }]
       }
     },
@@ -73,9 +73,9 @@
             "Source": "Giphy",
             "Path": "gbjAtqpO716Hm",
           "AdditionalLabels": [{
-            "en":"I understand, they are really funny :D",
-            "fr":"Je te comprends, ils sont vraiment drôles :D",
-            "es":"Te comprendo, son divertidos :D"
+            "en":"They are sooooo funny :D",
+            "fr":"Ils sont troooooop drôles :D",
+            "es":"¡Son taaaan divertidos! :D"
              }]
       }
     }
