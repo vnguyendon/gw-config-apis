@@ -1,1 +1,17 @@
 
+{
+"apps": 
+  [
+    {
+      "title": "Try me, I'm a bot!",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
+      "storeUrl": "https://m.me/QuoteoBot"
+    }
+    ,
+    {
+      "title": "Popular Stickers",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Stickers/small/Stickers256x256.jpg",
+      "storeUrl": "https://itunes.apple.com/us/app/popular-stickers/id1111611495?mt=8"
+    }
+  ]
+}
