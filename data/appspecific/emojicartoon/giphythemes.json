@@ -188,5 +188,16 @@
     {"Es": "Vamos a tomar algo"}
     ]
   }
+  ,
+  { 
+  "Path" : "/common/giphycontent/I-am-the-best.json",
+  "DefaultImage" : "https://19818-presscdn-pagely.netdna-ssl.com/wp-content/uploads/8aa/97/9a695b45b1a692919805d0d4d15c7863.jpg",
+  "Labels":
+    [
+    {"en": "I am the best"},
+    {"fr": "Je suis le meilleur"},
+    {"Es": "TBD"}
+    ]
+  }
 ]
 }
