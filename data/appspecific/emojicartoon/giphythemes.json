@@ -191,11 +191,66 @@
   ,
   { 
   "Path" : "/common/giphycontent/I-am-the-best.json",
-  "DefaultImage" : "https://19818-presscdn-pagely.netdna-ssl.com/wp-content/uploads/8aa/97/9a695b45b1a692919805d0d4d15c7863.jpg",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "I am the best"},
-    {"fr": "Je suis le meilleur"},
+    {"en": "I am awesome"},
+    {"fr": "Je suis génial"},
+    {"Es": "TBD"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/bored.json",
+  "DefaultImage" : "",
+  "Labels":
+    [
+    {"en": "I am bored"},
+    {"fr": "Je m'ennuie"},
+    {"Es": "TBD"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/emojis.json",
+  "DefaultImage" : "/adverts/selection1?dl=0&preview=shutterstock_190844732_1.jpg",
+  "Labels":
+    [
+    {"en": "Emojis"},
+    {"fr": "Emojis"},
+    {"Es": "Emojis"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/hugs.json",
+  "DefaultImage" : "",
+  "Labels":
+    [
+    {"en": "Hugs"},
+    {"fr": "Calins"},
+    {"Es": "TBD"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/hungry.json",
+  "DefaultImage" : "",
+  "Labels":
+    [
+    {"en": "I am hungry"},
+    {"fr": "J'ai faim"},
+    {"Es": "TBD"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/sad.json",
+  "DefaultImage" : "",
+  "Labels":
+    [
+    {"en": "I am sad"},
+    {"fr": "Je suis triste"},
     {"Es": "TBD"}
     ]
   }
