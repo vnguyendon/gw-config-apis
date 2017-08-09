@@ -224,7 +224,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/hugs.json",
-  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "DefaultImage" : "",
   "Labels":
     [
     {"en": "Hugs"},
