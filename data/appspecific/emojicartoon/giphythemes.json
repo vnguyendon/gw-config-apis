@@ -191,7 +191,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/I-am-the-best.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-awesome.jpg?dl=0",
   "Labels":
     [
     {"en": "I am awesome"},
@@ -202,7 +202,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/bored.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-boring.jpg?dl=0",
   "Labels":
     [
     {"en": "I am bored"},
@@ -235,7 +235,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/hungry.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-hungry.jpg?dl=0",
   "Labels":
     [
     {"en": "I am hungry"},
@@ -246,7 +246,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/sad.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-sad.jpg?dl=0",
   "Labels":
     [
     {"en": "I am sad"},
