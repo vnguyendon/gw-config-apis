@@ -246,7 +246,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/sad.json",
-  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-sad.jpg?dl=0",
+  "DefaultImage" : "/themes/puppies/small?dl=0&preview=iStock_000013749648_Medium.jpg",
   "Labels":
     [
     {"en": "I am sad"},
