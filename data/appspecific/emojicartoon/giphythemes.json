@@ -196,7 +196,7 @@
     [
     {"en": "I am awesome"},
     {"fr": "Je suis génial"},
-    {"Es": "TBD"}
+    {"Es": "Soy increible"}
     ]
   }
     ,
@@ -207,7 +207,7 @@
     [
     {"en": "I am bored"},
     {"fr": "Je m'ennuie"},
-    {"Es": "TBD"}
+    {"Es": "Estoy aburrido"}
     ]
   }
     ,
@@ -229,7 +229,7 @@
     [
     {"en": "Hugs"},
     {"fr": "Calins"},
-    {"Es": "TBD"}
+    {"Es": "Abrazos"}
     ]
   }
     ,
@@ -240,7 +240,7 @@
     [
     {"en": "I am hungry"},
     {"fr": "J'ai faim"},
-    {"Es": "TBD"}
+    {"Es": "Tengo hambre"}
     ]
   }
     ,
@@ -251,7 +251,7 @@
     [
     {"en": "I am sad"},
     {"fr": "Je suis triste"},
-    {"Es": "TBD"}
+    {"Es": "Estoy triste"}
     ]
   }
 ]
