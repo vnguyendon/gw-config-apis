@@ -213,7 +213,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/emojis.json",
-  "DefaultImage" : "/adverts/selection1?dl=0&preview=shutterstock_190844732_1.jpg",
+  "DefaultImage" : "/adverts/selection1/shutterstock_190844732_1.jpg",
   "Labels":
     [
     {"en": "Emojis"},
@@ -224,7 +224,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/hugs.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
   "Labels":
     [
     {"en": "Hugs"},
