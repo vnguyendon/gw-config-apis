@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "YouPreferFishOrMeat",
+  "Label":
+    {
+      "en": "You prefer eating:",
+      "fr": "Tu préfères manger :",
+      "es": "Prefieres comer:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "PreferFish",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Izbm7WZ7YP7dS"
+          },
+          "Label":{
+            "en": "fish",
+            "fr": "du poisson",
+            "es": "pescado"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "PreferMeat",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12zfAjyQ3RZNSw"
+          },
+          "Label":{
+            "en": "meat",
+            "fr": "de la viande",
+            "es": "carne"
+          }
+        }
+      ]
+}
+

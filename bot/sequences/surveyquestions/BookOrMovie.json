@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "YouPreferBookOrMovie",
+  "Label":
+    {
+      "en": "To relax, you pick up:",
+      "fr": "Pour te détendre, tu choisis :",
+      "es": "Para relajarte, eliges:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "ChooseABook",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "JEhCPFfqi2Hy8"
+          },
+          "Label":{
+            "en": "a book",
+            "fr": "un livre",
+            "es": "un libro"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "ChooseAMovie",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "d3LEhxhBBF1c7ZwA"
+          },
+          "Label":{
+            "en": "a movie",
+            "fr": "un film",
+            "es": "una película"
+          }
+        }
+      ]
+}
+

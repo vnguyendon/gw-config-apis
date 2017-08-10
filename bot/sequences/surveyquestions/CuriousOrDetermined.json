@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WhatsMostImportantCuriousorDetermined",
+  "Label":
+    {
+      "en": "What's most important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "BeingCurious",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "iyZqIrbk4eGjK"
+          },
+          "Label":{
+            "en": "being curious",
+            "fr": "être curieux",
+            "es": "ser curioso"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "BeingDetermined",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "weKozimGUbPMI"
+          },
+          "Label":{
+            "en": "being determined",
+            "fr": "être déterminé",
+            "es": "ser decidido"
+          }
+        }
+      ]
+}
+

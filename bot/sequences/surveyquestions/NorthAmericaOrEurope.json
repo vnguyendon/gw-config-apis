@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WouldYouRatherLiveinNAmericaorEurope",
+  "Label":
+    {
+      "en": "Would you rather live in:",
+      "fr": "Tu préférerais vivre en :",
+      "es": "Preferías vivir en:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "LiveInNorthAmerica",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "oobNzX5ICcRZC"
+          },
+          "Label":{
+            "en": "North America",
+            "fr": "Amérique du Nord",
+            "es": "América del Norte"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "LiveInEurope",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "tIeCLkB8geYtW"
+          },
+          "Label":{
+            "en": "Europe",
+            "fr": "Europe",
+            "es": "Europa"
+          }
+        }
+      ]
+}
+

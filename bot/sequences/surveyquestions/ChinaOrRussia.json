@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "LiveInChinaOrRussia",
+  "Label":
+    {
+      "en": "Would you rather live in:",
+      "fr": "Tu préférerais vivre en :",
+      "es": "Preferías vivir en:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "LiveInChina",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26uTsjWlTRFxIJHm8"
+          },
+          "Label":{
+            "en": "China",
+            "fr": "Chine",
+            "es": "China"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "LiveInRussia",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "s96520HbKjBfy"
+          },
+          "Label":{
+            "en": "Russia",
+            "fr": "Russie",
+            "es": "Rusia"
+          }
+        }
+      ]
+}
+

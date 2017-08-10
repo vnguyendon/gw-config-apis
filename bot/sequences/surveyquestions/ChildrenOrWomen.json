@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "YouHelpWomenOrChildren",
+  "Label":
+    {
+      "en": "You can give money to a charity. You choose the one that helps:",
+      "fr": "Tu peux donner de l'argent à une association. Tu en choisis une qui aide :",
+      "es": "Puedes dar dinero a una asociación. Eliges la que ayuda a:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "HelpWomen",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oge7Ve0gmIOhJkhOg"
+          },
+          "Label":{
+            "en": "women",
+            "fr": "les femmes",
+            "es": "las mujeres"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "HelpChildren",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xUA7aZVRFHDD4u0wZq"
+          },
+          "Label":{
+            "en": "children",
+            "fr": "les enfants",
+            "es": "los niños"
+          }
+        }
+      ]
+}
+

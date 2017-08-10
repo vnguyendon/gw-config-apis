@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "LiveInChinaOrRussia",
+  "Label":
+    {
+      "en": "You prefer travelling by:",
+      "fr": "Tu préfère voyager en :",
+      "es": "Prefieres viajar por:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "TravelByPlane",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Btn42lfKKrOzS"
+          },
+          "Label":{
+            "en": "plane",
+            "fr": "avion",
+            "es": "avión"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "TravelByTrain",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "NwygOzUd2rXAQ"
+          },
+          "Label":{
+            "en": "train",
+            "fr": "train",
+            "es": "tren"
+          }
+        }
+      ]
+}
+
