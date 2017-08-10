@@ -1,0 +1,102 @@
+
+{
+  "Type": "Question",
+  "Id": "WhatsYourFavoriteAnimal",
+  "Label": {
+    "en": "What are your favorite animals?",
+    "fr": "Quel sont tes animaux préférés ?",
+    "es": "¿Qué son tus animales favoritos?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowImages",
+      "Id": "Kittens",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/kittens"
+      },
+      "Label": {
+        "en": "Cats",
+        "fr": "Chats",
+        "es": "Gatos"
+      },
+      "ChoiceImage": {
+        "Source": "Internal",
+        "Path": "/themes/kittens/small/shutterstock_58120231.jpg"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "10rW4Xw9eO0RmU",
+        "AdditionalLabels": [
+          {
+            "en": "I like them too! <3",
+            "fr": "Moi aussi je les adore <3",
+            "es": "Me gustan también <3"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Puppies",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/puppies"
+      },
+      "Label": {
+        "en": "Dogs",
+        "fr": "Chiens",
+        "es": "Perros"
+      },
+      "ChoiceImage": {
+        "Source": "Internal",
+        "Path": "/themes/puppies/small/iStock_000016265624_Medium.jpg"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "gxxlowyvtfS0M",
+        "AdditionalLabels": [
+          {
+            "en": "I agree. Dogs are man's best friends! =)",
+            "fr": "Je suis d'accord, après tout, le chien est le meilleur ami de l'homme! =)",
+            "es": "Estoy de acuerdo. ¡El perro es el mejor amigo del hombre! =)"
+          }
+        ]
+      }
+    },
+    {
+      "Type": "ShowImages",
+      "Id": "Penguins",
+      "StepValue": "1",
+      "LinksTo": {
+        "Type": "Theme",
+        "Id": "themes/penguins"
+      },
+      "Label": {
+        "en": "Penguins",
+        "fr": "Pingouins",
+        "es": "Pingüinos"
+      },
+      "ChoiceImage": {
+        "Source": "Internal",
+        "Path": "/themes/animals/small/iStock_000023358024_Medium.jpg"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "gbjAtqpO716Hm",
+        "AdditionalLabels": [
+          {
+            "en": "They are sooooo funny :D",
+            "fr": "Ils sont troooooop drôles :D",
+            "es": "¡Son taaaan divertidos! :D"
+          }
+        ]
+      }
+    }
+  ]
+}
