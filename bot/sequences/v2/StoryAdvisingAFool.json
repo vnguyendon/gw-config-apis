@@ -1,0 +1,48 @@
+{
+  "Type": "Question",
+  "Id": "StoryAdvisingAFool",
+  "OptionalFeedback": {
+      "Type": "AnimatedGif",
+      "Source": "Giphy",
+      "Path": "1unWthRtNnzkA"
+    },
+  "Label":
+    {
+      "en": "Do you want to read a story ? It's about advising a fool ;-) ",
+      "fr": "Est-ce que tu veux lire une histoire ? Cela parle de conseiller un idiot ;-)" 
+    }
+  ,
+  "Commands":
+      [
+        {
+          "Type": "ShowStory",
+          "Id": "ShowStoryAdvisingAFoolYes",
+          "StepValue" : "1",
+          "Label":{
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+          },
+          "Parameters":{
+            "Source":"Github",
+            "Path":"/bot/stories/advisingafool.json"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "ShowStoryAdvisingAFoolNo",
+          "StepValue" : "0",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oz8xOnvv0wBikdNuw"
+          },
+          "Label":{
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          }
+        }
+      ]
+}
