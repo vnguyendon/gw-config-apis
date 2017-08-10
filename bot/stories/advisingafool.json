@@ -1,0 +1,115 @@
+{
+  "Type":"Story",
+  "Id":"AdvisingAFool",
+  "Label":{
+    "en":"Advising A Fool",
+    "fr":"Conseiller un Idiot"
+  },
+  "Comment":"taken from http://www.english-for-students.com/Advising-A-Fool.html",
+  "ContinueQuestion":{
+    "en":"Would you like to continue?"
+  },
+  "Commands": [
+      {
+        "Type": "ContinueSerie",
+        "Id": "ContinueYes",
+        "Label":
+          {
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+          }
+      },
+      {
+        "Type": "ContinueSerie",
+        "Id": "ContinueNo",
+        "Label":
+          {
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          }
+      }
+  ],
+  "Steps":[
+    {
+      "OrderId":"10",
+      "Type":"Text",
+      "Label":{
+        "en":"On a mango tree in a jungle, there lived many birds. They were happy in their small nests. Before the onset of the rainy season, all the animal of the jungle repaired their homes. The birds also made their homes more secure. "
+      },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"20",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oz8xzmy5jM39tV4OI"
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"30",
+      "Type":"Text",
+      "Label":{
+        "en":"Many birds brought twigs and leaves and others wove their nests. \"We should also store some food for our children,\" chirped one of the birds. And they collected food, until they had enough to see them through the rainy season. They kept themselves busy preparing for the tough times. "
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"40",
+      "Type":"Text",
+      "Label":{
+        "en":"Soon the rains came. It was followed by thunder and lighting. All the animals and birds stayed in their homes. \n\nIt continued raining for many days. One day, a monkey wet in the rain came into the forest. He sat on a branch, shivering with cold, water dripping from its body. \n\nThe poor monkey tried his best to get shelter, but in vain. The leaves were not enough to save him from the rains. \"Brrr! It is so cold!\" said the monkey. "
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"50",
+      "Type":"Text",
+      "Label":{
+        "en":"The birds were watching all this. They felt sorry for the monkey but there was little they could do for him. One of them said, \"Brother! Our small nests are not enough to give you shelter.\"\n\nAnother bird said, \"All of us prepared for the rainy season. If you had, you would not be in this piteous situation.\"\n\n\"How dare you tell me what to do?\" said the monkey, growling at the bird. The monkey angrily pounced on the bird’s nest, tore it and threw it on the ground. The bird and her chicks were helpless. "
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"60",
+      "Type":"Text",
+      "Label":{
+        "en":"The birds were watching all this. They felt sorry for the monkey but there was little they could do for him. One of them said, \"Brother! Our small nests are not enough to give you shelter.\"\n\nAnother bird said, \"All of us prepared for the rainy season. If you had, you would not be in this piteous situation.\"\n\n\"How dare you tell me what to do?\" said the monkey, growling at the bird. The monkey angrily pounced on the bird’s nest, tore it and threw it on the ground. The bird and her chicks were helpless. "
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"70",
+      "Type":"Text",
+      "Label":{
+        "en":"The poor bird thought, \"Fools never value good advice. It is better not to advise them.\""
+      },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"80",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "7822JqMeXkoGA"
+      },
+      "Wait":"No"
+    }
+  ],
+  "LinksTo" : {
+        "Type": "SetUserProperty",
+        "Id" : "StoryAdvisingAFoolDone",
+        "Label": {
+          "en":"thanks for reading my story!"
+        },
+         "Parameters" : {
+            "property" : "HuggyStoryAdvisingAFoolDone",
+            "value" : "true"
+         }
+    }
+}
