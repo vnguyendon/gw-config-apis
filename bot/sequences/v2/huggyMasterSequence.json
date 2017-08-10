@@ -1,0 +1,32 @@
+
+[
+  {
+    "GroupName":"UserProperties",
+    "SequenceFiles" : [
+    "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
+    "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
+    "/bot/sequences/personalityquestions/ppReceptiveTo.json",
+    "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
+    "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
+    "/bot/sequences/personalityquestions/ppRevealed.json"
+      ]
+  },
+  {
+    "GroupName":"NotCategorized",
+    "SequenceFiles" : [
+      "/bot/sequences/newformatsequences/FirstTimeBot.json",
+      "/bot/sequences/newformatsequences/WhatLikeSending.json",
+      "/bot/sequences/newformatsequences/ShowAnAdvert.json",
+      "/bot/sequences/newformatsequences/WantMessageSuggestions.json",
+      "/bot/sequences/newformatsequences/CreateAnimatedEmoji.json",
+      "/bot/sequences/newformatsequences/HaveYouRegrets.json",
+      "/bot/sequences/newformatsequences/IsOftenLate.json",
+      "/bot/sequences/newformatsequences/LateBirthday.json",
+      "/bot/sequences/newformatsequences/RealBot.json",
+      "/bot/sequences/newformatsequences/AreYouSingle.json",
+      "/bot/sequences/newformatsequences/Age.json",
+      "/bot/sequences/newformatsequences/RateUs.json",
+      "/bot/sequences/newformatsequences/PleaseTalkToMe.json"
+      ]
+  }
+]
