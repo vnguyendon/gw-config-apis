@@ -20,5 +20,6 @@
       "/bot/sequences/surveyquestions/CuriousOrDetermined.json",
       "/bot/sequences/surveyquestions/FishOrMeat.json",
       "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json",
-      "/bot/sequences/surveyquestions/PlaneOrTrain.json"
+      "/bot/sequences/surveyquestions/PlaneOrTrain.json",
+      "/bot/sequences/surveyquestions/ChildrenOrWomen.json"
 ] 
