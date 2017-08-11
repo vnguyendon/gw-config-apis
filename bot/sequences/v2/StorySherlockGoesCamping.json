@@ -1,0 +1,49 @@
+{
+  "Type": "Question",
+  "Id": "StorySherlockGoesCamping",
+  "OptionalFeedback": {
+      "Type": "AnimatedGif",
+      "Source": "Giphy",
+      "Path": "l3q2LH45XElELRzRm"
+    },
+  "Label":
+    {
+      "en": "Do you want to read a story? It's a funny one about camping! ",
+      "fr": "Est-ce que tu veux lire une histoire ? Elle parle d'une nuit de camping, c'est super drôle !",
+	  "es": "TBD"
+    }
+  ,
+  "Commands":
+      [
+        {
+          "Type": "ShowStory",
+          "Id": "ShowStorySherlockGoesCampingYes",
+          "StepValue" : "1",
+          "Label":{
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+          },
+          "Parameters":{
+            "Source":"Github",
+            "Path":"/bot/stories/sherlockgoescamping.json"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "ShowStorySherlockGoesCampingNo",
+          "StepValue" : "0",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "f6EcgsxGbPGhy"
+          },
+          "Label":{
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          }
+        }
+      ]
+}
