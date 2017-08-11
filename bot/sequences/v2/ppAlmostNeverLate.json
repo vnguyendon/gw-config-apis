@@ -1,0 +1,43 @@
+
+{
+  "Type": "Question",
+  "Id": "ppAlmostNeverLate",
+  "Label": {
+    "en": "You are almost never late for appointments",
+    "fr": "Vous n'êtes presque jamais en retard aux rendez-vous",
+    "es": "Casi nunca llega tarde a sus citas"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "NeverLate",
+      "StepValue": "1",
+      "Label": {
+        "en": "Never!",
+        "fr": "Jamais!",
+        "es": "Nunca!"
+      },
+      "Parameters": {
+        "Property": "ppAlmostNeverLate",
+        "Value": "NeverLate"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "WithEffort",
+      "StepValue": "1",
+      "Label": {
+        "en": "Sometimes..",
+        "fr": "Quelques fois..",
+        "es": "A veces.."
+      },
+      "Parameters": {
+        "Property": "ppAlmostNeverLate",
+        "Value": "Late"
+      }
+    }
+  ]
+}
+
+
