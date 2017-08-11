@@ -1,0 +1,42 @@
+
+{
+  "Type": "Question",
+  "Id": "ppPreferGoals",
+  "Label": {
+    "en": "You prefer goals that are",
+    "fr": "Vous préférez les objectifs",
+    "es": "Prefiere objetivos que sean"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "Flexible",
+      "StepValue": "1",
+      "Label": {
+        "en": "flexible, evolving",
+        "fr": "flexibles, évolutifs",
+        "es": "flexibles"
+      },
+      "Parameters": {
+        "Property": "ppPreferGoals",
+        "Value": "Flexible"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "Structured",
+      "StepValue": "1",
+      "Label": {
+        "en": "structured, well defined",
+        "fr": "structurés, bien définis",
+        "es": "bien organizados"
+      },
+      "Parameters": {
+        "Property": "ppPreferGoals",
+        "Value": "Structured"
+      }
+    }
+  ]
+}
+
