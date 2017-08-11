@@ -1,0 +1,42 @@
+
+{
+  "Type": "Question",
+  "Id": "ppPreferBooksToParties",
+  "Label": {
+    "en": "You often prefer books to parties",
+    "fr": "Vous préférez souvent les livres aux fêtes",
+    "es": "A menudo prefiere los libros a las fiestas"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "Books",
+      "StepValue": "1",
+      "Label": {
+        "en": "True",
+        "fr": "Vrai",
+        "es": "Verdadero"
+      },
+      "Parameters": {
+        "Property": "ppPreferBooksToParties",
+        "Value": "Books"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "Parties",
+      "StepValue": "1",
+      "Label": {
+        "en": "False",
+        "fr": "Faux",
+        "es": "Falso"
+      },
+      "Parameters": {
+        "Property": "ppPreferBooksToParties",
+        "Value": "Parties"
+      }
+    }
+  ]
+}
+
