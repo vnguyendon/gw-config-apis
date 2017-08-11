@@ -1,1 +1,44 @@
 
+
+{
+  "Type": "Question",
+  "Id": "ppSocialInteraction",
+  "Label": {
+    "en": "Social interaction comes to you",
+    "fr": "Les contacts sociaux vous viennent",
+    "es": "La interacción social ocurre"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "Naturally",
+      "StepValue": "1",
+      "Label": {
+        "en": "naturally",
+        "fr": "naturellement",
+        "es": "naturalmente"
+      },
+      "Parameters": {
+        "Property": "ppSocialInteraction",
+        "Value": "Naturally"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "WithEffort",
+      "StepValue": "1",
+      "Label": {
+        "en": "with effort",
+        "fr": "avec effort",
+        "es": "cuándo me esfuerzo"
+      },
+      "Parameters": {
+        "Property": "ppSocialInteraction",
+        "Value": "WithEffort"
+      }
+    }
+  ]
+}
+
+
