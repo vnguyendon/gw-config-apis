@@ -14,5 +14,12 @@
       "/bot/sequences/surveyquestions/NowifiOrReceivingemails.json",
       "/bot/sequences/surveyquestions/SolveHungerOrPollution.json",
       "/bot/sequences/surveyquestions/WizardOrNinja.json",   
-      "/bot/sequences/surveyquestions/TeleportOrTimetravel.json"
+      "/bot/sequences/surveyquestions/TeleportOrTimetravel.json",
+      "/bot/sequences/surveyquestions/BookOrMovie.json",
+      "/bot/sequences/surveyquestions/ChinaOrRussia.json",
+      "/bot/sequences/surveyquestions/CuriousOrDetermined.json",
+      "/bot/sequences/surveyquestions/FishOrMeat.json",
+      "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json",
+      "/bot/sequences/surveyquestions/PlaneOrTrain.json"
+      "
 ] 
