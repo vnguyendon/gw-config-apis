@@ -1,0 +1,41 @@
+
+{
+  "Type": "Question",
+  "Id": "ppJusticeOverPity",
+  "Label": {
+    "en": "You primarily value",
+    "fr": "Vous donnez plus d'importance à",
+    "es": "Valora principalmente"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "Justice",
+      "StepValue": "1",
+      "Label": {
+        "en": "justice",
+        "fr": "la justice",
+        "es": "la justicia"
+      },
+      "Parameters": {
+        "Property": "ppJusticeOverPity",
+        "Value": "Justice"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "Pity",
+      "StepValue": "1",
+      "Label": {
+        "en": "mercy",
+        "fr": "la pitié",
+        "es": "la compasión"
+      },
+      "Parameters": {
+        "Property": "ppJusticeOverPity",
+        "Value": "Pity"
+      }
+    }
+  ]
+}
