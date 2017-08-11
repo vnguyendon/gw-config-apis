@@ -1,0 +1,43 @@
+
+{
+  "Type": "Question",
+  "Id": "ppImportantQuality",
+  "Label": {
+    "en": "The most important quality of friends",
+    "fr": "La qualité la plus importante d'un ami",
+    "es": "La cualidad más importante de un amigo"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "Curious",
+      "StepValue": "1",
+      "Label": {
+        "en": "being curious",
+        "fr": "être curieux",
+        "es": "curiosidad"
+      },
+      "Parameters": {
+        "Property": "ppImportantQuality",
+        "Value": "Curious"
+      }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "Positive",
+      "StepValue": "1",
+      "Label": {
+        "en": "being positive",
+        "fr": "être positif",
+        "es": "optimismo"
+      },
+      "Parameters": {
+        "Property": "ppImportantQuality",
+        "Value": "Positive"
+      }
+    }
+  ]
+}
+
+
