@@ -9,7 +9,8 @@
   "Label":
     {
       "en": "Do you want to read a story? It's a funny one about camping! ",
-      "fr": "Est-ce que tu veux lire une histoire ? Elle parle d'une nuit de camping, c'est super drôle !"
+      "fr": "Est-ce que tu veux lire une histoire ? Elle parle d'une nuit de camping, c'est super drôle !",
+      "es":"¿Te gustaría leer una historia? Habla de una noche de acampada y ¡es muy divertida!"
     }
   ,
   "Commands":
