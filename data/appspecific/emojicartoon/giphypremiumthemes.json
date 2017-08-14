@@ -1,1 +1,261 @@
 
+
+{
+"Themes":
+[
+  { 
+  "Path" : "/common/giphycontent/best.json",
+  "DefaultImage" : "/specialoccasions/you-are-the-best/default/small/shutterstock_40892386.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "You are the best"},
+    {"fr": "Tu es le/la meilleur(e)"},
+    {"Es": "Eres lo/el mejor"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/birthday.json",
+  "DefaultImage" : "/specialoccasions/happy-birthday/default/small/shutterstock_165351512.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Happy Birthday"},
+    {"fr": "Joyeux anniversaire"},
+    {"Es": "Feliz cumpleaños"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/flowers.json",
+  "DefaultImage" : "/themes/flowers/small/shutterstock_96822796.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Flowers"},
+    {"fr": "Fleurs"},
+    {"Es": "Flores"}
+    ]
+  }
+  ,
+  {
+  "Path" : "/common/giphycontent/jokes.json",
+  "DefaultImage" : "/themes/funny/small/310928_10150295389296564_166896605_n.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Funny"},
+    {"fr": "Drole"},
+    {"Es": "Comico"}
+    ]
+  }
+  ,
+  { 
+  "Path": "/common/giphycontent/howareyou.json",
+  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "How are you?"},
+    {"fr": "Comment vas-tu?"},
+    {"Es": "Cómo estás"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/late.json",
+  "DefaultImage" : "/specialoccasions/I-am-late/default/small/iStock_000013939977_Large.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am late"},
+    {"fr": "Je suis en retard"},
+    {"Es": "Voy tarde"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/like.json",
+  "DefaultImage" : "/specialoccasions/I-like-you/default/small/shutterstock_142384063.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I like you"},
+    {"fr": "Tu me plais"},
+    {"Es": "Me gustas"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/love.json",
+  "DefaultImage" : "/specialoccasions/I-love-you/default/small/10494717_552129618231646_2872607819690674144_n.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I love you"},
+    {"fr": "Je t'aime"},
+    {"Es": "Te amo"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/miss.json",
+  "DefaultImage" : "/specialoccasions/I-miss-you/default/small/shutterstock_93294814.jpg?dl=0",
+  "Labels": 
+    [
+    {"en": "I miss you"},
+    {"fr": "Tu me manques"},
+    {"Es": "Te echo de menos"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/morning.json",
+  "DefaultImage" : "/specialoccasions/good-morning/default/small/sunrise-000018701876_Medium.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Good morning"},
+    {"fr": "Bonjour"},
+    {"Es": "Buenos Dias"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/nature.json",
+  "DefaultImage" : "/themes/nature/small/74775_306806669430610_1152613767_n.jpg",
+  "Labels":
+    [
+    {"en": "Nature"},
+    {"fr": "Nature"},
+    {"Es": "Natura"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/night.json",
+  "DefaultImage" : "/specialoccasions/good-night/default/small/292213_416678345024066_1669780068_n.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Good night"},
+    {"fr": "Bonne nuit"},
+    {"Es": "Beunas noches"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/nothankyou.json",
+  "DefaultImage" : "/specialoccasions/no-thank-you/default/small/iStock_000056974768_Medium.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "No, thank you"},
+    {"fr": "Non, merci"},
+    {"Es": "No, gracias"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/sorry.json",
+  "DefaultImage" : "/specialoccasions/sorry/default/small/423611_404972892891532_98905350_n.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am sorry"},
+    {"fr": "Je suis désolé"},
+    {"Es": "Lo siento"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/thankyou.json",
+  "DefaultImage" : "/specialoccasions/thank-you/default/small/000075070105.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Thank you"},
+    {"fr": "Merci"},
+    {"Es": "Gracias"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/think.json",
+  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/wantdrink.json",
+  "DefaultImage" : "/specialoccasions/would-you-care-for-a-drink/default/small/iStock_000067829773_Medium.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Let's have a drink"},
+    {"fr": "Prenons un verre"},
+    {"Es": "Vamos a tomar algo"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/I-am-the-best.json",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-awesome.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am awesome"},
+    {"fr": "Je suis génial"},
+    {"Es": "Soy increible"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/bored.json",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-boring.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am bored"},
+    {"fr": "Je m'ennuie"},
+    {"Es": "Estoy aburrido"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/emojis.json",
+  "DefaultImage" : "/adverts/selection1/shutterstock_190844732_1.jpg",
+  "Labels":
+    [
+    {"en": "Emojis"},
+    {"fr": "Emojis"},
+    {"Es": "Emojis"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/hugs.json",
+  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Labels":
+    [
+    {"en": "Hugs"},
+    {"fr": "Calins"},
+    {"Es": "Abrazos"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/hungry.json",
+  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-hungry.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am hungry"},
+    {"fr": "J'ai faim"},
+    {"Es": "Tengo hambre"}
+    ]
+  }
+    ,
+  { 
+  "Path" : "/common/giphycontent/sad.json",
+  "DefaultImage" : "/themes/puppies/small/iStock_000013749648_Medium.jpg",
+  "Labels":
+    [
+    {"en": "I am sad"},
+    {"fr": "Je suis triste"},
+    {"Es": "Estoy triste"}
+    ]
+  }
+]
+}
+
+
