@@ -1,7 +1,7 @@
 
 {
   "Type": "Question",
-  "Id": "PreferTravellingByTrainOrPlane",
+  "Id": "PlaneOrTrain",
   "Label":
     {
       "en": "You prefer travelling by:",
