@@ -13,7 +13,7 @@
   "Commands":
       [
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferFish",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -29,7 +29,7 @@
         }
         ,
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "PreferMeat",
           "StepValue" : "1",
           "OptionalFeedback": {
