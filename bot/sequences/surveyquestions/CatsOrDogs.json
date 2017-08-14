@@ -26,7 +26,11 @@
             "en": "A cat person",
             "fr": "les chats",
             "es": "los gatos"
-          }
+          },
+          "Parameters" : {
+            "property" : "CatsOrDogsDone",
+            "value" : "true"
+         }
         }
         ,
         {
@@ -42,7 +46,11 @@
             "en": "A dog person",
             "fr": "les chiens",
             "es": "los perros"
-          }
+          },
+          "Parameters" : {
+            "property" : "CatsOrDogsDone",
+            "value" : "true"
+         }
         }
       ]
 }
