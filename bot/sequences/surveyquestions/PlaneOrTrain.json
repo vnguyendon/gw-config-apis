@@ -13,7 +13,7 @@
   "Commands":
       [
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "TravelByPlane",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -29,7 +29,7 @@
         }
         ,
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "TravelByTrain",
           "StepValue" : "1",
           "OptionalFeedback": {
