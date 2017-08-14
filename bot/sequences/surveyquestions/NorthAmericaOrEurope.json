@@ -13,7 +13,7 @@
   "Commands":
       [
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "LiveInNorthAmerica",
           "StepValue" : "1",
           "OptionalFeedback": {
@@ -29,7 +29,7 @@
         }
         ,
         {
-          "Type": "DoNothing",
+          "Type": "Survey",
           "Id": "LiveInEurope",
           "StepValue" : "1",
           "OptionalFeedback": {
