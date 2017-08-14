@@ -3,30 +3,36 @@
   {
     "GroupName":"UserProperties",
     "SequenceFiles" : [
-    "/bot/sequences/personalityquestions/WouldLikePsychoProfile.json",
-    "/bot/sequences/personalityquestions/ppEnergeticAfter.json",
-    "/bot/sequences/personalityquestions/ppReceptiveTo.json",
-    "/bot/sequences/personalityquestions/ppDecisionsAriseFrom.json",
-    "/bot/sequences/personalityquestions/ppOpenedOrSettled.json",
-    "/bot/sequences/personalityquestions/ppRevealed.json"
+    "/bot/sequences/v2/WouldLikePsychoProfile.json",
+    "/bot/sequences/v2/ppEnergeticAfter.json",
+    "/bot/sequences/v2/ppReceptiveTo.json",
+    "/bot/sequences/v2/ppDecisionsAriseFrom.json",
+    "/bot/sequences/v2/ppOpenedOrSettled.json",
+    "/bot/sequences/v2/ppRevealed.json"
       ]
   },
   {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
-      "/bot/sequences/newformatsequences/FirstTimeBot.json",
-      "/bot/sequences/newformatsequences/WhatLikeSending.json",
-      "/bot/sequences/newformatsequences/ShowAnAdvert.json",
-      "/bot/sequences/newformatsequences/WantMessageSuggestions.json",
-      "/bot/sequences/newformatsequences/CreateAnimatedEmoji.json",
-      "/bot/sequences/newformatsequences/HaveYouRegrets.json",
-      "/bot/sequences/newformatsequences/IsOftenLate.json",
-      "/bot/sequences/newformatsequences/LateBirthday.json",
-      "/bot/sequences/newformatsequences/RealBot.json",
-      "/bot/sequences/newformatsequences/AreYouSingle.json",
-      "/bot/sequences/newformatsequences/Age.json",
-      "/bot/sequences/newformatsequences/RateUs.json",
-      "/bot/sequences/newformatsequences/PleaseTalkToMe.json"
+      "/bot/sequences/v2/FirstTimeBot.json",
+      "/bot/sequences/v2/WhatLikeSending.json",
+      "/bot/sequences/v2/ShowAnAdvert.json",
+      "/bot/sequences/v2/WantMessageSuggestions.json",
+      "/bot/sequences/v2/CreateAnimatedEmoji.json",
+      "/bot/sequences/v2/HaveYouRegrets.json",
+      "/bot/sequences/v2/IsOftenLate.json",
+      "/bot/sequences/v2/LateBirthday.json",
+      "/bot/sequences/v2/RealBot.json",
+      "/bot/sequences/v2/AreYouSingle.json",
+      "/bot/sequences/v2/Age.json",
+      "/bot/sequences/v2/RateUs.json",
+      "/bot/sequences/v2/PleaseTalkToMe.json",
+      "/bot/sequences/v2/ppAlmostNeverLate.json",
+      "/bot/sequences/v2/ppImportantQuality.json",
+      "/bot/sequences/v2/ppJusticeOverPity.json",
+      "/bot/sequences/v2/ppPreferBooksToParties.json",
+      "/bot/sequences/v2/ppPreferGoals.json",
+      "/bot/sequences/v2/ppSocialInteraction.json"
       ]
   }
 ]
