@@ -4,79 +4,79 @@
 "Themes":
 [
   { 
-  "Path" : "/common/giphycontent/best.json",
+  "Path" : "/common/giphycontent/premiumkitties.json",
   "DefaultImage" : "/specialoccasions/you-are-the-best/default/small/shutterstock_40892386.jpg?dl=0",
   "Labels":
     [
-    {"en": "You are the best"},
-    {"fr": "Tu es le/la meilleur(e)"},
-    {"Es": "Eres lo/el mejor"}
+    {"en": "Kitties"},
+    {"fr": "Chatons"},
+    {"Es": "Gatitos"}
     ]
   }
   ,
   { 
-  "Path" : "/common/giphycontent/birthday.json",
-  "DefaultImage" : "/specialoccasions/happy-birthday/default/small/shutterstock_165351512.jpg?dl=0",
+  "Path" : "/common/giphycontent/premiumpuppies.json",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "Happy Birthday"},
-    {"fr": "Joyeux anniversaire"},
-    {"Es": "Feliz cumpleaños"}
+    {"en": "Puppies"},
+    {"fr": "Chiots"},
+    {"Es": "Perritos"}
     ]
   }
   ,
   { 
-  "Path" : "/common/giphycontent/flowers.json",
-  "DefaultImage" : "/themes/flowers/small/shutterstock_96822796.jpg?dl=0",
+  "Path" : "/common/giphycontent/premiumpandas.json",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "Flowers"},
-    {"fr": "Fleurs"},
-    {"Es": "Flores"}
+    {"en": "Pandas"},
+    {"fr": "Pandas"},
+    {"Es": "Pandas"}
     ]
   }
   ,
   {
-  "Path" : "/common/giphycontent/jokes.json",
-  "DefaultImage" : "/themes/funny/small/310928_10150295389296564_166896605_n.jpg?dl=0",
+  "Path" : "/common/giphycontent/premiumdisney1.json",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "Funny"},
-    {"fr": "Drole"},
-    {"Es": "Comico"}
+    {"en": "Disney I"},
+    {"fr": "Disney I"},
+    {"Es": "Disney I"}
     ]
   }
   ,
   { 
-  "Path": "/common/giphycontent/howareyou.json",
-  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
+  "Path": "/common/giphycontent/premiumdisney2.json",
+  "DefaultImage": "",
   "Labels":
     [
-    {"en": "How are you?"},
-    {"fr": "Comment vas-tu?"},
-    {"Es": "Cómo estás"}
+    {"en": "Disney II"},
+    {"fr": "Disney II"},
+    {"Es": "Disney II"}
     ]
   }
   ,
   { 
-  "Path" : "/common/giphycontent/late.json",
-  "DefaultImage" : "/specialoccasions/I-am-late/default/small/iStock_000013939977_Large.jpg?dl=0",
+  "Path" : "",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "I am late"},
-    {"fr": "Je suis en retard"},
-    {"Es": "Voy tarde"}
+    {"en": "Disney III"},
+    {"fr": "Disney III"},
+    {"Es": "Disney III"}
     ]
   }
   ,
   { 
-  "Path" : "/common/giphycontent/like.json",
-  "DefaultImage" : "/specialoccasions/I-like-you/default/small/shutterstock_142384063.jpg?dl=0",
+  "Path" : "/common/giphycontent/premiumchristmas.json",
+  "DefaultImage" : "",
   "Labels":
     [
-    {"en": "I like you"},
-    {"fr": "Tu me plais"},
-    {"Es": "Me gustas"}
+    {"en": "Merry Christmas"},
+    {"fr": "Joyeux Noël"},
+    {"Es": "Feliz Navidad"}
     ]
   }
   ,
