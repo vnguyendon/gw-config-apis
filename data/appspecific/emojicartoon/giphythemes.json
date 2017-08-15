@@ -14,17 +14,6 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/morning.json",
-  "DefaultImage" : "/specialoccasions/good-morning/default/small/sunrise-000018701876_Medium.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "Good morning"},
-    {"fr": "Bonjour"},
-    {"Es": "Buenos Dias"}
-    ]
-  }
-  ,
-  { 
   "Path" : "/common/giphycontent/like.json",
   "DefaultImage" : "/specialoccasions/I-like-you/default/small/shutterstock_142384063.jpg?dl=0",
   "Labels":
@@ -47,6 +36,17 @@
   }
   ,
   { 
+  "Path" : "/common/giphycontent/morning.json",
+  "DefaultImage" : "/specialoccasions/good-morning/default/small/sunrise-000018701876_Medium.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "Good morning"},
+    {"fr": "Bonjour"},
+    {"Es": "Buenos Dias"}
+    ]
+  }
+  ,
+  { 
   "Path" : "/common/giphycontent/night.json",
   "DefaultImage" : "/specialoccasions/good-night/default/small/292213_416678345024066_1669780068_n.jpg?dl=0",
   "Labels":
@@ -57,6 +57,17 @@
     ]
   }
   ,
+  { 
+  "Path" : "/common/giphycontent/hugs.json",
+  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Labels":
+    [
+    {"en": "Hugs"},
+    {"fr": "Calins"},
+    {"Es": "Abrazos"}
+    ]
+   }
+   ,
   { 
   "Path" : "/common/giphycontent/best.json",
   "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_128000216.jpg",
@@ -102,16 +113,27 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/hugs.json",
-  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Path": "/common/giphycontent/howareyou.json",
+  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
   "Labels":
     [
-    {"en": "Hugs"},
-    {"fr": "Calins"},
-    {"Es": "Abrazos"}
+    {"en": "How are you?"},
+    {"fr": "Comment vas-tu?"},
+    {"Es": "Cómo estás"}
     ]
-   }
-   ,
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/think.json",
+  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
+  }
+  ,
   { 
   "Path" : "/common/giphycontent/bored.json",
   "DefaultImage" : "/cvd/intentions/default/xsmall/xs-boring.jpg?dl=0",
@@ -142,28 +164,6 @@
     {"en": "I am sad"},
     {"fr": "Je suis triste"},
     {"Es": "Estoy triste"}
-    ]
-  }
-  ,
-  { 
-  "Path": "/common/giphycontent/howareyou.json",
-  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "How are you?"},
-    {"fr": "Comment vas-tu?"},
-    {"Es": "Cómo estás"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/think.json",
-  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "I think of you"},
-    {"fr": "Je penses à toi"},
-    {"Es": "Pienso en ti"}
     ]
   }
   ,
