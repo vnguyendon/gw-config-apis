@@ -79,6 +79,17 @@
     {"Es": "Feliz Navidad"}
     ]
   }
+  ,
+  { 
+  "Path" : "/common/giphycontent/premiumsoccer.json",
+  "DefaultImage" : "/specialoccasions/you-are-the-best/default/small/shutterstock_75105484_2.jpg",
+  "Labels":
+    [
+    {"en": "Soccer"},
+    {"fr": "Football"},
+    {"Es": "Futbol"}
+    ]
+  }
 ]
 }
 
