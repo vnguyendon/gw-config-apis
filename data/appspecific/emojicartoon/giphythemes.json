@@ -202,7 +202,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/birthday.json",
-  "DefaultImage" : "/specialoccasions/happy-birthday/default/small/shutterstock_261721268.jpg",
+  "DefaultImage" : "/specialoccasions/happy-new-year/default/small/shutterstock_257297479.jpg",
   "Labels":
     [
     {"en": "Happy Birthday"},
