@@ -27,7 +27,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/premiumpandas.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/cvd/friend/friends/small/446325988.jpg",
   "Labels":
     [
     {"en": "Pandas"},
@@ -71,7 +71,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/premiumchristmas.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
   "Labels":
     [
     {"en": "Merry Christmas"},
