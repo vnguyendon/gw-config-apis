@@ -180,7 +180,7 @@
     ,
   { 
   "Path" : "/common/giphycontent/sad.json",
-  "DefaultImage" : "/themes/puppies/small/iStock_000013749648_Medium.jpg",
+  "DefaultImage" : "/specialoccasions/condolences/default/small/10449531_621591374618803_5496085897565713235_n.jpg",
   "Labels":
     [
     {"en": "I am sad"},
@@ -202,7 +202,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/birthday.json",
-  "DefaultImage" : "/specialoccasions/happy-birthday/default/small/shutterstock_165351512.jpg?dl=0",
+  "DefaultImage" : "/specialoccasions/happy-birthday/default/small/shutterstock_261721268.jpg",
   "Labels":
     [
     {"en": "Happy Birthday"},
@@ -246,7 +246,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/late.json",
-  "DefaultImage" : "/specialoccasions/I-am-late/default/small/iStock_000013939977_Large.jpg?dl=0",
+  "DefaultImage" : "/specialoccasions/I-am-late/default/small/iStock_000002939415_Medium.jpg",
   "Labels":
     [
     {"en": "I am late"},
