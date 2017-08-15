@@ -37,24 +37,24 @@
   }
   ,
   {
-  "Path" : "/common/giphycontent/premiumdisney1.json",
+  "Path" : "/common/giphycontent/premiumcartoon1.json",
   "DefaultImage" : "",
   "Labels":
     [
-    {"en": "Disney I"},
-    {"fr": "Disney I"},
-    {"Es": "Disney I"}
+    {"en": "Cartoons I"},
+    {"fr": "Dessins animés I"},
+    {"Es": "Dibujos animados I"}
     ]
   }
   ,
   { 
-  "Path": "/common/giphycontent/premiumdisney2.json",
+  "Path": "/common/giphycontent/premiumcartoon2.json",
   "DefaultImage": "",
   "Labels":
     [
-    {"en": "Disney II"},
-    {"fr": "Disney II"},
-    {"Es": "Disney II"}
+    {"en": "Cartoons II"},
+    {"fr": "Dessins animés II"},
+    {"Es": "Dibujos animados II"}
     ]
   }
   ,
@@ -63,9 +63,9 @@
   "DefaultImage" : "",
   "Labels":
     [
-    {"en": "Disney III"},
-    {"fr": "Disney III"},
-    {"Es": "Disney III"}
+    {"en": "Cartoons III"},
+    {"fr": "Dessins animés III"},
+    {"Es": "Dibujos animados III"}
     ]
   }
   ,
