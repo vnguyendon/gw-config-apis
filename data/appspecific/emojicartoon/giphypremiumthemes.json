@@ -90,6 +90,17 @@
     {"Es": "Futbol"}
     ]
   }
+  ,
+  { 
+  "Path" : "/common/giphycontent/premiumpika.json",
+  "DefaultImage" : "",
+  "Labels":
+    [
+    {"en": "Pika"},
+    {"fr": "Pika"},
+    {"Es": "Pika"}
+    ]
+  }
 ]
 }
 
