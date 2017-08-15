@@ -38,7 +38,7 @@
   ,
   {
   "Path" : "/common/giphycontent/premiumcartoon1.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_16.jpg",
   "Labels":
     [
     {"en": "Cartoons I"},
@@ -49,7 +49,7 @@
   ,
   { 
   "Path": "/common/giphycontent/premiumcartoon2.json",
-  "DefaultImage": "",
+  "DefaultImage": "/themes/emojiKittens/small/shutterstock_397906726_6.jpg",
   "Labels":
     [
     {"en": "Cartoons II"},
@@ -60,7 +60,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/premiumcartoon3.json",
-  "DefaultImage" : "",
+  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_8.jpg",
   "Labels":
     [
     {"en": "Cartoons III"},
