@@ -4,7 +4,7 @@
 [
   { 
   "Path" : "/common/giphycontent/love.json",
-  "DefaultImage" : "/specialoccasions/I-love-you/default/small/10494717_552129618231646_2872607819690674144_n.jpg?dl=0",
+  "DefaultImage" : "/cvd/loveinterest/otherlove/small/iStock_000002605824_Medium.jpg",
   "Labels":
     [
     {"en": "I love you"},
@@ -15,7 +15,7 @@
   ,
   { 
   "Path" : "/common/giphycontent/like.json",
-  "DefaultImage" : "/specialoccasions/I-like-you/default/small/shutterstock_142384063.jpg?dl=0",
+  "DefaultImage" : "/themes/pairs/small/shutterstock_148572530.jpg",
   "Labels":
     [
     {"en": "I like you"},
