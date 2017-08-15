@@ -58,16 +58,16 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/hugs.json",
-  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Path" : "/common/giphycontent/think.json",
+  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
   "Labels":
     [
-    {"en": "Hugs"},
-    {"fr": "Calins"},
-    {"Es": "Abrazos"}
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
     ]
-   }
-   ,
+  }
+  ,
   { 
   "Path" : "/common/giphycontent/best.json",
   "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_128000216.jpg",
@@ -90,6 +90,28 @@
     ]
   }
   ,
+  { 
+  "Path" : "/common/giphycontent/hugs.json",
+  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Labels":
+    [
+    {"en": "Hugs"},
+    {"fr": "Calins"},
+    {"Es": "Abrazos"}
+    ]
+   }
+   ,
+    { 
+  "Path": "/common/giphycontent/howareyou.json",
+  "DefaultImage": "/cvd/fbfriend/other/small/iStock_000008396813_Medium.jpg",
+  "Labels":
+    [
+    {"en": "How are you?"},
+    {"fr": "Comment vas-tu?"},
+    {"Es": "Cómo estás"}
+    ]
+  }
+  ,
   {
   "Path" : "/common/giphycontent/jokes.json",
   "DefaultImage" : "/themes/funny/small/310928_10150295389296564_166896605_n.jpg?dl=0",
@@ -102,35 +124,35 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/emojis.json",
-  "DefaultImage" : "/adverts/selection1/shutterstock_190844732_1.jpg",
+  "Path" : "/common/giphycontent/wantdrink.json",
+  "DefaultImage" : "/specialoccasions/would-you-care-for-a-drink/default/small/iStock_000067829773_Medium.jpg?dl=0",
   "Labels":
     [
-    {"en": "Emojis"},
-    {"fr": "Emojis"},
-    {"Es": "Emojis"}
+    {"en": "Let's have a drink"},
+    {"fr": "Prenons un verre"},
+    {"Es": "Vamos a tomar algo"}
+    ]
+  }
+  , 
+  { 
+  "Path" : "/common/giphycontent/sorry.json",
+  "DefaultImage" : "/specialoccasions/sorry/default/small/423611_404972892891532_98905350_n.jpg?dl=0",
+  "Labels":
+    [
+    {"en": "I am sorry"},
+    {"fr": "Je suis désolé"},
+    {"Es": "Lo siento"}
     ]
   }
   ,
-  { 
-  "Path": "/common/giphycontent/howareyou.json",
-  "DefaultImage": "/specialoccasions/I-like-you/default/small/shutterstock_431449828_6.jpg?dl=0",
+   { 
+  "Path" : "/common/giphycontent/thankyou.json",
+  "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_103886780.jpg",
   "Labels":
     [
-    {"en": "How are you?"},
-    {"fr": "Comment vas-tu?"},
-    {"Es": "Cómo estás"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/think.json",
-  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "I think of you"},
-    {"fr": "Je penses à toi"},
-    {"Es": "Pienso en ti"}
+    {"en": "Thank you"},
+    {"fr": "Merci"},
+    {"Es": "Gracias"}
     ]
   }
   ,
@@ -168,35 +190,13 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/thankyou.json",
-  "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_103886780.jpg",
+  "Path" : "/common/giphycontent/emojis.json",
+  "DefaultImage" : "/adverts/selection1/shutterstock_190844732_1.jpg",
   "Labels":
     [
-    {"en": "Thank you"},
-    {"fr": "Merci"},
-    {"Es": "Gracias"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/sorry.json",
-  "DefaultImage" : "/specialoccasions/sorry/default/small/423611_404972892891532_98905350_n.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "I am sorry"},
-    {"fr": "Je suis désolé"},
-    {"Es": "Lo siento"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/wantdrink.json",
-  "DefaultImage" : "/specialoccasions/would-you-care-for-a-drink/default/small/iStock_000067829773_Medium.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "Let's have a drink"},
-    {"fr": "Prenons un verre"},
-    {"Es": "Vamos a tomar algo"}
+    {"en": "Emojis"},
+    {"fr": "Emojis"},
+    {"Es": "Emojis"}
     ]
   }
   ,
