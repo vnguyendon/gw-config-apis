@@ -5,7 +5,7 @@
         { 
           "en":"You feel more energetic after being",
           "fr":"Tu as plus d'énergie après avoir été avec",
-          "es":"Tu energía aumenta cuándo has estado con"
+          "es":"Tu energía aumenta cuándo has estado"
         }
     ,
     "Randomize": "true",
@@ -28,7 +28,7 @@
             "Label": {
               "en":"with people",
               "fr":"d'autres personnes",
-              "es":"otras personas"
+              "es":"con otras personas"
             },
             "Parameters" : {
                 "property" : "ppEnergeticAfter",
@@ -53,7 +53,7 @@
             "Label": {
               "en":"on your own",
               "fr":"toi-même",
-              "es":"ti mismo"
+              "es":"contigo mismo"
             },
              "Parameters" : {
                 "property" : "ppEnergeticAfter",
