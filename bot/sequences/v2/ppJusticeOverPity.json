@@ -4,8 +4,8 @@
   "Id": "ppJusticeOverPity",
   "Label": {
     "en": "You primarily value",
-    "fr": "Vous donnez plus d'importance à",
-    "es": "Valora principalmente"
+    "fr": "Tu donnes plus d'importance à",
+    "es": "Valoras principalmente"
   },
   "Randomize": "true",
   "Commands": [
