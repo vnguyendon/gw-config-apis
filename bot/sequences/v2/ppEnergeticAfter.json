@@ -4,7 +4,7 @@
     "Label":
         { 
           "en":"You feel more energetic after being",
-          "fr":"Vous avez plus d'énergie après avoir été avec",
+          "fr":"Tu as plus d'énergie après avoir été avec",
           "es":"Su energía aumenta cuándo ha estado con"
         }
     ,
@@ -52,7 +52,7 @@
             },
             "Label": {
               "en":"on your own",
-              "fr":"vous-même",
+              "fr":"toi-même",
               "es":"usted mismo"
             },
              "Parameters" : {
