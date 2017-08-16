@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "FriendshipOrLove",
+  "Label":
+    {
+      "en": "You can't have both. You choose:",
+      "fr": "Tu ne peux pas avoir les deux. Tu choisis :",
+      "es": "No puedes tener los dos. Eliges:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ChooseFriendship",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "H2GX5Ik1ILy5q"
+          },
+          "Label":{
+            "en": "friendship",
+            "fr": "l'amitié",
+            "es": "la amistad"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "ChooseLove",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "7W1rgKAxlDe3m"
+          },
+          "Label":{
+            "en": "love",
+            "fr": "l'amour",
+            "es": "el amor"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "LiveInTownOrCountryside",
+  "Label":
+    {
+      "en": "Would you rather live:",
+      "fr": "Tu préférerais habiter :",
+      "es": "Preferías vivir:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "InTown",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l0HlGs7u3G9dkQ8DK"
+          },
+          "Label":{
+            "en": "in town",
+            "fr": "en ville",
+            "es": "en la ciudad"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "InTheCountryside",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "fDc60rFUEQhFK"
+          },
+          "Label":{
+            "en": "in the countryside",
+            "fr": "à la campagne",
+            "es": "en el campo"
+          }
+        }
+      ]
+}
+

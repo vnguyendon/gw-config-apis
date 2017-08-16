@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "MarrySomeoneOlderOrYounger",
+  "Label":
+    {
+      "en": "Would you rather marry someone:",
+      "fr": "Tu préférerais te marier avec quelqu'un de :",
+      "es": "Preferías casarte con alguien:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Younger",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "uDPVkA1ZtRdBe"
+          },
+          "Label":{
+            "en": "younger than you",
+            "fr": "plus jeune que toi",
+            "es": "más joven"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Older",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l4KibWpBGWchSqCRy"
+          },
+          "Label":{
+            "en": "older than you",
+            "fr": "plus vieux que toi",
+            "es": "más viejo"
+          }
+        }
+      ]
+}
+

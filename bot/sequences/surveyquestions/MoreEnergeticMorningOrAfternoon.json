@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "FeelMoreEnergeticMorningOrAfternoon",
+  "Label":
+    {
+      "en": "You feel more energetic:",
+      "fr": "Tu as plus d'énergie :",
+      "es": "Tienes más energía por:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "InTheMorning",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "RbVOveSAHkk2A"
+          },
+          "Label":{
+            "en": "in the morning",
+            "fr": "le matin",
+            "es": "la mañana"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "InTheAfternoon",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "JoHCsfie23fag"
+          },
+          "Label":{
+            "en": "in the afternoon",
+            "fr": "l'après-midi",
+            "es": "la tarde"
+          }
+        }
+      ]
+}
+
