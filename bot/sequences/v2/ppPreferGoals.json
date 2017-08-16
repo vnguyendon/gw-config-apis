@@ -4,8 +4,8 @@
   "Id": "ppPreferGoals",
   "Label": {
     "en": "You prefer goals that are",
-    "fr": "Vous préférez les objectifs",
-    "es": "Prefiere objetivos que sean"
+    "fr": "Tu préfères des objectifs",
+    "es": "Prefieres objetivos que sean"
   },
   "Randomize": "true",
   "Commands": [
