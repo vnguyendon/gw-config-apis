@@ -27,6 +27,15 @@
         "es": "Pandas"
       }
     },
+        {
+      "Path": "/common/giphycontent/premiumchristmas.json",
+      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
+      "Labels": {
+        "en": "Merry Christmas",
+        "fr": "Joyeux Noël",
+        "es": "Feliz Navidad"
+      }
+    },
     {
       "Path": "/common/giphycontent/premiumcartoon1.json",
       "DefaultImage": "/themes/emojiLions/small/shutterstock_402952978_16.jpg",
@@ -52,15 +61,6 @@
         "en": "Cartoons III",
         "fr": "Dessins animés III",
         "es": "Dibujos animados III"
-      }
-    },
-    {
-      "Path": "/common/giphycontent/premiumchristmas.json",
-      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
-      "Labels": {
-        "en": "Merry Christmas",
-        "fr": "Joyeux Noël",
-        "es": "Feliz Navidad"
       }
     },
     {
