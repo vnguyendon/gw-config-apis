@@ -2,7 +2,7 @@
   "Themes": [
     {
       "Path": "/common/giphycontent/premiumkitties.json",
-      "DefaultImage": "/themes/kittens/small/iStock_000012874939_Medium.jpg",
+      "DefaultImage": "/themes/kittens/small/shutterstock_116218768.jpg",
       "Labels": {
         "en": "Kitties",
         "fr": "Chatons",
@@ -11,7 +11,7 @@
     },
     {
       "Path": "/common/giphycontent/premiumpuppies.json",
-      "DefaultImage": "/themes/puppies/small/dog_training_classes_puppy_1.jpg",
+      "DefaultImage": "/themes/puppies/small/shutterstock_190771445.jpg",
       "Labels": {
         "en": "Puppies",
         "fr": "Chiots",
@@ -74,7 +74,7 @@
     },
     {
       "Path": "/common/giphycontent/premiumpika.json",
-      "DefaultImage": "",
+      "DefaultImage": "/themes/emojiCats/small/shutterstock_429770818_70.jpg",
       "Labels": {
         "en": "Pika",
         "fr": "Pika",
