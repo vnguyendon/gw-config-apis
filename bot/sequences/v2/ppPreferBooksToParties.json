@@ -4,8 +4,8 @@
   "Id": "ppPreferBooksToParties",
   "Label": {
     "en": "You often prefer books to parties",
-    "fr": "Vous préférez souvent les livres aux fêtes",
-    "es": "A menudo prefiere los libros a las fiestas"
+    "fr": "Tu préfères souvent les livres aux fêtes",
+    "es": "A menudo prefieres los libros a las fiestas"
   },
   "Randomize": "true",
   "Commands": [
