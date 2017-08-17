@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "AbandonPizzaOrChocolate",
+  "Label":
+    {
+      "en": "You have to change your diet. You choose to give up on:",
+      "fr": "Tu dois te mettre au régime. Tu choisis de renoncer :",
+      "es": "Tienes que cambiar tu dieta. Prefieres renunciar:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "AbandonPizza",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "2WxWfiavndgcM"
+          },
+          "Label":{
+            "en": "pizzas",
+            "fr": "aux pizzas",
+            "es": "a las pizzas"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "AbandonChocolate",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "2WxWfiavndgcM"
+          },
+          "Label":{
+            "en": "chocolate",
+            "fr": "au chocolat",
+            "es": "al chocolate"
+          }
+        }
+      ]
+}
+

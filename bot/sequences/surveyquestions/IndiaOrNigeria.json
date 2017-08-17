@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "LiveInIndiaOrNigeria",
+  "Label":
+    {
+      "en": "Would you rather live in:",
+      "fr": "Tu préférerais vivre :",
+      "es": "Preferías vivir en:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LiveInIndia",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "11MKLWSDvMVSp2"
+          },
+          "Label":{
+            "en": "India",
+            "fr": "en Inde",
+            "es": "India"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LiveInNigeria",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "8hxJZ4VnBnp6M"
+          },
+          "Label":{
+            "en": "Nigeria",
+            "fr": "au Nigéria",
+            "es": "Nigeria"
+          }
+        }
+      ]
+}
+

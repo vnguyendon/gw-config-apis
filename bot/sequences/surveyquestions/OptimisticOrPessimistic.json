@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "OptimisticOrPessimistic",
+  "Label":
+    {
+      "en": "Do you consider yourself as:",
+      "fr": "Tu es plutôt :",
+      "es": "Eres más:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Optimistic",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "b5WsjNpMc35za"
+          },
+          "Label":{
+            "en": "optimistic",
+            "fr": "optimiste",
+            "es": "optimista"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Pessimistic",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "PtUUcXERWXEYM"
+          },
+          "Label":{
+            "en": "pessimistic",
+            "fr": "pessimiste",
+            "es": "pesimista"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "ClassicalOrPop",
+  "Label":
+    {
+      "en": "Which kind of music do you prefer?",
+      "fr": "Quel genre de musique préfères-tu ?",
+      "es": "¿Qué tipo de música prefieres?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferPop",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xT39Dbobw4v8F5V3NK"
+          },
+          "Label":{
+            "en": "pop",
+            "fr": "la pop",
+            "es": "pop"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferClassical",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26gsnVwDYSK5depi0"
+          },
+          "Label":{
+            "en": "classical",
+            "fr": "le classique",
+            "es": "clásica"
+          }
+        }
+      ]
+}
+

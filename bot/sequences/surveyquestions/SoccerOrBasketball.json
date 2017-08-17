@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "SoccerOrBasketball",
+  "Label":
+    {
+      "en": "Which sport do you prefer?",
+      "fr": "Quel sport préfères-tu ?",
+      "es": "¿Qué es tu deporte favorito?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferSoccer",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UdoS9OzIS2lgY"
+          },
+          "Label":{
+            "en": "soccer",
+            "fr": "le foot",
+            "es": "futbol"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferBasketball",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l41YhmC0hIcAqC3sY"
+          },
+          "Label":{
+            "en": "basketball",
+            "fr": "le basket",
+            "es": "basquetbol"
+          }
+        }
+      ]
+}
+
