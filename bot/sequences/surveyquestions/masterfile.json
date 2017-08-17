@@ -26,5 +26,10 @@
       "/bot/sequences/surveyquestions/FriendshipOrLove.json",
       "/bot/sequences/surveyquestions/MarrySomeoneOlderOrYounger.json",
       "/bot/sequences/surveyquestions/MoreEnergeticMorningOrAfternoon.json",
-      "/bot/sequences/surveyquestions/TownOrCountryside.json"
+      "/bot/sequences/surveyquestions/TownOrCountryside.json",
+      "/bot/sequences/surveyquestions/AbandonPizzaOrChocolate.json",
+      "/bot/sequences/surveyquestions/ClassicalOrPop.json",
+      "/bot/sequences/surveyquestions/IndiaOrNigeria.json",
+      "/bot/sequences/surveyquestions/OptimisticOrPessimistic.json",
+      "/bot/sequences/surveyquestions/SoccerOrBasketball.json"
 ] 
