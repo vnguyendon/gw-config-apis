@@ -1,4 +1,6 @@
 [
+      "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json",
+      "/bot/sequences/surveyquestions/HarmonyOrFreedom.json",
       "/bot/sequences/surveyquestions/CatsOrDogs.json",
       "/bot/sequences/surveyquestions/TeaOrCoffee.json",
       "/bot/sequences/surveyquestions/GlobalWarming.json",
@@ -31,7 +33,5 @@
       "/bot/sequences/surveyquestions/ClassicalOrPop.json",
       "/bot/sequences/surveyquestions/IndiaOrNigeria.json",
       "/bot/sequences/surveyquestions/OptimisticOrPessimistic.json",
-      "/bot/sequences/surveyquestions/SoccerOrBasketball.json",
-      "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json",
-      "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"
+      "/bot/sequences/surveyquestions/SoccerOrBasketball.json"
 ] 
