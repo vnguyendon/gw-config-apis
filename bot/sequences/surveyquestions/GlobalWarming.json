@@ -6,9 +6,9 @@
   "Id": "GlobalWarming",
   "Label":
     {
-      "en": "Global warming is an important issue.",
-      "fr": "Le réchauffement climatique est une question importante.",
-      "es": "El cambio climático es una meta importante."
+      "en": "Global warming is an important issue:",
+      "fr": "Le réchauffement climatique est une question importante :",
+      "es": "El cambio climático es una meta importante:"
     }
   ,
   "Randomize": "true",
