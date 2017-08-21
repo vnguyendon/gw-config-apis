@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "HarmonyOrFreedom",
+  "Label":
+    {
+      "en": "What's most important:",
+      "fr": "C'est quoi le plus important :",
+      "es": "Qué es lo más importante:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Harmony",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "vrt959U4tYdk4"
+          },
+          "Label":{
+            "en": "harmony",
+            "fr": "l'harmonie",
+            "es": "armonía"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Freedom",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ghiwvDT3DqyRy"
+          },
+          "Label":{
+            "en": "freedom",
+            "fr": "la liberté",
+            "es": "libertad"
+          }
+        }
+      ]
+}
+

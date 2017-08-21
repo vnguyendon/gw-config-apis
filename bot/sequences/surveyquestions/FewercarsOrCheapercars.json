@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "WorldBetterwithFewerCarsOrCheaperCars",
+  "Label":
+    {
+      "en": "The world would be better with:",
+      "fr": "Le monde serait mieux si les voitures étaient moins :",
+      "es": "El mundo sería mejor si autos eran menos:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "FewerCars",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img15.hostingpics.net/pics/589250tulentravel148550.jpg"
+          },
+          "Label":{
+            "en": "fewer cars",
+            "fr": "nombreuses",
+            "es": "numerosos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "CheaperCars",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type":"Image",
+            "Source": "External",
+            "Path": "https://img15.hostingpics.net/pics/735852badyqb42775.jpg"
+          },
+          "Label":{
+            "en": "cheaper cars",
+            "fr": "chères",
+            "es": "caros"
+          }
+        }
+      ]
+}
+
