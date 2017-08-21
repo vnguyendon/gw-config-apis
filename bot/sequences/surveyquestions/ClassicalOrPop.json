@@ -6,9 +6,9 @@
   "Id": "ClassicalOrPop",
   "Label":
     {
-      "en": "Which kind of music do you prefer?",
-      "fr": "Quel genre de musique préfères-tu ?",
-      "es": "¿Qué tipo de música prefieres?"
+      "en": "Which kind of music do you prefer:",
+      "fr": "Quel genre de musique préfères-tu :",
+      "es": "Qué tipo de música prefieres:"
     }
   ,
   "Randomize": "true",
