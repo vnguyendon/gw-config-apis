@@ -5,9 +5,9 @@
   "Id": "CatsOrDogs",
   "Label":
     {
-      "en": "Are you more...",
-      "fr": "Est-ce que tu préfères...",
-      "es": "Te gustan mas..."
+      "en": "Are you more:",
+      "fr": "Est-ce que tu préfères :",
+      "es": "Te gustan mas:"
     }
   ,
   "Randomize": "true",
