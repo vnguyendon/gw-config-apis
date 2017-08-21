@@ -6,9 +6,9 @@
   "Id": "SoccerOrBasketball",
   "Label":
     {
-      "en": "Which sport do you prefer?",
-      "fr": "Quel sport préfères-tu ?",
-      "es": "¿Qué es tu deporte favorito?"
+      "en": "Which sport do you prefer:",
+      "fr": "Quel sport préfères-tu :",
+      "es": "Qué es tu deporte favorito:"
     }
   ,
   "Randomize": "true",
