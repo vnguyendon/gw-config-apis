@@ -6,9 +6,9 @@
   "Id": "PepsiOrCoke",
   "Label":
     {
-      "en": "Pepsi or Coke:",
-      "fr": "Pepsi ou Coca-Cola :",
-      "es": "Pepsi o Coca-Cola:"
+      "en": "Pepsi or Coke?",
+      "fr": "Pepsi ou Coca-Cola ?",
+      "es": "¿Pepsi o Coca-Cola?"
     }
   ,
   "Randomize": "true",
