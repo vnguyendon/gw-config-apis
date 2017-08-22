@@ -16,9 +16,9 @@
         "Id": "themes/kittens"
       },
       "Label": {
-        "en": "Cats",
-        "fr": "Chats",
-        "es": "Gatos"
+        "en": "Cats 🐱",
+        "fr": "Chats 🐱",
+        "es": "Gatos 🐱"
       },
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
@@ -40,9 +40,9 @@
         "Id": "themes/puppies"
       },
       "Label": {
-        "en": "Dogs",
-        "fr": "Chiens",
-        "es": "Perros"
+        "en": "Dogs 🐶",
+        "fr": "Chiens 🐶",
+        "es": "Perros 🐶"
       },
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
@@ -64,9 +64,9 @@
         "Id": "themes/penguins"
       },
       "Label": {
-        "en": "Penguins",
-        "fr": "Pingouins",
-        "es": "Pingüinos"
+        "en": "Penguins 🐧",
+        "fr": "Pingouins 🐧",
+        "es": "Pingüinos 🐧"
       },
 	  "OptionalFeedback": {
             "Type": "AnimatedGif",
