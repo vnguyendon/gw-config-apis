@@ -6,9 +6,9 @@
   "Id": "ShouldUSBombNorthKorea",
   "Label":
     {
-      "en": "Should the US bomb North Korea:",
-      "fr": "Les Etats-Unis devraient bombarder la Corée du Nord :",
-      "es": "EE.UU. deberían bombardear Corea del Norte:"
+      "en": "Should the US bomb North Korea?",
+      "fr": "Les Etats-Unis devraient-ils bombarder la Corée du Nord ?",
+      "es": "¿EE.UU. deberían bombardear Corea del Norte?"
     }
   ,
   "Randomize": "true",
@@ -24,9 +24,9 @@
             "Path": "https://img4.hostingpics.net/pics/923248rodrigorodriguez102662.jpg"
           },
           "Label":{
-            "en": "Yes",
-            "fr": "Oui",
-            "es": "Si"
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "https://img4.hostingpics.net/pics/140788pexelsphoto312839.jpg"
           },
           "Label":{
-            "en": "No",
-            "fr": "Non",
-            "es": "No"
+            "en": "no",
+            "fr": "non",
+            "es": "no"
           }
         }
       ]
