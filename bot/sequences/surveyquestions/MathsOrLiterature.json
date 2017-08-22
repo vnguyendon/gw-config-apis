@@ -6,9 +6,9 @@
   "Id": "MathsOrLiterature",
   "Label":
     {
-      "en": "Would you rather study:",
-      "fr": "Tu préférerais étudier :",
-      "es": "Preferías estudiar:"
+      "en": "Would you rather study",
+      "fr": "Tu préférerais étudier",
+      "es": "Preferías estudiar"
     }
   ,
   "Randomize": "true",
