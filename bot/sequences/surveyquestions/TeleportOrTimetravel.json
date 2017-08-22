@@ -6,9 +6,9 @@
   "Id": "TeleportOrTimetravel",
   "Label":
     {
-      "en": "What's most useful? Being able to:",
-      "fr": "C'est le quoi le plus utile : pouvoir voyager instantanément dans :",
-      "es": "Qué es lo más útil:"
+      "en": "What's most useful? Being able to",
+      "fr": "C'est le quoi le plus utile ? Pouvoir voyager instantanément dans",
+      "es": "¿Qué es lo más útil?"
     }
   ,
   "Randomize": "true",
