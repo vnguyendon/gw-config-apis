@@ -6,9 +6,9 @@
   "Id": "CanadaOrSouthAfrica",
   "Label":
     {
-      "en": "You are offered an all-inclusive trip! You choose to visit:",
-      "fr": "On t'offre un voyage tout compris. Tu préfères visiter :",
-      "es": "Te ofrecen un viaje todo incluido. Prefieres ir a :"
+      "en": "You are offered an all-inclusive trip! You choose to visit",
+      "fr": "On t'offre un voyage tout compris. Tu préfères visiter",
+      "es": "Te ofrecen un viaje todo incluido. Prefieres ir a"
     }
   ,
   "Randomize": "true",
