@@ -4,9 +4,9 @@
   "Id": "LiveInIndiaOrNigeria",
   "Label":
     {
-      "en": "Would you rather live in:",
-      "fr": "Tu préférerais vivre :",
-      "es": "Preferías vivir en:"
+      "en": "Would you rather live in",
+      "fr": "Tu préférerais vivre",
+      "es": "Preferías vivir en"
     }
   ,
   "Randomize": "true",
