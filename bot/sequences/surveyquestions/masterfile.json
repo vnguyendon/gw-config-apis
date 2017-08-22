@@ -32,5 +32,11 @@
       "/bot/sequences/surveyquestions/IndiaOrNigeria.json",
       "/bot/sequences/surveyquestions/OptimisticOrPessimistic.json",
       "/bot/sequences/surveyquestions/SoccerOrBasketball.json",
-      "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"
+      "/bot/sequences/surveyquestions/HarmonyOrFreedom.json",
+      "/bot/sequences/surveyquestions/TomorrowBetterThanToday.json",
+      "/bot/sequences/surveyquestions/HappyToLoseWeight.json",
+      "/bot/sequences/surveyquestions/HappierMovieOrBook.json",
+      "/bot/sequences/surveyquestions/HappierDancingOrSinging.json",
+      "/bot/sequences/surveyquestions/FrenchOrJapaneseFood.json",
+      "/bot/sequences/surveyquestions/AreYouHappy.json"
 ] 
