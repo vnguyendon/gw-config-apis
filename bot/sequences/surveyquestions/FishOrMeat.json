@@ -4,9 +4,9 @@
   "Id": "YouPreferFishOrMeat",
   "Label":
     {
-      "en": "You prefer eating:",
-      "fr": "Tu préfères manger :",
-      "es": "Prefieres comer:"
+      "en": "You prefer eating",
+      "fr": "Tu préfères manger",
+      "es": "Prefieres comer"
     }
   ,
   "Randomize": "true",
