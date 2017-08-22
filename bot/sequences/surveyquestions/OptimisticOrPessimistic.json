@@ -4,9 +4,9 @@
   "Id": "OptimisticOrPessimistic",
   "Label":
     {
-      "en": "Do you consider yourself as:",
-      "fr": "Tu es plutôt :",
-      "es": "Eres más:"
+      "en": "Do you consider yourself as",
+      "fr": "Tu es plutôt",
+      "es": "Eres más"
     }
   ,
   "Randomize": "true",
