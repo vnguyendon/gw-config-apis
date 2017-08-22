@@ -22,9 +22,9 @@
             "Path": "Izbm7WZ7YP7dS"
           },
           "Label":{
-            "en": "fish",
-            "fr": "du poisson",
-            "es": "pescado"
+            "en": "fish 🐟",
+            "fr": "du poisson 🐟",
+            "es": "pescado 🐟"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "12zfAjyQ3RZNSw"
           },
           "Label":{
-            "en": "meat",
-            "fr": "de la viande",
-            "es": "carne"
+            "en": "meat 🍗",
+            "fr": "de la viande 🍗",
+            "es": "carne 🍗"
           }
         }
       ]
