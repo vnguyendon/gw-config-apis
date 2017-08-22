@@ -6,9 +6,9 @@
   "Id": "FirstDateCinemaOrRestaurant",
   "Label":
     {
-      "en": "For a first date, you prefer to go to:",
-      "fr": "Pour un premier rendez-vous, tu préfères aller :",
-      "es": "Para el primer encuentro, prefieres ir:"
+      "en": "For a first date, you prefer to go to",
+      "fr": "Pour un premier rendez-vous, tu préfères aller",
+      "es": "Para el primer encuentro, prefieres ir"
     }
   ,
   "Randomize": "true",
