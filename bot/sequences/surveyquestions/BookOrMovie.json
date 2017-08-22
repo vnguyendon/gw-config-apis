@@ -4,9 +4,9 @@
   "Id": "YouPreferBookOrMovie",
   "Label":
     {
-      "en": "To relax, you pick up:",
-      "fr": "Pour te détendre, tu choisis :",
-      "es": "Para relajarte, eliges:"
+      "en": "To relax, you pick up",
+      "fr": "Pour te détendre, tu choisis",
+      "es": "Para relajarte, eliges"
     }
   ,
   "Randomize": "true",
