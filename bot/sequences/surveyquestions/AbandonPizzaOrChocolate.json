@@ -24,9 +24,9 @@
             "Path": "suFlthzWfwnIc"
           },
           "Label":{
-            "en": "pizzas",
-            "fr": "aux pizzas",
-            "es": "a las pizzas"
+            "en": "pizzas 🍕",
+            "fr": "aux pizzas 🍕",
+            "es": "a las pizzas 🍕"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "YU3MG6zV3pmHS"
           },
           "Label":{
-            "en": "chocolate",
-            "fr": "au chocolat",
-            "es": "al chocolate"
+            "en": "chocolate 🍫",
+            "fr": "au chocolat 🍫",
+            "es": "al chocolate 🍫"
           }
         }
       ]
