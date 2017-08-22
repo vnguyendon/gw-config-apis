@@ -6,9 +6,9 @@
   "Id": "HappierSingingOrDancing",
   "Label":
     {
-      "en": "What makes you happier:",
-      "fr": "Ce qui te rend le plus heureux :",
-      "es": "Lo que te pone más feliz:"
+      "en": "What makes you happier?",
+      "fr": "Qu'est-ce qui te rend le plus heureux ?",
+      "es": "¿Qué es lo que te pone más feliz?"
     }
   ,
   "Randomize": "true",
