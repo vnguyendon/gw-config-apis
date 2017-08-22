@@ -4,9 +4,9 @@
   "Id": "YouHelpWomenOrChildren",
   "Label":
     {
-      "en": "You can give money to a charity. You choose the one that helps:",
-      "fr": "Tu peux donner de l'argent à une association. Tu en choisis une qui aide :",
-      "es": "Puedes dar dinero a una asociación. Eliges la que ayuda a:"
+      "en": "You can give money to a charity. You choose the one that helps",
+      "fr": "Tu peux donner de l'argent à une association. Tu en choisis une qui aide",
+      "es": "Puedes dar dinero a una asociación. Eliges la que ayuda a"
     }
   ,
   "Randomize": "true",
