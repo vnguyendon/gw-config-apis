@@ -6,9 +6,9 @@
   "Id": "HappierAfterMovieOrBook",
   "Label":
     {
-      "en": "You feel happier after:",
-      "fr": "Tu es plus heureux devant :",
-      "es": "Eres más contento después de:"
+      "en": "You feel happier after",
+      "fr": "Tu es plus heureux devant",
+      "es": "Eres más contento después de"
     }
   ,
   "Randomize": "true",
