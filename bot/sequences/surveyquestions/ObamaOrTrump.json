@@ -6,9 +6,9 @@
   "Id": "WhoIsBetterPresident",
   "Label":
     {
-      "en": "Who is a better president:",
-      "fr": "Qui est le meilleur président :",
-      "es": "Quién es un mejor presidente:"
+      "en": "Who is a better president?",
+      "fr": "Qui est le meilleur président ?",
+      "es": "¿Quién es un mejor presidente?"
     }
   ,
   "Randomize": "true",
