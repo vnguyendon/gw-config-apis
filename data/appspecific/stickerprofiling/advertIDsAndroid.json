@@ -3,7 +3,7 @@
   "FirstLaunch": [
     {
     "Provider": "Facebook",
-    "ProportionUsers": "50%",
+    "ProportionUsers": "50",
     "ID": "1594200494225037_1822809468030804",
     "Fallback": {
       "Provider": "AdMob",
@@ -12,7 +12,7 @@
     },
     {
     "Provider": "AdMob",
-    "ProportionUsers": "50%",
+    "ProportionUsers": "50",
     "ID": "ca-app-pub-7822741681642396/4919212781"
     }
   ],
