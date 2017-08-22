@@ -25,9 +25,9 @@
              }]
             },
           "Label":{
-            "en":"romantic",
-            "fr":"romantiques",
-            "es":"románticas"
+            "en":"romantic 🌹",
+            "fr":"romantiques 🌹",
+            "es":"románticas 🌹"
           }
         },
         {
@@ -45,9 +45,9 @@
             }]
           },
           "Label":{
-              "en":"funny",
-              "fr":"drôles",
-              "es":"divertidas"
+              "en":"funny 😂",
+              "fr":"drôles 😂",
+              "es":"divertidas 😂"
           }
         }
     ]
