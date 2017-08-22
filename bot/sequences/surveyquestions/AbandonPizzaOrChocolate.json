@@ -6,9 +6,9 @@
   "Id": "AbandonPizzaOrChocolate",
   "Label":
     {
-      "en": "You have to change your diet. You choose to give up on:",
-      "fr": "Tu dois te mettre au régime. Tu choisis de renoncer :",
-      "es": "Tienes que cambiar tu dieta. Prefieres renunciar:"
+      "en": "You have to change your diet. You choose to give up on",
+      "fr": "Tu dois te mettre au régime. Tu choisis de renoncer",
+      "es": "Tienes que cambiar tu dieta. Prefieres renunciar"
     }
   ,
   "Randomize": "true",
