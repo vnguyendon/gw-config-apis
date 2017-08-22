@@ -18,9 +18,9 @@
         "Path": "3ohzdQoCngNoESFV28"
       },
       "Label": {
-        "en": "*****",
-        "fr": "*****",
-        "es": "*****"
+        "en": "⭐⭐⭐⭐⭐",
+        "fr": "⭐⭐⭐⭐⭐",
+        "es": "⭐⭐⭐⭐⭐"
       },
       "LinksTo": {
         "Id": "RateStore",
@@ -74,9 +74,9 @@
       },
       "Id": "FourStars",
       "Label": {
-        "en": "****",
-        "fr": "****",
-        "es": "****"
+        "en": "⭐⭐⭐⭐",
+        "fr": "⭐⭐⭐⭐",
+        "es": "⭐⭐⭐⭐"
       }
     },
     {
@@ -89,9 +89,9 @@
       },
       "Id": "ThreeStars",
       "Label": {
-        "en": "***",
-        "fr": "***",
-        "es": "***"
+        "en": "⭐⭐⭐",
+        "fr": "⭐⭐⭐",
+        "es": "⭐⭐⭐"
       }
     },
     {
@@ -104,9 +104,9 @@
       },
       "Id": "LessThreeStars",
       "Label": {
-        "en": "Less than ***",
-        "fr": "Moins de ***",
-        "es": "Menos de ***"
+        "en": "Less than ⭐⭐⭐",
+        "fr": "Moins de ⭐⭐⭐",
+        "es": "Menos de ⭐⭐⭐"
       }
     }
   ]
