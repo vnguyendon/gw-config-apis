@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "HappierSingingOrDancing",
+  "Label":
+    {
+      "en": "What makes you happier:",
+      "fr": "Ce qui te rend le plus heureux :",
+      "es": "Lo que te pone más feliz:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "HappierSinging",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "idKFx1AUCg1Yk"
+          },
+          "Label":{
+            "en": "singing",
+            "fr": "chanter",
+            "es": "cantar"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "HappierDancing",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "5xaOcLGvzHxDKjufnLW"
+          },
+          "Label":{
+            "en": "dancing",
+            "fr": "danser",
+            "es": "bailar"
+          }
+        }
+      ]
+}
+

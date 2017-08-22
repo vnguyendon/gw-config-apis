@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "WhoIsBetterPresident",
+  "Label":
+    {
+      "en": "Who is a better president:",
+      "fr": "Qui est le meilleur président :",
+      "es": "Quién es un mejor presidente:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ObamaBetterPresident",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img4.hostingpics.net/pics/472435barackobama127823691402.jpg"
+          },
+          "Label":{
+            "en": "Barack Obama",
+            "fr": "Barack Obama",
+            "es": "Barack Obama"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "TrumpBetterPresident",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img4.hostingpics.net/pics/332001330pxDonaldTrumpPentagon2017.jpg"
+          },
+          "Label":{
+            "en": "Donald Trump",
+            "fr": "Donald Trump",
+            "es": "Donald Trump"
+          }
+        }
+      ]
+}
+

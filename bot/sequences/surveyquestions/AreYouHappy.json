@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "AreYouHappy",
+  "Label":
+    {
+      "en": "Are you currently happy:",
+      "fr": "Es-tu heureux en ce moment :",
+      "es": "Eres feliz en estos momentos:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHappy",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "LSNqpYqGRqwrS"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotHappy",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "BmMU3LOfNMMeI"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

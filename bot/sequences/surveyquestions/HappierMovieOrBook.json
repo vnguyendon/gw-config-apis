@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "HappierAfterMovieOrBook",
+  "Label":
+    {
+      "en": "You feel happier after:",
+      "fr": "Tu es plus heureux devant :",
+      "es": "Eres más contento después de:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "AfterBook",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "oZMoTFxxPf8mQ"
+          },
+          "Label":{
+            "en": "a good book",
+            "fr": "un bon livre",
+            "es": "un buen libro"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "AfterMovie",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "pUeXcg80cO8I8"
+          },
+          "Label":{
+            "en": "a good movie",
+            "fr": "un bon film",
+            "es": "una buena película"
+          }
+        }
+      ]
+}
+

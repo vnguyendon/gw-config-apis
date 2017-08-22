@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "TomorrowBetterThanToday",
+  "Label":
+    {
+      "en": "Will tomorrow be better than today:",
+      "fr": "Demain sera meilleur qu'aujourd'hui :",
+      "es": "Mañana será mejor que hoy:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "TomBetter",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTiQywlOn0gKyz0l56"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "TomNotBetter",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTiQywlOn0gKyz0l56"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

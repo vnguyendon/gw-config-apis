@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "BestFoodFrenchOrJapanese",
+  "Label":
+    {
+      "en": "The best food is:",
+      "fr": "La meilleure cuisine est :",
+      "es": "La mejora cocina es:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "FrenchFoodBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "AMKSRvfLEwXlu"
+          },
+          "Label":{
+            "en": "French",
+            "fr": "française",
+            "es": "francesa"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "JapaneseFoodBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "zqtFvnnAUxthS"
+          },
+          "Label":{
+            "en": "Japanese",
+            "fr": "japonaise",
+            "es": "japonesa"
+          }
+        }
+      ]
+}
+
