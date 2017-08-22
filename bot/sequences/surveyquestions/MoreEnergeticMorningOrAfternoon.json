@@ -6,9 +6,9 @@
   "Id": "FeelMoreEnergeticMorningOrAfternoon",
   "Label":
     {
-      "en": "You feel more energetic:",
-      "fr": "Tu as plus d'énergie :",
-      "es": "Tienes más energía por:"
+      "en": "You feel more energetic",
+      "fr": "Tu as plus d'énergie",
+      "es": "Tienes más energía por"
     }
   ,
   "Randomize": "true",
