@@ -4,9 +4,9 @@
   "Id": "HarmonyOrFreedom",
   "Label":
     {
-      "en": "What's most important:",
-      "fr": "C'est quoi le plus important :",
-      "es": "Qué es lo más importante:"
+      "en": "What's most important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
     }
   ,
   "Randomize": "true",
