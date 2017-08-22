@@ -4,8 +4,8 @@
     "Comments":"sending a kitten gif",
     "Label": {
         "en": "Would you like me to show you kittens 😀?",
-        "fr": "Tu veux que je te montre un chaton trop mignon ?",
-        "es": "¿Puedo mostrarte un gatito bonito?"
+        "fr": "Tu veux que je te montre un chaton trop mignon ? 😀",
+        "es": "¿Puedo mostrarte un gatito bonito? 😀"
       },
     "Commands": [
       {
@@ -27,9 +27,9 @@
           "Id": "DidYouLikeIt",
           "Comments":"if yes, then we can show another one!",
           "Label": {
-              "en": "It's so cute, isn't it?",
-              "fr": "Il est vraiment chou, non ?",
-              "es": "¿Es muy lindo, no?"
+              "en": "It's so cute, isn't it? ❤",
+              "fr": "Il est vraiment chou, non ? ❤",
+              "es": "¿Es muy lindo, no? ❤"
             },
           "Commands": [
             {
