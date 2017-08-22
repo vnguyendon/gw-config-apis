@@ -22,9 +22,9 @@
             "Path": "JEhCPFfqi2Hy8"
           },
           "Label":{
-            "en": "a book",
-            "fr": "un livre",
-            "es": "un libro"
+            "en": "a book 📘",
+            "fr": "un livre 📘",
+            "es": "un libro 📘"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "peF2qmsDa7Tvq"
           },
           "Label":{
-            "en": "a movie",
-            "fr": "un film",
-            "es": "una película"
+            "en": "a movie 🎬",
+            "fr": "un film 🎬",
+            "es": "una película 🎬"
           }
         }
       ]
