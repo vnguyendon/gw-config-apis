@@ -4,8 +4,8 @@
   "Id": "DoYouHaveRegrets",
   "Label": {
     "en": "Do you have regrets?",
-    "fr": "Avez-vous des regrets ?",
-    "es": "¿Tiene algún remordimiento?"
+    "fr": "As-tu des regrets ?",
+    "es": "¿Tienes algún remordimiento?"
   },
   "Commands": [
     {
