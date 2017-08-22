@@ -24,9 +24,9 @@
             "Path": "UdoS9OzIS2lgY"
           },
           "Label":{
-            "en": "soccer",
-            "fr": "le foot",
-            "es": "futbol"
+            "en": "soccer ⚽",
+            "fr": "le foot ⚽",
+            "es": "futbol ⚽"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "l41YhmC0hIcAqC3sY"
           },
           "Label":{
-            "en": "basketball",
-            "fr": "le basket",
-            "es": "basquetbol"
+            "en": "basketball 🏀",
+            "fr": "le basket 🏀",
+            "es": "basquetbol 🏀"
           }
         }
       ]
