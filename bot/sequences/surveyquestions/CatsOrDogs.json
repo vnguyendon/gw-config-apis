@@ -5,9 +5,9 @@
   "Id": "CatsOrDogs",
   "Label":
     {
-      "en": "Are you more:",
-      "fr": "Est-ce que tu préfères :",
-      "es": "Te gustan mas:"
+      "en": "Are you more",
+      "fr": "Est-ce que tu préfères",
+      "es": "Te gustan mas"
     }
   ,
   "Randomize": "true",
@@ -23,7 +23,7 @@
             "Path": "MDJ9IbxxvDUQM"
           },
           "Label":{
-            "en": "A cat person",
+            "en": "a cat person",
             "fr": "les chats",
             "es": "los gatos"
           }
@@ -39,7 +39,7 @@
             "Path": "fegzospsGS6Os"
           },
           "Label":{
-            "en": "A dog person",
+            "en": "a dog person",
             "fr": "les chiens",
             "es": "los perros"
           }
