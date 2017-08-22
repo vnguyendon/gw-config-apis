@@ -5,7 +5,7 @@
     "Label": {
         "en": "Are you often late?",
         "fr": "Es-tu souvent en retard?",
-        "es": "¿Está a menudo tarde?"
+        "es": "¿Estás a menudo tarde?"
       },
     "Commands": [
       {
@@ -29,7 +29,7 @@
           "Label": {
               "en": "Can I suggest you messages to send when you're late?",
               "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?",
-              "es": "¿Puedo sugerirle mensajes para enviar cuando llegue tarde?"
+              "es": "¿Puedo sugerirte mensajes para enviar cuando llegues tarde?"
             },
           "Commands": [
             {
