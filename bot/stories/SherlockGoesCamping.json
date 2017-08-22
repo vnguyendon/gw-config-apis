@@ -147,14 +147,14 @@
   ],
   "LinksTo" : {
         "Type": "SetUserProperty",
-        "Id" : "StoryAdvisingAFoolDone",
+        "Id" : "SherlockCampingStoryDone",
         "Label": {
           "en":"Thanks for reading my story!",
           "fr":"Merci d'avoir lu mon histoire !",
           "es":"¡Gracias por leer mi historia!"
         },
          "Parameters" : {
-            "property" : "HuggyStoryAdvisingAFoolDone",
+            "property" : "SherlockCampingStoryDone",
             "value" : "true"
          }
     }
