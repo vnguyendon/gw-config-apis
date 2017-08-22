@@ -39,5 +39,6 @@
       "/bot/sequences/surveyquestions/HappierMovieOrBook.json",
       "/bot/sequences/surveyquestions/HappierDancingOrSinging.json",
       "/bot/sequences/surveyquestions/FrenchOrJapaneseFood.json",
-      "/bot/sequences/surveyquestions/AreYouHappy.json"
+      "/bot/sequences/surveyquestions/AreYouHappy.json",
+      "/bot/sequences/surveyquestions/BrexitWillHappen.json"
 ] 
