@@ -3,7 +3,7 @@
   "Id": "LateBirthday",
   "Label": {
     "en": "Have you forgotten to wish someone a happy birthday recently?",
-    "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un recemment?",
+    "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un récemment?",
     "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente?"
   },
   "Commands": [
