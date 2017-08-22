@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "BrexitWillReallyHappen",
+  "Label":
+    {
+      "en": "Do you think Brexit will really happen:",
+      "fr": "Penses-tu que le Brexit va vraiment avoir lieu :",
+      "es": "Piensas que Brexit va a tener lugar de verdad:"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "BrexitWillHappen",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oriNX4hd1kQH1gr9S"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "BrexitWillNotHappen",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "XcTFzOcRuoQ6Y"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+
