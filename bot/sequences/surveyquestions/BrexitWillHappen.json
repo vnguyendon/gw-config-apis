@@ -6,9 +6,9 @@
   "Id": "BrexitWillReallyHappen",
   "Label":
     {
-      "en": "Do you think Brexit will really happen:",
-      "fr": "Penses-tu que le Brexit va vraiment avoir lieu :",
-      "es": "Piensas que Brexit va a tener lugar de verdad:"
+      "en": "Do you think Brexit will really happen?",
+      "fr": "Penses-tu que le Brexit va vraiment avoir lieu ?",
+      "es": "¿Piensas que Brexit va a tener lugar de verdad?"
     }
   ,
   "Randomize": "true",
