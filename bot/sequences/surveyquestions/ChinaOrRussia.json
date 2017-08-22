@@ -4,9 +4,9 @@
   "Id": "LiveInChinaOrRussia",
   "Label":
     {
-      "en": "Would you rather live in:",
-      "fr": "Tu préférerais vivre en :",
-      "es": "Preferías vivir en:"
+      "en": "Would you rather live in",
+      "fr": "Tu préférerais vivre en",
+      "es": "Preferías vivir en"
     }
   ,
   "Randomize": "true",
