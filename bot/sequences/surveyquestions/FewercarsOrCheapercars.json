@@ -6,9 +6,9 @@
   "Id": "WorldBetterwithFewerCarsOrCheaperCars",
   "Label":
     {
-      "en": "The world would be better with:",
-      "fr": "Le monde serait mieux si les voitures étaient moins :",
-      "es": "El mundo sería mejor si autos eran menos:"
+      "en": "The world would be better with",
+      "fr": "Le monde serait mieux si les voitures étaient moins",
+      "es": "El mundo sería mejor si autos eran menos"
     }
   ,
   "Randomize": "true",
