@@ -6,9 +6,9 @@
   "Id": "LiveInTownOrCountryside",
   "Label":
     {
-      "en": "Would you rather live:",
-      "fr": "Tu préférerais habiter :",
-      "es": "Preferías vivir:"
+      "en": "Would you rather live",
+      "fr": "Tu préférerais habiter",
+      "es": "Preferías vivir"
     }
   ,
   "Randomize": "true",
