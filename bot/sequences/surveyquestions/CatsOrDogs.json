@@ -23,9 +23,9 @@
             "Path": "MDJ9IbxxvDUQM"
           },
           "Label":{
-            "en": "a cat person",
-            "fr": "les chats",
-            "es": "los gatos"
+            "en": "a cat person 🐱",
+            "fr": "les chats 🐱",
+            "es": "los gatos 🐱"
           }
         }
         ,
@@ -39,9 +39,9 @@
             "Path": "fegzospsGS6Os"
           },
           "Label":{
-            "en": "a dog person",
-            "fr": "les chiens",
-            "es": "los perros"
+            "en": "a dog person 🐶",
+            "fr": "les chiens 🐶",
+            "es": "los perros 🐶"
           }
         }
       ]
