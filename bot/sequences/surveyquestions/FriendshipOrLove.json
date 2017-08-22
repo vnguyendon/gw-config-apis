@@ -6,9 +6,9 @@
   "Id": "FriendshipOrLove",
   "Label":
     {
-      "en": "You can't have both. You choose:",
-      "fr": "Tu ne peux pas avoir les deux. Tu choisis :",
-      "es": "No puedes tener los dos. Eliges:"
+      "en": "You can't have both. You choose",
+      "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+      "es": "No puedes tener los dos. Eliges"
     }
   ,
   "Randomize": "true",
