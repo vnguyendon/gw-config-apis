@@ -4,9 +4,9 @@
   "Id": "PlaneOrTrain",
   "Label":
     {
-      "en": "You prefer travelling by:",
-      "fr": "Tu préfère voyager en :",
-      "es": "Prefieres viajar por:"
+      "en": "You prefer travelling by",
+      "fr": "Tu préfère voyager en",
+      "es": "Prefieres viajar por"
     }
   ,
   "Randomize": "true",
