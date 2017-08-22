@@ -6,9 +6,9 @@
   "Id": "TomorrowBetterThanToday",
   "Label":
     {
-      "en": "Will tomorrow be better than today:",
-      "fr": "Demain sera meilleur qu'aujourd'hui :",
-      "es": "Mañana será mejor que hoy:"
+      "en": "Will tomorrow be better than today?",
+      "fr": "Demain sera-t-il meilleur qu'aujourd'hui ?",
+      "es": "¿Mañana será mejor que hoy?"
     }
   ,
   "Randomize": "true",
