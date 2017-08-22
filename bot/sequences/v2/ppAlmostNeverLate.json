@@ -14,9 +14,9 @@
       "Id": "NeverLate",
       "StepValue": "1",
       "Label": {
-        "en": "Never!",
-        "fr": "Jamais!",
-        "es": "Nunca!"
+        "en": "Never! ⏰",
+        "fr": "Jamais! ⏰",
+        "es": "Nunca! ⏰"
       },
       "Parameters": {
         "Property": "ppAlmostNeverLate",
@@ -28,9 +28,9 @@
       "Id": "WithEffort",
       "StepValue": "1",
       "Label": {
-        "en": "Sometimes..",
-        "fr": "Quelques fois..",
-        "es": "A veces.."
+        "en": "Sometimes...😅",
+        "fr": "Quelques fois...😅",
+        "es": "A veces...😅"
       },
       "Parameters": {
         "Property": "ppAlmostNeverLate",
