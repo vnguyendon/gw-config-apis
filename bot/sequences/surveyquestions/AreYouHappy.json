@@ -6,9 +6,9 @@
   "Id": "AreYouHappy",
   "Label":
     {
-      "en": "Are you currently happy:",
-      "fr": "Es-tu heureux en ce moment :",
-      "es": "Eres feliz en estos momentos:"
+      "en": "Are you currently happy?",
+      "fr": "Es-tu heureux en ce moment ?",
+      "es": "¿Eres feliz en estos momentos?"
     }
   ,
   "Randomize": "true",
