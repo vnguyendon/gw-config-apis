@@ -57,7 +57,12 @@
       "/bot/sequences/surveyquestions/HappierDancingOrSinging.json",
       "/bot/sequences/surveyquestions/FrenchOrJapaneseFood.json",
       "/bot/sequences/surveyquestions/AreYouHappy.json",
-      "/bot/sequences/surveyquestions/BrexitWillHappen.json"
+      "/bot/sequences/surveyquestions/BrexitWillHappen.json",
+      "/bot/sequences/surveyquestions/LessCorruptionOrInequality.json",
+      "/bot/sequences/surveyquestions/MeditateYesNo.json",
+      "/bot/sequences/surveyquestions/ThreatChinaOrUS.json",
+      "/bot/sequences/surveyquestions/PaintingOrMusic.json",
+      "/bot/sequences/surveyquestions/RomanticFranceOrItaly.json"
       ]
   }
 ]
