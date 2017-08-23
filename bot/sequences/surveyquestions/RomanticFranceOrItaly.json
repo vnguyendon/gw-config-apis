@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "MoreRomanticFranceOrItaly",
+  "Label":
+    {
+      "en": "Which country is more romantic?",
+      "fr": "Quel pays est le plus romantique ?",
+      "es": "¿Qué país es más romántico?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreRomanticFrance",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UbToNUhGJH2Lu"
+          },
+          "Label":{
+            "en": "France",
+            "fr": "la France",
+            "es": "Francia"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreRomanticItaly",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3ohzdL1pRLsvDGtPeU"
+          },
+          "Label":{
+            "en": "Italy",
+            "fr": "l'Italie",
+            "es": "Italia"
+          }
+        }
+      ]
+}
+

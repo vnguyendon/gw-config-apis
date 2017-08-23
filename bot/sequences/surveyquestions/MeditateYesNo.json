@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "MeditateYesNo",
+  "Label":
+    {
+      "en": "Do you sometimes meditate?",
+      "fr": "Est-ce que tu fais parfois de la méditation ?",
+      "es": "¿A veces haces meditación?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesIMeditate",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "V6hNMWPxi15de"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoIdontmeditate",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "9cFO3bAbUe2w8"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

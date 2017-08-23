@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "PreferPaintingOrMusic",
+  "Label":
+    {
+      "en": "What is your favorite art form?",
+      "fr": "Quel type d'art préfères-tu ?",
+      "es": "¿Qué forma de arte te gusta más?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferPainting",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Ght1eR5pqeQi4"
+          },
+          "Label":{
+            "en": "painting",
+            "fr": "la peinture",
+            "es": "la pintura"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferMusic",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ihhUVdrbwssaA"
+          },
+          "Label":{
+            "en": "music",
+            "fr": "la musique",
+            "es": "la música"
+          }
+        }
+      ]
+}
+

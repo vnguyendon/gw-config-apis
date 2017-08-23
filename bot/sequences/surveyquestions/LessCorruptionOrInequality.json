@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "ImproveCountryLessCorruptionOrInequality",
+  "Label":
+    {
+      "en": "What could improve your country the most is",
+      "fr": "Ce qui améliorerait le plus ton pays, c'est moins",
+      "es": "Lo que mejoraría tu país es menos"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LessCorruption",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "j3x5hjUoXIesM"
+          },
+          "Label":{
+            "en": "less corruption",
+            "fr": "de corruption",
+            "es": "corrupción"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LessInequality",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l0HFkA6omUyjVYqw8"
+          },
+          "Label":{
+            "en": "less inequalities",
+            "fr": "d'inégalités",
+            "es": "desigualdades"
+          }
+        }
+      ]
+}
+

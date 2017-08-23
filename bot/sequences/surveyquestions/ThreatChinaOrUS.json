@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "ThreatChinaOrUS",
+  "Label":
+    {
+      "en": "Which country is a threat to world peace?",
+      "fr": "Quel pays menace la paix dans le monde ?",
+      "es": "¿Qué país amenaza la paz mundial?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ThreatIsChina",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3ohzANpOFHPE9MhVpS"
+          },
+          "Label":{
+            "en": "China",
+            "fr": "la Chine",
+            "es": "China"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "ThreatIsUS",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3osxYcwi3hCVbzNYqY"
+          },
+          "Label":{
+            "en": "the United States",
+            "fr": "les Etats-Unis",
+            "es": "los Estados Unidos"
+          }
+        }
+      ]
+}
+
