@@ -1,19 +1,28 @@
+
 {
-  "FirstLaunch": {
+  "FirstLaunchOniOS": {
     "Provider": "Facebook",
-    "ID": "1727516507493157_1886351058276367"
+    "ID": "1727516507493157_1886351058276367",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": ""
+    }
   },
-  "FirstResumeActivity": {
+ "FirstResumeActivityOniOS": {
     "Provider": "Facebook",
-    "ID": "1727516507493157_1926436580934481"
+    "ID": "1727516507493157_1926436580934481",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": ""
+    }
   },
-  "OtherResumeActivity": {
+  "OtherResumeActivityOniOS": {
     "Provider": "Facebook",
-    "ID": "1727516507493157_1886351148276358"
-  },
-  "CategoriesScroll": {
-    "Provider": "Facebook",
-    "ID": "1727516507493157_1886353001609506"
+    "ID": "1727516507493157_1886351148276358",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": ""
+    }
   },
   "GalleryNative": {
     "Provider": "Facebook",
