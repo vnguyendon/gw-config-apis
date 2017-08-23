@@ -1,0 +1,19 @@
+
+{
+"apps": 
+  [
+    {
+      "title": "Try me, I'm a bot!",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
+      "storeUrl": "https://m.me/QuoteoBot"
+    }
+    ,
+    {
+      "title": "Elite Emoji",
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
+      "storeUrl": "XXX"
+    }
+  ]
+}
+
+
