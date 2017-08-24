@@ -24,9 +24,9 @@
             "Path": "https://img4.hostingpics.net/pics/875688pexelsphoto105032.jpg"
           },
           "Label":{
-            "en": "fewer cars",
-            "fr": "nombreuses",
-            "es": "numerosos"
+            "en": "fewer cars 🚗",
+            "fr": "nombreuses 🚗",
+            "es": "numerosos 🚗"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "https://img4.hostingpics.net/pics/634190badyqb42775.jpg"
           },
           "Label":{
-            "en": "cheaper cars",
-            "fr": "chères",
-            "es": "caros"
+            "en": "cheaper cars 🚙",
+            "fr": "chères 🚙",
+            "es": "caros 🚙"
           }
         }
       ]
