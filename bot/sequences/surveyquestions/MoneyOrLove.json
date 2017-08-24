@@ -4,7 +4,7 @@
   "Id": "MoneyOrLove",
   "Label":
     {
-      "en": "You can have one of them without limite. You choose",
+      "en": "You can have one of them without limit. You choose",
       "fr": "Tu peux l'avoir à l'infini. Tu choisis",
       "es": "Puedes tenerlo al infinito. Eliges"
     }
@@ -22,9 +22,9 @@
             "Path": "pPzjpxJXa0pna"
           },
           "Label":{
-            "en": "money",
-            "fr": "l'argent'",
-            "es": "el dinero"
+            "en": "money 💸",
+            "fr": "l'argent 💸",
+            "es": "el dinero 💸"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "Pd4MXnAkJknHa"
           },
           "Label":{
-            "en": "love",
-            "fr": "l'amour",
-            "es": "el amor"
+            "en": "love 💕",
+            "fr": "l'amour 💕",
+            "es": "el amor 💕"
           }
         }
       ]
