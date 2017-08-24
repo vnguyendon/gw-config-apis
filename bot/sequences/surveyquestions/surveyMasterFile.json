@@ -62,7 +62,12 @@
       "/bot/sequences/surveyquestions/MeditateYesNo.json",
       "/bot/sequences/surveyquestions/ThreatChinaOrUS.json",
       "/bot/sequences/surveyquestions/PaintingOrMusic.json",
-      "/bot/sequences/surveyquestions/RomanticFranceOrItaly.json"
+      "/bot/sequences/surveyquestions/RomanticFranceOrItaly.json",
+      "/bot/sequences/surveyquestions/BlackOrWhite.json",
+      "/bot/sequences/surveyquestions/HolidaysMountainOrSea.json",
+      "/bot/sequences/surveyquestions/LiveInAnotherCountry.json",
+      "/bot/sequences/surveyquestions/MoneyOrLove.json",
+      "/bot/sequences/surveyquestions/MoreImportantPeaceOrFood.json"
       ]
   }
 ]
