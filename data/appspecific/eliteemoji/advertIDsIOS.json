@@ -1,6 +1,6 @@
 
 {
-  "FirstLaunchOniOS": {
+  "FirstLaunch": {
     "Provider": "Facebook",
     "ID": "1727516507493157_1886351058276367",
     "Fallback": {
@@ -8,7 +8,7 @@
       "ID": ""
     }
   },
- "FirstResumeActivityOniOS": {
+ "FirstResumeActivity": {
     "Provider": "Facebook",
     "ID": "1727516507493157_1926436580934481",
     "Fallback": {
@@ -16,7 +16,7 @@
       "ID": ""
     }
   },
-  "OtherResumeActivityOniOS": {
+  "OtherResumeActivity": {
     "Provider": "Facebook",
     "ID": "1727516507493157_1886351148276358",
     "Fallback": {
