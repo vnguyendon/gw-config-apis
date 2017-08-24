@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "PreferBlackOrWhite",
+  "Label":
+    {
+      "en": "Your favorite color between the two is",
+      "fr": "Ta couleur préférée, c'est plus",
+      "es": "Tu color favorito es más"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferBlack",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "RJCHOp6EBRLHO"
+          },
+          "Label":{
+            "en": "black",
+            "fr": "le noir",
+            "es": "el negro"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferWhite",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "hBkJWRznAMLpm"
+          },
+          "Label":{
+            "en": "white",
+            "fr": "le blanc",
+            "es": "el blanco"
+          }
+        }
+      ]
+}
+

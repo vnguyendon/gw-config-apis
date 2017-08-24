@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "MoreImportantPeaceOrFood",
+  "Label":
+    {
+      "en": "What is more important for the world?",
+      "fr": "Ce qui est plus important pour le monde, c'est",
+      "es": "¿Qué es más importante para el mundo?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantPeace",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l4KhNBgG8RaItFkDS"
+          },
+          "Label":{
+            "en": "peace",
+            "fr": "la paix",
+            "es": "la paz"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantFood",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "NatbVZ9NsLwU8"
+          },
+          "Label":{
+            "en": "food",
+            "fr": "la nourriture",
+            "es": "la comida"
+          }
+        }
+      ]
+}
+

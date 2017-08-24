@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "MoneyOrLove",
+  "Label":
+    {
+      "en": "You can have one of them without limite. You choose",
+      "fr": "Tu peux l'avoir à l'infini. Tu choisis",
+      "es": "Puedes tenerlo al infinito. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Money",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "pPzjpxJXa0pna"
+          },
+          "Label":{
+            "en": "money",
+            "fr": "l'argent'",
+            "es": "el dinero"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Love",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Pd4MXnAkJknHa"
+          },
+          "Label":{
+            "en": "love",
+            "fr": "l'amour",
+            "es": "el amor"
+          }
+        }
+      ]
+}
+

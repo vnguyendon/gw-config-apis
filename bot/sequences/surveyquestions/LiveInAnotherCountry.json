@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "LiveInAnotherCountry",
+  "Label":
+    {
+      "en": "Would you rather live in another country?",
+      "fr": "Est-ce que tu aimerais vivre dans un autre pays ?",
+      "es": "¿Querías vivir en otro país?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesLiveInAnotherCountry",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "5xtDarqCp0eomZaFJW8"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotLiveInAnotherCountry",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26tPaBeEc1XtBx04w"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "HolidaysBytheSeaOrIntheMountains",
+  "Label":
+    {
+      "en": "Your prefer going on holidays",
+      "fr": "Tu préfères aller en vacances",
+      "es": "Prefieres ir de vacaciones"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferHolidaysBytheSea",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "WWYSFIZo4fsLC"
+          },
+          "Label":{
+            "en": "by the sea",
+            "fr": "à la mer",
+            "es": "al mar"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferHolidaysIntheMountains",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "7p0qZOxUe5cIM"
+          },
+          "Label":{
+            "en": "in the mountains",
+            "fr": "à la montagne",
+            "es": "a la montaña"
+          }
+        }
+      ]
+}
+
