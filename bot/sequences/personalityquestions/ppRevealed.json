@@ -12,7 +12,7 @@
     "Label": {
       "en":"Here is your psychological profile. Does that sound like you?",
       "fr":"Voici ton profil psychologique. Est-ce qu'il te ressemble?",
-      "es":"TBD"
+      "es":"Aquí está tu perfil psicológico. ¿Se parece a ti?"
     },
     "Randomize": "true",
     "Commands":
@@ -22,9 +22,9 @@
           "Id" : "RightProfile",
           "StepValue" : "1",
           "Label":{
-            "en":"It sounds like me",
-            "fr":"C'est tout moi",
-            "es":"TBD"
+            "en":"Yes",
+            "fr":"Oui",
+            "es":"Si"
           },
           "Parameters" : {
              "property" : "PsychologicalProfile",
@@ -36,8 +36,8 @@
           "Id" : "WrongProfile",
           "StepValue" : "1",
           "Label":{
-              "en":"No, that doesn't sound like me",
-              "fr":"Non, je ne me reconnais pas",
+              "en":"No",
+              "fr":"Non",
               "es":"No"
           }
         }
