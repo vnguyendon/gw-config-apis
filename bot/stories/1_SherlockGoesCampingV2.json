@@ -1,0 +1,166 @@
+{
+  "Type":"Story",
+  "Id":"SherlockCampingStory",
+  "Label":{
+    "en":"Sherlock Holmes and Dr Watson go camping",
+    "fr":"Sherlock Holmes et Dr Watson partent camper",
+    "es":"Sherlock Holmes y Dr Watson van a acampar"
+  },
+  "Comment":"taken from http://www.sunnyskyz.com/funny-jokes/20/Sherlock-Holmes-and-Dr-Watson-Go-Camping",
+  "Commands": [
+      {
+        "Type": "ContinueSerie",
+        "Id": "ContinueYes",
+        "Label":
+          {
+            "en": "And then...?",
+            "fr": "Et alors...?",
+            "es": "¿Y después...?"
+          }
+      },
+      {
+        "Type": "ContinueSerie",
+        "Id": "ContinueNo",
+        "Label":
+          {
+            "en": "No, thank you",
+            "fr": "Non merci",
+            "es": "No, gracias"
+          }
+      }
+  ],
+  "Steps":[
+    {
+      "OrderId":"10",
+      "Type":"Text",
+      "Label":{
+        "en":"Sherlock Holmes and Dr. Watson decide to go on a camping trip. After dinner and a bottle of wine, they lay down for the night, and go to sleep.",
+	"fr":"Sherlock Holmes et le Dr Watson décident de partir camper. Après avoir dîné et bu une bouteille de vin, ils se préparent pour la nuit et vont dormir.",
+	"es":"Sherlock Holmes y el Dr Watson deciden de ir a acampar. Después de haber cenado y tomado una botella de vino, se preparan y van a dormir."      
+      },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"20",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "6wqxZkxZfDTfG"
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"30",
+      "Type":"Text",
+      "Label":{
+        "en":"Some hours later, Holmes awoke and nudged his faithful friend. \n \"Watson, look up at the sky and tell me what you see.\"",
+	"fr":"Quelques heures plus tard, Holmes se réveille et secoue son fidèle acolyte. \n - Watson, regarde le ciel et dis-moi ce que tu vois.",
+	"es":"Unas horas más tarde, Holmes despierta y despierta también a su fiel compañero. \n -Watson, mira el cielo y dime ¿qué ves?" 
+      },
+      "Wait":"Yes"
+    },
+    {"OrderId":"35",
+     "Type":"Text",
+     "Label":{
+         "en":"Watson replied, \"I see millions of stars.\"",
+         "fr":"- Je vois des millions d'étoiles, répond Watson.",
+         "es":"-Veo millones de estrellas, responde Watson."
+     },
+     "Wait":"No"
+    },
+    {
+      "OrderId":"40",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "GC7C2Fi902BDG"  
+	  },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"50",
+      "Type":"Text",
+      "Label":{
+        "en":"\"What does that tell you?\" asked Sherlock.",
+	"fr":"- Et qu'est-ce que cela signifie ? demande Sherlock Holmes.",
+	"es":"- ¿Y qué significa eso? pregunta Sherlock Holmes."
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"60",
+      "Type":"Text",
+      "Label":{
+        "en":"Watson pondered for a minute.",
+	"fr":"Watson réfléchit un moment.",
+	"es":"Watson piensa un momento."
+      },
+      "Wait":"No"
+    },
+    {	  
+        "OrderId":"65",
+        "Type":"Image",
+        "Source":{
+          "Type": "Image",
+          "Source": "Internal",
+          "Path": "/specialoccasions/good-night/default/small/iStock_000043400332_Medium.jpg"
+        },
+        "Wait":"Yes"
+    },
+    {
+      "OrderId":"70",
+      "Type":"Text",
+      "Label":{
+        "en":"\"Astronomically, it tells me that there are millions of galaxies and potentially billions of planets.\" \n \"Astrologically, I observe that Saturn is in Leo.\" \n \"Horologically, I deduce that the time is approximately a quarter past three.\" \n \"Theologically, I can see that God is all powerful and that we are small and insignificant.\" \n \"Meteorologically, I suspect that we will have a beautiful day tomorrow.\"",
+	"fr":"- D'un point de vue astronomique, cela signifie qu'il y a des millions de galaxies et potentiellement des milliards de planètes. \n D'un point de vue astrologique, j'observe que Saturne est en Lion. \n D'un point de vue temporel, j'en déduis qu'il est environ trois heures et quart. \n D'un point de vue théologique, je peux voir que Dieu est puissant et que nous sommes insignifiants. \n D'un point de vue météorologique, je pense qu'il fera très beau demain.",
+	"es":"- Desde un punto de vista astronómico, se puede deducir que hay millones de galaxias y potencialmente millones de planetas. \n Desde el punto de vista de la astrología, se puede observar a Saturno en Leo. \n Desde un punto de vista temporal, se deduce que son más o menos las 3:15am. \n Desde la teología, podría decirse que Dios es poderoso y que nosotros somos insignificantes. \n Desde un análisis meteorológico, creo que mañana habrá buen clima." 
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"80",
+      "Type":"Text",
+      "Label":{
+        "en":"\"What does it tell you, Holmes?\"",
+	"fr":"- Et selon toi, qu'est-ce que cela signifie, Holmes ?",
+	"es":"¿Y según tu? ¿qué significa?"
+      },
+      "Wait":"No"
+    },
+    {	  
+      "OrderId":"90",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "eTVG7eVNnud8Y"
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"100",
+      "Type":"Text",
+      "Label":{
+        "en":"Holmes was silent for a minute, then spoke: \"Watson, you idiot. Someone has stolen our tent!\"",
+	"fr":"Holmes ne dit rien pendant une minute, puis prend la parole : \"Watson, pauvre idiot. On s'est fait voler notre tente !\"",
+	"es":"Holmes no dice nada durante un minuto y después habla : ¡Watson, idiota. Nos robaron la carpa!"
+      },
+      "Wait":"Yes"
+    }
+  ],
+  "LinksTo" : {
+        "Type": "SetUserProperty",
+        "Id" : "StoryAdvisingAFoolDone",
+        "Label": {
+          "en":"Thanks for reading my story!",
+          "fr":"Merci d'avoir lu mon histoire !",
+          "es":"¡Gracias por leer mi historia!"
+        },
+         "Parameters" : {
+            "property" : "HuggyStoryAdvisingAFoolDone",
+            "value" : "true"
+         }
+    }
+}
