@@ -218,12 +218,11 @@
           "value": "Start"
         },
         {
-          
           "culture": "es-ES",
           "value": "Empezar"
         }
       ],
-      "alternates": [ "hi", "hello", "bonjour", "ola","start"]
+      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias" ]
     }
   ],
   "intentions": [
@@ -244,7 +243,7 @@
           "value": "Consolado"
         }
       ],
-      "alternates": [ "bof", "depressed" ]
+      "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée" ]
     },
     {
       "key": "A64962",
@@ -302,7 +301,7 @@
         }
         
       ],
-      "alternates": [ "laugh","jokes","rire","blague" ]
+      "alternates": [ "laugh", "jokes", "rire", "blague", "reir", "drole", "drôle", "funny", "divertido", "gracioso" ]
     },
     {
       "key": "2E2986",
@@ -321,7 +320,7 @@
           "value": "Cuéntame de ti"
         }
       ],
-      "alternates": [ "status", "statut", "statuto" ]
+      "alternates": [ "status", "statut", "statuto", "estado" ]
     },
     {
       "key": "43B296",
@@ -378,7 +377,7 @@
           "value": "Estoy enamorado"
         }
       ],
-      "alternates": [ "love", "amour", "chérie" ]
+      "alternates": [ "love", "amour", "chérie", "amor", "enamorado", "enamorada", "chéri", "amoureux", "amoureuse" ]
     },
     {
       "key": "67CC40",
@@ -397,7 +396,8 @@
           "culture": "es-ES",
           "value": "Anímame"
         }
-      ]
+      ],
+      "alternates": [ "positive", "positivo", "luck", "positives", "positif", "chance" ]
     },
     {
       "key": "8ED62C",
@@ -451,7 +451,8 @@
           "culture": "es-ES",
           "value": "¡Buenas noches!"
         }
-      ]
+      ],
+      "alternates": [ "dormir", "sleep", "cama", "lit", "bed" ]
     }
   ]
 }
