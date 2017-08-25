@@ -204,7 +204,7 @@
           "value": "Me siento afortunado"
         }
       ],
-      "alternates": [ "lucky", "tengo suerte" ]
+      "alternates": [ "lucky", "tengo suerte", "chanceux", "chanceuse" ]
     },
     {
       "key": "start",
@@ -222,7 +222,7 @@
           "value": "Empezar"
         }
       ],
-      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias" ]
+      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias", "hey", "holla", "bjr", "coucou", "salut", "slt", "heyy", "cc", "helo", "let's go", "lets go" ]
     }
   ],
   "intentions": [
@@ -243,7 +243,7 @@
           "value": "Consolado"
         }
       ],
-      "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée" ]
+      "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée", "unhappy", "malheureux", "infeliz" ]
     },
     {
       "key": "A64962",
@@ -281,7 +281,7 @@
         }
         
       ],
-      "alternates": [ "fun" ]
+      "alternates": [ "fun", "enojado", "énervé", "énervée", "angry", "enojada", "colère", "colere", "boude", "bouder", "grumpy", "fâché", "fâchée", "faché" ]
     },
     {
       "key": "0B1EA1",
@@ -301,7 +301,7 @@
         }
         
       ],
-      "alternates": [ "laugh", "jokes", "rire", "blague", "reir", "drole", "drôle", "funny", "divertido", "gracioso" ]
+      "alternates": [ "laugh", "jokes", "rire", "blague", "reir", "drole", "drôle", "funny", "divertido", "gracioso", "lol", "lmao", "mdr", "joke", "humour", "humoroso" ]
     },
     {
       "key": "2E2986",
@@ -320,7 +320,7 @@
           "value": "Cuéntame de ti"
         }
       ],
-      "alternates": [ "status", "statut", "statuto", "estado" ]
+      "alternates": [ "status", "statut", "statuto", "estado", "humeur", "mood" ]
     },
     {
       "key": "43B296",
@@ -377,7 +377,7 @@
           "value": "Estoy enamorado"
         }
       ],
-      "alternates": [ "love", "amour", "chérie", "amor", "enamorado", "enamorada", "chéri", "amoureux", "amoureuse" ]
+      "alternates": [ "love", "amour", "chérie", "amor", "enamorado", "enamorada", "chéri", "amoureux", "amoureuse", "amur", "lov", "luv", "querido", "querida", "novio", "novia" ]
     },
     {
       "key": "67CC40",
@@ -397,7 +397,7 @@
           "value": "Anímame"
         }
       ],
-      "alternates": [ "positive", "positivo", "luck", "positives", "positif", "chance" ]
+      "alternates": [ "positive", "positivo", "luck", "positives", "positif", "chance", "positivas", "positiva", "suerte", "oportunidad" ]
     },
     {
       "key": "8ED62C",
@@ -452,7 +452,7 @@
           "value": "¡Buenas noches!"
         }
       ],
-      "alternates": [ "dormir", "sleep", "cama", "lit", "bed" ]
+      "alternates": [ "dormir", "sleep", "cama", "lit", "bed", "asleep", "durmiendo", "durmir", "dorme" ]
     }
   ]
 }
