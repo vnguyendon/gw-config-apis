@@ -14,7 +14,7 @@
   },
     "Commands": [
       {
-        "Type": "ContinueSerie",
+        "Type": "ContinueStory",
         "Id": "ContinueYes",
         "Label":
           {
@@ -24,7 +24,7 @@
           }
       },
       {
-        "Type": "ContinueSerie",
+        "Type": "DoNothing",
         "Id": "ContinueNo",
         "Label":
           {
