@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "HealthOrIntelligence",
+  "Label":
+    {
+      "en": "You can't have both. You choose",
+      "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+      "es": "No puedes tener los dos. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ChooseHealthoverIntelligence",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Qgk3kAj2ihva"
+          },
+          "Label":{
+            "en": "health",
+            "fr": "la santé",
+            "es": "la salud"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "ChooseIntelligenceoverHealth",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "IFDOyAbgphtfy"
+          },
+          "Label":{
+            "en": "intelligence",
+            "fr": "l'intelligence'",
+            "es": "la inteligencia"
+          }
+        }
+      ]
+}
+

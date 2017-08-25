@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "BeatlesOrRollingStones",
+  "Label":
+    {
+      "en": "Which music band do you prefer?",
+      "fr": "Quel groupe préfères-tu ?",
+      "es": "¿Qué grupo prefieres?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferBeatles",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UnwBk1HYViSuA"
+          },
+          "Label":{
+            "en": "the Beatles",
+            "fr": "les Beatles",
+            "es": "los Beatles"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferRollingstones",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12DW8WAUUqeCKk"
+          },
+          "Label":{
+            "en": "the Rolling Stones",
+            "fr": "les Rolling Stones",
+            "es": "los Rolling Stones"
+          }
+        }
+      ]
+}
+

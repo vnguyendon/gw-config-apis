@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WhalesOrPolarbears",
+  "Label":
+    {
+      "en": "You can only save one species. You choose",
+      "fr": "Tu ne peux sauver qu'une seule espèce. Tu choisis",
+      "es": "Sólo puedes salvar una especie. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "SaveWhales",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "oQrDJWNObwF2M"
+          },
+          "Label":{
+            "en": "whales",
+            "fr": "les baleines",
+            "es": "ballenas"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PolarBears",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "fSHgyXYXy8Sd2"
+          },
+          "Label":{
+            "en": "polar bears",
+            "fr": "les ours polaires",
+            "es": "osos polares"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "NoChildrenOr6Children",
+  "Label":
+    {
+      "en": "You prefer to have",
+      "fr": "Combien d'enfants préfères-tu avoir?",
+      "es": "¿Cuantos niños prefieres tener?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "NoChildren",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "axu6dFuca4HKM"
+          },
+          "Label":{
+            "en": "no children",
+            "fr": "aucun",
+            "es": "ningún"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "6Children",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "dkwk6IVzmhTig"
+          },
+          "Label":{
+            "en": "6 children",
+            "fr": "6",
+            "es": "6"
+          }
+        }
+      ]
+}
+
