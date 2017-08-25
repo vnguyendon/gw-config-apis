@@ -22,9 +22,9 @@
             "Path": "UKm1AF0UrCkb6"
           },
           "Label":{
-            "en": "in a car",
-            "fr": "voiture",
-            "es": "coche"
+            "en": "in a car 🚘",
+            "fr": "voiture 🚘",
+            "es": "coche 🚘"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "GoWH9YV4t3n4Q"
           },
           "Label":{
-            "en": "on a bike",
-            "fr": "vélo",
-            "es": "bicicleta"
+            "en": "on a bike 🚲",
+            "fr": "vélo 🚲",
+            "es": "bicicleta 🚲"
           }
         }
       ]
