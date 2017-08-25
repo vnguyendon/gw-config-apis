@@ -4,9 +4,9 @@
   "Id": "BeatlesOrRollingStones",
   "Label":
     {
-      "en": "Which music band do you prefer?",
-      "fr": "Quel groupe préfères-tu ?",
-      "es": "¿Qué grupo prefieres?"
+      "en": "Which music band do you prefer? 🎶",
+      "fr": "Quel groupe préfères-tu ? 🎶",
+      "es": "¿Qué grupo prefieres? 🎶"
     }
   ,
   "Randomize": "true",
