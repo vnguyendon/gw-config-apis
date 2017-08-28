@@ -5,7 +5,7 @@
     "ID": "1727516507493157_1886351058276367",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/7613878055"
     }
   },
  "FirstResumeActivity": {
@@ -13,7 +13,7 @@
     "ID": "1727516507493157_1926436580934481",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/4165587637"
     }
   },
   "OtherResumeActivity": {
@@ -21,7 +21,7 @@
     "ID": "1727516507493157_1886351148276358",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": ""
+      "ID": "ca-app-pub-7822741681642396/9034770936"
     }
   },
   "GalleryNative": {
