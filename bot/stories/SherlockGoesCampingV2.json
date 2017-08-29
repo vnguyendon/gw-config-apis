@@ -205,16 +205,6 @@
 	"fr":"- Et selon toi, qu'est-ce que cela signifie, Holmes ?",
 	"es":"¿Y según tu? ¿qué significa?"
       },
-      "Wait":"No"
-    },
-    {	  
-      "OrderId":"90",
-      "Type":"Image",
-      "Source":{
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "eTVG7eVNnud8Y"
-      },
       "Wait":"Yes"
     },
     {
