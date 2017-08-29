@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "DoYouBelieveInAliens",
+  "Label":
+    {
+      "en": "Do you believe in aliens?",
+      "fr": "Tu crois aux extraterrestres ?",
+      "es": "¿Crees en extraterrestres?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesBelieveInAliens",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "14jRWmyHsokyOY"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoDontBelieveInAliens",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "A0rPB4djn7hzG"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

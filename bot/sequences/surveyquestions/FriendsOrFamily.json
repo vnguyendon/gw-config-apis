@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "FriendsOrFamily",
+  "Label":
+    {
+      "en": "What's most important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantFriends",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3o7TKuuvlqt1wXGxGM"
+          },
+          "Label":{
+            "en": "friends",
+            "fr": "les amis",
+            "es": "los amigos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantFamily",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "VzQ9PUdifClRm"
+          },
+          "Label":{
+            "en": "family",
+            "fr": "la famille",
+            "es": "la familia"
+          }
+        }
+      ]
+}
+

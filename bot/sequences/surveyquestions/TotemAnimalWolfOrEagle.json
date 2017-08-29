@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "TotemAnimalWolfOrEagle",
+  "Label":
+    {
+      "en": "You must choose a totem animal. It is",
+      "fr": "Tu dois choisir un animal totem. C'est",
+      "es": "Tienes que elegir un animal tótem. Es"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "TotemAnimalWolf",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "yWQNG57XtqasM"
+          },
+          "Label":{
+            "en": "a wolf",
+            "fr": "un loup",
+            "es": "un lobo"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "TotemAnimalEagle",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Qz7VpOlWMXYAM"
+          },
+          "Label":{
+            "en": "an eagle",
+            "fr": "un aigle",
+            "es": "un águila"
+          }
+        }
+      ]
+}
+

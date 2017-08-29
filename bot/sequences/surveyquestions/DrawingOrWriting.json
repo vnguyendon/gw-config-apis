@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "EmotionsBetterExpressedDrawingOrWriting",
+  "Label":
+    {
+      "en": "You express your emotions better through",
+      "fr": "Tu exprimes mieux tes émotions en",
+      "es": "Expresas mejor tus emociones"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "EmotionsBetterExpressedDrawing",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oz8xTUmZABI3PGwDe"
+          },
+          "Label":{
+            "en": "drawing",
+            "fr": "dessinant",
+            "es": "dibujando"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "EmotionsBetterExpressedWriting",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ToMjGpohsHI02mXvC80"
+          },
+          "Label":{
+            "en": "writing",
+            "fr": "écrivant",
+            "es": "escribiendo"
+          }
+        }
+      ]
+}
+

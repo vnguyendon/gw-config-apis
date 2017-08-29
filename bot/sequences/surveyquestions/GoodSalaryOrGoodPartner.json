@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "MoreHappinessSalaryOrPartner",
+  "Label":
+    {
+      "en": "What brings more happiness is a good",
+      "fr": "Ce qui rend le plus heureux, c'est un bon",
+      "es": "Lo que te hace más feliz es"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreHappinessGoodSalary",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12gcFJY9LEi6zu"
+          },
+          "Label":{
+            "en": "salary",
+            "fr": "salaire",
+            "es": "un bueno salario"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreHappinessGoodPartner",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l0HlGRDhPTqVEvhCw"
+          },
+          "Label":{
+            "en": "partner",
+            "fr": "couple",
+            "es": "una buena pareja"
+          }
+        }
+      ]
+}
+
