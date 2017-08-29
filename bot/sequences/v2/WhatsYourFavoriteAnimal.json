@@ -3,8 +3,8 @@
   "Id": "WhatsYourFavoriteAnimal",
   "Label": {
     "en": "What are your favorite animals?",
-    "fr": "Quel sont tes animaux préférés ?",
-    "es": "¿Qué son tus animales favoritos?"
+    "fr": "Quels sont tes animaux préférés ?",
+    "es": "¿Cuales son tus animales favoritos?"
   },
   "Commands": [
     {
