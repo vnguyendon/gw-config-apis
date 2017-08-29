@@ -72,7 +72,12 @@
       "/bot/sequences/surveyquestions/CarOrBike.json",
       "/bot/sequences/surveyquestions/HealthOrIntelligence.json",
       "/bot/sequences/surveyquestions/NoChildrenOr6Children.json",
-      "/bot/sequences/surveyquestions/WhalesOrPolarbears.json"
+      "/bot/sequences/surveyquestions/WhalesOrPolarbears.json",
+      "/bot/sequences/surveyquestions/GoodSalaryOrGoodPartner.json",
+      "/bot/sequences/surveyquestions/BelieveinAliens.json",
+      "/bot/sequences/surveyquestions/TotemAnimalWolfOrEagle.json",
+      "/bot/sequences/surveyquestions/DrawingOrWriting.json",
+      "/bot/sequences/surveyquestions/FriendsOrFamily.json"
       ]
   }
 ]
