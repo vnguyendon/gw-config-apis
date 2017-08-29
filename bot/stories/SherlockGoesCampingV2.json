@@ -111,9 +111,89 @@
       "OrderId":"70",
       "Type":"Text",
       "Label":{
-        "en":"\"Astronomically, it tells me that there are millions of galaxies and potentially billions of planets.\" \n \"Astrologically, I observe that Saturn is in Leo.\" \n \"Horologically, I deduce that the time is approximately a quarter past three.\" \n \"Theologically, I can see that God is all powerful and that we are small and insignificant.\" \n \"Meteorologically, I suspect that we will have a beautiful day tomorrow.\"",
-	"fr":"- D'un point de vue astronomique, cela signifie qu'il y a des millions de galaxies et potentiellement des milliards de planètes. \n D'un point de vue astrologique, j'observe que Saturne est en Lion. \n D'un point de vue temporel, j'en déduis qu'il est environ trois heures et quart. \n D'un point de vue théologique, je peux voir que Dieu est puissant et que nous sommes insignifiants. \n D'un point de vue météorologique, je pense qu'il fera très beau demain.",
-	"es":"- Desde un punto de vista astronómico, se puede deducir que hay millones de galaxias y potencialmente millones de planetas. \n Desde el punto de vista de la astrología, se puede observar a Saturno en Leo. \n Desde un punto de vista temporal, se deduce que son más o menos las 3:15am. \n Desde la teología, podría decirse que Dios es poderoso y que nosotros somos insignificantes. \n Desde un análisis meteorológico, creo que mañana habrá buen clima." 
+        "en":"\"Astronomically, it tells me that there are millions of galaxies and potentially billions of planets.\"",
+	"fr":"- D'un point de vue astronomique, cela signifie qu'il y a des millions de galaxies et potentiellement des milliards de planètes.",
+	"es":"- Desde un punto de vista astronómico, se puede deducir que hay millones de galaxias y potencialmente millones de planetas." 
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"71",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "lBP3tG76NPGN2"  
+	  },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"72",
+      "Type":"Text",
+      "Label":{
+        "en":"\"Astrologically, I observe that Saturn is in Leo.\"",
+	"fr":"D'un point de vue astrologique, j'observe que Saturne est en Lion.",
+	"es":"Desde el punto de vista de la astrología, se puede observar a Saturno en Leo." 
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"73",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "vPSH11AKvnT8Y"  
+	  },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"74",
+      "Type":"Text",
+      "Label":{
+        "en":"\"Horologically, I deduce that the time is approximately a quarter past three.\"",
+	"fr":"D'un point de vue temporel, j'en déduis qu'il est environ trois heures et quart.",
+	"es":"Desde un punto de vista temporal, se deduce que son más o menos las 3:15am." 
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"75",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "KJiy5MErTIj4c"  
+	  },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"76",
+      "Type":"Text",
+      "Label":{
+        "en":"\"Theologically, I can see that God is all powerful and that we are small and insignificant.\"",
+	"fr":"D'un point de vue théologique, je peux voir que Dieu est puissant et que nous sommes insignifiants.",
+	"es":"Desde la teología, podría decirse que Dios es poderoso y que nosotros somos insignificantes." 
+      },
+      "Wait":"Yes"
+    },
+    {
+      "OrderId":"77",
+      "Type":"Image",
+      "Source":{
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "m5oQabBdoOye4"  
+	  },
+      "Wait":"No"
+    },
+    {
+      "OrderId":"78",
+      "Type":"Text",
+      "Label":{
+        "en":"\"Meteorologically, I suspect that we will have a beautiful day tomorrow.\"",
+	"fr":"D'un point de vue météorologique, je pense qu'il fera très beau demain.",
+	"es":"Desde un análisis meteorológico, creo que mañana habrá buen clima." 
       },
       "Wait":"Yes"
     },
@@ -121,7 +201,7 @@
       "OrderId":"80",
       "Type":"Text",
       "Label":{
-        "en":"\"What does it tell you, Holmes?\"",
+        "en":"\"What does it tell YOU, Holmes?\"",
 	"fr":"- Et selon toi, qu'est-ce que cela signifie, Holmes ?",
 	"es":"¿Y según tu? ¿qué significa?"
       },
