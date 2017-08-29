@@ -7,6 +7,7 @@
     "es":"Sherlock Holmes y Dr Watson van a acampar"
   },
   "Comment":"taken from http://www.sunnyskyz.com/funny-jokes/20/Sherlock-Holmes-and-Dr-Watson-Go-Camping",
+    "ContinueQuestion":{ },
     "Commands": [
       {
         "Type": "ContinueStory",
@@ -75,7 +76,7 @@
       "Source":{
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "GC7C2Fi902BDG"  
+        "Path": "lqiIee2J8QwYU"  
 	  },
       "Wait":"Yes"
     },
@@ -102,11 +103,8 @@
     {	  
         "OrderId":"65",
         "Type":"Image",
-        "Source":{
-          "Type": "Image",
-          "Source": "Internal",
-          "Path": "/specialoccasions/good-night/default/small/iStock_000043400332_Medium.jpg"
-        },
+        "Source":"External",
+        "Path": "https://img11.hostingpics.net/pics/596024Sherlock1.jpg"
         "Wait":"Yes"
     },
     {
