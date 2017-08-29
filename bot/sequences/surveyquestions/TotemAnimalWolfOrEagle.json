@@ -22,9 +22,9 @@
             "Path": "yWQNG57XtqasM"
           },
           "Label":{
-            "en": "a wolf",
-            "fr": "un loup",
-            "es": "un lobo"
+            "en": "a wolf 🐺",
+            "fr": "un loup 🐺",
+            "es": "un lobo 🐺"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "Qz7VpOlWMXYAM"
           },
           "Label":{
-            "en": "an eagle",
-            "fr": "un aigle",
-            "es": "un águila"
+            "en": "an eagle 🦅",
+            "fr": "un aigle 🦅",
+            "es": "un águila 🦅"
           }
         }
       ]
