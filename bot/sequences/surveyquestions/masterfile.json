@@ -62,5 +62,10 @@
       "/bot/sequences/surveyquestions/BelieveinAliens.json",
       "/bot/sequences/surveyquestions/TotemAnimalWolfOrEagle.json",
       "/bot/sequences/surveyquestions/DrawingOrWriting.json",
-      "/bot/sequences/surveyquestions/FriendsOrFamily.json"
+      "/bot/sequences/surveyquestions/FriendsOrFamily.json",
+      "/bot/sequences/surveyquestions/CheeseOrDessert.json",
+      "/bot/sequences/surveyquestions/GetRidOfPollutionorMosquitoes.json",
+      "/bot/sequences/surveyquestions/HavingChildrenImproveLife.json",
+      "/bot/sequences/surveyquestions/JapanOrUSA.json",
+      "/bot/sequences/surveyquestions/NapOrWorkout.json"
 ] 
