@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "HavingChildrenImproveQualityofLife",
+  "Label":
+    {
+      "en": "Does having children improve quality of life?",
+      "fr": "Est-ce qu'avoir des enfants améliore la qualité de vie ?",
+      "es": "¿Tener niños mejora la calidad de vida?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesChildrenImproveQualityofLife",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "kRoDIvG3Yez28"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoChildrenDontImproveQualityofLife",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Ki9ZNTNS7aC9q"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

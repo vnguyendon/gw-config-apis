@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "GetRidOfPollutionOrMosquitoes",
+  "Label":
+    {
+      "en": "It is more important to get rid of",
+      "fr": "C'est plus important de se débarrasser",
+      "es": "Es más importante terminar con"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "GetRidOfPollution",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "10aADbYxnJlc9q"
+          },
+          "Label":{
+            "en": "pollution",
+            "fr": "de la pollution",
+            "es": "la contaminación"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "GetRidOfMosquitoes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l0ErKKs7DkmeYIeQg"
+          },
+          "Label":{
+            "en": "mosquitoes",
+            "fr": "des moustiques",
+            "es": "los zancudos"
+          }
+        }
+      ]
+}
+

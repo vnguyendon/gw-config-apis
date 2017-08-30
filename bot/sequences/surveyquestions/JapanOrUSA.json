@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "LiveInJapanOrUS",
+  "Label":
+    {
+      "en": "Would you rather live in",
+      "fr": "Tu préférerais vivre",
+      "es": "Preferirías vivir en"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LiveinJapan",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTiTndRhkTeDSUEgak"
+          },
+          "Label":{
+            "en": "Japan",
+            "fr": "au Japon",
+            "es": "Japon"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LiveintheUS",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Z416D7PjPndLi"
+          },
+          "Label":{
+            "en": "the US",
+            "fr": "aux US",
+            "es": "EE.UU."
+          }
+        }
+      ]
+}
+

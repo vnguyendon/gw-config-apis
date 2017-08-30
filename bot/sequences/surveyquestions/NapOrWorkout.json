@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "FeelHappierAfterNapOrWorkout",
+  "Label":
+    {
+      "en": "You feel happier after a good",
+      "fr": "Tu te sens mieux après une bonne",
+      "es": "Te sientes más feliz después de una buena"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "HappierAfterNap",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "GvMSpPx44XlFm"
+          },
+          "Label":{
+            "en": "nap",
+            "fr": "sieste",
+            "es": "siesta"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "HappierAfterWorkout",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "5EJHDSPpFhbG0"
+          },
+          "Label":{
+            "en": "workout",
+            "fr": "séance de sport",
+            "es": "sesión de deporte"
+          }
+        }
+      ]
+}
+

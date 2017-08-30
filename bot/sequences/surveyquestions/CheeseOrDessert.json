@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "CheeseOrDessert",
+  "Label":
+    {
+      "en": "Cheese or dessert?",
+      "fr": "Fromage ou dessert ?",
+      "es": "¿Queso o postre?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Cheese",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UtvkbCvOJCJtC"
+          },
+          "Label":{
+            "en": "cheese",
+            "fr": "fromage",
+            "es": "queso"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Dessert",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "AGGz7y0rCYxdS"
+          },
+          "Label":{
+            "en": "dessert",
+            "fr": "dessert",
+            "es": "postre"
+          }
+        }
+      ]
+}
+
