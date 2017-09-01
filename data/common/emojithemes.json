@@ -3,35 +3,189 @@
 "Themes":
 [
   { 
-  "Path" : "",
-  "DefaultImage" : "",
+  "Path" : "/themes/emojiBlue/small",
+  "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
   "Labels":
    {
-    "en": "",
-    "fr": "",
-    "es": ""
+    "en": "blue",
+    "fr": "bleu",
+    "es": "azul"
     }
   }
   ,
   { 
-  "Path" : "",
-  "DefaultImage" : "",
+  "Path" : "/themes/emojiBubble/small",
+  "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
   "Labels":
    {
-    "en": "",
-    "fr": "",
-    "es": ""
+    "en": "in a bubble",
+    "fr": "dans une bulle",
+    "es": "en un globo"
     }
   }
   ,  
   { 
-  "Path" : "",
-  "DefaultImage" : "",
+  "Path" : "/themes/emojiGirlie/small",
+  "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
   "Labels":
    {
-    "en": "",
-    "fr": "",
-    "es": ""
+    "en": "black and white",
+    "fr": "noir et blanc",
+    "es": "blanco y negro"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiCats/small",
+  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
+  "Labels":
+   {
+    "en": "cat",
+    "fr": "chat",
+    "es": "gato"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiHandDrawn/small",
+  "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
+  "Labels":
+   {
+    "en": "hand drawn",
+    "fr": "crayonné",
+    "es": "dibujado"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiNeon/small",
+  "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
+  "Labels":
+   {
+    "en": "neon",
+    "fr": "néon",
+    "es": "neón"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiNonsense/small",
+  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
+  "Labels":
+   {
+    "en": "disguised",
+    "fr": "déguisé",
+    "es": "disfrazado"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiPastel/small",
+  "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
+  "Labels":
+   {
+    "en": "square",
+    "fr": "carré",
+    "es": "cuadrado"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiSun/small",
+  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
+  "Labels":
+   {
+    "en": "sun",
+    "fr": "soleil",
+    "es": "Sol"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiVanilla/small",
+  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+  "Labels":
+   {
+    "en": "pastel",
+    "fr": "pastel",
+    "es": "pastel"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emoticons/small",
+  "DefaultImage" : "/themes/emoticons/small/00015392841.jpg",
+  "Labels":
+   {
+    "en": "big",
+    "fr": "grand",
+    "es": "grande"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emoticons2/small",
+  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
+  "Labels":
+   {
+    "en": "classic",
+    "fr": "classique",
+    "es": "clásico"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emoticons3/small",
+  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
+  "Labels":
+   {
+    "en": "blue eyed",
+    "fr": "yeux bleus",
+    "es": "ojos azules"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emoticons4/small",
+  "DefaultImage" : "/themes/emoticons4/small/shutterstock_404046766_11.jpg",
+  "Labels":
+   {
+    "en": "kawaii",
+    "fr": "kawaii",
+    "es": "kawaii"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emoticons5/small",
+  "DefaultImage" : "/themes/emoticons5/small/shutterstock_387300097_4.jpg",
+  "Labels":
+   {
+    "en": "minimalist",
+    "fr": "minimaliste",
+    "es": "minimalista"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emoticons7/small",
+  "DefaultImage" : "/themes/emoticons7/small/shutterstock_461742151_7.jpg",
+  "Labels":
+   {
+    "en": "white",
+    "fr": "blanc",
+    "es": "blanco"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/football/small",
+  "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
+  "Labels":
+   {
+    "en": "soccer",
+    "fr": "football",
+    "es": "futbol"
     }
   }
 ]
