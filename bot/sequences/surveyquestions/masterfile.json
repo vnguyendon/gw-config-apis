@@ -67,5 +67,10 @@
       "/bot/sequences/surveyquestions/GetRidOfPollutionorMosquitoes.json",
       "/bot/sequences/surveyquestions/HavingChildrenImproveLife.json",
       "/bot/sequences/surveyquestions/JapanOrUSA.json",
-      "/bot/sequences/surveyquestions/NapOrWorkout.json"
+      "/bot/sequences/surveyquestions/NapOrWorkout.json",
+      "/bot/sequences/surveyquestions/WellpaidOrCreativeJob.json",
+      "/bot/sequences/surveyquestions/SunriseorSunset.json",
+      "/bot/sequences/surveyquestions/QualityofBooksorFood.json",
+      "/bot/sequences/surveyquestions/LifeAfterDeathYesNo.json",
+      "/bot/sequences/surveyquestions/CloserToMomOrDad.json"
 ] 
