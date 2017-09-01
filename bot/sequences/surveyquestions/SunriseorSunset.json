@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WatchSunriseOrSunset",
+  "Label":
+    {
+      "en": "You prefer to watch",
+      "fr": "Tu préfères regarder le",
+      "es": "Prefieres mirar"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "WatchSunrise",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "LcGFscTzOn9xm"
+          },
+          "Label":{
+            "en": "sunrise",
+            "fr": "lever du soleil",
+            "es": "el amanecer"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "WatchSunset",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "dP8DxhD9ekk1i"
+          },
+          "Label":{
+            "en": "sunset",
+            "fr": "coucher du soleil",
+            "es": "el anochecer"
+          }
+        }
+      ]
+}
+

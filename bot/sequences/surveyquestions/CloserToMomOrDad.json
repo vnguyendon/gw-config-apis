@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "CloserToMomOrDad",
+  "Label":
+    {
+      "en": "You feel closer to",
+      "fr": "Tu te sens plus proche de",
+      "es": "Te sientes más cercano de"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "CloserToMom",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "lcVSsTpx2s5t6"
+          },
+          "Label":{
+            "en": "your mom",
+            "fr": "ta mère",
+            "es": "tu madre"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "CloserToDad",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "M4gZTZkxbe4X6"
+          },
+          "Label":{
+            "en": "your dad",
+            "fr": "ton père",
+            "es": "tu padre"
+          }
+        }
+      ]
+}
+

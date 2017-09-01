@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "LifeAfterDeathYesNo",
+  "Label":
+    {
+      "en": "Is there a life after death?",
+      "fr": "Il y a une vie après la mort ?",
+      "es": "¿Hay una vida después de la muerte?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LifeAfterDeathYes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Pp9W9tuVF5NwQ"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LifeAfterDeathNo",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "TdXZkVaakMZmU"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

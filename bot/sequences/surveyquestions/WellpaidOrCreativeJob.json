@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WellpaidOrCreativeJob",
+  "Label":
+    {
+      "en": "You feel better if your job",
+      "fr": "C'est mieux si ton travail est",
+      "es": "Te sientes mejor si tienes un trabajo"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "WellpaidJob",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "H0uLRCd8JIhRS"
+          },
+          "Label":{
+            "en": "pays well",
+            "fr": "bien payé",
+            "es": "buen pagado"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "CreativeJob",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3o7bu4T3Jcib9vlrvG"
+          },
+          "Label":{
+            "en": "is creative",
+            "fr": "créatif",
+            "es": "creativo"
+          }
+        }
+      ]
+}
+

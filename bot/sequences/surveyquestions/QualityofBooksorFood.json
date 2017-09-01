@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "QualityofBooksOrFood",
+  "Label":
+    {
+      "en": "What matters most is the quality of",
+      "fr": "Le plus important, c'est la qualité de ce que",
+      "es": "Lo mas importante es la calidad de"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "QualityofFood",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "DKvw9IJ57pn9K"
+          },
+          "Label":{
+            "en": "your food",
+            "fr": "tu manges",
+            "es": "tu comida"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "QualityofBooks",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "6zA0PVT8Y6zDO"
+          },
+          "Label":{
+            "en": "your books",
+            "fr": "tu lis",
+            "es": "tus libros"
+          }
+        }
+      ]
+}
+
