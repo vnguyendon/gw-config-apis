@@ -37,12 +37,12 @@
     }
   },
   "CategoriesScroll": {
-    "Provider": "Facebook",
-    "ID": "1001221899915187_1233742219996486"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/1179916351"
   },
   "GalleryNative": {
-    "Provider": "Facebook",
-    "ID": "1001221899915187_1120291548008221"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/6111188147"
   }
 }
 
