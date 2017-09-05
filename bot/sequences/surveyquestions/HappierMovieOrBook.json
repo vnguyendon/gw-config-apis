@@ -24,9 +24,9 @@
             "Path": "oZMoTFxxPf8mQ"
           },
           "Label":{
-            "en": "a good book",
-            "fr": "un bon livre",
-            "es": "un buen libro"
+            "en": "a good book 📗",
+            "fr": "un bon livre 📗",
+            "es": "un buen libro 📗"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "aPUWIkCcerreE"
           },
           "Label":{
-            "en": "a good movie",
-            "fr": "un bon film",
-            "es": "una buena película"
+            "en": "a good movie 📺",
+            "fr": "un bon film 📺",
+            "es": "una buena película 📺"
           }
         }
       ]
