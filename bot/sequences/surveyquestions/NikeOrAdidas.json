@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "NikeOrAdidas",
+  "Label":
+    {
+      "en": "Nike or Adidas?",
+      "fr": "Nike ou Adidas ?",
+      "es": "¿Nike o Adidas?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferNike",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ZoxwxPoo1uoNy"
+          },
+          "Label":{
+            "en": "Nike",
+            "fr": "Nike",
+            "es": "Nike"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferAdidas",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "PPE9Y8aanaF8c"
+          },
+          "Label":{
+            "en": "Adidas",
+            "fr": "Adidas",
+            "es": "Adidas"
+          }
+        }
+      ]
+}
+

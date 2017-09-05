@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "BoxOrYoga",
+  "Label":
+    {
+      "en": "You have to do some exercise. You choose",
+      "fr": "Tu dois te mettre au sport. Tu choisis",
+      "es": "Tienes que hacer deporte. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferBox",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3owzWnpZ3YnoZtYgsE"
+          },
+          "Label":{
+            "en": "box",
+            "fr": "la boxe",
+            "es": "boxeo"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferAdidas",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "IRD4JVVr9C90s"
+          },
+          "Label":{
+            "en": "yoga",
+            "fr": "le yoga",
+            "es": "yoga"
+          }
+        }
+      ]
+}
+

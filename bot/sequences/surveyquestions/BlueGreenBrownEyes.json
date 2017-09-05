@@ -1,0 +1,64 @@
+
+{
+  "Type": "Question",
+  "Id": "BlueGreenOrBrownEyes",
+  "Label":
+    {
+      "en": "You prefer",
+      "fr": "Tu préfères les yeux",
+      "es": "Prefieres los ojos"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "BlueEyes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "gfMsRzMFNoY9O"
+          },
+          "Label":{
+            "en": "blue eyes",
+            "fr": "bleus",
+            "es": "azules"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "GreenEyes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UAxOiMCkOgmoU"
+          },
+          "Label":{
+            "en": "green eyes",
+            "fr": "verts",
+            "es": "verdes"
+          }
+        }
+        ,
+        {
+            "Type": "Survey",
+            "Id": "BrownEyes",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "LvHBV2O3aFqBG"
+            },
+            "Label":{
+              "en": "brown eyes",
+              "fr": "marron",
+              "es": "castaños"
+            }
+          }
+      ]
+}
+

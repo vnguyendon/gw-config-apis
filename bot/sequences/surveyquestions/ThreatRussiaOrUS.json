@@ -1,0 +1,50 @@
+
+
+
+{
+  "Type": "Question",
+  "Id": "ThreatRussiaOrUS",
+  "Label":
+    {
+      "en": "Which country is a threat to world peace?",
+      "fr": "Quel pays menace la paix dans le monde ?",
+      "es": "¿Qué país amenaza la paz mundial?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ThreatIsRussia",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "HHchv8KrJvtzq"
+          },
+          "Label":{
+            "en": "Russia",
+            "fr": "la Russie",
+            "es": "Russia"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "ThreatIsUS",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTiTnwAld5tAsT89fa"
+          },
+          "Label":{
+            "en": "the United States",
+            "fr": "les Etats-Unis",
+            "es": "los Estados Unidos"
+          }
+        }
+      ]
+}
+
