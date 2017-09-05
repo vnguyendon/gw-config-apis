@@ -147,7 +147,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "Habla me"
+          "value": "Hablame"
         }
       ]
     },
@@ -251,7 +251,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Quelques mots pour moi 😺"
+          "value": "Un mot pour moi 😺"
         },
         {
           "culture": "en-EN",
@@ -309,7 +309,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Dis un truc sur toi 😉"
+          "value": "Parle moi de toi 😉"
         },
         {
           "culture": "en-EN",
@@ -409,7 +409,7 @@
         },
         {
           "culture": "en-EN",
-          "value": "I miss my sweetheart💌"
+          "value": "I miss my loved one💌"
         },
         {
           "culture": "es-ES",
@@ -423,7 +423,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Messages d'anniversaire 🎈"
+          "value": "Bon anniversaire 🎈"
         },
         {
           "culture": "en-EN",
@@ -431,7 +431,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "Mensajes de cumpleaños 🎈"
+          "value": "Feliz cumpleaños 🎈"
         }
       ]
     },
