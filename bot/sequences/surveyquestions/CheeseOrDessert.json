@@ -22,9 +22,9 @@
             "Path": "UtvkbCvOJCJtC"
           },
           "Label":{
-            "en": "cheese",
-            "fr": "fromage",
-            "es": "queso"
+            "en": "cheese 🧀",
+            "fr": "fromage 🧀",
+            "es": "queso 🧀"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "AGGz7y0rCYxdS"
           },
           "Label":{
-            "en": "dessert",
-            "fr": "dessert",
-            "es": "postre"
+            "en": "dessert 🍰",
+            "fr": "dessert 🍰",
+            "es": "postre 🍰"
           }
         }
       ]
