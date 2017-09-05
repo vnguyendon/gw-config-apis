@@ -4,9 +4,9 @@
   "Id": "WatchSunriseOrSunset",
   "Label":
     {
-      "en": "You prefer to watch",
-      "fr": "Tu préfères regarder le",
-      "es": "Prefieres mirar"
+      "en": "🌄 You prefer to watch",
+      "fr": "🌄 Tu préfères regarder le",
+      "es": "🌄 Prefieres mirar"
     }
   ,
   "Randomize": "true",
