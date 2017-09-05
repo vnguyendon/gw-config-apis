@@ -6,9 +6,9 @@
   "Id": "BestFoodFrenchOrJapanese",
   "Label":
     {
-      "en": "The best food is",
-      "fr": "La meilleure cuisine est",
-      "es": "La mejora cocina es"
+      "en": "🍴 The best food is",
+      "fr": "🍴 La meilleure cuisine est",
+      "es": "🍴 La mejora cocina es"
     }
   ,
   "Randomize": "true",
