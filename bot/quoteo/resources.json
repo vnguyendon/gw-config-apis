@@ -122,15 +122,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Une autre"
+          "value": "Une autre 😃"
         },
         {
           "culture": "en-EN",
-          "value": "Show Another"
+          "value": "Show Another 😃"
         },
         {
           "culture": "es-ES",
-          "value": "Otra"
+          "value": "Otra 😃"
         }
       ]
     },
@@ -222,7 +222,7 @@
           "value": "Empezar"
         }
       ],
-      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias", "hey", "holla", "bjr", "coucou", "salut", "slt", "heyy", "cc", "helo", "let's go", "lets go" ]
+      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias" ]
     }
   ],
   "intentions": [
@@ -232,15 +232,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Réconforte-moi"
+          "value": "Réconforte-moi 🤗"
         },
         {
           "culture": "en-EN",
-          "value": "Comfort me"
+          "value": "Comfort me 🤗"
         },
         {  
           "culture": "es-ES",
-          "value": "Consolado"
+          "value": "Consolado 🤗"
         }
       ],
       "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée", "unhappy", "malheureux", "infeliz" ]
@@ -251,15 +251,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Quelques mots pour moi"
+          "value": "Quelques mots pour moi 😺"
         },
         {
           "culture": "en-EN",
-          "value": "A few words for me"
+          "value": "A few words for me 😺"
         },
         {  
           "culture": "es-ES",
-          "value": "Palabras para mi"
+          "value": "Palabras para mi 😺"
         }
       ]
     },
@@ -269,15 +269,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Grrrr"
+          "value": "Grrrr 😈"
         },
         {
           "culture": "en-EN",
-          "value": "Let it out"
+          "value": "Let it out 😈"
         },
         {
           "culture": "es-ES",
-          "value": "Estoy enojado"
+          "value": "Estoy enojado 😈"
         }
         
       ],
@@ -289,15 +289,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Fais-moi rire"
+          "value": "Fais-moi rire 😂"
         },
         {
           "culture": "en-EN",
-          "value": "Make me laugh"
+          "value": "Make me laugh 😂"
         },
         {
           "culture": "es-ES",
-          "value": "Me hacen reír"
+          "value": "Hazme reír 😂"
         }
         
       ],
@@ -309,15 +309,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Dis un truc sur toi"
+          "value": "Dis un truc sur toi 😉"
         },
         {
           "culture": "en-EN",
-          "value": "Tell me about you"
+          "value": "Tell me about you 😉"
         },
         {
           "culture": "es-ES",
-          "value": "Cuéntame de ti"
+          "value": "Cuéntame de ti 😉"
         }
       ],
       "alternates": [ "status", "statut", "statuto", "estado", "humeur", "mood" ]
@@ -328,16 +328,16 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Poèmes"
+          "value": "Poèmes 💐"
         },
         {
 
           "culture": "en-EN",
-          "value": "Poems"
+          "value": "Poems 💐"
         },
         {
           "culture": "es-ES",
-          "value": "Poemas"
+          "value": "Poemas 💐"
         }
       ]
     },
@@ -347,15 +347,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Pourquoi?"
+          "value": "Pourquoi? 🙁"
         },
         {
           "culture": "en-EN",
-          "value": "Why?"
+          "value": "Why? 🙁"
         },
         {
           "culture": "es-ES",
-          "value": "¿Por qué?"
+          "value": "¿Por qué? 🙁"
         }
       ]
 
@@ -366,15 +366,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je suis amoureux"
+          "value": "Je suis amoureux 💘"
         },
         {
           "culture": "en-EN",
-          "value": "I'm in love"
+          "value": "I'm in love 💘"
         },
         {
           "culture": "es-ES",
-          "value": "Estoy enamorado"
+          "value": "Estoy enamorado 💘"
         }
       ],
       "alternates": [ "love", "amour", "chérie", "amor", "enamorado", "enamorada", "chéri", "amoureux", "amoureuse", "amur", "lov", "luv", "querido", "querida", "novio", "novia" ]
@@ -386,15 +386,15 @@
 
         {
           "culture": "fr-FR",
-          "value": "Encourage-moi"
+          "value": "Encourage-moi 🌻"
         },
         {
           "culture": "en-EN",
-          "value": "Encourage me"
+          "value": "Encourage me 🌻"
         },
         {
           "culture": "es-ES",
-          "value": "Anímame"
+          "value": "Anímame 🌻"
         }
       ],
       "alternates": [ "positive", "positivo", "luck", "positives", "positif", "chance", "positivas", "positiva", "suerte", "oportunidad" ]
@@ -405,15 +405,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Mon amour me manque"
+          "value": "Mon amour me manque💌"
         },
         {
           "culture": "en-EN",
-          "value": "I miss my sweetheart"
+          "value": "I miss my sweetheart💌"
         },
         {
           "culture": "es-ES",
-          "value": "Extraño a mi amor"
+          "value": "Extraño a mi amor 💌"
         }
       ]
     },
@@ -423,15 +423,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Messages d'anniversaire"
+          "value": "Messages d'anniversaire 🎈"
         },
         {
           "culture": "en-EN",
-          "value": "Birthday messages"
+          "value": "Birthday messages 🎈"
         },
         {
           "culture": "es-ES",
-          "value": "Mensajes de cumpleaños"
+          "value": "Mensajes de cumpleaños 🎈"
         }
       ]
     },
@@ -441,15 +441,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Bonne nuit!"
+          "value": "Bonne nuit!🌜"
         },
         {
           "culture": "en-EN",
-          "value": "Good night!"
+          "value": "Good night!🌜"
         },
         {
           "culture": "es-ES",
-          "value": "¡Buenas noches!"
+          "value": "¡Buenas noches!🌜"
         }
       ],
       "alternates": [ "dormir", "sleep", "cama", "lit", "bed", "asleep", "durmiendo", "durmir", "dorme" ]
