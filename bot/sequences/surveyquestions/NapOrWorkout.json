@@ -22,9 +22,9 @@
             "Path": "GvMSpPx44XlFm"
           },
           "Label":{
-            "en": "nap",
-            "fr": "sieste",
-            "es": "siesta"
+            "en": "nap 😴",
+            "fr": "sieste 😴",
+            "es": "siesta 😴"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "5EJHDSPpFhbG0"
           },
           "Label":{
-            "en": "workout",
-            "fr": "séance de sport",
-            "es": "sesión de deporte"
+            "en": "workout 🏋",
+            "fr": "séance de sport 🏋",
+            "es": "sesión de deporte 🏋"
           }
         }
       ]
