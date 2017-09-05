@@ -72,5 +72,10 @@
       "/bot/sequences/surveyquestions/SunriseorSunset.json",
       "/bot/sequences/surveyquestions/QualityofBooksorFood.json",
       "/bot/sequences/surveyquestions/LifeAfterDeathYesNo.json",
-      "/bot/sequences/surveyquestions/CloserToMomOrDad.json"
+      "/bot/sequences/surveyquestions/CloserToMomOrDad.json",
+      "/bot/sequences/surveyquestions/BlueGreenBrownEyes.json",
+      "/bot/sequences/surveyquestions/BoxOrYoga.json",
+      "/bot/sequences/surveyquestions/JusticeOrFreedom.json",
+      "/bot/sequences/surveyquestions/NikeOrAdidas.json",
+      "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json"
 ] 
