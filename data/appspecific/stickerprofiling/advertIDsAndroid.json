@@ -1,37 +1,38 @@
 
+
 {
-  "FirstLaunch": {
+  "FirstLaunch": [
+    {
     "Provider": "Facebook",
-    "ID": "1594200494225037_1684010071910745",
+    "ProportionUsers": "50",
+    "ID": "1594200494225037_1822809468030804",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/9448870262"
-    }
-  },
-  "FirstResumeActivity": {
-    "Provider": "Facebook",
-    "ID": "1594200494225037_1656581587986927",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/7972137060"
-    }
-  },
-  "OtherResumeActivity": [
+      }
+    },
     {
+    "Provider": "AdMob",
+    "ProportionUsers": "50",
+    "ID": "ca-app-pub-7822741681642396/4919212781"
+    }
+  ],
+    "FirstResumeActivity": {
       "Provider": "Facebook",
-      "ProportionUsers": "50",
-      "ID": "1594200494225037_1830213353957082",
+      "ID": "1594200494225037_1656581587986927",
       "Fallback": {
         "Provider": "AdMob",
         "ID": "ca-app-pub-7822741681642396/7972137060"
       }
     },
-    {
-      "Provider": "AdMob",
-      "ProportionUsers": "50",
-      "ID": "ca-app-pub-7822741681642396/5331215675"
-    }
-  ],
+    "OtherResumeActivity": {
+      "Provider": "Facebook",
+      "ID": "1594200494225037_1656581587986927",
+      "Fallback": {
+        "Provider": "AdMob",
+        "ID": "ca-app-pub-7822741681642396/7972137060"
+      }
+  },
   "CategoriesScroll": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1708028759508876"
