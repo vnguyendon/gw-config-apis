@@ -7,9 +7,9 @@
   "DefaultImage" : "/themes/emojiBears/small/shutterstock_417336076_6.jpg",
   "Labels":
    {
-    "en": "bear",
-    "fr": "ours",
-    "es": "oso"
+    "en": "Bears",
+    "fr": "Ours",
+    "es": "Osos"
     }
   }
   ,
@@ -18,9 +18,9 @@
   "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_8.jpg",
   "Labels":
    {
-    "en": "kitten",
-    "fr": "chaton",
-    "es": "gatito"
+    "en": "Kittens",
+    "fr": "Chatons",
+    "es": "Gatitos"
     }
   }
   ,  
@@ -29,9 +29,9 @@
   "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_7.jpg",
   "Labels":
    {
-    "en": "lion",
-    "fr": "lion",
-    "es": "leo"
+    "en": "Lions",
+    "fr": "Lions",
+    "es": "Leones"
     }
   }
   ,
@@ -40,9 +40,9 @@
   "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
   "Labels":
    {
-    "en": "owl",
-    "fr": "hibou",
-    "es": "búho"
+    "en": "Owls",
+    "fr": "Hiboux",
+    "es": "Búhos"
     }
   }
   ,
@@ -51,9 +51,9 @@
   "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
   "Labels":
    {
-    "en": "panda",
-    "fr": "panda",
-    "es": "panda"
+    "en": "Pandas",
+    "fr": "Pandas",
+    "es": "Pandas"
     }
   }
   ,  
@@ -62,9 +62,9 @@
   "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
   "Labels":
    {
-    "en": "puppy",
-    "fr": "chiot",
-    "es": "perro"
+    "en": "Puppies",
+    "fr": "Chiots",
+    "es": "Perros"
     }
   }
   ,
@@ -73,9 +73,9 @@
   "DefaultImage" : "/themes/emojiRabbits/small/shutterstock_431193436_2.jpg",
   "Labels":
    {
-    "en": "rabbit",
-    "fr": "lapin",
-    "es": "conejo"
+    "en": "Rabbits",
+    "fr": "Lapins",
+    "es": "Conejos"
     }
   }
   ,
@@ -84,9 +84,9 @@
   "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
   "Labels":
    {
-    "en": "racoon",
-    "fr": "raton-laveur",
-    "es": "mapache"
+    "en": "Racoons",
+    "fr": "Ratons-laveurs",
+    "es": "Mapaches"
     }
   }
   ,  
@@ -95,9 +95,9 @@
   "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
   "Labels":
    {
-    "en": "tiger",
-    "fr": "tigre",
-    "es": "tigre"
+    "en": "Tigers",
+    "fr": "Tigres",
+    "es": "Tigres"
     }
   }
 ]
