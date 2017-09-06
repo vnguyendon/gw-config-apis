@@ -3,178 +3,112 @@
 "Themes":
 [
   { 
-  "Path" : "/themes/emoticons3/small",
-  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
+  "Path" : "/themes/emojiBears/small",
+  "DefaultImage" : "/themes/emojiBears/small/shutterstock_417336076_6.jpg",
   "Labels":
    {
-    "en": "Classic emojis",
-    "fr": "Emojis classiques",
-    "es": "Emojis clásicos"
+    "en": "Bears",
+    "fr": "Ours",
+    "es": "Osos"
     }
   }
   ,
   { 
-  "Path" : "/themes/emojiVanilla/small",
-  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+  "Path" : "/themes/emojiKittens/small",
+  "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_8.jpg",
   "Labels":
    {
-    "en": "Pastel emojis",
-    "fr": "Emojis pastels",
-    "es": "Emojis pasteles"
-    }
-  }
-  ,
-    { 
-  "Path" : "/themes/emoticons/small",
-  "DefaultImage" : "/themes/emoticons/small/00015392841.jpg",
-  "Labels":
-   {
-    "en": "Funny emojis",
-    "fr": "Emojis drôles",
-    "es": "Emojis divertidos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emoticons2/small",
-  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
-  "Labels":
-   {
-    "en": "Cute emojis",
-    "fr": "Emojis mignons",
-    "es": "Emojis lindos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiSun/small",
-  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
-  "Labels":
-   {
-    "en": "Sunny emojis",
-    "fr": "Emojis soleil",
-    "es": "Emojis sol"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiNonsense/small",
-  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
-  "Labels":
-   {
-    "en": "Disguised emojis",
-    "fr": "Emojis déguisés",
-    "es": "Emojis disfrazados"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiHandDrawn/small",
-  "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
-  "Labels":
-   {
-    "en": "Hand drawn emojis",
-    "fr": "Emojis crayonnés",
-    "es": "Emojis dibujados"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiBubble/small",
-  "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
-  "Labels":
-   {
-    "en": "Emojis in a bubble",
-    "fr": "Emojis dans une bulle",
-    "es": "Emojis en un globo"
+    "en": "Kittens",
+    "fr": "Chatons",
+    "es": "Gatitos"
     }
   }
   ,  
   { 
-  "Path" : "/themes/emojiBlue/small",
-  "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
+  "Path" : "/themes/emojiLions/small",
+  "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_7.jpg",
   "Labels":
    {
-    "en": "Blue emojis",
-    "fr": "Emojis bleus",
-    "es": "Emojis azules"
+    "en": "Lions",
+    "fr": "Lions",
+    "es": "Leones"
     }
   }
   ,
   { 
-  "Path" : "/themes/emojiGirlie/small",
-  "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
+  "Path" : "/themes/emojiOwls/small",
+  "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
   "Labels":
    {
-    "en": "Black and white emojis",
-    "fr": "Emojis noir et blanc",
-    "es": "Emojis blanco y negro"
+    "en": "Owls",
+    "fr": "Hiboux",
+    "es": "Búhos"
     }
   }
   ,
   { 
-  "Path" : "/themes/emoticons4/small",
-  "DefaultImage" : "/themes/emoticons4/small/shutterstock_404046766_11.jpg",
+  "Path" : "/themes/emojiPandas/small",
+  "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
   "Labels":
    {
-    "en": "Kawaii emojis",
-    "fr": "Emojis kawaii",
-    "es": "Emojis kawaii"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emoticons5/small",
-  "DefaultImage" : "/themes/emoticons5/small/shutterstock_387300097_4.jpg",
-  "Labels":
-   {
-    "en": "Minimalist emojis",
-    "fr": "Emojis minimalistes",
-    "es": "Emojis minimalistas"
+    "en": "Pandas",
+    "fr": "Pandas",
+    "es": "Pandas"
     }
   }
   ,  
   { 
-  "Path" : "/themes/emoticons7/small",
-  "DefaultImage" : "/themes/emoticons7/small/shutterstock_461742151_7.jpg",
+  "Path" : "/themes/emojiPuppies/small",
+  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
   "Labels":
    {
-    "en": "White emojis",
-    "fr": "Emojis blancs",
-    "es": "Emojis blancos"
+    "en": "Puppies",
+    "fr": "Chiots",
+    "es": "Perros"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiRabbits/small",
+  "DefaultImage" : "/themes/emojiRabbits/small/shutterstock_431193436_2.jpg",
+  "Labels":
+   {
+    "en": "Rabbits",
+    "fr": "Lapins",
+    "es": "Conejos"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiRaccoons/small",
+  "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
+  "Labels":
+   {
+    "en": "Racoons",
+    "fr": "Ratons-laveurs",
+    "es": "Mapaches"
     }
   }
   ,  
   { 
-  "Path" : "/themes/football/small",
-  "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
+  "Path" : "/themes/emojiTigers/small",
+  "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
   "Labels":
    {
-    "en": "Soccer emojis",
-    "fr": "Emojis football",
-    "es": "Emojis futbol"
-    }
-  }
-  ,
-    { 
-  "Path" : "/themes/emojiNeon/small",
-  "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
-  "Labels":
-   {
-    "en": "Neon emojis",
-    "fr": "Emojis néon",
-    "es": "Emojis neón"
+    "en": "Tigers",
+    "fr": "Tigres",
+    "es": "Tigres"
     }
   }
   ,
   { 
-  "Path" : "/themes/emojiPastel/small",
-  "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
+  "Path" : "/themes/emojiCats/small",
+  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
   "Labels":
    {
-    "en": "Square emojis",
-    "fr": "Emojis carrés",
-    "es": "Emojis cuadrados"
+    "en": "Cats",
+    "fr": "Chats",
+    "es": "Gatos"
     }
   }
 ]
