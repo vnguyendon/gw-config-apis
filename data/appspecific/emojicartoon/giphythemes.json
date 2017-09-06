@@ -6,33 +6,33 @@
   "Path" : "/themes/emojiBlue/small",
   "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
   "Labels":
-   {
-    "en": "blue",
-    "fr": "bleu",
-    "es": "azul"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
   "Path" : "/themes/emojiBubble/small",
   "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
   "Labels":
-   {
-    "en": "in a bubble",
-    "fr": "dans une bulle",
-    "es": "en un globo"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,  
   { 
   "Path" : "/themes/emojiGirlie/small",
   "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
   "Labels":
-   {
-    "en": "black and white",
-    "fr": "noir et blanc",
-    "es": "blanco y negro"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
@@ -50,11 +50,11 @@
   "Path" : "/themes/emojiHandDrawn/small",
   "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
   "Labels":
-   {
-    "en": "hand drawn",
-    "fr": "crayonné",
-    "es": "dibujado"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,  
   { 
@@ -72,11 +72,11 @@
   "Path" : "/themes/emojiNonsense/small",
   "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
   "Labels":
-   {
-    "en": "disguised",
-    "fr": "déguisé",
-    "es": "disfrazado"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
@@ -94,11 +94,11 @@
   "Path" : "/themes/emojiSun/small",
   "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
   "Labels":
-   {
-    "en": "sun",
-    "fr": "soleil",
-    "es": "Sol"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,  
   { 
@@ -116,11 +116,11 @@
   "Path" : "/themes/emoticons/small",
   "DefaultImage" : "/themes/emoticons/small/00015392841.jpg",
   "Labels":
-   {
-    "en": "big",
-    "fr": "grand",
-    "es": "grande"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
@@ -138,55 +138,55 @@
   "Path" : "/themes/emoticons3/small",
   "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
   "Labels":
-   {
-    "en": "blue eyed",
-    "fr": "yeux bleus",
-    "es": "ojos azules"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
   "Path" : "/themes/emoticons4/small",
   "DefaultImage" : "/themes/emoticons4/small/shutterstock_404046766_11.jpg",
   "Labels":
-   {
-    "en": "kawaii",
-    "fr": "kawaii",
-    "es": "kawaii"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,
   { 
   "Path" : "/themes/emoticons5/small",
   "DefaultImage" : "/themes/emoticons5/small/shutterstock_387300097_4.jpg",
   "Labels":
-   {
-    "en": "minimalist",
-    "fr": "minimaliste",
-    "es": "minimalista"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,  
   { 
   "Path" : "/themes/emoticons7/small",
   "DefaultImage" : "/themes/emoticons7/small/shutterstock_461742151_7.jpg",
   "Labels":
-   {
-    "en": "white",
-    "fr": "blanc",
-    "es": "blanco"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
   ,  
   { 
   "Path" : "/themes/football/small",
   "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
   "Labels":
-   {
-    "en": "soccer",
-    "fr": "football",
-    "es": "futbol"
-    }
+    [
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
+    ]
   }
 ]
 }  
