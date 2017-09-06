@@ -1,0 +1,104 @@
+
+{
+"Themes":
+[
+  { 
+  "Path" : "/themes/emojiBears/small",
+  "DefaultImage" : "/themes/emojiBears/small/shutterstock_417336076_6.jpg",
+  "Labels":
+   {
+    "en": "bear",
+    "fr": "ours",
+    "es": "oso"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiKittens/small",
+  "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_8.jpg",
+  "Labels":
+   {
+    "en": "kitten",
+    "fr": "chaton",
+    "es": "gatito"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiLions/small",
+  "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_7.jpg",
+  "Labels":
+   {
+    "en": "lion",
+    "fr": "lion",
+    "es": "leo"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiOwls/small",
+  "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
+  "Labels":
+   {
+    "en": "owl",
+    "fr": "hibou",
+    "es": "búho"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiPandas/small",
+  "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
+  "Labels":
+   {
+    "en": "panda",
+    "fr": "panda",
+    "es": "panda"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiPuppies/small",
+  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
+  "Labels":
+   {
+    "en": "puppy",
+    "fr": "chiot",
+    "es": "perro"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiRabbits/small",
+  "DefaultImage" : "/themes/emojiRabbits/small/shutterstock_431193436_2.jpg",
+  "Labels":
+   {
+    "en": "rabbit",
+    "fr": "lapin",
+    "es": "conejo"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiRaccoons/small",
+  "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
+  "Labels":
+   {
+    "en": "racoon",
+    "fr": "raton-laveur",
+    "es": "mapache"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiTigers/small",
+  "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
+  "Labels":
+   {
+    "en": "tiger",
+    "fr": "tigre",
+    "es": "tigre"
+    }
+  }
+]
+}  
