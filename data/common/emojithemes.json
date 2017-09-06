@@ -3,123 +3,35 @@
 "Themes":
 [
   { 
-  "Path" : "/themes/emojiBlue/small",
-  "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
+  "Path" : "/themes/emoticons3/small",
+  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
   "Labels":
    {
-    "en": "blue",
-    "fr": "bleu",
-    "es": "azul"
+    "en": "Classic emojis",
+    "fr": "Emojis classiques",
+    "es": "Emojis clásicos"
     }
   }
   ,
-  { 
-  "Path" : "/themes/emojiBubble/small",
-  "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
-  "Labels":
-   {
-    "en": "in a bubble",
-    "fr": "dans une bulle",
-    "es": "en un globo"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiGirlie/small",
-  "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
-  "Labels":
-   {
-    "en": "black and white",
-    "fr": "noir et blanc",
-    "es": "blanco y negro"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiCats/small",
-  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
-  "Labels":
-   {
-    "en": "cat",
-    "fr": "chat",
-    "es": "gato"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiHandDrawn/small",
-  "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
-  "Labels":
-   {
-    "en": "hand drawn",
-    "fr": "crayonné",
-    "es": "dibujado"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiNeon/small",
-  "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
-  "Labels":
-   {
-    "en": "neon",
-    "fr": "néon",
-    "es": "neón"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiNonsense/small",
-  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
-  "Labels":
-   {
-    "en": "disguised",
-    "fr": "déguisé",
-    "es": "disfrazado"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiPastel/small",
-  "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
-  "Labels":
-   {
-    "en": "square",
-    "fr": "carré",
-    "es": "cuadrado"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiSun/small",
-  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
-  "Labels":
-   {
-    "en": "sun",
-    "fr": "soleil",
-    "es": "Sol"
-    }
-  }
-  ,  
   { 
   "Path" : "/themes/emojiVanilla/small",
   "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
   "Labels":
    {
-    "en": "pastel",
-    "fr": "pastel",
-    "es": "pastel"
+    "en": "Pastel emojis",
+    "fr": "Emojis pastels",
+    "es": "Emojis pasteles"
     }
   }
   ,
-  { 
+    { 
   "Path" : "/themes/emoticons/small",
   "DefaultImage" : "/themes/emoticons/small/00015392841.jpg",
   "Labels":
    {
-    "en": "big",
-    "fr": "grand",
-    "es": "grande"
+    "en": "Funny emojis",
+    "fr": "Emojis drôles",
+    "es": "Emojis divertidos"
     }
   }
   ,
@@ -128,20 +40,75 @@
   "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
   "Labels":
    {
-    "en": "classic",
-    "fr": "classique",
-    "es": "clásico"
+    "en": "Cute emojis",
+    "fr": "Emojis mignons",
+    "es": "Emojis lindos"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiSun/small",
+  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
+  "Labels":
+   {
+    "en": "Sunny emojis",
+    "fr": "Emojis soleil",
+    "es": "Emojis sol"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiNonsense/small",
+  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
+  "Labels":
+   {
+    "en": "Disguised emojis",
+    "fr": "Emojis déguisés",
+    "es": "Emojis disfrazados"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiHandDrawn/small",
+  "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
+  "Labels":
+   {
+    "en": "Hand drawn emojis",
+    "fr": "Emojis crayonnés",
+    "es": "Emojis dibujados"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiBubble/small",
+  "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
+  "Labels":
+   {
+    "en": "Emojis in a bubble",
+    "fr": "Emojis dans une bulle",
+    "es": "Emojis en un globo"
     }
   }
   ,  
   { 
-  "Path" : "/themes/emoticons3/small",
-  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
+  "Path" : "/themes/emojiBlue/small",
+  "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
   "Labels":
    {
-    "en": "blue eyed",
-    "fr": "yeux bleus",
-    "es": "ojos azules"
+    "en": "Blue emojis",
+    "fr": "Emojis bleus",
+    "es": "Emojis azules"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiGirlie/small",
+  "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
+  "Labels":
+   {
+    "en": "Black and white emojis",
+    "fr": "Emojis noir et blanc",
+    "es": "Emojis blanco y negro"
     }
   }
   ,
@@ -150,9 +117,9 @@
   "DefaultImage" : "/themes/emoticons4/small/shutterstock_404046766_11.jpg",
   "Labels":
    {
-    "en": "kawaii",
-    "fr": "kawaii",
-    "es": "kawaii"
+    "en": "Kawaii emojis",
+    "fr": "Emojis kawaii",
+    "es": "Emojis kawaii"
     }
   }
   ,
@@ -161,9 +128,9 @@
   "DefaultImage" : "/themes/emoticons5/small/shutterstock_387300097_4.jpg",
   "Labels":
    {
-    "en": "minimalist",
-    "fr": "minimaliste",
-    "es": "minimalista"
+    "en": "Minimalist emojis",
+    "fr": "Emojis minimalistes",
+    "es": "Emojis minimalistas"
     }
   }
   ,  
@@ -172,9 +139,9 @@
   "DefaultImage" : "/themes/emoticons7/small/shutterstock_461742151_7.jpg",
   "Labels":
    {
-    "en": "white",
-    "fr": "blanc",
-    "es": "blanco"
+    "en": "White emojis",
+    "fr": "Emojis blancs",
+    "es": "Emojis blancos"
     }
   }
   ,  
@@ -183,9 +150,31 @@
   "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
   "Labels":
    {
-    "en": "soccer",
-    "fr": "football",
-    "es": "futbol"
+    "en": "Soccer emojis",
+    "fr": "Emojis football",
+    "es": "Emojis futbol"
+    }
+  }
+  ,
+    { 
+  "Path" : "/themes/emojiNeon/small",
+  "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
+  "Labels":
+   {
+    "en": "Neon emojis",
+    "fr": "Emojis néon",
+    "es": "Emojis neón"
+    }
+  }
+  ,
+  { 
+  "Path" : "/themes/emojiPastel/small",
+  "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
+  "Labels":
+   {
+    "en": "Square emojis",
+    "fr": "Emojis carrés",
+    "es": "Emojis cuadrados"
     }
   }
 ]
