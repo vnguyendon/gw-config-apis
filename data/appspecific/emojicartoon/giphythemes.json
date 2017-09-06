@@ -3,256 +3,190 @@
 "Themes":
 [
   { 
-  "Path" : "/common/giphycontent/love.json",
-  "DefaultImage" : "/cvd/loveinterest/otherlove/small/iStock_000002605824_Medium.jpg",
+  "Path" : "/themes/emojiBlue/small",
+  "DefaultImage" : "/themes/emojiBlue/small/shutterstock_419416588_2.jpg",
   "Labels":
-    [
-    {"en": "I love you"},
-    {"fr": "Je t'aime"},
-    {"Es": "Te amo"}
-    ]
+   {
+    "en": "blue",
+    "fr": "bleu",
+    "es": "azul"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/like.json",
-  "DefaultImage" : "/themes/pairs/small/shutterstock_148572530.jpg",
+  "Path" : "/themes/emojiBubble/small",
+  "DefaultImage" : "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg",
   "Labels":
-    [
-    {"en": "I like you"},
-    {"fr": "Tu me plais"},
-    {"Es": "Me gustas"}
-    ]
+   {
+    "en": "in a bubble",
+    "fr": "dans une bulle",
+    "es": "en un globo"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiGirlie/small",
+  "DefaultImage" : "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg",
+  "Labels":
+   {
+    "en": "black and white",
+    "fr": "noir et blanc",
+    "es": "blanco y negro"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/miss.json",
-  "DefaultImage" : "/specialoccasions/I-miss-you/default/small/shutterstock_93294814.jpg?dl=0",
-  "Labels": 
-    [
-    {"en": "I miss you"},
-    {"fr": "Tu me manques"},
-    {"Es": "Te echo de menos"}
-    ]
+  "Path" : "/themes/emojiCats/small",
+  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
+  "Labels":
+   {
+    "en": "cat",
+    "fr": "chat",
+    "es": "gato"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/morning.json",
-  "DefaultImage" : "/specialoccasions/good-morning/default/small/sunrise-000018701876_Medium.jpg?dl=0",
+  "Path" : "/themes/emojiHandDrawn/small",
+  "DefaultImage" : "/themes/emojiHandDrawn/small/shutterstock_391162699_7.jpg",
   "Labels":
-    [
-    {"en": "Good morning"},
-    {"fr": "Bonjour"},
-    {"Es": "Buenos Dias"}
-    ]
+   {
+    "en": "hand drawn",
+    "fr": "crayonné",
+    "es": "dibujado"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiNeon/small",
+  "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
+  "Labels":
+   {
+    "en": "neon",
+    "fr": "néon",
+    "es": "neón"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/night.json",
-  "DefaultImage" : "/specialoccasions/good-night/default/small/292213_416678345024066_1669780068_n.jpg?dl=0",
+  "Path" : "/themes/emojiNonsense/small",
+  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
   "Labels":
-    [
-    {"en": "Good night"},
-    {"fr": "Bonne nuit"},
-    {"Es": "Beunas noches"}
-    ]
+   {
+    "en": "disguised",
+    "fr": "déguisé",
+    "es": "disfrazado"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/think.json",
-  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
+  "Path" : "/themes/emojiPastel/small",
+  "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
   "Labels":
-    [
-    {"en": "I think of you"},
-    {"fr": "Je penses à toi"},
-    {"Es": "Pienso en ti"}
-    ]
+   {
+    "en": "square",
+    "fr": "carré",
+    "es": "cuadrado"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiSun/small",
+  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
+  "Labels":
+   {
+    "en": "sun",
+    "fr": "soleil",
+    "es": "Sol"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emojiVanilla/small",
+  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+  "Labels":
+   {
+    "en": "pastel",
+    "fr": "pastel",
+    "es": "pastel"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/best.json",
-  "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_128000216.jpg",
+  "Path" : "/themes/emoticons/small",
+  "DefaultImage" : "/themes/emoticons/small/00015392841.jpg",
   "Labels":
-    [
-    {"en": "You are the best"},
-    {"fr": "Tu es le/la meilleur(e)"},
-    {"Es": "Eres lo/el mejor"}
-    ]
+   {
+    "en": "big",
+    "fr": "grand",
+    "es": "grande"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/I-am-the-best.json",
-  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-awesome.jpg?dl=0",
+  "Path" : "/themes/emoticons2/small",
+  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
   "Labels":
-    [
-    {"en": "I am awesome"},
-    {"fr": "Je suis génial"},
-    {"Es": "Soy increible"}
-    ]
+   {
+    "en": "classic",
+    "fr": "classique",
+    "es": "clásico"
+    }
+  }
+  ,  
+  { 
+  "Path" : "/themes/emoticons3/small",
+  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
+  "Labels":
+   {
+    "en": "blue eyed",
+    "fr": "yeux bleus",
+    "es": "ojos azules"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/hugs.json",
-  "DefaultImage" : "/mum/kittens/small/shutterstock_170544845.jpg",
+  "Path" : "/themes/emoticons4/small",
+  "DefaultImage" : "/themes/emoticons4/small/shutterstock_404046766_11.jpg",
   "Labels":
-    [
-    {"en": "Hugs"},
-    {"fr": "Calins"},
-    {"Es": "Abrazos"}
-    ]
-   }
-   ,
-    { 
-  "Path": "/common/giphycontent/howareyou.json",
-  "DefaultImage": "/cvd/fbfriend/other/small/iStock_000008396813_Medium.jpg",
-  "Labels":
-    [
-    {"en": "How are you?"},
-    {"fr": "Comment vas-tu?"},
-    {"Es": "Cómo estás"}
-    ]
-  }
-  ,
-  {
-  "Path" : "/common/giphycontent/jokes.json",
-  "DefaultImage" : "/themes/funny/small/310928_10150295389296564_166896605_n.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "Funny"},
-    {"fr": "Drole"},
-    {"Es": "Comico"}
-    ]
+   {
+    "en": "kawaii",
+    "fr": "kawaii",
+    "es": "kawaii"
+    }
   }
   ,
   { 
-  "Path" : "/common/giphycontent/wantdrink.json",
-  "DefaultImage" : "/specialoccasions/would-you-care-for-a-drink/default/small/iStock_000067829773_Medium.jpg?dl=0",
+  "Path" : "/themes/emoticons5/small",
+  "DefaultImage" : "/themes/emoticons5/small/shutterstock_387300097_4.jpg",
   "Labels":
-    [
-    {"en": "Let's have a drink"},
-    {"fr": "Prenons un verre"},
-    {"Es": "Vamos a tomar algo"}
-    ]
+   {
+    "en": "minimalist",
+    "fr": "minimaliste",
+    "es": "minimalista"
+    }
   }
-  , 
+  ,  
   { 
-  "Path" : "/common/giphycontent/sorry.json",
-  "DefaultImage" : "/specialoccasions/sorry/default/small/423611_404972892891532_98905350_n.jpg?dl=0",
+  "Path" : "/themes/emoticons7/small",
+  "DefaultImage" : "/themes/emoticons7/small/shutterstock_461742151_7.jpg",
   "Labels":
-    [
-    {"en": "I am sorry"},
-    {"fr": "Je suis désolé"},
-    {"Es": "Lo siento"}
-    ]
+   {
+    "en": "white",
+    "fr": "blanc",
+    "es": "blanco"
+    }
   }
-  ,
-   { 
-  "Path" : "/common/giphycontent/thankyou.json",
-  "DefaultImage" : "/cvd/fbfriend/other/small/shutterstock_103886780.jpg",
-  "Labels":
-    [
-    {"en": "Thank you"},
-    {"fr": "Merci"},
-    {"Es": "Gracias"}
-    ]
-  }
-  ,
+  ,  
   { 
-  "Path" : "/common/giphycontent/bored.json",
-  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-boring.jpg?dl=0",
+  "Path" : "/themes/football/small",
+  "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
   "Labels":
-    [
-    {"en": "I am bored"},
-    {"fr": "Je m'ennuie"},
-    {"Es": "Estoy aburrido"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/hungry.json",
-  "DefaultImage" : "/cvd/intentions/default/xsmall/xs-hungry.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "I am hungry"},
-    {"fr": "J'ai faim"},
-    {"Es": "Tengo hambre"}
-    ]
-  }
-    ,
-  { 
-  "Path" : "/common/giphycontent/sad.json",
-  "DefaultImage" : "/specialoccasions/condolences/default/small/10449531_621591374618803_5496085897565713235_n.jpg",
-  "Labels":
-    [
-    {"en": "I am sad"},
-    {"fr": "Je suis triste"},
-    {"Es": "Estoy triste"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/emojis.json",
-  "DefaultImage" : "/adverts/selection1/shutterstock_190844732_1.jpg",
-  "Labels":
-    [
-    {"en": "Emojis"},
-    {"fr": "Emojis"},
-    {"Es": "Emojis"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/birthday.json",
-  "DefaultImage" : "/specialoccasions/happy-new-year/default/small/shutterstock_257297479.jpg",
-  "Labels":
-    [
-    {"en": "Happy Birthday"},
-    {"fr": "Joyeux anniversaire"},
-    {"Es": "Feliz cumpleaños"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/flowers.json",
-  "DefaultImage" : "/themes/flowers/small/shutterstock_96822796.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "Flowers"},
-    {"fr": "Fleurs"},
-    {"Es": "Flores"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/nature.json",
-  "DefaultImage" : "/themes/nature/small/74775_306806669430610_1152613767_n.jpg",
-  "Labels":
-    [
-    {"en": "Nature"},
-    {"fr": "Nature"},
-    {"Es": "Natura"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/nothankyou.json",
-  "DefaultImage" : "/specialoccasions/no-thank-you/default/small/iStock_000056974768_Medium.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "No, thank you"},
-    {"fr": "Non, merci"},
-    {"Es": "No, gracias"}
-    ]
-   }
-  ,
-  { 
-  "Path" : "/common/giphycontent/late.json",
-  "DefaultImage" : "/specialoccasions/I-am-late/default/small/iStock_000002939415_Medium.jpg",
-  "Labels":
-    [
-    {"en": "I am late"},
-    {"fr": "Je suis en retard"},
-    {"Es": "Voy tarde"}
-    ]
+   {
+    "en": "soccer",
+    "fr": "football",
+    "es": "futbol"
+    }
   }
 ]
-}
+}  
