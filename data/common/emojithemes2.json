@@ -100,5 +100,16 @@
     "es": "Tigres"
     }
   }
+  ,
+  { 
+  "Path" : "/themes/emojiCats/small",
+  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
+  "Labels":
+   {
+    "en": "Cats",
+    "fr": "Chats",
+    "es": "Gatos"
+    }
+  }
 ]
 }  
