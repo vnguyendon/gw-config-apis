@@ -232,15 +232,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Réconforte-moi 🤗"
+          "value": "Réconforte-moi 💜"
         },
         {
           "culture": "en-EN",
-          "value": "Comfort me 🤗"
+          "value": "Comfort me 💜"
         },
         {  
           "culture": "es-ES",
-          "value": "Consolado 🤗"
+          "value": "Consolado 💜"
         }
       ],
       "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée", "unhappy", "malheureux", "infeliz" ]
@@ -347,15 +347,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Pourquoi? 🙁"
+          "value": "Pourquoi? 🐣"
         },
         {
           "culture": "en-EN",
-          "value": "Why? 🙁"
+          "value": "Why? 🐣"
         },
         {
           "culture": "es-ES",
-          "value": "¿Por qué? 🙁"
+          "value": "¿Por qué? 🐣"
         }
       ]
 
