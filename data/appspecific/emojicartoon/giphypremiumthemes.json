@@ -1,115 +1,85 @@
-
 {
-"Themes":
-[
-  { 
-  "Path" : "/themes/emojiBears/small",
-  "DefaultImage" : "/themes/emojiBears/small/shutterstock_417336076_6.jpg",
-  "Labels":
-   {
-    "en": "Bears",
-    "fr": "Ours",
-    "es": "Osos"
+  "Themes": [
+    {
+      "Path": "/common/giphycontent/premiumkitties.json",
+      "DefaultImage": "/themes/kittens/small/shutterstock_116218768.jpg",
+      "Labels": {
+        "en": "Kitties",
+        "fr": "Chatons",
+        "es": "Gatitos"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpuppies.json",
+      "DefaultImage": "/themes/puppies/small/shutterstock_190771445.jpg",
+      "Labels": {
+        "en": "Puppies",
+        "fr": "Chiots",
+        "es": "Perritos"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpandas.json",
+      "DefaultImage": "/cvd/friend/friends/small/446325988.jpg",
+      "Labels": {
+        "en": "Pandas",
+        "fr": "Pandas",
+        "es": "Pandas"
+      }
+    },
+        {
+      "Path": "/common/giphycontent/premiumchristmas.json",
+      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
+      "Labels": {
+        "en": "Merry Christmas",
+        "fr": "Joyeux Noël",
+        "es": "Feliz Navidad"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon1.json",
+      "DefaultImage": "/themes/emojiLions/small/shutterstock_402952978_16.jpg",
+      "Labels": {
+        "en": "Cartoons I",
+        "fr": "Dessins animés I",
+        "es": "Dibujos animados I"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon2.json",
+      "DefaultImage": "/themes/emojiKittens/small/shutterstock_397906726_6.jpg",
+      "Labels": {
+        "en": "Cartoons II",
+        "fr": "Dessins animés II",
+        "es": "Dibujos animados II"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon3.json",
+      "DefaultImage": "/themes/emojiPuppies/small/shutterstock_398942398_8.jpg",
+      "Labels": {
+        "en": "Cartoons III",
+        "fr": "Dessins animés III",
+        "es": "Dibujos animados III"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumsoccer.json",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/shutterstock_75105484_2.jpg",
+      "Labels": {
+        "en": "Soccer",
+        "fr": "Football",
+        "es": "Futbol"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpika.json",
+      "DefaultImage": "/themes/emojiCats/small/shutterstock_429770818_70.jpg",
+      "Labels": {
+        "en": "Pika",
+        "fr": "Pika",
+        "es": "Pika"
+      }
     }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiKittens/small",
-  "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_8.jpg",
-  "Labels":
-   {
-    "en": "Kittens",
-    "fr": "Chatons",
-    "es": "Gatitos"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiLions/small",
-  "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_7.jpg",
-  "Labels":
-   {
-    "en": "Lions",
-    "fr": "Lions",
-    "es": "Leones"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiOwls/small",
-  "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
-  "Labels":
-   {
-    "en": "Owls",
-    "fr": "Hiboux",
-    "es": "Búhos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiPandas/small",
-  "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
-  "Labels":
-   {
-    "en": "Pandas",
-    "fr": "Pandas",
-    "es": "Pandas"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiPuppies/small",
-  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
-  "Labels":
-   {
-    "en": "Puppies",
-    "fr": "Chiots",
-    "es": "Perros"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiRabbits/small",
-  "DefaultImage" : "/themes/emojiRabbits/small/shutterstock_431193436_2.jpg",
-  "Labels":
-   {
-    "en": "Rabbits",
-    "fr": "Lapins",
-    "es": "Conejos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiRaccoons/small",
-  "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
-  "Labels":
-   {
-    "en": "Racoons",
-    "fr": "Ratons-laveurs",
-    "es": "Mapaches"
-    }
-  }
-  ,  
-  { 
-  "Path" : "/themes/emojiTigers/small",
-  "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
-  "Labels":
-   {
-    "en": "Tigers",
-    "fr": "Tigres",
-    "es": "Tigres"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiCats/small",
-  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
-  "Labels":
-   {
-    "en": "Cats",
-    "fr": "Chats",
-    "es": "Gatos"
-    }
-  }
-]
-}  
+  ]
+}
