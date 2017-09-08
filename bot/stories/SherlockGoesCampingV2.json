@@ -103,8 +103,12 @@
     {	  
         "OrderId":"65",
         "Type":"Image",
+	"Source":{
+        "Type": "Image",
         "Source":"External",
         "Path": "https://img11.hostingpics.net/pics/596024Sherlock1.jpg",
+	  },
+        
         "Wait":"Yes"
     },
     {
