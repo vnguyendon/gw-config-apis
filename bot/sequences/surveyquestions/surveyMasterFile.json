@@ -92,7 +92,9 @@
       "/bot/sequences/surveyquestions/BoxOrYoga.json",
       "/bot/sequences/surveyquestions/JusticeOrFreedom.json",
       "/bot/sequences/surveyquestions/NikeOrAdidas.json",
-      "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json"
+      "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json",
+      "/bot/sequences/surveyquestions/DonaldTrumpMandate.json",
+      "/bot/sequences/surveyquestions/DeforestationOrOverfishing.json"
       ]
   }
 ]
