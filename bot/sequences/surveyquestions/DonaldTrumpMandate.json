@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "WillTrumpFinishHisMandate",
+  "Label":
+    {
+      "en": "Will Donald Trump finish his presidential mandate?",
+      "fr": "Donald Trump terminera-t-il son mandat présidentiel ?",
+      "es": "¿Va Donald Trump a terminar su mandato presidencial?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesTrumpWillFinishHisMandate",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xTg8B9aULho7shlPmU"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoTrumpWontFinishHisMandate",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "11DFuwckOK9mdG"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

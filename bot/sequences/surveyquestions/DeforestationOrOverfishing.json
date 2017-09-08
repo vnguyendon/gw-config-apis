@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "DeforestationOrOverfishing",
+  "Label":
+    {
+      "en": "What's worse?",
+      "fr": "C'est quoi le pire ?",
+      "es": "¿Qué es lo peor?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "WorseDeforestation",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oGRFkoGqqLVycWg9y"
+          },
+          "Label":{
+            "en": "deforestation",
+            "fr": "la déforestation",
+            "es": "la deforestación"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "WorseOverfishing",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "HHKOlXVS0WeYg"
+          },
+          "Label":{
+            "en": "oversfishing",
+            "fr": "la surpêche",
+            "es": "la sobrepesca"
+          }
+        }
+      ]
+}
+
