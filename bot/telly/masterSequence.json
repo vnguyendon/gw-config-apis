@@ -1,16 +1,5 @@
 [
   {
-    "GroupName":"UserProperties",
-    "SequenceFiles" : [
-        { "order" :  5, "file": "/bot/sequences/v2/WouldLikePsychoProfile.json" },
-        { "order" : 10, "file": "/bot/sequences/v2/ppEnergeticAfter.json" },
-        { "order" : 20, "file": "/bot/sequences/v2/ppReceptiveTo.json" },
-        { "order" : 30, "file": "/bot/sequences/v2/ppDecisionsAriseFrom.json" },
-        { "order" : 40, "file": "/bot/sequences/v2/ppOpenedOrSettled.json" },
-        { "order" : 50, "file": "/bot/sequences/v2/ppRevealed.json" }
-    ]
-  },
-  {
     "GroupName":"Surveys",
     "SequenceFiles" : [
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
