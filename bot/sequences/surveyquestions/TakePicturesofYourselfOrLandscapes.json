@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "TakePicturesOfYourselfOrLandscapes",
+  "Label":
+    {
+      "en": "You take more pictures of",
+      "fr": "Tu prends plus souvent des photos",
+      "es": "Tomas más fotos de"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PicturesOfYourself",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "16bJmyPvRbCDu"
+          },
+          "Label":{
+            "en": "yourself",
+            "fr": "de toi",
+            "es": "ti mismo"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PicturesOfLandscapes",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "vBMzK6KN6M6zK"
+          },
+          "Label":{
+            "en": "landscapes",
+            "fr": "de paysages",
+            "es": "paisajes"
+          }
+        }
+      ]
+}
+

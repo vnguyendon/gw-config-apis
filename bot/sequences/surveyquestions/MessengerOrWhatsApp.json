@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "MessengerOrWhatsapp",
+  "Label":
+    {
+      "en": "Which one do you prefer?",
+      "fr": "Lequel préfères-tu ?",
+      "es": "¿Cuál es tu preferido?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferMessenger",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "WirhZMBF1AZVK"
+          },
+          "Label":{
+            "en": "Messenger",
+            "fr": "Messenger",
+            "es": "Messenger"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferWhatsapp",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Aa4oBr6AfKBXy"
+          },
+          "Label":{
+            "en": "WhatsApp",
+            "fr": "WhatsApp",
+            "es": "WhatsApp"
+          }
+        }
+      ]
+}
+

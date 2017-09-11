@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "UnicornOrPegasus",
+  "Label":
+    {
+      "en": "What's best?",
+      "fr": "C'est quoi le mieux ?",
+      "es": "¿Qué es lo mejor?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "UnicornIsBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "5UFNnpF71pToI"
+          },
+          "Label":{
+            "en": "a unicorn",
+            "fr": "une licorne",
+            "es": "un unicornio"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PegasusIsBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "pYRYs2sffJxV6"
+          },
+          "Label":{
+            "en": "a pegasus",
+            "fr": "un pégase",
+            "es": "un pegaso"
+          }
+        }
+      ]
+}
+

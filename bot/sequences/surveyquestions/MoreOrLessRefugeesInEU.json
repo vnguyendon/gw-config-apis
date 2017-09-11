@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "EUShouldWelcomeMoreOrLessRefugees",
+  "Label":
+    {
+      "en": "The European Union should welcome",
+      "fr": "L'Union Européenne devrait accueillir",
+      "es": "La Union Europea debería acoger"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreRefugees",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "wAVA7WdV2jita"
+          },
+          "Label":{
+            "en": "more refugees",
+            "fr": "plus de réfugiés",
+            "es": "más refugiados"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LessRefugees",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "R4iglUawxZoB2"
+          },
+          "Label":{
+            "en": "less refugees",
+            "fr": "moins de réfugiés",
+            "es": "menos refugiados"
+          }
+        }
+      ]
+}
+

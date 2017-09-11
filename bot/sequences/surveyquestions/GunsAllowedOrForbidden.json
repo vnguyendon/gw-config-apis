@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "GunsAllowedOrForbidden",
+  "Label":
+    {
+      "en": "The possession and use of guns should be",
+      "fr": "La possesion et le port d'armes devraient être",
+      "es": "La posesión y el uso de las armas deberían ser"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "GunsAllowed",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "nu4DN4nKos3m0"
+          },
+          "Label":{
+            "en": "allowed",
+            "fr": "autorisés",
+            "es": "permitidos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "GunsForbidden",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oAt1TnYwejnNXDNzG"
+          },
+          "Label":{
+            "en": "forbidden",
+            "fr": "interdits",
+            "es": "prohibidos"
+          }
+        }
+      ]
+}
+
