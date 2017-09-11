@@ -22,9 +22,9 @@
             "Path": "3oGRFkoGqqLVycWg9y"
           },
           "Label":{
-            "en": "deforestation",
-            "fr": "la déforestation",
-            "es": "la deforestación"
+            "en": "deforestation 🌲",
+            "fr": "la déforestation 🌲",
+            "es": "la deforestación 🌲"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "HHKOlXVS0WeYg"
           },
           "Label":{
-            "en": "oversfishing",
-            "fr": "la surpêche",
-            "es": "la sobrepesca"
+            "en": "oversfishing 🐟",
+            "fr": "la surpêche 🐟",
+            "es": "la sobrepesca 🐟"
           }
         }
       ]
