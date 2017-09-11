@@ -6,11 +6,7 @@
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/2575065062",
-    "Fallback": {
-      "Provider": "Facebook",
-      "ID": "1001221899915187_1108694192501290"
-    }
+    "ID": "ca-app-pub-7822741681642396/2575065062"
   },
   "FirstResumeActivityOld": {
     "Provider": "Facebook",
@@ -22,10 +18,7 @@
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/2575065062",
-    "Fallback": {
-      "Provider": "Facebook",
-      "ID": "1001221899915187_1108694192501290"
+    "ID": "ca-app-pub-7822741681642396/2575065062"
     }
   },
  "OtherResumeActivityOld": {
