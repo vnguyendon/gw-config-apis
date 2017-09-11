@@ -78,5 +78,10 @@
       "/bot/sequences/surveyquestions/NikeOrAdidas.json",
       "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json",
       "/bot/sequences/surveyquestions/DonaldTrumpMandate.json",
-      "/bot/sequences/surveyquestions/DeforestationOrOverfishing.json"
+      "/bot/sequences/surveyquestions/DeforestationOrOverfishing.json",
+      "/bot/sequences/surveyquestions/MessengerOrWhatsApp.json",
+      "/bot/sequences/surveyquestions/GunsAllowedOrForbidden.json",
+      "/bot/sequences/surveyquestions/TakePicturesofYourselfOrLandscapes.json",
+      "/bot/sequences/surveyquestions/MoreOrLessRefugeesInEU.json",
+      "/bot/sequences/surveyquestions/UnicornOrPegasus.json"
 ] 
