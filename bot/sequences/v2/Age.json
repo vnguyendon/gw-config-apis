@@ -19,7 +19,11 @@
           "en": "Less than 18",
           "fr": "Moins de 18 ans",
           "es": "Menos de 18 años"
-        }
+        },
+        "Parameters" : {
+          "property" : "ppAge",
+          "value" : "Less18"
+       }
     },
     {
       "Type": "DoNothing",
@@ -30,7 +34,11 @@
           "en": "Between 18 and 39",
           "fr": "Entre 18 et 39 ans",
           "es": "Entre 18 y 39"
-        }
+        },
+       "Parameters" : {
+          "property" : "ppAge",
+          "value" : "18-39"
+       }
     },
     {
       "Type": "DoNothing",
@@ -41,7 +49,11 @@
           "en": "Between 40 and 64",
           "fr": "Entre 40 et 64 ans",
           "es": "Entre 40 y 64"
-        }
+        },
+        "Parameters" : {
+          "property" : "ppAge",
+          "value" : "40-64"
+       }
     },
     {
       "Type": "DoNothing",
@@ -52,7 +64,11 @@
           "en": "More than 64",
           "fr": "Plus de 64 ans",
           "es": "Más de 64"
-        }
+        },
+        "Parameters" : {
+          "property" : "ppAge",
+          "value" : "64more"
+       }
     }
   ]
 }
