@@ -1,0 +1,11 @@
+[
+  {
+    "GroupName":"Surveys",
+    "SequenceFiles" : [
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
+      { "order" : 200, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
+      { "order" : 200, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
+      { "order" : 200, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"}
+      ]
+  }
+]
