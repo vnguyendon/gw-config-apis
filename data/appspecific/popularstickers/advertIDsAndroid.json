@@ -19,9 +19,8 @@
   "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2575065062"
-    }
   },
- "OtherResumeActivityOld": {
+  "OtherResumeActivityOld": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1108694192501290",
     "Fallback": {
@@ -38,4 +37,3 @@
     "ID": "ca-app-pub-7822741681642396/6111188147"
   }
 }
-
