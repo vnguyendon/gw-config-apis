@@ -30,7 +30,7 @@
         ,
         {
           "Type": "Survey",
-          "Id": "PreferAdidas",
+          "Id": "PreferYoga",
           "StepValue" : "1",
           "OptionalFeedback": {
             "Type": "AnimatedGif",
