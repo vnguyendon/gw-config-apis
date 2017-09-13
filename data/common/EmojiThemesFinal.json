@@ -23,6 +23,17 @@
     }
   }
   ,
+  { 
+  "Path" : "/themes/penguins/small",
+  "DefaultImage" : "/themes/penguins/small/shutterstock_326065538_2.jpg",
+  "Labels":
+   {
+    "en": "Penguins",
+    "fr": "Pingouins",
+    "es": "Pingüinos"
+    }
+  }
+  ,
    { 
   "Path" : "/themes/emojiTigers/small",
   "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
