@@ -12,6 +12,17 @@
     }
   }
   ,
+  { 
+  "Path" : "/themes/emojiTigers/small",
+  "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
+  "Labels":
+   {
+    "en": "Tigers",
+    "fr": "Tigres",
+    "es": "Tigres"
+    }
+  }
+  ,
    { 
   "Path" : "/themes/emoticons2/small",
   "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
@@ -20,6 +31,17 @@
     "en": "3D emojis",
     "fr": "Emojis 3D",
     "es": "Emojis 3D"
+    }
+  }
+  ,
+ { 
+  "Path" : "/themes/emojiPandas/small",
+  "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
+  "Labels":
+   {
+    "en": "Pandas",
+    "fr": "Pandas",
+    "es": "Pandas"
     }
   }
   ,
@@ -34,17 +56,6 @@
     }
   }
   ,
-   { 
-  "Path" : "/themes/emojiTigers/small",
-  "DefaultImage" : "/themes/emojiTigers/small/shutterstock_399642061_13.jpg",
-  "Labels":
-   {
-    "en": "Tigers",
-    "fr": "Tigres",
-    "es": "Tigres"
-    }
-  }
-  ,
   { 
   "Path" : "/themes/emojiCats/small",
   "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
@@ -53,17 +64,6 @@
     "en": "Cats",
     "fr": "Chats",
     "es": "Gatos"
-    }
-  }
-  ,
-   { 
-  "Path" : "/themes/emojiPandas/small",
-  "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
-  "Labels":
-   {
-    "en": "Pandas",
-    "fr": "Pandas",
-    "es": "Pandas"
     }
   }
   ,
@@ -86,17 +86,6 @@
     "en": "Rabbits",
     "fr": "Lapins",
     "es": "Conejos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emoticons3/small",
-  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
-  "Labels":
-   {
-    "en": "Original emojis",
-    "fr": "Emojis originaux",
-    "es": "Emojis originales"
     }
   }
   ,
@@ -209,19 +198,19 @@
     "es": "Emojis blancos"
     }
   }
-  ,  
+  ,
   { 
-  "Path" : "/themes/football/small",
-  "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
+  "Path" : "/themes/emojiOwls/small",
+  "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
   "Labels":
    {
-    "en": "Soccer emojis",
-    "fr": "Emojis football",
-    "es": "Emojis futbol"
+    "en": "Owls",
+    "fr": "Hiboux",
+    "es": "Búhos"
     }
   }
   ,
-    { 
+  { 
   "Path" : "/themes/emojiNeon/small",
   "DefaultImage" : "/themes/emojiNeon/small/shutterstock_396851035_7.jpg",
   "Labels":
@@ -232,6 +221,17 @@
     }
   }
   ,
+   { 
+  "Path" : "/themes/emojiRaccoons/small",
+  "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
+  "Labels":
+   {
+    "en": "Racoons",
+    "fr": "Ratons-laveurs",
+    "es": "Mapaches"
+    }
+  }
+  ,  
   { 
   "Path" : "/themes/emojiPastel/small",
   "DefaultImage" : "/themes/emojiPastel/small/shutterstock_384708250_3.jpg",
@@ -255,6 +255,17 @@
   }
   ,
    { 
+  "Path" : "/themes/football/small",
+  "DefaultImage" : "/themes/football/small/shutterstock_75105484_2.jpg",
+  "Labels":
+   {
+    "en": "Soccer emojis",
+    "fr": "Emojis football",
+    "es": "Emojis futbol"
+    }
+  }
+  ,
+   { 
   "Path" : "/themes/emojiLions/small",
   "DefaultImage" : "/themes/emojiLions/small/shutterstock_402952978_7.jpg",
   "Labels":
@@ -266,28 +277,6 @@
   }
   ,
   { 
-  "Path" : "/themes/emojiOwls/small",
-  "DefaultImage" : "/themes/emojiOwls/small/shutterstock_386688127_14.jpg",
-  "Labels":
-   {
-    "en": "Owls",
-    "fr": "Hiboux",
-    "es": "Búhos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiRaccoons/small",
-  "DefaultImage" : "/themes/emojiRaccoons/small/shutterstock_416608975_12.jpg",
-  "Labels":
-   {
-    "en": "Racoons",
-    "fr": "Ratons-laveurs",
-    "es": "Mapaches"
-    }
-  }
-  ,  
-    { 
   "Path" : "/themes/emojiCats/small",
   "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
   "Labels":
@@ -295,6 +284,17 @@
     "en": "Cats",
     "fr": "Chats",
     "es": "Gatos"
+    }
+  }
+ ,
+ { 
+  "Path" : "/themes/emoticons3/small",
+  "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
+  "Labels":
+   {
+    "en": "Original emojis",
+    "fr": "Emojis originaux",
+    "es": "Emojis originales"
     }
   }
   ]
