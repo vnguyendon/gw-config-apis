@@ -11,7 +11,7 @@
     },
   "Commands": [
     {
-      "Type": "DoNothing",
+      "Type": "SetUserProperty",
       "Id": "EighteenLess",
       "StepValue" : "1", 
       "Label":
@@ -26,7 +26,7 @@
        }
     },
     {
-      "Type": "DoNothing",
+      "Type": "SetUserProperty",
       "Id": "EighteenThirtyNine",
       "StepValue" : "1", 
       "Label":
@@ -41,7 +41,7 @@
        }
     },
     {
-      "Type": "DoNothing",
+      "Type": "SetUserProperty",
       "Id": "FourtySixtyFour",
       "StepValue" : "1", 
       "Label":
@@ -56,7 +56,7 @@
        }
     },
     {
-      "Type": "DoNothing",
+      "Type": "SetUserProperty",
       "Id": "SixtyFourMore",
       "StepValue" : "1", 
       "Label":
