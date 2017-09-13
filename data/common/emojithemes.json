@@ -7,9 +7,9 @@
   "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
   "Labels":
    {
-    "en": "Classic emojis",
-    "fr": "Emojis classiques",
-    "es": "Emojis clásicos"
+    "en": "Original emojis",
+    "fr": "Emojis originaux",
+    "es": "Emojis originales"
     }
   }
   ,
@@ -29,9 +29,9 @@
   "DefaultImage" : "/themes/emoticons/small/000015392841.jpg",
   "Labels":
    {
-    "en": "Funny emojis",
-    "fr": "Emojis drôles",
-    "es": "Emojis divertidos"
+    "en": "Classic emojis",
+    "fr": "Emojis classiques",
+    "es": "Emojis clásicos"
     }
   }
   ,
@@ -40,9 +40,9 @@
   "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
   "Labels":
    {
-    "en": "Cute emojis",
-    "fr": "Emojis mignons",
-    "es": "Emojis lindos"
+    "en": "3D emojis",
+    "fr": "Emojis 3D",
+    "es": "Emojis 3D"
     }
   }
   ,
