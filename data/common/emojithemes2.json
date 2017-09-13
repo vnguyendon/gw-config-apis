@@ -3,6 +3,17 @@
 "Themes":
 [
   { 
+  "Path" : "/themes/penguins/small",
+  "DefaultImage" : "/themes/penguins/small/shutterstock_326065538_2.jpg",
+  "Labels":
+   {
+    "en": "Penguins",
+    "fr": "Pingouins",
+    "es": "Pingüinos"
+    }
+  }
+  ,
+  { 
   "Path" : "/themes/emojiBears/small",
   "DefaultImage" : "/themes/emojiBears/small/shutterstock_417336076_6.jpg",
   "Labels":
