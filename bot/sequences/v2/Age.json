@@ -1,74 +1,67 @@
-
-
 {
   "Type": "Question",
   "Id": "Age",
-  "Label":
-    {
-      "en": "How old are you?",
-      "fr": "Quel âge as-tu?",
-      "es": "¿Cuantos años tienes?"
-    },
+  "Label": {
+    "en": "How old are you?",
+    "fr": "Quel âge as-tu?",
+    "es": "¿Cuantos años tienes?"
+  },
   "Commands": [
     {
       "Type": "SetUserProperty",
       "Id": "EighteenLess",
-      "StepValue" : "1", 
-      "Label":
-        {
-          "en": "Less than 18",
-          "fr": "Moins de 18 ans",
-          "es": "Menos de 18 años"
-        },
-        "Parameters" : {
-          "property" : "ppAge",
-          "value" : "Less18"
-       }
+      "StepValue": "1",
+      "Label": {
+        "en": "Less than 18",
+        "fr": "Moins de 18 ans",
+        "es": "Menos de 18 años"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "Less18"
+      }
     },
     {
       "Type": "SetUserProperty",
       "Id": "EighteenThirtyNine",
-      "StepValue" : "1", 
-      "Label":
-        {
-          "en": "Between 18 and 39",
-          "fr": "Entre 18 et 39 ans",
-          "es": "Entre 18 y 39"
-        },
-       "Parameters" : {
-          "property" : "ppAge",
-          "value" : "18-39"
-       }
+      "StepValue": "1",
+      "Label": {
+        "en": "Between 18 and 39",
+        "fr": "Entre 18 et 39 ans",
+        "es": "Entre 18 y 39"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "18-39"
+      }
     },
     {
       "Type": "SetUserProperty",
       "Id": "FourtySixtyFour",
-      "StepValue" : "1", 
-      "Label":
-        {
-          "en": "Between 40 and 64",
-          "fr": "Entre 40 et 64 ans",
-          "es": "Entre 40 y 64"
-        },
-        "Parameters" : {
-          "property" : "ppAge",
-          "value" : "40-64"
-       }
+      "StepValue": "1",
+      "Label": {
+        "en": "Between 40 and 64",
+        "fr": "Entre 40 et 64 ans",
+        "es": "Entre 40 y 64"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "40-64"
+      }
     },
     {
       "Type": "SetUserProperty",
       "Id": "SixtyFourMore",
-      "StepValue" : "1", 
-      "Label":
-        {
-          "en": "More than 64",
-          "fr": "Plus de 64 ans",
-          "es": "Más de 64"
-        },
-        "Parameters" : {
-          "property" : "ppAge",
-          "value" : "64more"
-       }
+      "StepValue": "1",
+      "Label": {
+        "en": "More than 64",
+        "fr": "Plus de 64 ans",
+        "es": "Más de 64"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "64more"
+      }
     }
   ]
 }
