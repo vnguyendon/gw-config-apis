@@ -27,5 +27,9 @@
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1727516507493157_1980107925567346"
+  },
+    "PremiumCategories": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_2001346866776785"
   }
 }
