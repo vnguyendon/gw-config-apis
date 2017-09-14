@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "IndianOrChineseFood",
+  "Label":
+    {
+      "en": "The best food is",
+      "fr": "La meilleure cuisine est",
+      "es": "La mejora cocina es"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "IndianFoodBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3oeSANlR56jz1tEPao"
+          },
+          "Label":{
+            "en": "Indian",
+            "fr": "indienne",
+            "es": "india"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "ChineseFoodBest",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "WKUSlerPGZ73i"
+          },
+          "Label":{
+            "en": "Chinese",
+            "fr": "chinoise",
+            "es": "china"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "ADayOffOr40Dollars",
+  "Label":
+    {
+      "en": "You would prefer your employer to give you",
+      "fr": "Tu préfères que ton employeur te donne",
+      "es": "Prefieres que tu empleador te dé"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferADayOff",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "76hdmaMUK9X20"
+          },
+          "Label":{
+            "en": "a day off",
+            "fr": "un jour de congé",
+            "es": "un día libre"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Prefer40Dollars",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UOvh7Fw9fo7KM"
+          },
+          "Label":{
+            "en": "$40",
+            "fr": "40$",
+            "es": "40$"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,48 @@
+
+{
+  "Type": "Question",
+  "Id": "SafetyOrPrivacy",
+  "Label":
+    {
+      "en": "What's more important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantSafety",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "TXjH106Xecahq"
+          },
+          "Label":{
+            "en": "safety",
+            "fr": "la sécurité",
+            "es": "la securidad"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantPrivacy",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "g7ZlV1riFzVHW"
+          },
+          "Label":{
+            "en": "privacy",
+            "fr": "la vie privée",
+            "es": "la privacidad"
+          }
+        }
+      ]
+}
+

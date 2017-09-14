@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "PreferChattingByTextsOrPhone",
+  "Label":
+    {
+      "en": "You prefer chatting with your friends",
+      "fr": "Tu préfères discuter avec tes amis",
+      "es": "Prefieres chatear con tus amigos"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferTexts",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l1J9xxutJ7e1TCLK0"
+          },
+          "Label":{
+            "en": "by texts",
+            "fr": "par messages",
+            "es": "por mensajes"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferPhonecalls",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "yLdqXVDMJioBG"
+          },
+          "Label":{
+            "en": "by phone",
+            "fr": "par téléphone",
+            "es": "por teléfono"
+          }
+        }
+      ]
+}
+

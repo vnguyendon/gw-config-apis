@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "WhoIsBetterPresidentPutinOrTrump",
+  "Label":
+    {
+      "en": "Who is a better president?",
+      "fr": "Qui est le meilleur président ?",
+      "es": "¿Quién es un mejor presidente?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PutinBetterPresident",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "UxNCd08uBaFBC"
+          },
+          "Label":{
+            "en": "Vladimir Putin",
+            "fr": "Vladimir Poutine",
+            "es": "Vladimir Putin"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "TrumpBetterPresident",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "bXE0iECrH9xJe"
+          },
+          "Label":{
+            "en": "Donald Trump",
+            "fr": "Donald Trump",
+            "es": "Donald Trump"
+          }
+        }
+      ]
+}
+
