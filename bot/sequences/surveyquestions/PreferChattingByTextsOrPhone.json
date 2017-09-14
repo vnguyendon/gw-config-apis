@@ -5,7 +5,7 @@
     {
       "en": "You prefer chatting with your friends",
       "fr": "Tu préfères discuter avec tes amis",
-      "es": "Prefieres chatear con tus amigos"
+      "es": "Prefieres discutir con tus amigos"
     }
   ,
   "Randomize": "true",
@@ -29,7 +29,7 @@
         ,
         {
           "Type": "Survey",
-          "Id": "PreferPhonecalls",
+          "Id": "PreferPhone",
           "StepValue" : "1",
           "OptionalFeedback": {
             "Type": "AnimatedGif",
