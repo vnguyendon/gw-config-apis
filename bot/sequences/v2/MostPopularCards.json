@@ -1,0 +1,62 @@
+
+{
+    "Type": "Question",
+    "Id": "WhichCardIsMostPopularToSayILOVU",
+    "Label": {
+        "en": "Which message do you think is the most popular to say \"I love you\"?",
+        "fr": "Selon toi, quel message est le plus populaire pour dire \"Je t'aime\" ?",
+        "es": "Según tú ¿qué mensaje es el más utilizado para decir \"Te quiero\"?"
+    },
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularTextImage1",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/I-love-you/default/small/530773_10150757735645255_150787610254_11952370_462269272_n.jpg"
+                },
+                "Text": {
+                    "en": "I want all of you, forever, you and me, everyday.",
+                    "fr": "Je veux tout de toi, pour toujours, toi et moi, tous les jours.",
+                    "es": "Quiero todo de ti, para siempre, tu y yo, todos los días."
+                }
+            }
+        },
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularTextImage2",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/I-love-you/default/small/msg-136699837825.jpg"
+                },
+                "Text": {
+                    "en": "I know you were the one I've always been waiting for, when you held my hand and perfectly filled the gap between my fingers.",
+                    "fr": "Je sais que tu étais la personne que j'ai toujours attendue, parce que quand tu m'as tenu la main, tu as parfaitement rempli l'écart entre mes doigts..",
+                    "es": "Sé que eres lo que siempre esperé porque cuando me diste la mano, tus dedos llenaron perfectamente el espacio que había entre los míos."
+                }
+            }
+        },
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularTextImage3",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/I-love-you/default/small/10494717_552129618231646_2872607819690674144_n.jpg"
+                },
+                "Text": {
+                    "en": "I fell in love the way you fall asleep. Slowly and then all at once.",
+                    "fr": "Je suis tombé amoureux comme on s'endort. Lentement puis complètement.",
+                    "es": "Me enamoré como cuando uno se duerme. Lentamente y después completamente."
+                }
+            }
+        }
+    ]
+}
+
