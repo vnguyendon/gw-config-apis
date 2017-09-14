@@ -98,7 +98,12 @@
       "/bot/sequences/surveyquestions/GunsAllowedOrForbidden.json",
       "/bot/sequences/surveyquestions/TakePicturesofYourselfOrLandscapes.json",
       "/bot/sequences/surveyquestions/MoreOrLessRefugeesInEU.json",
-      "/bot/sequences/surveyquestions/UnicornOrPegasus.json"
+      "/bot/sequences/surveyquestions/UnicornOrPegasus.json",
+      "/bot/sequences/surveyquestions/ADayOffOr40Dollars.json",
+      "/bot/sequences/surveyquestions/IndianOrChineseFood.json",
+      "/bot/sequences/surveyquestions/PreferChattingByTextsOrPhone.json",
+      "/bot/sequences/surveyquestions/SafetyOrPrivacy.json",
+      "/bot/sequences/surveyquestions/WhoIsBetterPresidentPutinOrTrump.json"
       ]
   }
 ]
