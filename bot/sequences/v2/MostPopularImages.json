@@ -1,0 +1,58 @@
+
+{
+    "Type": "Question",
+    "Id": "WhichPictureIsMostPopularToSayILOVU",
+    "Label": {
+        "en": "Which picture do you think is the most popular to say \"I love you\"?",
+        "fr": "Selon toi, quelle image est la plus populaire pour dire \"Je t'aime\" ?",
+        "es": "Según tú ¿qué imagen es la más utilizada para decir \"Te quiero\"?"
+    },
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularImage1",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/themes/emoticons/small/000012424481.jpg"
+                }
+            }
+        },
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularImage2",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/i-love-you/default/small/shutterstock_93294814.jpg"
+                }
+            }
+        },
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularImage3",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/i-love-you/default/small/shutterstock_121922278.jpg"
+                }
+            }
+        },
+        {
+            "Type": "Carousel",
+            "Id": "MostPopularImage4",
+            "StepValue": "1",
+            "Carousel": {
+                "Image": {
+                    "Source": "Internal",
+                    "Path": "/specialoccasions/i-love-you/default/small/iStock_000014925221_Medium.jpg"
+                }
+            }
+        }        
+    ]
+}
+
