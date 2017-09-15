@@ -13,13 +13,13 @@
   }
   ,
   { 
-  "Path" : "/common/giphycontent/like.json",
-  "DefaultImage" : "/themes/pairs/small/shutterstock_148572530.jpg",
+  "Path" : "/common/giphycontent/think.json",
+  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
   "Labels":
     [
-    {"en": "I like you"},
-    {"fr": "Tu me plais"},
-    {"Es": "Me gustas"}
+    {"en": "I think of you"},
+    {"fr": "Je penses à toi"},
+    {"Es": "Pienso en ti"}
     ]
   }
   ,
@@ -31,6 +31,17 @@
     {"en": "I miss you"},
     {"fr": "Tu me manques"},
     {"Es": "Te echo de menos"}
+    ]
+  }
+  ,
+  { 
+  "Path" : "/common/giphycontent/animals.json",
+  "DefaultImage" : "/themes/animals/small/130.jpg",
+  "Labels":
+    [
+    {"en": "Animals"},
+    {"fr": "Animaux"},
+    {"Es": "Animales"}
     ]
   }
   ,
@@ -53,17 +64,6 @@
     {"en": "Good night"},
     {"fr": "Bonne nuit"},
     {"Es": "Beunas noches"}
-    ]
-  }
-  ,
-  { 
-  "Path" : "/common/giphycontent/think.json",
-  "DefaultImage" : "/specialoccasions/I-think-of-you/default/small/5672.jpg?dl=0",
-  "Labels":
-    [
-    {"en": "I think of you"},
-    {"fr": "Je penses à toi"},
-    {"Es": "Pienso en ti"}
     ]
   }
   ,
@@ -100,7 +100,18 @@
     ]
    }
    ,
-    { 
+   { 
+  "Path" : "/common/giphycontent/like.json",
+  "DefaultImage" : "/themes/pairs/small/shutterstock_148572530.jpg",
+  "Labels":
+    [
+    {"en": "I like you"},
+    {"fr": "Tu me plais"},
+    {"Es": "Me gustas"}
+    ]
+  }
+  ,
+  { 
   "Path": "/common/giphycontent/howareyou.json",
   "DefaultImage": "/cvd/fbfriend/other/small/iStock_000008396813_Medium.jpg",
   "Labels":
@@ -176,7 +187,7 @@
     {"Es": "Tengo hambre"}
     ]
   }
-    ,
+  ,
   { 
   "Path" : "/common/giphycontent/sad.json",
   "DefaultImage" : "/specialoccasions/condolences/default/small/10449531_621591374618803_5496085897565713235_n.jpg",
