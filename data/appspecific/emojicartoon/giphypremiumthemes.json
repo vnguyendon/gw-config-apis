@@ -27,6 +27,15 @@
         "es": "Pandas"
       }
     },
+    {
+      "Path": "/common/giphycontent/premiumhorses.json",
+      "DefaultImage": "/themes/horses/small/iStock_000015373818_Medium.jpg",
+      "Labels": {
+        "en": "Horses",
+        "fr": "Chevaux",
+        "es": "Caballos"
+      }
+    },
         {
       "Path": "/common/giphycontent/premiumchristmas.json",
       "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
@@ -38,7 +47,7 @@
     },
     {
       "Path": "/common/giphycontent/premiumcartoon1.json",
-      "DefaultImage": "/themes/emojiLions/small/shutterstock_402952978_16.jpg",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/Believe-the-unbelievable-000053641330_Medium.jpg",
       "Labels": {
         "en": "Cartoons I",
         "fr": "Dessins animés I",
@@ -47,7 +56,7 @@
     },
     {
       "Path": "/common/giphycontent/premiumcartoon2.json",
-      "DefaultImage": "/themes/emojiKittens/small/shutterstock_397906726_6.jpg",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/From-a-fairy-tale-000053641224_Medium.jpg",
       "Labels": {
         "en": "Cartoons II",
         "fr": "Dessins animés II",
@@ -56,7 +65,7 @@
     },
     {
       "Path": "/common/giphycontent/premiumcartoon3.json",
-      "DefaultImage": "/themes/emojiPuppies/small/shutterstock_398942398_8.jpg",
+      "DefaultImage": "/specialoccasions/celebrate-the-occasion/default/small/Full-golden-heart-000055173666_Medium.jpg",
       "Labels": {
         "en": "Cartoons III",
         "fr": "Dessins animés III",
