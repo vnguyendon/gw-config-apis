@@ -225,6 +225,7 @@
     },
     {
       "key": "start",
+      "commandName":"StartConversationCommand",
       "labels": [
         {
           "culture": "fr-FR",
