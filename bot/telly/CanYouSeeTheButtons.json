@@ -20,7 +20,7 @@
         "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "V2MJADdC027gk"
+            "Path": "12P29BwtrvsbbW"
         },
         "LinksTo" : {
           "Type":"Question",
@@ -36,6 +36,11 @@
               "Type":"DoNothing",
               "Id": "SeeTheButtonYesNoYesStart",
               "StepValue" : "1",
+              "OptionalFeedback": {
+                    "Type": "AnimatedGif",
+                    "Source": "Giphy",
+                    "Path": "12jpLCEUzhgTgk"
+                },
               "Label": {
                   "en": "Yes",
                   "fr": "Oui",
@@ -58,7 +63,7 @@
         "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "V2MJADdC027gk"
+            "Path": "zYEg3iFhP7Ily"
         },
         "LinksTo" : {
           "Type":"Question",
@@ -74,6 +79,11 @@
               "Type":"DoNothing",
               "Id": "SeeTheButtonYesNoYesStart",
               "StepValue" : "1",
+              "OptionalFeedback": {
+                    "Type": "AnimatedGif",
+                    "Source": "Giphy",
+                    "Path": "12jpLCEUzhgTgk"
+                },
               "Label": {
                   "en": "Yes",
                   "fr": "Oui",
