@@ -13,7 +13,7 @@
   "Commands":
       [
         {
-          "Type": "Survey",
+          "Type": "TrueOrFalse",
           "Id": "AfricaMorePopulated",
           "StepValue" : "1",
           "Label":{
