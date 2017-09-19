@@ -1,19 +1,31 @@
 
 {
   "FirstLaunch": {
-    "Provider": "InMobi",
-    "ID": "17ff15d738b7448eae1d103835d6e12c"
+    "Provider": "Facebook",
+    "ID": "1435005416530891_1657699300928167",
+    "Fallback": {      
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/5259615794"
+    }
   },
   "FirstResumeActivity": {
-    "Provider": "InMobi",
-    "ID": "8911506e6716477d96aa6f4a8d1b9540"
+    "Provider": "Facebook",
+    "ID": "1435005416530891_1567046279993470",
+    "Fallback": {      
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/8315479389"
+    }
   },
   "OtherResumeActivity": {
-    "Provider": "InMobi",
-    "ID": "8911506e6716477d96aa6f4a8d1b9540"
+    "Provider": "Facebook",
+    "ID": "1435005416530891_1623920307639400",
+    "Fallback": {      
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/8315479389"
+    }
   },
-  "BannerCreateAnimation": {
-    "Provider": "InMobi",
-    "ID": "543958437e3e4c1aa00b118835a752a1"
+  "PremiumCategories": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/1502356738"
   }
 }
