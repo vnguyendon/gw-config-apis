@@ -1,0 +1,64 @@
+{   
+  "Type": "Question",
+  "Id": "ShanghaiOrNewyorkMorePopulated",
+  "Label":
+    {
+      "en": "Which city has more inhabitants?",
+      "fr": "Quelle ville a le plus d'habitants?",
+      "es": "TBD"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "ShowFeedback",
+          "Id": "NYCMorePopulated",
+          "StepValue" : "1",
+          "Label":{
+            "en": "New-York (USA)",
+            "fr": "New-York (USA)",
+            "es": "Nueva-York (EE.UU)"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://media.timeout.com/images/103678916/1024/576/image.jpg"
+        },
+        "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "WrongShanghaiMorePopulated",
+            "Label": {
+                "en": "Wrong answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
+                "fr": "Mauvaise réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
+                "es": "¡Respuesta equivocada! "
+              }
+            }
+        }
+        ,
+        {
+          "Type": "ShowFeedback",
+          "Id": "ShanghaiMorePopulated",
+          "StepValue" : "1",
+          "Label":{
+            "en": "Shanghai",
+            "fr": "Shanghai",
+            "es": "Shanghai"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://static.dezeen.com/uploads/2016/01/Shanghai-Tower_Gensler_dezeen_ban.jpg"
+          },
+          "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "RightShanghaiMorePopulated",
+            "Label": {
+                "en": "Right answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
+                "fr": "Bonne réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
+                "es": "¡Respuesta correcta! "
+              }
+            }
+        }
+      ]
+}
