@@ -28,7 +28,7 @@
         },
         "LinksTo" :{
             "Type":"DoNothing",
-            "Id": "AnswerAsiaMorePopulated",
+            "Id": "AnswerAfricaNotMorePopulated",
             "Comments":"We show the user the right answer.",
             "Label": {
                 "en": "Wrong answer! In 2100, Asia will still be more populated than Africa.",
@@ -39,7 +39,7 @@
         }
         ,
         {
-          "Type": "Survey",
+          "Type": "TrueOrFalse",
           "Id": "AsiaMorePopulated",
           "StepValue" : "1",
           "Label":{
