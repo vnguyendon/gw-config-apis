@@ -1,0 +1,71 @@
+
+
+{
+    
+  "Type": "Question",
+  "Id": "HippopotamusesSharksKillMore",
+  "Label":
+    {
+      "en": "Each year, hippopotamuses kill more people than sharks do",
+      "fr": "Chaque année, les hippopotames tuent plus que les requins",
+      "es": "TBD"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "ShowFeedback",
+          "Id": "HippopotamusesKillMore",
+          "StepValue" : "1",
+          "Label":{
+            "en": "True",
+            "fr": "Vrai",
+            "es": "Verdadero"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://i.ytimg.com/vi/Vvs9-eK4ZM8/maxresdefault.jpg"
+        },
+        "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "RightHippopotamusesKillMore",
+            "Label": {
+                "en": "Wrong answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
+                "fr": "Mauvaise réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
+                "es": "¡Respuesta equivocada! "
+              }
+            }
+        }
+        ,
+        {
+          "Type": "ShowFeedback",
+          "Id": "SharksKillMore",
+          "StepValue" : "1",
+          "Label":{
+            "en": "false",
+            "fr": "faux",
+            "es": "falso"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://i.ytimg.com/vi/Hrp3EjCYAac/maxresdefault.jpg"
+          },
+          "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "WrongHippopotamusesKillMore",
+            "Label": {
+                "en": "Right answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
+                "fr": "Bonne réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
+                "es": "¡Respuesta correcta! "
+              }
+            }
+        }
+      ]
+}
+
+
+
+
