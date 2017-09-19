@@ -4,7 +4,7 @@
     "Comments":"first question after welcome message",
     "Label": {
         "en": "Can you see the buttons on the bottom?",
-        "fr": "Vois tu les bouttons en bas de l'écran?",
+        "fr": "Vois tu les boutons en bas de l'écran?",
         "es": "¿Puedes ver los botones en la parte inferior?"
       },
     "Commands": [
@@ -20,16 +20,16 @@
         "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "12P29BwtrvsbbW"
+            "Path": "ZPKA8hg390ZP2"
         },
         "LinksTo" : {
           "Type":"Question",
           "Id": "SeeTheButtonYesNoYes",
           "Comments":"if yes, then we can show a nice message!",
           "Label": {
-              "en": "Great! \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick yes to start with the first question",
-              "fr": "Génial! \n\n J'aime poser des questions et je suis sûr que tu vas adorerer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur Oui pour commencer avec la première question",
-              "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en Sí para comenzar con la primera pregunta"
+              "en": "Great! \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick the button bellow to start with the first question",
+              "fr": "Génial! \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur le bouton ci-dessous pour commencer avec la première question",
+              "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en el buton por debajo para comenzar con la primera pregunta"
             },
           "Commands": [
             {
@@ -63,7 +63,7 @@
         "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "zYEg3iFhP7Ily"
+            "Path": "QWakX9lCUOtna"
         },
         "LinksTo" : {
           "Type":"Question",
@@ -71,7 +71,7 @@
           "Comments":"if yes, then we can show a nice message!",
           "Label": {
               "en": "Are you sure ??? \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick yes to start with the first question",
-              "fr": "Tu es sur??? \n\n J'aime poser des questions et je suis sûr que tu vas adorerer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur Oui pour commencer avec la première question",
+              "fr": "Tu es sur??? \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur Oui pour commencer avec la première question",
               "es": "¡¿estas seguro??? \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en Sí para comenzar con la primera pregunta"
             },
           "Commands": [
@@ -82,7 +82,7 @@
               "OptionalFeedback": {
                     "Type": "AnimatedGif",
                     "Source": "Giphy",
-                    "Path": "12jpLCEUzhgTgk"
+                    "Path": "ZeB5RzwVdzO8M"
                 },
               "Label": {
                   "en": "Yes",
