@@ -4,9 +4,9 @@
   "Type": "Question",
   "Id": "LocationUsers",
   "Label": {
-    "en": "Would you like to know what people think in your country? We have the answer, we just need to access your location",
-    "fr": "Est ce que tu aimerais savoir ce que pensent les gens dans ton pays ? On a la réponse, il nous faut juste accéder à ta localisation",
-    "es": "¿Querrías saber lo que piensa la gente de tu pais? Tenemos la respuesta, sólo necesitamos tu localización"
+    "en": "You want to know what people think in your country? I need to know where you live!",
+    "fr": "Tu veux savoir ce que pensent les habitants de ton pays ? J'ai besoin de savoir où tu habites !",
+    "es": "¿Quieres saber lo que piensa la gente de tu pais? ¡Necesito saber donde vives!"
   },
   "Randomize": "true",
   "Commands": [
