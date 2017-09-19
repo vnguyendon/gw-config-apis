@@ -4,9 +4,9 @@
   "Type": "Question",
   "Id": "LocationUsers",
   "Label": {
-    "en": "Would you like to discover what those around you think? We would love to help you with that: we will just need to access your location",
-    "fr": "Est ce que tu aimerais découvrir ce que les gens autour de toi pensent? On peut t'aider: nous aurons juste besoin d'accéder à ta location",
-    "es": "I DON'T KNOW I DON'T SPEAK SPANISH"
+    "en": "Would you like to know what people think in your country? We have the answer, we just need to access your location",
+    "fr": "Est ce que tu aimerais savoir ce que pensent les gens dans ton pays ? On a la réponse, il nous faut juste accéder à ta localisation",
+    "es": "¿Querrías saber lo que piensa la gente de tu pais? Tenemos la respuesta, sólo necesitamos tu localización"
   },
   "Randomize": "true",
   "Commands": [
@@ -17,7 +17,7 @@
       "Label": {
         "en": "Yes 😊!",
         "fr": "Oui 😊!",
-        "es": "Si 😊!"
+        "es": "¡Si 😊!"
       },
       "Parameters": {
         "Property": "Location",
@@ -29,9 +29,9 @@
       "Id": "LocationNo",
       "StepValue": "1",
       "Label": {
-        "en": "No, I am not interested 🙇",
-        "fr": "Non, je ne suis pas intéressé 🙇",
-        "es": "No 🙇"
+        "en": "No, thanks",
+        "fr": "Non merci",
+        "es": "No, gracias"
       }
     }
   ]
