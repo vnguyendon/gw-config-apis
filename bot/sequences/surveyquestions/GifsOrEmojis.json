@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "GifsOrEmojis",
+  "Label":
+    {
+      "en": "You prefer to send",
+      "fr": "Tu préfères envoyer",
+      "es": "Prefieres enviar"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferGifs",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "yoJC2El7xJkYCadlWE"
+          },
+          "Label":{
+            "en": "gifs",
+            "fr": "des gifs",
+            "es": "gifs"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferEmojis",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "tavobzHhNQyoo"
+          },
+          "Label":{
+            "en": "emojis",
+            "fr": "des emojis",
+            "es": "emojis"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "FindingLoveOrHavingChildren",
+  "Label":
+    {
+      "en": "What's more important?",
+      "fr": "C'est quoi le plus important ?",
+      "es": "¿Qué es lo más importante?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "FindingLove",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26BRED0APH6fRa1sk"
+          },
+          "Label":{
+            "en": "finding love",
+            "fr": "trouver l'amour",
+            "es": "encontrar el amor"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "HavingChildren",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "140LiNgM0b5DVe"
+          },
+          "Label":{
+            "en": "having children",
+            "fr": "avoir des enfants",
+            "es": "tener niños"
+          }
+        }
+      ]
+}
+

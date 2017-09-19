@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "MoreHappyKissOrGift",
+  "Label":
+    {
+      "en": "What makes you more happy when it comes from your loved one?",
+      "fr": "Qu'est-ce qui te rend le plus heureux de la part de la personne que tu aimes ?",
+      "es": "¿Qué te pone más feliz de parte de tu novio/novia?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreHappyKiss",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "AIDv87fiokBva"
+          },
+          "Label":{
+            "en": "a kiss",
+            "fr": "un bisou",
+            "es": "un beso"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreHappyGift",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ANYZLuQ59mi64"
+          },
+          "Label":{
+            "en": "a gift",
+            "fr": "un cadeau",
+            "es": "un regalo"
+          }
+        }
+      ]
+}
+

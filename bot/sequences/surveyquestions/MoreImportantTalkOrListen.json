@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "MoreImportantTalkOrListen",
+  "Label":
+    {
+      "en": "It is more important that your loved one",
+      "fr": "C'est plus important que la personne que tu aimes",
+      "es": "Es más importante que tu novio/novia"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantTalk",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "w3kBYNZ0qdQ9a"
+          },
+          "Label":{
+            "en": "talks to you",
+            "fr": "te parle",
+            "es": "te hable"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantListen",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "6svtbQ7765qqQ"
+          },
+          "Label":{
+            "en": "listens to you",
+            "fr": "t'écoute",
+            "es": "te escuche"
+          }
+        }
+      ]
+}
+

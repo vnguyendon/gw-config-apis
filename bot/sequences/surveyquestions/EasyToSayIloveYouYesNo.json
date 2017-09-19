@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "EasyToSayILoveYou",
+  "Label":
+    {
+      "en": "Do you find it easy to say 'I love you'?",
+      "fr": "Pour toi, c'est facile de dire \"Je t'aime\" ?",
+      "es": "Para ti ¿es fácil decir \"Te amo\"?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesEasyToSayIlovu",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "qPoCDRpGkRG5a"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotEasyToSayIlovu",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "rpf0Du8NasK6Q"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+
