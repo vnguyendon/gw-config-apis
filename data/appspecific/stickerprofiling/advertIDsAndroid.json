@@ -1,20 +1,13 @@
 
 
 {
-  "FirstLaunch": [
-    {
+  "FirstLaunch": {
     "Provider": "Facebook",
-    "ProportionUsers": "50",
-    "ID": "1594200494225037_1822809468030804",
+    "ID": "1594200494225037_1684010071910745",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/9448870262"
       }
-    },
-    {
-    "Provider": "AdMob",
-    "ProportionUsers": "50",
-    "ID": "ca-app-pub-7822741681642396/4919212781"
     }
   ],
     "FirstResumeActivity": {
