@@ -13,7 +13,7 @@
   "Commands":
       [
         {
-          "Type": "TrueOrFalse",
+          "Type": "ShowFeedback",
           "Id": "AfricaMorePopulated",
           "StepValue" : "1",
           "Label":{
@@ -39,7 +39,7 @@
         }
         ,
         {
-          "Type": "TrueOrFalse",
+          "Type": "ShowFeedback",
           "Id": "AsiaMorePopulated",
           "StepValue" : "1",
           "Label":{
