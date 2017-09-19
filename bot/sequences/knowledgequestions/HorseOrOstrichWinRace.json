@@ -1,0 +1,65 @@
+
+{
+  "Type": "Question",
+  "Id": "HorseOrOstrichWinRace",
+  "Label":
+    {
+      "en": "In a race, which one would win?",
+      "fr": "Dans une course, lequel gagnerait?",
+      "es": "TBD"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "ShowFeedback",
+          "Id": "OstrichWinRace",
+          "StepValue" : "1",
+          "Label":{
+            "en": "Ostrich",
+            "fr": "Autruche",
+            "es": "Avetruz"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://www.kimballstock.com/pix/BRD/06/BRD-06-KH0003-01P.JPG"
+        },
+        "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "WrongHorseWin",
+            "Label": {
+                "en": "Wrong answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
+                "fr": "Mauvaise réponse ! Les chevaux ont une vitesse maximale de 88Km/h et les autruches 70Km/h",
+                "es": "¡Respuesta equivocada! "
+              }
+            }
+        }
+        ,
+        {
+          "Type": "ShowFeedback",
+          "Id": "HorseWinRace",
+          "StepValue" : "1",
+          "Label":{
+            "en": "Horse",
+            "fr": "Cheval",
+            "es": "Caballo"
+          },
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWN2RcEzoy7EyiJ44fTa--mFaSG1gzvbuTpjrf2NjHX3WPtFVA"
+          },
+          "LinksTo" :{
+            "Type":"DoNothing",
+            "Id": "RightHorseWin",
+            "Label": {
+                "en": "Right answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
+                "fr": "Bonne réponse ! Les chevaux ont une vitesse maximale de 88Km/h et les autruches 70Km/h",
+                "es": "¡Respuesta correcta! "
+              }
+            }
+        }
+      ]
+}
