@@ -1,6 +1,14 @@
 [
   {
-    "GroupName":"Surveys",
+    "GroupName":"Start",
+    "SequenceFiles" : [
+       { "order" : 50, "file": "/bot/telly/CanYouSeeTheButtons.json"},
+       { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"}
+     
+      ]
+  },
+  {
+    "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
