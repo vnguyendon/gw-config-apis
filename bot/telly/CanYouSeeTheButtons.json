@@ -10,7 +10,7 @@
     "Commands": [
       {
         "Type" : "ShowQuestion",
-        "Id" : "SeeTheButtonYesNo",
+        "Id" : "SeeTheButtonsYes",
         "StepValue" : "1",
         "Label": {
               "en": "Yes",
@@ -24,8 +24,8 @@
         },
         "LinksTo" : {
           "Type":"Question",
-          "Id": "SeeTheButtonYesNoYes",
-          "Comments":"if yes, then we can show a nice message!",
+          "Id": "SeeTheButtonsYesThenStart",
+          "Comments":"if yes, then we can show a nice message and invite to start!",
           "Label": {
               "en": "Great! \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick the button bellow to start with the first question",
               "fr": "Génial! \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur le bouton ci-dessous pour commencer avec la première question",
@@ -53,7 +53,7 @@
       },
       {
         "Type" : "ShowQuestion",
-        "Id" : "SeeTheButtonYesNo",
+        "Id" : "SeeTheButtonsNo",
         "StepValue" : "1",
         "Label": {
               "en": "No",
@@ -67,8 +67,8 @@
         },
         "LinksTo" : {
           "Type":"Question",
-          "Id": "SeeTheButtonYesNoYes",
-          "Comments":"if yes, then we can show a nice message!",
+          "Id": "SeeTheButtonsNoThenStart",
+          "Comments":"if no, we still show a message and invite to start!",
           "Label": {
               "en": "Are you sure ??? \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick yes to start with the first question",
               "fr": "Tu es sur??? \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur Oui pour commencer avec la première question",
@@ -77,7 +77,7 @@
           "Commands": [
             {
               "Type":"DoNothing",
-              "Id": "SeeTheButtonYesNoYesStart",
+              "Id": "SeeTheButtonsNoThenStartDoNothing",
               "StepValue" : "1",
               "OptionalFeedback": {
                     "Type": "AnimatedGif",
