@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "AreTheUNUsefulYesNo",
+  "Label":
+    {
+      "en": "Are the United Nations (UN) useful?",
+      "fr": "Est-ce que l'ONU est utile?",
+      "es": "¿Es la ONU útil?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesUNUseful",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l2R0eYcNq9rJUsVAA"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoUNNotUseful",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "z5WtAAaFpnIgU"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

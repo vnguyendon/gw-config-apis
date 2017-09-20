@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HaveYouTriedAChatbotYesNo",
+  "Label":
+    {
+      "en": "Have you ever spoken with a chatbot?",
+      "fr": "As-tu déjà parlé avec un chatbot?",
+      "es": "¿Ya hablaste con un chatbot?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesTriedAChatbot",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ZTN7U4ipOXPaw"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoHaventTriedAChatbot",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "13UZbTPyYZruBq"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

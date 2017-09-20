@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "SnapchatOrInstagram",
+  "Label":
+    {
+      "en": "You can only use one. You choose",
+      "fr": "Tu ne peux en utiliser qu'un seul. Tu choisis",
+      "es": "Sólo puedes utilizar uno. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Snapchat",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "3o6gaRlqAGYhLyKNtC"
+          },
+          "Label":{
+            "en": "Snapchat",
+            "fr": "Snapchat",
+            "es": "Snapchat"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Instagram",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l4KhMR4p58zFZZlSg"
+          },
+          "Label":{
+            "en": "Instagram",
+            "fr": "Instagram",
+            "es": "Instagram"
+          }
+        }
+      ]
+}
+

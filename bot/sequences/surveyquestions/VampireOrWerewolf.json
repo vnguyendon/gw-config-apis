@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "VampireOrWerewolf",
+  "Label":
+    {
+      "en": "Would you rather become",
+      "fr": "Tu préférerais te transformer en",
+      "es": "Preferirías convertirte en"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Vampire",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "XWPQ0x2fJHPna"
+          },
+          "Label":{
+            "en": "a vampire",
+            "fr": "vampire",
+            "es": "vampiro"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Werewolf",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "F9x4M0txXWZkQ"
+          },
+          "Label":{
+            "en": "werewolf",
+            "fr": "loup-garou",
+            "es": "hombre lobo"
+          }
+        }
+      ]
+}
+

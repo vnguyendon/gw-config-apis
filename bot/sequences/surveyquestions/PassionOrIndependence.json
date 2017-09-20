@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "PassionOrIndependence",
+  "Label":
+    {
+      "en": "What's more important in a relationship?",
+      "fr": "C'est quoi le plus important dans une relation ?",
+      "es": "¿Qué es lo más importante en una pareja?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantPassion",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12BLGCegS5WEaQ"
+          },
+          "Label":{
+            "en": "passion",
+            "fr": "la passion",
+            "es": "la pasión"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreImportantIndependence",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "lXd9VeNeDfH3y"
+          },
+          "Label":{
+            "en": "independence",
+            "fr": "l'indépendance",
+            "es": "la independencia"
+          }
+        }
+      ]
+}
+
