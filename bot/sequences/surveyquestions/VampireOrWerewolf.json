@@ -21,9 +21,9 @@
             "Path": "XWPQ0x2fJHPna"
           },
           "Label":{
-            "en": "a vampire",
-            "fr": "vampire",
-            "es": "vampiro"
+            "en": "a vampire 🦇",
+            "fr": "vampire 🦇",
+            "es": "vampiro 🦇"
           }
         }
         ,
@@ -37,9 +37,9 @@
             "Path": "F9x4M0txXWZkQ"
           },
           "Label":{
-            "en": "werewolf",
-            "fr": "loup-garou",
-            "es": "hombre lobo"
+            "en": "werewolf 🐺",
+            "fr": "loup-garou 🐺",
+            "es": "hombre lobo 🐺"
           }
         }
       ]
