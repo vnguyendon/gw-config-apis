@@ -3,9 +3,9 @@
   "Id": "HaveYouTriedAChatbotYesNo",
   "Label":
     {
-      "en": "Have you ever spoken with a chatbot?",
-      "fr": "As-tu déjà parlé avec un chatbot?",
-      "es": "¿Ya hablaste con un chatbot?"
+      "en": "Have you ever spoken with a chatbot? 🤖",
+      "fr": "As-tu déjà parlé avec un chatbot? 🤖",
+      "es": "¿Ya hablaste con un chatbot? 🤖"
     }
   ,
   "Randomize": "true",
