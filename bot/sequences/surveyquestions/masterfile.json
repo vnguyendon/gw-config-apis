@@ -94,4 +94,9 @@
       "/bot/sequences/surveyquestions/GifsOrEmojis.json",
       "/bot/sequences/surveyquestions/MoreHappyKissOrGift.json",
       "/bot/sequences/surveyquestions/MoreImportantTalkOrListen.json"
+      "/bot/sequences/surveyquestions/VampireOrWerewolf.json",
+      "/bot/sequences/surveyquestions/SnapchatOrInstagram.json",
+      "/bot/sequences/surveyquestions/PassionOrIndependence.json",
+      "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json",
+      "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"
 ] 
