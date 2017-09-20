@@ -42,9 +42,9 @@
                     "Path": "12jpLCEUzhgTgk"
                 },
               "Label": {
-                  "en": "Yes",
-                  "fr": "Oui",
-                  "es": "Si"
+                  "en": "Start",
+                  "fr": "Démarrer",
+                  "es": "Comenzar"
               },
               "LinksTo": {}
             }
