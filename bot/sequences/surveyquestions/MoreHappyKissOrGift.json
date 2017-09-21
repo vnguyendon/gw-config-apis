@@ -3,9 +3,9 @@
   "Id": "MoreHappyKissOrGift",
   "Label":
     {
-      "en": "What makes you more happy when it comes from your loved one?",
-      "fr": "Qu'est-ce qui te rend le plus heureux de la part de la personne que tu aimes ?",
-      "es": "¿Qué te pone más feliz de parte de tu novio/novia?"
+      "en": "You feel happier when your partner gives you",
+      "fr": "Tu es plus heureux quand la personne que tu aimes te donne",
+      "es": "Eres más feliz cuando tu novio/novia te da"
     }
   ,
   "Randomize": "true",
