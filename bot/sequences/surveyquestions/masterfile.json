@@ -1,4 +1,5 @@
 [
+      "/bot/sequences/v2/Age.json",
       "/bot/sequences/surveyquestions/CatsOrDogs.json",
       "/bot/sequences/surveyquestions/TeaOrCoffee.json",
       "/bot/sequences/surveyquestions/GlobalWarming.json",
