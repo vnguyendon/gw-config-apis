@@ -3,9 +3,9 @@
     "GroupName":"Start",
     "SequenceFiles" : [
       { "order" : 50, "file": "/bot/telly/CanYouSeeTheButtons.json"},
-       { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"}
-     
-      ]
+      { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"},
+      { "order" : 70, "file": "/bot/sequences/v2/Age.json"}
+    ]
   },
   {
     "GroupName":"Surveys",
