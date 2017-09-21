@@ -9,6 +9,7 @@
     "es": "¿Quieres saber lo que piensa la gente de tu pais? ¡Necesito saber donde vives!"
   },
   "Randomize": "true",
+  "Channels":["facebook"],
   "Commands": [
     {
       "Type": "SetLocation",
