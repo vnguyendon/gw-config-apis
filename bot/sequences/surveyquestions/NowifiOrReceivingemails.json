@@ -25,8 +25,8 @@
           },
           "Label":{
             "en": "no wifi",
-            "fr": "ne pas avoir de wifi",
-            "es": "no tener el wifi"
+            "fr": "pas de wifi",
+            "es": "no wifi"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "xTiTnJ3BooiDs8dL7W"
           },
           "Label":{
-            "en": "receiving one email every minute",
-            "fr": "recevoir un mail par minute",
-            "es": "recibir un e-mail por minuto"
+            "en": "one email per minute",
+            "fr": "un mail par minute",
+            "es": "un e-mail por minuto"
           }
         }
       ]
