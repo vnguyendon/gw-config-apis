@@ -201,8 +201,113 @@
           "value": "Lo siento, tengo problemas para entenderte. Vamos a intentarlo de nuevo."
         }
       ]
+    },
+    
+    {
+      "key": "percentVotersAgree",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des votants sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of voters agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de los votantes de acuerdo"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeMen",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des hommes sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of men agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de los hombres de acuerdo"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeWomen",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des femmes sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of women agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de las mujeres de acuerdo"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeCountry",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des votants de {country} sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of voters of {country} agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de los votantes de {country} de acuerdo"
+        }
+      ]
+    },
+    
+    {
+      "key": "percentVotersAgreeLessThan40",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des votants de moins de 40 ans sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of voters less than 40 agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de los votantes de menos de 40 años de acuerdo"
+        }
+      ]
+    },
+    
+    {
+      "key": "percentVotersAgree40AndOver",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% des votants de plus de 40 ans sont d'accord"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% of voters more than 40 years agree"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{percentValue}% de los votantes de más de 40 años de acuerdo"
+        }
+      ]
     }
-
+    
   ],
   "commands": [
     {
