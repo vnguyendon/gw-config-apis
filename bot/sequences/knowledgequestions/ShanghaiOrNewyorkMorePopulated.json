@@ -30,8 +30,8 @@
             "Id": "WrongShanghaiMorePopulated",
             "Label": {
                 "en": "Wrong answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
-                "fr": "Mauvaise réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
-                "es": "¡Respuesta equivocada! "
+                "fr": "Mauvaise réponse ! Shanghai a 24 millions d'habitants : c'est un million de plus que New-York",
+                "es": "¡Respuesta equivocada! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
               }
             }
         }
