@@ -6,7 +6,12 @@
     {
       "en": "In a race, which one would win?",
       "fr": "Dans une course, lequel gagnerait?",
-      "es": "TBD"
+      "es": "¿En una carrera, quién ganaría?"
+    },
+  "OptionalFeedback": {
+      "Type": "Image",
+      "Source": "External",
+      "Path": "https://www.kimballstock.com/pix/BRD/06/BRD-06-KH0003-01P.JPG"
     }
   ,
   "Randomize": "true",
@@ -17,16 +22,11 @@
           "Id": "OstrichWinRace",
           "StepValue" : "1",
           "Label":{
-            "en": "Ostrich",
-            "fr": "Autruche",
-            "es": "Avetruz"
+            "en": "ostrich",
+            "fr": "autruche",
+            "es": "avetruz"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://www.kimballstock.com/pix/BRD/06/BRD-06-KH0003-01P.JPG"
-        },
-        "LinksTo" :{
+          "LinksTo" :{
             "Type":"DoNothing",
             "Id": "WrongHorseWin",
             "Label": {
@@ -42,14 +42,9 @@
           "Id": "HorseWinRace",
           "StepValue" : "1",
           "Label":{
-            "en": "Horse",
-            "fr": "Cheval",
-            "es": "Caballo"
-          },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWN2RcEzoy7EyiJ44fTa--mFaSG1gzvbuTpjrf2NjHX3WPtFVA"
+            "en": "horse",
+            "fr": "cheval",
+            "es": "caballo"
           },
           "LinksTo" :{
             "Type":"DoNothing",
