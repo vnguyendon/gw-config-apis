@@ -5,7 +5,12 @@
     {
       "en": "Which city has more inhabitants?",
       "fr": "Quelle ville a le plus d'habitants?",
-      "es": "TBD"
+      "es": "¿Qué ciudad tiene más habitantes?"
+    },
+  "OptionalFeedback": {
+      "Type": "Image",
+      "Source": "External",
+      "Path": "https://media.timeout.com/images/103678916/1024/576/image.jpg"
     }
   ,
   "Randomize": "true",
@@ -18,13 +23,8 @@
           "Label":{
             "en": "New-York (USA)",
             "fr": "New-York (USA)",
-            "es": "Nueva-York (EE.UU)"
+            "es": "Nueva-York (EE.UU.)"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://media.timeout.com/images/103678916/1024/576/image.jpg"
-        },
         "LinksTo" :{
             "Type":"DoNothing",
             "Id": "WrongShanghaiMorePopulated",
