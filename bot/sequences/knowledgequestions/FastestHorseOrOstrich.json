@@ -1,7 +1,7 @@
 
 {
   "Type": "Question",
-  "Id": "HorseOrOstrichWinRace",
+  "Id": "FastestHorseOrOstrich",
   "Label":
     {
       "en": "In a race, which one would win?",
@@ -19,7 +19,7 @@
       [
         {
           "Type": "ShowFeedback",
-          "Id": "OstrichWinRace",
+          "Id": "FastestOstrich",
           "StepValue" : "1",
           "Label":{
             "en": "ostrich",
@@ -39,7 +39,7 @@
         ,
         {
           "Type": "ShowFeedback",
-          "Id": "HorseWinRace",
+          "Id": "FastestHorse",
           "StepValue" : "1",
           "Label":{
             "en": "horse",
