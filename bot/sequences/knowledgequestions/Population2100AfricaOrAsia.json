@@ -7,6 +7,11 @@
       "en": "In 2100, there will be more people in Africa than in Asia.",
       "fr": "En 2100, l'Afrique sera plus peuplée que l'Asie.",
       "es": "En 2100, África será más poblada que Asia."
+    },
+  "OptionalFeedback": {
+      "Type": "Image",
+      "Source": "External",
+      "Path": "https://img11.hostingpics.net/pics/916134lego10448911920small.jpg"
     }
   ,
   "Randomize": "true",
@@ -21,11 +26,6 @@
             "fr": "vrai",
             "es": "verdadero"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img4.hostingpics.net/pics/505097igorovsyannykov165872.jpg"
-        },
         "LinksTo" :{
             "Type":"DoNothing",
             "Id": "WrongAsiaMorePopulated",
@@ -46,11 +46,6 @@
             "en": "false",
             "fr": "faux",
             "es": "falso"
-          },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img4.hostingpics.net/pics/505097igorovsyannykov165872.jpg"
           },
           "LinksTo" :{
             "Type":"DoNothing",
