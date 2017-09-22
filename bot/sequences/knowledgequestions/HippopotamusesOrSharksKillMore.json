@@ -31,7 +31,7 @@
             "Label": {
                 "en": "Wrong answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
                 "fr": "Mauvaise réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
-                "es": "¡Respuesta equivocada! "
+                "es": "¡Respuesta equivocada! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
               }
             }
         }
@@ -51,7 +51,7 @@
             "Label": {
                 "en": "Right answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
                 "fr": "Bonne réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
-                "es": "¡Respuesta correcta! "
+                "es": "¡Respuesta correcta! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
               }
             }
         }
