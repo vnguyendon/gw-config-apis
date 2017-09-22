@@ -6,7 +6,12 @@
     {
       "en": "In a race, which one would win?",
       "fr": "Dans une course, qui serait le vainqueur?",
-      "es": "En una carrera, quién ganaría? "
+      "es": "¿En una carrera, quién ganaría? "
+    },
+   "OptionalPrompt": {
+   "Type": "Image",
+   "Source": "External",
+   "Path": "https://img11.hostingpics.net/pics/916202bluewhale.jpg"
     }
   ,
   "Randomize": "true",
@@ -21,11 +26,6 @@
             "fr": "le dauphin",
             "es": "el delfín"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/916202bluewhale.jpg"
-        },
         "LinksTo" :{
             "Type":"DoNothing",
             "Id": "WrongWhaleFastest",
@@ -45,11 +45,6 @@
             "en": "the whale",
             "fr": "la baleine",
             "es": "la ballena"
-          },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/916202bluewhale.jpg"
           },
           "LinksTo" :{
             "Type":"DoNothing",
