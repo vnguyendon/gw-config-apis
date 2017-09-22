@@ -10,7 +10,7 @@
   "OptionalFeedback": {
       "Type": "Image",
       "Source": "External",
-      "Path": "https://media.timeout.com/images/103678916/1024/576/image.jpg"
+      "Path": "https://img11.hostingpics.net/pics/331441220pxGothamKnightSkyline.jpg"
     }
   ,
   "Randomize": "true",
@@ -45,18 +45,13 @@
             "fr": "Shanghai",
             "es": "Shanghai"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://static.dezeen.com/uploads/2016/01/Shanghai-Tower_Gensler_dezeen_ban.jpg"
-          },
           "LinksTo" :{
             "Type":"DoNothing",
             "Id": "RightShanghaiMorePopulated",
             "Label": {
                 "en": "Right answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
                 "fr": "Bonne réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
-                "es": "¡Respuesta correcta! "
+                "es": "¡Respuesta correcta! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
               }
             }
         }
