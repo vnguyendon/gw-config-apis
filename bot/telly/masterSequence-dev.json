@@ -8,13 +8,14 @@
     ]
   },
   {
-    "GroupName":"Surveys",
+    "GroupName":"Survey",
     "SequenceFiles" : [
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"},
-      { "order" : 200, "file": "/bot/sequences/v2/AreYouOftenLate.json"},
-      { "order" : 200, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
-      { "order" : 200, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
-      { "order" : 200, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"}
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/ComputerOrCar.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/CanadaOrSouthAfrica.json"}
       ]
   }
 ]
