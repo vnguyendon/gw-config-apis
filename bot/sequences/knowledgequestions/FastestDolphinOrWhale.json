@@ -5,7 +5,7 @@
   "Label":
     {
       "en": "In a race, which one would win?",
-      "fr": "Dans une course, qui serait le vainqueur?",
+      "fr": "Dans une course, lequel gagnerait?",
       "es": "¿En una carrera, quién ganaría? "
     },
    "OptionalPrompt": {
@@ -22,9 +22,9 @@
           "Id": "FastestDolphin",
           "StepValue" : "1",
           "Label":{
-            "en": "the dolphin",
-            "fr": "le dauphin",
-            "es": "el delfín"
+            "en": "dolphin",
+            "fr": "dauphin",
+            "es": "delfín"
           },
         "LinksTo" :{
             "Type":"DoNothing",
@@ -42,9 +42,9 @@
           "Id": "FastestWhale",
           "StepValue" : "1",
           "Label":{
-            "en": "the whale",
-            "fr": "la baleine",
-            "es": "la ballena"
+            "en": "whale",
+            "fr": "baleine",
+            "es": "ballena"
           },
           "LinksTo" :{
             "Type":"DoNothing",
