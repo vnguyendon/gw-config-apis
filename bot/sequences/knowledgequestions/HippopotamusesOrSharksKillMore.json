@@ -4,8 +4,13 @@
   "Label":
     {
       "en": "Each year, hippopotamuses kill more people than sharks do",
-      "fr": "Chaque année, les hippopotames tuent plus que les requins",
-      "es": "TBD"
+      "fr": "Chaque année, les hippopotames tuent de personnes plus que les requins",
+      "es": "Cada año, los hipopótamos matan a más humanos que los tiburones"
+    },
+      "OptionalPrompt": {
+      "Type": "Image",
+      "Source": "External",
+      "Path": "https://img11.hostingpics.net/pics/897776sharkhipposmall.jpg"
     }
   ,
   "Randomize": "true",
@@ -16,16 +21,11 @@
           "Id": "HippopotamusesKillMore",
           "StepValue" : "1",
           "Label":{
-            "en": "True",
-            "fr": "Vrai",
-            "es": "Verdadero"
+            "en": "true",
+            "fr": "vrai",
+            "es": "verdadero"
           },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://i.ytimg.com/vi/Vvs9-eK4ZM8/maxresdefault.jpg"
-        },
-        "LinksTo" :{
+          "LinksTo" :{
             "Type":"DoNothing",
             "Id": "RightHippopotamusesKillMore",
             "Label": {
@@ -44,11 +44,6 @@
             "en": "false",
             "fr": "faux",
             "es": "falso"
-          },
-          "OptionalFeedback": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://i.ytimg.com/vi/Hrp3EjCYAac/maxresdefault.jpg"
           },
           "LinksTo" :{
             "Type":"DoNothing",
