@@ -3,7 +3,7 @@ using System;
 public class SurveyCalculations
 {
     private static bool weAreInDebugMode = true;
-    public Tuple<bool,bool> ShowGenderCounterResult(double totalVotes, int globalPercent, int yourChoicePercent, int alternateChoicePercent )
+    public Tuple<bool,bool> ShowGenderCounterResult(double totalVotes, double globalPercent, double yourChoicePercent, double alternateChoicePercent )
     {
         var currentShowStatus = false;
         currentShowStatus = 
