@@ -1,4 +1,4 @@
 public class Test
 {
-  public string Say() => "Hello World From github";
+  public ResultType Say() => new ResultType{ Value="Hello World From github"};
 }
