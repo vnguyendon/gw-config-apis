@@ -21,9 +21,9 @@
             "Path": "13HBDT4QSTpveU"
           },
           "Label":{
-            "en": "yes",
-            "fr": "oui",
-            "es": "sí"
+            "en": "yes ✔",
+            "fr": "oui ✔",
+            "es": "sí ✔"
           }
         }
         ,
@@ -37,9 +37,9 @@
             "Path": "LHZyixOnHwDDy"
           },
           "Label":{
-            "en": "no",
-            "fr": "non",
-            "es": "no"
+            "en": "no ❌",
+            "fr": "non ❌",
+            "es": "no ❌"
           }
         }
       ]
