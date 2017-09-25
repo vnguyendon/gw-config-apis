@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "ShouldGvtsRegulateTheInternet",
+  "Label":
+    {
+      "en": "Should governments regulate the internet?",
+      "fr": "Les gouvernements devraient-ils réguler Internet ?",
+      "es": "¿Gobiernos deberían regular internet?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesGvtsShouldRegulateTheInternet",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "13HBDT4QSTpveU"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoGvtsShouldntRegulateTheInternet",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "LHZyixOnHwDDy"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

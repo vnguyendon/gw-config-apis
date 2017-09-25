@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "NapoleonOrCheGuevara",
+  "Label":
+    {
+      "en": "Who could you admire more easily?",
+      "fr": "Qui pourrais-tu le plus admirer ?",
+      "es": "¿Quién podrías más admirar?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "AdmireNapoleon",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "vaBQBRIIWCPnO"
+          },
+          "Label":{
+            "en": "Napoleon",
+            "fr": "Napoléon",
+            "es": "Napoleón"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "AdmireCheGuevara",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "lyei3ztozG9y"
+          },
+          "Label":{
+            "en": "Che Guevara",
+            "fr": "Che Guevara",
+            "es": "Che Guevara"
+          }
+        }
+      ]
+}
+

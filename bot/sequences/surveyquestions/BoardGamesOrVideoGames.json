@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "BoardGamesOrVideoGames",
+  "Label":
+    {
+      "en": "You prefer playing",
+      "fr": "Tu préfères jouer aux",
+      "es": "Prefieres jugar a"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "BoardGames",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "5KX9jiNXkb3xK"
+          },
+          "Label":{
+            "en": "board games",
+            "fr": "jeux de société",
+            "es": "juegos de mesa"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "HappierMoney",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "psKReJOWm4cfK"
+          },
+          "Label":{
+            "en": "video games",
+            "fr": "jeux vidéo",
+            "es": "juegos de video"
+          }
+        }
+      ]
+}
+

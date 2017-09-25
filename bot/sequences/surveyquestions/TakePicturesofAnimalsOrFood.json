@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "TakePicturesOfAnimalsOrFood",
+  "Label":
+    {
+      "en": "You take more pictures of",
+      "fr": "Tu prends plus souvent des photos",
+      "es": "Tomas más fotos de"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PicturesOfAnimals",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "rlkpAmX3gaLWE"
+          },
+          "Label":{
+            "en": "animals",
+            "fr": "des animaux",
+            "es": "animales"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PicturesOfFood",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Iye7DbfyK9P6E"
+          },
+          "Label":{
+            "en": "food",
+            "fr": "de la nourriture",
+            "es": "comida"
+          }
+        }
+      ]
+}
+
