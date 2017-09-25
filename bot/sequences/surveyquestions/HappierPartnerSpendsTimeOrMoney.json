@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HappierPartnerSpendsTimeOrMoney",
+  "Label":
+    {
+      "en": "You're happier if your partner spends",
+      "fr": "Tu es plus heureux quand ton partenaire te donne",
+      "es": "Eres más feliz cuando tu novio/novia te da"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "HappierTime",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "tMAuX5PIo7RFS"
+          },
+          "Label":{
+            "en": "time with you",
+            "fr": "du temps",
+            "es": "tiempo"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "HappierMoney",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "lyei3ztozG9y"
+          },
+          "Label":{
+            "en": "money for you",
+            "fr": "un cadeau",
+            "es": "un regalo"
+          }
+        }
+      ]
+}
+
