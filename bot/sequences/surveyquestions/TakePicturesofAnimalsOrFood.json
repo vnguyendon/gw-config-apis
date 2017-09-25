@@ -21,9 +21,9 @@
             "Path": "rlkpAmX3gaLWE"
           },
           "Label":{
-            "en": "animals",
-            "fr": "des animaux",
-            "es": "animales"
+            "en": "animals 🐈",
+            "fr": "des animaux 🐈",
+            "es": "animales 🐈"
           }
         }
         ,
@@ -37,9 +37,9 @@
             "Path": "Iye7DbfyK9P6E"
           },
           "Label":{
-            "en": "food",
-            "fr": "de la nourriture",
-            "es": "comida"
+            "en": "food 🍰",
+            "fr": "de la nourriture 🍰",
+            "es": "comida 🍰"
           }
         }
       ]
