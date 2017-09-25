@@ -21,12 +21,13 @@
       "/bot/sequences/surveyquestions/SavePandasOrLions.json",
       "/bot/sequences/surveyquestions/ComputerOrCar.json",
       "/bot/sequences/surveyquestions/CanadaOrSouthAfrica.json",
+      "/bot/sequences/surveyquestions/NapoleonOrCheGuevara.json",
       "/bot/sequences/surveyquestions/PepsiOrCoke.json",
       "/bot/sequences/surveyquestions/KindOrFunny.json",
-      "/bot/sequences/surveyquestions/ObamaOrTrump.json",
       "/bot/sequences/surveyquestions/BeautyOrIntelligence.json",
       "/bot/sequences/surveyquestions/MarryArtistOrEngineer.json",
       "/bot/sequences/surveyquestions/BatmanOrSuperman.json",
+      "/bot/sequences/surveyquestions/ObamaOrTrump.json",
       "/bot/sequences/surveyquestions/MathsOrLiterature.json",
       "/bot/sequences/surveyquestions/NowifiOrReceivingemails.json",
       "/bot/sequences/surveyquestions/SolveHungerOrPollution.json",
@@ -114,7 +115,11 @@
       "/bot/sequences/surveyquestions/SnapchatOrInstagram.json",
       "/bot/sequences/surveyquestions/PassionOrIndependence.json",
       "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json",
-      "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"
+      "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json",
+      "/bot/sequences/surveyquestions/BoardGamesOrVideoGames.json",
+      "/bot/sequences/surveyquestions/HappierPartnerSpendsTimeOrMoney.json",
+      "/bot/sequences/surveyquestions/ShouldGvtsRegulateTheInternet.json",
+      "/bot/sequences/surveyquestions/TakePicturesofAnimalsOrFood.json"
       ]
   }
 ]
