@@ -14,7 +14,6 @@
   {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
-      "/bot/sequences/v2/Age.json",
       "/bot/sequences/surveyquestions/CatsOrDogs.json",
       "/bot/sequences/surveyquestions/TeaOrCoffee.json",
       "/bot/sequences/surveyquestions/GlobalWarming.json",
@@ -48,6 +47,7 @@
       "/bot/sequences/surveyquestions/TownOrCountryside.json",
       "/bot/sequences/surveyquestions/AbandonPizzaOrChocolate.json",
       "/bot/sequences/surveyquestions/ClassicalOrPop.json",
+      "/bot/sequences/v2/Age.json",
       "/bot/sequences/surveyquestions/IndiaOrNigeria.json",
       "/bot/sequences/surveyquestions/OptimisticOrPessimistic.json",
       "/bot/sequences/surveyquestions/SoccerOrBasketball.json",
