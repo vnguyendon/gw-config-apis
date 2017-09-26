@@ -8,7 +8,7 @@
     {
       "en": "You feel happier after",
       "fr": "Tu es plus heureux devant",
-      "es": "Eres más contento después de"
+      "es": "Sientes más satisfacción despues de haber"
     }
   ,
   "Randomize": "true",
@@ -26,7 +26,7 @@
           "Label":{
             "en": "a good book 📗",
             "fr": "un bon livre 📗",
-            "es": "un buen libro 📗"
+            "es": "leido un libro 📗"
           }
         }
         ,
@@ -42,7 +42,7 @@
           "Label":{
             "en": "a good movie 📺",
             "fr": "un bon film 📺",
-            "es": "una buena película 📺"
+            "es": "visto una película 📺"
           }
         }
       ]
