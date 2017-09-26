@@ -14,7 +14,6 @@
   {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
-      "/bot/stories/SherlockGoesCampingV2.json",
       "/bot/stories/SherlockGoesCamping.json",
       "/bot/sequences/v2/Test.json",
       "/bot/sequences/v2/Test2.json",
