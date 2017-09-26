@@ -6,7 +6,7 @@
     {
       "en": "You prefer moving around",
       "fr": "Tu préfères te déplacer en",
-      "es": "Prefieres desplazarte por"
+      "es": "Prefieres utilizar"
     }
   ,
   "Randomize": "true",
@@ -24,7 +24,7 @@
           "Label":{
             "en": "in a car 🚘",
             "fr": "voiture 🚘",
-            "es": "coche 🚘"
+            "es": "el carro 🚘"
           }
         }
         ,
@@ -40,7 +40,7 @@
           "Label":{
             "en": "on a bike 🚲",
             "fr": "vélo 🚲",
-            "es": "bicicleta 🚲"
+            "es": "la bicicleta 🚲"
           }
         }
       ]
