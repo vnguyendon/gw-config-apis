@@ -19,7 +19,12 @@
       "Parameters": {
         "Property": "ppAge",
         "Value": "Less18"
-      }
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "MzId7vT7YOUzm"
+        }
     },
     {
       "Type": "SetUserProperty",
@@ -33,7 +38,12 @@
       "Parameters": {
         "Property": "ppAge",
         "Value": "18-39"
-      }
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "QMkPpxPDYY0fu"
+        }
     },
     {
       "Type": "SetUserProperty",
@@ -47,7 +57,12 @@
       "Parameters": {
         "Property": "ppAge",
         "Value": "40-64"
-      }
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "14udF3WUwwGMaA"
+        }
     },
     {
       "Type": "SetUserProperty",
@@ -61,7 +76,12 @@
       "Parameters": {
         "Property": "ppAge",
         "Value": "64more"
-      }
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "lk2AWSyLr9LOw"
+        }
     }
   ]
 }
