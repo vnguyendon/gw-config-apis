@@ -24,9 +24,9 @@
             "Path": "JIX9t2j0ZTN9S"
           },
           "Label":{
-            "en": "a computer 💻",
-            "fr": "un ordinateur 💻",
-            "es": "un ordenador 💻"
+            "en": "a computer",
+            "fr": "un ordinateur",
+            "es": "un ordenador"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "11fucLQCTOdvBS"
           },
           "Label":{
-            "en": "a car 🚗",
-            "fr": "une voiture 🚗",
-            "es": "un coche 🚗"
+            "en": "a car",
+            "fr": "une voiture",
+            "es": "un carro"
           }
         }
       ]
