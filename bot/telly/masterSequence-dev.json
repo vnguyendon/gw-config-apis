@@ -8,6 +8,12 @@
     ]
   },
   {
+    "GroupName":"NewToTest",
+    "SequenceFiles" : [
+     
+    ]
+  },
+  {
     "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
