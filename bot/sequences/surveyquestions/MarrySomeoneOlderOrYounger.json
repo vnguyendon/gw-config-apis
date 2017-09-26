@@ -26,7 +26,7 @@
           "Label":{
             "en": "younger than you",
             "fr": "plus jeune que toi",
-            "es": "más joven"
+            "es": "menor que tu"
           }
         }
         ,
@@ -42,7 +42,7 @@
           "Label":{
             "en": "older than you",
             "fr": "plus vieux que toi",
-            "es": "más viejo"
+            "es": "mayor viejo"
           }
         }
       ]
