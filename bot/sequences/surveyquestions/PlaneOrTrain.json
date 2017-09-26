@@ -6,7 +6,7 @@
     {
       "en": "You prefer travelling by",
       "fr": "Tu préfère voyager en",
-      "es": "Prefieres viajar por"
+      "es": "Prefieres viajar en"
     }
   ,
   "Randomize": "true",
@@ -22,9 +22,9 @@
             "Path": "Btn42lfKKrOzS"
           },
           "Label":{
-            "en": "plane ✈",
-            "fr": "avion ✈",
-            "es": "avión ✈"
+            "en": "plane",
+            "fr": "avion",
+            "es": "avión"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "NwygOzUd2rXAQ"
           },
           "Label":{
-            "en": "train 🚂",
-            "fr": "train 🚂",
-            "es": "tren 🚂"
+            "en": "train",
+            "fr": "train",
+            "es": "tren"
           }
         }
       ]
