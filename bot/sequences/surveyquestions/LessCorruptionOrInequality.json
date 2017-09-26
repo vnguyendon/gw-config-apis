@@ -8,7 +8,7 @@
     {
       "en": "What could improve your country the most is",
       "fr": "Ce qui améliorerait le plus ton pays, c'est moins",
-      "es": "Lo que mejoraría tu país es menos"
+      "es": "Para mejorar tu país habría que reducir"
     }
   ,
   "Randomize": "true",
@@ -26,7 +26,7 @@
           "Label":{
             "en": "less corruption",
             "fr": "de corruption",
-            "es": "corrupción"
+            "es": "la corrupción"
           }
         }
         ,
@@ -42,7 +42,7 @@
           "Label":{
             "en": "less inequalities",
             "fr": "d'inégalités",
-            "es": "desigualdades"
+            "es": "las desigualdades"
           }
         }
       ]
