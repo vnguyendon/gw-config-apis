@@ -8,7 +8,7 @@
     {
       "en": "You have to change your diet. You choose to give up on",
       "fr": "Tu dois te mettre au régime. Tu choisis de renoncer",
-      "es": "Tienes que cambiar tu dieta. Prefieres renunciar"
+      "es": "Si tuvieras que hacer dieta. Renunciarías a"
     }
   ,
   "Randomize": "true",
@@ -26,7 +26,7 @@
           "Label":{
             "en": "pizzas 🍕",
             "fr": "aux pizzas 🍕",
-            "es": "a las pizzas 🍕"
+            "es": "las pizzas 🍕"
           }
         }
         ,
@@ -42,7 +42,7 @@
           "Label":{
             "en": "chocolate 🍫",
             "fr": "au chocolat 🍫",
-            "es": "al chocolate 🍫"
+            "es": "el chocolate 🍫"
           }
         }
       ]
