@@ -8,7 +8,7 @@
     {
       "en": "The world would be better with",
       "fr": "Le monde serait mieux si les voitures étaient moins",
-      "es": "El mundo sería mejor si autos fuesen menos"
+      "es": "El mundo estaría mejor si los autos fueran"
     }
   ,
   "Randomize": "true",
@@ -24,9 +24,9 @@
             "Path": "https://img4.hostingpics.net/pics/875688pexelsphoto105032.jpg"
           },
           "Label":{
-            "en": "fewer cars 🚗",
-            "fr": "nombreuses 🚗",
-            "es": "numerosos 🚗"
+            "en": "fewer cars",
+            "fr": "nombreuses",
+            "es": "menos"
           }
         }
         ,
@@ -40,9 +40,9 @@
             "Path": "https://img4.hostingpics.net/pics/634190badyqb42775.jpg"
           },
           "Label":{
-            "en": "cheaper cars 🚙",
-            "fr": "chères 🚙",
-            "es": "caros 🚙"
+            "en": "cheaper cars",
+            "fr": "chères",
+            "es": "baratos"
           }
         }
       ]
