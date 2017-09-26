@@ -8,7 +8,7 @@
     {
       "en": "Would you rather study",
       "fr": "Tu préférerais étudier",
-      "es": "Preferías estudiar"
+      "es": "Preferirías estudiar"
     }
   ,
   "Randomize": "true",
@@ -26,7 +26,7 @@
           "Label":{
             "en": "Mathematics",
             "fr": "les maths",
-            "es": "las matemáticas"
+            "es": "matemáticas"
           }
         }
         ,
@@ -42,7 +42,7 @@
           "Label":{
             "en": "Literature",
             "fr": "les lettres",
-            "es": "la literatura"
+            "es": "literatura"
           }
         }
       ]
