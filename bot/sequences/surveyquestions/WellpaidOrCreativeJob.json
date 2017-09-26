@@ -6,7 +6,7 @@
     {
       "en": "You feel better if your job",
       "fr": "C'est mieux si ton travail est",
-      "es": "Te sientes mejor si tienes un trabajo"
+      "es": "Es mejor si tienes un trabajo"
     }
   ,
   "Randomize": "true",
@@ -24,7 +24,7 @@
           "Label":{
             "en": "pays well 💰",
             "fr": "bien payé 💰",
-            "es": "buen pagado 💰"
+            "es": "bien pagado 💰"
           }
         }
         ,
@@ -35,7 +35,7 @@
           "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "3o7bu4T3Jcib9vlrvG"
+            "Path": "SKGo6OYe24EBG"
           },
           "Label":{
             "en": "is creative 🎈",
