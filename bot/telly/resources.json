@@ -202,21 +202,37 @@
         }
       ]
     },
-    
+     {
+      "key": "totalVoters",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{total} personnes ont voté"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{total} people voted"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{total} personas han votado"
+        }
+      ]
+    },
     {
       "key": "percentVotersAgree",
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des votants sont d'accord"
+          "value": "{percentValue}% des votants ont voté comme vous"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of voters agree"
+          "value": "{percentValue}% agree with you"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de los votantes de acuerdo"
+          "value": "el {percentValue}% han votado como usted"
         }
       ]
     },
@@ -225,15 +241,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des hommes sont d'accord"
+          "value": "{percentValue}% des hommes partagent votre avis"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of men agree"
+          "value": "{percentValue}% of men feel the same"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de los hombres de acuerdo"
+          "value": "el {percentValue}% de los hombres comparten su opinión"
         }
       ]
     },
@@ -242,15 +258,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des femmes sont d'accord"
+          "value": "{percentValue}% des femmes partagent votre avis"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of women agree"
+          "value": "{percentValue}% of women feel the same"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de las mujeres de acuerdo"
+          "value": "el {percentValue}% de las mujeres comparten su opinión"
         }
       ]
     },
@@ -259,15 +275,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des votants de {country} sont d'accord"
+          "value": "et {percentValue}% des personnes de votre pays ({country})"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of voters of {country} agree"
+          "value": "and {percentValue}% people living in your country ({country})"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de los votantes de {country} de acuerdo"
+          "value": "y el {percentValue}% de la gente de su país {country}"
         }
       ]
     },
@@ -277,15 +293,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des votants de moins de 40 ans sont d'accord"
+          "value": "ainsi que {percentValue}% des moins de 40 ans"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of voters less than 40 agree"
+          "value": "so do {percentValue}% of people less than 40 years old"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de los votantes de menos de 40 años de acuerdo"
+          "value": "como el {percentValue}% de los menos de 40 años"
         }
       ]
     },
@@ -295,15 +311,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des votants de plus de 40 ans sont d'accord"
+          "value": "ainsi que {percentValue}% des plus de 40 ans"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of voters more than 40 years agree"
+          "value": "so do {percentValue}% of people aged 40+"
         },
         {
           "culture": "es-ES",
-          "value": "{percentValue}% de los votantes de más de 40 años de acuerdo"
+          "value": "como el {percentValue}% de los 40 años o más"
         }
       ]
     }
