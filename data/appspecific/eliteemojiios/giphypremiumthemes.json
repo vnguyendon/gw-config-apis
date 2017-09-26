@@ -1,0 +1,94 @@
+{
+  "Themes": [
+    {
+      "Path": "/common/giphycontent/premiumkitties.json",
+      "DefaultImage": "/themes/kittens/small/shutterstock_116218768.jpg",
+      "Labels": {
+        "en": "Kitties",
+        "fr": "Chatons",
+        "es": "Gatitos"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpuppies.json",
+      "DefaultImage": "/themes/puppies/small/shutterstock_190771445.jpg",
+      "Labels": {
+        "en": "Puppies",
+        "fr": "Chiots",
+        "es": "Perritos"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpandas.json",
+      "DefaultImage": "/cvd/friend/friends/small/446325988.jpg",
+      "Labels": {
+        "en": "Pandas",
+        "fr": "Pandas",
+        "es": "Pandas"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumhorses.json",
+      "DefaultImage": "/themes/horses/small/iStock_000015373818_Medium.jpg",
+      "Labels": {
+        "en": "Horses",
+        "fr": "Chevaux",
+        "es": "Caballos"
+      }
+    },
+        {
+      "Path": "/common/giphycontent/premiumchristmas.json",
+      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
+      "Labels": {
+        "en": "Merry Christmas",
+        "fr": "Joyeux Noël",
+        "es": "Feliz Navidad"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon1.json",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/Believe-the-unbelievable-000053641330_Medium.jpg",
+      "Labels": {
+        "en": "Cartoons I",
+        "fr": "Dessins animés I",
+        "es": "Dibujos animados I"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon2.json",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/From-a-fairy-tale-000053641224_Medium.jpg",
+      "Labels": {
+        "en": "Cartoons II",
+        "fr": "Dessins animés II",
+        "es": "Dibujos animados II"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumcartoon3.json",
+      "DefaultImage": "/specialoccasions/celebrate-the-occasion/default/small/Full-golden-heart-000055173666_Medium.jpg",
+      "Labels": {
+        "en": "Cartoons III",
+        "fr": "Dessins animés III",
+        "es": "Dibujos animados III"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumsoccer.json",
+      "DefaultImage": "/specialoccasions/you-are-the-best/default/small/shutterstock_75105484_2.jpg",
+      "Labels": {
+        "en": "Soccer",
+        "fr": "Football",
+        "es": "Futbol"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumpika.json",
+      "DefaultImage": "/themes/emojiCats/small/shutterstock_429770818_70.jpg",
+      "Labels": {
+        "en": "Pika",
+        "fr": "Pika",
+        "es": "Pika"
+      }
+    }
+  ]
+}
