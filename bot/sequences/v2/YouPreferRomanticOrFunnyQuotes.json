@@ -1,7 +1,7 @@
 {
     "Type" : "Question",
     "Id" : "YouPreferRomanticOrFunnyQuotes",
-    "Comments": "this question give us information about peoples's preferences regarding quotes",
+    "Comments": "this question gives us information about people's preferences regarding quotes",
     "Label": {
       "en":"You prefer quotes that are",
       "fr":"Tu préfères les citations",
