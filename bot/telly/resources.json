@@ -224,7 +224,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des votants ont voté comme vous"
+          "value": "{percentValue}% ont voté comme vous"
         },
         {
           "culture": "en-EN",
@@ -293,7 +293,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "ainsi que {percentValue}% des moins de 40 ans"
+          "value": "ainsi que {percentValue}% des - de 40 ans"
         },
         {
           "culture": "en-EN",
@@ -311,7 +311,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "ainsi que {percentValue}% des plus de 40 ans"
+          "value": "ainsi que {percentValue}% des 40 ans et plus"
         },
         {
           "culture": "en-EN",
