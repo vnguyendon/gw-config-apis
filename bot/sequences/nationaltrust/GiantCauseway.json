@@ -1,0 +1,93 @@
+{
+  "Type": "Question",
+  "Id": "GiantsCauseway",
+  "Label": {
+    "en": "Have you ever heard of the Giant’s Causeway?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "HeardofGiantsCauseway-Yes",
+      "StepValue": "1",
+      "Label": {
+        "en": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceYes1",
+          "Label": {
+            "en": "So you may already know how beautiful this volcanic site is:"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceYes2",
+          "Source": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26BRzQS5HXcEWM7du"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceYes3",
+          "Label": {
+            "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceYes4",
+          "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "HearofGiantsCauseway-No",
+      "StepValue": "0",
+      "Label": {
+        "en": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceNo1",
+          "Label": {
+            "en": "It's a volcanic site in Northern Ireland. It looks like this:"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceNo2",
+          "Source": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "26BRzQS5HXcEWM7du"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceNo3",
+          "Label": {
+            "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceNo4",
+          "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
