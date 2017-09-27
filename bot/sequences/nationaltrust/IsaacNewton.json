@@ -1,0 +1,89 @@
+{
+  "Type": "Question",
+  "Id": "IsaacNewton",
+  "Label": {
+    "en": "When I say \"apple 🍎\", you think of"
+  },
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "IsaacNewton-SnowWhite",
+      "StepValue": "1",
+      "Label": {
+        "en": "Snow White"
+      },
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/682463SnowWhite.jpg"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "IsaacNewton-SnowWhite-Sequence1",
+          "Label": {
+            "en": "I don’t know about Snow White, but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "IsaacNewton-SnowWhite-Sequence2",
+          "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "IsaacNewton-SnowWhite-Sequence3",
+          "Label": {
+            "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "IsaacNewton-IsaacNewton",
+      "StepValue": "0",
+      "Label": {
+        "en": "Isaac Newton"
+      },
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/939673IsaacNewton.jpg"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "IsaacNewton-IsaacNewton-Sequence1",
+          "Label": {
+            "en": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "IsaacNewton-IsaacNewton-Sequence2",
+          "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "IsaacNewton-IsaacNewton-Sequence3",
+          "Label": {
+            "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
+            
+
+
+
