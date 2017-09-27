@@ -6,7 +6,7 @@
   },
   "Commands": [
     {
-      "Type": "ShowTest",
+      "Type": "ShowSteps",
       "Id": "Yes",
       "StepValue": "1",
       "Label": {
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "Type": "ShowTest",
+      "Type": "ShowSteps",
       "Id": "No",
       "StepValue": "0",
       "Label": {
