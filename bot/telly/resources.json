@@ -293,7 +293,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "moins de 40 ans : {percentValue}"
+          "value": "moins de 40 ans : {percentValue}%"
         },
         {
           "culture": "en-EN",
@@ -311,7 +311,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "40 ans et plus : {percentValue}"
+          "value": "40 ans et plus : {percentValue}%"
         },
         {
           "culture": "en-EN",
