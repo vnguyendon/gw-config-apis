@@ -24,6 +24,22 @@
           "Type": "Image",
           "Id": "GiantsCausewaySequenceYes2",
           "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceYes3",
+          "Label": {
+            "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceYes4",
+          "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "26BRzQS5HXcEWM7du"
@@ -31,14 +47,14 @@
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceYes3",
+          "Id": "GiantsCausewaySequenceYes5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
           }
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceYes4",
+          "Id": "GiantsCausewaySequenceYes6",
           "Source": {
             "Type": "Image",
             "Source": "External",
@@ -66,6 +82,22 @@
           "Type": "Image",
           "Id": "GiantsCausewaySequenceNo2",
           "Source": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "GiantsCausewaySequenceNo3",
+          "Label": {
+            "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "GiantsCausewaySequenceNo4",
+          "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "26BRzQS5HXcEWM7du"
@@ -73,14 +105,14 @@
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceNo3",
+          "Id": "GiantsCausewaySequenceNo5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
           }
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceNo4",
+          "Id": "GiantsCausewaySequenceNo6",
           "Source": {
             "Type": "Image",
             "Source": "External",
