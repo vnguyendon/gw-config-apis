@@ -224,7 +224,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% ont voté comme vous"
+          "value": "{percentValue}% ont voté comme toi"
         },
         {
           "culture": "en-EN",
@@ -232,7 +232,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "el {percentValue}% han votado como usted"
+          "value": "el {percentValue}% han votado como tu"
         }
       ]
     },
@@ -241,7 +241,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des hommes partagent votre avis"
+          "value": "{percentValue}% des hommes partagent ton avis"
         },
         {
           "culture": "en-EN",
@@ -249,7 +249,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "el {percentValue}% de los hombres comparten su opinión"
+          "value": "el {percentValue}% de los hombres comparten tu opinión"
         }
       ]
     },
@@ -258,7 +258,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% des femmes partagent votre avis"
+          "value": "{percentValue}% des femmes partagent ton avis"
         },
         {
           "culture": "en-EN",
@@ -266,7 +266,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "el {percentValue}% de las mujeres comparten su opinión"
+          "value": "el {percentValue}% de las mujeres comparten tu opinión"
         }
       ]
     },
@@ -275,7 +275,7 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "et {percentValue}% des personnes de votre pays ({country})"
+          "value": "et {percentValue}% des personnes de ton pays ({country})"
         },
         {
           "culture": "en-EN",
@@ -283,7 +283,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "y el {percentValue}% de la gente de su país {country}"
+          "value": "y el {percentValue}% de la gente de tu país {country}"
         }
       ]
     },
