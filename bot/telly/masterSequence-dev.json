@@ -10,7 +10,7 @@
   {
     "GroupName":"NewToTest",
     "SequenceFiles" : [
-      { "order" : 100, "file": "/bot/telly/YouPreferRomanticOrFunnyQuotes.json"},
+      { "order" : 100, "file": "/bot/sequences/v2/YouPreferRomanticOrFunnyQuotes.json"},
       { "order" : 100, "file": "/bot/sequences/v2/DoYouWantAPenguinGif.json"},
       { "order" : 100, "file": "/bot/sequences/v2/DoYouWantAKittenGif.json"},
       { "order" : 100, "file": "/bot/sequences/v2/FirstTimeBot.json"}
