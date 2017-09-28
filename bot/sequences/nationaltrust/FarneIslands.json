@@ -4,7 +4,7 @@
     "Label": {
         "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
       },
-    "Optionalfeedback":{
+    "OptionalFeedback":{
       "Type": "Image",
       "Source": "Internal",
       "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
