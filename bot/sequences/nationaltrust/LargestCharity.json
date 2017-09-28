@@ -24,7 +24,8 @@
           "Id": "LargestCharityUK-YesIknow",
           "Label": {
             "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -41,7 +42,8 @@
           "Id": "LargestCharityUK-NoIDontKnow",
           "Label": {
             "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
