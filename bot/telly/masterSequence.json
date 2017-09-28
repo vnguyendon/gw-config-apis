@@ -2,19 +2,19 @@
   {
     "GroupName":"Start",
     "SequenceFiles" : [
-       { "order" : 20, "file": "/bot/telly/CanYouSeeTheButtons.json"},
-       { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"},
-       { "order" : 90, "file": "/bot/sequences/v2/Age.json"}     
+       { "order" : 20, "file": "/bot/telly/CanYouSeeTheButtons.json"}
       ]
   },
   {
     "GroupName":"Survey",
-    "SequenceFiles" : [
+    "SequenceFiles" : [    
       { "order" : 30, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
       { "order" : 40, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
       { "order" : 50, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
       { "order" : 50, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
+      { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"},
       { "order" : 70, "file": "/bot/sequences/surveyquestions/FishOrMeat.json"},
+      { "order" : 90, "file": "/bot/sequences/v2/Age.json"},     
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ComputerOrCar.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CanadaOrSouthAfrica.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/PepsiOrCoke.json"},
