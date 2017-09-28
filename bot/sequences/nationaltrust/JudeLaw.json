@@ -6,7 +6,6 @@
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/418314ClivedenHouse1SMALL.jpg"
   },
   "Randomize": "true",
@@ -19,7 +18,6 @@
         "en": "Hugh Laurie"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/415981HughLaurie.jpg"
       },
       "Steps": [
@@ -41,7 +39,6 @@
         "en": "Jude Law"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/596162JudeLaw.jpg"
       },
       "Steps": [
