@@ -6,7 +6,6 @@
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/735316NymansGardens2SMALL.jpg"
   },
   "Randomize": "true",
@@ -30,11 +29,7 @@
         {
           "Type": "Image",
           "Id": "NymansGardens-Jazz-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg",
           "Delay": "2"
         }
       ]
@@ -58,11 +53,7 @@
         {
           "Type": "Image",
           "Id": "NymansGardens-Rock-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg",
           "Delay": "2"
         }
       ]
