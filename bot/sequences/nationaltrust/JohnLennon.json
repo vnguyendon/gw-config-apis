@@ -1,50 +1,54 @@
 {
-    "Type":"Question",
-    "Id": "JohnLennon",
-    "Label": {
-        "en": "Thanks to the National Trust, you can visit the childhood home of…?"
+  "Type": "Question",
+  "Id": "JohnLennon",
+  "Label": {
+    "en": "Thanks to the National Trust, you can visit the childhood home of…?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "JohnLennon-JohnLennon",
+      "StepValue": "1",
+      "Label": {
+        "en": "John Lennon"
       },
-    "Commands": [
-      {
-        "Type" : "DoNothing",
-        "Id" : "JohnLennon-JohnLennon",
-        "StepValue" : "1",
-        "Label": {
-              "en": "John Lennon"
-        },
-        "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/575896JohnLennon.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "JohnLennon-JohnLennon-Sequence1",
-                  "Label": {
-                      "en": "Right answer!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
-                    }
-                  }
-        }
-        ,
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/575896JohnLennon.jpg"
+      },
+      "Steps": [
         {
-        "Type":"DoNothing",
-        "Id": "JohnLennon-DavidBowie",
-        "StepValue" : "0",
-        "Label": {
-            "en": "David Bowie"
+          "Type": "Text",
+          "Id": "JohnLennon-JohnLennon-Sequence1",
+          "Label": {
+            "en": "Right answer!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
           },
-          "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/655841DavidBowie.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "JohnLennon-DavidBowie-Sequence1",
-                  "Label": {
-                      "en": "The right answer was John Lennon! 🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
-                    }
-                  }
+          "Delay": "2"
         }
-    ]
-  }
-
-
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "JohnLennon-DavidBowie",
+      "StepValue": "0",
+      "Label": {
+        "en": "David Bowie"
+      },
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/655841DavidBowie.jpg"
+      },
+      "Steps": [
+        {
+          "Type": "DoNothing",
+          "Id": "JohnLennon-DavidBowie-Sequence1",
+          "Label": {
+            "en": "The right answer was John Lennon! 🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
+          },
+          "Delay": "2"
+        }
+      ]
+    }
+  ]
+}
