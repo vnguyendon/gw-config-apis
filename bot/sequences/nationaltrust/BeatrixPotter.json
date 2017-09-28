@@ -1,48 +1,53 @@
 {
-    "Type":"Question",
-    "Id": "BeatrixPotter",
-    "Label": {
-        "en": "Which famous writer was an active member of the National Trust?"
+  "Type": "Question",
+  "Id": "BeatrixPotter",
+  "Label": {
+    "en": "Which famous writer was an active member of the National Trust?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "BeatrixPotter-BeatrixPotter",
+      "StepValue": "1",
+      "Label": {
+        "en": "Beatrix Potter"
       },
-    "Commands": [
-      {
-        "Type" : "DoNothing",
-        "Id" : "BeatrixPotter-BeatrixPotter",
-        "StepValue" : "1",
-        "Label": {
-              "en": "Beatrix Potter"
-        },
-        "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/379184BeatrixPotter.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "BeatrixPotter-BeatrixPotter-Sequence1",
-                  "Label": {
-                      "en": "Beatrix Potter indeed! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
-                    }
-                  }
-        }
-        ,
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/379184BeatrixPotter.jpg"
+      },
+      "Steps": [
         {
-        "Type":"DoNothing",
-        "Id": "BeatrixPotter-LewisCarroll",
-        "StepValue" : "0",
-        "Label": {
-            "en": "Lewis Carroll"
+          "Type": "Text",
+          "Id": "BeatrixPotter-BeatrixPotter-Sequence1",
+          "Label": {
+            "en": "Beatrix Potter indeed! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
           },
-          "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/432579LewisCarroll.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "BeatrixPotter-LewisCarroll-Sequence1",
-                  "Label": {
-                      "en": "It was Beatrix Potter! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
-                    }
-                  }
+          "Delay": "2"
         }
-    ]
-  }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "BeatrixPotter-LewisCarroll",
+      "StepValue": "0",
+      "Label": {
+        "en": "Lewis Carroll"
+      },
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/432579LewisCarroll.jpg"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "BeatrixPotter-LewisCarroll-Sequence1",
+          "Label": {
+            "en": "It was Beatrix Potter! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
+          },
+          "Delay": "2"
+        }
+      ]
+    }
+  ]
+}
