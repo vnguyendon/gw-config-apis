@@ -27,8 +27,8 @@
           "Id": "SeeTheButtonsYesThenStart",
           "Comments":"if yes, then we can show a nice message and invite to start!",
           "Label": {
-              "en": "Great! \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick the button below to start with the first question",
-              "fr": "Génial! \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur le bouton ci-dessous pour commencer avec la première question",
+              "en": "Great! \n\nI love discussing what people think about life. \nPlease click Continue to see the first question!",
+              "fr": "Génial! \n\n J'adore discuter de ce que les gens pensent de la vie. \n Clique stp sur Continuer pour voir la première question !",
               "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en el buton por debajo para comenzar con la primera pregunta"
             },
           "Commands": [
@@ -42,7 +42,7 @@
                     "Path": "ZeB5RzwVdzO8M"
                 },
               "Label": {
-                  "en": "Start",
+                  "en": "Continue",
                   "fr": "Démarrer",
                   "es": "Comenzar"
               },
