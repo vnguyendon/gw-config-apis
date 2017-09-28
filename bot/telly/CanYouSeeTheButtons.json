@@ -3,8 +3,8 @@
     "Id": "CanYouSeeTheButtons",
     "Comments":"first question after welcome message",
     "Label": {
-        "en": "Can you see the buttons on the bottom?",
-        "fr": "Vois tu les boutons en bas de l'écran?",
+        "en": "Can you see the two buttons on the bottom?",
+        "fr": "Vois-tu les deux boutons en bas de l'écran?",
         "es": "¿Puedes ver los botones en la parte inferior?"
       },
     "Commands": [
