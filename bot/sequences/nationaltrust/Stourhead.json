@@ -25,11 +25,7 @@
         {
           "Type": "Image",
           "Id": "Stourhead-Woods-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg"
-          },
+            "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -43,11 +39,7 @@
         {
           "Type": "Image",
           "Id": "Stourhead-Woods-Sequence4",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg"
-          },
+            "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
           "Delay": "2"
         }
       ]
@@ -71,11 +63,7 @@
         {
           "Type": "Image",
           "Id": "Stourhead-Lake-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg"
-          },
+            "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -89,11 +77,7 @@
         {
           "Type": "Image",
           "Id": "Stourhead-Lake-Sequence4",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg"
-          },
+            "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
           "Delay": "2"
         }
       ]
