@@ -18,7 +18,8 @@
           "Id": "GiantsCausewaySequenceYes1",
           "Label": {
             "en": "So you may already know how beautiful this volcanic site is:"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -27,14 +28,16 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "GiantsCausewaySequenceYes3",
           "Label": {
             "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -43,14 +46,16 @@
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "26BRzQS5HXcEWM7du"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "GiantsCausewaySequenceYes5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -59,7 +64,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -85,14 +91,16 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "GiantsCausewaySequenceNo3",
           "Label": {
             "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -101,14 +109,16 @@
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "26BRzQS5HXcEWM7du"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "GiantsCausewaySequenceNo5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -117,7 +127,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
