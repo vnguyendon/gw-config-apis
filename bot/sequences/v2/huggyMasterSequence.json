@@ -12,24 +12,6 @@
       ]
   },
   {
-    "GroupName":"UK-only",
-    "SequenceFiles" : [
-      "/bot/sequences/nationaltrust/LargestCharity.json",
-      "/bot/sequences/nationaltrust/AliceInWonderland.json",
-      "/bot/sequences/nationaltrust/JudeLaw.json",
-      "/bot/sequences/nationaltrust/BeatrixPotter.json",
-      "/bot/sequences/nationaltrust/PrideAndPrejudice.json",
-      "/bot/sequences/nationaltrust/IsaacNewton.json",
-      "/bot/sequences/nationaltrust/NationalTrustBand.json",
-      "/bot/sequences/nationaltrust/JohnLennon.json",
-      "/bot/sequences/nationaltrust/Stourhead.json",
-      "/bot/sequences/nationaltrust/NymansGardens.json",
-      "/bot/sequences/nationaltrust/WhiteCliffsOfDover.json",
-      "/bot/sequences/nationaltrust/GiantCauseway.json",
-      "/bot/sequences/nationaltrust/FarneIslands.json"
-      ]
-  },
-  {
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
       "/bot/sequences/v2/FirstTimeBot.json",
