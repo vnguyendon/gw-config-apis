@@ -4,11 +4,12 @@
   "Label": {
     "en": "Which kind of music can you sometimes hear in the beautiful Nymans garden? 🌼🌷"
   },
-  "OptionalFeedback": {
+  "OptionalPrompt": {
     "Type": "Image",
     "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/735316NymansGardens2SMALL.jpg"
   },
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
@@ -23,7 +24,8 @@
           "Id": "NymansGardens-Jazz-Sequence1",
           "Label": {
             "en": "Exactly! Every summer, many garden festivals let you enjoy your favourite music in the great outdoors 😊"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -32,7 +34,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -49,7 +52,8 @@
           "Id": "NymansGardens-Rock-Sequence1",
           "Label": {
             "en": "That would be amazing! However, so far you can mostly listen to jazz at Nymans. Every summer, many garden festivals let you enjoy your favourite music in the great outdoors 😊"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -58,7 +62,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/439558NymansGardens1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
