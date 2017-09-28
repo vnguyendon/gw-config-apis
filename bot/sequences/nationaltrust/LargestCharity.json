@@ -12,7 +12,7 @@
   },
   "Commands": [
     {
-      "Type": "DoNothing",
+      "Type": "ShowSteps",
       "Id": "YesIKnow",
       "StepValue": "1",
       "Label": {
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "Type": "DoNothing",
+      "Type": "ShowSteps",
       "Id": "NoIDontKnow",
       "StepValue": "0",
       "Label": {
