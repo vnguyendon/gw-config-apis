@@ -14,7 +14,6 @@
         "en": "Snow White"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/682463SnowWhite.jpg"
       },
       "Steps": [
@@ -29,11 +28,7 @@
         {
           "Type": "Image",
           "Id": "IsaacNewton-SnowWhite-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -54,7 +49,6 @@
         "en": "Isaac Newton"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/939673IsaacNewton.jpg"
       },
       "Steps": [
@@ -69,11 +63,7 @@
         {
           "Type": "Image",
           "Id": "IsaacNewton-IsaacNewton-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -88,6 +78,3 @@
     }
   ]
 }
-
-
-
