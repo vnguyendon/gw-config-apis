@@ -14,7 +14,6 @@
         "en": "John Lennon"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/575896JohnLennon.jpg"
       },
       "Steps": [
@@ -36,7 +35,6 @@
         "en": "David Bowie"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/655841DavidBowie.jpg"
       },
       "Steps": [
