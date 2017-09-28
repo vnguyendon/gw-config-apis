@@ -120,8 +120,11 @@
       "/bot/sequences/surveyquestions/HappierPartnerSpendsTimeOrMoney.json",
       "/bot/sequences/surveyquestions/BatmanOrSuperman.json",     
       "/bot/sequences/surveyquestions/TakePicturesofAnimalsOrFood.json",
-      "/bot/sequences/surveyquestions/Test.json",
-      "/bot/sequences/surveyquestions/Test2.json"      
+      "/bot/sequences/surveyquestions/EarlybirdOrNightowl.json",
+      "/bot/sequences/surveyquestions/HeardOfTheWorldBank.json",
+      "/bot/sequences/surveyquestions/OlympicsOrFootballWorldCup.json",
+      "/bot/sequences/surveyquestions/SpendTheWEAloneOrWithFriends.json",
+      "/bot/sequences/surveyquestions/VisitShanghaiOrTokyo.json"
       ]
   }
 ]
