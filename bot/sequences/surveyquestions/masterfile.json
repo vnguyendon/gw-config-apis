@@ -104,5 +104,7 @@
       "/bot/sequences/surveyquestions/WizardOrNinja.json",   
       "/bot/sequences/surveyquestions/HappierPartnerSpendsTimeOrMoney.json",
       "/bot/sequences/surveyquestions/BatmanOrSuperman.json",     
-      "/bot/sequences/surveyquestions/TakePicturesofAnimalsOrFood.json"
+      "/bot/sequences/surveyquestions/TakePicturesofAnimalsOrFood.json",
+      "/bot/sequences/surveyquestions/Test.json",
+      "/bot/sequences/surveyquestions/Test2.json"
 ] 
