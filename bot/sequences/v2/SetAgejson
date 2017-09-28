@@ -1,0 +1,99 @@
+{
+  "Type": "Question",
+  "Id": "LocationUsers",
+  "Label": {
+    "en": "Do you want to know what people of your generation think? I need to know where your age!",
+    "fr": "Veux-tu savoir ce que pensent les gens de ta génération? J'ai besoin de savoir ton age !",
+    "es": "¿Quieres saber lo que piensa la gente XXX? ¡Necesito saber XXX!"
+  },
+  "Randomize": "true",
+  "Channels":["facebook"],
+  "Commands": [
+    {
+      "Type": "SetUserProperty",
+      "Id": "EighteenLess",
+      "StepValue": "1",
+      "Label": {
+        "en": "Less than 18",
+        "fr": "Moins de 18 ans",
+        "es": "Menos de 18 años"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "Less18"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "MzId7vT7YOUzm"
+        }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "EighteenThirtyNine",
+      "StepValue": "1",
+      "Label": {
+        "en": "Between 18 and 39",
+        "fr": "Entre 18 et 39 ans",
+        "es": "Entre 18 y 39"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "18-39"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "QMkPpxPDYY0fu"
+        }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "FourtySixtyFour",
+      "StepValue": "1",
+      "Label": {
+        "en": "Between 40 and 64",
+        "fr": "Entre 40 et 64 ans",
+        "es": "Entre 40 y 64"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "40-64"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "14udF3WUwwGMaA"
+        }
+    },
+    {
+      "Type": "SetUserProperty",
+      "Id": "SixtyFourMore",
+      "StepValue": "1",
+      "Label": {
+        "en": "More than 64",
+        "fr": "Plus de 64 ans",
+        "es": "Más de 64"
+      },
+      "Parameters": {
+        "Property": "ppAge",
+        "Value": "64more"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "lk2AWSyLr9LOw"
+        }
+    }
+    {
+      "Type": "Nothing",
+      "Id": "LocationNo",
+      "StepValue": "1",
+      "Label": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      }
+    }
+  ]
+}
