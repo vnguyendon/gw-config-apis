@@ -14,7 +14,6 @@
         "en": "Beatrix Potter"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/379184BeatrixPotter.jpg"
       },
       "Steps": [
@@ -36,7 +35,6 @@
         "en": "Lewis Carroll"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/432579LewisCarroll.jpg"
       },
       "Steps": [
