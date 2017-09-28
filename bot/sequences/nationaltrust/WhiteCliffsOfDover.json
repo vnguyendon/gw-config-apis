@@ -6,7 +6,6 @@
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
   },
   "Randomize": "true",
