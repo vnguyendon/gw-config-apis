@@ -4,6 +4,7 @@
   "Label": {
     "en": "What makes the world-famous estate of Stourhead so unique?"
   },
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
@@ -18,7 +19,8 @@
           "Id": "Stourhead-Woods-Sequence1",
           "Label": {
             "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -27,14 +29,16 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "Stourhead-Woods-Sequence3",
           "Label": {
             "en": "Stourhead annual Festival of the Voice is the perfect opportunity to listen to great music while enjoying the autumn colours of the gardens 🍁🍂"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -43,7 +47,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -60,7 +65,8 @@
           "Id": "Stourhead-Lake-Sequence1",
           "Label": {
             "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -69,14 +75,16 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "Stourhead-Lake-Sequence3",
           "Label": {
             "en": "Stourhead annual Festival of the Voice is the perfect opportunity to listen to great music while enjoying the autumn colours of the gardens 🍁🍂"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -85,7 +93,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
