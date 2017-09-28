@@ -9,7 +9,7 @@
     "Source": "Internal",
     "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
   },
-  "Randomize":"true",
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
@@ -24,7 +24,8 @@
           "Id": "FarneIslands-10yo-Sequence1",
           "Label": {
             "en": "Puffins live longer than you might think, their life expectancy is 20 years. Some of them can reach 30 years old and over! 😮"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -33,14 +34,16 @@
             "Type": "Image",
             "Source": "Internal",
             "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "FarneIslands-10yo-Sequence3",
           "Label": {
             "en": "There are few better places to see them than on the Farne Islands"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -49,7 +52,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -66,7 +70,8 @@
           "Id": "FarneIslands-20yo-Sequence1",
           "Label": {
             "en": "Exactly! And some of them can easily reach 30 years old and over! 😮"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -75,14 +80,16 @@
             "Type": "Image",
             "Source": "Internal",
             "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "FarneIslands-20yo-Sequence3",
           "Label": {
             "en": "There are few better places to see them than on the Farne Islands"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -91,7 +98,8 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
