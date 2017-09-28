@@ -1,49 +1,51 @@
 {
-    "Type":"Question",
-    "Id": "WhiteCliffsOfDover",
-    "Label": {
-        "en": "Where would you go to see those beautiful White Cliffs?"
+  "Type": "Question",
+  "Id": "WhiteCliffsOfDover",
+  "Label": {
+    "en": "Where would you go to see those beautiful White Cliffs?"
+  },
+  "OptionalPrompt": {
+    "Type": "Image",
+    "Source": "External",
+    "Path": "https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "WhiteCliffsOfDover-Dover",
+      "StepValue": "1",
+      "Label": {
+        "en": "Dover"
       },
-    "OptionalFeedback":{
-        "Type":"Image",
-        "Source":"External",
-        "Path":"https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
-    },
-    "Commands": [
-      {
-        "Type" : "ShowSteps",
-        "Id" : "WhiteCliffsOfDover-Dover",
-        "StepValue" : "1",
-        "Label": {
-              "en": "Dover"
-        },
-        "Steps": [
-            {
-                "Type":"Text",
-                "Id": "WhiteCliffsOfDover-Dover-Sequence1",
-                "Label": {
-                    "en": "That's right! And those cliffs face the exact narrowest part of the Channel 🌊"
-                    }
-            }
-        ]
-      }
-      ,
-      {
-        "Type":"ShowSteps",
-        "Id": "WhiteCliffsOfDover-Hastings",
-        "StepValue" : "0",
-        "Label": {
-            "en": "Hastings"
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "WhiteCliffsOfDover-Dover-Sequence1",
+          "Label": {
+            "en": "That's right! And those cliffs face the exact narrowest part of the Channel 🌊"
           },
-          "Steps": [
-            {
-                "Type":"Text",
-                "Id": "WhiteCliffsOfDover-Hastings-Sequence1",
-                "Label": {
-                    "en": "Actually you have to go to Dover to see them :) And those cliffs face the exact narrowest part of the Channel 🌊"
-                    }
-            }
-        ]
-      }
-    ]
-  }
+          "Delay": "2"
+        }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "WhiteCliffsOfDover-Hastings",
+      "StepValue": "0",
+      "Label": {
+        "en": "Hastings"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "WhiteCliffsOfDover-Hastings-Sequence1",
+          "Label": {
+            "en": "Actually you have to go to Dover to see them :) And those cliffs face the exact narrowest part of the Channel 🌊"
+          },
+          "Delay": "2"
+        }
+      ]
+    }
+  ]
+}
