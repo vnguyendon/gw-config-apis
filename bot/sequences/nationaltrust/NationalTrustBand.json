@@ -14,7 +14,6 @@
         "en": "a rugby team"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/475058NationalTrustRugbyTeam.jpg"
       },
       "Steps": [
@@ -36,7 +35,6 @@
         "en": "a music band"
       },
       "ChoiceImage": {
-        "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/138352NationalTrustMusicBand.jpg"
       },
       "Steps": [
