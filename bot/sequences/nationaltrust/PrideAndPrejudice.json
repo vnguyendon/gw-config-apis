@@ -4,6 +4,7 @@
   "Label": {
     "en": "Do you know which was the largest and most complicated shoot hosted by the National Trust?"
   },
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
@@ -70,7 +71,8 @@
           "Id": "PrideAndPrejudice-GOT-Sequence3",
           "Label": {
             "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
