@@ -4,6 +4,7 @@
   "Label": {
     "en": "Which famous writer was an active member of the National Trust?"
   },
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
