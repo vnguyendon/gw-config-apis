@@ -1,5 +1,5 @@
 using System;
-using Gw.Bot.Sequences.Actions
+using Gw.Bot.Sequences.Actions;
 
 public class SurveyShowConditions : ISurveyShowConditions
 {
