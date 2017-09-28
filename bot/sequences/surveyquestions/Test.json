@@ -1,0 +1,52 @@
+
+{
+  "Type": "Question",
+  "Id": "ComputerOrCar2",
+  "Label":
+    {
+      "en": "You can't have both. You choose",
+      "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+      "es": "No puedes tener los dos. Eliges"
+    }
+  ,
+  "OptionalFeedback": {
+    "Type": "AnimatedGif",
+    "Source": "Giphy",
+    "Path": "11fucLQCTOdvBS"
+  },
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "DoNothing",
+          "Id": "ChooseComputer",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "JIX9t2j0ZTN9S"
+          },
+          "Label":{
+            "en": "a computer",
+            "fr": "un ordinateur",
+            "es": "un ordenador"
+          }
+        }
+        ,
+        {
+          "Type": "DoNothing",
+          "Id": "ChooseCar",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "11fucLQCTOdvBS"
+          },
+          "Label":{
+            "en": "a car",
+            "fr": "une voiture",
+            "es": "un carro"
+          }
+        }
+      ]
+}
