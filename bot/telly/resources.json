@@ -224,11 +224,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% ont choisi comme toi"
+          "value": "{percentValue}% partagent ton opinion"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% chose like you"
+          "value": "{percentValue}% share your opinion"
         },
         {
           "culture": "es-ES",
@@ -245,7 +245,7 @@
         },
         {
           "culture": "en-EN",
-          "value": "for men it's {percentValue}%"
+          "value": "{percentValue}% of men"
         },
         {
           "culture": "es-ES",
@@ -262,7 +262,7 @@
         },
         {
           "culture": "en-EN",
-          "value": "for women it's {percentValue}%"
+          "value": "{percentValue}% of women"
         },
         {
           "culture": "es-ES",
