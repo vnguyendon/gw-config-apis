@@ -22,7 +22,8 @@
           "Id": "IsaacNewton-SnowWhite-Sequence1",
           "Label": {
             "en": "I don’t know about Snow White, but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -31,14 +32,16 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "IsaacNewton-SnowWhite-Sequence3",
           "Label": {
             "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
-          }
+          },
+          "Delay": "2"
         }
       ]
     },
@@ -59,7 +62,8 @@
           "Id": "IsaacNewton-IsaacNewton-Sequence1",
           "Label": {
             "en": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Image",
@@ -68,22 +72,21 @@
             "Type": "Image",
             "Source": "External",
             "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
-          }
+          },
+          "Delay": "2"
         },
         {
           "Type": "Text",
           "Id": "IsaacNewton-IsaacNewton-Sequence3",
           "Label": {
             "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
-          }
+          },
+          "Delay": "2"
         }
       ]
     }
   ]
 }
-
-
-            
 
 
 
