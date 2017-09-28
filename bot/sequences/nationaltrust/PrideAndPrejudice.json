@@ -1,81 +1,84 @@
 {
-    "Type":"Question",
-    "Id": "PrideAndPrejudice",
-    "Label": {
-        "en": "Do you know which was the largest and most complicated shoot hosted by the National Trust?"
+  "Type": "Question",
+  "Id": "PrideAndPrejudice",
+  "Label": {
+    "en": "Do you know which was the largest and most complicated shoot hosted by the National Trust?"
+  },
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "PrideAndPrejudice-PandP",
+      "StepValue": "1",
+      "Label": {
+        "en": "Pride and Prejudice"
       },
-    "Commands": [
-      {
-        "Type" : "ShowSteps",
-        "Id" : "PrideAndPrejudice-PandP",
-        "StepValue" : "1",
-        "Label": {
-              "en": "Pride and Prejudice"
-        },
-        "Steps": [
-          {        
-          "Type":"Text",
+      "Steps": [
+        {
+          "Type": "Text",
           "Id": "PrideAndPrejudice-PandP-Sequence1",
           "Label": {
-              "en": "Right! In the Pride and Prejudice movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
-            }
+            "en": "Right! In the Pride and Prejudice movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
           },
-          {
+          "Delay": "2"
+        },
+        {
           "Type": "Image",
           "Id": "PrideAndPrejudice-PandP-Sequence2",
-          "Source": "External",
-          "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg"
-          },
-          {
-          "Type":"Text",
+          "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
+          "Delay": "2"
+        },
+        {
+          "Type": "Text",
           "Id": "PrideAndPrejudice-PandP-Sequence3",
           "Label": {
-              "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
-            }
-          }
-          {
+            "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
+          },
+          "Delay": "2"
+        },
+        {
           "Type": "Image",
           "Id": "PrideAndPrejudice-PandP-Sequence4",
-          "Source": "External",
-          "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg"
-          }
-        ]
+          "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
+          "Delay": "2"
+        }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "PrideAndPrejudice-GOT",
+      "StepValue": "0",
+      "Label": {
+        "en": "Game of Thrones"
       },
-      {
-        "Type":"ShowSteps",
-        "Id": "PrideAndPrejudice-GOT",
-        "StepValue" : "0",
-        "Label": {
-            "en": "Game of Thrones"
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "PrideAndPrejudice-GOT-Sequence1",
+          "Label": {
+            "en": "No, it was Pride and Prejudice! In this movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
           },
-          "Steps": [
-            {        
-            "Type":"Text",
-            "Id": "PrideAndPrejudice-GOT-Sequence1",
-            "Label": {
-                "en": "No, it was Pride and Prejudice! In this movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
-              }
-            },
-            {
-            "Type": "Image",
-            "Id": "PrideAndPrejudice-GOT-Sequence2",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg"
-            },
-            {
-            "Type":"Text",
-            "Id": "PrideAndPrejudice-GOT-Sequence3",
-            "Label": {
-                "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
-              }
-            }
-            {
-            "Type": "Image",
-            "Id": "PrideAndPrejudice-GOT-Sequence4",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg"
-            }
-          ]
+          "Delay": "2"
+        },
+        {
+          "Type": "Image",
+          "Id": "PrideAndPrejudice-GOT-Sequence2",
+          "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
+          "Delay": "2"
+        },
+        {
+          "Type": "Text",
+          "Id": "PrideAndPrejudice-GOT-Sequence3",
+          "Label": {
+            "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "PrideAndPrejudice-GOT-Sequence4",
+          "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
+          "Delay": "2"
         }
       ]
     }
+  ]
+}
