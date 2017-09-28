@@ -24,7 +24,6 @@
         {
           "Type": "Image",
           "Id": "AliceInWonderland-Yes-Sequence2",
-          "Source": "External",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
           "Delay": "2"
         },
@@ -39,7 +38,6 @@
         {
           "Type": "Image",
           "Id": "AliceInWonderland-Yes-Sequence4",
-          "Source": "External",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
           "Delay": "2"
         }
@@ -64,7 +62,6 @@
         {
           "Type": "Image",
           "Id": "AliceInWonderland-No-Sequence2",
-          "Source": "External",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
           "Delay": "2"
         },
@@ -79,7 +76,6 @@
             {
           "Type": "Image",
           "Id": "AliceInWonderland-No-Sequence4",
-          "Source": "External",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
           "Delay": "2"
         }
@@ -87,4 +83,3 @@
     }
   ]
 }
-
