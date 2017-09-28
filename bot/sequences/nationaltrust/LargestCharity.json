@@ -1,45 +1,49 @@
 {
-    "Type":"Question",
-    "Id": "LargestCharityUK",
-    "Comments":"first National Trust Sequence",
-    "Label": {
-        "en": "Do you know which is the largest charity in the UK?"
+  "Type": "Question",
+  "Id": "LargestCharityUK",
+  "Comments": "first National Trust Sequence",
+  "Label": {
+    "en": "Do you know which is the largest charity in the UK?"
+  },
+  "OptionalFeedback": {
+    "Type": "Picture",
+    "Source": "External",
+    "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
+  },
+  "Commands": [
+    {
+      "Type": "DoNothing",
+      "Id": "YesIKnow",
+      "StepValue": "1",
+      "Label": {
+        "en": "yes"
       },
-    "OptionalFeedback": {
-        "Type": "Picture",
-        "Source": "External",
-        "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
-    },
-    "Commands": [
-      {
-        "Type" : "DoNothing",
-        "Id" : "YesIKnow",
-        "StepValue" : "1",
-        "Label": {
-              "en": "yes"
-        },
-        "LinksTo" : {
-          "Type":"DoNothing",
+      "Steps": [
+        {
+          "Type": "Text",
           "Id": "LargestCharityUK-YesIknow",
           "Label": {
-              "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
-            },
-        },
-      }
-      {
-        "Type":"DoNothing",
-        "Id": "NoIDontKnow",
-        "StepValue" : "0",
-        "Label": {
-            "en": "no"
-          },
-          "LinksTo" : {
-            "Type":"DoNothing",
-            "Id": "LargestCharityUK-NoIDontKnow",
-            "Label": {
-                "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
-            }
+            "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          }
         }
-      }
-    ]
-  }
+      ]
+    },
+    {
+      "Type": "DoNothing",
+      "Id": "NoIDontKnow",
+      "StepValue": "0",
+      "Label": {
+        "en": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "LargestCharityUK-NoIDontKnow",
+          "Label": {
+            "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          }
+        }
+      ]
+    }
+  ]
+}
