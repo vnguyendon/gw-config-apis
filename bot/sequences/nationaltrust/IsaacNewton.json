@@ -4,6 +4,7 @@
   "Label": {
     "en": "When I say \"apple 🍎\", you think of"
   },
+  "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
