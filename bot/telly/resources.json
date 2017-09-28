@@ -232,7 +232,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "el {percentValue}% han votado como tu"
+          "value": "el {percentValue}% han votado como tú"
         }
       ]
     },
@@ -301,7 +301,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "menos de 40 años : {percentValue}%"
+          "value": "menores de 40 años : {percentValue}%"
         }
       ]
     },
@@ -319,7 +319,7 @@
         },
         {
           "culture": "es-ES",
-          "value": "40 años o más : {percentValue}%"
+          "value": "mayores de 40 años : {percentValue}%"
         }
       ]
     }
