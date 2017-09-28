@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "SpendTheWEAloneOrWithFriends",
+  "Label":
+    {
+      "en": "You prefer to spend the weekend",
+      "fr": "Tu préfères passer un week-end",
+      "es": "Prefieres pasar el fin de semana"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "SpendtheWEAlone",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "QOMIDxwVWZHWM"
+          },
+          "Label":{
+            "en": "alone",
+            "fr": "seul",
+            "es": "solo"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "SpendtheWEwithFriends",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ld1RKulOqeeaI"
+          },
+          "Label":{
+            "en": "with friends",
+            "fr": "avec des amis",
+            "es": "con amigos"
+          }
+        }
+      ]
+}
+

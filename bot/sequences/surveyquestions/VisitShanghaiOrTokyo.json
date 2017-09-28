@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "VisitShanghaiOrTokyo",
+  "Label":
+    {
+      "en": "Would you rather visit",
+      "fr": "Tu préférerais visiter",
+      "es": "Preferirías visitar"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "VisitShanghai",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "SqIdcSRleMsr6"
+          },
+          "Label":{
+            "en": "Shanghai",
+            "fr": "Shanghai",
+            "es": "Shangai"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "VisitTokyo",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "EC4MEVe5e1E4M"
+          },
+          "Label":{
+            "en": "Tokyo",
+            "fr": "Tokyo",
+            "es": "Tokyo"
+          }
+        }
+      ]
+}
+

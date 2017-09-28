@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "OlympicsOrFootballWorldCup",
+  "Label":
+    {
+      "en": "You prefer to watch the",
+      "fr": "Tu préfères regarder",
+      "es": "Prefieres ver"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferOlympics",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "wjXtAL0Z3Ef3W"
+          },
+          "Label":{
+            "en": "Olympics",
+            "fr": "les Jeux Olympiques",
+            "es": "los Juegos Olímpicos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferFootballWorldCup",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "mGoPr61k51BCM"
+          },
+          "Label":{
+            "en": "Football World Cup",
+            "fr": "le mondial de football",
+            "es": "el mundial de futbol"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "EarlybirdOrNightowl",
+  "Label":
+    {
+      "en": "You are more",
+      "fr": "Tu es plutôt",
+      "es": "Eres"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Earlybird",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "10dCIPYMl12OAw"
+          },
+          "Label":{
+            "en": "an early bird",
+            "fr": "un lève-tôt",
+            "es": "un madrugador"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Nightowl",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "BVjD1qNnEMOk0"
+          },
+          "Label":{
+            "en": "a night owl",
+            "fr": "un couche-tard",
+            "es": "un noctámbulo"
+          }
+        }
+      ]
+}
+

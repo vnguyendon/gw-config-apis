@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HeardOfTheWorldBankYesNo",
+  "Label":
+    {
+      "en": "Have you ever heard of the World Bank?",
+      "fr": "As-tu déjà entendu parler de la Banque Mondiale ?",
+      "es": "¿Ya oíste del Banco Mundial?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHeardOfTheWorldBank",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "4GRj3pwoAJSwg"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoHaventHeardOfTheWorldBank",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "XQKBuQmfjt1xm"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+
