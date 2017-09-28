@@ -4,7 +4,7 @@
   "Label": {
     "en": "Do you want to know what people of your generation think? I need to know where your age!",
     "fr": "Veux-tu savoir ce que pensent les gens de ta génération? J'ai besoin de savoir ton age !",
-    "es": "¿Quieres saber lo que piensa la gente XXX? ¡Necesito saber XXX!"
+    "es": "¿Quieres saber lo que piensa la gente de tu generación? ¡Necesito saber cuantos años tienes!"
   },
   "Randomize": "true",
   "Channels":["facebook"],
