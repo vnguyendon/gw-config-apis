@@ -2,7 +2,7 @@
     "Type":"Question",
     "Id": "FarneIslands",
     "Label": {
-        "en": "In your opinion, what is a puffin's life span in the wild? 🐧"
+        "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
       },
     "OptionalPrompt":{
       "Type": "Image",
