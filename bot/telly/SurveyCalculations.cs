@@ -1,8 +1,11 @@
+using System;
+using Gw.Bot.Sequences.Actions
+
 public class SurveyShowConditions : ISurveyShowConditions
 {
     private int deltaPercent = 8;
     private int minVotes = 20;
-
+    public string DebugVisualInfo { get; } = " *";
     public bool IsDebugModeActivated { get; } = true;
     public bool ShowPercentAgeRange(CounterValues ageRangeCounter, CounterValues globalCounter)
     {
