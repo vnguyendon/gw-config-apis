@@ -1,56 +1,59 @@
-
 {
-    "Type":"Question",
-    "Id": "JudeLaw",
-    "Label": {
-        "en": "This gorgeous place is Cliveden House. The house in itself is now a luxury hotel, but the gardens and woodlands are opened for visits 🌹🌲 It is also the favourite National Trust location of..."
+  "Type": "Question",
+  "Id": "JudeLaw",
+  "Label": {
+    "en": "This gorgeous place is Cliveden House. The house in itself is now a luxury hotel, but the gardens and woodlands are opened for visits 🌹🌲 It is also the favourite National Trust location of..."
+  },
+  "OptionalPrompt": {
+    "Type": "Image",
+    "Source": "External",
+    "Path": "https://img11.hostingpics.net/pics/418314ClivedenHouse1SMALL.jpg"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "JudeLaw-HughLaurie",
+      "StepValue": "1",
+      "Label": {
+        "en": "Hugh Laurie"
       },
-    "OptionalFeedback":{
-        "Type":"Image",
-        "Source":"External",
-        "Path":"https://img11.hostingpics.net/pics/418314ClivedenHouse1SMALL.jpg"
-    },
-    "Commands": [
-      {
-        "Type" : "DoNothing",
-        "Id" : "JudeLaw-HughLaurie",
-        "StepValue" : "1",
-        "Label": {
-              "en": "Hugh Laurie"
-        },
-        "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/415981HughLaurie.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "JudeLaw-HughLaurie-Sequence1",
-                  "Label": {
-                      "en": "Maybe Hugh Laurie likes Cliveden House too, but I can assure you it is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
-                    }
-                }
-        }
-        ,
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/415981HughLaurie.jpg"
+      },
+      "Steps": [
         {
-        "Type":"DoNothing",
-        "Id": "JudeLaw-JudeLaw",
-        "StepValue" : "0",
-        "Label": {
-            "en": "Jude Law"
+          "Type": "DoNothing",
+          "Id": "JudeLaw-HughLaurie-Sequence1",
+          "Label": {
+            "en": "Maybe Hugh Laurie likes Cliveden House too, but I can assure you it is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
           },
-          "ChoiceImage" : {
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/596162JudeLaw.jpg"
-            },
-              "LinksTo" : {
-                  "Type":"DoNothing",
-                  "Id": "JudeLaw-JudeLaw-Sequence1",
-                  "Label": {
-                      "en": "Exactly! It is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
-                    }
-                  }
-          }
-    ]
-  }
-
-
+          "Delay": "2"
+        }
+      ]
+    },
+    {
+      "Type": "ShowSteps",
+      "Id": "JudeLaw-JudeLaw",
+      "StepValue": "0",
+      "Label": {
+        "en": "Jude Law"
+      },
+      "ChoiceImage": {
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/596162JudeLaw.jpg"
+      },
+      "Steps": [
+        {
+          "Type": "DoNothing",
+          "Id": "JudeLaw-JudeLaw-Sequence1",
+          "Label": {
+            "en": "Exactly! It is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
+          },
+          "Delay": "2"
+        }
+      ]
+    }
+  ]
+}
