@@ -1,11 +1,11 @@
 {
     "Type":"Question",
-    "Id": "DoYouKnowLargestCharityUK",
+    "Id": "LargestCharityUK",
     "Comments":"first National Trust Sequence",
     "Label": {
         "en": "Do you know which is the largest charity in the UK?"
       },
-    "OptionalPrompt": {
+    "Optionalfeedback": {
         "Type": "Picture",
         "Source": "External",
         "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
@@ -20,8 +20,7 @@
         },
         "LinksTo" : {
           "Type":"DoNothing",
-          "Id": "ItistheNationalTrust",
-          "Comments":"show the answer",
+          "Id": "LargestCharityUK-YesIknow",
           "Label": {
               "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
             },
@@ -36,8 +35,7 @@
           },
           "LinksTo" : {
             "Type":"DoNothing",
-            "Id": "ItistheNationalTrust",
-            "Comments":"show the answer",
+            "Id": "LargestCharityUK-NoIDontKnow",
             "Label": {
                 "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
             }
