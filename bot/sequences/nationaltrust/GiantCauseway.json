@@ -24,11 +24,7 @@
         {
           "Type": "Image",
           "Id": "GiantsCausewaySequenceYes2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -40,13 +36,9 @@
           "Delay": "2"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "GiantsCausewaySequenceYes4",
-          "Source": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "26BRzQS5HXcEWM7du"
-          },
+          "Path": "26BRzQS5HXcEWM7du",
           "Delay": "2"
         },
         {
@@ -60,11 +52,7 @@
         {
           "Type": "Image",
           "Id": "GiantsCausewaySequenceYes6",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg",
           "Delay": "2"
         }
       ]
@@ -87,11 +75,7 @@
         {
           "Type": "Image",
           "Id": "GiantsCausewaySequenceNo2",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg",
           "Delay": "2"
         },
         {
@@ -103,13 +87,9 @@
           "Delay": "2"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "GiantsCausewaySequenceNo4",
-          "Source": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "26BRzQS5HXcEWM7du"
-          },
+          "Path": "26BRzQS5HXcEWM7du",
           "Delay": "2"
         },
         {
@@ -123,11 +103,7 @@
         {
           "Type": "Image",
           "Id": "GiantsCausewaySequenceNo6",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg",
           "Delay": "2"
         }
       ]
