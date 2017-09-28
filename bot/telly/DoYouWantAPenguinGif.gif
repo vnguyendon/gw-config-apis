@@ -1,0 +1,66 @@
+{
+  "Type": "Question",
+  "Id": "DoYouWantAPenguinGif",
+  "Label":
+    {
+      "en": "Can I show you my funniest penguin gif?",
+      "fr": "Je peux te montrer mon meilleur gif de pingouin ?",
+      "es": "¿Puedo mostrarte mi gif de pingüino lo más divertido?"
+    },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "FunnyPenguinYes",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "11StaZ9Lj74oCY",
+          "AdditionalLabels": [{
+            "en":";)",
+            "fr":";)",
+            "es":";)"
+             }]
+      },
+      "Label":
+        {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Sí"
+        }
+    },
+    {
+      "Type": "Survey",
+      "Id": "FunnyPenguinNo",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "yMNNk7LgImRws"
+      },
+      "Label":
+        {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        }
+    },
+    {
+      "Type": "Survey",
+      "Id": "IPreferKittens",
+      "StepValue" : "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "VxbvpfaTTo3le"
+      },
+      "Label":
+        {
+          "en": "I prefer kittens",
+          "fr": "Plutôt un chaton",
+          "es": "Preferio gatitos"
+        }
+    }
+  ]
+}
