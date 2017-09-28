@@ -6,7 +6,6 @@
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Source": "Internal",
     "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
   },
   "Randomize": "true",
@@ -30,11 +29,7 @@
         {
           "Type": "Image",
           "Id": "FarneIslands-10yo-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "Internal",
-            "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg"
-          },
+          "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg",
           "Delay": "2"
         },
         {
@@ -48,11 +43,7 @@
         {
           "Type": "Image",
           "Id": "FarneIslands-10yo-Sequence4",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg",
           "Delay": "2"
         }
       ]
@@ -76,11 +67,7 @@
         {
           "Type": "Image",
           "Id": "FarneIslands-20yo-Sequence2",
-          "Source": {
-            "Type": "Image",
-            "Source": "Internal",
-            "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg"
-          },
+          "Path": "/themes/pairs/small/iStock_000010603333_Medium.jpg",
           "Delay": "2"
         },
         {
@@ -94,11 +81,7 @@
         {
           "Type": "Image",
           "Id": "FarneIslands-20yo-Sequence4",
-          "Source": {
-            "Type": "Image",
-            "Source": "External",
-            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
-          },
+          "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg",
           "Delay": "2"
         }
       ]
