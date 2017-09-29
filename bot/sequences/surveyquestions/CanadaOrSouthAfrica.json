@@ -19,9 +19,9 @@
           "Id": "VisitCanada",
           "StepValue" : "1",
           "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "GE4sJ1tUg4YCY"
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/644542pexelsphoto219972.jpg"
           },
           "Label":{
             "en": "Canada",
@@ -37,7 +37,7 @@
           "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "NIdvqjqSf2COI"
+            "Path": "d4P2sajkRJeM"
           },
           "Label":{
             "en": "South Africa",
