@@ -4,9 +4,9 @@
   "Id": "DoYouBelieveInAliens",
   "Label":
     {
-      "en": "Do you believe in aliens? 👽",
-      "fr": "Tu crois aux extraterrestres ? 👽",
-      "es": "¿Crees en extraterrestres? 👽"
+      "en": "Do you think there is life on another planet? 👽",
+      "fr": "Tu crois qu'il y a de la vie sur une autre planète ? 👽",
+      "es": "¿Crees que hay vida en otra planeta? 👽"
     }
   ,
   "Randomize": "true",
