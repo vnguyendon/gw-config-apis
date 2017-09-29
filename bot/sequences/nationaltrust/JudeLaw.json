@@ -22,7 +22,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "JudeLaw-HughLaurie-Sequence1",
           "Label": {
             "en": "Maybe Hugh Laurie likes Cliveden House too, but I can assure you it is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
@@ -43,7 +43,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "JudeLaw-JudeLaw-Sequence1",
           "Label": {
             "en": "Exactly! It is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
