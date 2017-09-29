@@ -2,7 +2,6 @@
   {
     "GroupName":"Start",
     "SequenceFiles" : [
-      { "order" : 10, "file":"/bot/telly/DoYouWantAPenguinGif.json"},
       { "order" : 20, "file":"/bot/sequences/surveyquestions/CatsOrDogsV2.json"},
       { "order" : 30, "file":"/bot/telly/AreYouOftenLateSurvey.json"},
       
