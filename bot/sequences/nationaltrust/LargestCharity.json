@@ -6,7 +6,7 @@
     "en": "Do you know which is the largest charity in the UK?"
   },
   "OptionalPrompt": {
-    "Type": "Picture",
+    "Type": "Image",
     "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
   },
