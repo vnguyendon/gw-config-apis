@@ -1,6 +1,6 @@
 [
   {
-    "GroupName": "UserProperties",
+    "GroupName": "Visible-All",
     "SequenceFiles": [
       { "order" : 10, "file": "/bot/sequences/v2/WouldLikePsychoProfile.json"},
       { "order" : 20, "file":"/bot/sequences/v2/ppEnergeticAfter.json"},
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "GroupName": "NotCategorized",
+    "GroupName": "Visible-All",
     "SequenceFiles": [
       { "order" : 10, "file":"/bot/sequences/v2/FirstTimeBot.json"},
       { "order" : 10, "file":"/bot/sequences/v2/WhatLikeSending.json"},
@@ -34,7 +34,7 @@
     ]
   },
   {
-    "GroupName": "UK-only",
+    "GroupName": "Visible-UK",
     "SequenceFiles": [
       { "order" : 10, "file":"/bot/sequences/nationaltrust/LargestCharity.json"},
       { "order" : 20, "file":"/bot/sequences/nationaltrust/AliceInWonderland.json"},
