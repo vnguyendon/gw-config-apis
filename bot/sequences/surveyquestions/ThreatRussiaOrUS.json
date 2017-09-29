@@ -19,9 +19,9 @@
           "Id": "ThreatIsRussia",
           "StepValue" : "1",
           "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "HHchv8KrJvtzq"
+            "Type": "Image",
+            "Source": "Internal",
+            "Path": "/specialoccasions/stop-the-world/default/small/winter-landscape-000028450860_Medium.jpg"
           },
           "Label":{
             "en": "Russia",
