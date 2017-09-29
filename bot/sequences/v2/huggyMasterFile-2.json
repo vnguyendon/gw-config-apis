@@ -1,0 +1,56 @@
+[
+  {
+    "GroupName": "UserProperties",
+    "SequenceFiles": [
+      { "order" : 10, "file": "/bot/sequences/v2/WouldLikePsychoProfile.json"},
+      { "order" : 20, "file":"/bot/sequences/v2/ppEnergeticAfter.json"},
+      { "order" : 30, "file":"/bot/sequences/v2/ppReceptiveTo.json"},
+      { "order" : 40, "file":"/bot/sequences/v2/ppDecisionsAriseFrom.json"},
+      { "order" : 50, "file":"/bot/sequences/v2/ppOpenedOrSettled.json"},
+    ]
+  },
+  {
+    "GroupName": "NotCategorized",
+    "SequenceFiles": [
+      { "order" : 10, "file":"/bot/sequences/v2/FirstTimeBot.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/WhatLikeSending.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ShowAnAdvert.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/WantMessageSuggestions.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/CreateAnimatedEmoji.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/HaveYouRegrets.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/IsOftenLate.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/LateBirthday.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/RealBot.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/AreYouSingle.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/Age.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/RateUs.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/PleaseTalkToMe.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppAlmostNeverLate.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppImportantQuality.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppJusticeOverPity.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppPreferBooksToParties.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppPreferGoals.json"},
+      { "order" : 10, "file":"/bot/sequences/v2/ppSocialInteraction.json"}
+    ]
+  },
+  {
+    "GroupName": "UK-only",
+    "SequenceFiles": [
+      { "order" : 10, "file":"/bot/sequences/nationaltrust/LargestCharity.json"},
+      { "order" : 20, "file":"/bot/sequences/nationaltrust/AliceInWonderland.json"},
+      { "order" : 30, "file":"/bot/sequences/nationaltrust/JudeLaw.json"},
+      { "order" : 40, "file":"/bot/sequences/nationaltrust/BeatrixPotter.json"},
+      { "order" : 50, "file":"/bot/sequences/nationaltrust/PrideAndPrejudice.json"},
+      { "order" : 60, "file":"/bot/sequences/nationaltrust/IsaacNewton.json"},
+      { "order" : 70, "file":"/bot/sequences/nationaltrust/NationalTrustBand.json"},
+      { "order" : 80, "file":"/bot/sequences/nationaltrust/JohnLennon.json"},
+      { "order" : 90, "file":"/bot/sequences/nationaltrust/Stourhead.json"},
+      { "order" : 100, "file":"/bot/sequences/nationaltrust/NymansGardens.json"},
+      { "order" : 110, "file":"/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"},
+      { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"},
+      { "order" : 130, "file":"/bot/sequences/nationaltrust/FarneIslands.json"}
+    ]
+  }
+]
+
+
