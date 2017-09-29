@@ -18,7 +18,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "AnswerAMusicBand",
           "Label": {
             "en": "A music band! They are from Chicago and play soul music 😉 "
@@ -39,7 +39,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "AnswerAMusicBand",
           "Label": {
             "en": "A music band! They are from Chicago and play soul music 😉 "
