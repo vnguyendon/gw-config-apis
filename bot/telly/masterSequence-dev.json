@@ -2,8 +2,8 @@
   {
     "GroupName":"Start",
     "SequenceFiles" : [
+      { "order" : 10, "file": "/bot/sequences/v2/Age.json"},
       { "order" : 20, "file":"/bot/sequences/surveyquestions/CatsOrDogsV2.json"},
-      { "order" : 70, "file": "/bot/sequences/v2/Age.json"},
       { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"}
       
     ]
@@ -20,7 +20,6 @@
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
