@@ -1,19 +1,18 @@
-
 [
   {
-    "GroupName":"UserProperties",
-    "SequenceFiles" : [
+    "GroupName": "UserProperties",
+    "SequenceFiles": [
       "/bot/sequences/v2/WouldLikePsychoProfile.json",
       "/bot/sequences/v2/ppEnergeticAfter.json",
       "/bot/sequences/v2/ppReceptiveTo.json",
       "/bot/sequences/v2/ppDecisionsAriseFrom.json",
       "/bot/sequences/v2/ppOpenedOrSettled.json",
       "/bot/sequences/v2/ppRevealed.json"
-      ]
+    ]
   },
   {
-    "GroupName":"NotCategorized",
-    "SequenceFiles" : [
+    "GroupName": "NotCategorized",
+    "SequenceFiles": [
       "/bot/sequences/v2/FirstTimeBot.json",
       "/bot/sequences/v2/WhatLikeSending.json",
       "/bot/sequences/v2/ShowAnAdvert.json",
@@ -33,6 +32,24 @@
       "/bot/sequences/v2/ppPreferBooksToParties.json",
       "/bot/sequences/v2/ppPreferGoals.json",
       "/bot/sequences/v2/ppSocialInteraction.json"
-      ]
+    ]
+  },
+  {
+    "GroupName": "UK-only",
+    "SequenceFiles": [
+      "/bot/sequences/nationaltrust/LargestCharity.json",
+      "/bot/sequences/nationaltrust/AliceInWonderland.json",
+      "/bot/sequences/nationaltrust/JudeLaw.json",
+      "/bot/sequences/nationaltrust/BeatrixPotter.json",
+      "/bot/sequences/nationaltrust/PrideAndPrejudice.json",
+      "/bot/sequences/nationaltrust/IsaacNewton.json",
+      "/bot/sequences/nationaltrust/NationalTrustBand.json",
+      "/bot/sequences/nationaltrust/JohnLennon.json",
+      "/bot/sequences/nationaltrust/Stourhead.json",
+      "/bot/sequences/nationaltrust/NymansGardens.json",
+      "/bot/sequences/nationaltrust/WhiteCliffsOfDover.json",
+      "/bot/sequences/nationaltrust/GiantCauseway.json",
+      "/bot/sequences/nationaltrust/FarneIslands.json"
+    ]
   }
 ]
