@@ -1,0 +1,73 @@
+{
+  "Type": "Question",
+  "Id": "CatsOrDogs",
+  "Label": {
+    "en": "Are you more",
+    "fr": "Est-ce que tu préfères",
+    "es": "Te gustan mas"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "PreferCats",
+      "StepValue": "1",
+      "Label": {
+        "en": "a cat person 🐱",
+        "fr": "les chats 🐱",
+        "es": "los gatos 🐱"
+      },
+      "LinksTo": {
+        "Type": "Question",
+        "Id": "CatsOrDogs-PreferCats-Gif",
+        "Label": {
+          "en": "Would you like me to show cute kittens?",
+          "fr": "Veux-tu que je te montre des chatons trop mignons ?",
+          "es": "¿Puedo mostrarte gatitos bonitos?"
+        },
+        "Commands": [
+          {
+            "Type": "Survey",
+            "Id": "CatsOrDogs-PreferCats-Gif-Yes",
+            "StepValue": "1",
+            "Label": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "LKRtMj7xvviUg"
+            }
+          },
+          {
+            "Type": "Survey",
+            "Id": "CatsOrDogs-PreferCats-Gif-No",
+            "StepValue": "0",
+            "Label": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "PreferDogs",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "fegzospsGS6Os"
+      },
+      "Label": {
+        "en": "a dog person 🐶",
+        "fr": "les chiens 🐶",
+        "es": "los perros 🐶"
+      }
+    }
+  ]
+}
