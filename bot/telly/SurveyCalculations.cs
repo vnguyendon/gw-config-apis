@@ -5,7 +5,7 @@ public class SurveyShowConditions : ISurveyShowConditions
 {
     private int deltaPercent = 3;
     private int minVotes = 20;
-    public string DebugVisualInfo { get; } = " *";
+    public string DebugVisualInfo { get; } = "   ";
     public bool IsDebugModeActivated { get; } = true;
     public bool ShowPercentAgeRange(CounterValues ageRangeCounter, CounterValues globalCounter)
     {
