@@ -1,0 +1,75 @@
+{
+    "Type":"Question",
+    "Id": "AreYouOftenLate",
+    "Comments":"ask people if they use to be late",
+    "Label": {
+        "en": "Are you often late?",
+        "fr": "Es-tu souvent en retard?",
+        "es": "¿Estás a menudo tarde?"
+      },
+    "Commands": [
+      {
+        "Type" : "Survey",
+        "Id" : "OftenLate",
+        "StepValue" : "1",
+        "Label": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Si"
+        },
+        "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "V2MJADdC027gk"
+        },
+        "LinksTo" : {
+          "Type":"Question",
+          "Id": "CanISuggestOftenLateMessages",
+          "Comments":"if yes, then we can show suggestion messages for excuses!",
+          "Label": {
+              "en": "Can I suggest you messages to send when you're late?",
+              "fr": "Est-ce que je peux te suggérer des messages à envoyer, en cas de retard?",
+              "es": "¿Puedo sugerirte mensajes para enviar cuando llegues tarde?"
+            },
+          "Commands": [
+            {
+              "Type":"Survey",
+              "Id": "OftenLateMessageYes",
+              "StepValue" : "1",
+              "Label": {
+                  "en": "Yes",
+                  "fr": "Oui",
+                  "es": "Si"
+              },
+              "LinksTo": {}
+            },
+            {
+              "Type" : "DoNothing",
+              "Id": "OftenLateMessageNo",
+              "StepValue" : "0",
+              "Label": {
+                  "en": "No",
+                  "fr": "Non",
+                  "es": "No"
+                }
+            }
+          ]
+        }
+      },
+      {
+        "Type":"DoNothing",
+        "Id": "NotOftenLate",
+        "StepValue" : "0",
+        "Label": {
+            "en": "No",
+            "fr": "Non",
+            "es": "No"
+          },
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "K8Ec9kPOCwRSU"
+        }
+      }
+    ]
+  }
