@@ -39,7 +39,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "JohnLennon-DavidBowie-Sequence1",
           "Label": {
             "en": "The right answer was John Lennon! 🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
