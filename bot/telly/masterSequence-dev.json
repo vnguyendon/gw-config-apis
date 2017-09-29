@@ -3,8 +3,9 @@
     "GroupName":"Start",
     "SequenceFiles" : [
       { "order" : 20, "file":"/bot/sequences/surveyquestions/CatsOrDogsV2.json"},
-      { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"},
-      { "order" : 70, "file": "/bot/sequences/v2/Age.json"}
+      { "order" : 70, "file": "/bot/sequences/v2/Age.json"},
+      { "order" : 60, "file": "/bot/sequences/v2/Setlocation.json"}
+      
     ]
   },
   {
