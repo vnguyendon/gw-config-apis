@@ -17,9 +17,9 @@
           "Id": "LiveinJapan",
           "StepValue" : "1",
           "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "xTiTndRhkTeDSUEgak"
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/602380pexelsphoto259772.jpg"
           },
           "Label":{
             "en": "Japan",
