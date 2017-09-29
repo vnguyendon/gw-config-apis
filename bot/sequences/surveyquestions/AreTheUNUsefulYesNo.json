@@ -16,9 +16,9 @@
           "Id": "YesUNUseful",
           "StepValue" : "1",
           "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "l2R0eYcNq9rJUsVAA"
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/832457unitednationsflags.jpg"
           },
           "Label":{
             "en": "yes",
@@ -34,7 +34,7 @@
           "OptionalFeedback": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
-            "Path": "z5WtAAaFpnIgU"
+            "Path": "7cUC5Q0OJogRq"
           },
           "Label":{
             "en": "no",
