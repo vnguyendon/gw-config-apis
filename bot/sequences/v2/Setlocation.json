@@ -4,8 +4,8 @@
   "Type": "Question",
   "Id": "LocationUsers",
   "Label": {
-    "en": "Do you want to know what people think in your country? I need to know where you live!",
-    "fr": "Veux-tu savoir ce que pensent les habitants de ton pays ? J'ai besoin de savoir où tu habites !",
+    "en": "Are you curious to know how people feel in your country? I need to know in which country you live!",
+    "fr": "Veux-tu savoir ce que pensent les gens qui habitent ton pays? J'ai besoin de connaître le pays où tu habites !",
     "es": "¿Quieres saber lo que piensa la gente de tu pais? ¡Necesito saber donde vives!"
   },
   "Randomize": "true",
