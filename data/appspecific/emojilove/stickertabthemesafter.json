@@ -1,0 +1,31 @@
+{
+  "Themes": [
+    {
+      "Path": "themes/horses",
+      "DefaultImage": "themes/horses/small/shutterstock_173706239.jpg",
+      "Labels": {
+        "fr": "Chevaux",
+        "en": "Horses",
+        "es": "Caballos"
+      }
+    },
+    {
+      "Path": "themes/animals",
+      "DefaultImage": "themes/animals/small/iStock_000015359145_Large.jpg",
+      "Labels": {
+        "fr": "Animaux",
+        "en": "Animals",
+        "es": "Animales"
+      }
+    },
+    {
+      "Path": "themes/strange",
+      "DefaultImage": "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+      "Labels": {
+        "fr": "Etrange",
+        "en": "Weird",
+        "es": "Extraño"
+      }
+    }
+  ]
+}
