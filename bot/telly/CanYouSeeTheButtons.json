@@ -3,8 +3,8 @@
     "Id": "CanYouSeeTheButtons",
     "Comments":"first question after welcome message",
     "Label": {
-        "en": "Can you see the two buttons at the bottom of the screen? I love it when people choose Yes!",
-        "fr": "Vois-tu les deux boutons en bas de l'écran ? J'adooore quand les gens choisissent Oui !",
+        "en": "Can you see the two buttons at the bottom of the screen?\n Please pick one :)",
+        "fr": "Vois-tu les deux boutons en bas de l'écran ? \n Merci d'en choisir un :)",
         "es": "¿Puedes ver los botones en la parte inferior?"
       },
     "Commands": [
@@ -27,8 +27,8 @@
           "Id": "SeeTheButtonsYesThenStart",
           "Comments":"if yes, then we can show a nice message and invite to start!",
           "Label": {
-              "en": "Great! \n\nI love discovering what people think about life. \nShall we start with the first question!",
-              "fr": "Génial! \n\n J'adore découvrir de ce que les gens pensent de la vie. \n C'est parti pour la première question ?",
+              "en": "Cool! \n\nI love discovering what people think about life. \nReady for ths first question?",
+              "fr": "Super! \n\n J'adore découvrir de ce que les gens pensent de la vie. \n C'est parti pour la première question ?",
               "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en el buton por debajo para comenzar con la primera pregunta"
             },
           "Commands": [
