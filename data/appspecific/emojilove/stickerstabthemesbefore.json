@@ -1,0 +1,58 @@
+{
+  "Themes": [
+    {
+      "Path": "themes/emoticons",
+      "DefaultImage": "themes/emoticons/small/000075070105.jpg",
+      "Labels":
+        {
+        "fr":"Emoji",
+        "en":"Emoji",
+        "es":"Emoji"
+        }
+    },
+    {
+      "Path": "themes/kittens",
+      "DefaultImage": "themes/kittens/small/shutterstock_101654053.jpg",
+      "Labels": [
+        {
+        "fr":"Chatons",
+        "en":"Kittens",
+        "es":"Gatitos"
+        }
+      ]
+    },
+    {
+      "Path": "themes/puppies",
+      "DefaultImage": "themes/puppies/small/iStock_000038381312_Medium.jpg",
+      "Labels": [
+        {
+        "fr":"Chiens",
+        "en":"Puppies",
+        "es":"Cachorros"
+        }
+      ]
+    },
+    {
+      "Path": "themes/flowers",
+      "DefaultImage": "themes/flowers/small/shutterstock_127822121.jpg",
+      "Labels": [
+        {
+        "fr":"Fleurs",
+        "en":"Flowers",
+        "es":"Flores"
+        }
+      ]
+    },
+    {
+      "Path": "themes/nature",
+      "DefaultImage": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+      "Labels": [
+        {
+        "fr":"Nature",
+        "en":"Nature",
+        "es":"Naturaleza"
+        }
+      ]
+    }
+  ]
+}
