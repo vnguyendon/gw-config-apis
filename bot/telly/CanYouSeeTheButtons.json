@@ -27,7 +27,7 @@
           "Id": "SeeTheButtonsYesThenStart",
           "Comments":"if yes, then we can show a nice message and invite to start!",
           "Label": {
-              "en": "Cool! \n\nI love discovering what people think about life. \nReady for ths first question?",
+              "en": "Cool! \n\nI love discovering what people think about life. \nReady for the first question?",
               "fr": "Super! \n\n J'adore découvrir de ce que les gens pensent de la vie. \n C'est parti pour la première question ?",
               "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en el buton por debajo para comenzar con la primera pregunta"
             },
