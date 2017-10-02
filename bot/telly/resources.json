@@ -224,11 +224,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% d'entre elles pensent comme toi"
+          "value": "{percentValue}% ont choisi comme toi"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of them feel the same as you"
+          "value": "{percentValue}% chose like you"
         },
         {
           "culture": "es-ES",
