@@ -1,0 +1,28 @@
+{
+  "youtube_videos": [
+    {
+      "id": "Y8HOfcYWZoo",
+      "label": {
+        "en": "Céline Dion - The Power Of Love",
+        "fr": "Céline Dion - The Power Of Love",
+        "es": "Céline Dion - The Power Of Love"
+      }
+    },
+    {
+      "id": "3JWTaaS7LdU",
+      "label": {
+        "en": "Whitney Houston - I Will Always Love You",
+        "fr": "Whitney Houston - I Will Always Love You",
+        "es": "Whitney Houston - I Will Always Love You"
+      }
+    },
+    {
+      "id": "8xg3vE8Ie_E",
+      "label": {
+        "en": "Taylor Swift - Love Story",
+        "fr": "Taylor Swift - Love Story",
+        "es": "Taylor Swift - Love Story"
+      }
+    }
+  ]
+}
