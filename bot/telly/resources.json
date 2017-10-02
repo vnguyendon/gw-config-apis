@@ -105,11 +105,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "La langue de la conversation a bien été changée en Français"
+          "value": "D'accord. Parlons français !"
         },
         {
           "culture": "en-EN",
-          "value": "The language of the conversation has been changed to English"
+          "value": "Sure. Let's talk English!"
         },
         {
           "culture": "es-ES",
@@ -190,11 +190,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "Je suis désolé, j'ai des problèmes pour vous comprendre. Veuillez ré-essayer"
+          "value": "Bigre. Je n'arrive pas à comprendre :-("
         },
         {
           "culture": "en-EN",
-          "value": "I'm sorry, I'm having issues understanding you. Let's try again."
+          "value": "Oh no! I'm all confused!"
         },
         {
           "culture": "es-ES",
@@ -224,11 +224,11 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "{percentValue}% partagent ton opinion"
+          "value": "{percentValue}% d'entre elles pensent comme toi"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% share your opinion"
+          "value": "{percentValue}% of them feel the same as you"
         },
         {
           "culture": "es-ES",
@@ -241,15 +241,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "chez les hommes c'est {percentValue}%"
+          "value": "hommes : {percentValue}%"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of men"
+          "value": "men: {percentValue}%"
         },
         {
           "culture": "es-ES",
-          "value": "para los hombres es el {percentValue}%"
+          "value": "hombres: {percentValue}%"
         }
       ]
     },
@@ -258,15 +258,15 @@
       "labels": [
         {
           "culture": "fr-FR",
-          "value": "chez les femmes c'est {percentValue}%"
+          "value": "femmes : {percentValue}%"
         },
         {
           "culture": "en-EN",
-          "value": "{percentValue}% of women"
+          "value": "women: {percentValue}%"
         },
         {
           "culture": "es-ES",
-          "value": "para las mujeres es el {percentValue}%"
+          "value": "mujeres: {percentValue}%"
         }
       ]
     },
@@ -279,11 +279,11 @@
         },
         {
           "culture": "en-EN",
-          "value": "{country} : {percentValue}%"
+          "value": "{country}: {percentValue}%"
         },
         {
           "culture": "es-ES",
-          "value": "{country} : {percentValue}%"
+          "value": "{country}: {percentValue}%"
         }
       ]
     },
@@ -297,11 +297,11 @@
         },
         {
           "culture": "en-EN",
-          "value": "less than 40 years old : {percentValue}%"
+          "value": "younger people: {percentValue}%"
         },
         {
           "culture": "es-ES",
-          "value": "menores de 40 años : {percentValue}%"
+          "value": "menores de 40 años: {percentValue}%"
         }
       ]
     },
@@ -315,11 +315,11 @@
         },
         {
           "culture": "en-EN",
-          "value": "aged 40 and more: {percentValue}%"
+          "value": "people over 40: {percentValue}%"
         },
         {
           "culture": "es-ES",
-          "value": "mayores de 40 años : {percentValue}%"
+          "value": "mayores de 40 años: {percentValue}%"
         }
       ]
     }
