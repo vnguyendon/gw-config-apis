@@ -3,8 +3,8 @@
     "Id": "CanYouSeeTheButtons",
     "Comments":"first question after welcome message",
     "Label": {
-        "en": "Can you see the two buttons at the bottom of the screen?",
-        "fr": "Vois-tu les deux boutons en bas de l'écran ?",
+        "en": "Can you see the two buttons at the bottom of the screen? I love it when people choose Yes!",
+        "fr": "Vois-tu les deux boutons en bas de l'écran ? J'adooore quand les gens choisissent Oui !",
         "es": "¿Puedes ver los botones en la parte inferior?"
       },
     "Commands": [
@@ -27,8 +27,8 @@
           "Id": "SeeTheButtonsYesThenStart",
           "Comments":"if yes, then we can show a nice message and invite to start!",
           "Label": {
-              "en": "Great! \n\nI love discussing what people think about life. \nPlease click Continue to see the first question!",
-              "fr": "Génial! \n\n J'adore discuter de ce que les gens pensent de la vie. \n Clique stp sur Continuer pour voir la première question !",
+              "en": "Great! \n\nI love discovering what people think about life. \nShall we start with the first question!",
+              "fr": "Génial! \n\n J'adore découvrir de ce que les gens pensent de la vie. \n C'est parti pour la première question ?",
               "es": "¡Estupendo! \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic en el buton por debajo para comenzar con la primera pregunta"
             },
           "Commands": [
@@ -42,8 +42,8 @@
                     "Path": "ZeB5RzwVdzO8M"
                 },
               "Label": {
-                  "en": "Continue",
-                  "fr": "Démarrer",
+                  "en": "Yes",
+                  "fr": "Oui",
                   "es": "Comenzar"
               },
               "LinksTo": {}
@@ -70,8 +70,8 @@
           "Id": "SeeTheButtonsNoThenStart",
           "Comments":"if no, we still show a message and invite to start!",
           "Label": {
-              "en": "Are you sure ??? \n\nI love asking questions and I'm sure you'll love to play with me to see if you think like others! \nClick the button below to start with the first question",
-              "fr": "Tu es sur??? \n\n J'aime poser des questions et je suis sûr que tu vas adorer jouer avec moi pour voir si tu penses comme les autres! \n Cliques sur le bouton ci-dessous pour commencer avec la première question",
+              "en": "Haha :)\n\nYou look like fun! \n Only one button this time!",
+              "fr": "Haha :)\n\n Je sens que l'on va bien s'amuser! \n Un seul bouton cette fois-ci !",
               "es": "¡¿estas seguro??? \n\nMe encanta hacer preguntas y estoy seguro de que te encantará jugar conmigo para ver si piensas como los demás! \nHaga clic el buton por debajo para comenzar con la primera pregunta"
             },
           "Commands": [
