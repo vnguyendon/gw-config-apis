@@ -27,7 +27,7 @@
                 },
                 "Commands": [
                     {
-                        "Type": "Survey",
+                        "Type": "DoNothing",
                         "Id": "GWLikePenguins",
                         "StepValue": "0",
                         "Label": {
@@ -78,7 +78,7 @@
                         }
                     },
                     {
-                        "Type": "Survey",
+                        "Type": "DoNothing",
                         "Id": "GWDontLikePenguins",
                         "StepValue": "0",
                         "Label": {
