@@ -1,0 +1,78 @@
+{
+    "Type": "Question",
+    "Id": "GlobalWarming",
+    "Label": {
+        "en": "Is global warming an important issue?",
+        "fr": "Le réchauffement climatique est-il un problème important ?",
+        "es": "¿El cambio climático es un problema importante?"
+    },
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Survey",
+            "Id": "GWisImportant",
+            "StepValue": "1",
+            "Label": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "LinksTo": {
+                "Type": "Question",
+                "Id": "GlobalWarming-GWisImportant-Gif",
+                "Label": {
+                    "en": "You prefer penguins that are",
+                    "fr": "Tu préfères les pingouins",
+                    "es": "Prefieres pingüinos"
+                },
+                "Commands": [
+                    {
+                        "Type": "Survey",
+                        "Id": "GlobalWarming-GWisImportant-Gif-Funny",
+                        "StepValue": "0",
+                        "Label": {
+                            "en": "funny",
+                            "fr": "amusants",
+                            "es": "divertidos"
+                        },
+                        "OptionalFeedback": {
+                            "Type": "AnimatedGif",
+                            "Source": "Giphy",
+                            "Path": "ewHSMEx2TtEo8"
+                        }
+                    },
+                    {
+                        "Type": "Survey",
+                        "Id": "GlobalWarming-GWisImportant-Gif-Cute",
+                        "StepValue": "0",
+                        "Label": {
+                            "en": "cute",
+                            "fr": "mignons",
+                            "es": "bonitos"
+                        },
+                        "OptionalFeedback": {
+                            "Type": "AnimatedGif",
+                            "Source": "Giphy",
+                            "Path": "C0EYVrLCgnYdy"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Survey",
+            "Id": "GWisNotImportant",
+            "StepValue": "1",
+            "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "ewHSMEx2TtEo8"
+            },
+            "Label": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            }
+        }
+    ]
+}
