@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "YourCountryGoodExampleYesNo",
+  "Label":
+    {
+      "en": "Does your country set a good example for the rest of the world?",
+      "fr": "Ton pays est-il un bon exemple à suivre pour le reste du monde ?",
+      "es": "¿Tu país da un buen ejemplo para el resto del mundo?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesMyCountryGoodExample",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xuXzcHMkuwvf2"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoMyCountryNotGoodExample",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "uWPGqy4rkgllS"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

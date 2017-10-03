@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "ETSurveyOrSurveyPony",
+  "Label":
+    {
+      "en": "Which name do you prefer for a chatbot like me?",
+      "fr": "Quel nom donnerais-tu à chatbot comme moi ?",
+      "es": "¿Qué nombre prefieres para un chatbot como yo?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "ETSurvey",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "q0FsdbzsbwHVm"
+          },
+          "Label":{
+            "en": "E.T. Survey",
+            "fr": "E.T. Survey",
+            "es": "E.T. Survey"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "SurveyPony",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ADvu1RQij9dM4"
+          },
+          "Label":{
+            "en": "Survey Pony",
+            "fr": "Survey Pony",
+            "es": "Survey Pony"
+          }
+        }
+      ]
+}
+

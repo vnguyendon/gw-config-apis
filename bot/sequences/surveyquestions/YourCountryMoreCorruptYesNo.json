@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "YourCountryMoreCorruptYesNo",
+  "Label":
+    {
+      "en": "Is your country more corrupt than most other countries?",
+      "fr": "Ton pays est-il plus corrompu que les autres ?",
+      "es": "¿Tu país es más corrupto que los otros?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesMyCountryMoreCorrupt",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "14aUO0Mf7dWDXW"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoMyCountryNotMoreCorrupt",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "akbme2WYZCNLW"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

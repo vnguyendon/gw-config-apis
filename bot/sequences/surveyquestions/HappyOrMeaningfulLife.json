@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HappyOrMeaningfulLife",
+  "Label":
+    {
+      "en": "It is more important for life to be",
+      "fr": "C'est plus important que ta vie",
+      "es": "Es importante llevar una vida"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "HappyLife",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12WuqaMYhrEy8U"
+          },
+          "Label":{
+            "en": "happy",
+            "fr": "soit heureuse",
+            "es": "feliz"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MeaningfulLife",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "FJCzc8XyKv7eo"
+          },
+          "Label":{
+            "en": "meaningful",
+            "fr": "ait du sens",
+            "es": "con sentido"
+          }
+        }
+      ]
+}
+
