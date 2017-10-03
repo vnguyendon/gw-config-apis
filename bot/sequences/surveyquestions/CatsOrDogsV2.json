@@ -27,9 +27,9 @@
         },
         "Commands": [
           {
-            "Type": "Survey",
+            "Type": "DoNothing",
             "Id": "CatsOrDogsCatGifYes",
-            "StepValue": "1",
+            "StepValue": "0",
             "Label": {
               "en": "yes",
               "fr": "oui",
@@ -42,7 +42,7 @@
             }
           },
           {
-            "Type": "Survey",
+            "Type": "DoNothing",
             "Id": "CatsOrDogsCatGifNo",
             "StepValue": "0",
             "Label": {
