@@ -47,7 +47,7 @@
                                 {
                                     "Type": "Survey",
                                     "Id": "GWFunnyPenguins",
-                                    "StepValue": "0",
+                                    "StepValue": "1",
                                     "Label": {
                                         "en": "funny",
                                         "fr": "amusants",
@@ -62,7 +62,7 @@
                                 {
                                     "Type": "Survey",
                                     "Id": "GWCutePenguins",
-                                    "StepValue": "0",
+                                    "StepValue": "1",
                                     "Label": {
                                         "en": "cute",
                                         "fr": "mignons",
