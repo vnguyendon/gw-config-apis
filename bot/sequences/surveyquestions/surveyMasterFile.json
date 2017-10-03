@@ -129,7 +129,8 @@
       "/bot/sequences/surveyquestions/YourCountryGoodExampleYesNo.json",
       "/bot/sequences/surveyquestions/ETSurveyOrSurveyPony.json",
       "/bot/sequences/surveyquestions/GotobedBeforeOrAfter11pm.json",
-      "/bot/sequences/surveyquestions/HappyOrMeaningfulLife.json"
+      "/bot/sequences/surveyquestions/HappyOrMeaningfulLife.json",
+      "/bot/sequences/surveyquestions/JapanOrUSA.json"
       ]
   }
 ]
