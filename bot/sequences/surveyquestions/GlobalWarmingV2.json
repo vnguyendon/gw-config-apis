@@ -19,41 +19,77 @@
             },
             "LinksTo": {
                 "Type": "Question",
-                "Id": "GlobalWarming-GWisImportant-Gif",
+                "Id": "GlobalWarming-GWisImportant-LikePenguins",
                 "Label": {
-                    "en": "You prefer penguins that are",
-                    "fr": "Tu préfères les pingouins",
-                    "es": "Prefieres pingüinos"
+                    "en": "I bet you like penguins!",
+                    "fr": "Je parie que tu aimes bien les pingouins !",
+                    "es": "¡Seguro te gustan los pingüinos!"
                 },
                 "Commands": [
                     {
                         "Type": "Survey",
-                        "Id": "GlobalWarming-GWisImportant-Gif-Funny",
+                        "Id": "GlobalWarming-GWisImportant-LikePenguins-Yes",
                         "StepValue": "0",
                         "Label": {
-                            "en": "funny",
-                            "fr": "amusants",
-                            "es": "divertidos"
+                            "en": "Yes I do!",
+                            "fr": "Tout à fait !",
+                            "es": "¡Exactamente!"
                         },
-                        "OptionalFeedback": {
-                            "Type": "AnimatedGif",
-                            "Source": "Giphy",
-                            "Path": "ewHSMEx2TtEo8"
+                        "LinksTo": {
+                            "Type": "Question",
+                            "Id": "GlobalWarming-GWisImportant-Gif",
+                            "Label": {
+                                "en": "And you prefer penguins that are",
+                                "fr": "Et tu préfères les pingouins",
+                                "es": "Y prefieres pingüinos"
+                            },
+                            "Commands": [
+                                {
+                                    "Type": "Survey",
+                                    "Id": "GlobalWarming-GWisImportant-Gif-Funny",
+                                    "StepValue": "0",
+                                    "Label": {
+                                        "en": "funny",
+                                        "fr": "amusants",
+                                        "es": "divertidos"
+                                    },
+                                    "OptionalFeedback": {
+                                        "Type": "AnimatedGif",
+                                        "Source": "Giphy",
+                                        "Path": "ewHSMEx2TtEo8"
+                                    }
+                                },
+                                {
+                                    "Type": "Survey",
+                                    "Id": "GlobalWarming-GWisImportant-Gif-Cute",
+                                    "StepValue": "0",
+                                    "Label": {
+                                        "en": "cute",
+                                        "fr": "mignons",
+                                        "es": "bonitos"
+                                    },
+                                    "OptionalFeedback": {
+                                        "Type": "AnimatedGif",
+                                        "Source": "Giphy",
+                                        "Path": "C0EYVrLCgnYdy"
+                                    }
+                                }
+                            ]
                         }
                     },
                     {
                         "Type": "Survey",
-                        "Id": "GlobalWarming-GWisImportant-Gif-Cute",
+                        "Id": "GlobalWarming-GWisImportant-LikePenguins-No",
                         "StepValue": "0",
                         "Label": {
-                            "en": "cute",
-                            "fr": "mignons",
-                            "es": "bonitos"
+                            "en": "No I don't...",
+                            "fr": "Pas spécialement...",
+                            "es": "No especialmente..."
                         },
                         "OptionalFeedback": {
                             "Type": "AnimatedGif",
                             "Source": "Giphy",
-                            "Path": "C0EYVrLCgnYdy"
+                            "Path": "7IzsvyXdPxLFe"
                         }
                     }
                 ]
