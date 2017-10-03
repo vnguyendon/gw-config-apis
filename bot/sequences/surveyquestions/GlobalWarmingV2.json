@@ -46,7 +46,7 @@
                             "Commands": [
                                 {
                                     "Type": "Survey",
-                                    "Id": "GWFunnyPenguins",
+                                    "Id": "Funny",
                                     "StepValue": "1",
                                     "Label": {
                                         "en": "funny",
@@ -61,7 +61,7 @@
                                 },
                                 {
                                     "Type": "Survey",
-                                    "Id": "GWCutePenguins",
+                                    "Id": "Cute",
                                     "StepValue": "1",
                                     "Label": {
                                         "en": "cute",
