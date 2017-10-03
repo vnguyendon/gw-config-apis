@@ -19,7 +19,7 @@
       },
       "LinksTo": {
         "Type": "Question",
-        "Id": "CatsOrDogs-PreferCats-Gif",
+        "Id": "CatsOrDogsCatGif",
         "Label": {
           "en": "Would you like me to show cute kittens?",
           "fr": "Veux-tu que je te montre des chatons trop mignons ?",
@@ -28,7 +28,7 @@
         "Commands": [
           {
             "Type": "Survey",
-            "Id": "CatsOrDogs-PreferCats-Gif-Yes",
+            "Id": "CatsOrDogsCatGifYes",
             "StepValue": "1",
             "Label": {
               "en": "yes",
@@ -43,7 +43,7 @@
           },
           {
             "Type": "Survey",
-            "Id": "CatsOrDogs-PreferCats-Gif-No",
+            "Id": "CatsOrDogsCatGifNo",
             "StepValue": "0",
             "Label": {
               "en": "no",
