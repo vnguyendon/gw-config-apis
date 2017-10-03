@@ -19,7 +19,7 @@
             },
             "LinksTo": {
                 "Type": "Question",
-                "Id": "GlobalWarming-GWisImportant-LikePenguins",
+                "Id": "GWPenguins",
                 "Label": {
                     "en": "I bet you like penguins!",
                     "fr": "Je parie que tu aimes bien les pingouins !",
@@ -28,7 +28,7 @@
                 "Commands": [
                     {
                         "Type": "Survey",
-                        "Id": "GlobalWarming-GWisImportant-LikePenguins-Yes",
+                        "Id": "GWLikePenguins",
                         "StepValue": "0",
                         "Label": {
                             "en": "Yes I do!",
@@ -37,7 +37,7 @@
                         },
                         "LinksTo": {
                             "Type": "Question",
-                            "Id": "GlobalWarming-GWisImportant-Gif",
+                            "Id": "GWFunnyOrCutePenguins",
                             "Label": {
                                 "en": "And you prefer penguins that are",
                                 "fr": "Et tu préfères les pingouins",
@@ -46,7 +46,7 @@
                             "Commands": [
                                 {
                                     "Type": "Survey",
-                                    "Id": "GlobalWarming-GWisImportant-Gif-Funny",
+                                    "Id": "GWFunnyPenguins",
                                     "StepValue": "0",
                                     "Label": {
                                         "en": "funny",
@@ -61,7 +61,7 @@
                                 },
                                 {
                                     "Type": "Survey",
-                                    "Id": "GlobalWarming-GWisImportant-Gif-Cute",
+                                    "Id": "GWCutePenguins",
                                     "StepValue": "0",
                                     "Label": {
                                         "en": "cute",
@@ -79,7 +79,7 @@
                     },
                     {
                         "Type": "Survey",
-                        "Id": "GlobalWarming-GWisImportant-LikePenguins-No",
+                        "Id": "GWDontLikePenguins",
                         "StepValue": "0",
                         "Label": {
                             "en": "No I don't...",
