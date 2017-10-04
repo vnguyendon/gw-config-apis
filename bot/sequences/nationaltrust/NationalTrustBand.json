@@ -19,18 +19,24 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "AnswerAMusicBand",
+          "Id": "ARugbyTeam1",
           "Label": {
-            "en": "A music band! They are from Chicago and play soul music 😉 "
+            "en": "A music band! They are from Chicago and play soul music 😉"
           },
-          "Delay": "2"
+          "Delay": "3"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Id": "ARugbyTeam2",
+          "Source": "Giphy",
+          "Path": "R7nZ4hgQGBAgo"
         }
       ]
     },
     {
       "Type": "ShowSteps",
       "Id": "AMusicBand",
-      "StepValue": "0",
+      "StepValue": "1",
       "Label": {
         "en": "a music band"
       },
@@ -40,11 +46,17 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "AnswerAMusicBand",
+          "Id": "AMusicBand1",
           "Label": {
-            "en": "A music band! They are from Chicago and play soul music 😉 "
+            "en": "A music band! They are from Chicago and play soul music 😉"
           },
-          "Delay": "2"
+          "Delay": "3"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Id": "AMusicBand2",
+          "Source": "Giphy",
+          "Path": "R7nZ4hgQGBAgo"
         }
       ]
     }
