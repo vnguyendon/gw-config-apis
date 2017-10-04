@@ -38,7 +38,7 @@
       { "order" : 100, "file":"/bot/sequences/nationaltrust/NymansGardens.json"},
       { "order" : 110, "file":"/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"},
       { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"},
-      { "order" : 130, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"},
+      { "order" : 130, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"}
     ]
   }
 ]
