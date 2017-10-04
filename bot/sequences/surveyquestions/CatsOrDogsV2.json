@@ -21,7 +21,7 @@
         "Type": "Question",
         "Id": "CatsOrDogsCatGif",
         "Label": {
-          "en": "Would you like me to show cute kittens?",
+          "en": "Would you like me to show you cute kittens?",
           "fr": "Veux-tu que je te montre des chatons trop mignons ?",
           "es": "¿Puedo mostrarte gatitos bonitos?"
         },
