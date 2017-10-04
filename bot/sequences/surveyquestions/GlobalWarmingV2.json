@@ -19,7 +19,7 @@
             },
             "LinksTo": {
                 "Type": "Question",
-                "Id": "GWPenguins",
+                "Id": "LikePenguinsYesNo",
                 "Label": {
                     "en": "I bet you like penguins!",
                     "fr": "Je parie que tu aimes bien les pingouins !",
@@ -28,7 +28,7 @@
                 "Commands": [
                     {
                         "Type": "DoNothing",
-                        "Id": "GWLikePenguins",
+                        "Id": "YesLikePenguins",
                         "StepValue": "0",
                         "Label": {
                             "en": "Yes I do!",
@@ -37,7 +37,7 @@
                         },
                         "LinksTo": {
                             "Type": "Question",
-                            "Id": "GWFunnyOrCutePenguins",
+                            "Id": "ZZ-GlobalWarming-CuteOrFunnyPenguins",
                             "Label": {
                                 "en": "And you prefer penguins that are",
                                 "fr": "Et tu préfères les pingouins",
@@ -79,7 +79,7 @@
                     },
                     {
                         "Type": "DoNothing",
-                        "Id": "GWDontLikePenguins",
+                        "Id": "NoDontLikePenguins",
                         "StepValue": "0",
                         "Label": {
                             "en": "No I don't...",
