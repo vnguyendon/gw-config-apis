@@ -12,7 +12,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "HughLaurie1",
+      "Id": "JudeLawWrong",
       "StepValue": "1",
       "Label": {
         "en": "Hugh Laurie"
@@ -23,7 +23,7 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "HughLaurie2",
+          "Id": "JudeLawWrong1",
           "Label": {
             "en": "Maybe Hugh Laurie likes it too, but it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           },
@@ -31,14 +31,14 @@
         },
         {
           "Type":"Image",
-          "Id":"HughLaurie3",
+          "Id":"JudeLawWrong2",
           "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "JudeLaw1",
+      "Id": "JudeLawRight",
       "StepValue": "1",
       "Label": {
         "en": "Jude Law"
@@ -49,7 +49,7 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "JudeLaw2",
+          "Id": "JudeLawRight1",
           "Label": {
             "en": "Exactly! It is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           },
@@ -57,7 +57,7 @@
         },
         {
           "Type":"Image",
-          "Id":"JudeLaw3",
+          "Id":"JudeLawRight2",
           "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
