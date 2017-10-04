@@ -8,7 +8,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "PrideAndPrejudice-PandP",
+      "Id": "PrideAndPrejudiceRight",
       "StepValue": "1",
       "Label": {
         "en": "Pride and Prejudice"
@@ -16,69 +16,69 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "PrideAndPrejudice-PandP-Sequence1",
+          "Id": "PrideAndPrejudiceRight1",
           "Label": {
-            "en": "Right! In the Pride and Prejudice movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
+            "en": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park."
           },
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Image",
-          "Id": "PrideAndPrejudice-PandP-Sequence2",
+          "Id": "PrideAndPrejudiceRight2",
           "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
           "Delay": "2"
         },
         {
           "Type": "Text",
-          "Id": "PrideAndPrejudice-PandP-Sequence3",
+          "Id": "PrideAndPrejudiceRight3",
           "Label": {
             "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "PrideAndPrejudice-PandP-Sequence4",
+          "Id": "PrideAndPrejudiceRight4",
           "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "PrideAndPrejudice-GOT",
-      "StepValue": "0",
+      "Id": "PrideAndPrejudiceWrong",
+      "StepValue": "1",
       "Label": {
         "en": "Game of Thrones"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "PrideAndPrejudice-GOT-Sequence1",
+          "Id": "PrideAndPrejudiceWrong1",
           "Label": {
-            "en": "No, it was Pride and Prejudice! In this movie by Joe Wright, Basildon Park stood in for Mr Bingley’s mansion."
+            "en": "It was Pride and Prejudice! This movie by Joe Wright featured Basildon Park."
           },
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Image",
-          "Id": "PrideAndPrejudice-GOT-Sequence2",
+          "Id": "PrideAndPrejudiceWrong2",
           "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
           "Delay": "2"
         },
         {
           "Type": "Text",
-          "Id": "PrideAndPrejudice-GOT-Sequence3",
+          "Id": "PrideAndPrejudiceWrong3",
           "Label": {
             "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "PrideAndPrejudice-GOT-Sequence4",
+          "Id": "PrideAndPrejudiceWrong4",
           "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     }
