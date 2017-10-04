@@ -2,7 +2,7 @@
   "Type": "Question",
   "Id": "WhiteCliffsOfDover",
   "Label": {
-    "en": "Where would you go to see those beautiful White Cliffs?"
+    "en": "Where would you go to see those impressive White Cliffs?"
   },
   "OptionalPrompt": {
     "Type": "Image",
@@ -12,7 +12,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "WhiteCliffsOfDover-Dover",
+      "Id": "WhiteCliffsRight",
       "StepValue": "1",
       "Label": {
         "en": "Dover"
@@ -20,29 +20,47 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "WhiteCliffsOfDover-Dover-Sequence1",
+          "Id": "WhiteCliffsRight1",
           "Label": {
-            "en": "That's right! And those cliffs face the exact narrowest part of the Channel 🌊"
+            "en": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type": "Image",
+          "Id": "WhiteCliffsRight2",
+          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "WhiteCliffsOfDover-Hastings",
-      "StepValue": "0",
+      "Id": "WhiteCliffsWrong",
+      "StepValue": "1",
       "Label": {
         "en": "Hastings"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "WhiteCliffsOfDover-Hastings-Sequence1",
+          "Id": "WhiteCliffsWrong1",
           "Label": {
-            "en": "Actually you have to go to Dover to see them :) And those cliffs face the exact narrowest part of the Channel 🌊"
+            "en": "Actually you have to go to Dover to see them :)"
           },
-          "Delay": "2"
+          "Delay": "3"
+        },
+        {
+          "Type": "Text",
+          "Id": "WhiteCliffsWrong2",
+          "Label": {
+            "en": "And those cliffs face the exact narrowest part of the Channel 🌊"
+          },
+          "Delay": "3"
+        },
+        {
+          "Type": "Image",
+          "Id": "WhiteCliffsWrong3",
+          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
         }
       ]
     }
