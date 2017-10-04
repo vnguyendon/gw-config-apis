@@ -7,7 +7,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "AliceInWonderland-Yes",
+      "Id": "AliceInWonderlandYes",
       "StepValue": "1",
       "Label": {
         "en": "yes"
@@ -15,7 +15,7 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "AliceInWonderland-Yes-Sequence1",
+          "Id": "AliceInWonderlandYes1",
           "Label": {
             "en": "So you might recognize Antony House, where the movie was partly shot:"
           },
@@ -23,13 +23,13 @@
         },
         {
           "Type": "Image",
-          "Id": "AliceInWonderland-Yes-Sequence2",
+          "Id": "AliceInWonderlandYes2",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
           "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "AliceInWonderland-Yes-Sequence3",
+          "Id": "AliceInWonderlandYes3",
           "Label": {
             "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
           },
@@ -37,7 +37,7 @@
         },
         {
           "Type": "Image",
-          "Id": "AliceInWonderland-Yes-Sequence4",
+          "Id": "AliceInWonderlandYes4",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
           "Delay": "3"
         }
@@ -45,7 +45,7 @@
     },
     {
       "Type": "ShowSteps",
-      "Id": "AliceInWonderland-No",
+      "Id": "AliceInWonderlandNo",
       "StepValue": "0",
       "Label": {
         "en": "no"
@@ -53,7 +53,7 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "AliceInWonderland-No-Sequence1",
+          "Id": "AliceInWonderlandNo1",
           "Label": {
             "en": "The movie was partly shot in Antony House:"
           },
@@ -61,13 +61,13 @@
         },
         {
           "Type": "Image",
-          "Id": "AliceInWonderland-No-Sequence2",
+          "Id": "AliceInWonderlandNo2",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
           "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "AliceInWonderland-No-Sequence3",
+          "Id": "AliceInWonderlandNo3",
           "Label": {
             "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
           },
@@ -75,7 +75,7 @@
         },
         {
           "Type": "Image",
-          "Id": "AliceInWonderland-No-Sequence4",
+          "Id": "AliceInWonderlandNo4",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
           "Delay": "3"
         }
