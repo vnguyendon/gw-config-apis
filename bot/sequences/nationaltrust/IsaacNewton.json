@@ -8,7 +8,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "IsaacNewton-SnowWhite",
+      "Id": "IsaacNewtonWrong",
       "StepValue": "1",
       "Label": {
         "en": "Snow White"
@@ -19,32 +19,37 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "IsaacNewton-SnowWhite-Sequence1",
+          "Id": "IsaacNewtonWrong1",
           "Label": {
             "en": "I don’t know about Snow White, but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "IsaacNewton-SnowWhite-Sequence2",
+          "Id": "IsaacNewtonWrong2",
           "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "IsaacNewton-SnowWhite-Sequence3",
+          "Id": "IsaacNewtonWrong3",
           "Label": {
             "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"IsaacNewtonRight4",
+          "Path":"https://img11.hostingpics.net/pics/196586IsaacNewton2SMALL.jpg"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "IsaacNewton-IsaacNewton",
-      "StepValue": "0",
+      "Id": "IsaacNewtonRight",
+      "StepValue": "1",
       "Label": {
         "en": "Isaac Newton"
       },
@@ -54,25 +59,30 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "IsaacNewton-IsaacNewton-Sequence1",
+          "Id": "IsaacNewtonRight1",
           "Label": {
             "en": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "IsaacNewton-IsaacNewton-Sequence2",
+          "Id": "IsaacNewtonRight2",
           "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "IsaacNewton-IsaacNewton-Sequence3",
+          "Id": "IsaacNewtonRight3",
           "Label": {
             "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"IsaacNewtonRight4",
+          "Path":"https://img11.hostingpics.net/pics/196586IsaacNewton2SMALL.jpg"
         }
       ]
     }
