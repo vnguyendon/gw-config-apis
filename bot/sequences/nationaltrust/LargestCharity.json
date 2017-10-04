@@ -7,13 +7,12 @@
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Source": "External",
     "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
   },
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "YesIKnow",
+      "Id": "LargestCharityUKYes",
       "StepValue": "1",
       "Label": {
         "en": "yes"
@@ -21,29 +20,45 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "LargestCharityUK-YesIknow",
+          "Id": "LargestCharityUKYes1",
           "Label": {
-            "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+            "en": "It’s the National Trust!"
           },
           "Delay": "2"
+        },
+        {
+          "Type": "Text",
+          "Id": "LargestCharityUKYes2",
+          "Label": {
+            "en": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          },
+          "Delay": "4"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "NoIDontKnow",
-      "StepValue": "0",
+      "Id": "LargestCharityUKNo",
+      "StepValue": "1",
       "Label": {
         "en": "no"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "LargestCharityUK-NoIDontKnow",
+          "Id": "LargestCharityUKNo1",
           "Label": {
-            "en": "It’s the National Trust! This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+            "en": "It’s the National Trust!"
           },
           "Delay": "2"
+        },
+        {
+          "Type": "Text",
+          "Id": "LargestCharityUKNo2",
+          "Label": {
+            "en": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          },
+          "Delay": "4"
         }
       ]
     }
