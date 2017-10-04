@@ -62,7 +62,7 @@
           {
             "Type": "ShowSteps",
             "Id": "FarneIslands-20yo",
-            "StepValue": "0",
+            "StepValue": "1",
             "Label": {
               "en": "20 years"
             },
