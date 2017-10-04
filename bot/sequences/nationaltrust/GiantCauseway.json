@@ -7,7 +7,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "HeardofGiantsCauseway-Yes",
+      "Id": "GiantsCausewayYes",
       "StepValue": "1",
       "Label": {
         "en": "yes"
@@ -15,96 +15,97 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceYes1",
+          "Id": "GiantsCausewayYes1",
           "Label": {
             "en": "So you may already know how beautiful this volcanic site is:"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceYes2",
+          "Id": "GiantsCausewayYes2",
           "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceYes3",
+          "Id": "GiantsCausewayYes3",
           "Label": {
             "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "AnimatedGif",
-          "Id": "GiantsCausewaySequenceYes4",
+          "Id": "GiantsCausewayYes4",
           "Path": "26BRzQS5HXcEWM7du",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceYes5",
+          "Id": "GiantsCausewayYes5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceYes6",
+          "Id": "GiantsCausewayYes6",
           "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "HearofGiantsCauseway-No",
-      "StepValue": "0",
+      "Id": "GiantsCausewayNo",
+      "StepValue": "1",
       "Label": {
         "en": "no"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceNo1",
+          "Id": "GiantsCausewayNo1",
           "Label": {
             "en": "It's a volcanic site in Northern Ireland. It looks like this:"
-          }
+          },
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceNo2",
+          "Id": "GiantsCausewayNo2",
           "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceNo3",
+          "Id": "GiantsCausewayNo3",
           "Label": {
             "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "AnimatedGif",
-          "Id": "GiantsCausewaySequenceNo4",
+          "Id": "GiantsCausewayNo4",
           "Path": "26BRzQS5HXcEWM7du",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "GiantsCausewaySequenceNo5",
+          "Id": "GiantsCausewayNo5",
           "Label": {
             "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "GiantsCausewaySequenceNo6",
+          "Id": "GiantsCausewayNo6",
           "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     }
