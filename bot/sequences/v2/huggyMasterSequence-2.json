@@ -26,7 +26,6 @@
   {
     "GroupName": "Visible-UK",
     "SequenceFiles": [
-      { "order" : 5, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"},
       { "order" : 10, "file":"/bot/sequences/nationaltrust/LargestCharity.json"},
       { "order" : 20, "file":"/bot/sequences/nationaltrust/AliceInWonderland.json"},
       { "order" : 30, "file":"/bot/sequences/nationaltrust/JudeLaw.json"},
@@ -38,7 +37,8 @@
       { "order" : 90, "file":"/bot/sequences/nationaltrust/Stourhead.json"},
       { "order" : 100, "file":"/bot/sequences/nationaltrust/NymansGardens.json"},
       { "order" : 110, "file":"/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"},
-      { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"}
+      { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"}.
+      { "order" : 130, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"},
     ]
   }
 ]
