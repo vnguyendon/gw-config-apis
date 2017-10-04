@@ -8,7 +8,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "BeatrixPotter-BeatrixPotter",
+      "Id": "BeatrixPotterRight",
       "StepValue": "1",
       "Label": {
         "en": "Beatrix Potter"
@@ -19,18 +19,42 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "BeatrixPotter-BeatrixPotter-Sequence1",
+          "Id": "BeatrixPotterRight1",
           "Label": {
             "en": "Beatrix Potter indeed! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterRight2",
+          "Path":"https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterRight3",
+          "Path":"https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterRight4",
+          "Path":"https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterRight5",
+          "Path":"https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg",
+          "Delay":"4"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "BeatrixPotter-LewisCarroll",
-      "StepValue": "0",
+      "Id": "BeatrixPotterWrong",
+      "StepValue": "1",
       "Label": {
         "en": "Lewis Carroll"
       },
@@ -40,11 +64,35 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "BeatrixPotter-LewisCarroll-Sequence1",
+          "Id": "BeatrixPotterWrong1",
           "Label": {
             "en": "It was Beatrix Potter! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterWrong2",
+          "Path":"https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterWrong3",
+          "Path":"https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterWrong4",
+          "Path":"https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg",
+          "Delay":"4"
+        },
+        {
+          "Type":"Image",
+          "Id":"BeatrixPotterWrong5",
+          "Path":"https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg",
+          "Delay":"4"
         }
       ]
     }
