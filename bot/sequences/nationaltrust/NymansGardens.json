@@ -35,9 +35,10 @@
           "Delay": "4"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "NymansGardensJazz3",
-          "Path": "https://img11.hostingpics.net/pics/609218NymansGardens3SMALL.jpg",
+          "Source":"Giphy",
+          "Path": "NU8tcjnPaODTy",
           "Delay": "3"
         }
       ]
@@ -67,9 +68,10 @@
           "Delay": "4"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "NymansGardensRock3",
-          "Path": "https://img11.hostingpics.net/pics/609218NymansGardens3SMALL.jpg",
+          "Source":"Giphy",
+          "Path": "NU8tcjnPaODTy",
           "Delay": "3"
         }
       ]
