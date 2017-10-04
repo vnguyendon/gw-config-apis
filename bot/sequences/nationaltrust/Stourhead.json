@@ -8,7 +8,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "Stourhead-Woods",
+      "Id": "StourheadWoods",
       "StepValue": "1",
       "Label": {
         "en": "its woods"
@@ -16,69 +16,69 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "Stourhead-Woods-Sequence1",
+          "Id": "StourheadWoods1",
           "Label": {
             "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "Stourhead-Woods-Sequence2",
+          "Id": "StourheadWoods2",
           "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "Stourhead-Woods-Sequence3",
+          "Id": "StourheadWoods3",
           "Label": {
-            "en": "Stourhead annual Festival of the Voice is the perfect opportunity to listen to great music while enjoying the autumn colours of the gardens 🍁🍂"
+            "en": "The gardens have amazing colours in autumn 🍁🍂"
           },
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Image",
-          "Id": "Stourhead-Woods-Sequence4",
+          "Id": "StourheadWoods4",
           "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "Stourhead-Lake",
-      "StepValue": "0",
+      "Id": "StourheadLake",
+      "StepValue": "1",
       "Label": {
         "en": "its lake"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "Stourhead-Lake-Sequence1",
+          "Id": "StourheadLake1",
           "Label": {
             "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
           },
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "Stourhead-Lake-Sequence2",
+          "Id": "StourheadLake2",
           "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "Stourhead-Lake-Sequence3",
+          "Id": "StourheadLake3",
           "Label": {
-            "en": "Stourhead annual Festival of the Voice is the perfect opportunity to listen to great music while enjoying the autumn colours of the gardens 🍁🍂"
+            "en": "The gardens have amazing colours in autumn 🍁🍂"
           },
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Image",
-          "Id": "Stourhead-Lake-Sequence4",
+          "Id": "StourheadLake4",
           "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
-          "Delay": "2"
+          "Delay": "3"
         }
       ]
     }
