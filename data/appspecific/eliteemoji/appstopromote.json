@@ -3,21 +3,21 @@
 "apps": 
   [
     {
-      "title": "Try me, I'm a bot!",
+      "title": "Try me, I'm a quote bot!",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
       "storeUrl": "https://m.me/QuoteoBot"
+    }
+    ,
+    {
+      "title": "Say what you think to a Pony bot!",
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
+      "storeUrl": "https://m.me/SurveyPony"
     }
     ,
     {
       "title": "Say it with GIFS",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
-    }
-    ,
-    {
-      "title": "Do other people think like you? Find out with our Pony chatbot!",
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://m.me/SurveyPony"
     }
   ]
 }
