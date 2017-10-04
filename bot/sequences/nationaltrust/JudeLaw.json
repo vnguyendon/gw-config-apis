@@ -2,7 +2,7 @@
   "Type": "Question",
   "Id": "JudeLaw",
   "Label": {
-    "en": "This gorgeous place is Cliveden House. The house in itself is now a luxury hotel, but the gardens and woodlands are opened for visits 🌹🌲 It is also the favourite National Trust location of..."
+    "en": "This is Cliveden House 🌹🌲 It is the favourite National Trust location of..."
   },
   "OptionalPrompt": {
     "Type": "Image",
@@ -12,7 +12,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "JudeLaw-HughLaurie",
+      "Id": "HughLaurie1",
       "StepValue": "1",
       "Label": {
         "en": "Hugh Laurie"
@@ -23,18 +23,23 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "JudeLaw-HughLaurie-Sequence1",
+          "Id": "HughLaurie2",
           "Label": {
-            "en": "Maybe Hugh Laurie likes Cliveden House too, but I can assure you it is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
+            "en": "Maybe Hugh Laurie likes it too, but it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"HughLaurie3",
+          "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "JudeLaw-JudeLaw",
-      "StepValue": "0",
+      "Id": "JudeLaw1",
+      "StepValue": "1",
       "Label": {
         "en": "Jude Law"
       },
@@ -44,11 +49,16 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "JudeLaw-JudeLaw-Sequence1",
+          "Id": "JudeLaw2",
           "Label": {
-            "en": "Exactly! It is Jude Law’s favourite since he shot one of the greatest scenes of Sherlock Holmes in there! 🕵"
+            "en": "Exactly! It is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"Image",
+          "Id":"JudeLaw3",
+          "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
     }
