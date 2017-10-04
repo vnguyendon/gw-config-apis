@@ -8,7 +8,7 @@
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "JohnLennon-JohnLennon",
+      "Id": "JohnLennonHome",
       "StepValue": "1",
       "Label": {
         "en": "John Lennon"
@@ -19,18 +19,24 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "JohnLennon-JohnLennon-Sequence1",
+          "Id": "JohnLennonHome1",
           "Label": {
-            "en": "Right answer!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
+            "en": "Right!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"AnimatedGif",
+          "Id":"JohnLennonHome2",
+          "Source":"Giphy",
+          "Path":"FQxoTjGrl7R6"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "JohnLennon-DavidBowie",
-      "StepValue": "0",
+      "Id": "DavidBowieHome",
+      "StepValue": "1",
       "Label": {
         "en": "David Bowie"
       },
@@ -40,11 +46,17 @@
       "Steps": [
         {
           "Type": "Text",
-          "Id": "JohnLennon-DavidBowie-Sequence1",
+          "Id": "DavidBowieHome1",
           "Label": {
-            "en": "The right answer was John Lennon! 🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
+            "en": "John Lennon!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
           },
-          "Delay": "2"
+          "Delay": "4"
+        },
+        {
+          "Type":"AnimatedGif",
+          "Id":"DavidBowieHome2",
+          "Source":"Giphy",
+          "Path":"FQxoTjGrl7R6"
         }
       ]
     }
