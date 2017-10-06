@@ -2,77 +2,75 @@
   "Type": "Question",
   "Id": "NymansGardens",
   "Label": {
-    "en": "Which kind of music can you sometimes hear in the beautiful Nymans garden? 🌼🌷"
+    "en": "Have you ever visited Nymans and its mysterious ruins?"
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Path": "https://img11.hostingpics.net/pics/735316NymansGardens2SMALL.jpg"
+    "Path": "https://img11.hostingpics.net/pics/537579NymansGardens3SMALL.jpg"
   },
   "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "NymansGardensJazz",
+      "Id": "NymansGardensYes",
       "StepValue": "1",
       "Label": {
-        "en": "jazz"
+        "en": "yes"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "NymansGardensJazz1",
+          "Id": "NymansGardensYes1",
           "Label": {
-            "en": "Exactly!"
+            "en": "Lucky you!"
           },
-          "Delay": "2"
+          "Delay": "3"
         },
         {
           "Type": "Text",
-          "Id": "NymansGardensJazz2",
+          "Id": "NymansGardensYes2",
           "Label": {
-            "en": "Every summer, many garden festivals let you enjoy your favourite music in the great outdoors 😊"
+            "en": "Be it summer or winter, the garden is always pretty and romantic."
           },
-          "Delay": "4"
+          "Delay": "5"
         },
         {
-          "Type": "AnimatedGif",
-          "Id": "NymansGardensJazz3",
-          "Source":"Giphy",
-          "Path": "NU8tcjnPaODTy",
-          "Delay": "3"
+          "Type": "Image",
+          "Id": "NymansGardensYes3",
+          "Path": "https://img11.hostingpics.net/pics/772618NymansGardens4SMALL.jpg",
+          "Delay": "4"
         }
       ]
     },
     {
       "Type": "ShowSteps",
-      "Id": "NymansGardensRock",
+      "Id": "NymansGardensNo",
       "StepValue": "1",
       "Label": {
-        "en": "rock"
+        "en": "no"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "NymansGardensRock1",
+          "Id": "NymansGardensNo1",
           "Label": {
-            "en": "That would be amazing! But so far you can mostly listen to jazz at Nymans."
-          },
-          "Delay": "3"
-        },
-        {
-          "Type": "Text",
-          "Id": "NymansGardensRock2",
-          "Label": {
-            "en": "Every summer, many garden festivals let you enjoy your favourite music in the great outdoors 😊"
+            "en": "It is in West Sussex, near Crawley 🙂"
           },
           "Delay": "4"
         },
         {
-          "Type": "AnimatedGif",
-          "Id": "NymansGardensRock3",
-          "Source":"Giphy",
-          "Path": "NU8tcjnPaODTy",
-          "Delay": "3"
+          "Type": "Text",
+          "Id": "NymansGardensNo2",
+          "Label": {
+            "en": "Be it summer or winter, the garden is always pretty and romantic."
+          },
+          "Delay": "5"
+        },
+        {
+          "Type": "Image",
+          "Id": "NymansGardensNo3",
+          "Path": "https://img11.hostingpics.net/pics/772618NymansGardens4SMALL.jpg",
+          "Delay": "4"
         }
       ]
     }
