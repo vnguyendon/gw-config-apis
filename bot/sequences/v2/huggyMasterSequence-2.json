@@ -28,17 +28,16 @@
     "SequenceFiles": [
       { "order" : 10, "file":"/bot/sequences/nationaltrust/LargestCharity.json"},
       { "order" : 20, "file":"/bot/sequences/nationaltrust/AliceInWonderland.json"},
-      { "order" : 30, "file":"/bot/sequences/nationaltrust/JudeLaw.json"},
-      { "order" : 40, "file":"/bot/sequences/nationaltrust/BeatrixPotter.json"},
-      { "order" : 50, "file":"/bot/sequences/nationaltrust/PrideAndPrejudice.json"},
-      { "order" : 60, "file":"/bot/sequences/nationaltrust/IsaacNewton.json"},
-      { "order" : 70, "file":"/bot/sequences/nationaltrust/NationalTrustBand.json"},
-      { "order" : 80, "file":"/bot/sequences/nationaltrust/JohnLennon.json"},
-      { "order" : 90, "file":"/bot/sequences/nationaltrust/Stourhead.json"},
-      { "order" : 100, "file":"/bot/sequences/nationaltrust/NymansGardens.json"},
+      { "order" : 30, "file":"/bot/sequences/nationaltrust/JohnLennon.json"},
+      { "order" : 40, "file":"/bot/sequences/nationaltrust/JudeLaw.json"},
+      { "order" : 50, "file":"/bot/sequences/nationaltrust/BeatrixPotter.json"},
+      { "order" : 60, "file":"/bot/sequences/nationaltrust/NymansGardens.json"},
+      { "order" : 70, "file":"/bot/sequences/nationaltrust/PrideAndPrejudice.json"},
+      { "order" : 80, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"},
+      { "order" : 90, "file":"/bot/sequences/nationaltrust/IsaacNewton.json"},
+      { "order" : 100, "file":"/bot/sequences/nationaltrust/Stourhead.json"},
       { "order" : 110, "file":"/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"},
-      { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"},
-      { "order" : 130, "file":"/bot/sequences/nationaltrust/FarneIslandsV2.json"}
+      { "order" : 120, "file":"/bot/sequences/nationaltrust/GiantCauseway.json"}
     ]
   }
 ]
