@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "FacebookOrInstagram",
+  "Label":
+    {
+      "en": "You can only use one. You choose",
+      "fr": "Tu ne peux en utiliser qu'un seul. Tu choisis",
+      "es": "Sólo puedes utilizar uno. Eliges"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Facebook",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "EP0U4NhHvF4EU"
+          },
+          "Label":{
+            "en": "Facebook",
+            "fr": "Facebook",
+            "es": "Facebook"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Instagram",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "xoxYM49aOyMxO"
+          },
+          "Label":{
+            "en": "Instagram",
+            "fr": "Instagram",
+            "es": "Instagram"
+          }
+        }
+      ]
+}
+
