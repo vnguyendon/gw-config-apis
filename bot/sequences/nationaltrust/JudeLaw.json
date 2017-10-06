@@ -2,11 +2,11 @@
   "Type": "Question",
   "Id": "JudeLaw",
   "Label": {
-    "en": "This is Cliveden House 🌹🌲 It is the favourite National Trust location of..."
+    "en": "This is Cliveden House 🌹 It is the favourite National Trust location of..."
   },
   "OptionalPrompt": {
     "Type": "Image",
-    "Path": "https://img11.hostingpics.net/pics/418314ClivedenHouse1SMALL.jpg"
+    "Path": "https://img11.hostingpics.net/pics/353502ClivedenHouse2SMALL.jpg"
   },
   "Randomize": "true",
   "Commands": [
@@ -25,14 +25,22 @@
           "Type": "Text",
           "Id": "JudeLawWrong1",
           "Label": {
-            "en": "Maybe Hugh Laurie likes it too, but it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
+            "en": "Maybe Hugh Laurie likes it too..."
           },
-          "Delay": "4"
+          "Delay": "3"
         },
         {
-          "Type":"Image",
-          "Id":"JudeLawWrong2",
-          "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
+          "Type": "Text",
+          "Id": "JudeLawWrong2",
+          "Label": {
+            "en": "But it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
+          },
+          "Delay": "6"
+        },
+        {
+          "Type": "Image",
+          "Id": "JudeLawWrong3",
+          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
     },
@@ -51,14 +59,14 @@
           "Type": "Text",
           "Id": "JudeLawRight1",
           "Label": {
-            "en": "Exactly! It is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
+            "en": "Exactly! It is definitely his favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           },
-          "Delay": "4"
+          "Delay": "6"
         },
         {
-          "Type":"Image",
-          "Id":"JudeLawRight2",
-          "Path":"https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
+          "Type": "Image",
+          "Id": "JudeLawRight2",
+          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
         }
       ]
     }
