@@ -1,0 +1,74 @@
+{
+    "Type": "Question",
+    "Id": "CatsOrDogs",
+    "Label": {
+        "en": "Are you more",
+        "fr": "Est-ce que tu préfères",
+        "es": "Te gustan mas"
+    },
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Survey",
+            "Id": "PreferCats",
+            "StepValue": "1",
+            "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "LKRtMj7xvviUg"
+            },
+            "Label": {
+                "en": "a cat person 🐱",
+                "fr": "les chats 🐱",
+                "es": "los gatos 🐱"
+            },
+            "LinksTo": {
+                "Type": "Text",
+                "Id": "CatsWaouh1",
+                "Label": {
+                    "en": "Dogs have masters. Cats have staff.",
+                    "fr": "Les chiens ont des maîtres. Les chats ont du personnel.",
+                    "es": "Los perros tienen amos. Los gatos tienen personal."
+                },
+                "Delay": "4",
+                "LinksTo": {
+                    "Type": "AnimatedGif",
+                    "Id":"CatsWaouh2",
+                    "Source": "Giphy",
+                    "Path": "fZGmLzHoTFf1u"
+                }
+            }
+        },
+        {
+            "Type": "Survey",
+            "Id": "PreferDogs",
+            "StepValue": "1",
+            "OptionalFeedback": {
+                "Type": "AnimatedGif",
+                "Source": "Giphy",
+                "Path": "fegzospsGS6Os"
+            },
+            "Label": {
+                "en": "a dog person 🐶",
+                "fr": "les chiens 🐶",
+                "es": "los perros 🐶"
+            },
+            "LinksTo": {
+                "Type": "Text",
+                "Id": "DogsWaouh1",
+                "Label": {
+                    "en": "Be the person your dog thinks you are.",
+                    "fr": "Sois la personne que ton chien pense que tu es.",
+                    "es": "Sé la persona que tu perro piensa que eres."
+                },
+                "Delay": "4",
+                "LinksTo": {
+                    "Type": "AnimatedGif",
+                    "Id":"DogsWaouh2",
+                    "Source": "Giphy",
+                    "Path": "ijFKWqCZfYdIQ"
+                }
+            }
+        }
+    ]
+}
