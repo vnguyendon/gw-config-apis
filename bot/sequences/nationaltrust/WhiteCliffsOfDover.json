@@ -29,7 +29,8 @@
         {
           "Type": "Image",
           "Id": "WhiteCliffsRight2",
-          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
+          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg",
+          "Delay":"4"
         }
       ]
     },
@@ -60,7 +61,8 @@
         {
           "Type": "Image",
           "Id": "WhiteCliffsWrong3",
-          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
+          "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg",
+          "Delay":"4"
         }
       ]
     }
