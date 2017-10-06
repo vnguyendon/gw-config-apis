@@ -2,45 +2,53 @@
   "Type": "Question",
   "Id": "Stourhead",
   "Label": {
-    "en": "What makes the world-famous estate of Stourhead so unique?"
+    "en": "What makes the world-famous estate of Stourhead, Wiltshire so unique?"
   },
   "Randomize": "true",
   "Commands": [
     {
       "Type": "ShowSteps",
-      "Id": "StourheadWoods",
+      "Id": "StourheadFields",
       "StepValue": "1",
       "Label": {
-        "en": "its woods"
+        "en": "its fields"
       },
       "Steps": [
         {
           "Type": "Text",
-          "Id": "StourheadWoods1",
+          "Id": "StourheadFields1",
           "Label": {
-            "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
+            "en": "Its lake! 💧"
+          },
+          "Delay": "3"
+        },
+        {
+          "Type": "Text",
+          "Id": "StourheadFields2",
+          "Label": {
+            "en": "Stourhead includes a cute village, an impressive mansion and a magnificent lake that reflects classical temples."
+          },
+          "Delay": "6"
+        },
+        {
+          "Type": "Image",
+          "Id": "StourheadFields3",
+          "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
+          "Delay": "4"
+        },
+        {
+          "Type": "Text",
+          "Id": "StourheadFields4",
+          "Label": {
+            "en": "The gardens have beautiful colours in autumn 🍁🍂"
           },
           "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "StourheadWoods2",
-          "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
-          "Delay": "3"
-        },
-        {
-          "Type": "Text",
-          "Id": "StourheadWoods3",
-          "Label": {
-            "en": "The gardens have amazing colours in autumn 🍁🍂"
-          },
-          "Delay": "3"
-        },
-        {
-          "Type": "Image",
-          "Id": "StourheadWoods4",
+          "Id": "StourheadFields5",
           "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     },
@@ -56,29 +64,37 @@
           "Type": "Text",
           "Id": "StourheadLake1",
           "Label": {
-            "en": "Stourhead includes a cute village, an impressive mansion and... a magnificent lake that reflects classical temples! ;)"
+            "en": "Yes indeed!"
+          },
+          "Delay": "3"
+        },
+        {
+          "Type": "Text",
+          "Id": "StourheadLake2",
+          "Label": {
+            "en": "Stourhead includes a cute village, an impressive mansion and a magnificent lake that reflects classical temples."
+          },
+          "Delay": "6"
+        },
+        {
+          "Type": "Image",
+          "Id": "StourheadLake3",
+          "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
+          "Delay": "4"
+        },
+        {
+          "Type": "Text",
+          "Id": "StourheadLake4",
+          "Label": {
+            "en": "The gardens have beautiful colours in autumn 🍁🍂"
           },
           "Delay": "4"
         },
         {
           "Type": "Image",
-          "Id": "StourheadLake2",
-          "Path": "https://img11.hostingpics.net/pics/914440Stourhead1SMALL.jpg",
-          "Delay": "3"
-        },
-        {
-          "Type": "Text",
-          "Id": "StourheadLake3",
-          "Label": {
-            "en": "The gardens have amazing colours in autumn 🍁🍂"
-          },
-          "Delay": "3"
-        },
-        {
-          "Type": "Image",
-          "Id": "StourheadLake4",
+          "Id": "StourheadLake5",
           "Path": "https://img11.hostingpics.net/pics/745225Stourhead2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     }
