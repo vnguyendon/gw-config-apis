@@ -18,7 +18,7 @@
           "Type": "Text",
           "Id": "PrideAndPrejudiceRight1",
           "Label": {
-            "en": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park."
+            "en": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park:"
           },
           "Delay": "3"
         },
@@ -26,7 +26,7 @@
           "Type": "Image",
           "Id": "PrideAndPrejudiceRight2",
           "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Text",
@@ -34,13 +34,13 @@
           "Label": {
             "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
           },
-          "Delay": "4"
+          "Delay": "5"
         },
         {
           "Type": "Image",
           "Id": "PrideAndPrejudiceRight4",
           "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     },
@@ -58,13 +58,13 @@
           "Label": {
             "en": "It was Pride and Prejudice! This movie by Joe Wright featured Basildon Park."
           },
-          "Delay": "3"
+          "Delay": "4"
         },
         {
           "Type": "Image",
           "Id": "PrideAndPrejudiceWrong2",
           "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg",
-          "Delay": "2"
+          "Delay": "4"
         },
         {
           "Type": "Text",
@@ -72,13 +72,13 @@
           "Label": {
             "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
           },
-          "Delay": "4"
+          "Delay": "5"
         },
         {
           "Type": "Image",
           "Id": "PrideAndPrejudiceWrong4",
           "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     }
