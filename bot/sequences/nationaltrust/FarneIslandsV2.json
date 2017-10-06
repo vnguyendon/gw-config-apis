@@ -33,29 +33,37 @@
                 "Type": "Text",
                 "Id": "FarneIslands10yo1",
                 "Label": {
-                  "en": "Puffins live longer than you might think, their life expectancy is 20 years. Some of them can reach 30 years old and over! 😮"
+                  "en": "Puffins live longer than you might think, their life expectancy is 20 years."
+                },
+                "Delay": "4"
+              },
+              {
+                "Type": "Text",
+                "Id": "FarneIslands10yo2",
+                "Label": {
+                  "en": "Some of them can reach 30 years old and over! 😮"
                 },
                 "Delay": "4"
               },
               {
                 "Type": "Image",
-                "Id": "FarneIslands10yo2",
+                "Id": "FarneIslands10yo3",
                 "Path": "http://az767698.vo.msecnd.net/themes/pairs/small/iStock_000010603333_Medium.jpg",
-                "Delay": "3"
+                "Delay": "4"
               },
               {
                 "Type": "Text",
-                "Id": "FarneIslands10yo3",
+                "Id": "FarneIslands10yo4",
                 "Label": {
-                  "en": "There are few better places to see them than on the Farne Islands"
+                  "en": "There are few better places to see them than on the Farne Islands:"
                 },
-                "Delay": "3"
+                "Delay": "4"
               },
               {
                 "Type": "Image",
-                "Id": "FarneIslands10yo4",
+                "Id": "FarneIslands10yo5",
                 "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg",
-                "Delay": "3"
+                "Delay": "4"
               }
             ]
           },
@@ -73,27 +81,27 @@
                 "Label": {
                   "en": "Exactly! And some of them can easily reach 30 years old and over! 😮"
                 },
-                "Delay": "3"
+                "Delay": "4"
               },
               {
                 "Type": "Image",
                 "Id": "FarneIslands20yo2",
                 "Path": "http://az767698.vo.msecnd.net/themes/pairs/small/iStock_000010603333_Medium.jpg",
-                "Delay": "3"
+                "Delay": "4"
               },
               {
                 "Type": "Text",
                 "Id": "FarneIslands20yo3",
                 "Label": {
-                  "en": "There are few better places to see them than on the Farne Islands"
+                  "en": "There are few better places to see them than on the Farne Islands:"
                 },
-                "Delay": "3"
+                "Delay": "4"
               },
               {
                 "Type": "Image",
                 "Id": "FarneIslands20yo4",
                 "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg",
-                "Delay": "3"
+                "Delay": "4"
               }
             ]
           }
