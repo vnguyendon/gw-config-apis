@@ -19,13 +19,13 @@
           "Label": {
             "en": "So you might recognize Antony House, where the movie was partly shot:"
           },
-          "Delay": "3"
+          "Delay": "5"
         },
         {
           "Type": "Image",
           "Id": "AliceInWonderlandYes2",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         },
         {
           "Type": "Text",
@@ -33,13 +33,13 @@
           "Label": {
             "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
           },
-          "Delay": "4"
+          "Delay": "6"
         },
         {
           "Type": "Image",
           "Id": "AliceInWonderlandYes4",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     },
@@ -63,7 +63,7 @@
           "Type": "Image",
           "Id": "AliceInWonderlandNo2",
           "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         },
         {
           "Type": "Text",
@@ -71,13 +71,13 @@
           "Label": {
             "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
           },
-          "Delay": "4"
+          "Delay": "6"
         },
         {
           "Type": "Image",
           "Id": "AliceInWonderlandNo4",
           "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg",
-          "Delay": "3"
+          "Delay": "4"
         }
       ]
     }
