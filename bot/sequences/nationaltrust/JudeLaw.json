@@ -40,7 +40,8 @@
         {
           "Type": "Image",
           "Id": "JudeLawWrong3",
-          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
+          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg",
+          "Delay":"4"
         }
       ]
     },
@@ -66,7 +67,8 @@
         {
           "Type": "Image",
           "Id": "JudeLawRight2",
-          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg"
+          "Path": "https://img11.hostingpics.net/pics/410163JudeLaw2SMALL.jpg",
+          "Delay":"4"
         }
       ]
     }
