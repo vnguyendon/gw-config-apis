@@ -21,31 +21,39 @@
           "Type": "Text",
           "Id": "BeatrixPotterRight1",
           "Label": {
-            "en": "Beatrix Potter indeed! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
+            "en": "Beatrix Potter indeed!"
           },
-          "Delay": "4"
+          "Delay": "3"
+        },
+        {
+          "Type": "Text",
+          "Id": "BeatrixPotterRight2",
+          "Label": {
+            "en": "In all her drawings you can see she loved nature and farm animals 🐏"
+          },
+          "Delay": "5"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterRight2",
+          "Id":"BeatrixPotterRight3",
           "Path":"https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterRight3",
+          "Id":"BeatrixPotterRight4",
           "Path":"https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterRight4",
+          "Id":"BeatrixPotterRight5",
           "Path":"https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterRight5",
+          "Id":"BeatrixPotterRight6",
           "Path":"https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg",
           "Delay":"4"
         }
@@ -66,31 +74,39 @@
           "Type": "Text",
           "Id": "BeatrixPotterWrong1",
           "Label": {
-            "en": "It was Beatrix Potter! She loved nature and British farms, they were a real source of inspiration for her incredible stories and drawings 🐏"
+            "en": "It was Beatrix Potter!"
           },
           "Delay": "4"
         },
         {
+          "Type": "Text",
+          "Id": "BeatrixPotterWrong2",
+          "Label": {
+            "en": "In all her drawings you can see she loved nature and farm animals 🐏"
+          },
+          "Delay": "5"
+        },
+        {
           "Type":"Image",
-          "Id":"BeatrixPotterWrong2",
+          "Id":"BeatrixPotterWrong3",
           "Path":"https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterWrong3",
+          "Id":"BeatrixPotterWrong4",
           "Path":"https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterWrong4",
+          "Id":"BeatrixPotterWrong5",
           "Path":"https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg",
           "Delay":"4"
         },
         {
           "Type":"Image",
-          "Id":"BeatrixPotterWrong5",
+          "Id":"BeatrixPotterWrong6",
           "Path":"https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg",
           "Delay":"4"
         }
