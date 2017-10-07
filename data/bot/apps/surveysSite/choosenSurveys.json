@@ -6,6 +6,7 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MarrySomeoneOlderOrYounger.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"},                  
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/GunsAllowedOrForbidden.json"},                             
       { "order" : 100, "file": "/bot/sequences/surveyquestions/TeaOrCoffee.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
