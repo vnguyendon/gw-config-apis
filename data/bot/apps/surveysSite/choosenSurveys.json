@@ -26,7 +26,6 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CuriousOrDetermined.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/AbandonPizzaOrChocolate.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},      
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/BrexitWillHappen.json"},      
       { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"}    
       ]
   }
