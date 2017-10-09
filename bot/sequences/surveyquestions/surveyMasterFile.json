@@ -131,7 +131,12 @@
       "/bot/sequences/surveyquestions/ETSurveyOrSurveyPony.json",
       "/bot/sequences/surveyquestions/GotobedBeforeOrAfter11pm.json",
       "/bot/sequences/surveyquestions/HappyOrMeaningfulLife.json",
-      "/bot/sequences/surveyquestions/FacebookOrInstagram.json"
+      "/bot/sequences/surveyquestions/FacebookOrInstagram.json",
+      "/bot/sequences/surveyquestions/DoYouMindPeopleSmoking.json",
+      "/bot/sequences/surveyquestions/GoogleOrFacebook.json",
+      "/bot/sequences/surveyquestions/HowManyPostcards3orMore.json",
+      "/bot/sequences/surveyquestions/SendMessagesToFriendsOrFamily.json",
+      "/bot/sequences/surveyquestions/SweetOrSaltyBreakfast.json"
       ]
   }
 ]
