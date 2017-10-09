@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "SendMessagesToFriendsOrFamily",
+  "Label":
+    {
+      "en": "You send more messages to",
+      "fr": "Tu envoies plus de messages à",
+      "es": "Envias más mensajes a"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MoreMessagesFriends",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "d9WRhx9qErqCY"
+          },
+          "Label":{
+            "en": "your friends",
+            "fr": "tes amis",
+            "es": "tus amigos"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MoreMessagesFamily",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "KCNA66FPO1pvy"
+          },
+          "Label":{
+            "en": "your family",
+            "fr": "ta famille",
+            "es": "tu familia"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "GoogleOrFacebook",
+  "Label":
+    {
+      "en": "Which company do you feel better about?",
+      "fr": "Quelle entreprise te fait meilleure impression ?",
+      "es": "¿Qué empresa te gusta más?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "Google",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "XwYs0S7RPIOu4"
+          },
+          "Label":{
+            "en": "Google",
+            "fr": "Google",
+            "es": "Google"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "Facebook",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "1RlB9YeANAXh6"
+          },
+          "Label":{
+            "en": "Facebook",
+            "fr": "Facebook",
+            "es": "Facebook"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HowManyPostcards3orMore",
+  "Label":
+    {
+      "en": "How many postcards did you send last year?",
+      "fr": "Combien de cartes postales as-tu envoyé l'année dernière ?",
+      "es": "¿Cuántas postales enviaste el año pasado?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LessThan3Postcards",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/189451pexelsphoto191429.jpg"
+          },
+          "Label":{
+            "en": "less than 3",
+            "fr": "moins de 3",
+            "es": "menos de 3"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "3PostcardsOrMore",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "External",
+            "Path": "https://img11.hostingpics.net/pics/600421pexelsphoto265946.jpg"
+          },
+          "Label":{
+            "en": "3 or more",
+            "fr": "3 ou plus",
+            "es": "3 o más"
+          }
+        }
+      ]
+}
+

@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "DoYouMindPeopleSmoking",
+  "Label":
+    {
+      "en": "Do you mind people smoking around you?",
+      "fr": "Es-tu gêné par les gens qui fument autour de toi ?",
+      "es": "¿Te molesta la gente que fuma cerca de ti?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "NoDontMind",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "VMpjSKSoCQi64"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "YesIMind",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "12QHTwiwyOTNkY"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+      ]
+}
+

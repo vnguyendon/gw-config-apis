@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "SweetOrSaltyBreakfast",
+  "Label":
+    {
+      "en": "At breakfast, you prefer to eat",
+      "fr": "Au petit-déjeuner, tu préfères manger",
+      "es": "Para desayunar, prefieres comer"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "SweetBreakfast",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "2C7o4KdNauZy"
+          },
+          "Label":{
+            "en": "sweet food",
+            "fr": "du sucré",
+            "es": "platos dulces"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "SaltyBreakfast",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "Hw6UVMpnc0oXS"
+          },
+          "Label":{
+            "en": "salty food",
+            "fr": "du salé",
+            "es": "platos salados"
+          }
+        }
+      ]
+}
+
