@@ -36,15 +36,6 @@
         "es": "Caballos"
       }
     },
-        {
-      "Path": "/common/giphycontent/premiumchristmas.json",
-      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
-      "Labels": {
-        "en": "Merry Christmas",
-        "fr": "Joyeux Noël",
-        "es": "Feliz Navidad"
-      }
-    },
     {
       "Path": "/common/giphycontent/premiumcartoon1.json",
       "DefaultImage": "/specialoccasions/you-are-the-best/default/small/Believe-the-unbelievable-000053641330_Medium.jpg",
@@ -88,6 +79,24 @@
         "en": "Pika",
         "fr": "Pika",
         "es": "Pika"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumchristmas.json",
+      "DefaultImage": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg",
+      "Labels": {
+        "en": "Merry Christmas",
+        "fr": "Joyeux Noël",
+        "es": "Feliz Navidad"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/premiumhappynewyear.json",
+      "DefaultImage": "/specialoccasions/happy-new-year/default/small/shutterstock_339970934.jpg",
+      "Labels": {
+        "en": "Happy New Year",
+        "fr": "Bonne année",
+        "es": "Feliz año nuevo"
       }
     }
   ]
