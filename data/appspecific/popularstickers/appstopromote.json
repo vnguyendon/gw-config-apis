@@ -3,6 +3,12 @@
 "apps": 
   [
     {
+      "title": "Do people think like you? Ask our Messenger Pony!",
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
+      "storeUrl": "https://m.me/SurveyPony"
+    }
+    ,    
+    {
       "title": "Try me, I'm a bot!",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
       "storeUrl": "https://m.me/QuoteoBot"
