@@ -1,0 +1,46 @@
+{
+	"Type": "Question",
+	"Id": "AreYouOftenLate",
+	"Label": {
+		"en": "Are you often late?"
+	},
+	"Commands": [
+		{
+			"Type": "ShowQuestion",
+			"Id": "OftenLate",
+			"Label": {
+				"en": "Yes"
+			},
+			"LinksTo": {
+				"Type": "Question",
+				"Id": "CanISuggestOftenLateMessages",
+				"Label": {
+					"en": "Can I suggest you messages to send when you're late?"
+				},
+				"Commands": [
+					{
+						"Type": "DoNothing",
+						"Id": "OftenLateMessageYes",
+						"Label": {
+							"en": "Yes"
+						}
+					},
+					{
+						"Type": "DoNothing",
+						"Id": "OftenLateMessageNo",
+						"Label": {
+							"en": "No"
+						}
+					}
+				]
+			}
+		},
+		{
+			"Type": "DoNothing",
+			"Id": "NotOftenLate",
+			"Label": {
+				"en": "No"
+			}
+		}
+	]
+}

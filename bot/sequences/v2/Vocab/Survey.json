@@ -1,0 +1,24 @@
+{
+  "Type": "Question",
+  "Id": "XXXX",
+  "Label": {
+    "en": "XXXX"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YYYY1",
+      "Label": {
+        "en": "YYYY1"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "YYYY2",
+      "Label": {
+        "en": "YYYY2"
+      }
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+	"Type": "Question",
+	"Id": "XXXX",
+	"Label": {
+		"en": "Which type of cards would you like?"
+	},
+	"Commands": [
+		{
+			"Type": "ShowCards",
+			"Id": "SuggestionsPoems",
+			"Comments": "if selected we'll show a Poem card",
+			"LinksTo": {
+				"Type": "Intention",
+				"Id": "43B296"
+			}
+		},
+		{
+			"Type": "ShowCards",
+			"Id": "SuggestionsNature",
+			"Comments": "if selected we'll show a card associated the image theme nature",
+			"Label": {
+				"en": "Nature"
+			},
+			"LinksTo": {
+				"Type": "Theme",
+				"Id": "themes/nature"
+			}
+		}
+	]
+}
