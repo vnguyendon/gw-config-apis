@@ -31,7 +31,8 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MoreImportantPeaceOrFood.json"},      
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ShouldGvtsRegulateTheInternet.json"},      
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json"},      
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json"},       
       { "order" : 100, "file": "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"}      
       ]
   }
