@@ -1,0 +1,52 @@
+{
+  "Type": "Story",
+  "Id": "Title",
+  "Label": {
+    "en": "Title"
+  },
+  "ContinueQuestion": {},
+  "Commands": [
+    {
+      "Type": "ContinueStory",
+      "Id": "ContinueYes",
+      "Label": {
+        "en": "And..."
+      },
+    },
+    {
+      "Type": "DoNothing",
+      "Id": "ContinueNo",
+      "Label": {
+        "en": "Stop"
+      }
+    }
+  ],
+  "Steps": [
+    {
+      "OrderId": "10",
+      "Type": "Text",
+      "Label": {
+        "en": "XXXXX"
+      },
+      "Wait": "No"
+    },
+    {
+      "OrderId": "20",
+      "Type": "Image",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "6wqxZkxZfDTfG"
+      },
+      "Wait": "Yes"
+    },
+    {
+      "OrderId": "30",
+      "Type": "Text",
+      "Label": {
+        "en": "YYYYY"
+      },
+      "Wait": "Yes"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "Type": "Question",
+  "Id": "XXXX",
+  "Label": {
+    "en": "XXXX"
+  },
+  "OptionalPrompt": {
+    "Type": "Image",
+    "Source": "External",
+    "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
+  },
+  "Commands": [
+    {
+      "Type": "DoNothing",
+      "Id": "YYYY",
+      "Label": {
+        "en": "YYYY"
+      }
+    },
+    {
+      "Type": "DoNothing",
+      "Id": "ZZZZ",
+      "Label": {
+        "en": "ZZZZ"
+      }
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "Type": "Question",
+  "Id": "XXXX",
+  "Label": {
+    "en": "XXXX"
+  },
+  "Commands": [
+    {
+      "Type": "DoNothing",
+      "Id": "YYYY",
+      "Label": {
+        "en": "YYYY"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "76hdmaMUK9X20"
+      },
+    },
+    {
+      "Type": "DoNothing",
+      "Id": "ZZZZ",
+      "Label": {
+        "en": "ZZZZ"
+      },
+      "OptionalFeedback": {
+        "Type": "Image",
+        "Source": "External",
+        "Path": "https://img11.hostingpics.net/pics/189451pexelsphoto191429.jpg"
+      }
+    }
+  ]
+}
