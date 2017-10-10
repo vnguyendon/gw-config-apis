@@ -1,6 +1,3 @@
-
-
-
 {
   "Type": "Question",
   "Id": "PandasOrLions",
@@ -9,8 +6,7 @@
       "en": "You can only save one species from extinction. You choose",
       "fr": "Tu ne peux sauver qu'une seule espèce de l'extinction. Tu choisis",
       "es": "Solo puedes salvar una especie de la extinción. Eliges"
-    }
-  ,
+    },
   "Randomize": "true",
   "Commands":
       [
