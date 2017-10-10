@@ -26,9 +26,13 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MoreEnergeticMorningOrAfternoon.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/TownOrCountryside.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/CuriousOrDetermined.json"},
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"},
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},      
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"}    
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/MessengerOrWhatsApp.json"},      
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/MoreImportantPeaceOrFood.json"},      
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/ShouldGvtsRegulateTheInternet.json"},      
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json"},      
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"}      
       ]
   }
 ]
