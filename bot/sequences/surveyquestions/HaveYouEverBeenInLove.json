@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "HaveYouEverBeenInLove",
+  "Label":
+    {
+      "en": "Have you ever been in love?",
+      "fr": "As-tu déjà été amoureux ?",
+      "es": "¿Ya has estado enamorado? "
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHaveBeeninLove",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "Internal",
+            "Path": "http://az767698.vo.msecnd.net/specialoccasions/I-love-you/default/small/paradise-heart-shaped-island-000018664690_Medium.jpg"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoHaventBeeninLove",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "Image",
+            "Source": "Internal",
+            "Path": "http://az767698.vo.msecnd.net/specialoccasions/I-love-you/default/small/401237_306837836094160_1135347896_n.jpg"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
+

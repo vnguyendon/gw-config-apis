@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "FunnyOrGoodlookingPartner",
+  "Label":
+    {
+      "en": "You prefer your partner to be",
+      "fr": "Tu préfères que la personne que tu aimes soit",
+      "es": "Prefieres que tu pareja sea"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "PreferFunnyPartner",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l3HBbltOYjoNq"
+          },
+          "Label":{
+            "en": "funny",
+            "fr": "drôle",
+            "es": "divertida"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "PreferGoodlookingPartner",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "uELtzAhhqpRKg"
+          },
+          "Label":{
+            "en": "good-looking",
+            "fr": "belle",
+            "es": "guapa"
+          }
+        }
+      ]
+}
+

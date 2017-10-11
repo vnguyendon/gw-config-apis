@@ -1,0 +1,47 @@
+{
+  "Type": "Question",
+  "Id": "SweetWordsOrGentleTouch",
+  "Label":
+    {
+      "en": "It is easier for you to show you care with",
+      "fr": "C'est plus facile pour toi d'exprimer ton affection avec",
+      "es": "Es más fácil para ti expresar tu afecto con"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "SweetWords",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "gbDsm8Hn7aIuc"
+          },
+          "Label":{
+            "en": "sweet words",
+            "fr": "des mots",
+            "es": "palabras dulces"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "GentleTouch",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "XArfwywQ4D3Pi"
+          },
+          "Label":{
+            "en": "a gentle touch",
+            "fr": "des gestes",
+            "es": "toques suaves"
+          }
+        }
+      ]
+}
+
