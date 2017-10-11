@@ -121,5 +121,8 @@
       "/bot/sequences/surveyquestions/GoogleOrFacebook.json",
       "/bot/sequences/surveyquestions/HowManyPostcards3orMore.json",
       "/bot/sequences/surveyquestions/SendMessagesToFriendsOrFamily.json",
-      "/bot/sequences/surveyquestions/SweetOrSaltyBreakfast.json"
+      "/bot/sequences/surveyquestions/SweetOrSaltyBreakfast.json",
+      "/bot/sequences/surveyquestions/FunnyOrGoodlookingPartner.json",
+      "/bot/sequences/surveyquestions/HaveYouEverBeenInLove.json",
+      "/bot/sequences/surveyquestions/SweetWordsOrGentleTouch.json"
 ] 
