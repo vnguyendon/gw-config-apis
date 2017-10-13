@@ -28,6 +28,15 @@
       }
     },
     {
+      "Path": "/common/giphycontent/like.json",
+      "DefaultImage": "/themes/pairs/small/shutterstock_148572530.jpg",
+      "Labels": {
+        "en": "I like you",
+        "fr": "Tu me plais",
+        "es": "Me gustas"
+      }
+    },
+    {
       "Path": "/common/giphycontent/miss.json",
       "DefaultImage": "/specialoccasions/I-miss-you/default/small/shutterstock_93294814.jpg?dl=0",
       "Labels": {
@@ -70,15 +79,6 @@
         "en": "You are the best",
         "fr": "Tu es le/la meilleur(e)",
         "es": "Eres lo/el mejor"
-      }
-    },
-    {
-      "Path": "/common/giphycontent/like.json",
-      "DefaultImage": "/themes/pairs/small/shutterstock_148572530.jpg",
-      "Labels": {
-        "en": "I like you",
-        "fr": "Tu me plais",
-        "es": "Me gustas"
       }
     },
     {
