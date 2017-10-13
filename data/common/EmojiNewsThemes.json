@@ -25,7 +25,7 @@
   ,
    { 
   "Path" : "/themes/emoticons2/small",
-  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844729_9.jpg",
+  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844732_1.jpg",
   "Labels":
    {
     "en": "3D emojis",
@@ -58,7 +58,7 @@
   ,
   { 
   "Path" : "/themes/emojiCats/small",
-  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
+  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_14.jpg",
   "Labels":
    {
     "en": "Cats",
