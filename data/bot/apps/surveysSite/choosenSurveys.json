@@ -11,6 +11,7 @@
       { "order" : 65, "file": "/bot/sequences/surveyquestions/LiveInAnotherCountry.json"},
       { "order" : 68, "file": "/bot/sequences/surveyquestions/CatsOrDogs.json"},
       { "order" : 70, "file": "/bot/sequences/surveyquestions/NapoleonOrCheGuevara.json"},            
+      { "order" : 72, "file": "/bot/sequences/surveyquestions/JusticeOrFreedom.json"},                        
       { "order" : 80, "file": "/bot/sequences/surveyquestions/HappyToLoseWeight.json"},
       { "order" : 90, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
       { "order" : 92, "file": "/bot/sequences/surveyquestions/QualityofBooksorFoodV2.json"},      
