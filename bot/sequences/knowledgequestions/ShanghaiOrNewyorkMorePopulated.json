@@ -1,59 +1,71 @@
-{   
+{
   "Type": "Question",
   "Id": "ShanghaiOrNewyorkMorePopulated",
-  "Label":
+  "Steps": [
     {
-      "en": "Which city has more inhabitants?",
-      "fr": "Quelle ville a le plus d'habitants?",
-      "es": "¿Qué ciudad tiene más habitantes?"
+      "Type": "Text",
+      "Id": "10",
+      "Labels": {
+        "en": "Which city has more inhabitants?",
+        "fr": "Quelle ville a le plus d'habitants?",
+        "es": "¿Qué ciudad tiene más habitantes?"
+      }
     },
-  "OptionalFeedback": {
+    {
       "Type": "Image",
-      "Source": "External",
-      "Path": "https://img11.hostingpics.net/pics/331441220pxGothamKnightSkyline.jpg"
+      "Id": "20",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/331441220pxGothamKnightSkyline.jpg"
+      }
     }
-  ,
+  ],
   "Randomize": "true",
-  "Commands":
-      [
+  "Commands": [
+    {
+      "Type": "ShowFeedback",
+      "Id": "NYCMorePopulated",
+      "Quiz": false,
+      "StepValue": "1",
+      "Label": {
+        "en": "New-York (USA)",
+        "fr": "New-York (USA)",
+        "es": "Nueva-York (EE.UU.)"
+      },
+      "Steps": [
         {
-          "Type": "ShowFeedback",
-          "Id": "NYCMorePopulated",
-          "StepValue" : "1",
-          "Label":{
-            "en": "New-York (USA)",
-            "fr": "New-York (USA)",
-            "es": "Nueva-York (EE.UU.)"
-          },
-        "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "WrongShanghaiMorePopulated",
-            "Label": {
-                "en": "Wrong answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
-                "fr": "Mauvaise réponse ! Shanghai a 24 millions d'habitants : c'est un million de plus que New-York",
-                "es": "¡Respuesta equivocada! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
-              }
-            }
-        }
-        ,
-        {
-          "Type": "ShowFeedback",
-          "Id": "ShanghaiMorePopulated",
-          "StepValue" : "1",
-          "Label":{
-            "en": "Shanghai",
-            "fr": "Shanghai",
-            "es": "Shanghai"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "RightShanghaiMorePopulated",
-            "Label": {
-                "en": "Right answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
-                "fr": "Bonne réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
-                "es": "¡Respuesta correcta! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
-              }
-            }
+          "Type": "Text",
+          "Id": "WrongShanghaiMorePopulated",
+          "Label": {
+            "en": "Wrong answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
+            "fr": "Mauvaise réponse ! Shanghai a 24 millions d'habitants : c'est un million de plus que New-York",
+            "es": "¡Respuesta equivocada! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
+          }
         }
       ]
+    },
+    {
+      "Type": "ShowFeedback",
+      "Id": "ShanghaiMorePopulated",
+      "Quiz": true,
+      "StepValue": "1",
+      "Label": {
+        "en": "Shanghai",
+        "fr": "Shanghai",
+        "es": "Shanghai"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "RightShanghaiMorePopulated",
+          "Label": {
+            "en": "Right answer! Shanghai has 24 millions inhabitants: that's one million more than NYC",
+            "fr": "Bonne réponse ! Shanghai a 24 millions d'habitants: c'est un million de plus que New-York",
+            "es": "¡Respuesta correcta! Shanghai tiene 24 millones de habitantes: es un millón más que Nueva-York"
+          }
+        }
+      ]
+    }
+  ]
 }
