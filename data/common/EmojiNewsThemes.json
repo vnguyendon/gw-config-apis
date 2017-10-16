@@ -1,7 +1,16 @@
 {
 "Themes":
 [
- 
+ { 
+  "Path" : "/themes/emojiLove/small",
+  "DefaultImage" : "/themes/emojiLove/small/iStock_000065867555_Medium.jpg",
+  "Labels":
+   {
+    "en": "Love emojis",
+    "fr": "Emojis love",
+    "es": "Emojis love"
+    }
+  }
   ,
   { 
   "Path" : "/themes/emojiTigers/small",
