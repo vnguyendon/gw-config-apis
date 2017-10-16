@@ -34,7 +34,29 @@
     }
   }
   ,
- { 
+   { 
+  "Path" : "/themes/emojiKittens/small",
+  "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_12.jpg",
+  "Labels":
+   {
+    "en": "Kittens",
+    "fr": "Chatons",
+    "es": "Gatitos"
+    }
+  }
+ ,
+   { 
+  "Path" : "/themes/emojiNonsense/small",
+  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
+  "Labels":
+   {
+    "en": "Disguised emojis",
+    "fr": "Emojis déguisés",
+    "es": "Emojis disfrazados"
+    }
+  }
+  ,
+  { 
   "Path" : "/themes/emojiPandas/small",
   "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
   "Labels":
@@ -45,7 +67,18 @@
     }
   }
   ,
-  { 
+   { 
+  "Path" : "/themes/emojiSun/small",
+  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
+  "Labels":
+   {
+    "en": "Sunny emojis",
+    "fr": "Emojis soleil",
+    "es": "Emojis sol"
+    }
+  }
+  ,
+   { 
   "Path" : "/themes/penguins/small",
   "DefaultImage" : "/themes/penguins/small/shutterstock_326065538_2.jpg",
   "Labels":
@@ -56,6 +89,29 @@
     }
   }
   ,
+   { 
+  "Path" : "/themes/emojiVanilla/small",
+  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+  "Labels":
+   {
+    "en": "Pastel emojis",
+    "fr": "Emojis pastels",
+    "es": "Emojis pasteles"
+    }
+  }
+  ,
+    { 
+  "Path" : "/themes/emojiPuppies/small",
+  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
+  "Labels":
+   {
+    "en": "Puppies",
+    "fr": "Chiots",
+    "es": "Perros"
+    }
+  }
+  ,
+ 
   { 
   "Path" : "/themes/emojiCats/small",
   "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_14.jpg",
@@ -67,17 +123,6 @@
     }
   }
   ,
-   { 
-  "Path" : "/themes/emojiPuppies/small",
-  "DefaultImage" : "/themes/emojiPuppies/small/shutterstock_398942398_10.jpg",
-  "Labels":
-   {
-    "en": "Puppies",
-    "fr": "Chiots",
-    "es": "Perros"
-    }
-  }
-  ,
   { 
   "Path" : "/themes/emojiRabbits/small",
   "DefaultImage" : "/themes/emojiRabbits/small/shutterstock_431193436_2.jpg",
@@ -86,39 +131,6 @@
     "en": "Rabbits",
     "fr": "Lapins",
     "es": "Conejos"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiVanilla/small",
-  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
-  "Labels":
-   {
-    "en": "Pastel emojis",
-    "fr": "Emojis pastels",
-    "es": "Emojis pasteles"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiSun/small",
-  "DefaultImage" : "/themes/emojiSun/small/shutterstock_422197138_2.jpg",
-  "Labels":
-   {
-    "en": "Sunny emojis",
-    "fr": "Emojis soleil",
-    "es": "Emojis sol"
-    }
-  }
-  ,
-  { 
-  "Path" : "/themes/emojiNonsense/small",
-  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
-  "Labels":
-   {
-    "en": "Disguised emojis",
-    "fr": "Emojis déguisés",
-    "es": "Emojis disfrazados"
     }
   }
   ,
@@ -276,17 +288,6 @@
     }
   }
   ,
-  { 
-  "Path" : "/themes/emojiCats/small",
-  "DefaultImage" : "/themes/emojiCats/small/shutterstock_429770818_4.jpg",
-  "Labels":
-   {
-    "en": "Cats",
-    "fr": "Chats",
-    "es": "Gatos"
-    }
-  }
- ,
  { 
   "Path" : "/themes/emoticons3/small",
   "DefaultImage" : "/themes/emoticons3/small/shutterstock_294473564_4.jpg",
