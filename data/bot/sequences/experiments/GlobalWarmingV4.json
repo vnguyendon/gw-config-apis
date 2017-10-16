@@ -49,7 +49,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GWisImportant",
       "StepValue": "1",
       "CommandLabel": {
