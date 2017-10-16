@@ -1,0 +1,191 @@
+{
+  "Type": "Question",
+  "Id": "FarneIslands",
+  "Steps": [
+    {
+      "Type": "Break",
+      "Id": "1",
+      "Mode": "Stop",
+      "Label": {
+        "en": "Next"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "2",
+      "Label": {
+        "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
+          }
+    },
+    {
+      "Type": "Break",
+      "Id": "2",
+      "Mode":"Wait",
+      "Parameters": {
+        "ms":2000
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "3",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "http://az767698.vo.msecnd.net/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "ShowSteps",
+      "Id": "FarneIslands10yo",
+      "Actions": ["DoVote","ShowSurveyResults"],
+      "StepValue": "1",
+      "Label": {
+        "en": "10 years"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "1",
+          "Label": {
+            "en": "Puffins live longer than you might think, their life expectancy is 20 years."
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "2",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":4000
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "3",
+          "Label": {
+            "en": "Some of them can reach 30 years old and over! 😮"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "4",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "5",
+          "Source":{
+            "Type": "Picture",
+            "Source": "Internal",
+            "Path": "/small/iStock_000010603333_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "6",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":4500
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "7",
+          "Label": {
+            "en": "There are few better places to see them than on the Farne Islands:"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "8",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":4500
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "9",
+          "Source":{
+            "Type": "Picture",
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
+          }
+        }
+      ]
+    }
+    ,
+    {
+      "Type": "ShowSteps",
+      "Id": "FarneIslands20yo",
+      "Actions": ["DoVote","ShowSurveyResults"],
+      "StepValue": "1",
+      "Label": {
+        "en": "20 years"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "1",
+          "Label": {
+            "en": "Exactly! And some of them can easily reach 30 years old and over! 😮"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "2",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "3",
+          "Source":{
+            "Type": "Picture",
+            "Source": "Internal",
+            "Path": "/small/iStock_000010603333_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "4",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":4500
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "5",
+          "Label": {
+            "en": "There are few better places to see them than on the Farne Islands:"
+          }
+        },
+        {
+          "Type": "Break",
+          "Id": "6",
+          "Mode":"Wait",
+          "Parameters": {
+            "ms":4500
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "7",
+          "Source":{
+            "Type": "Picture",
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
