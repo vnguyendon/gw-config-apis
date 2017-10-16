@@ -17,7 +17,7 @@
       { "order" : 78, "file": "/bot/sequences/surveyquestions/TomorrowBetterThanToday.json"},             
       { "order" : 80, "file": "/bot/sequences/surveyquestions/HappyToLoseWeight.json"},
       { "order" : 90, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
-      { "order" : 92, "file": "/bot/sequences/surveyquestions/QualityofBooksorFoodV2.json"},      
+      { "order" : 92, "file": "/bot/sequences/surveyquestions/QualityofBooksorFood.json"},      
       { "order" : 94, "file": "/bot/sequences/surveyquestions/LessCorruptionOrInequality.json"},   
       { "order" : 95, "file": "/bot/sequences/surveyquestions/NikeOrAdidas.json"},              
       { "order" : 96, "file": "/bot/sequences/surveyquestions/USBombNorthKorea.json"},         
