@@ -1,60 +1,71 @@
-
 {
   "Type": "Question",
   "Id": "FastestHorseOrOstrich",
-  "Label":
+  "Steps": [
     {
-      "en": "In a race, which one would win?",
-      "fr": "Dans une course, lequel gagnerait?",
-      "es": "¿En una carrera, quién ganaría?"
+      "Type": "Text",
+      "Id": "10",
+      "Label": {
+        "en": "In a race, which one would win?",
+        "fr": "Dans une course, lequel gagnerait?",
+        "es": "¿En una carrera, quién ganaría?"
+      }
     },
-  "OptionalFeedback": {
+    {
       "Type": "Image",
-      "Source": "External",
-      "Path": "https://img11.hostingpics.net/pics/644724horseandostrichracemthollynewjerseyfair1901agurmankinsmall.jpg"
+      "Id": "20",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/644724horseandostrichracemthollynewjerseyfair1901agurmankinsmall.jpg"
+      }
     }
-  ,
+  ],
   "Randomize": "true",
-  "Commands":
-      [
+  "Commands": [
+    {
+      "Type": "ShowFeedback",
+      "Id": "FastestOstrich",
+      "Quiz": false,
+      "StepValue": "1",
+      "Label": {
+        "en": "ostrich",
+        "fr": "autruche",
+        "es": "avetruz"
+      },
+      "Steps": [
         {
-          "Type": "ShowFeedback",
-          "Id": "FastestOstrich",
-          "StepValue" : "1",
-          "Label":{
-            "en": "ostrich",
-            "fr": "autruche",
-            "es": "avetruz"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "WrongHorseWin",
-            "Label": {
-                "en": "Wrong answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
-                "fr": "Mauvaise réponse ! Les chevaux ont une vitesse maximale de 88Km/h, contre 70Km/h pour les autruches",
-                "es": "¡Respuesta equivocada! Caballos tienen una velocidad máxima de 88km/h, contra 70km/h para avetruces"
-              }
-            }
-        }
-        ,
-        {
-          "Type": "ShowFeedback",
-          "Id": "FastestHorse",
-          "StepValue" : "1",
-          "Label":{
-            "en": "horse",
-            "fr": "cheval",
-            "es": "caballo"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "RightHorseWin",
-            "Label": {
-                "en": "Right answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
-                "fr": "Bonne réponse ! Les chevaux ont une vitesse maximale de 88Km/h, contre 70Km/h pour les autruches",
-                "es": "¡Respuesta correcta! Caballos tienen una velocidad máxima de 88km/h, contra 70km/h para avetruces"
-              }
-            }
+          "Type": "DoNothing",
+          "Id": "WrongHorseWin",
+          "Label": {
+            "en": "Wrong answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
+            "fr": "Mauvaise réponse ! Les chevaux ont une vitesse maximale de 88Km/h, contre 70Km/h pour les autruches",
+            "es": "¡Respuesta equivocada! Caballos tienen una velocidad máxima de 88km/h, contra 70km/h para avetruces"
+          }
         }
       ]
+    },
+    {
+      "Type": "ShowFeedback",
+      "Id": "FastestHorse",
+      "Quiz": true,
+      "StepValue": "1",
+      "Label": {
+        "en": "horse",
+        "fr": "cheval",
+        "es": "caballo"
+      },
+      "Steps": [
+        {
+          "Type": "DoNothing",
+          "Id": "RightHorseWin",
+          "Label": {
+            "en": "Right answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
+            "fr": "Bonne réponse ! Les chevaux ont une vitesse maximale de 88Km/h, contre 70Km/h pour les autruches",
+            "es": "¡Respuesta correcta! Caballos tienen una velocidad máxima de 88km/h, contra 70km/h para avetruces"
+          }
+        }
+      ]
+    }
+  ]
 }
