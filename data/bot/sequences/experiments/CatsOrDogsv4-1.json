@@ -1,29 +1,38 @@
 {
-  "Type": "Question",
+  "Type": "Node",
   "Id": "CatsOrDogs",
-  "Label": {
-    "en": "Are you more",
-    "fr": "Est-ce que tu préfères",
-    "es": "Te gustan mas"
-  },
+  "Steps": [{
+      "Type": "Text",
+      "Id": "1",
+      "Label": {
+        "en": "Are you more",
+        "fr": "Est-ce que tu préfères",
+        "es": "Te gustan mas"
+      }
+   }],
   "Randomize": "true",
   "Commands": [
     {
-      "Actions": [
-        "DoVote",
-        "ShowSurveyResults"
-      ],
+      "Type":"Leaf",
       "Id": "PreferCats",
       "StepValue": "1",
-      "Label": {
+      "CommandLabel": {
         "en": "a cat person 🐱",
         "fr": "les chats 🐱",
         "es": "los gatos 🐱"
       },
       "Steps": [
         {
+            "Type":"Action",
+            "Id":"10",
+            "Name":"DoVote",
+            "Params": {
+              "additionalCounter" : "surveyCatsAndDogsCounterWhatever"
+            }
+        },
+        {
           "Type": "Image",
-          "Id": "1",
+          "Id": "20",
           "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
@@ -31,8 +40,13 @@
           }
         },
         {
+            "Type":"Action",
+            "Id":"10",
+            "Name":"ShowSurveyResults"
+        },
+        {
           "Type": "Break",
-          "Id": "2",
+          "Id": "40",
           "Mode": "Wait",
           "Parameters": {
             "ms": 1000
@@ -40,7 +54,7 @@
         },
         {
           "Type": "Text",
-          "Id": "3",
+          "Id": "50",
           "Label": {
             "en": "Dogs have masters. Cats have staff.",
             "fr": "Les chiens ont des maîtres. Les chats ont du personnel.",
@@ -49,7 +63,7 @@
         },
         {
           "Type": "Break",
-          "Id": "4",
+          "Id": "60",
           "Mode": "Wait",
           "Parameters": {
             "ms": 3000
@@ -57,39 +71,38 @@
         },
         {
           "Type": "Image",
-          "Id": "5",
+          "Id": "70",
           "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "fZGmLzHoTFf1u"
           }
-        },
-        {
-          "Type": "Break",
-          "Id": "6",
-          "Mode": "Wait",
-          "Parameters": {
-            "ms": 2000
-          }
         }
       ]
     },
     {
-      "Actions": [
-        "DoVote",
-        "ShowSurveyResults"
-      ],
+      "Type":"Leaf",
       "Id": "PreferDogs",
       "StepValue": "1",
-      "Label": {
+      "CommandLabel": {
         "en": "a dog person 🐶",
         "fr": "les chiens 🐶",
         "es": "los perros 🐶"
       },
       "Steps": [
         {
+            "Type":"Action",
+            "Id":"10",
+            "Name":"DoVote"
+        },
+        {
+            "Type":"Action",
+            "Id":"20",
+            "Name":"ShowSurveyResults"
+        },
+        {
           "Type": "Image",
-          "Id": "1",
+          "Id": "30",
           "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
@@ -98,7 +111,7 @@
         },
         {
           "Type": "Break",
-          "Id": "2",
+          "Id": "40",
           "Mode": "Wait",
           "Parameters": {
             "ms": 1000
@@ -106,7 +119,7 @@
         },
         {
           "Type": "Text",
-          "Id": "3",
+          "Id": "50",
           "Label": {
             "en": "Be the person your dog thinks you are.",
             "fr": "Sois la personne que ton chien pense que tu es.",
@@ -115,7 +128,7 @@
         },
         {
           "Type": "Break",
-          "Id": "4",
+          "Id": "60",
           "Mode": "Wait",
           "Parameters": {
             "ms": 3000
@@ -123,19 +136,11 @@
         },
         {
           "Type": "Image",
-          "Id": "5",
+          "Id": "70",
           "Source": {
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "ijFKWqCZfYdIQ"
-          }
-        },
-        {
-          "Type": "Break",
-          "Id": "6",
-          "Mode": "Wait",
-          "Parameters": {
-            "ms": 2000
           }
         }
       ]
