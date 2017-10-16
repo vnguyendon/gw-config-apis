@@ -1,60 +1,72 @@
 {
   "Type": "Question",
   "Id": "HippopotamusesSharksKillMore",
-  "Label":
+  "Steps": [
     {
-      "en": "Each year, hippopotamuses kill more people than sharks do",
-      "fr": "Chaque année, les hippopotames tuent de personnes plus que les requins",
-      "es": "Cada año, los hipopótamos matan a más humanos que los tiburones"
+      "Type": "Text",
+      "Id": "10",
+      "Labels": {
+        "en": "Each year, hippopotamuses kill more people than sharks do",
+        "fr": "Chaque année, les hippopotames tuent de personnes plus que les requins",
+        "es": "Cada año, los hipopótamos matan a más humanos que los tiburones"
+      }
     },
-      "OptionalPrompt": {
+    {
       "Type": "Image",
-      "Source": "External",
-      "Path": "https://img11.hostingpics.net/pics/897776sharkhipposmall.jpg"
+      "Id": "20",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/897776sharkhipposmall.jpg"
+      }
     }
-  ,
+  ],
   "Randomize": "true",
-  "Commands":
-      [
+  "Commands": [
+    {
+      "Type": "ShowFeedback",
+      "Id": "HippopotamusesKillMore",
+      "Quiz": true,
+      "StepValue": "1",
+      "Label": {
+        "en": "true",
+        "fr": "vrai",
+        "es": "verdadero"
+      },
+      "Steps": [
         {
-          "Type": "ShowFeedback",
-          "Id": "HippopotamusesKillMore",
-          "StepValue" : "1",
-          "Label":{
-            "en": "true",
-            "fr": "vrai",
-            "es": "verdadero"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "RightHippopotamusesKillMore",
-            "Label": {
-                "en": "Wrong answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
-                "fr": "Mauvaise réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
-                "es": "¡Respuesta equivocada! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
-              }
-            }
-        }
-        ,
-        {
-          "Type": "ShowFeedback",
-          "Id": "SharksKillMore",
-          "StepValue" : "1",
-          "Label":{
-            "en": "false",
-            "fr": "faux",
-            "es": "falso"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "WrongHippopotamusesKillMore",
-            "Label": {
-                "en": "Right answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
-                "fr": "Bonne réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
-                "es": "¡Respuesta correcta! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
-              }
-            }
+          "Type": "Text",
+          "Id": "RightHippopotamusesKillMore",
+          "Label": {
+            "en": "Wrong answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
+            "fr": "Mauvaise réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
+            "es": "¡Respuesta equivocada! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
+          }
         }
       ]
+    },
+    {
+      "Type": "ShowFeedback",
+      "Id": "SharksKillMore",
+      "Quiz": false,
+      "StepValue": "1",
+      "Label": {
+        "en": "false",
+        "fr": "faux",
+        "es": "falso"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "WrongHippopotamusesKillMore",
+          "Label": {
+            "en": "Right answer! Sharks kill 10 people per year on average, compared to 500 for the hippopotamuses",
+            "fr": "Bonne réponse ! Les requins tuent 10 personnes par an en moyenne. Les hippopotames en tuent 500 en comparaison",
+            "es": "¡Respuesta correcta! Tiburones matan a 10 personas por año. En comparación, hipopótamos matan a 500 personas por año"
+          }
+        }
+      ]
+    }
+  ]
 }
 
