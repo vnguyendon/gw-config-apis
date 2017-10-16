@@ -35,7 +35,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "WrongHorseWin",
           "Label": {
             "en": "Wrong answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
@@ -57,7 +57,7 @@
       },
       "Steps": [
         {
-          "Type": "DoNothing",
+          "Type": "Text",
           "Id": "RightHorseWin",
           "Label": {
             "en": "Right answer! Horses have a top speed of 88Km/h, compared to 70K/h for ostriches",
