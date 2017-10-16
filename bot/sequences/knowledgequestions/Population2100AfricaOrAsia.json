@@ -1,63 +1,71 @@
-
 {
   "Type": "Question",
   "Id": "AfricaMorePopulatedThanAsiaIn2100",
-  "Label":
+  "Steps": [
     {
-      "en": "In 2100, there will be more people in Africa than in Asia.",
-      "fr": "En 2100, l'Afrique sera plus peuplée que l'Asie.",
-      "es": "En 2100, África será más poblada que Asia."
+      "Type": "Text",
+      "Id": "10",
+      "Labels": {
+        "en": "In 2100, there will be more people in Africa than in Asia.",
+        "fr": "En 2100, l'Afrique sera plus peuplée que l'Asie.",
+        "es": "En 2100, África será más poblada que Asia."
+      }
     },
-  "OptionalFeedback": {
+    {
       "Type": "Image",
-      "Source": "External",
-      "Path": "https://img11.hostingpics.net/pics/916134lego10448911920small.jpg"
+      "Id": "20",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/916134lego10448911920small.jpg"
+      }
     }
-  ,
+  ],
   "Randomize": "true",
-  "Commands":
-      [
+  "Commands": [
+    {
+      "Type": "ShowFeedback",
+      "Id": "AfricaMorePopulated",
+      "Quiz": false,
+      "StepValue": "1",
+      "Label": {
+        "en": "true",
+        "fr": "vrai",
+        "es": "verdadero"
+      },
+      "Steps": [
         {
-          "Type": "ShowFeedback",
-          "Id": "AfricaMorePopulated",
-          "StepValue" : "1",
-          "Label":{
-            "en": "true",
-            "fr": "vrai",
-            "es": "verdadero"
-          },
-        "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "WrongAsiaMorePopulated",
-            "Comments":"We show the user the right answer.",
-            "Label": {
-                "en": "Wrong answer! In 2100, Asia will still be more populated than Africa.",
-                "fr": "Mauvaise réponse ! En 2100, l'Asie sera toujours plus peuplée que l'Afrique.",
-                "es": "¡Respuesta equivocada! En 2100, Asia será todavía más poblada que África."
-              }
-            }
-        }
-        ,
-        {
-          "Type": "ShowFeedback",
-          "Id": "AsiaMorePopulated",
-          "StepValue" : "1",
-          "Label":{
-            "en": "false",
-            "fr": "faux",
-            "es": "falso"
-          },
-          "LinksTo" :{
-            "Type":"DoNothing",
-            "Id": "RightAsiaMorePopulated",
-            "Comments":"We show the user the right answer.",
-            "Label": {
-                "en": "Right answer! In 2100, Asia will still be more populated than Africa.",
-                "fr": "Bonne réponse ! En 2100, l'Asie sera toujours plus peuplée que l'Afrique.",
-                "es": "¡Respuesta correcta! En 2100, Asia será todavía más poblada que África."
-              }
-            }
+          "Type": "Text",
+          "Id": "WrongAsiaMorePopulated",
+          "Label": {
+            "en": "Wrong answer! In 2100, Asia will still be more populated than Africa.",
+            "fr": "Mauvaise réponse ! En 2100, l'Asie sera toujours plus peuplée que l'Afrique.",
+            "es": "¡Respuesta equivocada! En 2100, Asia será todavía más poblada que África."
+          }
         }
       ]
+    },
+    {
+      "Type": "ShowFeedback",
+      "Id": "AsiaMorePopulated",
+      "Quiz": true,
+      "StepValue": "1",
+      "Label": {
+        "en": "false",
+        "fr": "faux",
+        "es": "falso"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Id": "RightAsiaMorePopulated",
+          "Label": {
+            "en": "Right answer! In 2100, Asia will still be more populated than Africa.",
+            "fr": "Bonne réponse ! En 2100, l'Asie sera toujours plus peuplée que l'Afrique.",
+            "es": "¡Respuesta correcta! En 2100, Asia será todavía más poblada que África."
+          }
+        }
+      ]
+    }
+  ]
 }
-
