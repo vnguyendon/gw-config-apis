@@ -1,16 +1,7 @@
 {
 "Themes":
 [
- { 
-  "Path" : "/themes/emoticons/small",
-  "DefaultImage" : "/themes/emoticons/small/000015392841.jpg",
-  "Labels":
-   {
-    "en": "Classic emojis",
-    "fr": "Emojis classiques",
-    "es": "Emojis clásicos"
-    }
-  }
+ 
   ,
   { 
   "Path" : "/themes/emojiTigers/small",
@@ -23,17 +14,17 @@
     }
   }
   ,
-   { 
-  "Path" : "/themes/emoticons2/small",
-  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844732_1.jpg",
+ { 
+  "Path" : "/themes/emoticons/small",
+  "DefaultImage" : "/themes/emoticons/small/000015392841.jpg",
   "Labels":
    {
-    "en": "3D emojis",
-    "fr": "Emojis 3D",
-    "es": "Emojis 3D"
+    "en": "Classic emojis",
+    "fr": "Emojis classiques",
+    "es": "Emojis clásicos"
     }
   }
-  ,
+ ,
    { 
   "Path" : "/themes/emojiKittens/small",
   "DefaultImage" : "/themes/emojiKittens/small/shutterstock_397906726_12.jpg",
@@ -45,17 +36,17 @@
     }
   }
  ,
-   { 
-  "Path" : "/themes/emojiNonsense/small",
-  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
+ { 
+  "Path" : "/themes/emoticons2/small",
+  "DefaultImage" : "/themes/emoticons2/small/shutterstock_190844732_1.jpg",
   "Labels":
    {
-    "en": "Disguised emojis",
-    "fr": "Emojis déguisés",
-    "es": "Emojis disfrazados"
+    "en": "3D emojis",
+    "fr": "Emojis 3D",
+    "es": "Emojis 3D"
     }
   }
-  ,
+ ,
   { 
   "Path" : "/themes/emojiPandas/small",
   "DefaultImage" : "/themes/emojiPandas/small/shutterstock_431449828_3.jpg",
@@ -89,14 +80,14 @@
     }
   }
   ,
-   { 
-  "Path" : "/themes/emojiVanilla/small",
-  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+ { 
+  "Path" : "/themes/emojiNonsense/small",
+  "DefaultImage" : "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg",
   "Labels":
    {
-    "en": "Pastel emojis",
-    "fr": "Emojis pastels",
-    "es": "Emojis pasteles"
+    "en": "Disguised emojis",
+    "fr": "Emojis déguisés",
+    "es": "Emojis disfrazados"
     }
   }
   ,
@@ -131,6 +122,17 @@
     "en": "Rabbits",
     "fr": "Lapins",
     "es": "Conejos"
+    }
+  }
+  ,
+ { 
+  "Path" : "/themes/emojiVanilla/small",
+  "DefaultImage" : "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg",
+  "Labels":
+   {
+    "en": "Pastel emojis",
+    "fr": "Emojis pastels",
+    "es": "Emojis pasteles"
     }
   }
   ,
