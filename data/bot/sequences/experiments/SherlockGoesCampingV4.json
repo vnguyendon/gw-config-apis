@@ -1,0 +1,316 @@
+{
+  "Type": "Story",
+  "Id": "SherlockGoesCampingStory",
+  "Comment": "taken from http://www.sunnyskyz.com/funny-jokes/20/Sherlock-Holmes-and-Dr-Watson-Go-Camping",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Id": "10",
+      "Label": {
+        "en": "Sherlock Holmes and Dr Watson go camping",
+        "fr": "Sherlock Holmes et Dr Watson partent camper",
+        "es": "Sherlock Holmes y Dr Watson van a acampar"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "20",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id": "30",
+      "Label": {
+        "en": "Sherlock Holmes and Dr. Watson decided to go on a camping trip. After dinner and a bottle of wine, they laid down for the night, and went to sleep.",
+        "fr": "Sherlock Holmes et le Dr Watson décident de partir camper. Après avoir dîné et bu une bouteille de vin, ils se préparent pour la nuit et vont dormir.",
+        "es": "Sherlock Holmes y el Dr Watson deciden de ir a acampar. Después de haber cenado y tomado una botella de vino, se preparan y van a dormir."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "40",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 4000
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "50",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "6wqxZkxZfDTfG"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "60",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id":"70",
+      "Label": {
+        "en": "Some hours later, Holmes awoke and nudged his faithful friend.",
+        "fr": "Quelques heures plus tard, Holmes se réveille et secoue son fidèle acolyte.",
+        "es": "Unas horas más tarde, Holmes despierta y despierta también a su fiel compañero."
+      }
+    },
+    {
+      "Type": "Text",
+      "Id":"80",
+      "Label": {
+        "en": "\"Watson, look up at the sky and tell me what you see.\"",
+        "fr": "- Watson, regarde le ciel et dis-moi ce que tu vois.",
+        "es": "-Watson, mira el cielo y dime ¿qué ves?"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "90",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id":"100",
+      "Label": {
+        "en": "Watson replied, \"I see millions of stars.\"",
+        "fr": "- Je vois des millions d'étoiles, répond Watson.",
+        "es": "-Veo millones de estrellas, responde Watson."
+      }
+    },
+    {
+      "Type": "Image",
+      "Id":"110",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "lqiIee2J8QwYU"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "120",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id":"130",
+      "Label": {
+        "en": "\"What does that tell you?\" asked Sherlock.",
+        "fr": "- Et qu'est-ce que cela signifie ? demande Sherlock Holmes.",
+        "es": "- ¿Y qué significa eso? pregunta Sherlock Holmes."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "140",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 3000
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "150",
+      "Label": {
+        "en": "Watson pondered for a minute.",
+        "fr": "Watson réfléchit un moment.",
+        "es": "Watson piensa un momento."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "160",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "170",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/596024Sherlock1.jpg"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "180",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id": "190",
+      "Label": {
+        "en": "\"Astronomically, it tells me that there are millions of galaxies and potentially billions of planets.\"",
+        "fr": "- D'un point de vue astronomique, cela signifie qu'il y a des millions de galaxies et potentiellement des milliards de planètes.",
+        "es": "- Desde un punto de vista astronómico, se puede deducir que hay millones de galaxias y potencialmente millones de planetas."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "200",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Image",
+      "Id": "210",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "lBP3tG76NPGN2"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "220",
+      "Label": {
+        "en": "\"Astrologically, I observe that Saturn is in Leo.\"",
+        "fr": "D'un point de vue astrologique, j'observe que Saturne est en Lion.",
+        "es": "Desde el punto de vista de la astrología, se puede observar a Saturno en Leo."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "230",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Image",
+      "Id": "240",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "vPSH11AKvnT8Y"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "250",
+      "Label": {
+        "en": "\"Horologically, I deduce that the time is approximately a quarter past three.\"",
+        "fr": "D'un point de vue temporel, j'en déduis qu'il est environ trois heures et quart.",
+        "es": "Desde un punto de vista temporal, se deduce que son más o menos las 3:15am."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "260",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Image",
+      "Id": "270",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "KJiy5MErTIj4c"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "280",
+      "Label": {
+        "en": "\"Theologically, I can see that God is all powerful and that we are small and insignificant.\"",
+        "fr": "D'un point de vue théologique, je peux voir que Dieu est puissant et que nous sommes insignifiants.",
+        "es": "Desde la teología, podría decirse que Dios es poderoso y que nosotros somos insignificantes."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "290",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Image",
+      "Id": "300",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "m5oQabBdoOye4"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "310",
+      "Label": {
+        "en": "\"Meteorologically, I suspect that we will have a beautiful day tomorrow.\"",
+        "fr": "D'un point de vue météorologique, je pense qu'il fera très beau demain.",
+        "es": "Desde un análisis meteorológico, creo que mañana habrá buen clima."
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "320",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 4000
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "330",
+      "Label": {
+        "en": "\"What does it tell YOU, Holmes?\"",
+        "fr": "- Et selon toi, qu'est-ce que cela signifie, Holmes ?",
+        "es": "¿Y según tu? ¿qué significa?"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "340",
+      "Mode": "Stop"
+    },
+    {
+      "Type": "Text",
+      "Id": "350",
+      "Label": {
+        "en": "Holmes was silent for a minute, then spoke:",
+        "fr": "Holmes ne dit rien pendant une minute, puis prend la parole :",
+        "es": "Holmes no dice nada durante un minuto y después habla :"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "355",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 4000
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "360",
+      "Label": {
+        "en": "\"Watson, you idiot. Someone has stolen our tent!\"",
+        "fr": "\"Watson, pauvre idiot. On s'est fait voler notre tente !\"",
+        "es": "¡Watson, idiota. Nos robaron la carpa!"
+      }
+    },
+    {
+      "Type": "Break",
+      "Id": "370",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 5000
+      }
+    }
+  ],
+  "LinksTo": {
+    "Type": "SetUserProperty",
+    "Id": "StorySherlockGoesCamping",
+    "Label": {
+      "en": "Thanks for reading my story!",
+      "fr": "Merci d'avoir lu mon histoire !",
+      "es": "¡Gracias por leer mi historia!"
+    },
+    "Parameters": {
+      "property": "StorySherlockGoesCampingDone",
+      "value": "true"
+    }
+  }
+}

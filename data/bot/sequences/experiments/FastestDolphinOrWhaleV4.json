@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "FastestDolphinOrWhale",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Id": "10",
+      "Label": {
+        "en": "In a race, which one would win?",
+        "fr": "Dans une course, lequel gagnerait?",
+        "es": "¿En una carrera, quién ganaría? "
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "20",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/622835whalesanddolphinssmall.jpg"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FastestDolphin",
+      "StepValue": "1",
+      "CommandLabel": {
+        "en": "dolphin",
+        "fr": "dauphin",
+        "es": "delfín"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "Quiz",
+          "Params": {
+            "additionalCounter": "False"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "20",
+          "Label": {
+            "en": "Wrong answer! A blue whale can swim as fast as 50km/h, whereas most dolphins don't reach 40km/h",
+            "fr": "Mauvaise réponse ! Une baleine bleue peut nager à 50 km/h, alors que la plupart des dauphins n'atteignent pas 40km/h",
+            "es": "¡Respuesta equivocada! Ballenas tienen una velocidad máxima de 50km/h, contra 40km/h para delfines"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FastestWhale",
+      "StepValue": "1",
+      "Label": {
+        "en": "whale",
+        "fr": "baleine",
+        "es": "ballena"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "Quiz",
+          "Params": {
+            "additionalCounter": "True"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "20",
+          "Label": {
+            "en": "Right answer! A blue whale can swim as fast as 50km/h, whereas most dolphins don't reach 40km/h. ",
+            "fr": "Bonne réponse ! Une baleine bleue peut nager à 50 km/h, alors que la plupart des dauphins n'atteignent pas 40km/h.",
+            "es": "¡Respuesta correcta!  Ballenas tienen una velocidad máxima de 50km/h, contra 40km/h para delfines"
+          }
+        }
+      ]
+    }
+  ]
+}
