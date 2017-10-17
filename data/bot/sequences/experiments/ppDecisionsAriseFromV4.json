@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id" : "ppDecisionsAriseFrom",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Id": "10",
+      "Source": {
+        "Type": "Picture",
+        "Source": "Dropbox",
+        "Path": "themes/emoticons/small/000073674269.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "20",
+      "Label": {
+        "en":"(3/4) Your decisions arise from",
+        "fr":"(3/4) Vos décisions sont guidées par",
+        "es":"(3/4) Sus decisiones están guiadas por"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Command": [
+    {
+      "Type": "Leaf",
+      "StepValue" : "1",
+      "Id" : "DecisionsAriseFromFeelings",
+      "CommandLabel":{
+        "en":"Your values and feelings",
+        "fr":"Vos valeurs, vos sentiments",
+        "es":"Sus valores, sus sentimientos"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Id": "10",
+          "Source": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "pYCZPDymIVjeo"
+          }
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "SetUserProperty",
+          "Params": {
+            "ppDecisionsAriseFrom": "Feelings"
+         }
+        }
+      ]
+    }
+    ,
+    {
+      "Type": "Leaf",
+      "StepValue" : "1",
+      "Id" : "DecisionsAriseFromThinking",
+      "CommandLabel": {
+        "en":"Rational thinking",
+        "fr":"Des raisonnements logiques",
+        "es":"Razonamientos lógicos"
+    },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Id": "10",
+          "Source": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "a5viI92PAF89q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "SetUserProperty",
+          "Params": {
+            "ppDecisionsAriseFrom": "Thinking"
+         }
+        }
+      ]
+    }
+  ]
+}
+
