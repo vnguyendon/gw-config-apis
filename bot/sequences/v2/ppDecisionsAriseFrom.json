@@ -1,62 +1,52 @@
 {
-    "Type" : "Question",
-    "Id" : "ppDecisionsAriseFrom",
+    "Type": "Question",
+    "Id": "ppDecisionsAriseFrom",
     "Comments": "this question give us information about peoples's profile",
+    "ImageUrl" : "http://az767698.vo.msecnd.net/themes/emoticons/small/000073674269.jpg",
     "Label": {
-      "en":"Your decisions arise from",
-      "fr":"Tes décisions sont guidées par tes",
-      "es":"Tus decisiones están guiadas por tus"
+      "en": "Your decisions arise from",
+      "fr": "Vos décisions sont guidées par",
+      "es": "Sus decisiones están guiadas por"
     },
-    "Randomize": true,
-    "Commands":
-    [
-        {
-          "Type": "SetUserProperty",
-          "Id" : "DecisionsAriseFromFeelings",
-          "StepValue" : "1",
-          "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "pYCZPDymIVjeo",
-          "AdditionalLabels": [{
-            "en":"It's easier to die for what we believe than to believe a little less.",
-            "fr":"Il est plus facile de mourir pour ce qu'on croit que d'y croire un peu moins.",
-            "es":"Es mas fácil morir por lo que uno cree que creer un poco menos."
-             }]
-          },
-          "Label":{
-            "en":"values & feelings",
-            "fr":"valeurs & sentiments",
-            "es":"valores y sentimientos"
-          },
-          "Parameters" : {
-             "property" : "ppDecisionsAriseFrom",
-             "value" : "Feelings"
-      	  }
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "SetUserProperty",
+        "Id": "DecisionsAriseFromFeelings",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "14hWUIZK0rKFS8"
         },
-        {
-          "Type": "SetUserProperty",
-          "Id" : "DecisionsAriseFromThinking",
-          "StepValue" : "1",
-          "OptionalFeedback": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "a5viI92PAF89q",
-          "AdditionalLabels": [{
-            "en":"Everything that is simple is false, everything that is complicated is useless.",
-            "fr":"Ce qui est simple est faux. Ce qui est compliqué est inutile.",
-            "es":"Lo que es simple es falso. Lo que es complicado es inútil."
-            }]
-          },
-          "Label":{
-              "en":"rational thinking",
-              "fr":"raisonnements logiques",
-              "es":"razonamientos lógicos"
-          },
-          "Parameters" : {
-            "property" : "ppDecisionsAriseFrom",
-            "value" : "Thinking"
-      		}
+        "Label": {
+          "en": "Your values and feelings",
+          "fr": "Vos valeurs, vos sentiments",
+          "es": "Sus valores, sus sentimientos"
+        },
+        "LinksTo": {
+          "Type": "ppDecisionsAriseFrom",
+          "Id": "Feelings"
         }
+      },
+      {
+        "Type": "SetUserProperty",
+        "Id": "DecisionsAriseFromThinking",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "a5viI92PAF89q"
+        },
+        "Label": {
+          "en": "Rational thinking",
+          "fr": "Des raisonnements logiques",
+          "es": "Razonamientos lógicos"
+        },
+        "LinksTo": {
+          "Type": "ppDecisionsAriseFrom",
+          "Id": "Thinking"
+        }
+      }
     ]
-}
+  }
