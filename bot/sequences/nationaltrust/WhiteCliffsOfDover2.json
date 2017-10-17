@@ -1,80 +1,167 @@
-{
-  "Type": "Question",
-  "Id": "WhiteCliffsOfDover",
-  "Label": {
-    "en": "Where would you go to see those beautiful White Cliffs?"
-  },
-  "OptionalPrompt": {
-    "Type": "Image",
-    "Path": "https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
-  },
-  "Randomize": "true",
-  "Commands": [
-    {
-      "Type": "ShowSteps",
-      "Id": "WhiteCliffsOfDover-Dover",
-      "StepValue": "1",
-      "Label": {
-        "en": "Dover"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Id": "WhiteCliffsOfDover-Dover-Sequence1",
-          "Label": {
-            "en": "That's right! And those cliffs face the exact narrowest part of the Channel 🌊"
-          },
-          "Delay": "3",
-          "TypingIndicator": "1"
-        },
-        {
-          "Type": "Text",
-          "Id": "WhiteCliffsOfDover-Dover-Sequence2",
-          "Label": {
-            "en": "Here exactly:"
-          },
-          "Delay": "2",
-          "TypingIndicator": "1"          
-        },
-        {
-          "Type": "Maps",
-          "Id": "WhiteCliffsOfDover-Dover-Sequence3",
-          "Coordinates": "(51.126369, 1.316198)"
-        }
-      ]
+[
+  {
+    "Type": "Question",
+    "Id": "PsychoProfile",
+    "Label": {
+      "en": "Would you like to know more on your psychological profile?",
+      "fr": "Est-ce que tu veux en savoir plus sur ton profile psychologique?",
+      "es": "¿Quieres saber más sobre tu perfil psicológico? Solo necesitas contestar 4 preguntas"
     },
-    {
-      "Type": "ShowSteps",
-      "Id": "WhiteCliffsOfDover-Hastings",
-      "StepValue": "0",
-      "Label": {
-        "en": "Hastings"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Id": "WhiteCliffsOfDover-Hastings-Sequence1",
-          "Label": {
-            "en": "Actually you have to go to Dover to see them :) And those cliffs face the exact narrowest part of the Channel 🌊"
-          },
-          "Delay": "2",
-          "TypingIndicator": "1"
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "AskMBTIQuestions",
+        "Id": "PsychoYes",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "Ps89uHS7n72j6"
         },
-        {
-        "Type": "Text",
-        "Id": "WhiteCliffsOfDover-Hastings-Sequence2",
         "Label": {
-          "en": "Here exactly:"
-        },
-        "Delay": "2",
-        "TypingIndicator": "1"          
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Si"
+        }
       },
       {
-        "Type": "Maps",
-        "Id": "WhiteCliffsOfDover-Hastings-Sequence3",
-        "Coordinates": "(51.126369, 1.316198)"
+        "Type": "DoNothing",
+        "Id": "PsychoNo",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "3oz8xOnvv0wBikdNuw"
+        },
+        "Label": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        }
       }
-      ]
-    }
-  ]
-}
+    ]
+  },
+  {
+    "Type": "Question",
+    "Id": "ppRevealed",
+    "Comments": "We are displaying the user's psychological profile of the user, using the optional prompt to pull the right sequence. We then ask for feeback",
+    "Label": {
+      "en": "Here is your psychological profile. Does that sound like you?",
+      "fr": "Voici ton profil psychologique. Est-ce qu'il te ressemble?",
+      "es": "Aquí está tu perfil psicológico. ¿Se parece a ti?"
+    },
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "SetUserProperty",
+        "Id": "RightProfile",
+        "StepValue": "1",
+        "Label": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Si"
+        },
+        "LinksTo": {
+          "Type": "PsychologicalProfile",
+          "Id": "custom"
+        }
+      },
+      {
+        "Type": "DoNothing",
+        "Id": "WrongProfile",
+        "StepValue": "1",
+        "Label": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        }
+      }
+    ]
+  },
+  {
+    "Type": "Question",
+    "Id": "WhiteCliffsOfDover",
+    "Label": {
+      "en": "Where would you go to see those beautiful White Cliffs?"
+    },
+    "OptionalPrompt": {
+      "Type": "Image",
+      "Path": "https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
+    },
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "ShowSteps",
+        "Id": "WhiteCliffsOfDover-Dover",
+        "StepValue": "1",
+        "Label": {
+          "en": "Dover"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "WhiteCliffsOfDover-Dover-Sequence1",
+            "Label": {
+              "en": "That's right! And those cliffs face the exact narrowest part of the Channel 🌊"
+            },
+            "Delay": "3",
+            "TypingIndicator": "1"
+          },
+          {
+            "Type": "Text",
+            "Id": "WhiteCliffsOfDover-Dover-Sequence2",
+            "Label": {
+              "en": "Here exactly:"
+            },
+            "Delay": "2",
+            "TypingIndicator": "1"
+          },
+          {
+            "Type": "Maps",
+            "Id": "WhiteCliffsOfDover-Dover-Sequence3",
+            "Coordinates": {
+              "Lat": "51.126369",
+              "Lng": "1.316198"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "ShowSteps",
+        "Id": "WhiteCliffsOfDover-Hastings",
+        "StepValue": "0",
+        "Label": {
+          "en": "Hastings"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "WhiteCliffsOfDover-Hastings-Sequence1",
+            "Label": {
+              "en": "Actually you have to go to Dover to see them :) And those cliffs face the exact narrowest part of the Channel 🌊"
+            },
+            "Delay": "2",
+            "TypingIndicator": "1"
+          },
+          {
+            "Type": "Text",
+            "Id": "WhiteCliffsOfDover-Hastings-Sequence2",
+            "Label": {
+              "en": "Here exactly:"
+            },
+            "Delay": "2",
+            "TypingIndicator": "1"
+          },
+          {
+            "Type": "Maps",
+            "Id": "WhiteCliffsOfDover-Hastings-Sequence3",
+            "Coordinates": {
+              "Lat": "51.126369",
+              "Lng": "1.316198"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
