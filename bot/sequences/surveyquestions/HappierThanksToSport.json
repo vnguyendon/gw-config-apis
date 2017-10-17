@@ -1,0 +1,46 @@
+{
+  "Type": "Question",
+  "Id": "HappierThanksToSport",
+  "Label":
+    {
+      "en": "Does time spent practicing sport make you happier?",
+      "fr": "Faire du sport te rend-il plus heureux ?",
+      "es": "¿Pasar tiempo haciendo deporte te hace más feliz?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHappierSport",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "TPnCfxx1XQ50Y"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotHappierSport",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "FGyywmWE7q7rW"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

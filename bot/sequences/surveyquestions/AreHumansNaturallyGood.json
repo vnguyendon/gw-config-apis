@@ -1,0 +1,46 @@
+{
+  "Type": "Question",
+  "Id": "AreHumansNaturallyGood",
+  "Label":
+    {
+      "en": "Are humans naturally good?",
+      "fr": "L'être humain est-il naturellement bon ?",
+      "es": "¿Crees que los humanos son buenos por naturaleza? "
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHumansAreGood",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "56d1Cw1Uco76M"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoHumansArentGood",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "TrYXjFjgam6A0"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

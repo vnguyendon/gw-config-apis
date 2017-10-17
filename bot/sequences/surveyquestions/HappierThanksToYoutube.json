@@ -1,0 +1,46 @@
+{
+  "Type": "Question",
+  "Id": "HappierThanksToYoutube",
+  "Label":
+    {
+      "en": "Does time spent on Youtube make you happier?",
+      "fr": "Passer du temps sur Youtube te rend-il plus heureux ?",
+      "es": "¿Pasar tiempo por Youtube te hace más feliz?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHappierYoutube",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "FnajwlnCf9Ysw"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotHappierYoutube",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "QIPEV0HWAiXVm"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

@@ -1,0 +1,46 @@
+{
+  "Type": "Question",
+  "Id": "HigherUnemploymentBenefits",
+  "Label":
+    {
+      "en": "Should unemployment benefits be higher?",
+      "fr": "Les allocations chômage devraient-elles être plus élevées ?",
+      "es": "¿Se debería aumentar los seguros de desempleo?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesHigherBenefits",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "l4JyM8m739ujkElJC"
+          },
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotHigherBenefits",
+          "StepValue" : "1",
+          "OptionalFeedback": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "uCLrqp14d6JH2"
+          },
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
