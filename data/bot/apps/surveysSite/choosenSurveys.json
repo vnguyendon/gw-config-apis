@@ -3,7 +3,6 @@
     "GroupName":"Surveys",
     "SequenceFiles" : [
       { "order" : 10, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
-      { "order" : 20, "file": "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json"},      
       { "order" : 30, "file": "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"},                  
       { "order" : 40, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
       { "order" : 50, "file": "/bot/sequences/surveyquestions/MarrySomeoneOlderOrYounger.json"},
@@ -25,6 +24,7 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ComputerOrCar.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MathsOrLiterature.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/SolveHungerOrPollution.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json"},      
       { "order" : 100, "file": "/bot/sequences/surveyquestions/HavingChildrenImproveLife.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/NapOrWorkout.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/FishOrMeat.json"},
