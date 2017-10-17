@@ -1,60 +1,51 @@
 {
-  "Type":"Question",
-  "Id": "ppOpenedOrSettled",
-  "Label": {
-    "en": "You feel better when things are",
-    "fr": "Tu préfères que les choses soient",
-    "es": "Prefieres que las cosas sean"
-  },
-  "Randomize": "true",
-  "Commands": [
-    {
-      "Type": "SetUserProperty",
-      "Id": "OpenedOrSettledIsSettled",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "26vUNhQzmhMtArwC4",
-          "AdditionalLabels": [{
-            "en":"«I will go anywhere as long as it is forward.»",
-            "fr":"«J'irai n'importe où tant que c'est en avant.»",
-            "es":"«Iré en cualquiera dirección si está adelante.»"
-            }]
-      },
-      "Label": {
-        "en": "settled, decided",
-        "fr": "tranchées, décidées",
-        "es": "cortadas, decididas"
-      },
-       "Parameters" : {
-      			"property" : "ppOpenedOrSettled",
-      		   "value" : "Settled"
-       }
+    "Type": "Question",
+    "Id": "ppOpenedOrSettled",
+    "ImageUrl" : "http://az767698.vo.msecnd.net/themes/emoticons/small/000016089832.jpg",
+    "Label": {
+      "en": "You feel better when things are",
+      "fr": "Vous préférez que les choses soient",
+      "es": "Usted prefiere que las cosas sean"
     },
-    {
-      "Type": "SetUserProperty",
-      "Id": "OpenedOrSettledIsOpened",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "lELRD773cY7Sg",
-          "AdditionalLabels": [{
-            "en":"Complex problems have simple, easy to understand, wrong answers.",
-            "fr":"Les problèmes complexes ont des réponses simples, faciles à comprendre et joliment erronées.",
-            "es":"Complejos problemas tienen soluciones simples, fáciles de entender y sobre todo: falsas."
-            }]
-      },
-      "Label": {
-        "en": "adaptable, evolving",
-        "fr": "adaptables, évolutives",
-        "es": "evolutivas"
-      },
-      "Parameters" : {
-           "property" : "ppOpenedOrSettled",
-           "value" : "Opened"
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "SetUserProperty",
+        "Id": "OpenedOrSettledIsSettled",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "26vUNhQzmhMtArwC4"
+        },
+        "Label": {
+          "en": "settled, decided",
+          "fr": "tranchées, décidées",
+          "es": "cortadas, decididas"
+        },
+        "LinksTo": {
+          "Type": "ppOpenedOrSettled",
+          "Id": "Settled"
         }
-    }
-  ]
-}
+      },
+      {
+        "Type": "SetUserProperty",
+        "Id": "OpenedOrSettledIsOpened",
+        "StepValue": "1",
+        "OptionalFeedback": {
+          "Type": "AnimatedGif",
+          "Source": "Giphy",
+          "Path": "3orifgB50UFpOc9CH6"
+        },
+        "Label": {
+          "en": "interpretable, evolving",
+          "fr": "interprétables, évolutives",
+          "es": "interpretables, evolutivas"
+        },
+        "LinksTo": {
+          "Type": "ppOpenedOrSettled",
+          "Id": "Opened"
+        }
+      }
+    ]
+  }
