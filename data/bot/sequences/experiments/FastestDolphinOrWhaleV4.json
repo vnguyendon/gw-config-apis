@@ -38,7 +38,7 @@
           "Id": "10",
           "Name": "Quiz",
           "Params": {
-            "additionalCounter": "False"
+            "quiz": false
           }
         },
         {
@@ -67,7 +67,7 @@
           "Id": "10",
           "Name": "Quiz",
           "Params": {
-            "additionalCounter": "True"
+            "quiz": true
           }
         },
         {
