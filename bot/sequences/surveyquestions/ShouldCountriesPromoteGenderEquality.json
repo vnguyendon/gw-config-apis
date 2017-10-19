@@ -1,0 +1,36 @@
+{
+  "Type": "Question",
+  "Id": "ShouldCountriesPromoteGenderEquality",
+  "Label":
+    {
+      "en": "Should more countries promote gender equality?",
+      "fr": "Plus de pays devraient-ils promouvoir l'égalité des genres ?",
+      "es": "¿Crees que más paises deberían promocionar la igualdad de género?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesPromoteGenderEquality",
+          "StepValue" : "1",
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoShouldntPromoteGenderEquality",
+          "StepValue" : "1",
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

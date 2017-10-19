@@ -1,0 +1,36 @@
+{
+  "Type": "Question",
+  "Id": "ShouldTalentedForeignersSettle",
+  "Label":
+    {
+      "en": "Should talented foreigners be encouraged to settle?",
+      "fr": "Faut-il faire venir les talents étrangers ?",
+      "es": "¿Hay que atraer a los talentos extranjeros?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesShouldSettle",
+          "StepValue" : "1",
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoShouldntSettle",
+          "StepValue" : "1",
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

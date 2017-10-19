@@ -1,0 +1,36 @@
+{
+  "Type": "Question",
+  "Id": "ShouldGvtsProtectMinorityFaiths",
+  "Label":
+    {
+      "en": "Should governments protect minority groups' faiths?",
+      "fr": "Les gouvernements devraient-ils protéger les croyances des minorités ?",
+      "es": "¿Crees que los gobiernos deberían proteger las creencias de las minorías?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesProtectMinorityFaiths",
+          "StepValue" : "1",
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoShouldntProtectMinorityFaiths",
+          "StepValue" : "1",
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

@@ -1,0 +1,36 @@
+{
+  "Type": "Question",
+  "Id": "ShouldCountriesControlBorders",
+  "Label":
+    {
+      "en": "Should countries do more to control their borders?",
+      "fr": "Les pays devraient-ils faire plus pour contrôler leurs frontières ?",
+      "es": "¿Crees que los paises deberían hacer más esfuerzos para el control de las fronteras ?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesShouldMoreControl",
+          "StepValue" : "1",
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoShouldntMoreControl",
+          "StepValue" : "1",
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}

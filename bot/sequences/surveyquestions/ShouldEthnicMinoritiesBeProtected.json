@@ -1,0 +1,36 @@
+{
+  "Type": "Question",
+  "Id": "ShouldEthnicMinoritiesBeProtected",
+  "Label":
+    {
+      "en": "Should ethnic minorities receive more protection?",
+      "fr": "Les minorités ethniques devraient-elles être mieux défendues ?",
+      "es": "¿Crees que las minorías étnicas deberían recibir mejor protección?"
+    }
+  ,
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "YesMoreProtection",
+          "StepValue" : "1",
+          "Label":{
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "NoNotMoreProtection",
+          "StepValue" : "1",
+          "Label":{
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          }
+        }
+      ]
+}
