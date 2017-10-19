@@ -4,9 +4,9 @@
   "Id": "FirstTimeBot",
   "Label":
     {
-      "en": "Is it your first chat with a bot 🤖?",
-      "fr": "Est-ce ta première conversation avec un bot 🤖?",
-      "es": "¿Esta es tu primera vez con un bot 🤖?"
+      "en": "Is it your first chat with a bot?",
+      "fr": "Est-ce ta première conversation avec un bot?",
+      "es": "¿Esta es tu primera charla con un bot?"
     }
   ,
   "Randomize": "true",
@@ -22,9 +22,9 @@
             "Path": "juG2hdQUFo06Y"
           },
           "Label":{
-            "en": "Yes",
-            "fr": "Oui",
-            "es": "Si"
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
           }
         }
         ,
@@ -38,9 +38,9 @@
             "Path": "3o7abB06u9bNzA8lu8"
           },
           "Label":{
-            "en": "No",
-            "fr": "Non",
-            "es": "No"
+            "en": "no",
+            "fr": "non",
+            "es": "no"
           }
         }
       ]
