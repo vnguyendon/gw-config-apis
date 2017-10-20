@@ -26,7 +26,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "AfricaMorePopulated",
-      "isCorrect": "false"
+      "isCorrect": "false",
       "StepValue": "1",
       "Label": {
         "en": "true",
