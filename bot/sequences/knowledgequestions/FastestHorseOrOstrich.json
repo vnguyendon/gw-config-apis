@@ -26,7 +26,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "FastestOstrich",
-      "Quiz": false,
+      "isCorrect": "false",
       "StepValue": "1",
       "Label": {
         "en": "ostrich",
@@ -48,7 +48,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "FastestHorse",
-      "Quiz": true,
+      "isCorrect": "true",
       "StepValue": "1",
       "Label": {
         "en": "horse",
