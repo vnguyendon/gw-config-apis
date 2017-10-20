@@ -48,7 +48,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "FastestWhale",
-      "isCorrect": "false",
+      "isCorrect": "true",
       "StepValue": "1",
       "Label": {
         "en": "whale",
