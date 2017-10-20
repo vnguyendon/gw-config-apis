@@ -2,7 +2,7 @@
   {
     "GroupName":"Start",
     "SequenceFiles" : [
-       { "order" : 05, "file": "/bot/telly/CanYouSeeTheButtons.json"}
+       { "order" : 5, "file": "/bot/telly/CanYouSeeTheButtons.json"}
       ]
   },
   {
