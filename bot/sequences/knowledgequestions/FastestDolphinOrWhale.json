@@ -26,7 +26,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "FastestDolphin",
-      "Quiz": false,
+      "isCorrect": "false",
       "StepValue": "1",
       "Label": {
         "en": "dolphin",
@@ -48,7 +48,7 @@
     {
       "Type": "ShowFeedback",
       "Id": "FastestWhale",
-      "Quiz": true,
+      "isCorrect": "false",
       "StepValue": "1",
       "Label": {
         "en": "whale",
