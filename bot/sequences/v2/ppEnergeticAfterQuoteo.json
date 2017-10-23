@@ -1,0 +1,64 @@
+{
+    "Type" : "Question",
+    "Id" : "ppEnergeticAfter",
+    "Label":
+        { 
+          "en":"You feel more energetic after being",
+          "fr":"Tu as plus d'énergie après avoir été avec",
+          "es":"Tu energía aumenta cuándo has estado"
+        }
+    ,
+    "Randomize": "true",
+    "Commands":
+    [
+        {
+             "Type": "SetUserProperty",
+              "Id" : "EnergeticAfterWithPeople",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "l41JIcNde564wLtPG",
+          "AdditionalLabels": [{
+            "en":"There is nothing better than a friend, unless it is a friend with chocolate.",
+            "fr":"Il n'y a rien de mieux qu'un ami, sauf peut-être un ami avec du chocolat.",
+            "es":"No hay nada mejor que un amigo, excepto un amigo con chocolate."
+             }]
+            },
+            "Label": {
+              "en":"with people",
+              "fr":"d'autres personnes",
+              "es":"con otras personas"
+            },
+            "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "WithPeople"
+            }
+        }
+        ,
+        {
+            "Type": "SetUserProperty",
+            "Id" : "EnergeticAfterOnYourOwn",
+            "StepValue" : "1",
+            "OptionalFeedback": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "B51EAJ0Frooq4",
+          "AdditionalLabels": [{
+            "en":"Friends come and go like the waves of the ocean … but the true ones stay, like an octopus on your face.",
+            "fr":"Les amis vont et viennent comme les vagues de l'océan... mais les vrais restent, comme une pieuvre qui s'accroche à ta tête.",
+            "es":"Amigos van y vienen como las olas del océano... pero los reales se quedan, como un pulpo agarrándose a tu cabeza."
+             }]
+            },
+            "Label": {
+              "en":"on your own",
+              "fr":"toi-même",
+              "es":"contigo mismo"
+            },
+             "Parameters" : {
+                "property" : "ppEnergeticAfter",
+                "value" : "OnYourOwn"
+             }
+        }
+    ]
+}
