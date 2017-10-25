@@ -9,9 +9,9 @@
       },
     "Commands": [
       {
-        "Type" : "ShowQuestion",
+        "Type" : "DoNothing",
         "Id" : "YesCuteKitten",
-        "StepValue" : "1",
+        "StepValue" : "0",
         "Label": {
               "en": "Yes",
               "fr": "Oui",
