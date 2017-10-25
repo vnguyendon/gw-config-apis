@@ -21,48 +21,6 @@
             "Type": "AnimatedGif",
             "Source": "Giphy",
             "Path": "gyRWkLSQVqlPi"
-        },
-        "LinksTo" : {
-          "Type":"Question",
-          "Id": "DidYouLikeIt",
-          "Comments":"if yes, then we can show another one!",
-          "Label": {
-              "en": "It's so cute, isn't it? ❤",
-              "fr": "Il est vraiment chou, non ? ❤",
-              "es": "¿Es muy lindo, no? ❤"
-            },
-          "Commands": [
-            {
-              "Type":"DoNothing",
-              "Id": "ItsCuteYes",
-              "StepValue" : "1",
-              "Label": {
-                  "en": "Yes",
-                  "fr": "Oui",
-                  "es": "Sí"
-              },
-              "OptionalFeedback": {
-              "Type": "AnimatedGif",
-              "Source": "Giphy",
-              "Path": "WYEWpk4lRPDq0"
-              }
-            },
-            {
-              "Type" : "DoNothing",
-              "Id": "ItsNotCute",
-              "StepValue" : "0",
-              "Label": {
-                  "en": "No",
-                  "fr": "Non",
-                  "es": "No"
-                },
-		"OptionalFeedback": {
-                "Type": "AnimatedGif",
-                "Source": "Giphy",
-                "Path": "71PLYtZUiPRg4"
-              }
-            }
-          ]
         }
       },
       {
