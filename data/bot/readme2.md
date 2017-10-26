@@ -17,21 +17,72 @@ Example:
         "LinksTo": {
           "Type": "Leaf"
           }
+     }
         
 
-"`Node`" and "`Leaf`" are the only values of the property "Type". Think of them as binary: each sequence step needs to be either a "`Node`" or "`Leaf`"
+Think of them as binary: each sequence step has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
 
-"`Command`" and "`LinksTo`" are used to transition from one type to another. "`Command`" points to commands that the user will see on his/her screen. 
+`Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
 
-We will now delve into the mecanics of a sequence following a concrete example.
+Let's use a concrete example to illustrate how we can build a sequence from here
 
 ## Scenario
 
 In this following sequence example:
 * A chatbot will ask us a question ("Are you often late?")
-* The chatbot will suggest answers as a set of command choices ("Yes" or "No")
-* We can select a command answer
+* The chatbot will suggest answers as a set of choices ("Yes" or "No")
+* We can select an answer
 * The bot executes an action as a result of this choice
+
+## Asking a question
+
+To start an interaction with a user, we need three ingredients:
+1. a `Type` which should be `node` if you want the user to react
+2. `Steps` : an array of content defining what you want to send to the user
+3. An `Id` for analytical purpose
+
+Example:
+
+     "Type": "Node",
+     "Id": "LikePuppies"
+     "Steps": [
+     {
+          "Type": "Image",
+          "Id": "10",
+          "Source": {
+               "Type": "Gif",
+               "Source": "Giphy",
+               "Path": "FC5aPFWCo7adG"
+               }
+          }
+     },
+     {
+          "Type": "Text",
+          "Id": "20",
+          "Label": {
+               "en": "Do you like puppies?",
+               "fr": "Est-ce que tu aimes les chiots"               }
+          }     
+     }
+     ]
+
+## Showing choices to the user
+
+
+## Reacting to the user's choice
+
+
+## Asking another question
+
+
+## Showing a carousel of choices (picture + text)
+
+
+## Executing an action
+
+
+## Randomizing the feedback
+
 
 ## Type: Story
 
