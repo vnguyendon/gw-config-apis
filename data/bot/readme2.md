@@ -61,12 +61,22 @@ Example:
           "Id": "20",
           "Label": {
                "en": "Do you like puppies?",
-               "fr": "Est-ce que tu aimes les chiots"               }
+               "fr": "Est-ce que tu aimes les chiots"
+               }
           }     
      }
      ]
 
+In this example, we have opened a `node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `GIF`, followed by `Text` (a question).
+
+*Note: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`
+
+Let's now see how we can offer the user to answer this question.
+
 ## Showing choices to the user
+
+
+
 
 
 ## Reacting to the user's choice
