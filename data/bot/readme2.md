@@ -3,15 +3,26 @@ In this file, we will describe the new format for the chatbot sequences. This fo
 
 ## The skeleton of a sequence
 
-The structure of a sequence is similar to that of a tree: each level is either made of nodes ("Node") or leaves ("Leaf"). A node needs to be followed by something ; a leaf is an end to the sequence. 
-"Node" and "Leaf" are the only values of the property "Type". Think of them as binary: each sequence step needs to be either a "Node or "Leaf"
-The format of the sequences will therefore look like that:
+The structure of a sequence is similar to that of a tree: each level is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
 
+Example:
+
+     {
      "Type": "Node",
      "Command": {
-        "Type": "Lea
+        "Type": "Leaf"
+          },
+          {
+        "Type": "Node",
+        "LinksTo": {
+          "Type": "Leaf"
+          }
         
-        
+
+"`Node`" and "`Leaf`" are the only values of the property "Type". Think of them as binary: each sequence step needs to be either a "`Node`" or "`Leaf`"
+
+"`Command`" and "`LinksTo`" are used to transition from one type to another. "`Command`" points to commands that the user will see on his/her screen. 
+
 We will now delve into the mecanics of a sequence following a concrete example.
 
 ## Scenario
