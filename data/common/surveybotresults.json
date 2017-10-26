@@ -4,9 +4,9 @@
       "ID": "totalVoters",
       "Label": [
         {
-          "fr": "{total} personnes ont voté",
-          "en": "{total} people voted",
-          "es": "{total} personas han votado"
+          "fr": "{value} personnes ont voté",
+          "en": "{value} people voted",
+          "es": "{value} personas han votado"
         }
       ]
     },
@@ -14,9 +14,9 @@
       "ID": "percentVotersAgree",
       "Label": [
         {
-          "fr": "{percentValue}% ont choisi comme toi",
-          "en": "{percentValue}% chose like you",
-          "es": "el {percentValue}% han votado como tú"
+          "fr": "{value}% ont choisi comme toi",
+          "en": "{value}% chose like you",
+          "es": "el {value}% han votado como tú"
         }
       ]
     },
@@ -24,9 +24,9 @@
       "ID": "percentVotersAgreeMen",
       "Label": [
         {
-          "fr": "hommes : {percentValue}%",
-          "en": "men: {percentValue}%",
-          "es": "hombres: {percentValue}%"
+          "fr": "hommes : {value}%",
+          "en": "men: {value}%",
+          "es": "hombres: {value}%"
         }
       ]
     },
@@ -34,9 +34,9 @@
       "ID": "percentVotersAgreeWomen",
       "Label": [
         {
-          "fr": "femmes : {percentValue}%",
-          "en": "women: {percentValue}%",
-          "es": "mujeres: {percentValue}%"
+          "fr": "femmes : {value}%",
+          "en": "women: {value}%",
+          "es": "mujeres: {value}%"
         }
       ]
     },
@@ -44,9 +44,9 @@
       "ID": "percentVotersAgreeCountry",
       "Label": [
         {
-          "fr": "{country} : {percentValue}%",
-          "en": "{country}: {percentValue}%",
-          "es": "{country}: {percentValue}%"
+          "fr": "{country} : {value}%",
+          "en": "{country}: {value}%",
+          "es": "{country}: {value}%"
         }
       ]
     },
@@ -54,9 +54,9 @@
       "key": "percentVotersAgreeLessThan40",
       "Label": [
         {
-          "fr": "moins de 40 ans : {percentValue}%",
-          "en": "younger people: {percentValue}%",
-          "es": "menores de 40 años: {percentValue}%"
+          "fr": "moins de 40 ans : {value}%",
+          "en": "younger people: {value}%",
+          "es": "menores de 40 años: {value}%"
         }
       ]
     },
@@ -64,9 +64,9 @@
       "key": "percentVotersAgree40AndOver",
       "Label": [
         {
-          "fr": "40 ans et plus : {percentValue}%",
-          "en": "people over 40: {percentValue}%",
-          "es": "mayores de 40 años: {percentValue}%"
+          "fr": "40 ans et plus : {value}%",
+          "en": "people over 40: {value}%",
+          "es": "mayores de 40 años: {value}%"
         }
       ]
     }
