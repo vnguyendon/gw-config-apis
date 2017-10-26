@@ -52,7 +52,7 @@ Example:
           "Source": {
                "Type": "Gif",
                "Source": "Giphy",
-               "Path": "FC5aPFWCo7adG"
+               "Path": "RHdoPmZgiJlzW"
                }
           }
      },
@@ -66,26 +66,165 @@ Example:
           }     
      }
      ]
+     ...
 
 In this example, we have opened a `node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `Gif`, followed by `Text` (a question).
 
-* **Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`*
+**Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`
 
 Let's now see how we can offer the user to answer this question.
 
 ## Showing choices to the user
 
+To show command choices to the user, we need to use `Command`:
+* It store an array of choices that the user can select
+* An `Id` will need to be defined for each choice
+* `Label` defines the content of these commands
 
+Example:
 
+     ...
+     "Commands": [
+     {
+          "Type": "node"
+          "Id": "LikePuppiesYes"
+          "Label": {
+               "en": "yes",
+               "fr": "oui"
+          }
+     },
+     {
+          "Type": "leaf"
+          "Id": "LikePuppiesNo"
+          "Label": {
+               "en": "no",
+               "fr": "non"
+          }
+     }
+     ]
+     
+The first command contains the `Type`: `node` - this means it will be followed by something. The second command contains the `Type`: `leaf` - it means the sequence will end here if the user selects this choice.
 
 
 ## Reacting to the user's choice
 
+We will want to react to the user's choice. We can do this simply by adding `Steps` to our command.
+
+Example:
+
+     ... 
+    "Commands": [
+     {
+          "Type": "node"
+          "Id": "LikePuppiesYes"
+          "Label": {
+               "en": "yes",
+               "fr": "oui"
+          }
+     },
+     {
+          "Type": "leaf"
+          "Id": "LikePuppiesNo"
+          "Label": {
+               "en": "no",
+               "fr": "non"
+          },
+          "Steps": [
+               {
+                    "Type": "Image",
+                    "Id": "10",
+                    "Source": {
+                         "Type": "Picture",
+                         "Source": "Web",
+                         "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
+                         }
+                    }
+               },
+               {
+                    "Type": "Text",
+                    "Id": "20",
+                    "Label": {
+                         "en": "I prefer cats as well :-)",
+                         "fr": "Je préfère aussi les chats :-)"
+                         }
+                    }     
+               }
+          ] 
+     }
+     ]
+
+
+Here we react to the user's choice by adding a picture and some text
 
 ## Asking another question
 
+As we've seen, our `Type`: `node` needs to be followed by another `Type`. In this case, we will want to ask another question to the user. To do that, we need to use the connector `LinksTo`.
+
+     ...
+     "Commands": [
+     {
+          "Type": "node"
+          "Id": "LikePuppiesYes"
+          "Label": {
+               "en": "yes",
+               "fr": "oui"
+          },
+          "LinksTo": {
+               "Type": "Node",
+               "Id": "PuppiesYesWhichPuppie",
+               "Steps": [
+                    {
+                         "Type": "Text",
+                         "Id": "10"
+                         "Label": {
+                              "en": "Which of these do you prefer?",
+                              "fr": "Lequel préfères-tu?"
+                         }
+                    }
+               ]
+          }
+     },
+     ...
 
 ## Showing a carousel of choices (picture + text)
+
+Again, we will want to show choices to our user, so we can interact with her/him. 
+This time however, we will want to take advantage of the carousel format offered by messaging clients. They are usually made of an image and text.
+
+          ...
+          "LinksTo": {
+               "Type": "Node",
+               "Id": "PuppiesYesWhichPuppie",
+               "Steps": [
+                    {
+                         "Type": "Text",
+                         "Id": "10"
+                         "Label": {
+                              "en": "Which of these do you prefer?",
+                              "fr": "Lequel préfères-tu?"
+                         }
+                    }
+               ],
+               "Commands": [
+                    {
+                         "Type": "node"
+                         "Id": "LikePuppiesYes"
+                         "Label": {
+                              "en": "yes",
+                              "fr": "oui"
+                         }
+                    },
+                    {
+                         "Type": "leaf"
+                         "Id": "LikePuppiesNo"
+                         "Label": {
+                              "en": "no",
+                              "fr": "non"
+                         }
+                    }
+                    ]
+     ...
+
 
 
 ## Executing an action
