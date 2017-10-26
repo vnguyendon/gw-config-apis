@@ -69,7 +69,7 @@ Example:
 
 In this example, we have opened a `node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `Gif`, followed by `Text` (a question).
 
-*Note: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`*
+* **Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`*
 
 Let's now see how we can offer the user to answer this question.
 
