@@ -1,7 +1,7 @@
 In this file, we will describe the new format for the chatbot sequences. This format was written in October 2017 and aims at broadening the scope of possible actions in the chatbot, whilst simplying the format and making more flexible
 
 
-## 0. The skeleton of a sequence
+## 1. The skeleton of a sequence
 
 The structure of a sequence is similar to that of a tree: each level is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
 
@@ -26,7 +26,7 @@ Think of them as binary: each sequence step has to have a `Type` ; each `Type` n
 
 Let's use a concrete example to illustrate how we can build a sequence from here
 
-## 1.Scenario
+## 2. Scenario
 
 In this following sequence example:
 * A chatbot will ask us a question ("Are you often late?")
@@ -34,7 +34,7 @@ In this following sequence example:
 * We can select an answer
 * The bot executes an action as a result of this choice
 
-## 2.Asking a question
+## 3. Asking a question
 
 To start an interaction with a user, we need three ingredients:
 1. a `Type` which should be `node` if you want the user to react
@@ -74,7 +74,7 @@ In this example, we have opened a `node`, defined an `Id` and used `Steps` to fi
 
 Let's now see how we can offer the user to answer this question.
 
-## 3.Showing choices to the user
+## 4. Showing choices to the user
 
 To show command choices to the user, we need to use `Command`:
 * It store an array of choices that the user can select
@@ -106,7 +106,7 @@ Example:
 The first command contains the `Type`: `node` - this means it will be followed by something. The second command contains the `Type`: `leaf` - it means the sequence will end here if the user selects this choice.
 
 
-## 4.Reacting to the user's choice
+## 5. Reacting to the user's choice
 
 We will want to react to the user's choice. We can do this simply by adding `Steps` to our command.
 
@@ -156,7 +156,7 @@ Example:
 
 Here we react to the user's choice by adding a picture and some text
 
-## 5.Asking another question
+## 6. Asking another question
 
 As we've seen, our `Type`: `node` needs to be followed by another `Type`. In this case, we will want to ask another question to the user. To do that, we need to use the connector `LinksTo`.
 
@@ -186,7 +186,7 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
      },
      ...
 
-## 6.Showing a carousel of choices (picture + text)
+## 7. Showing a carousel of choices (picture + text)
 
 Again, we will want to show choices to our user, so we can interact with her/him. 
 This time however, we will want to take advantage of the carousel format offered by messaging clients. They are usually made of an image and text.
@@ -228,7 +228,7 @@ This time however, we will want to take advantage of the carousel format offered
 
 
 
-## 7.Executing an action
+## 8. Executing an action
 
 
 ## Randomizing the feedback
