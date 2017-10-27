@@ -397,6 +397,35 @@ Both of them can be on their own (to introduce a "Next" button for instance).
 
 ### 9.3 The order of the Steps
 
+#### 9.3.1 General rule
+
+In the `Steps`, each array contains contain several hashes of content (actions, text, images, gifs). These hashes are ordered using an ID. Example:
+
+     ...
+     "Steps": [
+         {
+               "Type": "Image",
+               "Id": "20"
+               "Source": {
+                    "Type": "Gif",
+                    "Source": "Giphy",
+                    "Path": "6Umkh0GwRYhfG"
+                }
+          }
+          {
+               "Type": "Text",
+               "Id": "10"
+               "Label": {
+                    "en": "Sooo cute"
+               }
+          }
+    
+
+In the steps above, the text will be displayed before the Gif, because its `Id` (10) is smaller than the Gif's `Id` (20), even though they are ordered otherwise. The `Id` defines the order of the Steps.
+
+#### 9.3.2 Randomizing steps 
+
+We can also imagine have several `Steps` having the same `Id`. In this case, we will randomize the steps and display the content in a random order
 
 ### 9.4 A catalogue of actions
 
