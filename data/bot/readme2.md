@@ -1,7 +1,7 @@
 In this file, we will describe the new format for the chatbot sequences. This format was written in October 2017 and aims at broadening the scope of possible actions in the chatbot, whilst simplying the format and making more flexible
 
 
-## 1. The skeleton of a sequence
+# 1. The skeleton of a sequence
 
 The structure of a sequence is similar to that of a tree: each level is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
 
@@ -29,15 +29,17 @@ Let's use a concrete example to illustrate how we can build a sequence from here
 ## 2. Scenario
 
 In this following sequence example:
-* A chatbot will ask us a question ("Are you often late?")
+* A chatbot will ask us a question ("Do you like puppies?")
 * The chatbot will suggest answers as a set of choices ("Yes" or "No")
-* We can select an answer
-* The bot executes an action as a result of this choice
+* We will select an answer
+* The chatbot will react to our answer and ask a second question
+* We will answer it using a carousel
+* The bot will execute an action as a result of this choice
 
 ## 3. Asking a question
 
 To start an interaction with a user, we need three ingredients:
-1. a `Type` which should be `node` if you want the user to react
+1. a `Type` which should be turned as `node` if you want the user to react
 2. `Steps` : an array of content defining what you want to send to the user
 3. An `Id` for analytical purpose
 
@@ -61,7 +63,7 @@ Example:
           "Id": "20",
           "Label": {
                "en": "Do you like puppies?",
-               "fr": "Est-ce que tu aimes les chiots"
+               "fr": "Est-ce que tu aimes les chiots?"
                }
           }     
      }
@@ -267,8 +269,17 @@ For instance, we might want to count the number of people who prefered Labradors
                          }
                     },
                     {
+                         "Type": "Image",
+                         "Id": "20"
+                         "Source": {
+                              "Type": "Gif",
+                              "Source": "Giphy",
+                              "Path": "6Umkh0GwRYhfG"
+                          }
+                    }
+                    {
                          "Type": "Text",
-                         "Id": "10"
+                         "Id": "30"
                          "Label": {
                               "en": "Sooo cute",
                               "fr": "Tellement mignon"
@@ -282,6 +293,50 @@ For instance, we might want to count the number of people who prefered Labradors
 Using this specific action Dovote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions - they will be defined in this file [to be created]
 
 
+## 9. Taking a break
+
+Steps can be very long arrays of content. We may want to show a GIF, text, an image, another text, another GIF and so on. To prevent overwhelming the user with content and space the display of content in time, we can use a `Break` within the Steps.
+
+It will look as follows: 
+
+     ...
+     "Steps": [
+          {
+               "Type":"Action",
+               "Id":"10",
+               "Name":"DoVote",
+               "Params": {
+                    "additionalCounter" : "surveyCatsAndDogsCounterWhatever"
+               }
+          },
+          {
+               "Type": "Image",
+               "Id": "20"
+               "Source": {
+                    "Type": "Gif",
+                    "Source": "Giphy",
+                    "Path": "6Umkh0GwRYhfG"
+                }
+          },
+          {
+               "Type": "Break",
+               "Id": "25",
+               "Mode": "Wait",
+               "Parameters": {
+                   "ms": 4000
+                }
+          },
+          {
+               "Type": "Text",
+               "Id": "30"
+               "Label": {
+                    "en": "Sooo cute",
+                    "fr": "Tellement mignon"
+               }
+          }
+     ...
+
+Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the GIF and the text. It means that the client will need to wait 4 after it displays the Gif and before it displays the text to the user.
 
 ## Type: Story
 
@@ -289,48 +344,7 @@ A `"Type" : "story"` is just a special sequence with only one leaf: it's a row o
 
 
 
-## Actions
 
-The simplest thing to do, is to add the actions to do as steps. Thus we can ensure the coherence of the order of actions, we are able to show something before the action (showing a gif before showing the survey results for exemple) and because it's not just a string but an object we can add extra parameters:
-     
-```
-    ...
-     "Steps": [
-        {
-            "Type":"Action",
-            "Id":"10",
-            "Name":"DoVote",
-            "Params": {
-              "additionalCounter" : "surveyCatsAndDogsCounterWhatever"
-            }
-        },
-        {
-          "Type": "Image",
-          "Id": "20",
-          "Source": {
-            "Type": "AnimatedGif",
-            "Source": "Giphy",
-            "Path": "LKRtMj7xvviUg"
-          }
-        }, ...
-```
-
-## Action: ShowCards
-
-The action `"ShowCards"` displays a card (text+image) from a specific intention or theme of our database.
-```
-            "Steps": [
-              {
-                "Type": "Action",
-                "Id": "10",
-                "Name": "ShowCards",
-                "Params": {
-                  "Type": "Intention",
-                  "Id": "9B2C8B"
-                }
-              }
-            ]
-```
 
 ## Breaks
 
