@@ -338,3 +338,19 @@ Example:
 Think of them as binary: each sequence step has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
 
 `Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
+
+
+### 9.2 Breaks and Stops
+
+
+### 9.3 The order of the Steps
+
+
+### 9.4 A catalogue of actions
+
+
+### 9.5 Quiz properties for client animation
+
+
+### 9.6 Type: Story
+
