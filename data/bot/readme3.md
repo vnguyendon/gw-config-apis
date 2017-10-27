@@ -340,8 +340,60 @@ Think of them as binary: each sequence step has to have a `Type` ; each `Type` n
 `Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
 
 
-### 9.2 Breaks and Stops
+### 9.2 Breaks and full-stops
 
+#### 9.2.1 Breaks
+
+We have introduced `Break` in Section 8. They are special steps that introduce a delay between 2 other steps. They take the following form:
+
+    ...
+      "Steps": [
+    {
+      "Type": "Break",
+      "Id": "40",
+      "Mode": "Wait",
+      "Parameters": {
+        "ms": 4000
+      }
+    },
+
+#### 9.2.2 Fulls-stops with a client default behaviour
+
+There is also another `Break` mode, that introduce a full-stop. It hs to be inserted in an array of `Steps` and takes the following shape:
+
+    ...
+    {
+      "Type": "Break",
+      "Id": "60",
+      "Mode": "Stop"
+    },
+    ...
+
+In the `Stop` mode, it's on client responsibility to show the right toolbar by default (for example "would you like to continue?" + buttons yes/no). This can be defined in bot resources file for example.
+
+#### 9.2.3 Fulls-stops with a question
+
+However, we can define a specific button within the sequence itself. For example, we can write:
+
+    {
+      "Type": "Break",
+      "Id": "20",
+      "Mode": "Stop",
+      "Label" : {
+         "en" : "go on?", 
+          "fr": "on continue?"
+          },
+     "Options": {
+        "yes" : {  "en" : "yes", "fr": "oui", "es":"si" },
+        "no" : {  "en" : "no", "fr": "non", "es":"no" },
+     }
+    }
+
+In this case, we need:
+- `Label` to display a question or text content to the user
+- `Options` define the button the users will see and will be able to select
+
+Both of them can be on their own (to introduce a "Next" button for instance).
 
 ### 9.3 The order of the Steps
 
