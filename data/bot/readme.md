@@ -176,7 +176,7 @@ This time however, we will want to take advantage of the carousel format offered
                {
                     "Type": "Text",
                     "Id": "10"
-                    "CommandLabel": {
+                    "Label": {
                          "en": "Which of these do you prefer?",
                          "fr": "Lequel préfères-tu?"
                     }
