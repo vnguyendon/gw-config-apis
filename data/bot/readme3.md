@@ -80,7 +80,7 @@ Example:
      }
      ]
      
-The first command contains the `Type`: `node` - this means it will be followed by something. The second command contains the `Type`: `leaf` - it means the sequence will end here if the user selects this choice.
+The first command contains the `Type`: `node` - this means it will be followed by something. The second command contains the `Type`: `leaf` - it means the sequence will not have a another user input. We can still however react to the user's previous choice. 
 
 
 ## 4. Reacting to the user's choice
@@ -131,7 +131,7 @@ Example:
      ]
 
 
-Here we react to the user's choice by adding a picture and some text
+Here we react to the user's choice by adding a picture and some text.
 
 ## 5. Asking another question
 
@@ -238,10 +238,7 @@ For instance, we might want to count the number of people who prefered Labradors
                     {
                          "Type":"Action",
                          "Id":"10",
-                         "Name":"DoVote",
-                         "Params": {
-                              "additionalCounter" : "surveyCatsAndDogsCounterWhatever"
-                         }
+                         "Name":"DoVote"
                     },
                     {
                          "Type": "Image",
@@ -279,10 +276,7 @@ It will look as follows:
           {
                "Type":"Action",
                "Id":"10",
-               "Name":"DoVote",
-               "Params": {
-                    "additionalCounter" : "surveyCatsAndDogsCounterWhatever"
-               }
+               "Name":"DoVote"
           },
           {
                "Type": "Image",
@@ -340,7 +334,7 @@ Think of them as binary: each sequence step has to have a `Type` ; each `Type` n
 `Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
 
 
-### 9.2 Breaks and full-stops
+### 9.2 Breaks, wait and full-stops
 
 #### 9.2.1 Breaks
 
@@ -429,8 +423,111 @@ We can also imagine have several `Steps` having the same `Id`. In this case, we 
 
 ### 9.4 A catalogue of actions
 
+We can insert an `Action` as part of `Steps`, as explained in the previous example. Actions trigger the use of external resources or service in the bot. We will here list the most popular actions and the way they can be used
+
+#### 9.4.1 Action: Survey
+
+As seen earlier in the example, we can use the voting API by implementing the following `DoVote` action in the steps:
+
+     ...
+          {
+               "Type":"Action",
+               "Id":"10",
+               "Name":"DoVote"
+          },
+     ...
+ 
+Make sure to this action in relation to the relevant API and the right counters. 
+Behaviour: when a user selects this command, we should increment the counter associated with this choice.
+
+#### 9.4.2 Action: ShowSurveyResults
+
+The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like that: 
+
+     ...
+          {
+               "Type":"Action",
+               "Id":"20",
+               "Name":"ShowSurveyResult"
+          },
+     ...
+ 
+Again, make sure to this action in relation to the relevant API and the right counters. 
+Behaviour: when a user selects this command, we should show him/her the number of people who selected this choice. It is therefore a dependency of the `DoVote` action
+
+#### 9.4.3 Action: ShowCards
+
+We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Params`
+Example:
+
+     ...
+       "Steps": [
+         {
+           "Type": "Action",
+           "Id": "10",
+           "Name": "ShowCards",
+           "Params": {
+             "Type": "Intention",
+             "Id": "9B2C8B"
+           }
+         }
+       ]
+     ...
+
+Make sure the relevant API is connected to this action.
+
+#### 9.4.4 Action: SetUserProperty
+
+In some cases, we might want to remember and set information about a user. For instance, we might want to remember that he or she is single if that is relevant:
+
+     ...
+     {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "SetUserProperty",
+          "Params": {
+            "RelationshipStatus": "Single"
+         }
+     }
+     ...
+
+We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Params` as we want.
 
 ### 9.5 Quiz properties for client animation
+
+Some sequences will be identified as Quiz sequences. A Quiz sequence is a normal sequence that contains a question and several choices. Its specificity is that it has a definite right answer and potentially one or several wrong answer(s).
+
+Some clients might want to behave differently whether the answer is right or wrong. For instance, we may want to include an animation embedded in the chatbot's behaviour. To do so, the client needs to know whether the user's choice is actually right or wrong.
+
+We can do it using the following action: 
+
+     ...
+       "Type": "Leaf",
+       "Id": "FastestDolphin",
+       "StepValue": "1",
+       "isCorrect": "false",
+       "CommandLabel": {
+         "en": "dolphin"
+       },
+       "Steps": [
+        {
+           "type":"action",
+           "id": "1",
+           "name": "notifyCorrectness"
+        },
+         {
+           "Type": "Text",
+           "Id": "10",
+           "Label": {
+             "en": "A blue whale can swim as fast as 50km/h, whereas most dolphins don't reach 40km/h"
+           }
+         }
+       ]
+     ...
+     
+In the above example, we are introducing two things:
+1. A property `isCorrect` that takes a Boolean `true` or `false` as a value to indicate if the selected choice is correct or not
+2. An action `notifyCorrectness` that directs the client to adopt its specific behaviour, whether the answer is right or wrong
 
 
 ### 9.6 Type: Story
