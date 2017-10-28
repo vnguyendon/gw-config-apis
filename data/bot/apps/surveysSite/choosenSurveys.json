@@ -4,7 +4,6 @@
     "SequenceFiles" : [
       { "order" : 10, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
       { "order" : 30, "file": "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"},
-      { "order" : 34, "file": "/bot/sequences/surveyquestions/YourCountryMoreCorruptYesNo.json"},
       { "order" : 36, "file": "/bot/sequences/surveyquestions/YourCountryGoodExampleYesNo.json"},      
       { "order" : 40, "file": "/bot/sequences/surveyquestions/GlobalWarming.json"},
       { "order" : 50, "file": "/bot/sequences/surveyquestions/MarrySomeoneOlderOrYounger.json"},
@@ -18,6 +17,7 @@
       { "order" : 78, "file": "/bot/sequences/surveyquestions/TomorrowBetterThanToday.json"},             
       { "order" : 80, "file": "/bot/sequences/surveyquestions/HappyToLoseWeight.json"},
       { "order" : 90, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
+      { "order" : 91, "file": "/bot/sequences/surveyquestions/YourCountryMoreCorruptYesNo.json"},
       { "order" : 92, "file": "/bot/sequences/surveyquestions/QualityofBooksorFood.json"},      
       { "order" : 94, "file": "/bot/sequences/surveyquestions/LessCorruptionOrInequality.json"},   
       { "order" : 95, "file": "/bot/sequences/surveyquestions/NikeOrAdidas.json"},              
