@@ -183,7 +183,7 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
 After the `LinksTo`, we find the same structure to show choices to our users with `Commands`. Here again, we have two `Commands` ; we could have many more if necessary. 
 Both commands  have the Type `Leaf` - this means we won't require any user input after this command is selected
 
-## 7. Executing an action
+## 6. Executing an action
 
 In some cases, we might want to execute an action as a result of this choice. Actions can be defined by the client or external services. 
 For instance, we might want to count the number of people who prefered Labradors or Cogis. 
@@ -227,7 +227,7 @@ For instance, we might want to count the number of people who prefered Labradors
 
 Using this specific action DoVote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions defined at the end of documentation - see 9.3 "A catalogue of actions"
 
-## 8. Taking a break
+## 7. Taking a break
 
 Steps can be very long arrays of content. We may want to show a GIF, text, an image, another text, another GIF and so on. To prevent overwhelming the user with content and space the display of content in time, we can use a `Break` within the Steps.
 
@@ -270,9 +270,9 @@ It will look as follows:
 Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the GIF and the text. It means that the client will need to wait 4 seconds after it displays the Gif and before it displays the next step to the user - in this case a text.
 
 
-## 9. Appendix: further details on the sequences
+## 8. Appendix: further details on the sequences
 
-### 9.1 The skeleton of a sequence
+### 8.1 The skeleton of a sequence
 
 The structure of a sequence is similar to that of a tree: each level is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
 
@@ -296,9 +296,9 @@ Think of them as binary: each sequence step has to have a `Type` ; each `Type` n
 `Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
 
 
-### 9.2 Pausing, wait and full-stops
+### 8.2 Pausing, wait and full-stops
 
-#### 9.2.1 Pausing
+#### 8.2.1 Pausing
 
 We have introduced the property `Pause` in Section 8. These are special steps that introduce a delay or user confirmation between 2 other steps. They take the following form:
 
@@ -315,7 +315,7 @@ We have introduced the property `Pause` in Section 8. These are special steps th
 
 When its parameters are contain the `"Mode": "Wait"`, it means the client should wait some time before it shows the next step. This amount of time is defined in the parameters as well `"ms": 4000`.
 
-#### 9.2.2 Fulls-stops with a client default behaviour
+#### 8.2.2 Fulls-stops with a client default behaviour
 
 There is also another `Pause` mode that introduces a full-stop. It has to be inserted in an array of `Steps` and takes the following shape:
 
@@ -332,11 +332,11 @@ There is also another `Pause` mode that introduces a full-stop. It has to be ins
 This Pause type require that we ask the user's confirmation to show the next step. this is defined by the `"Mode": "ConfirmContinuation"`.
 It is however the client's responsibility to show the right toolbar by default (for example "would you like to continue?" + buttons yes/no). This can be defined in bot resources file for example.
 
-### 9.3 A catalogue of actions
+### 8.3 A catalogue of actions
 
 We can insert an `Action` as part of `Steps`, as explained in the previous example. Actions trigger the use of external resources or service in the bot. We will here list the most popular actions and the way they can be used
 
-#### 9.3.1 Action: Survey
+#### 8.3.1 Action: Survey
 
 As seen earlier in the example, we can use the voting API by implementing the following `DoVote` action in the steps:
 
@@ -351,7 +351,7 @@ As seen earlier in the example, we can use the voting API by implementing the fo
 Make sure to this action in relation to the relevant API and the right counters. 
 Behaviour: when a user selects this command, we should increment the counter associated with this choice.
 
-#### 9.3.2 Action: ShowSurveyResults
+#### 8.3.2 Action: ShowSurveyResults
 
 The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like that: 
 
@@ -366,7 +366,7 @@ The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like
 Again, make sure to this action in relation to the relevant API and the right counters. 
 Behaviour: when a user selects this command, we should show him/her the number of people who selected this choice. It is therefore a dependency of the `DoVote` action
 
-#### 9.3.3 Action: ShowCards
+#### 8.3.3 Action: ShowCards
 
 We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Params`
 Example:
@@ -387,7 +387,7 @@ Example:
 
 Make sure the relevant API is connected to this action.
 
-#### 9.3.4 Action: SetUserProperty
+#### 8.3.4 Action: SetUserProperty
 
 In some cases, we might want to remember and set information about a user. For instance, we might want to remember that he or she is single if that is relevant:
 
@@ -405,7 +405,7 @@ In some cases, we might want to remember and set information about a user. For i
 We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Params` as we want.
 
 
-## 10. CHANGES TO BE IMPLEMENTED LATER:
+## 9. CHANGES TO BE IMPLEMENTED LATER:
 
 ### NOTE: PLEASE DO NOT IMPLEMENT THE BELOW COMMAND, UNLESS AVDISED OTHERWISE. IF YOU DO, SHIT WILL HAPPEN.
 
