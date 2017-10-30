@@ -3,14 +3,14 @@
   "apps": 
     [
       {
-        "title": "Say what you think to a Pony bot!",
+        "header": "Say what you think to a Pony bot!",
         "button": "Try me !",
         "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
         "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
       }
       ,
       {
-        "title": "A new app to express yourself with GIFS",
+        "header": "A new app to express yourself with GIFS",
         "button": "Let's have fun!",
         "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
         "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
