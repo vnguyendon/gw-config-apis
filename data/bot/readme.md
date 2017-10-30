@@ -8,7 +8,7 @@ In this following sequence example:
 * The chatbot will suggest answers as a set of choices ("Yes" or "No")
 * We will select an answer
 * The chatbot will react to our answer and ask a second question
-* We will answer it using a carousel
+* We will answer it and pause the conversation for 4 seconds
 * The bot will execute an action as a result of this choice
 
 ## 2. Asking a question
@@ -227,9 +227,9 @@ For instance, we might want to count the number of people who prefered Labradors
 
 Using this specific action DoVote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions defined at the end of documentation - see 9.3 "A catalogue of actions"
 
-## 7. Taking a break
+## 7. Pausing between steps
 
-Steps can be very long arrays of content. We may want to show a GIF, text, an image, another text, another GIF and so on. To prevent overwhelming the user with content and space the display of content in time, we can use a `Break` within the Steps.
+Steps can be very long arrays of content. We may want to show a GIF, text, an image, another text, another GIF and so on. To prevent overwhelming the user with content and space the display of content in time, we can use a `Pause` within the Steps.
 
 It will look as follows: 
 
@@ -250,10 +250,10 @@ It will look as follows:
                 }
           },
           {
-               "Type": "Break",
+               "Type": "Pause",
                "Id": "25",
-               "Mode": "Wait",
                "Parameters": {
+                   "Mode": "Wait",
                    "ms": 4000
                 }
           },
