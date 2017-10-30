@@ -133,7 +133,7 @@ Example:
 
 Here we react to the user's choice by adding a picture and some text.
 
-## 5. Asking another question
+## 5. Asking another question and show new commands
 
 As we've seen, our `Type`: `node` needs to be followed by another `Type`. In this case, we will want to ask another question to the user. To do that, we need to use the connector `LinksTo`.
 
@@ -151,29 +151,6 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
                "Id": "PuppiesYesWhichPuppie",
                "Steps": [
                     {
-                         "Type": "Text",
-                         "Id": "10"
-                         "Label": {
-                              "en": "Which of these do you prefer?",
-                              "fr": "Lequel préfères-tu?"
-                         }
-                    }
-               ]
-          }
-     },
-     ...
-
-## 6. Showing a carousel of choices (picture + text)
-
-Again, we will want to show choices to our user, so we can interact with her/him. 
-This time however, we will want to take advantage of the carousel format offered by messaging clients. They are usually made of an image and text.
-
-     ...
-     "LinksTo": {
-          "Type": "Node",
-          "Id": "PuppiesYesWhichPuppie",
-          "Steps": [
-               {
                     "Type": "Text",
                     "Id": "10"
                     "Label": {
@@ -189,11 +166,6 @@ This time however, we will want to take advantage of the carousel format offered
                     "CommandLabel": {
                          "en": "Labrador",
                          "fr": "Labrador"
-                    },
-                    "CommandPicture": {
-                         "Type": "Image",
-                         "Source": "Web",
-                         "Path": "https://www.thelabradorsite.com/wp-content/uploads/2015/07/yellow-labrador-puppy-garden.jpg"
                     }
                },
                {
@@ -202,18 +174,14 @@ This time however, we will want to take advantage of the carousel format offered
                     "CommandLabel": {
                          "en": "Corgi",
                          "fr": "Corgi"
-                    },
-                    "CommandPicture": {
-                         "Type": "Image",
-                         "Source": "Web",
-                         "Path": "https://www.thelabradorsite.com/wp-content/uploads/2015/07/yellow-labrador-puppy-garden.jpg"
                     }
                }
                ]
          }
      ...
 
-To create a carousel, simply add the property `CommandPicture` just after `CommandLabel` and fill it with the relevant details. 
+After the `LinksTo`, we find the same structure to show choices to our users with `Commands`. Here again, we have two `Commands` ; we could have many more if necessary. 
+Both commands  have the Type `Leaf` - this means we won't require any user input after this command is selected
 
 ## 7. Executing an action
 
@@ -228,11 +196,6 @@ For instance, we might want to count the number of people who prefered Labradors
                "CommandLabel": {
                     "en": "Labrador",
                     "fr": "Labrador"
-               },
-               "CommandPicture": {
-                    "Type": "Image",
-                    "Source": "Web",
-                    "Path": "https://www.thelabradorsite.com/wp-content/uploads/2015/07/yellow-labrador-puppy-garden.jpg"
                },
                "Steps": [
                     {
@@ -262,8 +225,7 @@ For instance, we might want to count the number of people who prefered Labradors
      ...
 
 
-Using this specific action Dovote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions - they will be defined in this file [to be created]
-
+Using this specific action DoVote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions defined at the end of documentation - see 9.3 "A catalogue of actions"
 
 ## 8. Taking a break
 
@@ -334,98 +296,47 @@ Think of them as binary: each sequence step has to have a `Type` ; each `Type` n
 `Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
 
 
-### 9.2 Breaks, wait and full-stops
+### 9.2 Pausing, wait and full-stops
 
-#### 9.2.1 Breaks
+#### 9.2.1 Pausing
 
-We have introduced `Break` in Section 8. They are special steps that introduce a delay between 2 other steps. They take the following form:
+We have introduced the property `Pause` in Section 8. These are special steps that introduce a delay or user confirmation between 2 other steps. They take the following form:
 
     ...
       "Steps": [
     {
-      "Type": "Break",
+      "Type": "Pause",
       "Id": "40",
-      "Mode": "Wait",
       "Parameters": {
+        "Mode": "Wait",
         "ms": 4000
       }
     },
 
+When its parameters are contain the `"Mode": "Wait"`, it means the client should wait some time before it shows the next step. This amount of time is defined in the parameters as well `"ms": 4000`.
+
 #### 9.2.2 Fulls-stops with a client default behaviour
 
-There is also another `Break` mode, that introduce a full-stop. It hs to be inserted in an array of `Steps` and takes the following shape:
+There is also another `Pause` mode that introduces a full-stop. It has to be inserted in an array of `Steps` and takes the following shape:
 
     ...
     {
-      "Type": "Break",
+      "Type": "Pause",
       "Id": "60",
-      "Mode": "Stop"
+      "Parameters": {
+          "Mode": "ConfirmContinuation"
+      }
     },
     ...
 
-In the `Stop` mode, it's on client responsibility to show the right toolbar by default (for example "would you like to continue?" + buttons yes/no). This can be defined in bot resources file for example.
+This Pause type require that we ask the user's confirmation to show the next step. this is defined by the `"Mode": "ConfirmContinuation"`.
+It is however the client's responsibility to show the right toolbar by default (for example "would you like to continue?" + buttons yes/no). This can be defined in bot resources file for example.
 
-#### 9.2.3 Fulls-stops with a question
-
-However, we can define a specific button within the sequence itself. For example, we can write:
-
-    {
-      "Type": "Break",
-      "Id": "20",
-      "Mode": "Stop",
-      "Label" : {
-         "en" : "go on?", 
-          "fr": "on continue?"
-          },
-     "Options": {
-        "yes" : {  "en" : "yes", "fr": "oui", "es":"si" },
-        "no" : {  "en" : "no", "fr": "non", "es":"no" },
-     }
-    }
-
-In this case, we need:
-- `Label` to display a question or text content to the user
-- `Options` define the button the users will see and will be able to select
-
-Both of them can be on their own (to introduce a "Next" button for instance).
-
-### 9.3 The order of the Steps
-
-#### 9.3.1 General rule
-
-In the `Steps`, each array contains contain several hashes of content (actions, text, images, gifs). These hashes are ordered using an ID. Example:
-
-     ...
-     "Steps": [
-         {
-               "Type": "Image",
-               "Id": "20"
-               "Source": {
-                    "Type": "Gif",
-                    "Source": "Giphy",
-                    "Path": "6Umkh0GwRYhfG"
-                }
-          }
-          {
-               "Type": "Text",
-               "Id": "10"
-               "Label": {
-                    "en": "Sooo cute"
-               }
-          }
-    
-
-In the steps above, the text will be displayed before the Gif, because its `Id` (10) is smaller than the Gif's `Id` (20), even though they are ordered otherwise. The `Id` defines the order of the Steps.
-
-#### 9.3.2 Randomizing steps 
-
-We can also imagine have several `Steps` having the same `Id`. In this case, we will randomize the steps and display the content in a random order
-
-### 9.4 A catalogue of actions
+### 9.3 A catalogue of actions
 
 We can insert an `Action` as part of `Steps`, as explained in the previous example. Actions trigger the use of external resources or service in the bot. We will here list the most popular actions and the way they can be used
 
-#### 9.4.1 Action: Survey
+#### 9.3.1 Action: Survey
 
 As seen earlier in the example, we can use the voting API by implementing the following `DoVote` action in the steps:
 
@@ -440,7 +351,7 @@ As seen earlier in the example, we can use the voting API by implementing the fo
 Make sure to this action in relation to the relevant API and the right counters. 
 Behaviour: when a user selects this command, we should increment the counter associated with this choice.
 
-#### 9.4.2 Action: ShowSurveyResults
+#### 9.3.2 Action: ShowSurveyResults
 
 The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like that: 
 
@@ -455,7 +366,7 @@ The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like
 Again, make sure to this action in relation to the relevant API and the right counters. 
 Behaviour: when a user selects this command, we should show him/her the number of people who selected this choice. It is therefore a dependency of the `DoVote` action
 
-#### 9.4.3 Action: ShowCards
+#### 9.3.3 Action: ShowCards
 
 We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Params`
 Example:
@@ -476,7 +387,7 @@ Example:
 
 Make sure the relevant API is connected to this action.
 
-#### 9.4.4 Action: SetUserProperty
+#### 9.3.4 Action: SetUserProperty
 
 In some cases, we might want to remember and set information about a user. For instance, we might want to remember that he or she is single if that is relevant:
 
@@ -493,7 +404,12 @@ In some cases, we might want to remember and set information about a user. For i
 
 We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Params` as we want.
 
-### 9.5 Quiz properties for client animation
+
+## 10. CHANGES TO BE IMPLEMENTED LATER:
+
+### NOTE: PLEASE DO NOT IMPLEMENT THE BELOW COMMAND, UNLESS AVDISED OTHERWISE. IF YOU DO, SHIT WILL HAPPEN.
+
+#### Quiz properties for client animation
 
 Some sequences will be identified as Quiz sequences. A Quiz sequence is a normal sequence that contains a question and several choices. Its specificity is that it has a definite right answer and potentially one or several wrong answer(s).
 
@@ -530,5 +446,35 @@ In the above example, we are introducing two things:
 2. An action `notifyCorrectness` that directs the client to adopt its specific behaviour, whether the answer is right or wrong
 
 
-### 9.6 Type: Story
+#####  Fulls-stops with a question
+
+However, we can define a specific button within the sequence itself. For example, we can write:
+
+    {
+      "Type": "Break",
+      "Id": "20",
+      "Mode": "Stop",
+      "Label" : {
+         "en" : "go on?", 
+          "fr": "on continue?"
+          },
+     "Options": {
+        "yes" : {  "en" : "yes", "fr": "oui", "es":"si" },
+        "no" : {  "en" : "no", "fr": "non", "es":"no" },
+     }
+    }
+
+In this case, we need:
+- `Label` to display a question or text content to the user
+- `Options` define the button the users will see and will be able to select
+
+Both of them can be on their own (to introduce a "Next" button for instance).
+
+#### Showing a carousel of choices (picture + text)
+
+Again, we will want to show choices to our user, so we can interact with her/him. 
+This time however, we will want to take advantage of the carousel format offered by messaging clients. They are usually made of an image and text.
+
+To create a carousel, simply add the property `CommandPicture` just after `CommandLabel` and fill it with the relevant details. 
+
 
