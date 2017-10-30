@@ -368,7 +368,7 @@ Behaviour: when a user selects this command, we should show him/her the number o
 
 #### 8.3.3 Action: ShowCards
 
-We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Params`
+We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`
 Example:
 
      ...
@@ -377,7 +377,7 @@ Example:
            "Type": "Action",
            "Id": "10",
            "Name": "ShowCards",
-           "Params": {
+           "Parameters": {
              "Type": "Intention",
              "Id": "9B2C8B"
            }
@@ -396,13 +396,13 @@ In some cases, we might want to remember and set information about a user. For i
           "Type": "Action",
           "Id": "20",
           "Name": "SetUserProperty",
-          "Params": {
+          "Parameters": {
             "RelationshipStatus": "Single"
          }
      }
      ...
 
-We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Params` as we want.
+We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Parameters` as we want.
 
 
 ## 9. CHANGES TO BE IMPLEMENTED LATER:
