@@ -21,7 +21,7 @@ To start an interaction with a user, we need three ingredients:
 Example:
 
      "Type": "Node",
-     "Id": "LikePuppies"
+     "Id": "LikePuppies",
      "Steps": [
      {
           "Type": "Image",
