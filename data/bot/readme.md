@@ -14,7 +14,7 @@ In this following sequence example:
 ## 2. Asking a question
 
 To start an interaction with a user, we need three ingredients:
-1. a `Type`: this can either be `node` or a `leaf`. A `node` needs to be followed by something ; a `leaf` is an end to the sequence. If you want to allow the user to react, you need to use a `node` (see Section on The Skeleton of a sequence)
+1. a `Type`: this can either be `Node` or `Leaf`. A `node` needs to be followed by something ; a `leaf` is an end to the sequence. If you want to allow the user to react, you need to use a `node` (see Section on The Skeleton of a sequence)
 2. `Steps` : an array of content defining what you want to send to the user
 3. An `Id` for analytical purpose
 
@@ -45,7 +45,7 @@ Example:
      ]
      ...
 
-In this example, we have opened a `node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `Gif`, followed by `Text` (a question).
+In this example, we have opened a `Node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `Gif`, followed by `Text` (a question).
 
 **Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`
 
@@ -63,7 +63,7 @@ Example:
      ...
      "Commands": [
      {
-          "Type": "node"
+          "Type": "Node"
           "Id": "LikePuppiesYes"
           "CommandLabel": {
                "en": "yes",
@@ -71,7 +71,7 @@ Example:
           }
      },
      {
-          "Type": "leaf"
+          "Type": "Leaf"
           "Id": "LikePuppiesNo"
           "CommandLabel": {
                "en": "no",
@@ -80,7 +80,7 @@ Example:
      }
      ]
      
-The first command contains the `Type`: `node` - this means it will be followed by something. The second command contains the `Type`: `leaf` - it means the sequence will not have a another user input. We can still however react to the user's previous choice. 
+The first command contains the `Type`: `Node` - this means it will be followed by something. The second command contains the `Type`: `Leaf` - it means the sequence will not have a another user input. We can still however react to the user's previous choice. 
 
 
 ## 4. Reacting to the user's choice
@@ -92,7 +92,7 @@ Example:
      ... 
     "Commands": [
      {
-          "Type": "node"
+          "Type": "Node"
           "Id": "LikePuppiesYes"
           "CommandLabel": {
                "en": "yes",
@@ -100,7 +100,7 @@ Example:
           }
      },
      {
-          "Type": "leaf"
+          "Type": "Leaf"
           "Id": "LikePuppiesNo"
           "CommandLabel": {
                "en": "no",
@@ -135,12 +135,12 @@ Here we react to the user's choice by adding a picture and some text.
 
 ## 5. Asking another question and show new commands
 
-As we've seen, our `Type`: `node` needs to be followed by another `Type`. In this case, we will want to ask another question to the user. To do that, we need to use the connector `LinksTo`.
+As we've seen, our `Type`: `Node` needs to be followed by another `Type`. In this case, we will want to ask another question to the user. To do that, we need to use the connector `LinksTo`.
 
      ...
      "Commands": [
      {
-          "Type": "node"
+          "Type": "Node"
           "Id": "LikePuppiesYes"
           "CommandLabel": {
                "en": "yes",
@@ -161,7 +161,7 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
           ],
           "Commands": [
                {
-                    "Type": "leaf"
+                    "Type": "Leaf"
                     "Id": "PreferPuppyLabrador"
                     "CommandLabel": {
                          "en": "Labrador",
@@ -169,7 +169,7 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
                     }
                },
                {
-                    "Type": "leaf"
+                    "Type": "Leaf"
                     "Id": "PreferPuppyCorgi"
                     "CommandLabel": {
                          "en": "Corgi",
@@ -191,7 +191,7 @@ For instance, we might want to count the number of people who prefered Labradors
      ...
      "Commands": [
           {
-               "Type": "leaf"
+               "Type": "Leaf"
                "Id": "PreferPuppyLabrador"
                "CommandLabel": {
                     "en": "Labrador",
@@ -336,7 +336,7 @@ It is however the client's responsibility to show the right toolbar by default (
 
 ### 8.3 A catalogue of actions
 
-We can insert an `Action` as part of `Steps`, as explained in the previous example. Actions trigger the use of external resources or service in the bot. We will here list the most popular actions and the way they can be used
+We can insert an `Action` as part of `Steps`, as explained in the previous example. Actions trigger the use of external resources or service in the bot. We will here list the most popular actions and the way they can be used.
 
 #### 8.3.1 Action: Survey
 
@@ -429,9 +429,9 @@ We can do it using the following action:
        },
        "Steps": [
         {
-           "type":"action",
-           "id": "1",
-           "name": "notifyCorrectness"
+           "Type":"Action",
+           "Id": "1",
+           "Name": "NotifyCorrectness"
         },
          {
            "Type": "Text",
@@ -444,8 +444,8 @@ We can do it using the following action:
      ...
      
 In the above example, we are introducing two things:
-1. A property `isCorrect` that takes a Boolean `true` or `false` as a value to indicate if the selected choice is correct or not
-2. An action `notifyCorrectness` that directs the client to adopt its specific behaviour, whether the answer is right or wrong
+1. A property `isCorrect` that takes a Boolean `true` or `false` as a value to indicate if the selected choice is correct or not.
+2. An action `NotifyCorrectness` that directs the client to adopt its specific behaviour, whether the answer is right or wrong.
 
 
 #####  Fulls-stops with a question
@@ -457,8 +457,8 @@ However, we can define a specific button within the sequence itself. For example
       "Id": "20",
       "Mode": "Stop",
       "Label" : {
-         "en" : "go on?", 
-          "fr": "on continue?"
+         "en" : "Go on?", 
+          "fr": "On continue?"
           },
      "Options": {
         "yes" : {  "en" : "yes", "fr": "oui", "es":"si" },
