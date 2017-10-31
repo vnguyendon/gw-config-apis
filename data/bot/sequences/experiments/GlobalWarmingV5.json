@@ -1,0 +1,199 @@
+{
+  "Type": "Node",
+  "Id": "GlobalWarming",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Id": "10",
+      "Label": {
+        "en": "Here is an important question..",
+        "fr": "Question plus sérieuse..",
+        "es": "Pregunta más seria.."
+      }
+    },
+    {
+      "Type": "Pause",
+      "Id": "20",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "30",
+      "Source": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "3oz8xzmy5jM39tV4OI"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Id": "40",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "50",
+      "Label": {
+        "en": "Is global warming an important issue?",
+        "fr": "Le réchauffement climatique est-il un problème important ?",
+        "es": "¿El cambio climático es un problema importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GWisImportant",
+      "StepValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Id": "30",
+          "Label": {
+            "en": "I bet you like penguins! 🐧",
+            "fr": "Je parie que tu aimes bien les pingouins ! 🐧",
+            "es": "¡Seguro te gustan los pingüinos! 🐧"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "40",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-GlobalWarming-CuteOrFunnyPenguins",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "10",
+            "en": "Especially the ones that are",
+            "fr": "Surtout ceux qui sont",
+            "es": "Especialmente los que son"
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LikeFunnyPenguins",
+            "StepValue": "1",
+            "CommandLabel": {
+              "en": "funny",
+              "fr": "amusants",
+              "es": "divertidos"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Id": "20",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Id": "30",
+                "Source": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "ewHSMEx2TtEo8"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LikeCutePenguins",
+            "StepValue": "1",
+            "CommandLabel": {
+              "en": "cute",
+              "fr": "mignons",
+              "es": "bonitos"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Id": "20",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Id": "30",
+                "Source": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "C0EYVrLCgnYdy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GWisNotImportant",
+      "StepValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Id": "1",
+          "Source": {
+            "Type": "AnimatedGif",
+            "Source": "Giphy",
+            "Path": "ewHSMEx2TtEo8"
+          }
+        }
+      ]
+    }
+  ]
+}
