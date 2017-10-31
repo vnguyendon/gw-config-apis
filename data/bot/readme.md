@@ -53,8 +53,8 @@ Let's now see how we can offer the user to answer this question.
 
 ## 3. Showing choices to the user
 
-To show command choices to the user, we need to use `Command`:
-* It store an array of choices that the user can select
+To show command choices to the user, we need to use `Commands`:
+* It stores an array of choices that the user can select
 * An `Id` will need to be defined for each choice
 * `CommandLabel` defines the content of these commands
 
@@ -181,12 +181,12 @@ As we've seen, our `Type`: `node` needs to be followed by another `Type`. In thi
      ...
 
 After the `LinksTo`, we find the same structure to show choices to our users with `Commands`. Here again, we have two `Commands` ; we could have many more if necessary. 
-Both commands  have the Type `Leaf` - this means we won't require any user input after this command is selected
+Both commands  have the Type `Leaf` - this means we won't require any user input after this command is selected.
 
 ## 6. Executing an action
 
 In some cases, we might want to execute an action as a result of this choice. Actions can be defined by the client or external services. 
-For instance, we might want to count the number of people who prefered Labradors or Cogis. 
+For instance, we might want to count the number of people who prefered Labradors or Corgis. 
 
      ...
      "Commands": [
@@ -225,7 +225,7 @@ For instance, we might want to count the number of people who prefered Labradors
      ...
 
 
-Using this specific action DoVote, we can call the relevant API and count the number of user who voted for one choice or the other. There are many more actions defined at the end of documentation - see 9.3 "A catalogue of actions"
+Using this specific action DoVote, we can call the relevant API and count the number of users who voted for one choice or the other. There are many more actions defined at the end of documentation - see 9.3 "A catalogue of actions".
 
 ## 7. Pausing between steps
 
@@ -280,20 +280,22 @@ Example:
 
      {
      "Type": "Node",
-     "Command": {
+     "Commands": [
+          {
         "Type": "Leaf"
           },
           {
         "Type": "Node",
         "LinksTo": {
           "Type": "Leaf"
+            }
           }
-     }
+     ]
         
 
 Think of them as binary: each sequence step has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
 
-`Command` and `LinksTo` are used to transition from one `Type` to another. `Command` points to commands that the user will see on his/her screen. 
+`Commands` and `LinksTo` are used to transition from one `Type` to another. `Commands` points to commands that the user will see on his/her screen. 
 
 
 ### 8.2 Pausing, wait and full-stops
@@ -313,7 +315,7 @@ We have introduced the property `Pause` in Section 8. These are special steps th
       }
     },
 
-When its parameters are contain the `"Mode": "Wait"`, it means the client should wait some time before it shows the next step. This amount of time is defined in the parameters as well `"ms": 4000`.
+When its parameters contain the `"Mode": "Wait"`, it means the client should wait some time before it shows the next step. This amount of time is defined in the parameters as well `"ms": 4000`.
 
 #### 8.2.2 Fulls-stops with a client default behaviour
 
@@ -329,7 +331,7 @@ There is also another `Pause` mode that introduces a full-stop. It has to be ins
     },
     ...
 
-This Pause type require that we ask the user's confirmation to show the next step. this is defined by the `"Mode": "ConfirmContinuation"`.
+This Pause type requires that we ask the user's confirmation to show the next step. This is defined by the `"Mode": "ConfirmContinuation"`.
 It is however the client's responsibility to show the right toolbar by default (for example "would you like to continue?" + buttons yes/no). This can be defined in bot resources file for example.
 
 ### 8.3 A catalogue of actions
@@ -359,16 +361,16 @@ The counterpart to the `DoVote` action is the `ShowSurveyResults`. It looks like
           {
                "Type":"Action",
                "Id":"20",
-               "Name":"ShowSurveyResult"
+               "Name":"ShowSurveyResults"
           },
      ...
  
 Again, make sure to this action in relation to the relevant API and the right counters. 
-Behaviour: when a user selects this command, we should show him/her the number of people who selected this choice. It is therefore a dependency of the `DoVote` action
+Behaviour: when a user selects this command, we should show him/her the number of people who selected this choice. It is therefore a dependency of the `DoVote` action.
 
 #### 8.3.3 Action: ShowCards
 
-We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`
+We can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`.
 Example:
 
      ...
