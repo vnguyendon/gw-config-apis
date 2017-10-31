@@ -20,30 +20,29 @@ To start an interaction with a user, we need three ingredients:
 
 Example:
 
-     "Type": "Node",
-     "Id": "LikePuppies",
-     "Steps": [
      {
-          "Type": "Image",
-          "Id": "10",
-          "Source": {
-               "Type": "AnimatedGif",
-               "Source": "Giphy",
-               "Path": "RHdoPmZgiJlzW"
-               }
-          }
-     },
-     {
-          "Type": "Text",
-          "Id": "20",
-          "Label": {
-               "en": "Do you like puppies?",
-               "fr": "Est-ce que tu aimes les chiots?"
-               }
-          }     
-     }
-     ]
-     ...
+       "Type": "Node",
+       "Id": "LikePuppies",
+       "Steps": [
+         {
+           "Type": "Image",
+           "Id": "10",
+           "Source": {
+             "Type": "AnimatedGif",
+             "Source": "Giphy",
+             "Path": "RHdoPmZgiJlzW"
+           }
+         },
+         {
+           "Type": "Text",
+           "Id": "20",
+           "Label": {
+             "en": "Do you like puppies?",
+             "fr": "Est-ce que tu aimes les chiots?"
+           }
+         }
+       ],
+       ...
 
 In this example, we have opened a `Node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `AnimatedGif`, followed by `Text` (a question).
 
@@ -61,24 +60,24 @@ To show command choices to the user, we need to use `Commands`:
 Example:
 
      ...
-     "Commands": [
-     {
-          "Type": "Node"
-          "Id": "LikePuppiesYes"
-          "CommandLabel": {
-               "en": "yes",
-               "fr": "oui"
-          }
-     },
-     {
-          "Type": "Leaf"
-          "Id": "LikePuppiesNo"
-          "CommandLabel": {
-               "en": "no",
-               "fr": "non"
-          }
-     }
-     ]
+       "Commands": [
+         {
+           "Type": "Node",
+           "Id": "LikePuppiesYes",
+           "CommandLabel": {
+             "en": "yes",
+             "fr": "oui"
+           }
+         },
+         {
+           "Type": "Leaf",
+           "Id": "LikePuppiesNo",
+           "CommandLabel": {
+             "en": "no",
+             "fr": "non"
+           }
+         }
+       ]
      
 The first command contains the `Type`: `Node` - this means it will be followed by something. The second command contains the `Type`: `Leaf` - it means the sequence will not have a another user input. We can still however react to the user's previous choice. 
 
@@ -91,44 +90,40 @@ Example:
 
      ... 
     "Commands": [
-     {
-          "Type": "Node"
-          "Id": "LikePuppiesYes"
-          "CommandLabel": {
-               "en": "yes",
-               "fr": "oui"
+    {
+      "Type": "Node",
+      "Id": "LikePuppiesYes",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LikePuppiesNo",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Id": "10",
+          "Source": {
+            "Type": "Picture",
+            "Source": "Web",
+            "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
           }
-     },
-     {
-          "Type": "Leaf"
-          "Id": "LikePuppiesNo"
-          "CommandLabel": {
-               "en": "no",
-               "fr": "non"
-          },
-          "Steps": [
-               {
-                    "Type": "Image",
-                    "Id": "10",
-                    "Source": {
-                         "Type": "Picture",
-                         "Source": "Web",
-                         "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
-                         }
-                    }
-               },
-               {
-                    "Type": "Text",
-                    "Id": "20",
-                    "Label": {
-                         "en": "I prefer cats as well :-)",
-                         "fr": "Je préfère aussi les chats :-)"
-                         }
-                    }     
-               }
-          ] 
-     }
-     ]
+        },
+        {
+          "Type": "Text",
+          "Id": "20",
+          "Label": {
+            "en": "I prefer cats as well :-)",
+            "fr": "Je préfère aussi les chats :-)"
+          }
+        }
+      ]
 
 
 Here we react to the user's choice by adding a picture and some text.
@@ -139,45 +134,45 @@ As we've seen, our `Type`: `Node` needs to be followed by another `Type`. In thi
 
      ...
      "Commands": [
-     {
-          "Type": "Node"
-          "Id": "LikePuppiesYes"
-          "CommandLabel": {
-               "en": "yes",
-               "fr": "oui"
+    {
+      "Type": "Node",
+      "Id": "LikePuppiesYes",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PuppiesYesWhichPuppie",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "10",
+            "Label": {
+              "en": "Which of these do you prefer?",
+              "fr": "Lequel préfères-tu?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+             "Id": "PreferPuppyLabrador",
+             "CommandLabel": {
+              "en": "Labrador",
+              "fr": "Labrador"
+            }
           },
-          "LinksTo": {
-               "Type": "Node",
-               "Id": "PuppiesYesWhichPuppie",
-               "Steps": [
-                    {
-                    "Type": "Text",
-                    "Id": "10"
-                    "Label": {
-                         "en": "Which of these do you prefer?",
-                         "fr": "Lequel préfères-tu?"
-                    }
-               }
-          ],
-          "Commands": [
-               {
-                    "Type": "Leaf"
-                    "Id": "PreferPuppyLabrador"
-                    "CommandLabel": {
-                         "en": "Labrador",
-                         "fr": "Labrador"
-                    }
-               },
-               {
-                    "Type": "Leaf"
-                    "Id": "PreferPuppyCorgi"
-                    "CommandLabel": {
-                         "en": "Corgi",
-                         "fr": "Corgi"
-                    }
-               }
-               ]
-         }
+          {
+            "Type": "Leaf",
+             "Id": "PreferPuppyCorgi",
+             "CommandLabel": {
+              "en": "Corgi",
+              "fr": "Corgi"
+            }
+          }
+        ]
+      }
      ...
 
 After the `LinksTo`, we find the same structure to show choices to our users with `Commands`. Here again, we have two `Commands` ; we could have many more if necessary. 
@@ -191,36 +186,36 @@ For instance, we might want to count the number of people who prefered Labradors
      ...
      "Commands": [
           {
-               "Type": "Leaf"
-               "Id": "PreferPuppyLabrador"
-               "CommandLabel": {
-                    "en": "Labrador",
-                    "fr": "Labrador"
-               },
-               "Steps": [
-                    {
-                         "Type":"Action",
-                         "Id":"10",
-                         "Name":"DoVote"
-                    },
-                    {
-                         "Type": "Image",
-                         "Id": "20"
-                         "Source": {
-                              "Type": "AnimatedGif",
-                              "Source": "Giphy",
-                              "Path": "6Umkh0GwRYhfG"
-                          }
-                    }
-                    {
-                         "Type": "Text",
-                         "Id": "30"
-                         "Label": {
-                              "en": "Sooo cute",
-                              "fr": "Tellement mignon"
-                         }
-                    }
-               ]
+            "Type": "Leaf",
+            "Id": "PreferPuppyLabrador",
+            "CommandLabel": {
+              "en": "Labrador",
+              "fr": "Labrador"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Image",
+                "Id": "20",
+                "Source": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "6Umkh0GwRYhfG"
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": "30",
+                "Label": {
+                  "en": "Sooo cute",
+                  "fr": "Tellement mignon"
+                }
+              }
+            ]
           },
      ...
 
@@ -234,37 +229,39 @@ Steps can be very long arrays of content. We may want to show a GIF, text, an im
 It will look as follows: 
 
      ...
-     "Steps": [
-          {
-               "Type":"Action",
-               "Id":"10",
-               "Name":"DoVote"
-          },
-          {
-               "Type": "Image",
-               "Id": "20"
-               "Source": {
-                    "Type": "AnimatedGif",
-                    "Source": "Giphy",
-                    "Path": "6Umkh0GwRYhfG"
+          "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Image",
+                "Id": "20",
+                "Source": {
+                  "Type": "AnimatedGif",
+                  "Source": "Giphy",
+                  "Path": "6Umkh0GwRYhfG"
                 }
-          },
-          {
-               "Type": "Pause",
-               "Id": "25",
-               "Parameters": {
-                   "Mode": "Wait",
-                   "ms": 4000
+              },
+              {
+                "Type": "Pause",
+                "Id": "25",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
                 }
+              },
+              {
+                "Type": "Text",
+                "Id": "30",
+                "Label": {
+                  "en": "Sooo cute",
+                  "fr": "Tellement mignon"
+                }
+              }
+            ]
           },
-          {
-               "Type": "Text",
-               "Id": "30"
-               "Label": {
-                    "en": "Sooo cute",
-                    "fr": "Tellement mignon"
-               }
-          }
      ...
 
 Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the Gif and the text. It means that the client will need to wait 4 seconds after it displays the Gif and before it displays the next step to the user - in this case a text.
@@ -279,18 +276,19 @@ The structure of a sequence is similar to that of a tree: each level is either m
 Example:
 
      {
-     "Type": "Node",
-     "Commands": [
-          {
-        "Type": "Leaf"
-          },
-          {
-        "Type": "Node",
-        "LinksTo": {
-          "Type": "Leaf"
-            }
-          }
-     ]
+       "Type": "Node",
+       "Commands": [
+         {
+           "Type": "Leaf"
+         },
+         {
+           "Type": "Node",
+           "LinksTo": {
+             "Type": "Leaf"
+           }
+         }
+       ]
+     }
         
 
 Think of them as binary: each sequence step has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
@@ -306,14 +304,15 @@ We have introduced the property `Pause` in Section 8. These are special steps th
 
     ...
       "Steps": [
-    {
-      "Type": "Pause",
-      "Id": "40",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 4000
-      }
-    },
+         {
+           "Type": "Pause",
+           "Id": "40",
+           "Parameters": {
+             "Mode": "Wait",
+             "ms": 4000
+           }
+         },
+    ...
 
 When its parameters contain the `"Mode": "Wait"`, it means the client should wait some time before it shows the next step. This amount of time is defined in the parameters as well `"ms": 4000`.
 
@@ -395,12 +394,12 @@ In some cases, we might want to remember and set information about a user. For i
 
      ...
      {
-          "Type": "Action",
-          "Id": "20",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "RelationshipStatus": "Single"
-         }
+       "Type": "Action",
+       "Id": "20",
+       "Name": "SetUserProperty",
+       "Parameters": {
+         "RelationshipStatus": "Single"
+       }
      }
      ...
 
@@ -428,11 +427,11 @@ We can do it using the following action:
          "en": "dolphin"
        },
        "Steps": [
-        {
-           "Type":"Action",
+         {
+           "Type": "Action",
            "Id": "1",
            "Name": "NotifyCorrectness"
-        },
+         },
          {
            "Type": "Text",
            "Id": "10",
@@ -452,19 +451,29 @@ In the above example, we are introducing two things:
 
 However, we can define a specific button within the sequence itself. For example, we can write:
 
-    {
-      "Type": "Break",
-      "Id": "20",
-      "Mode": "Stop",
-      "Label" : {
-         "en" : "Go on?", 
-          "fr": "On continue?"
-          },
-     "Options": {
-        "yes" : {  "en" : "yes", "fr": "oui", "es":"si" },
-        "no" : {  "en" : "no", "fr": "non", "es":"no" },
+     ...
+      {
+       "Type": "Break",
+       "Id": "20",
+       "Mode": "Stop",
+       "Label": {
+         "en": "Go on?",
+         "fr": "On continue?"
+       },
+       "Options": {
+         "yes": {
+           "en": "yes",
+           "fr": "oui",
+           "es": "si"
+         },
+         "no": {
+           "en": "no",
+           "fr": "non",
+           "es": "no"
+         }
+       }
      }
-    }
+     ...
 
 In this case, we need:
 - `Label` to display a question or text content to the user
