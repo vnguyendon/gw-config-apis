@@ -1,0 +1,226 @@
+{
+  "Type": "Node",
+  "Id": "WouldYouLikeToFeelZen",
+  "Comments": "Ask a question about feeling zen in order to decide what kind of cards to display",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Id": "10",
+      "Label": {
+        "en": "A little comfort?",
+        "fr": "Un peu de récomfort ?",
+        "es": "¿Un pequeño zen?"
+      }
+    }
+  ],
+  "Skippable": true,
+  "Randomize": true,
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ZenYes",
+      "Comments": "represents the Yes answer, then we continue with another implicit question showing the different options for cards",
+      "Steps": [
+        {
+          "Type": "Image",
+          "Id": "10",
+          "Source": {
+              "Type": "AnimatedGif",
+              "Source": "Giphy",
+              "Path": "9WHE2bo5Na9Gg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "20",
+          "Label": {
+            "en": "Yes",
+            "fr": "Oui",
+            "es": "Si"
+          }
+        }
+      ]
+      ,
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ShowFeelzenYesCardsSuggestions",
+        "Comments": "if Yes selected, then we'll continue showing some Cards suggestions",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "SuggestionsPoems",
+            "Comments": "if selected we'll show a Poem card",
+            "StepValue": 1,
+            "CommandLabel": {
+              "en": "Poems",
+              "fr": "Poèmes",
+              "es": "Poemas"
+            },
+            "Steps": [
+              {
+                "Type": "ShowCard",
+                "Id": 10,
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "43B296"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "ShowCards",
+            "Id": "SuggestionsPositiveThoughts",
+            "Comments": "if selected we'll show a positive-thoughts card",
+            "StepValue": 1,
+            "CommandLabel": {
+              "en": "Positive thoughts",
+              "fr": "Pensées positives",
+              "es": "Pensamientos Positivos"
+            },
+            "Steps": [
+              {
+                "Type": "ShowCard",
+                "Id": 10,
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "67CC40"
+                }
+              }
+            ]
+          }
+        ]
+      }
+
+    },
+    {
+      "Type": "Node",
+      "Id": "ZenNo",
+      "Comments": "represents the No answer, then we continue with another implicit question showing the different options for cards",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ShowFeelzenYesSuggestStory",
+        "Comments": "if No selected, then we'll continue showing a little joke",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "SuggestionsJokesBamTheDog",
+            "Comments": "if selected we'll show the paf dog story",
+            "StepValue": 1,
+            "CommandLabel": {
+              "en": "🐶 Bam the dog",
+              "fr": "🐶 Paf le chien",
+              "es": "🐶 Perro Bim"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Id": 10,
+                "Label": {
+                  "en": "you know the bam dog story?",
+                  "fr": "Tu connais l'histoire de Paf le chien?",
+                  "es": "conoce la historia de un perro Bim?"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Id": 20,
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": 30,
+                "Label": {
+                  "en": "It's a dog running through, a car is coming ...",
+                  "fr": "C'est un chien qui traverse, une voiture arrive ...",
+                  "es": "Es un perro corriendo, viene un auto ..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Id": 40,
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": 50,
+                "Label": {
+                  "en": "... and bam, the dog;)",
+                  "fr": "... et paf, le chien ;)",
+                  "es": "... y bim, el perro;)"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SuggestionsJokesFlopTheGirafe",
+            "Comments": "if selected we'll show the flap the girafe story",
+            "StepValue": 1,
+            "CommandLabel": {
+              "en": "Giraffe",
+              "fr": "Girafe",
+              "es": "Girafe"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Id": 10,
+                "Label": {
+                  "en": "You know the story of the giraffe Flip Flap?",
+                  "fr": "Tu connais l'histoire de Flip Flap la girafe?",
+                  "es": "¿Conoces la historia de Flip Flap la Girafe?"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Id": 20,
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": 30,
+                "Label": {
+                  "en": "It's a giraffe walking around and there's a helicopter going by...",
+                  "fr": "C'est une girafe qui se promène et il y a un hélicoptère qui passe...",
+                  "es": "Es una jirafa caminando y hay un helicóptero que pasa..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Id": 40,
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": 50,
+                "Label": {
+                  "en": "...And Flip Flap the Giraffe! ;)",
+                  "fr": "...Et Flip Flap la girafe ! ;)",
+                  "es": "... ¡Y Flip Flap the Giraffe! ;)"
+                }
+              }
+            ]
+          }
+        ]
+      }
+
+    }
+  ]
+}
