@@ -27,7 +27,7 @@ Example:
           "Type": "Image",
           "Id": "10",
           "Source": {
-               "Type": "Gif",
+               "Type": "AnimatedGif",
                "Source": "Giphy",
                "Path": "RHdoPmZgiJlzW"
                }
@@ -45,9 +45,9 @@ Example:
      ]
      ...
 
-In this example, we have opened a `Node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `Gif`, followed by `Text` (a question).
+In this example, we have opened a `Node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `AnimatedGif`, followed by `Text` (a question).
 
-**Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `GIF` will be displayed before the `Text` because it has a smaller `Id`
+**Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `AnimatedGif` will be displayed before the `Text` because it has a smaller `Id`
 
 Let's now see how we can offer the user to answer this question.
 
@@ -207,7 +207,7 @@ For instance, we might want to count the number of people who prefered Labradors
                          "Type": "Image",
                          "Id": "20"
                          "Source": {
-                              "Type": "Gif",
+                              "Type": "AnimatedGif",
                               "Source": "Giphy",
                               "Path": "6Umkh0GwRYhfG"
                           }
@@ -244,7 +244,7 @@ It will look as follows:
                "Type": "Image",
                "Id": "20"
                "Source": {
-                    "Type": "Gif",
+                    "Type": "AnimatedGif",
                     "Source": "Giphy",
                     "Path": "6Umkh0GwRYhfG"
                 }
@@ -267,7 +267,7 @@ It will look as follows:
           }
      ...
 
-Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the GIF and the text. It means that the client will need to wait 4 seconds after it displays the Gif and before it displays the next step to the user - in this case a text.
+Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the Gif and the text. It means that the client will need to wait 4 seconds after it displays the Gif and before it displays the next step to the user - in this case a text.
 
 
 ## 8. Appendix: further details on the sequences
