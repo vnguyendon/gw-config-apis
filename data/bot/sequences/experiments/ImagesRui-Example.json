@@ -24,7 +24,6 @@
     {
       "Type": "Leaf",
       "Id": "FarneIslands10yo",
-      "StepValue": "1",
       "CommandLabel": {
         "en": "10 years"
       },
@@ -61,7 +60,6 @@
     {
       "Type": "Leaf",
       "Id": "FarneIslands20yo",
-      "StepValue": "1",
       "CommandLabel": {
         "en": "20 years"
       }
