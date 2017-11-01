@@ -1,0 +1,121 @@
+{
+  "Type": "Node",
+  "Id": "LikePuppies",
+  "Steps": [
+    {
+      "Type": "AnimatedGif",
+      "Id": "1",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "RHdoPmZgiJlzW"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "2",
+      "Label": {
+        "en": "Do you like puppies?",
+        "fr": "Est-ce que tu aimes les chiots?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LikePuppiesYes",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PuppiesYesWhichPuppie",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "10",
+            "Label": {
+              "en": "Which of these do you prefer?",
+              "fr": "Lequel préfères-tu?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PreferPuppyLabrador",
+            "CommandLabel": {
+              "en": "Labrador",
+              "fr": "Labrador"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "1",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Id": "2",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "6Umkh0GwRYhfG"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Id": "3",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Id": "4",
+                "Label": {
+                  "en": "Sooo cute",
+                  "fr": "Tellement mignon"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PreferPuppyCorgi",
+            "CommandLabel": {
+              "en": "Corgi",
+              "fr": "Corgi"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LikePuppiesNo",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Id": "1",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "2",
+          "Label": {
+            "en": "I prefer cats as well :-)",
+            "fr": "Je préfère aussi les chats :-)"
+          }
+        }
+      ]
+    }
+  ]
+}
