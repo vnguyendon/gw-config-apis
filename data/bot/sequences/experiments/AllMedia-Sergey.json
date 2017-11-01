@@ -1,0 +1,66 @@
+{
+    "Type": "node",
+    "Id": "MediaPreference",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you use the most to communicate with your friends?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "PreferVideo",
+            "Label": {
+                "en": "Videos"
+            },
+            "Steps": [
+                {
+                  "Type": "Video",
+                  "Id": "10",
+                  "Parameters": {
+                      "Source": "Youtube",
+                      "Path": "NJsa6-y4sDs"
+                  }
+                }
+              ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PreferImage",
+            "Label": {
+                "en": "Images"
+            },
+            "Steps": [
+                {
+                  "Type": "Image",
+                  "Id": "10",
+                  "Parameters": {
+                      "Source": "Dropbox",
+                      "Path": "gw-static/themes/emojiPandas/small/shutterstock_431449828_2.jpg"
+                  }
+                }
+              ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "PreferGif",
+            "Label": {
+                "en": "Gifs"
+            },
+            "Steps": [
+                {
+                  "Type": "Gif",
+                  "Id": "10",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "zJNMxcHO7p3Ak"
+                  }
+                }
+              ]
+        }
+    ]
+}
