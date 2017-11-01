@@ -25,17 +25,16 @@ Example:
        "Id": "LikePuppies",
        "Steps": [
          {
-           "Type": "Image",
-           "Id": "10",
-           "Source": {
-             "Type": "AnimatedGif",
+           "Type": "AnimatedGif",
+           "Id": "1",
+           "Parameters": {
              "Source": "Giphy",
              "Path": "RHdoPmZgiJlzW"
            }
          },
          {
            "Type": "Text",
-           "Id": "20",
+           "Id": "2",
            "Label": {
              "en": "Do you like puppies?",
              "fr": "Est-ce que tu aimes les chiots?"
@@ -46,7 +45,7 @@ Example:
 
 In this example, we have opened a `Node`, defined an `Id` and used `Steps` to fill in the content that we want to show users. In this case, it will first be a `AnimatedGif`, followed by `Text` (a question).
 
-**Note**: each `Id` within the `Steps` defines the order of these sequences. In this examples, the `AnimatedGif` will be displayed before the `Text` because it has a smaller `Id`
+**Note**: the `Id` within the `Steps` is optional. We will use for analytical purpose in long sequences. 
 
 Let's now see how we can offer the user to answer this question.
 
@@ -109,8 +108,7 @@ Example:
         {
           "Type": "Image",
           "Id": "10",
-          "Source": {
-            "Type": "Picture",
+          "Parameters": {
             "Source": "Web",
             "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
           }
@@ -147,7 +145,7 @@ As we've seen, our `Type`: `Node` needs to be followed by another `Type`. In thi
         "Steps": [
           {
             "Type": "Text",
-            "Id": "10",
+            "Id": "1",
             "Label": {
               "en": "Which of these do you prefer?",
               "fr": "Lequel préfères-tu?"
@@ -195,21 +193,20 @@ For instance, we might want to count the number of people who prefered Labradors
             "Steps": [
               {
                 "Type": "Action",
-                "Id": "10",
+                "Id": "1",
                 "Name": "DoVote"
               },
               {
-                "Type": "Image",
-                "Id": "20",
-                "Source": {
-                  "Type": "AnimatedGif",
+                "Type": "AnimatedGif",
+                "Id": "2",
+                "Parameters": {
                   "Source": "Giphy",
                   "Path": "6Umkh0GwRYhfG"
                 }
               },
               {
                 "Type": "Text",
-                "Id": "30",
+                "Id": "3",
                 "Label": {
                   "en": "Sooo cute",
                   "fr": "Tellement mignon"
@@ -232,21 +229,20 @@ It will look as follows:
           "Steps": [
               {
                 "Type": "Action",
-                "Id": "10",
+                "Id": "1",
                 "Name": "DoVote"
               },
               {
-                "Type": "Image",
-                "Id": "20",
-                "Source": {
-                  "Type": "AnimatedGif",
+                "Type": "AnimatedGif",
+                "Id": "2",
+                "Parameters": {
                   "Source": "Giphy",
                   "Path": "6Umkh0GwRYhfG"
                 }
               },
               {
                 "Type": "Pause",
-                "Id": "25",
+                "Id": "3",
                 "Parameters": {
                   "Mode": "Wait",
                   "ms": 4000
@@ -254,7 +250,7 @@ It will look as follows:
               },
               {
                 "Type": "Text",
-                "Id": "30",
+                "Id": "4",
                 "Label": {
                   "en": "Sooo cute",
                   "fr": "Tellement mignon"
@@ -409,6 +405,23 @@ We can therefore use the property `SetUserProperty` to set a specific param as a
 ## 9. CHANGES TO BE IMPLEMENTED LATER:
 
 ### NOTE: PLEASE DO NOT IMPLEMENT THE BELOW COMMAND, UNLESS AVDISED OTHERWISE. IF YOU DO, SHIT WILL HAPPEN.
+
+#### Skipping a sequence
+
+Sometimes, we may want to offer to the user an option to skip a sequence. To do so, we can use the following property
+
+     "Skippable": true,
+
+It would need to be written at the command level of the sequence. So we would have:
+
+     ...
+       "Skippable": true,
+       "Commands": [
+     ...
+
+When this property is turned to true, the user would then see a "Skip" button next to the other commands. By the default, it would be the last command.
+
+#### Randomizing sequences
 
 #### Quiz properties for client animation
 
