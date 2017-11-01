@@ -1,0 +1,239 @@
+{
+  "Type": "Node",
+  "Id": "FarneIslands",
+  "Steps": [
+    {
+      "Type": "Pause",
+      "Id": "10",
+      "Parameters": {
+        "Mode": "ConfirmContinuation"
+      }
+    },
+    {
+      "Type": "Text",
+      "Id": "20",
+      "Label": {
+        "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
+        "fr": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
+        "es": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Id": "30",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Image",
+      "Id": "40",
+      "Source": {
+        "MediaType": "Picture",
+        "Source": "Dropbox",
+        "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FarneIslands10yo",
+      "StepValue": "1",
+      "CommandLabel": {
+        "en": "10 years",
+        "fr": "10 years",
+        "es": "10 years"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Id": "25",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "30",
+          "Label": {
+            "en": "Puffins live longer than you might think, their life expectancy is 20 years.",
+            "fr": "Puffins live longer than you might think, their life expectancy is 20 years.",
+            "es": "Puffins live longer than you might think, their life expectancy is 20 years."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "40",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "50",
+          "Label": {
+            "en": "Some of them can reach 30 years old and over! 😮",
+            "fr": "Some of them can reach 30 years old and over! 😮",
+            "es": "Some of them can reach 30 years old and over! 😮"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "60",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "70",
+          "Source": {
+            "MediaType": "Gif",
+            "Source": "Giphy",
+            "Path": "sdpb3Bl5yBvLa"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "80",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4500
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "90",
+          "Label": {
+            "en": "There are few better places to see them than on the Farne Islands:",
+            "fr": "There are few better places to see them than on the Farne Islands:",
+            "es": "There are few better places to see them than on the Farne Islands:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "100",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "110",
+          "Source": {
+            "MediaType": "Picture",
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FarneIslands20yo",
+      "StepValue": "1",
+      "CommandLabel": {
+        "en": "20 years",
+        "fr": "20 years",
+        "es": "20 years"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Id": "25",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "30",
+          "Label": {
+            "en": "Exactly! And some of them can easily reach 30 years old and over! 😮",
+            "fr": "Exactly! And some of them can easily reach 30 years old and over! 😮",
+            "es": "Exactly! And some of them can easily reach 30 years old and over! 😮"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "40",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "50",
+          "Source": {
+            "MediaType": "Gif",
+            "Source": "Giphy",
+            "Path": "sdpb3Bl5yBvLa"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "60",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4500
+          }
+        },
+        {
+          "Type": "Text",
+          "Id": "70",
+          "Label": {
+            "en": "There are few better places to see them than on the Farne Islands:",
+            "fr": "There are few better places to see them than on the Farne Islands:",
+            "es": "There are few better places to see them than on the Farne Islands:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Id": "80",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "90",
+          "Source": {
+            "MediaType": "Picture",
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
