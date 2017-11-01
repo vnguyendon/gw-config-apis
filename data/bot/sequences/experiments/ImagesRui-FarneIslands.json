@@ -29,7 +29,7 @@
     {
       "Type": "Image",
       "Id": "40",
-      "Source": {
+      "Parameters": {
         "MediaType": "Picture",
         "Source": "Dropbox",
         "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
@@ -103,7 +103,7 @@
         {
           "Type": "Image",
           "Id": "70",
-          "Source": {
+          "Parameters": {
             "MediaType": "Gif",
             "Source": "Giphy",
             "Path": "sdpb3Bl5yBvLa"
@@ -137,7 +137,7 @@
         {
           "Type": "Image",
           "Id": "110",
-          "Source": {
+          "Parameters": {
             "MediaType": "Picture",
             "Source": "Web",
             "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
@@ -193,7 +193,7 @@
         {
           "Type": "Image",
           "Id": "50",
-          "Source": {
+          "Parameters": {
             "MediaType": "Gif",
             "Source": "Giphy",
             "Path": "sdpb3Bl5yBvLa"
@@ -227,7 +227,7 @@
         {
           "Type": "Image",
           "Id": "90",
-          "Source": {
+          "Parameters": {
             "MediaType": "Picture",
             "Source": "Web",
             "Path": "https://img11.hostingpics.net/pics/197145FarneIslands1SMALL.jpg"
