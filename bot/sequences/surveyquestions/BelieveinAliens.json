@@ -4,9 +4,9 @@
   "Id": "DoYouBelieveInAliens",
   "Label":
     {
-      "en": "Do you think there is life on another planet? 👽",
-      "fr": "Tu crois qu'il y a de la vie sur une autre planète ? 👽",
-      "es": "¿Crees que hay vida en otra planeta? 👽"
+      "en": "Do you think there is life on other planets? 👽",
+      "fr": "Tu crois qu'il y a de la vie sur d'autres planètes ? 👽",
+      "es": "¿Crees que hay vida en otras planetas? 👽"
     }
   ,
   "Randomize": "true",
