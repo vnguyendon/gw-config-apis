@@ -1,0 +1,72 @@
+
+{
+    "Type": "Node",
+    "Id": "BeautyOrIntelligence",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "You can't have both. You choose..",
+                "fr": "Tu ne peux pas avoir les deux. Tu choisis..",
+                "es": "No puedes tener los dos. Eliges.."
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ChooseBeauty",
+            "StepValue": "1",
+            "CommandLabel": {
+                "en": "beauty",
+                "fr": "la beauté",
+                "es": "la belleza"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TvVAUNS3tfqaQ"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseIntelligence",
+            "StepValue": "1",
+            "CommandLabel": {
+                "en": "intelligence",
+                "fr": "l'intelligence",
+                "es": "la inteligencia"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "zwOgFlmzF98sM"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                }
+            ]
+        }
+    ]
+}
