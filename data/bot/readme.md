@@ -267,9 +267,11 @@ Here, we have introduced a break of 4 seconds (or 4000 milliseconds) between the
 
 ## 8. Appendix: further details on the sequences
 
-### 8.1 The skeleton of a sequence
+### 8.1 Skeleton and elements of a sequence
 
-The structure of a sequence is similar to that of a tree: each level is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
+#### 8.1.1 The skeleton of a sequence
+
+The structure of a sequence is similar to that of a tree: each element is either made of nodes ("`Node`") or leaves ("`Leaf`"). A `node` needs to be followed by something ; a `leaf` is an end to the sequence. 
 
 Example:
 
@@ -289,9 +291,44 @@ Example:
      }
         
 
-Think of them as binary: each sequence step has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
+Think of them as binary: each sequence element has to have a `Type` ; each `Type` needs to be either a "`Node`" or "`Leaf`"
 
 `Commands` and `LinksTo` are used to transition from one `Type` to another. `Commands` points to commands that the user will see on his/her screen. 
+
+#### 8.1.2 Elements and ElementValue
+
+As pointed out above, we consider each bit of interaction or branch of the tree to be called an `Element`. 
+- each `"Type": "Leaf"` or `"Type": "Node"` bit should be considered an element of the sequence
+- as a consequence, we should name the analytics property linked to those Elements `"ElementValue"`
+
+It should look as follows:
+
+    ...
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ChooseBeauty",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "beauty"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseIntelligence",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "intelligence"
+            }
+         }
+      ]
+      ...
+
+We can see that there is an `"ElementValue"` right at the root of both `"Leaf"` elements.
+
+*Note*: 
+- we usually won't have an `"ElementValue"` at the root of questions
+- that is because questions are automatically asked by the client. It gives little information on the user and are therefore not valuable as an `"ElementValue"`
 
 
 ### 8.2 Pausing, wait and full-stops
