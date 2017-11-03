@@ -48,18 +48,18 @@
               "en": "Labrador",
               "fr": "Labrador"
             },
-            "Steps": [
+            "Steps": "Steps": [
               {
                 "Type": "Action",
                 "Id": "1",
                 "Name": "DoVote"
               },
               {
-                "Type": "AnimatedGif",
+                "Type": "Text",
                 "Id": "2",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "6Umkh0GwRYhfG"
+                "Label": {
+                  "en": "Sooo cute",
+                  "fr": "Tellement mignon"
                 }
               },
               {
@@ -71,11 +71,12 @@
                 }
               },
               {
-                "Type": "Text",
+                "Type": "Video",
                 "Id": "4",
-                "Label": {
-                  "en": "Sooo cute",
-                  "fr": "Tellement mignon"
+                "Parameters": {
+                  "Title": "Labrador Facts",
+                  "Source": "Youtube",
+                  "Path": "6zTOINeXQcc"
                 }
               }
             ]
