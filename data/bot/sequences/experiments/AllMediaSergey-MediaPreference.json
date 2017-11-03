@@ -22,6 +22,7 @@
                   "Type": "Video",
                   "Id": "10",
                   "Parameters": {
+                      "Title": "Céline Dion - I'm alive",
                       "Source": "Youtube",
                       "Path": "NJsa6-y4sDs"
                   }
