@@ -17,7 +17,7 @@
         {
             "Type": "Leaf",
             "Id": "ChooseBeauty",
-            "StepValue": "1",
+            "ElementValue": "1",
             "CommandLabel": {
                 "en": "beauty",
                 "fr": "la beauté",
@@ -44,7 +44,7 @@
         {
             "Type": "Leaf",
             "Id": "ChooseIntelligence",
-            "StepValue": "1",
+            "ElementValue": "1",
             "CommandLabel": {
                 "en": "intelligence",
                 "fr": "l'intelligence",
