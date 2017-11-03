@@ -2,13 +2,14 @@
   {
     "GroupName":"Start",
     "SequenceFiles" : [
-       { "order" : 5, "file": "/bot/telly/CanYouSeeTheButtons.json"}
+       { "order" : 5, "file": "/bot/telly/CanYouSeeTheButtons2.json"}
       ]
   },
   {
     "GroupName":"Survey",
     "SequenceFiles" : [    
-      { "order" : 20, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
+      { "order" : 20, "file": "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json"},
+      { "order" : 21, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
       { "order" : 22, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
       { "order" : 25, "file": "/bot/sequences/surveyquestions/HappierMovieOrBook.json"},
       { "order" : 30, "file": "/bot/sequences/v2/Age.json"},     
