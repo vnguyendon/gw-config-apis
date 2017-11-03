@@ -1,0 +1,67 @@
+
+## 1. What's new?
+
+We added a property `"ElementValue"` at the Command level to indicate, in analytics, whether a user choice is valuable to us.
+
+## 2. Why was this change necessary?
+
+In the previous sequence format, we used the property/value pari "StepValue": "true". Now that we are rolling out "Steps" as the basis of content packaging, it would be very confusing to use "StepValue" again.
+
+Instead, Rui came forward with the following idea:
+- each branch of the sequence tree, whether an output of the bot or an input of the user, should be called an Element
+- therefore each `"Type": "Leaf"` or `"Type": "Node"` bit should be considered an element of the sequence
+- as a consequence, we should name the analytics property linked to those Elements `"ElementValue"`
+
+As an example, it could look like this:
+
+```
+    ...
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ChooseBeauty",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "beauty",
+                "fr": "la beauté",
+                "es": "la belleza"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseIntelligence",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "intelligence",
+                "fr": "l'intelligence",
+                "es": "la inteligencia"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                }
+            ]
+        }
+    ]
+    ...
+```
+
+This is a simplified version of https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json
+We can see that there is an `"ElementValue"` right at the root of both `"Leaf"` elements.
+*Note*: 
+- we usually won't have an `"ElementValue"` at the root of questions
+- that is because questions are automatically asked by the client. It gives little information on the user and are therefore not valuable as an `"ElementValue"`
+
+## 3. Where can I see it in the documentation?
+
+We had to actually integrate a video link in one steps of the example:
+- in the Readme.md (https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/readme.md), we added a paragraph 8.1.12 Elements and ElementValue under 8.1 Skeleton and elements of a sequence
+
+
