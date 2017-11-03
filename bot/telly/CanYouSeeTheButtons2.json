@@ -3,9 +3,9 @@
   "Id": "CanYouSeeTheButtons",
   "Comments": "first question after welcome message",
   "Label": {
-    "en": "Hi there! \nI’m an extraterrestrial pony eager to understand how humans think! \nWould you like to help me in this great adventure? ✨🌍",
-    "fr": "Hello ! \nJe suis un poney extraterrestre et j'aimerais mieux comprendre les humains ! \nÇa te dirait de m'aider dans cette grande aventure ?✨🌍",
-    "es": "¡Hola! \nSoy un poni extraterrestre y ¡querría comprender lo que piensan los humanos! \n¿Te gustaría ayudarme en esta gran aventura?✨🌍"
+    "en": "Hi there! I’m an extraterrestrial pony eager to understand how humans think! Would you like to help me in this great adventure? ✨🌍",
+    "fr": "Hello ! Je suis un poney extraterrestre et j'aimerais mieux comprendre les humains ! Ça te dirait de m'aider dans cette grande aventure ?✨🌍",
+    "es": "¡Hola! Soy un poni extraterrestre y ¡querría comprender lo que piensan los humanos! ¿Te gustaría ayudarme en esta gran aventura?✨🌍"
   },
   "Commands": [
     {
@@ -27,9 +27,9 @@
         "Id": "SeeTheButtonsYesThenStart",
         "Comments": "if yes, then we can show a nice message and invite to start!",
         "Label": {
-          "en": "Perfect!\nLet’s start with an easy question, ok?",
-          "fr": "Parfait !\nUne question facile pour commencer, ça te va ?",
-          "es": "¡Estupendo!\n¿Una pregunta fácil para empezar, de acuerdo?"
+          "en": "Perfect! Let’s start with an easy question, ok?",
+          "fr": "Parfait ! Une question facile pour commencer, ça te va ?",
+          "es": "¡Estupendo! ¿Una pregunta fácil para empezar, de acuerdo?"
         },
         "Commands": [
             {
@@ -65,9 +65,9 @@
         "Id": "SeeTheButtonsNoThenStart",
         "Comments": "if no, we still show a message and invite to start!",
         "Label": {
-          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀\nLet’s start with an easy question, ok?",
-          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀\nUne question facile pour commencer, ça te va ?",
-          "es": "¡Perfecto!\nSiempre he querido hablar con alguien con buen sentido del humor 😀\n¿Una pregunta fácil para empezar, de acuerdo?"
+          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀 Let’s start with an easy question, ok?",
+          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀 Une question facile pour commencer, ça te va ?",
+          "es": "¡Perfecto! Siempre he querido hablar con alguien con buen sentido del humor 😀 ¿Una pregunta fácil para empezar, de acuerdo?"
         },
         "Commands": [
             {
