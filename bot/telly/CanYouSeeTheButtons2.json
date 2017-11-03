@@ -27,11 +27,23 @@
         "Id": "SeeTheButtonsYesThenStart",
         "Comments": "if yes, then we can show a nice message and invite to start!",
         "Label": {
-          "en": "Perfect!\nLet’s start with an easy question:",
-          "fr": "Parfait !\nUne question facile pour commencer :",
-          "es": "¡Estupendo!\nUna pregunta fácil para empezar:"
+          "en": "Perfect!\nLet’s start with an easy question, ok?",
+          "fr": "Parfait !\nUne question facile pour commencer, ça te va ?",
+          "es": "¡Estupendo!\n¿Una pregunta fácil para empezar, de acuerdo?"
         },
-        "LinksTo": {}
+        "Commands": [
+            {
+              "Type":"DoNothing",
+              "Id": "SeeTheButtonYesNoYesStart",
+              "StepValue" : "1",
+              "Label": {
+                  "en": "Yes",
+                  "fr": "Oui",
+                  "es": "Si"
+              },
+              "LinksTo": {}
+            }
+          ]
       }
     },
     {
@@ -53,11 +65,23 @@
         "Id": "SeeTheButtonsNoThenStart",
         "Comments": "if no, we still show a message and invite to start!",
         "Label": {
-          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀\nLet’s start with an easy question:",
-          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀\nUne question facile pour commencer :",
-          "es": "¡Perfecto!\nSiempre he querido hablar con alguien con buen sentido del humor 😀\nUna pregunta fácil para empezar:"
+          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀\nLet’s start with an easy question, ok?",
+          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀\nUne question facile pour commencer, ça te va ?",
+          "es": "¡Perfecto!\nSiempre he querido hablar con alguien con buen sentido del humor 😀\n¿Una pregunta fácil para empezar, de acuerdo?"
         },
-        "LinksTo": {}
+        "Commands": [
+            {
+              "Type":"DoNothing",
+              "Id": "SeeTheButtonYesNoYesStart",
+              "StepValue" : "1",
+              "Label": {
+                  "en": "Yes",
+                  "fr": "Oui",
+                  "es": "Si"
+              },
+              "LinksTo": {}
+            }
+          ]
       }
     }
   ]
