@@ -1,5 +1,5 @@
 
-In this file, we will describe the new format for the chatbot sequences. This format was written in October 2017 and aims at broadening the scope of possible actions in the chatbot, whilst simplying the format and making more flexible
+In this file, we will describe the new format for the chatbot sequences. This format was written in October 2017 and aims at broadening the scope of possible actions in the chatbot, whilst simplying the format and making more flexible. There will be minor updates following this 
 
 ## 1. Scenario
 
@@ -197,19 +197,20 @@ For instance, we might want to count the number of people who prefered Labradors
                 "Name": "DoVote"
               },
               {
-                "Type": "AnimatedGif",
-                "Id": "2",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "6Umkh0GwRYhfG"
-                }
-              },
-              {
                 "Type": "Text",
-                "Id": "3",
+                "Id": "2",
                 "Label": {
                   "en": "Sooo cute",
                   "fr": "Tellement mignon"
+                }
+              },
+              {
+                "Type": "Video",
+                "Id": "3",
+                "Parameters": {
+                  "Title": "Labrador Facts",
+                  "Source": "Youtube",
+                  "Path": "6zTOINeXQcc"
                 }
               }
             ]
@@ -233,11 +234,11 @@ It will look as follows:
                 "Name": "DoVote"
               },
               {
-                "Type": "AnimatedGif",
+                "Type": "Text",
                 "Id": "2",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "6Umkh0GwRYhfG"
+                "Label": {
+                  "en": "Sooo cute",
+                  "fr": "Tellement mignon"
                 }
               },
               {
@@ -249,11 +250,12 @@ It will look as follows:
                 }
               },
               {
-                "Type": "Text",
+                "Type": "Video",
                 "Id": "4",
-                "Label": {
-                  "en": "Sooo cute",
-                  "fr": "Tellement mignon"
+                "Parameters": {
+                  "Title": "Labrador Facts",
+                  "Source": "Youtube",
+                  "Path": "6zTOINeXQcc"
                 }
               }
             ]
