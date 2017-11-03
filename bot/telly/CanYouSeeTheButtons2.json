@@ -1,0 +1,64 @@
+{
+  "Type": "Question",
+  "Id": "CanYouSeeTheButtons",
+  "Comments": "first question after welcome message",
+  "Label": {
+    "en": "Hi there! \nI’m an extraterrestrial pony eager to understand how humans think! \nWould you like to help me in this great adventure? ✨🌍",
+    "fr": "Hello ! \nJe suis un poney extraterrestre et j'aimerais mieux comprendre les humains ! \nÇa te dirait de m'aider dans cette grande aventure ?✨🌍",
+    "es": "¡Hola! \nSoy un poni extraterrestre y ¡querría comprender lo que piensan los humanos! \n¿Te gustaría ayudarme en esta gran aventura?✨🌍"
+  },
+  "Commands": [
+    {
+      "Type": "ShowQuestion",
+      "Id": "SeeTheButtonsYes",
+      "StepValue": "1",
+      "Label": {
+        "en": "Yes, sure!",
+        "fr": "Oui, bien sûr !",
+        "es": "¡Claro que si!"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "ZPKA8hg390ZP2"
+      },
+      "LinksTo": {
+        "Type": "Question",
+        "Id": "SeeTheButtonsYesThenStart",
+        "Comments": "if yes, then we can show a nice message and invite to start!",
+        "Label": {
+          "en": "Perfect!\nLet’s start with an easy question:",
+          "fr": "Parfait !\nUne question facile pour commencer :",
+          "es": "¡Estupendo!\nUna pregunta fácil para empezar:"
+        },
+        "LinksTo": {}
+      }
+    },
+    {
+      "Type": "ShowQuestion",
+      "Id": "SeeTheButtonsNo",
+      "StepValue": "1",
+      "Label": {
+        "en": "No, thanks",
+        "fr": "Non merci",
+        "es": "No, gracias"
+      },
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "98nNL0zwst0qs"
+      },
+      "LinksTo": {
+        "Type": "Question",
+        "Id": "SeeTheButtonsNoThenStart",
+        "Comments": "if no, we still show a message and invite to start!",
+        "Label": {
+          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀\nLet’s start with an easy question:",
+          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀\nUne question facile pour commencer :",
+          "es": "¡Perfecto!\nSiempre he querido hablar con alguien con buen sentido del humor 😀\nUna pregunta fácil para empezar:"
+        },
+        "LinksTo": {}
+      }
+    }
+  ]
+}
