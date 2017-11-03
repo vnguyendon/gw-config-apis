@@ -40,7 +40,7 @@
                   "Type": "Image",
                   "Id": "10",
                   "Parameters": {
-                      "Source": "Dropbox",
+                      "Source": "Internal",
                       "Path": "gw-static/themes/emojiPandas/small/shutterstock_431449828_2.jpg"
                   }
                 }
@@ -54,7 +54,7 @@
             },
             "Steps": [
                 {
-                  "Type": "Gif",
+                  "Type": "AnimatedGif",
                   "Id": "10",
                   "Parameters": {
                       "Source": "Giphy",
