@@ -1,2 +1,0 @@
-# Telly (aka Survey Pony)
-
