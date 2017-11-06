@@ -20,10 +20,9 @@
       }
     },
     {
-      "Type": "Image",
+      "Type": "AnimatedGif",
       "Id": "30",
-      "Source": {
-        "Type": "AnimatedGif",
+      "Parameters": {
         "Source": "Giphy",
         "Path": "3oz8xzmy5jM39tV4OI"
       }
@@ -51,7 +50,7 @@
     {
       "Type": "Leaf",
       "Id": "GWisImportant",
-      "StepValue": "1",
+      "ElementValue": "1",
       "CommandLabel": {
         "en": "yes",
         "fr": "oui",
@@ -102,7 +101,7 @@
           {
             "Type": "Leaf",
             "Id": "LikeFunnyPenguins",
-            "StepValue": "1",
+            "ElementValue": "1",
             "CommandLabel": {
               "en": "funny",
               "fr": "amusants",
@@ -120,10 +119,9 @@
                 "Name": "ShowSurveyResults"
               },
               {
-                "Type": "Image",
+                "Type": "AnimatedGif",
                 "Id": "30",
-                "Source": {
-                  "Type": "AnimatedGif",
+                "Parameters": {
                   "Source": "Giphy",
                   "Path": "ewHSMEx2TtEo8"
                 }
@@ -133,7 +131,7 @@
           {
             "Type": "Leaf",
             "Id": "LikeCutePenguins",
-            "StepValue": "1",
+            "ElementValue": "1",
             "CommandLabel": {
               "en": "cute",
               "fr": "mignons",
@@ -151,10 +149,9 @@
                 "Name": "ShowSurveyResults"
               },
               {
-                "Type": "Image",
+                "Type": "AnimatedGif",
                 "Id": "30",
-                "Source": {
-                  "Type": "AnimatedGif",
+                "Parameters": {
                   "Source": "Giphy",
                   "Path": "C0EYVrLCgnYdy"
                 }
@@ -167,7 +164,7 @@
     {
       "Type": "Leaf",
       "Id": "GWisNotImportant",
-      "StepValue": "1",
+      "ElementValue": "1",
       "CommandLabel": {
         "en": "no",
         "fr": "non",
@@ -185,10 +182,9 @@
           "Name": "ShowSurveyResults"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "1",
-          "Source": {
-            "Type": "AnimatedGif",
+          "Parameters": {
             "Source": "Giphy",
             "Path": "ewHSMEx2TtEo8"
           }
