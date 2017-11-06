@@ -52,8 +52,9 @@
             },
             "Steps": [
               {
-                "Type": "ShowCard",
+                "Type": "Action",
                 "Id": 10,
+                "Name": "ShowCards",
                 "Parameters": {
                   "Type": "Intention",
                   "Id": "43B296"
@@ -62,7 +63,7 @@
             ]
           },
           {
-            "Type": "ShowCards",
+            "Type": "Leaf",
             "Id": "SuggestionsPositiveThoughts",
             "Comments": "if selected we'll show a positive-thoughts card",
             "ElementValue": 1,
@@ -73,8 +74,9 @@
             },
             "Steps": [
               {
-                "Type": "ShowCard",
+                "Type": "Action",
                 "Id": 10,
+                "Name": "ShowCards",
                 "Parameters": {
                   "Type": "Intention",
                   "Id": "67CC40"
