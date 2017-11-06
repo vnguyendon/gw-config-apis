@@ -21,7 +21,7 @@
         }
     ],
     "Randomize": "True",
-    "Command": [
+    "Commands": [
         {
             "Type": "Leaf",
             "StepValue": "1",
