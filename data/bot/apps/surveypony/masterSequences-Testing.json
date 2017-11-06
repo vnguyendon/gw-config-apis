@@ -1,0 +1,15 @@
+[
+  {
+    "GroupName":"Test",
+    "SequenceFiles" : [
+       { "order" : 10, "file": "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"},
+       { "order" : 30, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"},
+       { "order" : 20, "file": "/data/bot/sequences/experiments/CatsOrDogsV5.json"},
+       { "order" : 40, "file": "/data/bot/sequences/experiments/FarneIslandsV5.json"},
+       { "order" : 50, "file": "/data/bot/sequences/experiments/GlobalWarmingV5.json"},
+       { "order" : 60, "file": "/data/bot/sequences/experiments/SherlockGoesCampingV5.json"},
+       { "order" : 70, "file": "/data/bot/sequences/experiments/WouldYouLikeToFeelZen-Testing.json"},
+       { "order" : 80, "file": "/data/bot/sequences/experiments/ppDecisionsAriseFromV5-Testing.json"}
+    ]
+  }
+]
