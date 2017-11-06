@@ -17,7 +17,7 @@
     {
       "Type": "Leaf",
       "Id": "PreferCats",
-      "StepValue": "1",
+      "ElementValue": "1",
       "CommandLabel": {
         "en": "a cat person 🐱",
         "fr": "les chats 🐱",
@@ -30,10 +30,9 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "20",
-          "Source": {
-            "Type": "AnimatedGif",
+          "Parameters": {
             "Source": "Giphy",
             "Path": "LKRtMj7xvviUg"
           }
@@ -69,10 +68,9 @@
           }
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "70",
-          "Source": {
-            "Type": "AnimatedGif",
+          "Parameters": {
             "Source": "Giphy",
             "Path": "fZGmLzHoTFf1u"
           }
@@ -82,7 +80,7 @@
     {
       "Type": "Leaf",
       "Id": "PreferDogs",
-      "StepValue": "1",
+      "ElementValue": "1",
       "CommandLabel": {
         "en": "a dog person 🐶",
         "fr": "les chiens 🐶",
@@ -95,10 +93,9 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "20",
-          "Source": {
-            "Type": "AnimatedGif",
+          "Parameters": {
             "Source": "Giphy",
             "Path": "fegzospsGS6Os"
           }
@@ -134,10 +131,9 @@
           }
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "70",
-          "Source": {
-            "Type": "AnimatedGif",
+          "Parameters": {
             "Source": "Giphy",
             "Path": "ijFKWqCZfYdIQ"
           }
