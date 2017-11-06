@@ -19,28 +19,22 @@
     {
       "Type": "Node",
       "Id": "ZenYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      },
       "Comments": "represents the Yes answer, then we continue with another implicit question showing the different options for cards",
       "Steps": [
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Id": "10",
-          "Source": {
-              "Type": "AnimatedGif",
-              "Source": "Giphy",
-              "Path": "9WHE2bo5Na9Gg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Id": "20",
-          "Label": {
-            "en": "Yes",
-            "fr": "Oui",
-            "es": "Si"
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9WHE2bo5Na9Gg"
           }
         }
-      ]
-      ,
+      ],
       "LinksTo": {
         "Type": "Node",
         "Id": "ShowFeelzenYesCardsSuggestions",
@@ -50,7 +44,7 @@
             "Type": "Leaf",
             "Id": "SuggestionsPoems",
             "Comments": "if selected we'll show a Poem card",
-            "StepValue": 1,
+            "ElementValue": 1,
             "CommandLabel": {
               "en": "Poems",
               "fr": "Poèmes",
@@ -71,7 +65,7 @@
             "Type": "ShowCards",
             "Id": "SuggestionsPositiveThoughts",
             "Comments": "if selected we'll show a positive-thoughts card",
-            "StepValue": 1,
+            "ElementValue": 1,
             "CommandLabel": {
               "en": "Positive thoughts",
               "fr": "Pensées positives",
@@ -90,7 +84,6 @@
           }
         ]
       }
-
     },
     {
       "Type": "Node",
@@ -110,7 +103,7 @@
             "Type": "Leaf",
             "Id": "SuggestionsJokesBamTheDog",
             "Comments": "if selected we'll show the paf dog story",
-            "StepValue": 1,
+            "ElementValue": 1,
             "CommandLabel": {
               "en": "🐶 Bam the dog",
               "fr": "🐶 Paf le chien",
@@ -166,7 +159,7 @@
             "Type": "Leaf",
             "Id": "SuggestionsJokesFlopTheGirafe",
             "Comments": "if selected we'll show the flap the girafe story",
-            "StepValue": 1,
+            "ElementValue": 1,
             "CommandLabel": {
               "en": "Giraffe",
               "fr": "Girafe",
@@ -220,7 +213,6 @@
           }
         ]
       }
-
     }
   ]
 }
