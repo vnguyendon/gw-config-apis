@@ -4,7 +4,7 @@
     "GroupName": "NotCategorized",
     "SequenceFiles": [
       "/data/bot/referencefile.json",
-      "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"
+      "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json",
       "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"
     ]
   }
