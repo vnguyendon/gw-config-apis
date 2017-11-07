@@ -48,7 +48,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "GWisImportant",
       "ElementValue": "1",
       "CommandLabel": {
