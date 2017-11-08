@@ -5,9 +5,9 @@
       {
           "Type": "Text",
           "Label": {
-            "en": "Which music band do you prefer? 🎸🎹",
-            "fr": "Quel groupe préfères-tu ? 🎸🎹",
-            "es": "¿Qué grupo prefieres? 🎸🎹"
+          "en": "Do you think there is life on other planets? 👽",
+          "fr": "Tu crois qu'il y a de la vie sur d'autres planètes ? 👽",
+          "es": "¿Crees que hay vida en otras planetas? 👽"
           }
       }
   ],
