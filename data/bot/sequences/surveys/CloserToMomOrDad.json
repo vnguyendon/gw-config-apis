@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CloserToMomOrDad",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel closer to",
+        "fr": "Tu te sens plus proche de",
+        "es": "Te sientes más cercano de"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CloserToMom",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your mom 👩",
+        "fr": "ta mère 👩",
+        "es": "tu madre 👩"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lcVSsTpx2s5t6"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CloserToDad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your dad 👨",
+        "fr": "ton père 👨",
+        "es": "tu padre 👨"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "M4gZTZkxbe4X6"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
