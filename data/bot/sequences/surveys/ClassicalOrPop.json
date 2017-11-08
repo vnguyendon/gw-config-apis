@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ClassicalOrPop",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which kind of music do you prefer?",
+        "fr": "Quel genre de musique préfères-tu ?",
+        "es": "¿Qué tipo de música prefieres?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferPop",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pop 🎤",
+        "fr": "la pop 🎤",
+        "es": "pop 🎤"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT39Dbobw4v8F5V3NK"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferClassical",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "classical 🎼",
+        "fr": "le classique 🎼",
+        "es": "clásica 🎼"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26gsnVwDYSK5depi0"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
