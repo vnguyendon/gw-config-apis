@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CheeseOrDessert",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Cheese or dessert?",
+        "fr": "Fromage ou dessert ?",
+        "es": "¿Queso o postre?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Cheese",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cheese 🧀",
+        "fr": "fromage 🧀",
+        "es": "queso 🧀"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "UtvkbCvOJCJtC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Dessert",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "dessert 🍰",
+        "fr": "dessert 🍰",
+        "es": "postre 🍰"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "AGGz7y0rCYxdS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
