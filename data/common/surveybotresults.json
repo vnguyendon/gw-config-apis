@@ -27,7 +27,7 @@
     {
       "ID": "percentVotersAgreeWomen",
       "Label": {
-        "fr": "- Femmes : {value}%",
+        "fr": "Femmes : {value}%",
         "en": "Women: {value}%",
         "es": "Mujeres: {value}%"
       }
@@ -43,9 +43,9 @@
     {
       "key": "percentVotersAgreeLessThan40",
       "Label": {
-        "fr": "- Moins de 40 ans : {value}%",
-        "en": "- Younger people: {value}%",
-        "es": "- Menores de 40 años: {value}%"
+        "fr": "Moins de 40 ans : {value}%",
+        "en": "Younger people: {value}%",
+        "es": "Menores de 40 años: {value}%"
       }
     },
     {
