@@ -61,6 +61,10 @@
                         "Source": "Giphy",
                         "Path": "zwOgFlmzF98sM"
                     }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
                 }
             ]
         }
