@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PreferCarOrBike",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer moving around",
+        "fr": "Tu préfères te déplacer en",
+        "es": "Prefieres utilizar"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferCar",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in a car 🚘",
+        "fr": "voiture 🚘",
+        "es": "el carro 🚘"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "UKm1AF0UrCkb6"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferBike",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "on a bike 🚲",
+        "fr": "vélo 🚲",
+        "es": "la bicicleta 🚲"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GoWH9YV4t3n4Q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
