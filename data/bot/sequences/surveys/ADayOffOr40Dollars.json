@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ADayOffOr40Dollars",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "You would prefer your employer to give you",
+            "fr": "Tu préfères que ton employeur te donne",
+            "es": "Prefieres que tu jefe te dé"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "PreferADayOff",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "a day off 😌",
+            "fr": "un jour de congé 😌",
+            "es": "un día libre 😌"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "76hdmaMUK9X20"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "Prefer40Dollars",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "$40 💵",
+            "fr": "40$ 💵",
+            "es": "40$ 💵"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "UOvh7Fw9fo7KM"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
