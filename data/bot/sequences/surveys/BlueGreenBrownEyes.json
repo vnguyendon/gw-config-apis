@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BlueGreenOrBrownEyes",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "You prefer",
+            "fr": "Tu préfères les yeux",
+            "es": "Prefieres los ojos"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "BlueEyes",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "blue eyes",
+            "fr": "bleus",
+            "es": "azules"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "UAxOiMCkOgmoU"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "GreenEyes",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "green eyes",
+            "fr": "verts",
+            "es": "verdes"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "LvHBV2O3aFqBG"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
