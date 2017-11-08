@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YouHelpWomenOrChildren",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can give money to a charity. You choose the one that helps",
+        "fr": "Tu peux donner de l'argent à une association. Tu en choisis une qui aide",
+        "es": "Puedes dar dinero a una asociación. Eliges la que ayuda a"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HelpWomen",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "women",
+        "fr": "les femmes",
+        "es": "las mujeres"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEhn8DaXhDssQwuyc"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HelpChildren",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "children",
+        "fr": "les enfants",
+        "es": "los niños"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUA7aZVRFHDD4u0wZq"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
