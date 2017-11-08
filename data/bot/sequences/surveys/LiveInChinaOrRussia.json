@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LiveInChinaOrRussia",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather live in",
+        "fr": "Tu préférerais vivre en",
+        "es": "Preferirías vivir en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LiveInChina",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "China",
+        "fr": "Chine",
+        "es": "China"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26wdlJrL4lvDNX3Xi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LiveInRussia",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Russia",
+        "fr": "Russie",
+        "es": "Rusia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26wd1zh5lKwytMIdq"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
