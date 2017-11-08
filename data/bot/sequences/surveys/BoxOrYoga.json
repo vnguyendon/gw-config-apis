@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BoxOrYoga",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "You have to do some exercise. You choose",
+            "fr": "Tu dois te mettre au sport. Tu choisis",
+            "es": "Tienes que hacer deporte. Eliges"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "PreferBox",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "box",
+            "fr": "la boxe",
+            "es": "boxeo"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "3owzWnpZ3YnoZtYgsE"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "PreferYoga",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yoga",
+            "fr": "le yoga",
+            "es": "yoga"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "IRD4JVVr9C90s"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
