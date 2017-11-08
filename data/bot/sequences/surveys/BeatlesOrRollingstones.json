@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BeatlesOrRollingStones",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Which music band do you prefer? 🎸🎹",
+            "fr": "Quel groupe préfères-tu ? 🎸🎹",
+            "es": "¿Qué grupo prefieres? 🎸🎹"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "PreferBeatles",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "the Beatles",
+            "fr": "les Beatles",
+            "es": "los Beatles"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "qC6QyaOdedDcA"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "PreferRollingstones",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "the Rolling Stones",
+            "fr": "les Rolling Stones",
+            "es": "los Rolling Stones"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "12DW8WAUUqeCKk"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
