@@ -19,7 +19,11 @@
       "/data/bot/sequences/surveys/BookOrMovie.json",
       "/data/bot/sequences/surveys/BoxOrYoga.json",
       "/data/bot/sequences/surveys/BrexitWillHappen.json",
-      "/data/bot/sequences/surveys/CanadaOrSouthAfrica.json"
+      "/data/bot/sequences/surveys/CanadaOrSouthAfrica.json",
+      "/data/bot/sequences/experiments/GlobalWarmingV5.json",
+      "/data/bot/sequences/experiments/FarneIslandsV5.json",
+      "/data/bot/sequences/experiments/SherlockGoesCampingV5.json",
+      "/data/bot/sequences/experiments/ppDecisionsAriseFromV5.json"
     ]
   }
 ]
