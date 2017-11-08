@@ -1,0 +1,93 @@
+{
+  "Type": "Node",
+  "Id": "PassionOrIndependence",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's more important in a relationship?",
+        "fr": "C'est quoi le plus important dans une relation ?",
+        "es": "¿Qué es lo más importante en una pareja?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantPassion",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "passion",
+        "fr": "la passion",
+        "es": "la pasión"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12BLGCegS5WEaQ"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantIndependence",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "independence",
+        "fr": "l'indépendance",
+        "es": "la independencia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lXd9VeNeDfH3y"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"Some people ask the secret of our long marriage. We take time to go to a restaurant two times a week. A little candlelight, dinner, soft music and dancing. She goes Tuesdays, I go Fridays.\" - Henry Youngman",
+            "fr": "\"Le secret de la longévité de notre mariage ? Un bon restaurant deux fois par semaine. Dîner aux chandelles et musique douce... Elle le mardi, moi le vendredi.\" - Henry Youngman",
+            "es": "\"¿El secreto de la longevidad de nuestro matrimonio? Un buen restaurante dos veces por semana. Cena a la luz de las velas y música suave… Ella el martes, yo el viernes.\" - Henry Youngman"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    }
+  ]
+}

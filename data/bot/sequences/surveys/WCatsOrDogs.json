@@ -1,0 +1,129 @@
+{
+  "Type": "Node",
+  "Id": "CatsOrDogs",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you more",
+        "fr": "Est-ce que tu préfères",
+        "es": "Te gustan mas"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferCats",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a cat person 🐱",
+        "fr": "les chats 🐱",
+        "es": "los gatos 🐱"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "LKRtMj7xvviUg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Dogs have masters. Cats have staff.",
+            "fr": "Les chiens ont des maîtres. Les chats ont du personnel.",
+            "es": "Los perros tienen amos. Los gatos tienen personal."
+          },
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "fZGmLzHoTFf1u"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferDogs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a dog person 🐶",
+        "fr": "les chiens 🐶",
+        "es": "los perros 🐶"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "fegzospsGS6Os"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Be the person your dog thinks you are.",
+            "fr": "Sois la personne que ton chien pense que tu es.",
+            "es": "Sé la persona que tu perro piensa que eres."
+          },
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ijFKWqCZfYdIQ"
+          }
+        }
+      ]
+    }
+  ]
+}

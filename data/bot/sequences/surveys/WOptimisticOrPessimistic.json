@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "OptimisticOrPessimistic",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you consider yourself as",
+        "fr": "Tu es plutôt",
+        "es": "Eres más"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Optimistic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "optimistic",
+        "fr": "optimiste",
+        "es": "optimista"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "dEnwjHRw2C5SE"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Always borrow money from a pessimist. He won’t expect it back 😉",
+            "fr": "Il faut toujours emprunter de l'argent à un pessimiste. Il ne s’attendra pas à ce qu’on le lui rende 😉",
+            "es": "Siempre pide dinero prestado a un pesimista. Él nunca espéra que se lo devuelvas 😉"
+          }
+        }
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Pessimistic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pessimistic",
+        "fr": "pessimiste",
+        "es": "pesimista"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JzsG0EmHY9eKc"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
+

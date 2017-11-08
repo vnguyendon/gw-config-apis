@@ -1,0 +1,86 @@
+{
+  "Type": "Node",
+  "Id": "MoreImportantTalkOrListen",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It is more important that your partner",
+        "fr": "C'est plus important que la personne que tu aimes",
+        "es": "Es más importante que tu novio/novia"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantTalk",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "talks to you",
+        "fr": "te parle",
+        "es": "te hable"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "w3kBYNZ0qdQ9a"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantListen",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "listens to you",
+        "fr": "t'écoute",
+        "es": "te escuche"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"Out of all the people who have nothing to say, my favourite people are those who say nothing\" 😏",
+            "fr": "\"De tous ceux qui n'ont rien à dire, les plus agréables sont ceux qui se taisent\" 😏",
+            "es": "\"De todas las personas que no tienen nada para decir, las mas agradables son las que callan\" 😏"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YU3MG6zV3pmHS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

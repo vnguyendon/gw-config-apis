@@ -1,0 +1,86 @@
+{
+  "Type": "Node",
+  "Id": "KindOrFunny",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's most important?",
+        "fr": "C'est quoi le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ImportantKindness",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being kind",
+        "fr": "la gentillesse",
+        "es": "ser amable"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Never underestimate the power of good morning texts, apologies, and random compliments.",
+            "fr": "Ne jamais sous-estimer la puissance d'un bonjour, d'une excuse, ou d'un compliment aléatoire.",
+            "es": "Que no se subestime nunca el poder de un buenos días, de una disculpa, o de un cumplido aleatorio."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "8KKRIP5ZHUo2k"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ImportantFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being funny",
+        "fr": "l'humour",
+        "es": "ser gracioso"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ZqlvCTNHpqrio"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

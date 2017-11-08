@@ -1,0 +1,93 @@
+{
+  "Type": "Node",
+  "Id": "FeelMoreEnergeticMorningOrAfternoon",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel more energetic",
+        "fr": "Tu as plus d'énergie",
+        "es": "Tienes más energía en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "InTheAfternoon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in the afternoon",
+        "fr": "l'après-midi",
+        "es": "la tarde"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JoHCsfie23fag"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"Sometimes you climb out of bed in the morning and you think, I’m not going to make it, but you laugh inside - remembering all the times you’ve felt that way.\" - Charles Bukowski",
+            "fr": "\"Certains matins tu sors de ton lit et tu penses que tu ne vas pas y arriver, mais tu ris intérieurement en pensant à tous les moments où tu t'es dit ça.\" - Charles Bukowski",
+            "es": "\"Algunas mañanas te levantas de tu cama y piensas que no lo vas a lograr pero luego te ries pensando en todos los momentos en que te dijiste lo mismo.\" - Charles Bukowski"
+          }
+        }
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "InTheMorning",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in the morning",
+        "fr": "le matin",
+        "es": "la mañana"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEjHLLDFTNrtdeJq0"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

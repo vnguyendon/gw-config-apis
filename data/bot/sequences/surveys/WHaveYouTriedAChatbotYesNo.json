@@ -1,0 +1,101 @@
+{
+  "Type": "Node",
+  "Id": "HaveYouTriedAChatbotYesNo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever talked to a chatbot?",
+        "fr": "As-tu déjà discuté avec un chatbot?",
+        "es": "¿Has hablado antes con un chatbot?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesTriedAChatbot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But not to a chatbot as great as me, I assume 😎",
+            "fr": "Mais jamais avec un chatbot aussi cool que moi, je suppose 😎",
+            "es": "Pero nunca con un chatbot tan genial como yo, ¿verdad? 😎"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ZTN7U4ipOXPaw"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHaventTriedAChatbot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, now you have! Congratulations 🎉",
+            "fr": "Eh bien maintenant, oui ! Félicitations 🎉",
+            "es": "Pues, ¡ahora sí! Felicitaciones 🎉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YTgQM9NjcFxQc"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

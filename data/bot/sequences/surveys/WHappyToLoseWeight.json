@@ -1,0 +1,100 @@
+{
+  "Type": "Node",
+  "Id": "HappyToLoseWeight",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you be happy to lose weight?",
+        "fr": "Serais-tu content de perdre du poids ?",
+        "es": "¿Quisieras perder peso?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Happytoloseweight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "13mLwGra9bNEKQ"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It's hard to diet when your favorite exercise is chewing... 😋",
+            "fr": "C'est difficile de faire un régime quand son exercice préféré c’est mâcher... 😋",
+            "es": "Es difícil hacer dieta cuando tu ejercicio favorito es masticar... 😋"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oaSMcEHCAJYSA"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotHappytoloseweight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0O9yqyFbuxZoBifu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

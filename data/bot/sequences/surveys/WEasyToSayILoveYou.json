@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "EasyToSayILoveYou",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you find it easy to say 'I love you'? 💗",
+        "fr": "Pour toi, c'est facile de dire \"Je t'aime\" ? 💗",
+        "es": "Para ti ¿es fácil decir \"Te amo\"? 💗"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesEasyToSayIlovu",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "qPoCDRpGkRG5a"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"I love you, and I will love you until I die, and if there’s a life after that, I’ll love you then.\" - Cassandra Clare",
+            "fr": "\"Je t’aime et je t’aimerai jusqu'à ma mort, et s’il y a une vie après ça, je t’aimerai alors.\" - Cassandra Clare",
+            "es": "\"Te amo y te amaré hasta la muerte, y si hay una vida después, también te amaré.\" - Cassandra Clare"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/I-love-you/default/small/shutterstock_93294814.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoNotEasyToSayIlovu",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "rpf0Du8NasK6Q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"The verb ‘to love’ is difficult to conjugate: its past is not simple, its present is only indicative and its future is always conditional.\" - Jean Cocteau",
+            "fr": "\"Le verbe aimer est difficile à conjuguer : son passé n'est pas simple, son présent n'est qu'indicatif, et son futur est toujours conditionnel.\" - Jean Cocteau",
+            "es": "\"El verbo amar es difícil de conjugar: su pasado no es simple, su presente solo es indicativo, y su futuro siempre es incondicional.\" - Jean Cocteau"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "Type": "Node",
+  "Id": "OlympicsOrFootballWorldCup",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer to watch the",
+        "fr": "Tu préfères regarder",
+        "es": "Prefieres ver"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferOlympics",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Olympics",
+        "fr": "les Jeux Olympiques",
+        "es": "los Juegos Olímpicos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "wjXtAL0Z3Ef3W"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "2020 will be coming soon! 🏅",
+            "fr": "2020 va vite arriver ! 🏅",
+            "es": "¡2020 va a llegar pronto! 🏅"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l1KtXmfi3EnjM5zpK"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferFootballWorldCup",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Football World Cup",
+        "fr": "le mondial de football",
+        "es": "el mundial de futbol"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "mGoPr61k51BCM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

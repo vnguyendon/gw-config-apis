@@ -1,0 +1,86 @@
+{
+  "Type": "Node",
+  "Id": "SpendTheWEAloneOrWithFriends",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer to spend the weekend",
+        "fr": "Tu préfères passer un week-end",
+        "es": "Prefieres pasar el fin de semana"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SpendtheWEAlone",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "alone",
+        "fr": "seul",
+        "es": "solo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "QOMIDxwVWZHWM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hospitality (noun): the art of making your guests feel at home even when you wish they really were 😇",
+            "fr": "Le tact, c’est l’art de donner à vos invités l’impression qu’ils sont chez eux alors que vous souhaiteriez tant qu’ils y soient 😇",
+            "es": "El tacto es el arte de dar a sus invitados la impresión de estar en su propia casa mientras que usted desearía tanto que lo estén 😇"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SpendtheWEwithFriends",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "with friends",
+        "fr": "avec des amis",
+        "es": "con amigos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ld1RKulOqeeaI"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

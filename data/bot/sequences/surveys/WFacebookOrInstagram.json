@@ -1,0 +1,86 @@
+{
+  "Type": "Node",
+  "Id": "FacebookOrInstagram",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can only use one. You choose",
+        "fr": "Tu ne peux en utiliser qu'un seul. Tu choisis",
+        "es": "Sólo puedes utilizar uno. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Facebook",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Facebook",
+        "fr": "Facebook",
+        "es": "Facebook"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I don’t know what I’d do without Facebook. Probably my work.",
+            "fr": "Je ne sais pas ce que je ferais sans Facebook. Probablement mon travail.",
+            "es": "No sé lo que haría sin Facebook. Probablemente mi trabajo."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "EP0U4NhHvF4EU"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Instagram",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Instagram",
+        "fr": "Instagram",
+        "es": "Instagram"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xoxYM49aOyMxO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

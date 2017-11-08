@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "AbandonPizzaOrChocolate",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You have to change your diet. You choose to give up on",
+        "fr": "Tu dois te mettre au régime. Tu choisis de renoncer",
+        "es": "Si tuvieras que hacer dieta. Renunciarías a"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AbandonPizza",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pizzas 🍕",
+        "fr": "aux pizzas 🍕",
+        "es": "las pizzas 🍕"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I just burned 1200 calories! I forgot about the pizza in the oven 😆",
+            "fr": "¡Acabo de quemar 1200 calorías! Se me olvidó la pizza en el horno 😆",
+            "es": "Je viens de brûler 1200 calories! J’ai oublié la pizza dans le four 😆"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "suFlthzWfwnIc"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AbandonChocolate",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "chocolate 🍫",
+        "fr": "au chocolat 🍫",
+        "es": "el chocolate 🍫"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Chocolate is our enemy, but running away from the enemy is weak...",
+            "fr": "Le chocolat est notre ennemi, mais fuir devant l’ennemi, c’est lâche...",
+            "es": "El chocolate es nuestro enemigo, pero huir frente al enemigo es cobarde..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YU3MG6zV3pmHS"
+          }
+        }
+      ]
+    }
+  ]
+}

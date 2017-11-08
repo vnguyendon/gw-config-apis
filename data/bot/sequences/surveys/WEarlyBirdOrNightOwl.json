@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "EarlybirdOrNightowl",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You are more",
+        "fr": "Tu es plutôt",
+        "es": "Eres"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Earlybird",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "an early bird",
+        "fr": "un lève-tôt",
+        "es": "un madrugador"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/themes/nature/small/Alpine-Meadow-000056976900_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"Spring flowers are the dreams of winter told, in the morning, at the table of the angels.\" - Khalil Gibran",
+            "fr": "\"Les fleurs du printemps sont les rêves de l’hiver racontés, le matin, à la table des anges.\" - Khalil Gibran",
+            "es": "\"Las flores en primavera son los sueños del invierno contados por la mañana, en la mesa de los ángeles.\" - Khalil Gibran"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Nightowl",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a night owl",
+        "fr": "un couche-tard",
+        "es": "un noctámbulo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/good-night/default/small/iStock_000016355424_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"I like the night. Without the dark, we’d never see the stars.\" - Stephenie Meyer",
+            "fr": "\"J’aime la nuit. Sans l'obscurité, nous ne verrions jamais les étoiles.\" - Stephenie Meyer",
+            "es": "\"Me gusta la noche. Sin la oscuridad nunca veríamos las estrellas.\" - Stephenie Meyer"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    }
+  ]
+}

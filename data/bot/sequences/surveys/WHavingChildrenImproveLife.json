@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "HavingChildrenImproveQualityofLife",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Does having children improve quality of life?",
+        "fr": "Est-ce qu'avoir des enfants améliore la qualité de vie ?",
+        "es": "¿Tener niños mejora la calidad de vida?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesChildrenImproveQualityofLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "kRoDIvG3Yez28"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"I want my children to have all the things I could not afford. Then I want to move in with them.\" - Phyllis Diller",
+            "fr": "\"Quiero que mis hijos tengan todo aquello que yo nunca pude tener. Y después voy a vivir con ellos.\" - Phyllis Diller",
+            "es": "\"Je veux que mes enfants aient toutes les choses que je n’ai jamais pu avoir. Et ensuite, j'irai vivre avec eux.\" - Phyllis Diller"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoChildrenDontImproveQualityofLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Make love, not war. Actually, don’t make love, they can lead to kids. They cry, and they’re a pain. Make pancakes. Pancakes are great.",
+            "fr": "Faites l'amour, pas la guerre. Enfin non, faites pas l'amour, ça fait des gosses, ça crie et c'est chiant. Faites des crêpes. C'est bon les crêpes.",
+            "es": "Hagan el amor y no la guerra. Bueno no, no hagan el amor, eso deja muchachitos, los muchachitos gritan y es molesto. Hagan pasteles. Los pasteles son ricos."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "2C7o4KdNauZy"
+          }
+        }
+      ]
+    }
+  ]
+}

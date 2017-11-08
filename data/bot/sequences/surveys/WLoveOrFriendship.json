@@ -1,0 +1,93 @@
+{
+  "Type": "Node",
+  "Id": "FriendshipOrLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can't have both. You choose",
+        "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+        "es": "No puedes tener los dos. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChooseFriendship",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "friendship",
+        "fr": "l'amitié",
+        "es": "la amistad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "H2GX5Ik1ILy5q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ChooseLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love",
+        "fr": "l'amour",
+        "es": "el amor"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Love: four letters, two vowels, two consonants, two fools...",
+            "fr": "Amour : cinq lettres, trois voyelles, deux consonnes, deux idiots…",
+            "es": "Amor: cuatro letras, dos vocales, dos consonantes, dos tontos..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEhmIqnAm1cs21N0A"
+          }
+        }
+      ]
+    }
+  ]
+}

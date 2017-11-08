@@ -1,0 +1,100 @@
+{
+  "Type": "Node",
+  "Id": "MoneyOrLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can have one of them without limit. You choose",
+        "fr": "Tu peux l'avoir à l'infini. Tu choisis",
+        "es": "Puedes tenerlo para siempre. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Money",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "money 💸",
+        "fr": "l'argent 💸",
+        "es": "el dinero 💸"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "pPzjpxJXa0pna"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"My child, happiness is made of little things : a little yacht, a little mansion, a little fortune.\" - Groucho Marx",
+            "fr": "\"Mon enfant, le bonheur est fait de petites choses : un petit yacht, une petite villa, une petite fortune.\" - Groucho Marx",
+            "es": "\"Hijo mío, la felicidad está hecha de pequeñas cosas: un pequeño yate, una pequeña mansión, una pequeña fortuna.\" - Groucho Marx"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Cj3Ce7e8h2EKY"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Love",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love 💕",
+        "fr": "l'amour 💕",
+        "es": "el amor 💕"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Pd4MXnAkJknHa"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "Type": "Node",
+  "Id": "MessengerOrWhatsapp",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which one do you prefer?",
+        "fr": "Lequel préfères-tu ?",
+        "es": "¿Cuál prefieres?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferMessenger",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Messenger",
+        "fr": "Messenger",
+        "es": "Messenger"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "WirhZMBF1AZVK"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This week’s challenge: look at the sky more than your phone 🌤",
+            "fr": "Défi de la semaine: regarder le ciel plus souvent que son téléphone 🌤",
+            "es": "Desafío de la semana: mirar al cielo más que a su telefono 🌤"
+          },
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6u1VzKr6iTRfy"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferWhatsapp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "WhatsApp",
+        "fr": "WhatsApp",
+        "es": "WhatsApp"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3GEzPMbTHRJuw"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This week’s challenge: look at the sky more than your phone 🌤",
+            "fr": "Défi de la semaine: regarder le ciel plus souvent que son téléphone 🌤",
+            "es": "Desafío de la semana: mirar al cielo más que a su telefono 🌤"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6u1VzKr6iTRfy"
+          }
+        }
+      ]
+    }
+  ]
+}

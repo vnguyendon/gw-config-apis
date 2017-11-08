@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "QualityofBooksOrFood",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What matters most is the quality of",
+        "fr": "Le plus important, c'est la qualité de ce que",
+        "es": "Lo más importante es la calidad de"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "QualityofFood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your food",
+        "fr": "tu manges",
+        "es": "tu comida"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "DKvw9IJ57pn9K"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Eat what you want, when you want and as much as you want. If anyone comments on your weight, eat them too 😋",
+            "fr": "Mange ce que tu veux, quand tu veux et autant que tu veux, et si quelqu'un te critique par rapport à ton poids, mange-le aussi 😋",
+            "es": "Come lo que quieras, cuando quieras y tanto como quieras, y si alguien te critica por tu peso, ¡cómetelo también! 😋"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "QualityofBooks",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your books",
+        "fr": "tu lis",
+        "es": "tus libros"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6zA0PVT8Y6zDO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
+
