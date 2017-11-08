@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ComputerOrCar",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can't have both. You choose",
+        "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+        "es": "No puedes tener los dos. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChooseComputer",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a computer",
+        "fr": "un ordinateur",
+        "es": "un ordenador"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JIX9t2j0ZTN9S"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ChooseCar",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a car",
+        "fr": "une voiture",
+        "es": "un carro"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11fucLQCTOdvBS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
