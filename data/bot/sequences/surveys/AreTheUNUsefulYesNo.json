@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AreTheUNUsefulYesNo",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Are the United Nations (UN) useful?",
+            "fr": "Est-ce que l'ONU est utile?",
+            "es": "¿Piensas que la ONU es útil?"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "YesUNUseful",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Source": "Web",
+                      "Path": "https://img11.hostingpics.net/pics/832457unitednationsflags.jpg"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "NoUNNotUseful",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "7cUC5Q0OJogRq"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
