@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PreferBlackOrWhite",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Your favorite color between the two is",
+            "fr": "Ta couleur préférée, c'est plus",
+            "es": "Tu color favorito es"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "PreferBlack",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "black",
+            "fr": "le noir",
+            "es": "el negro"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "WE3ahQYE9zEVq"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "PreferWhite",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "white",
+            "fr": "le blanc",
+            "es": "el blanco"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "hBkJWRznAMLpm"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
