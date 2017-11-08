@@ -18,9 +18,9 @@
           "Id": "VisitCanada",
           "ElementValue": "1",
           "CommandLabel": {
-            "en": "yes",
-            "fr": "oui",
-            "es": "si"
+            "en": "Canada",
+            "fr": "Canada",
+            "es": "Canada"
           },
           "Steps": [
               {
