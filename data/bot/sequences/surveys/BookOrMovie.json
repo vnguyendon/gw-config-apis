@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YouPreferBookOrMovie",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "To relax, you pick up",
+            "fr": "Pour te détendre, tu choisis",
+            "es": "Para relajarte, eliges"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "ChooseABook",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "a book 📘",
+            "fr": "un livre 📘",
+            "es": "un libro 📘"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "JEhCPFfqi2Hy8"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "ChooseAMovie",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "a movie 🎬",
+            "fr": "un film 🎬",
+            "es": "una película 🎬"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "peF2qmsDa7Tvq"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
