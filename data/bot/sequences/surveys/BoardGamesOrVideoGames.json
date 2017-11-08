@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BoardGamesOrVideoGames",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "You prefer playing",
+            "fr": "Tu préfères jouer aux",
+            "es": "Prefieres jugar a"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "BoardGames",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "board games 🎲",
+            "fr": "jeux de société 🎲",
+            "es": "juegos de mesa 🎲"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "5KX9jiNXkb3xK"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "VideoGames",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "video games 🎮",
+            "fr": "jeux vidéo 🎮",
+            "es": "juegos de video 🎮"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "psKReJOWm4cfK"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
