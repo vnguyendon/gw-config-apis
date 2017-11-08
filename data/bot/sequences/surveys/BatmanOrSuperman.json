@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhowinsBatmanOrSuperman",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Who wins? 🏅",
+            "fr": "Qui gagne ? 🏅",
+            "es": "¿Quién gana? 🏅"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "BatmanWins",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Batman",
+            "fr": "Batman",
+            "es": "Batman"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "14bhmZtBNhVnIk"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "SupermanWins",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Superman",
+            "fr": "Superman",
+            "es": "Superman"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "R8MIGe47XWx68"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
