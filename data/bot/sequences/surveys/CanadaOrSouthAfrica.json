@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CanadaOrSouthAfrica",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "You are offered an all-inclusive trip! You choose to visit",
+            "fr": "On t'offre un voyage tout compris. Tu préfères visiter",
+            "es": "Te ofrecen un viaje todo incluido. Prefieres ir a"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "VisitCanada",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "Image",
+                  "Parameters": {
+                      "Source": "Web",
+                      "Path": "https://img11.hostingpics.net/pics/644542pexelsphoto219972.jpg"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "VisitSouthAfrica",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "South Africa",
+            "fr": "l'Afrique du Sud",
+            "es": "Sudáfrica"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "d4P2sajkRJeM"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
