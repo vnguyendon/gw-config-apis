@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AreYouHappy",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Are you currently happy?",
+            "fr": "Es-tu heureux en ce moment ?",
+            "es": "¿Eres feliz en este momento?"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "YesHappy",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "1136UBdSNn6Bu8"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "NoNotHappy",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "l0HlGu6yGT8X51Gko"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
