@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AreHumansNaturallyGood",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Are humans naturally good?",
+            "fr": "L'être humain est-il naturellement bon ?",
+            "es": "¿Crees que los humanos son buenos por naturaleza? "
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "YesHumansAreGood",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "56d1Cw1Uco76M"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "NoHumansArentGood",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "TrYXjFjgam6A0"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
