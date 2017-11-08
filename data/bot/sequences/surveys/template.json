@@ -1,0 +1,66 @@
+{
+  "Type": "Node",
+  "Id": "XXX",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "XXX",
+          "ElementValue": "1",
+          "CommandLabel": {
+              
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "XXX"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "XXX",
+          "ElementValue": "1",
+          "CommandLabel": {
+              
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "XXX"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
+
