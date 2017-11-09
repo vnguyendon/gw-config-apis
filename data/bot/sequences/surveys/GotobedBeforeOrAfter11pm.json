@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GotobedBeforeOrAfter11pm",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You usually go to bed",
+        "fr": "En général, tu vas te coucher",
+        "es": "Generalmente vas a dormir"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GotobedBefore11pm",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "4ZcDctB90D16w"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "4ZcDctB90D16w"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GotobedAfter11pm",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "after 11pm",
+        "fr": "après 23h",
+        "es": "después de las 11pm"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TA6Fq1irTioFO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
