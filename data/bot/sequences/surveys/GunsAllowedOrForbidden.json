@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GunsAllowedOrForbidden",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The possession and use of guns should be",
+        "fr": "La possession et le port d'armes devraient être",
+        "es": "La posesión y el uso de armas deberían estar"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GunsAllowed",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "allowed",
+        "fr": "autorisés",
+        "es": "permitidos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "nu4DN4nKos3m0"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GunsForbidden",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "forbidden",
+        "fr": "interdits",
+        "es": "prohibidos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oAt1TnYwejnNXDNzG"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
