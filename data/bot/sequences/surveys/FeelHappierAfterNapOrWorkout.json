@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FeelHappierAfterNapOrWorkout",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel happier after a good",
+        "fr": "Tu te sens mieux après une bonne",
+        "es": "Te sientes mejor después de una buena"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HappierAfterNap",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "nap 😴",
+        "fr": "sieste 😴",
+        "es": "siesta 😴"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GvMSpPx44XlFm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappierAfterWorkout",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "workout 🏋",
+        "fr": "séance de sport 🏋",
+        "es": "sesión de deporte 🏋"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5EJHDSPpFhbG0"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
