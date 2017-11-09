@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FriendsOrFamily",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's most important?",
+        "fr": "C'est quoi le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantFriends",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "friends",
+        "fr": "les amis",
+        "es": "los amigos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7TKuuvlqt1wXGxGM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreImportantFamily",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "family",
+        "fr": "la famille",
+        "es": "la familia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VzQ9PUdifClRm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
