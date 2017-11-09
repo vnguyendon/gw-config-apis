@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PreferPaintingOrMusic",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is your favorite art form?",
+        "fr": "Quel type d'art préfères-tu ?",
+        "es": "¿Qué forma de arte te gusta más?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferPainting",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "painting 🖌",
+        "fr": "la peinture 🖌",
+        "es": "la pintura 🖌"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9kv05LfYxgXrW"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferMusic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "music 🎵",
+        "fr": "la musique 🎵",
+        "es": "la música 🎵"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ihhUVdrbwssaA"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
