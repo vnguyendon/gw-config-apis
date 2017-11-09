@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HappyOrMeaningfulLife",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It is more important for life to be",
+        "fr": "C'est plus important que ta vie",
+        "es": "Es importante llevar una vida"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HappyLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "happy",
+        "fr": "soit heureuse",
+        "es": "feliz"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12WuqaMYhrEy8U"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MeaningfulLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "meaningful",
+        "fr": "ait du sens",
+        "es": "con sentido"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FJCzc8XyKv7eo"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
