@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhatsMostImportantCuriousorDetermined",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's most important?",
+        "fr": "C'est quoi le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BeingCurious",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being curious",
+        "fr": "être curieux",
+        "es": "ser curioso"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ESAsXcyVgtAFa"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BeingDetermined",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being determined",
+        "fr": "être déterminé",
+        "es": "ser decidido"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "234OlMiKEDyLe"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
