@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "EmotionsBetterExpressedDrawingOrWriting",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You express your emotions better through",
+        "fr": "Tu exprimes mieux tes émotions en",
+        "es": "Expresas mejor tus emociones"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EmotionsBetterExpressedDrawing",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "drawing 🖍",
+        "fr": "dessinant 🖍",
+        "es": "dibujando 🖍"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oz8xTUmZABI3PGwDe"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EmotionsBetterExpressedWriting",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "writing 📝",
+        "fr": "écrivant 📝",
+        "es": "escribiendo 📝"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ToMjGpohsHI02mXvC80"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
