@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LiveInIndiaOrNigeria",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather live in",
+        "fr": "Tu préférerais vivre",
+        "es": "Preferirías vivir en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LiveInIndia",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "India",
+        "fr": "en Inde",
+        "es": "India"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11MKLWSDvMVSp2"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LiveInNigeria",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nigeria",
+        "fr": "au Nigéria",
+        "es": "Nigeria"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "8hxJZ4VnBnp6M"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
