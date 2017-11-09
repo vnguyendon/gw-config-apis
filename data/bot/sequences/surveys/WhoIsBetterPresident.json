@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhoIsBetterPresident",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Who is a better president?",
+        "fr": "Qui est le meilleur président ?",
+        "es": "¿Quién es el mejor presidente?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ObamaBetterPresident",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Barack Obama",
+        "fr": "Barack Obama",
+        "es": "Barack Obama"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/359758barackobama127823691402.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TrumpBetterPresident",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Donald Trump",
+        "fr": "Donald Trump",
+        "es": "Donald Trump"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/295757330pxDonaldTrumpPentagon2017.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
