@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HappierPartnerSpendsTimeOrMoney",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You're happier if your partner spends",
+        "fr": "Tu es plus heureux quand ton partenaire te consacre",
+        "es": "Eres más feliz cuando tu pareja te da"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HappierTime",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "time with you",
+        "fr": "du temps",
+        "es": "tiempo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "tMAuX5PIo7RFS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappierMoney",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "money for you",
+        "fr": "un cadeau",
+        "es": "un regalo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "kKo2x2QSWMNfW"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
