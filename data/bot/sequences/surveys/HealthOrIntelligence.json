@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HealthOrIntelligence",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can't have both. You choose",
+        "fr": "Tu ne peux pas avoir les deux. Tu choisis",
+        "es": "No puedes tener los dos. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChooseHealthoverIntelligence",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "health",
+        "fr": "la santé",
+        "es": "la salud"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Qgk3kAj2ihva"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ChooseIntelligenceoverHealth",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "intelligence",
+        "fr": "l'intelligence",
+        "es": "la inteligencia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "IFDOyAbgphtfy"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
