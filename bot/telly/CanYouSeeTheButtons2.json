@@ -20,12 +20,12 @@
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "l2QE9TcoKQR5N1hW8"
-      },
-      "AdditionalLabels": {
+        "Path": "l2QE9TcoKQR5N1hW8",
+      "AdditionalLabels": [{
             "en": "Glad to see you’re having a good day!",
             "fr": "Je suis content que tu ailles bien !",
             "es": "¡Me alegro de que lo lleves bien!"
+            }]
       },
       "LinksTo": {
         "Type": "Question",
@@ -63,12 +63,12 @@
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "l2QEiGATcQKrgsYZa"
-      },
-      "AdditionalLabels": {
+        "Path": "l2QEiGATcQKrgsYZa",
+      "AdditionalLabels": [{
             "en": "Ooh 😟 Just for you to know: you’re not alone!",
             "fr": "Ooh 😟 Juste pour te dire: je suis avec toi !",
             "es": "Ooh 😟 Quiero decirte: ¡estoy contigo!"
+            }]
       },
       "LinksTo": {
         "Type": "Question",
