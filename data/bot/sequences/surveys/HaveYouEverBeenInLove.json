@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HaveYouEverBeenInLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever been in love?",
+        "fr": "As-tu déjà été amoureux ?",
+        "es": "¿Ya has estado enamorado? "
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHaveBeeninLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/I-love-you/default/small/paradise-heart-shaped-island-000018664690_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHaventBeeninLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/I-love-you/default/small/401237_306837836094160_1135347896_n.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
