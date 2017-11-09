@@ -9,7 +9,6 @@
     "GroupName":"Survey",
     "SequenceFiles" : [    
       { "order" : 20, "file": "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json"},
-      { "order" : 21, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
       { "order" : 22, "file": "/bot/sequences/surveyquestions/SavePandasOrLions.json"},
       { "order" : 25, "file": "/bot/sequences/surveyquestions/HappierMovieOrBook.json"},
       { "order" : 30, "file": "/bot/sequences/v2/Age.json"},     
@@ -23,6 +22,7 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/PepsiOrCoke.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/KindOrFunny.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
+      { "order" : 100, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/BeautyOrIntelligence.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MarryArtistOrEngineer.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/BatmanOrSuperman.json"},
