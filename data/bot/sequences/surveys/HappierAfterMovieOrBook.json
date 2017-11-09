@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HappierAfterMovieOrBook",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel happier after",
+        "fr": "Tu es plus heureux devant",
+        "es": "Sientes más satisfacción despues de haber"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AfterBook",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a good book 📗",
+        "fr": "un bon livre 📗",
+        "es": "leido un libro 📗"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oZMoTFxxPf8mQ"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AfterMovie",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a good movie 📺",
+        "fr": "un bon film 📺",
+        "es": "visto una película 📺"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "aPUWIkCcerreE"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
