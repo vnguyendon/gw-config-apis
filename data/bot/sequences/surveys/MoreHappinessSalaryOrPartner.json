@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreHappinessSalaryOrPartner",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What brings more happiness is a good",
+        "fr": "Ce qui rend le plus heureux, c'est un bon",
+        "es": "Lo que te hace más feliz es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreHappinessGoodSalary",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "salary 💰",
+        "fr": "salaire 💰",
+        "es": "un bueno salario 💰"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12gcFJY9LEi6zu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreHappinessGoodPartner",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "partner 💗",
+        "fr": "couple 💗",
+        "es": "una buena pareja 💗"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0HlGRDhPTqVEvhCw"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
