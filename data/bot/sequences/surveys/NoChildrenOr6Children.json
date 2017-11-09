@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NoChildrenOr6Children",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer to have",
+        "fr": "Combien d'enfants préfères-tu avoir?",
+        "es": "¿Cuantos niños quisieras tener?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NoChildren",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no children",
+        "fr": "aucun",
+        "es": "ningún"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JltOMwYmi0VrO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "6Children",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "6 children",
+        "fr": "6",
+        "es": "6"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "dkwk6IVzmhTig"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
