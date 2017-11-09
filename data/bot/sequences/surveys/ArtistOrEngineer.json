@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ArtistOrEngineer",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You have to marry someone. You choose",
+        "fr": "Tu dois te marier avec quelqu'un. Tu choisis",
+        "es": "Tienes que casarte. Prefieres que tu pareja sea"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MarryArtist",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "an artist 👨‍🎨",
+        "fr": "un(e) artiste 👨‍🎨",
+        "es": "un artista 👨‍🎨"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5en9jogeCyn0k"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MarryEngineer",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "an engineer 👩‍💻",
+        "fr": "un(e) ingénieur(e) 👩‍💻",
+        "es": "una ingeniera 👩‍💻"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "7EXISL5JdW3wk"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
