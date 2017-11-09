@@ -3,10 +3,22 @@ This document has to be read in understand and parallel to the main documentatio
 
 ##### Note for the reader:
 - we list below the properties in alphabetical order
+- we will describe each property's behaviour
 - under each property, their most common values will appear as a dependency
+- we will describe each value's behaviour
+- finally, we will make an example of how the property/value pair should work in a typical context
 
 
 ### "Actions"
+
+
+#### "Rate us"
+
+#### "ShowCards"
+
+#### "ShowImages"
+
+#### "ShowOtherCommands"
 
 ### "CommandLabel"
 
