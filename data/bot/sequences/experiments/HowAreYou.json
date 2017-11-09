@@ -1,0 +1,145 @@
+{
+  "Type": "Node",
+  "Id": "HowAreYou",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi! How are you feeling today?",
+        "fr": "Hello ! Comment ça va aujourd'hui ?",
+        "es": "¡Hola! ¿Cómo estás?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Good",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good",
+        "fr": "bien",
+        "es": "bien"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Glad to see you’re having a good day 😊",
+            "fr": "Je suis content que tu ailles bien 😊",
+            "es": "Me alegro de que lo lleves bien 😊"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QE9TcoKQR5N1hW8"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
+            "fr": "Je suis un poney-bot avec des super pouvoirs : je peux lire dans les pensées... En posant quelques questions 😉",
+            "es": "Soy un poni-bot con superpoderes: puedo leer la mente... Preguntando la gente 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "For instance:",
+            "fr": "Par exemple :",
+            "es": "Por ejemplo:"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotSoGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "not so good",
+        "fr": "pas très bien",
+        "es": "más o menos"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ooh 😟",
+            "fr": "Ooh 😟",
+            "es": "Ooh 😟"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Just for you to know: you’re not alone!",
+            "fr": "Juste pour te dire: je suis avec toi !",
+            "es": "Quiero decirte: ¡estoy contigo!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QEiGATcQKrgsYZa"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
+            "fr": "Je suis un poney-bot avec des super pouvoirs : je peux lire dans les pensées... En posant quelques questions 😉",
+            "es": "Soy un poni-bot con superpoderes: puedo leer la mente... Preguntando la gente 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "For instance:",
+            "fr": "Par exemple :",
+            "es": "Por ejemplo:"
+          }
+        }
+      ]
+    }
+  ]
+}
