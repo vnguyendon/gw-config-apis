@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GifsOrEmojis",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer to send",
+        "fr": "Tu préfères envoyer",
+        "es": "Prefieres enviar"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferGifs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "gifs",
+        "fr": "des gifs",
+        "es": "gifs"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "yoJC2El7xJkYCadlWE"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferEmojis",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "emojis",
+        "fr": "des emojis",
+        "es": "emojis"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "tavobzHhNQyoo"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
