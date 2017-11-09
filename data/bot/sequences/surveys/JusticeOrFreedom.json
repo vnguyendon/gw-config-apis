@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "JusticeOrFreedom",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's most important?",
+        "fr": "C'est quoi le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Justice",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "justice",
+        "fr": "la justice",
+        "es": "la justicia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JzOyy8vKMCwvK"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Freedom",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "freedom",
+        "fr": "la liberté",
+        "es": "la libertad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "qSoLNpg3GN0nS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
