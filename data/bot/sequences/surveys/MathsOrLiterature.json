@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MathsOrLiterature",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather study",
+        "fr": "Tu préférerais étudier",
+        "es": "Preferirías estudiar"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferMaths",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Mathematics",
+        "fr": "les maths",
+        "es": "matemáticas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "DrOWnVec7XAdO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferLiterature",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Literature",
+        "fr": "les lettres",
+        "es": "literatura"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "zuNdVweFYGXy8"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
