@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YouPreferFishOrMeat",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer eating",
+        "fr": "Tu préfères manger",
+        "es": "Prefieres comer"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferFish",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fish 🐟",
+        "fr": "du poisson 🐟",
+        "es": "pescado 🐟"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Izbm7WZ7YP7dS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferMeat",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "meat 🍗",
+        "fr": "de la viande 🍗",
+        "es": "carne 🍗"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12zfAjyQ3RZNSw"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
