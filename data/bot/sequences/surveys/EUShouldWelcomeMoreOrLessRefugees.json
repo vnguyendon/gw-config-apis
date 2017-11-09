@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "EUShouldWelcomeMoreOrLessRefugees",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The European Union should welcome",
+        "fr": "L'Union Européenne devrait accueillir",
+        "es": "La Union Europea debería acoger"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreRefugees",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "more refugees",
+        "fr": "plus de réfugiés",
+        "es": "más refugiados"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "wAVA7WdV2jita"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LessRefugees",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fewer refugees",
+        "fr": "moins de réfugiés",
+        "es": "menos refugiados"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41YbYFrJYj30Zyco"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
