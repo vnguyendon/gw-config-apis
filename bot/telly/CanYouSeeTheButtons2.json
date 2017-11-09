@@ -3,9 +3,9 @@
   "Id": "CanYouSeeTheButtons",
   "Comments": "first question after welcome message",
   "Label": {
-    "en": "Hi there! I’m an extraterrestrial pony eager to understand how humans think! Would you like to help me in this great adventure? ✨🌍",
-    "fr": "Hello ! Je suis un poney extraterrestre et j'aimerais mieux comprendre les humains ! Ça te dirait de m'aider dans cette grande aventure ?✨🌍",
-    "es": "¡Hola! Soy un poni extraterrestre y ¡querría comprender lo que piensan los humanos! ¿Te gustaría ayudarme en esta gran aventura?✨🌍"
+    "en": "Hi! How are you feeling today?",
+    "fr": "Hello ! Comment ça va aujourd'hui ?",
+    "es": "¡Hola! ¿Cómo estás?"
   },
   "Commands": [
     {
@@ -13,23 +13,28 @@
       "Id": "SeeTheButtonsYes",
       "StepValue": "1",
       "Label": {
-        "en": "Yes, sure!",
-        "fr": "Oui, bien sûr !",
-        "es": "¡Claro que si!"
+            "en": "good",
+            "fr": "bien",
+            "es": "bien"
       },
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "ZPKA8hg390ZP2"
+        "Path": "l2QE9TcoKQR5N1hW8"
+      },
+      "AdditionalLabels": {
+            "en": "Glad to see you’re having a good day!",
+            "fr": "Je suis content que tu ailles bien !",
+            "es": "¡Me alegro de que lo lleves bien!"
       },
       "LinksTo": {
         "Type": "Question",
         "Id": "SeeTheButtonsYesThenStart",
         "Comments": "if yes, then we can show a nice message and invite to start!",
         "Label": {
-          "en": "Perfect! Let’s start with an easy question, ok?",
-          "fr": "Parfait ! Une question facile pour commencer, ça te va ?",
-          "es": "¡Estupendo! ¿Una pregunta fácil para empezar, de acuerdo?"
+          "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉 Shall we start?",
+          "fr": "Je suis un poney-bot avec des super pouvoirs : je peux lire dans les pensées... En posant quelques questions 😉 On commence ?",
+          "es": "Soy un poni-bot con superpoderes: puedo leer la mente... Preguntando la gente 😉 ¿Vamos?"
         },
         "Commands": [
             {
@@ -37,9 +42,9 @@
               "Id": "SeeTheButtonYesNoYesStart",
               "StepValue" : "1",
               "Label": {
-                  "en": "Yes",
-                  "fr": "Oui",
-                  "es": "Si"
+                  "en": "Start",
+                  "fr": "Commencer",
+                  "es": "Empezar"
               },
               "LinksTo": {}
             }
@@ -51,23 +56,28 @@
       "Id": "SeeTheButtonsNo",
       "StepValue": "1",
       "Label": {
-        "en": "No, thanks",
-        "fr": "Non merci",
-        "es": "No, gracias"
+            "en": "not so good",
+            "fr": "pas très bien",
+            "es": "más o menos"
       },
       "OptionalFeedback": {
         "Type": "AnimatedGif",
         "Source": "Giphy",
-        "Path": "98nNL0zwst0qs"
+        "Path": "l2QEiGATcQKrgsYZa"
+      },
+      "AdditionalLabels": {
+            "en": "Ooh 😟 Just for you to know: you’re not alone!",
+            "fr": "Ooh 😟 Juste pour te dire: je suis avec toi !",
+            "es": "Ooh 😟 Quiero decirte: ¡estoy contigo!"
       },
       "LinksTo": {
         "Type": "Question",
         "Id": "SeeTheButtonsNoThenStart",
         "Comments": "if no, we still show a message and invite to start!",
         "Label": {
-          "en": "Great! I’ve always wanted to question someone with a good sense of humor! 😀 Let’s start with an easy question, ok?",
-          "fr": "Cool! J'ai toujours voulu discuter avec quelqu'un qui a un bon sens de l'humour! 😀 Une question facile pour commencer, ça te va ?",
-          "es": "¡Perfecto! Siempre he querido hablar con alguien con buen sentido del humor 😀 ¿Una pregunta fácil para empezar, de acuerdo?"
+          "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉 Shall we start?",
+          "fr": "Je suis un poney-bot avec des super pouvoirs : je peux lire dans les pensées... En posant quelques questions 😉 On commence ?",
+          "es": "Soy un poni-bot con superpoderes: puedo leer la mente... Preguntando la gente 😉 ¿Vamos?"
         },
         "Commands": [
             {
@@ -75,9 +85,9 @@
               "Id": "SeeTheButtonYesNoYesStart",
               "StepValue" : "1",
               "Label": {
-                  "en": "Yes",
-                  "fr": "Oui",
-                  "es": "Si"
+                  "en": "Start",
+                  "fr": "Commencer",
+                  "es": "Empezar"
               },
               "LinksTo": {}
             }
