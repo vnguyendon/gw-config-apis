@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HappierSingingOrDancing",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What makes you happier?",
+        "fr": "Qu'est-ce qui te rend le plus heureux ?",
+        "es": "¿Qué te hace más feliz?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HappierSinging",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "singing 🎤",
+        "fr": "chanter 🎤",
+        "es": "cantar 🎤"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "idKFx1AUCg1Yk"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappierDancing",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "dancing 💃",
+        "fr": "danser 💃",
+        "es": "bailar 💃"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "F9hQLAVhWnL56"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
