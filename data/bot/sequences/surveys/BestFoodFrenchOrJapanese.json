@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BestFoodFrenchOrJapanese",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "🍴 The best food is",
+        "fr": "🍴 La meilleure cuisine est",
+        "es": "🍴 La mejora cocina es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FrenchFoodBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "French",
+        "fr": "française",
+        "es": "la francesa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "AMKSRvfLEwXlu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "JapaneseFoodBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Japanese",
+        "fr": "japonaise",
+        "es": "la japonesa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GRVQMtQBhMhdC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
