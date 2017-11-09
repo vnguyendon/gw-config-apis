@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LiveInJapanOrUS",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather live in",
+        "fr": "Tu préférerais vivre",
+        "es": "Preferirías vivir en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LiveinJapan",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Japan",
+        "fr": "au Japon",
+        "es": "Japon"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/602380pexelsphoto259772.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LiveintheUS",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "the US",
+        "fr": "aux US",
+        "es": "EE.UU."
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Z416D7PjPndLi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
