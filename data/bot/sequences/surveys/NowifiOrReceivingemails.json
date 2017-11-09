@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NowifiOrReceivingemails",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's worse?",
+        "fr": "C'est quoi le pire ?",
+        "es": "¿Qué es lo peor?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WorseNowifi",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no wifi",
+        "fr": "pas de wifi",
+        "es": "no wifi"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "O4iaxRcEmwq2Y"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WorseReceivingemails",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "one email per minute",
+        "fr": "un mail par minute",
+        "es": "un e-mail por minuto"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTiTnJ3BooiDs8dL7W"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
