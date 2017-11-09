@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NapoleonOrCheGuevara",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Who could you admire more easily?",
+        "fr": "Qui pourrais-tu le plus admirer ?",
+        "es": "¿Quién podrías más admirar?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AdmireNapoleon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Napoleon",
+        "fr": "Napoléon",
+        "es": "Napoleón"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "vaBQBRIIWCPnO"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AdmireCheGuevara",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Che Guevara",
+        "fr": "Che Guevara",
+        "es": "Che Guevara"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lyei3ztozG9y"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
