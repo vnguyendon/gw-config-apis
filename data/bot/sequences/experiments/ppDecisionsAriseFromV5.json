@@ -45,7 +45,8 @@
                     "Id": "20",
                     "Name": "SetUserProperty",
                     "Params": {
-                        "ppDecisionsAriseFrom": "Feelings"
+                        "property": "ppDecisionsAriseFrom",
+                        "value": "Feelings"
                     }
                 }
             ]
@@ -73,7 +74,8 @@
                     "Id": "20",
                     "Name": "SetUserProperty",
                     "Params": {
-                        "ppDecisionsAriseFrom": "Thinking"
+                        "property":"ppDecisionsAriseFrom",
+                        "value": "Thinking"
                     }
                 }
             ]
