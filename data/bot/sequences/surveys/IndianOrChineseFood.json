@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "IndianOrChineseFood",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The best food is",
+        "fr": "La meilleure cuisine est",
+        "es": "La mejora cocina es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "IndianFoodBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Indian 🍲",
+        "fr": "indienne 🍲",
+        "es": "india 🍲"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oeSANlR56jz1tEPao"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ChineseFoodBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Chinese 🍜",
+        "fr": "chinoise 🍜",
+        "es": "china 🍜"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "WKUSlerPGZ73i"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
