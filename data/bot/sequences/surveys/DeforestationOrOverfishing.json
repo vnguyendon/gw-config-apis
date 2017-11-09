@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "DeforestationOrOverfishing",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's worse?",
+        "fr": "C'est quoi le pire ?",
+        "es": "¿Qué es lo peor?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WorseDeforestation",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "deforestation 🌲",
+        "fr": "la déforestation 🌲",
+        "es": "la deforestación 🌲"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oGRFkoGqqLVycWg9y"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WorseOverfishing",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "oversfishing 🐟",
+        "fr": "la surpêche 🐟",
+        "es": "la sobrepesca 🐟"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "HHKOlXVS0WeYg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
