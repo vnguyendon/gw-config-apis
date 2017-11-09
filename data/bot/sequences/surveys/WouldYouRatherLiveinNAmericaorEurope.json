@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WouldYouRatherLiveinNAmericaorEurope",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather live in",
+        "fr": "Tu préférerais vivre en",
+        "es": "Preferirías vivir en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LiveInNorthAmerica",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "North America",
+        "fr": "Amérique du Nord",
+        "es": "América del Norte"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oobNzX5ICcRZC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LiveInEurope",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Europe",
+        "fr": "Europe",
+        "es": "Europa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "tIeCLkB8geYtW"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
