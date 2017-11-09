@@ -23,6 +23,10 @@
       },
       "Steps": [
         {
+          "Type":"Action",
+          "Name":"DoVote"
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Glad to see you’re having a good day 😊",
@@ -79,6 +83,10 @@
         "es": "más o menos"
       },
       "Steps": [
+        {
+          "Type":"Action",
+          "Name":"DoVote"
+        },
         {
           "Type": "Text",
           "Label": {
