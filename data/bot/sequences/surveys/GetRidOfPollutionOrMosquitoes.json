@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GetRidOfPollutionOrMosquitoes",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It is more important to get rid of",
+        "fr": "C'est plus important de se débarrasser",
+        "es": "Es más importante acabar con"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GetRidOfPollution",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pollution",
+        "fr": "de la pollution",
+        "es": "la contaminación"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10aADbYxnJlc9q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GetRidOfMosquitoes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "mosquitoes",
+        "fr": "des moustiques",
+        "es": "los zancudos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0ErKKs7DkmeYIeQg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
