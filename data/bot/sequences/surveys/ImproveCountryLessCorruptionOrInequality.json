@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ImproveCountryLessCorruptionOrInequality",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What could improve your country the most is",
+        "fr": "Ce qui améliorerait le plus ton pays, c'est moins",
+        "es": "Para mejorar tu país habría que reducir"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LessCorruption",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "less corruption",
+        "fr": "de corruption",
+        "es": "la corrupción"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "j3x5hjUoXIesM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LessInequality",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fewer inequalities",
+        "fr": "d'inégalités",
+        "es": "las desigualdades"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT8qBit7YomT80d0M8"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
