@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FunnyOrGoodlookingPartner",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer your partner to be",
+        "fr": "Tu préfères que la personne que tu aimes soit",
+        "es": "Prefieres que tu pareja sea"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferFunnyPartner",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "funny",
+        "fr": "drôle",
+        "es": "divertida"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l3HBbltOYjoNq"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferGoodlookingPartner",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good-looking",
+        "fr": "belle",
+        "es": "guapa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "uELtzAhhqpRKg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
