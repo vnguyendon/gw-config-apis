@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WorldBetterwithFewerCarsOrCheaperCars",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The world would be better with",
+        "fr": "Le monde serait mieux si les voitures étaient moins",
+        "es": "El mundo estaría mejor si los autos fueran"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FewerCars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fewer cars",
+        "fr": "nombreuses",
+        "es": "menos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/875688pexelsphoto105032.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CheaperCars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cheaper cars",
+        "fr": "chères",
+        "es": "baratos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/634190badyqb42775.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
