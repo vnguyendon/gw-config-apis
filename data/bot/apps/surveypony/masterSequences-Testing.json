@@ -2,6 +2,7 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
+       { "order" :  5, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
        { "order" : 10, "file": "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"},
        { "order" : 30, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"},
        { "order" : 20, "file": "/data/bot/sequences/experiments/CatsOrDogsV5.json"},
