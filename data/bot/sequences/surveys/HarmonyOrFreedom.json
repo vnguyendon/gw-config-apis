@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HarmonyOrFreedom",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's most important?",
+        "fr": "C'est quoi le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Harmony",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "harmony",
+        "fr": "l'harmonie",
+        "es": "armonía"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "4Xz1KzPtrRZTi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Freedom",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "freedom",
+        "fr": "la liberté",
+        "es": "libertad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "zz49TLnbLJdXq"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
