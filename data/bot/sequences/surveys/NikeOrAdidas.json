@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NikeOrAdidas",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Nike or Adidas?",
+        "fr": "Nike ou Adidas ?",
+        "es": "¿Nike o Adidas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferNike",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nike",
+        "fr": "Nike",
+        "es": "Nike"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ZoxwxPoo1uoNy"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferAdidas",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Adidas",
+        "fr": "Adidas",
+        "es": "Adidas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "jGFOU6WSXrSzm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
