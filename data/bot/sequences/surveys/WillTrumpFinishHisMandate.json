@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WillTrumpFinishHisMandate",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Will Donald Trump finish his presidential mandate?",
+        "fr": "Donald Trump terminera-t-il son mandat présidentiel ?",
+        "es": "¿Terminará Donald Trump su mandato presidencial?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesTrumpWillFinishHisMandate",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTg8B9aULho7shlPmU"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoTrumpWontFinishHisMandate",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11DFuwckOK9mdG"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
