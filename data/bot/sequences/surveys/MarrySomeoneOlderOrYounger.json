@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MarrySomeoneOlderOrYounger",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "💍 Would you rather marry someone",
+        "fr": "💍 Tu préférerais te marier avec quelqu'un de",
+        "es": "💍 Preferirías casarte con alguien"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Younger",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "younger than you",
+        "fr": "plus jeune que toi",
+        "es": "menor que tu"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10wwy1cJ8j2aD6"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Older",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "older than you",
+        "fr": "plus vieux que toi",
+        "es": "mayor que tu"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TR3abToJDTBII"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
