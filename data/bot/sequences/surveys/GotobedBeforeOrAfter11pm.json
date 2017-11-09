@@ -18,9 +18,9 @@
       "Id": "GotobedBefore11pm",
       "ElementValue": "1",
       "CommandLabel": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "4ZcDctB90D16w"
+            "en": "before 11pm",
+            "fr": "avant 23h",
+            "es": "antes de las 11pm"
       },
       "Steps": [
         {
