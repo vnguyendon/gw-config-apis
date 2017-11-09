@@ -15,7 +15,8 @@
             "Type": "Leaf",
             "Id": "PreferVideo",
             "CommandLabel": {
-                "en": "Videos"
+                "en": "Videos",
+                "fr": "Vidéos"
             },
             "Steps": [
                 {
@@ -33,7 +34,8 @@
             "Type": "Leaf",
             "Id": "PreferImage",
             "CommandLabel": {
-                "en": "Images"
+                "en": "Images",
+                "fr":"Images"
             },
             "Steps": [
                 {
@@ -50,7 +52,8 @@
             "Type": "Leaf",
             "Id": "PreferGif",
             "CommandLabel": {
-                "en": "Gifs"
+                "en": "Gifs",
+                "fr":"Gifs"
             },
             "Steps": [
                 {
