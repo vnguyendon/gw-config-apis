@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreHappyKissOrGift",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel happier when your partner gives you",
+        "fr": "Tu es plus heureux quand la personne que tu aimes te donne",
+        "es": "Eres más feliz cuando tu novio/novia te da"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreHappyKiss",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a kiss 💋",
+        "fr": "un bisou 💋",
+        "es": "un beso 💋"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "AIDv87fiokBva"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreHappyGift",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a gift 🎁",
+        "fr": "un cadeau 🎁",
+        "es": "un regalo 🎁"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ANYZLuQ59mi64"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
