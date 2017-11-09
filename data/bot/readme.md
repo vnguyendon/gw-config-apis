@@ -433,12 +433,15 @@ In some cases, we might want to remember and set information about a user. For i
        "Id": "20",
        "Name": "SetUserProperty",
        "Parameters": {
-         "RelationshipStatus": "Single"
+         "property": "RelationshipStatus",
+         "value": "Single"
        }
      }
      ...
 
-We can therefore use the property `SetUserProperty` to set a specific param as a result of a user choice. We can store as many `Parameters` as we want.
+We can therefore use the property `SetUserProperty` to set a specific parameter as a result of a user choice or interaction. 
+- We can store only one parameter per `"SetUserProperty"` action, because `"Parameters": {}`can only contain once the properties `"Property"` and `"Value"`. 
+- To store a second one, we need to create a hash with the `"Type": "Action"` and `"Name": "SetUserProperty"`
 
 
 ## 9. CHANGES TO BE IMPLEMENTED LATER:
