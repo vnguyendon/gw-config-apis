@@ -1,82 +1,87 @@
-In this file, we will list all the properties that we use in the sequencing of our chatbots and all the most common values that they can take. 
+In this file, we will list all the properties that take predefined values
+
+that that we use in the sequencing of our chatbots and all the most common values that they can take. 
 This document has to be read in understand and parallel to the main documentation: https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/readme.md
 
 ### Note for the reader:
-- we list below the properties in alphabetical order
+- we list most of the properties in alphabetical order
 - we will describe each property's behaviour
-- under each property, their most common values will appear as a dependency
+- under each property, their most common values will appear in alphabetical order
 - we will describe each value's behaviour
 - finally, we will make an example of how the property/value pair should work in a typical context
+
+*Beware: we do not list properties that take **unique or undefined values** !*
+Examples: "Id", "Title", "Command", "CommandLabel", "Name", "Steps", "Paths", "ElementValue", "Randomize"
+
+These values' principles are described and examplified in the main documentation.
 
 
 ## "Actions"
 
+__________________
 ### "CreateAnimatedEmoji
 
+
+__________________
 ### "DisableSingleMode"
 
+__________________
 ### "EmbedLink"
 
+__________________
 ### "EnableSingleMode" 
 
+__________________
 ### "MessagesByRecipient"
 
+__________________
 ### "RedirectTo"
 
+__________________
 ### "RateUs"
 
+__________________
 ### "SetReminder"
 
+__________________
 ### "ShowAdvert"
 
+__________________
 ### "ShowCards"
 
+__________________
 ### "ShowDailyIdeas"
 
+__________________
 ### "ShowImages"
 
+__________________
 ### "ShowTrendingGif"
 
+__________________
 ### "ShowTrendingMessages"
 
+__________________
 ### "ShowOtherCommands"
 
+__________________
 ### "ShowUsers"
 
-## "CommandLabel"
 
-## "Commands"
 
-## "ElementValue"
-
-## "Id"
-
-## "isCorrect"
-
-## "Label"
-
-## "LinksTo"
-
-## "Name"
-
-## "Options"
-
+________________________________________________
 ## "Parameters"
 
-## "Path"
-
-## "Randomize"
-
-## "Steps"
-
+________________________________________________
 ## "Skippeable"
 
+________________________________________________
 ## "Source"
 
-## "Title"
-
+________________________________________________
 ## "Type"
 
+__________________
 ### "AnimatedGif"
 
 `"AnimatedGif"` is one of the four main media type that we can add in sequences (the others being: Sound, Video, Image).
@@ -106,7 +111,7 @@ The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"T
         },
      ...
 
-
+__________________
 ### "Image"
 
 ###### 1. Definition
@@ -138,7 +143,7 @@ The `"Image"` media needs to be inserted inside a Step, in link with a `"Type"` 
         },
      ...
 
-
+__________________
 ### "Sound"
 
 ###### 1. Definition
@@ -175,7 +180,7 @@ The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` 
          }
      ...
 
-
+__________________
 ### "Video"
 
 ###### 1. Definition
