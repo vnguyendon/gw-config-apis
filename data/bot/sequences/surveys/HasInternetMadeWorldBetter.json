@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HasInternetMadeWorldBetter",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Has the internet made the world a better place?",
+        "fr": "Internet a-t-il rendu le monde meilleur ?",
+        "es": "¿Internet ha mejorado el mundo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesInternetMadeWorldBetter",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/good-morning/default/small/Landscape-with-Haystacks-and-Rianbow-000082917691_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoInternetHasntMakeWorldBetter",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/I-miss-you/default/small/12524332_1679706095625404_4035020990383831343_n.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
