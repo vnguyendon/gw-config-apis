@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PreferChattingByTextsOrPhone",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer chatting with your friends",
+        "fr": "Tu préfères discuter avec tes amis",
+        "es": "Prefieres discutir con tus amigos"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferTexts",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "by text",
+        "fr": "par message",
+        "es": "por mensaje"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l1J9xxutJ7e1TCLK0"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferPhone",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "by phone",
+        "fr": "par téléphone",
+        "es": "por teléfono"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "105NVzZM26ItdC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
