@@ -1,0 +1,57 @@
+{
+  "Type": "Node",
+  "Id": "ShouldCountriesPromoteGenderEquality",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should more countries promote gender equality?",
+        "fr": "Plus de pays devraient-ils promouvoir l'égalité des genres ?",
+        "es": "¿Crees que más paises deberían promocionar la igualdad de género?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesPromoteGenderEquality",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoShouldntPromoteGenderEquality",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
