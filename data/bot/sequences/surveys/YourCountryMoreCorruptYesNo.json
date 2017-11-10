@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YourCountryMoreCorruptYesNo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is your country more corrupt than most other countries?",
+        "fr": "Ton pays est-il plus corrompu que les autres ?",
+        "es": "¿Tu país es más corrupto que los otros?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesMyCountryMoreCorrupt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "14aUO0Mf7dWDXW"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoMyCountryNotMoreCorrupt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "akbme2WYZCNLW"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
