@@ -10,7 +10,7 @@ This document has to be read in understand and parallel to the main documentatio
 - we will describe each value's behaviour
 - finally, we will make an example of how the property/value pair should work in a typical context
 
-*Beware: we do not list properties that take **unique or undefined values** !*
+Beware: we do not list properties that take **unique or undefined values** !
 Examples: "Id", "Title", "Command", "CommandLabel", "Name", "Steps", "Paths", "ElementValue", "Randomize"
 
 These values' principles are described and examplified in the main documentation.
