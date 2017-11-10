@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TeaOrCoffee",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "In the morning, you prefer to drink",
+        "fr": "Le matin, tu préfères boire",
+        "es": "Por la mañana prefieres beber"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferTea",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "tea",
+        "fr": "du thé",
+        "es": "té"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "M1VL81pAxfj3y"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferCoffee",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "coffee",
+        "fr": "du café",
+        "es": "café"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "l2SpXensc5RhNzfK8"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
