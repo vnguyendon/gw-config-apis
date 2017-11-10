@@ -1,7 +1,7 @@
 In this file, we will list all the properties that we use in the sequencing of our chatbots and all the most common values that they can take. 
 This document has to be read in understand and parallel to the main documentation: https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/readme.md
 
-##### Note for the reader:
+### Note for the reader:
 - we list below the properties in alphabetical order
 - we will describe each property's behaviour
 - under each property, their most common values will appear as a dependency
@@ -9,77 +9,77 @@ This document has to be read in understand and parallel to the main documentatio
 - finally, we will make an example of how the property/value pair should work in a typical context
 
 
-### "Actions"
+## "Actions"
 
-#### "CreateAnimatedEmoji
+### "CreateAnimatedEmoji
 
-#### "DisableSingleMode"
+### "DisableSingleMode"
 
-#### "EmbedLink"
+### "EmbedLink"
 
-#### "EnableSingleMode" 
+### "EnableSingleMode" 
 
-#### "MessagesByRecipient"
+### "MessagesByRecipient"
 
-#### "RedirectTo"
+### "RedirectTo"
 
-#### "RateUs"
+### "RateUs"
 
-#### "SetReminder"
+### "SetReminder"
 
-#### "ShowAdvert"
+### "ShowAdvert"
 
-#### "ShowCards"
+### "ShowCards"
 
-#### "ShowDailyIdeas"
+### "ShowDailyIdeas"
 
-#### "ShowImages"
+### "ShowImages"
 
-#### "ShowTrendingGif"
+### "ShowTrendingGif"
 
-#### "ShowTrendingMessages"
+### "ShowTrendingMessages"
 
-#### "ShowOtherCommands"
+### "ShowOtherCommands"
 
-#### "ShowUsers"
+### "ShowUsers"
 
-### "CommandLabel"
+## "CommandLabel"
 
-### "Commands"
+## "Commands"
 
-### "ElementValue"
+## "ElementValue"
 
-### "Id"
+## "Id"
 
-### "isCorrect"
+## "isCorrect"
 
-### "Label"
+## "Label"
 
-### "LinksTo"
+## "LinksTo"
 
-### "Name"
+## "Name"
 
-### "Options"
+## "Options"
 
-### "Parameters"
+## "Parameters"
 
-### "Path"
+## "Path"
 
-### "Randomize"
+## "Randomize"
 
-### "Steps"
+## "Steps"
 
-### "Skippeable"
+## "Skippeable"
 
-### "Source"
+## "Source"
 
-### "Title"
+## "Title"
 
-### "Type"
+## "Type"
 
-#### "AnimatedGif"
+### "AnimatedGif"
 
-#### "Image"
+### "Image"
 
 ###### 1. Definition
 
@@ -113,7 +113,7 @@ The `"Sound"` action needs to be written inside a Step, within a hash of `"Type"
      ...
 
 
-#### "Sound"
+### "Sound"
 
 ###### 1. Definition
 
@@ -150,7 +150,7 @@ The `"Sound"` action needs to be written inside a Step, in link with a `"Type"` 
      ...
 
 
-#### "Video"
+### "Video"
 
 
 
