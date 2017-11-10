@@ -16,10 +16,10 @@ Examples: "Id", "Title", "Command", "CommandLabel", "Name", "Steps", "Paths", "E
 These values' principles are described and examplified in the main documentation.
 
 ________________________________________________
-## "Actions"
+# "Actions"
 
 
-### "CreateAnimatedEmoji
+## "CreateAnimatedEmoji
 
 ###### 1. Definition
 
@@ -53,66 +53,66 @@ The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in l
           "Name": "CreateAnimatedEmoji"
         },
 
-### "DisableSingleMode"
+## "DisableSingleMode"
 
 
-### "EmbedLink"
+## "EmbedLink"
 
 
-### "EnableSingleMode" 
+## "EnableSingleMode" 
 
 
-### "MessagesByRecipient"
+## "MessagesByRecipient"
 
 
-### "RedirectTo"
+## "RedirectTo"
 
 
-### "RateUs"
+## "RateUs"
 
 
-### "SetReminder"
+## "SetReminder"
 
 
-### "ShowAdvert"
+## "ShowAdvert"
 
 
-### "ShowCards"
+## "ShowCards"
 
 
-### "ShowDailyIdeas"
+## "ShowDailyIdeas"
 
 
-### "ShowImages"
+## "ShowImages"
 
 
-### "ShowTrendingGif"
+## "ShowTrendingGif"
 
 
-### "ShowTrendingMessages"
+## "ShowTrendingMessages"
 
 
-### "ShowOtherCommands"
+## "ShowOtherCommands"
 
 
-### "ShowUsers"
+## "ShowUsers"
 
 
-
-________________________________________________
-## "Parameters"
 
 ________________________________________________
-## "Skippeable"
+# "Parameters"
 
 ________________________________________________
-## "Source"
+# "Skippeable"
 
 ________________________________________________
-## "Type"
+# "Source"
+
+________________________________________________
+# "Type"
 
 
-### "AnimatedGif"
+## "AnimatedGif"
 
 `"AnimatedGif"` is one of the four main media type that we can add in sequences (the others being: Sound, Video, Image).
 
@@ -142,7 +142,7 @@ The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"T
      ...
 
 
-### "Image"
+## "Image"
 
 ###### 1. Definition
 
@@ -174,7 +174,7 @@ The `"Image"` media needs to be inserted inside a Step, in link with a `"Type"` 
      ...
 
 
-### "Sound"
+## "Sound"
 
 ###### 1. Definition
 
@@ -211,7 +211,7 @@ The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` 
      ...
 
 
-### "Video"
+## "Video"
 
 ###### 1. Definition
 
