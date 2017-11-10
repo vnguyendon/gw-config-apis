@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ThreatRussiaOrUS",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which country is a threat to world peace?",
+        "fr": "Quel pays menace la paix dans le monde ?",
+        "es": "¿Qué país amenaza la paz mundial?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ThreatIsUS",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "the United States",
+        "fr": "les Etats-Unis",
+        "es": "los Estados Unidos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "xTiTnwAld5tAsT89fa"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ThreatIsRussia",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Russia",
+        "fr": "la Russie",
+        "es": "Russia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/stop-the-world/default/small/winter-landscape-000028450860_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
