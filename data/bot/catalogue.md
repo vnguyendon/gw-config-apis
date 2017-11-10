@@ -1,4 +1,4 @@
-In this file, we will list all the properties that take predefined values
+In this file, we will list all the properties that take a set of predefined values and for which the client and the writer need to be cautious in using,
 
 that that we use in the sequencing of our chatbots and all the most common values that they can take. 
 This document has to be read in understand and parallel to the main documentation: https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/readme.md
@@ -40,18 +40,18 @@ The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in l
 **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
+
 ###### 4. Example
 
     ...
       "Steps": [
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
-          }
+        ...
         },
-     ...
+        {
+          "Type": "Action",
+          "Name": "CreateAnimatedEmoji"
+        },
 
 ### "DisableSingleMode"
 
