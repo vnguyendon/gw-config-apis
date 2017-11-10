@@ -1,0 +1,14 @@
+[
+  {
+    "GroupName":"Start",
+    "SequenceFiles" : [
+       { "order" :  10, "file":"/data/bot/sequences/experiments/HowAreYou.json"}
+    ]
+  },
+  {
+    "GroupName":"Survey",
+    "SequenceFiles" : [
+       { "order" : 100, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"}
+    ]
+  }
+]
