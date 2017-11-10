@@ -150,5 +150,38 @@ The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` 
 
 ### "Video"
 
+###### 1. Definition
+
+`"Video"` is one of the four main media type that we can add in sequences (the others being: Image, Sound, AnimatedGif).
+
+When the property/value pair `"Type: "Sound"` is triggered, the client will play a sound that is defined by some parameters. We will see:
+- its source
+- a title (common for all languages)
+- the path that leads to the specific track we want
+
+###### 2. Client integration
+
+The client may have to:
+- integrate a video player inside the bot to have it played in its environment.
+- use an external website service to grab the video's thumbail image. For Youtube videos (most common videos), one can get a thumbnail by inserted the end URL of the video in this link (replace the "XXX" with the end URL of the video): https://i.ytimg.com/vi/XXX/hqdefault.jpg
+
+###### 3. Within a sequence
+
+The `"Video"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+
+###### 4. Example
+
+    ...
+      "Steps": [
+         {
+            "Type": "Video",
+            "Parameters": {
+              "Title": "Labrador Facts",
+              "Source": "Youtube",
+              "Path": "6zTOINeXQcc"
+            }
+          }
+     ...
+
 
 
