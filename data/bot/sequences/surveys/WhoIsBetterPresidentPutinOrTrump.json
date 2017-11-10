@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhoIsBetterPresidentPutinOrTrump",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Who is a better president?",
+        "fr": "Qui est le meilleur président ?",
+        "es": "¿Quién es un mejor presidente?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PutinBetterPresident",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Vladimir Putin",
+        "fr": "Vladimir Poutine",
+        "es": "Vladimir Putin"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "UxNCd08uBaFBC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TrumpBetterPresident",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Donald Trump",
+        "fr": "Donald Trump",
+        "es": "Donald Trump"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "bXE0iECrH9xJe"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
