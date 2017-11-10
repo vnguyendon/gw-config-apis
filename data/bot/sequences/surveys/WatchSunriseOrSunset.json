@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WatchSunriseOrSunset",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer to watch",
+        "fr": "Tu préfères regarder le",
+        "es": "Prefieres ver"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WatchSunrise",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sunrise",
+        "fr": "lever du soleil",
+        "es": "el amanecer"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "LcGFscTzOn9xm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WatchSunset",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sunset",
+        "fr": "coucher du soleil",
+        "es": "el atardecer"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "dP8DxhD9ekk1i"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
