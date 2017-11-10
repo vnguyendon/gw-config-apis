@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ReligionsBringWarOrPeace",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Religions generally bring",
+        "fr": "Les religions apportent généralement",
+        "es": "Generalmente, religiones traen"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ReligionsBringWar",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "war",
+        "fr": "la guerre",
+        "es": "la guerra"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/stop-the-world/default/small/182983_378972485547361_1749016060_n.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ReligionsBringPeace",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "peace",
+        "fr": "la paix",
+        "es": "la paz"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/I-am-sad/default/small/Man-walking-on-slackline-in-the-meadow-at-sunset-000066952383_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
