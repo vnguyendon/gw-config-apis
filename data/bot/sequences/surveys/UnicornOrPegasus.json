@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "UnicornOrPegasus",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What's best? 😍✨",
+        "fr": "C'est quoi le mieux ? 😍✨",
+        "es": "¿Qué es lo mejor? 😍✨"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "UnicornIsBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a unicorn",
+        "fr": "une licorne",
+        "es": "un unicornio"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "5UFNnpF71pToI"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PegasusIsBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a pegasus",
+        "fr": "un pégase",
+        "es": "un pegaso"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "5E7aSxGiiJC3S"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
