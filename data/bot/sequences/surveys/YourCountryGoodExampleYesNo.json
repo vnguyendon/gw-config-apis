@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YourCountryGoodExampleYesNo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Does your country set a good example for the rest of the world?",
+        "fr": "Ton pays est-il un bon exemple à suivre pour le reste du monde ?",
+        "es": "¿Tu país da un buen ejemplo para el resto del mundo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesMyCountryGoodExample",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "xuXzcHMkuwvf2"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoMyCountryNotGoodExample",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "uWPGqy4rkgllS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
