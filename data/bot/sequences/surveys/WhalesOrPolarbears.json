@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhalesOrPolarbears",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can only save one species. You choose",
+        "fr": "Tu ne peux sauver qu'une seule espèce. Tu choisis",
+        "es": "Sólo puedes salvar una especie. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SaveWhales",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "whales",
+        "fr": "les baleines",
+        "es": "las ballenas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "12QGOP0Lc4VtEA"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PolarBears",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "polar bears",
+        "fr": "les ours polaires",
+        "es": "los osos polares"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "fSHgyXYXy8Sd2"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
