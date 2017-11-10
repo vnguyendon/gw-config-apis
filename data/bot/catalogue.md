@@ -154,7 +154,7 @@ The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` 
 
 `"Video"` is one of the four main media type that we can add in sequences (the others being: Image, Sound, AnimatedGif).
 
-When the property/value pair `"Type: "Sound"` is triggered, the client will play a sound that is defined by some parameters. We will see:
+When the property/value pair `"Type: "Video"` is triggered, the client will play a sound that is defined by some parameters. We will see:
 - its source
 - a title (common for all languages)
 - the path that leads to the specific track we want
