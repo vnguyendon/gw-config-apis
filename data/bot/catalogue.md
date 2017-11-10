@@ -144,15 +144,15 @@ ________________________________________________
 ________________________________________________
 # "SetUserProperty"
 
-## "DisableSingleMode" / "EnableSingleMode"
+## ppSingle: enabling/disabling Single mode
 
 ###### 1. Definition
 
-"EnableSingleMode" and "DisableSingleMode" are the two faces of the same coin: 
+"EnableSingleMode" and "DisableSingleMode" are the two faces of the same coin: they are properties set when the user either reveals that he is single or not. A user can not 
 
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "EmbedLink"` in a Step, then the client will embed a link in whatever label is inserted. When the user will click on this label, he/she will be redirected to the web page/app 
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "SetUserProperty"`, we can set a property for the user's relationship status. That can then be used to personalize the experience in the app or in the bot.
 
-The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+To set this user property, we need to send the relevant parameters to the server. For that, we will use the `"Property": "ppSingle"` and the `"Value": "yes"` or `"no"`, depending on the answer 
 
 ###### 2. Client integration
 
@@ -160,15 +160,8 @@ No pre-requirements.
 
 ###### 3. Within a sequence
 
-The `"EmbedLink"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+This `"SetUserProperty"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. It can be inserted anywhere in the `"Steps"` (first or last position - it does not matter).
 
-##### **VERY IMPORTANT**: 
-- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
-- as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
-
-The writer will need to provide:
-- a link
-- a label, with localized versions if necessary
 
 ###### 4. Example
 
@@ -179,23 +172,20 @@ The writer will need to provide:
             },
             {
               "Type": "Action",
-              "Name": "EmbedLink",
+              "Name": "SetUserProperty",
               "Parameters": {
-                   "Path": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite&hl=en_GB",
-                    "Label": {
-                        "en": "Rate us on the Play Store",
-                        "fr": "Notez-nous sur le Play Store"
-                    }
+                   "Property": "ppSingle",
+                   "Value": "Yes"
               }
             }
         ]
 
-## pp
+## ppPsychologicalProfile
 ________________________________________________
 # "Source"
 
 ________________________________________________
-# "Type"
+# "Type" (when not defined as Leaf or Node)
 
 
 ## "AnimatedGif"
@@ -212,7 +202,7 @@ The client may have to use Giphy's API in order to call and display the GIFs fro
 
 ###### 3. Within a sequence
 
-The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be inserted anywhere in the `"Steps"` (first or last position - it does not matter).
 
 ###### 4. Example
 
