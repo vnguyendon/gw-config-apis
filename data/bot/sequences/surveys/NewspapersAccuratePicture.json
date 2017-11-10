@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NewspapersAccuratePicture",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do newspapers give an accurate picture of the world?",
+        "fr": "Les journaux donnent-ils une image fidèle de l'état du monde ?",
+        "es": "¿Los periódicos ofrecen una imagen fiel de la situación mundial?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesNewspapersAccuratePicture",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "Jw2LPR2XsP8ti"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoNewspapersNotAccuratePicture",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "xT0xeHnmBKYI7H9j4Q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
