@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SoccerOrBasketball",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which sport do you prefer?",
+        "fr": "Quel sport préfères-tu ?",
+        "es": "¿Cuál es tu deporte favorito?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferSoccer",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "soccer ⚽",
+        "fr": "le foot ⚽",
+        "es": "futbol ⚽"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "UdoS9OzIS2lgY"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferBasketball",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "basketball 🏀",
+        "fr": "le basket 🏀",
+        "es": "basquetbol 🏀"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "l41YhmC0hIcAqC3sY"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
