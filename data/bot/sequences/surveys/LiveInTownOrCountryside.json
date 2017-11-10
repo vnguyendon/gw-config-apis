@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LiveInTownOrCountryside",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather live",
+        "fr": "Tu préférerais habiter",
+        "es": "Preferirías vivir"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "InTown",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in town 🏠",
+        "fr": "en ville 🏠",
+        "es": "en la ciudad 🏠"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "rMwQAGeldnteM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "InTheCountryside",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in the countryside 🏡",
+        "fr": "à la campagne 🏡",
+        "es": "en el campo 🏡"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "fDc60rFUEQhFK"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
