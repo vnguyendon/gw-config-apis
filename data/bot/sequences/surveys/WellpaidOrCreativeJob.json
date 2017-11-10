@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WellpaidOrCreativeJob",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You feel better if your job",
+        "fr": "C'est mieux si ton travail est",
+        "es": "Es mejor si tienes un trabajo"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WellpaidJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pays well 💰",
+        "fr": "bien payé 💰",
+        "es": "bien pagado 💰"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "H0uLRCd8JIhRS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CreativeJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "is creative 🎈",
+        "fr": "créatif 🎈",
+        "es": "creativo 🎈"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "SKGo6OYe24EBG"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
