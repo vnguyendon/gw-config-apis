@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreRomanticFranceOrItaly",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which country is more romantic? 💐💖",
+        "fr": "Quel pays est le plus romantique ? 💐💖",
+        "es": "¿Qué país es más romántico? 💐💖"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreRomanticFrance",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "France",
+        "fr": "la France",
+        "es": "Francia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SI3WaEg25Fvbi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreRomanticItaly",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Italy",
+        "fr": "l'Italie",
+        "es": "Italia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohzdL1pRLsvDGtPeU"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
