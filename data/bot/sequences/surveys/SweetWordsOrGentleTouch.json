@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SweetWordsOrGentleTouch",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It is easier for you to show you care with",
+        "fr": "C'est plus facile pour toi d'exprimer ton affection avec",
+        "es": "Es más fácil para ti expresar tu afecto con"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SweetWords",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sweet words",
+        "fr": "des mots",
+        "es": "palabras dulces"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "gbDsm8Hn7aIuc"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GentleTouch",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a gentle touch",
+        "fr": "des gestes",
+        "es": "toques suaves"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "XArfwywQ4D3Pi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
