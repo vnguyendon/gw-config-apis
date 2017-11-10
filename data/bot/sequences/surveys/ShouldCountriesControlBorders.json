@@ -1,0 +1,57 @@
+{
+  "Type": "Node",
+  "Id": "ShouldCountriesControlBorders",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should countries do more to control their borders?",
+        "fr": "Les pays devraient-ils faire plus pour contrôler leurs frontières ?",
+        "es": "¿Crees que los paises deberían hacer más esfuerzos para el control de las fronteras ?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesShouldMoreControl",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoShouldntMoreControl",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
