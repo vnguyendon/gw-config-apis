@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TakePicturesOfYourselfOrLandscapes",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You take more pictures of",
+        "fr": "Tu prends plus souvent des photos",
+        "es": "Tomas más fotos de"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PicturesOfYourself",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yourself 😎",
+        "fr": "de toi 😎",
+        "es": "ti mismo 😎"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "16bJmyPvRbCDu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PicturesOfLandscapes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "landscapes 🗻",
+        "fr": "de paysages 🗻",
+        "es": "paisajes 🗻"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "vBMzK6KN6M6zK"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
