@@ -11,14 +11,37 @@ This document has to be read in understand and parallel to the main documentatio
 
 ### "Actions"
 
+##### "CreateAnimatedEmoji
 
-#### "Rate us"
+##### "DisableSingleMode"
 
-#### "ShowCards"
+##### "EmbedLink"
 
-#### "ShowImages"
+##### "EnableSingleMode" 
 
-#### "ShowOtherCommands"
+##### "MessagesByRecipient"
+
+##### "RedirectTo"
+
+##### "RateUs"
+
+##### "SetReminder"
+
+##### "ShowAdvert"
+
+##### "ShowCards"
+
+##### "ShowDailyIdeas"
+
+##### "ShowImages"
+
+##### "ShowTrendingGif"
+
+##### "ShowTrendingMessages"
+
+##### "ShowOtherCommands"
+
+##### "ShowUsers"
 
 ### "CommandLabel"
 
@@ -54,8 +77,45 @@ This document has to be read in understand and parallel to the main documentatio
 
 ### "Type"
 
+##### "AnimatedGif"
+
+##### "Image"
+
+##### "Sound"
+
+###### 1. Definition
+
+When the action `"PlaySound"` is triggered, the client will play a sound that is defined by some parameters:
+- its source
+- the path that leads to this source
+
+###### 2. Client integration
+
+The client may have to integrate an external service to play sounds from some sources (example: FreeSound).
+
+###### 3. Within a sequence
+
+The `"PlaySound"` action needs to be written inside a Step, within a hash of `"Type": "Action"`. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+
+###### 4. Example
+
+    ...
+      "Steps": [
+        {
+           "Type": "Sound",
+           "Parameters": {
+             "Title": {
+               "en": "Owl at night",
+               "fr": "Un hiboux la nuit",
+             },
+             "Source": "FreeSound",
+             "Path": "98941"
+           }
+         }
+     ...
 
 
+##### "Video"
 
 
 
