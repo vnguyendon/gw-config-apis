@@ -9,16 +9,15 @@
           "Mode": "ConfirmContinuation"
         }
       },
-      {
-        "Type": "Text",
+        {
+        "Type": "Image",
         "Id": "20",
-        "Label": {
-          "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
-          "fr": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
-          "es": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
+        "Parameters": {
+          "Source": "Internal",
+          "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
         }
       },
-      {
+        {
         "Type": "Pause",
         "Id": "30",
         "Parameters": {
@@ -27,11 +26,12 @@
         }
       },
       {
-        "Type": "Image",
+        "Type": "Text",
         "Id": "40",
-        "Parameters": {
-          "Source": "Internal",
-          "Path": "/themes/pairs/small/10604560_10153360724547059_3952577130793706221_o.jpg"
+        "Label": {
+          "en": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
+          "fr": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧",
+          "es": "In your opinion, what is the life expectancy of a puffin in the wild? 🐧"
         }
       }
     ],
