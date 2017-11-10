@@ -93,7 +93,7 @@ The client may have to integrate an external service to play sounds from some so
 
 ###### 3. Within a sequence
 
-The `"PlaySound"` action needs to be written inside a Step, within a hash of `"Type": "Action"`. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+The `"Sound"` action needs to be written inside a Step, within a hash of `"Type": "Action"`. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
 
 ###### 4. Example
 
