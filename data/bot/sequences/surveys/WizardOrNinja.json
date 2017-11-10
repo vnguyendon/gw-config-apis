@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WizardOrNinja",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather be",
+        "fr": "Tu préférerais être",
+        "es": "Te gustaría ser"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferWizard",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a wizard",
+        "fr": "un sorcier",
+        "es": "un brujo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "GyUiQcGVVeiKk"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferNinja",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a ninja",
+        "fr": "un ninja",
+        "es": "un ninja"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "ErdfMetILIMko"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
