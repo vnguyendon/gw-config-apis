@@ -83,33 +83,31 @@ This document has to be read in understand and parallel to the main documentatio
 
 ###### 1. Definition
 
-When the action `"PlaySound"` is triggered, the client will play a sound that is defined by some parameters:
+`"Image"` is one of the four main media type that we can add in sequences (the others being: Sound, Video, AnimatedGif).
+
+When the property/value pair `"Type: "Image"` is triggered, the client will show an image that is defined by some parameters. We will see:
 - its source
-- the path that leads to this source
+- the path that leads to the specific track we want
 
 ###### 2. Client integration
 
-The client may have to integrate an external service to play sounds from some sources (example: FreeSound).
+The client may have to reconstruct URLs coming from WaveMining's internal database when the source is turned on `"Internal"`
 
 ###### 3. Within a sequence
 
-The `"Sound"` action needs to be written inside a Step, within a hash of `"Type": "Action"`. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+The `"Image"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
 
 ###### 4. Example
 
     ...
       "Steps": [
         {
-           "Type": "Sound",
-           "Parameters": {
-             "Title": {
-               "en": "Owl at night",
-               "fr": "Un hiboux la nuit",
-             },
-             "Source": "FreeSound",
-             "Path": "98941"
-           }
-         }
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
+          }
+        },
      ...
 
 
@@ -130,7 +128,7 @@ The client may have to integrate an external service to play sounds from some so
 
 ###### 3. Within a sequence
 
-The `"Sound"` action needs to be written inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
 
 ###### 4. Example
 
