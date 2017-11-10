@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PepsiOrCoke",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Pepsi or Coke?",
+        "fr": "Pepsi ou Coca-Cola ?",
+        "es": "¿Pepsi o Coca-Cola?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferPepsi",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Pepsi forever",
+        "fr": "Pepsi forever",
+        "es": "Pepsi forever"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "tgBr2xKWSyIKs"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferCoke",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Bring me a coke please!",
+        "fr": "Un Coca svp !",
+        "es": "¡Un Coca por favor!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "v2YxCO2pwHjji"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
