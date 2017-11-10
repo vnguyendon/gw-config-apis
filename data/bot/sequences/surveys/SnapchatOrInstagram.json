@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SnapchatOrInstagram",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can only use one. You choose",
+        "fr": "Tu ne peux en utiliser qu'un seul. Tu choisis",
+        "es": "Sólo puedes utilizar uno. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Snapchat",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Snapchat",
+        "fr": "Snapchat",
+        "es": "Snapchat"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "3o6gaRlqAGYhLyKNtC"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Instagram",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Instagram",
+        "fr": "Instagram",
+        "es": "Instagram"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "l4KhMR4p58zFZZlSg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
