@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SendMessagesToFriendsOrFamily",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You send more messages to",
+        "fr": "Tu envoies plus de messages à",
+        "es": "Envias más mensajes a"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreMessagesFriends",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your friends",
+        "fr": "tes amis",
+        "es": "tus amigos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "d9WRhx9qErqCY"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MoreMessagesFamily",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your family",
+        "fr": "ta famille",
+        "es": "tu familia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "KCNA66FPO1pvy"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
