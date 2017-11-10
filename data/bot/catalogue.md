@@ -15,56 +15,86 @@ Examples: "Id", "Title", "Command", "CommandLabel", "Name", "Steps", "Paths", "E
 
 These values' principles are described and examplified in the main documentation.
 
-
+________________________________________________
 ## "Actions"
 
-__________________
+
 ### "CreateAnimatedEmoji
 
+###### 1. Definition
 
-__________________
+`"CreateAnimatedEmoji"` is an action specific to the Android and iOS clients for the WaveMining apps.
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "CreateAnimatedEmoji"` in a Step, then the client will redirect the User to the Create Animated Emoji feature.
+
+The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+
+###### 2. Client integration
+
+Only the iOS and Android clients can parse this value and integrate the feature it triggers.
+
+###### 3. Within a sequence
+
+The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+
+**VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
+###### 4. Example
+
+    ...
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://assets3.thrillist.com/v1/image/2508887/size/tmg-article_tall.jpg"
+          }
+        },
+     ...
+
 ### "DisableSingleMode"
 
-__________________
+
 ### "EmbedLink"
 
-__________________
+
 ### "EnableSingleMode" 
 
-__________________
+
 ### "MessagesByRecipient"
 
-__________________
+
 ### "RedirectTo"
 
-__________________
+
 ### "RateUs"
 
-__________________
+
 ### "SetReminder"
 
-__________________
+
 ### "ShowAdvert"
 
-__________________
+
 ### "ShowCards"
 
-__________________
+
 ### "ShowDailyIdeas"
 
-__________________
+
 ### "ShowImages"
 
-__________________
+
 ### "ShowTrendingGif"
 
-__________________
+
 ### "ShowTrendingMessages"
 
-__________________
+
 ### "ShowOtherCommands"
 
-__________________
+
 ### "ShowUsers"
 
 
@@ -81,7 +111,7 @@ ________________________________________________
 ________________________________________________
 ## "Type"
 
-__________________
+
 ### "AnimatedGif"
 
 `"AnimatedGif"` is one of the four main media type that we can add in sequences (the others being: Sound, Video, Image).
@@ -111,7 +141,7 @@ The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"T
         },
      ...
 
-__________________
+
 ### "Image"
 
 ###### 1. Definition
@@ -143,7 +173,7 @@ The `"Image"` media needs to be inserted inside a Step, in link with a `"Type"` 
         },
      ...
 
-__________________
+
 ### "Sound"
 
 ###### 1. Definition
@@ -180,7 +210,7 @@ The `"Sound"` media needs to be inserted inside a Step, in link with a `"Type"` 
          }
      ...
 
-__________________
+
 ### "Video"
 
 ###### 1. Definition
