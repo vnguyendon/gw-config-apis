@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SweetOrSaltyBreakfast",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "At breakfast, you prefer to eat",
+        "fr": "Au petit-déjeuner, tu préfères manger",
+        "es": "Para desayunar, prefieres comer"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SweetBreakfast",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sweet food",
+        "fr": "du sucré",
+        "es": "platos dulces"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "2C7o4KdNauZy"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SaltyBreakfast",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "salty food",
+        "fr": "du salé",
+        "es": "platos salados"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "Hw6UVMpnc0oXS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
