@@ -11,37 +11,37 @@ This document has to be read in understand and parallel to the main documentatio
 
 ### "Actions"
 
-##### "CreateAnimatedEmoji
+#### "CreateAnimatedEmoji
 
-##### "DisableSingleMode"
+#### "DisableSingleMode"
 
-##### "EmbedLink"
+#### "EmbedLink"
 
-##### "EnableSingleMode" 
+#### "EnableSingleMode" 
 
-##### "MessagesByRecipient"
+#### "MessagesByRecipient"
 
-##### "RedirectTo"
+#### "RedirectTo"
 
-##### "RateUs"
+#### "RateUs"
 
-##### "SetReminder"
+#### "SetReminder"
 
-##### "ShowAdvert"
+#### "ShowAdvert"
 
-##### "ShowCards"
+#### "ShowCards"
 
-##### "ShowDailyIdeas"
+#### "ShowDailyIdeas"
 
-##### "ShowImages"
+#### "ShowImages"
 
-##### "ShowTrendingGif"
+#### "ShowTrendingGif"
 
-##### "ShowTrendingMessages"
+#### "ShowTrendingMessages"
 
-##### "ShowOtherCommands"
+#### "ShowOtherCommands"
 
-##### "ShowUsers"
+#### "ShowUsers"
 
 ### "CommandLabel"
 
@@ -77,11 +77,9 @@ This document has to be read in understand and parallel to the main documentatio
 
 ### "Type"
 
-##### "AnimatedGif"
+#### "AnimatedGif"
 
-##### "Image"
-
-##### "Sound"
+#### "Image"
 
 ###### 1. Definition
 
@@ -115,7 +113,44 @@ The `"PlaySound"` action needs to be written inside a Step, within a hash of `"T
      ...
 
 
-##### "Video"
+#### "Sound"
+
+###### 1. Definition
+
+`"Sound"` is one of the four main media type that we can add in sequences (the others being: Image, Video, AnimatedGif).
+
+When the property/value pair `"Type: "Sound"` is triggered, the client will play a sound that is defined by some parameters. We will see:
+- its source
+- a title for each language
+- the path that leads to the specific track we want
+
+###### 2. Client integration
+
+The client may have to integrate an external service to play sounds from some sources (example: FreeSound).
+
+###### 3. Within a sequence
+
+The `"Sound"` action needs to be written inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+
+###### 4. Example
+
+    ...
+      "Steps": [
+        {
+           "Type": "Sound",
+           "Parameters": {
+             "Title": {
+               "en": "Owl at night",
+               "fr": "Un hiboux la nuit",
+             },
+             "Source": "FreeSound",
+             "Path": "98941"
+           }
+         }
+     ...
+
+
+#### "Video"
 
 
 
