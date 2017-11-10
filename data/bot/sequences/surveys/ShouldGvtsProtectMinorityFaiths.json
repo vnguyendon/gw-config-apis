@@ -1,0 +1,57 @@
+{
+  "Type": "Node",
+  "Id": "ShouldGvtsProtectMinorityFaiths",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should governments protect minority groups' faiths?",
+        "fr": "Les gouvernements devraient-ils protéger les croyances des minorités ?",
+        "es": "¿Crees que los gobiernos deberían proteger las creencias de las minorías?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesProtectMinorityFaiths",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoShouldntProtectMinorityFaiths",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
