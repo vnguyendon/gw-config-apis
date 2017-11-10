@@ -92,9 +92,11 @@
           {
             "Type": "Text",
             "Id": "10",
-            "en": "Especially the ones that are",
-            "fr": "Surtout ceux qui sont",
-            "es": "Especialmente los que son"
+            "Label": {
+               "en": "Especially the ones that are",
+               "fr": "Surtout ceux qui sont",
+               "es": "Especialmente los que son"
+            }
           }
         ],
         "Commands": [
