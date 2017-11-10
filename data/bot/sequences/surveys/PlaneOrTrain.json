@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PlaneOrTrain",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer travelling by",
+        "fr": "Tu préfère voyager en",
+        "es": "Prefieres viajar en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TravelByPlane",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "plane",
+        "fr": "avion",
+        "es": "avión"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Btn42lfKKrOzS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TravelByTrain",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "train",
+        "fr": "train",
+        "es": "tren"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "NwygOzUd2rXAQ"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
