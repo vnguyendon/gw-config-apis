@@ -79,6 +79,34 @@ This document has to be read in understand and parallel to the main documentatio
 
 ### "AnimatedGif"
 
+`"AnimatedGif"` is one of the four main media type that we can add in sequences (the others being: Sound, Video, Image).
+
+When the property/value pair `"Type: "AnimatedGif"` is triggered, the client will show an image that is defined by some parameters. We will see:
+- its source
+- the path that leads to the specific track we want
+
+###### 2. Client integration
+
+The client may have to use Giphy's API in order to call and display the GIFs from its library. Its library is the most complete and the only one used thus far, except for internal Gifs in exceptional circumstances.
+
+###### 3. Within a sequence
+
+The `"AnimatedGif"` media needs to be inserted inside a Step, in link with a `"Type"` property. It can be integrated anywhere in the `"Steps"` (first or last position - it does not matter).
+
+###### 4. Example
+
+    ...
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "RHdoPmZgiJlzW"
+          }
+        },
+     ...
+
+
 ### "Image"
 
 ###### 1. Definition
