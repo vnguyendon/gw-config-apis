@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "VampireOrWerewolf",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather become",
+        "fr": "Tu préférerais te transformer en",
+        "es": "Preferirías convertirte en"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Vampire",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a vampire 🦇",
+        "fr": "vampire 🦇",
+        "es": "vampiro 🦇"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "XWPQ0x2fJHPna"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Werewolf",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "werewolf 🐺",
+        "fr": "loup-garou 🐺",
+        "es": "hombre lobo 🐺"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "F9x4M0txXWZkQ"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
