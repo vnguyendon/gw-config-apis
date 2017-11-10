@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "SolveHungerOrPollution",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can only solve one worldwide issue between the two",
+        "fr": "Tu ne peux résoudre qu'un seul fléau à l'échelle mondiale",
+        "es": "Solo puedes terminar con uno de estos dos flagelos mundiales"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SolveHunger",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "hunger",
+        "fr": "la faim",
+        "es": "el hambre"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "GnCc88zZhSVUc"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SolvePollution",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pollution",
+        "fr": "la pollution",
+        "es": "la contaminación"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "aK4wh0UE3oddS"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
