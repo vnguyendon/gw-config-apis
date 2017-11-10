@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TotemAnimalWolfOrEagle",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You must choose a totem animal. It is",
+        "fr": "Tu dois choisir un animal totem. C'est",
+        "es": "Tienes que elegir un animal tótem. Es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TotemAnimalWolf",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a wolf 🐺",
+        "fr": "un loup 🐺",
+        "es": "un lobo 🐺"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "yWQNG57XtqasM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TotemAnimalEagle",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "an eagle 🦅",
+        "fr": "un aigle 🦅",
+        "es": "un águila 🦅"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "Qz7VpOlWMXYAM"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
