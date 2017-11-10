@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PandasOrLions",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can only save one species from extinction. You choose",
+        "fr": "Tu ne peux sauver qu'une seule espèce de l'extinction. Tu choisis",
+        "es": "Solo puedes salvar una especie de la extinción. Eliges"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SavePandas",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pandas 🐼",
+        "fr": "les pandas 🐼",
+        "es": "los pandas 🐼"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "AZ9E5rrNWsacg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SaveLions",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "lions 🦁",
+        "fr": "les lions 🦁",
+        "es": "los leones 🦁"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l46C8pSaCzoiZVXAk"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
