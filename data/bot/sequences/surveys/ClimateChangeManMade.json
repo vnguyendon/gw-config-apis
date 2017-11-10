@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ClimateChangeManMade",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Climate change is a man-made problem?",
+        "fr": "Le changement climatique est-il un problème issu des activités humaines ?",
+        "es": "¿El cambio climático es un problema resultante de las actividades humanas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesClimateChangeManMade",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/stop-the-world/default/small/old-pier-000046445702_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoClimateChangeNotManMade",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "gw-static/specialoccasions/stop-the-world/default/small/shutterstock_170463986.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
