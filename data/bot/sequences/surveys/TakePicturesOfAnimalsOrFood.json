@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TakePicturesOfAnimalsOrFood",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You take more pictures of",
+        "fr": "Tu prends plus souvent des photos",
+        "es": "Tomas más fotos de"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PicturesOfAnimals",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "animals 🐈",
+        "fr": "des animaux 🐈",
+        "es": "animales 🐈"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "rlkpAmX3gaLWE"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PicturesOfFood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "food 🍰",
+        "fr": "de la nourriture 🍰",
+        "es": "comida 🍰"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters":{
+            "Source": "Giphy",
+            "Path": "Iye7DbfyK9P6E"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}
