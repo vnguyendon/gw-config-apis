@@ -2,7 +2,7 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-       { "order" : 20, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
+       { "order" : 20, "file":"/data/bot/sequences/experiments/_rui_unit_test_steps.json"},
        { "order" :  50, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
        { "order" : 100, "file": "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"},
        { "order" : 300, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"},
