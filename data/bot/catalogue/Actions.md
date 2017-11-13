@@ -78,7 +78,7 @@ _______________________
 ## "MessagesByRecipient"
 
 _______________________
-## "RedirectTo"
+## "OpenTab"
 
 _______________________
 ## "SetReminder"
