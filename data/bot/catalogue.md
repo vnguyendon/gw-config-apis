@@ -108,6 +108,40 @@ The writer will need to provide:
 
 ## "SetReminder"
 
+###### 1. Definition
+
+`"CreateAnimatedEmoji"` is an action specific to the Android and iOS clients for the WaveMining apps.
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "CreateAnimatedEmoji"` in a Step, then the client will redirect the User to the Create Animated Emoji feature.
+
+The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+
+###### 2. Client integration
+
+Only the iOS and Android clients can parse this value and integrate the feature it triggers.
+
+###### 3. Within a sequence
+
+The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+
+##### **VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
+
+###### 4. Example
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "CreateAnimatedEmoji"
+            }
+        ]
+
+
 
 ## "ShowAdvert"
 
