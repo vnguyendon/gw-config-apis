@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "DoYouHaveAPet",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+            "en": "Do you have a pet?",
+            "fr": "As-tu un animal de compagnie ?",
+            "es": "¿Tienes una mascota?"
+          }
+      }
+  ],
+  "Randomize": "true",
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "YesHaveAPet",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "sí"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "K7GAojRX7Khuo"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      },
+      {
+          "Type": "Leaf",
+          "Id": "NoDontHavePet",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          },
+          "Steps": [
+              {
+                  "Type": "Action",
+                  "Name": "DoVote"
+              },
+              {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                      "Source": "Giphy",
+                      "Path": "TTWq4EYZDRM0o"
+                  }
+              },
+              {
+                  "Type": "Action",
+                  "Name": "ShowSurveyResults"
+              }
+          ]
+      }
+  ]
+}
