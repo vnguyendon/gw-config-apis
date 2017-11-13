@@ -199,7 +199,7 @@ Example 1 - calling for a card made of text + image
               "Type": "Action",
               "Name": "ShowCards",
               "Parameters":
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "43B296"
             }
         ]
