@@ -370,9 +370,6 @@ The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step ha
         ]
 
 _______________________
-## "ShowOtherCommands"
-
-_______________________
 ## "ShowUsers"
 
 ###### 1. Definition
