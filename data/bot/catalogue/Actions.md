@@ -17,7 +17,7 @@ No pre-requirements.
 #### 3. Within a sequence
 
 The `"EmbedLink"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-##### **VERY IMPORTANT**: 
+###### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
@@ -50,7 +50,7 @@ _______________________
 _______________________
 ## "RedirectTo"
 
-###### 1. Definition
+#### 1. Definition
 
 `"RedirectTo"` is an action specific to the Android and iOS clients for the WaveMining apps. It allows the writer the client to redirect the user to another part of the app. 
 
@@ -65,18 +65,18 @@ There will be five possible `"Type"`:
 
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "RedirectTo"` in a Step, then the client will redirect the User to the Create Animated Emoji feature. The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
 
-###### 2. Client integration
+#### 2. Client integration
 
 Only the iOS and Android clients can parse this value and integrate the feature it triggers, as they involve a redirection to part of the apps.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"RedirectTo"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-##### **VERY IMPORTANT**: 
+###### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"RedirectTo"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
-###### 4. Examples
+#### 4. Examples
 
 Example 1 with a Tab redirection:
 
@@ -148,23 +148,23 @@ Example 4 with a Content redirection:
 _______________________
 ## "SetReminder"
 
-###### 1. Definition
+#### 1. Definition
 
 `"SetReminder"` is an action specific to the Android and iOS clients for the WaveMining apps.
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "SetReminder"` in a Step, then the client will redirect the User to the SetReminder feature.
 The Set Reminder feature invites the user to set a reminder to send a message to someone. 
 
-###### 2. Client integration
+#### 2. Client integration
 
 Only the iOS and Android clients can parse this value and integrate the feature it triggers.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"SetReminder"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 - this action will temporarily redirect the user to an action performed outside the bot ; however, once the reminder is set, the conversation will continue its natural flow
 - as the client reads the steps from top to bottom, this `"SetReminder"` action should preferably be inserted towards the end of the hash of the step. Otherwise, the content appearing on the user's chatbot feed will only be visible once he/she is done with setting the reminder
 
-###### 4. Example
+#### 4. Example
 
     ...
       "Steps": [
@@ -181,7 +181,7 @@ The `"SetReminder"` action needs to be inserted inside a Step hash, in link with
 _______________________
 ## "ShowAdvert"
 
-###### 1. Definition
+#### 1. Definition
 
 We may sometimes want to show an advert to the user, whether during a long sequence, just randomly or as a way to unlock further bot features. We will then use the action `"ShowAdvert"`.
 
@@ -189,11 +189,11 @@ When the property/value pair `"Type: "Action"` is triggered along the `"Name: "S
 - it should be an interstitial
 - it should use the same ad ID and ad provider as the main interstitial placement of the app
 
-###### 2. Client integration
+#### 2. Client integration
 
 Only the iOS and Android clients can parse this value.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowAdvert"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 - this action will temporarily redirect to a full screen advert ; however, once the user has seen and/or dismissed the ad, the conversation will carry its natural flow
@@ -201,7 +201,7 @@ The `"ShowAdvert"` action needs to be inserted inside a Step hash, in link with 
 
 IMPORTANT: we should preferably ask the user's consent before showing an ad, or at least announce it in the sequence.
 
-###### 4. Example
+#### 4. Example
 
     ...
       "Steps": [
@@ -220,7 +220,7 @@ IMPORTANT: we should preferably ask the user's consent before showing an ad, or 
 _______________________
 ## "ShowCards"
 
-###### 1. Definition
+#### 1. Definition
 
 The client will sometimes want to show a card of content to the user. To do that, we can use the action `"ShowCards"` to display a card made of some text, an image, a gif or text + image. 
 
@@ -232,15 +232,15 @@ When using the action `"ShowCards"`, the writer should specify (in the `"Paramet
     d. It can be `"Gif"` alone if we want a card with a gif only
 - the `"Id"` of the `"Intention"` or `"Theme"` from which we want the image or text, or both
 
-###### 2. Client integration
+#### 2. Client integration
 
 The client will need to use WaveMining's relevant APIs to use this feature.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowCards"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 
-###### 4. Example
+#### 4. Example
 
 Example 1 - calling for a card made of text + image
 
@@ -299,7 +299,7 @@ Example 4 - calling for a card made of 1 image only
 _______________________
 ## "ShowCardsWithMenu"
 
-###### 1. Definition
+#### 1. Definition
 
 The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one very important difference: the client will show a predefined menu after the card is displayed
 - in this case, the menu has four options: "Send", "One More", "Menu", "Talk to me"
@@ -308,18 +308,18 @@ The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one 
 
 **Please refer to the section on `"ShowCards"` - definition** if you want to understand the basic logic of this action
 
-###### 2. Client integration
+#### 2. Client integration
 
 The client will need to use WaveMining's relevant APIs to use this feature.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-##### **VERY IMPORTANT**: 
+####### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom,  `"ShowCardsWithMenu"` step has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
 
-###### 4. Example
+#### 4. Example
 
     ...
       "Steps": [
@@ -338,7 +338,7 @@ The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in lin
 _______________________
 ## "ShowTrendingContent"
 
-###### 1. Definition
+#### 1. Definition
 
 We may sometimes want to show a most popular content from the database. To do that, we will use the action `"ShowTrendingContent"`.
 
@@ -348,15 +348,15 @@ We have three choices of `"Type"`:
     b. It can be `"Text"` alone if we want a card with a text only
     c. It can be `"Gif"` alone if we want a card with a gif only
 
-###### 2. Client integration
+#### 2. Client integration
 
 The client will need to use WaveMining's relevant APIs to use this feature.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowCards"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 
-###### 4. Examples
+#### 4. Examples
 
 Example 1 - calling for a card made of text + image
 
@@ -399,7 +399,7 @@ Example 3 - calling for a card made of 1 image only
 _______________________
 ## "ShowTrendingContentWithMenu"
 
-###### 1. Definition
+#### 1. Definition
 
 The action `"ShowTrendingContentWithMenu"` works exactly as `"ShowTrendingContent"`, except for one very important difference: the client will show a predefined menu after the card is displayed
 - in this case, the menu has four options: "Send", "One More", "Menu", "Talk to me"
@@ -408,18 +408,18 @@ The action `"ShowTrendingContentWithMenu"` works exactly as `"ShowTrendingConten
 
 **Please refer to the section on `"ShowTrendingContent"` - definition** if you want to understand the basic logic of this action
 
-###### 2. Client integration
+#### 2. Client integration
 
 The client will need to use WaveMining's relevant APIs to use this feature.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-##### **VERY IMPORTANT**: 
+####### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, `"ShowTrendingContentWithMenu"` step has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
 
-###### 4. Example
+#### 4. Example
 
     ...
       "Steps": [
@@ -437,23 +437,23 @@ The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step ha
 _______________________
 ## "ShowUsers"
 
-###### 1. Definition
+#### 1. Definition
 
 `"ShowUsers"` is an action specific to the Android and iOS clients for the WaveMining apps.
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowUsers"` in a Step, then the client will show another user's profile in the chatbot feed and the conversation.
 
-###### 2. Client integration
+#### 2. Client integration
 
 Only the iOS and Android clients can parse this value and integrate the feature it triggers.
 
-###### 3. Within a sequence
+#### 3. Within a sequence
 
 The `"ShowUsers"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 - this action will offer some further hardcoded commands to the user ("Preview", "Another" and "Menu")
 - as the user will potentially click on them and he/she will be redirected to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"ShowUsers"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
-###### 4. Example
+#### 4. Example
     ...
       "Steps": [
             {
