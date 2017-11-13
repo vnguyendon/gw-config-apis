@@ -175,9 +175,10 @@ When the property/value pair `"Type: "Action"` is triggered along the `"Name: "S
 
 The writer should specify the following parameters in this card:
 - the `"Type"` of content. We have three choices here
-    a. It can be an `"Intention"`, i.e. a combination of text + image
-    b. It can be `"Text"` alone if we want a card with text only
-    c. It can be `"Image"` alone if we want a card with image only
+    a. It can be `"TextImage"`, i.e. a combination of text + image
+    b. It can be `"Text"` alone if we want a card with a text only
+    c. It can be `"Image"` alone if we want a card with an image only
+    d. It can be `"Gif"` alone if we want a card with a gif only
 - the `"Id"` of the `"Intention"` or `"Theme"` from which we want the image or text, or both
 
 ###### 2. Client integration
@@ -229,7 +230,22 @@ Example 3 - calling for a card made of 1 image only
                   "Id": "themes/kittens"
             }
         ]
-       
+
+Example 4 - calling for a card made of 1 image only
+
+    ...
+      "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ShowCards",
+              "Parameters":
+                  "Type": "Gif",
+                  "Id": "/data/common/giphycontent/animals.json"
+            }
+        ]
+
+
+
 _______________________
 ## "ShowDailyIdeas"
 
@@ -258,7 +274,9 @@ Only the iOS and Android clients can parse this value and integrate the feature 
 ###### 3. Within a sequence
 
 The `"ShowUsers"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-
+- this action will offer some further hardcoded commands to the user ("Preview", "Another" and "Menu")
+- as the user will potentially click on them and he/she will be redirected to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"ShowUsers"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
 ###### 4. Example
 
