@@ -162,7 +162,7 @@ The client will sometimes want to show a card of content to the user. To do that
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowCards"` in a Step, then the client will show a card to the user. This card will come from WaveMining's database. It can be text, an image or a combination of an image + text.
 
 The writer should specify the following parameters in this card:
-- the `"Type"` of content. We have three choices here
+- the `"Type"` of content. We have four choices here
     a. It can be `"TextImage"`, i.e. a combination of text + image
     b. It can be `"Text"` alone if we want a card with a text only
     c. It can be `"Image"` alone if we want a card with an image only
@@ -274,13 +274,78 @@ The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in lin
         ]
 
 _______________________
-## "ShowDailyIdeas"
+## "ShowTrendingContent"
+
+###### 1. Definition
+
+We may sometimes want to show a most popular content from the database. To do that, we will use the action `"ShowDailyIdeas"`
+
+The client will sometimes want to show a card of content to the user. To do that, we can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`.
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowCards"` in a Step, then the client will show a card to the user. This card will come from WaveMining's database. It can be text, an image or a combination of an image + text.
+
+The writer should specify the following parameters in this card:
+- the `"Type"` of content. We have three choices here
+    a. It can be `"TextImage"`, i.e. a combination of text + image
+    b. It can be `"Text"` alone if we want a card with a text only
+    c. It can be `"Gif"` alone if we want a card with a gif only
+
+###### 2. Client integration
+
+The client will need to use WaveMining's relevant APIs to use this feature.
+
+###### 3. Within a sequence
+
+The `"ShowCards"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+
+###### 4. Example
+
+Example 1 - calling for a card made of text + image
+
+    ...
+      "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ShowTrendingContent",
+              "Parameters":
+                  "Type": "TextImage",
+
+}
+        ]
+
+Example 2 - calling for a card made of text only
+
+    ...
+      "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ShowTrendingContent",
+              "Parameters":
+                  "Type": "Text",
+            }
+        ]
+
+Example 3 - calling for a card made of 1 image only
+
+    ...
+      "Steps": [
+            {
+              "Type": "Action",
+              "Name": "ShowTrendingContent",
+              "Parameters":
+                  "Type": "Gif",
+            }
+        ]
+
+
 
 _______________________
-## "ShowTrendingGif"
+## "ShowTrendingContentWithMenu"
 
-_______________________
-## "ShowTrendingMessages"
+
+
+
+
 
 _______________________
 ## "ShowOtherCommands"
