@@ -5,16 +5,16 @@ Actions trigger the use of external resources or services in or outside the bot.
 _______________________
 ## "EmbedLink"
 
-###### 1. Definition
+##### 1. Definition
 
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "EmbedLink"` in a Step, then the client will embed a link in whatever label is inserted. When the user will click on this label, he/she will be redirected to the web page/app 
 The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
 
-###### 2. Client integration
+##### 2. Client integration
 
 No pre-requirements.
 
-###### 3. Within a sequence
+##### 3. Within a sequence
 
 The `"EmbedLink"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 ##### **VERY IMPORTANT**: 
@@ -25,7 +25,7 @@ The writer will need to provide:
 - a link
 - a label, with localized versions if necessary
 
-###### 4. Example
+##### 4. Example
     ...
       "Steps": [
             {
