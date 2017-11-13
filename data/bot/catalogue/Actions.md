@@ -282,7 +282,7 @@ Example 3 - calling for a card made of 1 image only
             }
         ]
 
-Example 4 - calling for a card made of 1 image only
+Example 4 - calling for a card made of 1 GIF only
 
     ...
       "Steps": [
