@@ -157,11 +157,9 @@ _______________________
 
 ###### 1. Definition
 
-The client will sometimes want to show a card of content to the user. To do that, we can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`.
+The client will sometimes want to show a card of content to the user. To do that, we can use the action `"ShowCards"` to display a card made of some text, an image, a gif or text + image. 
 
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowCards"` in a Step, then the client will show a card to the user. This card will come from WaveMining's database. It can be text, an image or a combination of an image + text.
-
-The writer should specify the following parameters in this card:
+When using the action `"ShowCards"`, the writer should specify (in the `"Parameters"`):
 - the `"Type"` of content. We have four choices here
     a. It can be `"TextImage"`, i.e. a combination of text + image
     b. It can be `"Text"` alone if we want a card with a text only
@@ -238,13 +236,12 @@ _______________________
 
 ###### 1. Definition
 
-The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one very important difference: 
-- the client will show a predefined menu after the card is displayed
+The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one very important difference: the client will show a predefined menu after the card is displayed
 - in this case, the menu has four options: "Send", "One More", "Menu", "Talk to me"
 - as a consequence, the sequence should be finished after we use this action
 - since the sequence opens up another menu, the master file will be exited until the user selects "Talk to me" or returns to the bot after exiting the app 
 
-**Please refer to the section on `"ShowCards"` - definition** if you want to understand the functionning of this action
+**Please refer to the section on `"ShowCards"` - definition** if you want to understand the basic logic of this action
 
 ###### 2. Client integration
 
@@ -255,7 +252,7 @@ The client will need to use WaveMining's relevant APIs to use this feature.
 The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 ##### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
-- as the client reads the steps from top to bottom, this `"ShowCardsWithMenu"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
+- as the client reads the steps from top to bottom,  `"ShowCardsWithMenu"` step has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
 
 ###### 4. Example
 
@@ -278,14 +275,10 @@ _______________________
 
 ###### 1. Definition
 
-We may sometimes want to show a most popular content from the database. To do that, we will use the action `"ShowDailyIdeas"`
+We may sometimes want to show a most popular content from the database. To do that, we will use the action `"ShowTrendingContent"`.
 
-The client will sometimes want to show a card of content to the user. To do that, we can use the action `ShowCards` to show a card made of some text and an image. We can specify the category of the text and the image that we want to receive by detailing the `Intention` in the `Parameters`.
-
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowCards"` in a Step, then the client will show a card to the user. This card will come from WaveMining's database. It can be text, an image or a combination of an image + text.
-
-The writer should specify the following parameters in this card:
-- the `"Type"` of content. We have three choices here
+When using this `"ShowTrendingContent"`, the writer should specify the type of content he/she wants. 
+We have three choices of `"Type"`:
     a. It can be `"TextImage"`, i.e. a combination of text + image
     b. It can be `"Text"` alone if we want a card with a text only
     c. It can be `"Gif"` alone if we want a card with a gif only
@@ -310,7 +303,7 @@ Example 1 - calling for a card made of text + image
               "Parameters":
                   "Type": "TextImage",
 
-}
+            }
         ]
 
 Example 2 - calling for a card made of text only
@@ -338,14 +331,43 @@ Example 3 - calling for a card made of 1 image only
         ]
 
 
-
 _______________________
 ## "ShowTrendingContentWithMenu"
 
+###### 1. Definition
 
+The action `"ShowTrendingContentWithMenu"` works exactly as `"ShowTrendingContent"`, except for one very important difference: the client will show a predefined menu after the card is displayed
+- in this case, the menu has four options: "Send", "One More", "Menu", "Talk to me"
+- as a consequence, the sequence should be finished after we use this action
+- since the sequence opens up another menu, the master file will be exited until the user selects "Talk to me" or returns to the bot after exiting the app 
 
+**Please refer to the section on `"ShowTrendingContent"` - definition** if you want to understand the basic logic of this action
 
+###### 2. Client integration
 
+The client will need to use WaveMining's relevant APIs to use this feature.
+
+###### 3. Within a sequence
+
+The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+##### **VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, `"ShowTrendingContentWithMenu"` step has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
+
+###### 4. Example
+
+    ...
+      "Steps": [
+            {
+            ...
+            },
+            {
+              "Type": "Action",
+              "Name": "ShowTrendingContentWithMenu",
+              "Parameters":
+                  "Type": "TextImage",
+            }
+        ]
 
 _______________________
 ## "ShowOtherCommands"
