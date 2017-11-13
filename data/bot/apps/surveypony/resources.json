@@ -1,0 +1,597 @@
+{
+  "appName": "QuoteoBot",
+  "welcomeMessage": [
+    {
+      "key": "Message01",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Le meilleur de la vie se passe à dire “Il est trop tôt”, puis “Il est trop tard”."
+        },
+        {
+          "culture": "en-EN",
+          "value": "The best moments in life are spent saying, “It’s too soon“, and then “It’s too late“."
+        },
+        {
+          "culture": "es-ES",
+          "value": "Lo mejor de la vida se pasa diciendo “es demasiado pronto“, y después “es demasiado tarde“."
+        }
+      ]
+    },
+
+    {
+      "key": "Message02",
+      "labels": [
+        {
+          "culture": "fr-FR","value": "Qu'est-ce qui est important pour toi ?\nLa liberté ? La lucidité ? Les légumes ?\nJ'aimerais te connaître un peu !"
+        },
+        {
+          "culture": "en-EN", "value": "What's important for you?\nResilience? Responsibility? Raspberries?\nI would like to know you a bit!"
+        },
+        {
+          "culture": "es-ES","value": "¿Lo que es importante para usted?\nResiliencia? Responsabilidad? Patatas?\n¡Me gustaría conocerte un poco!"
+        }
+      ]
+    },
+    {
+      "key": "Message02Old",
+      "labels": [
+        {
+          "culture": "fr-FR","value": "Quel est le plus important ?\nLa liberté, la lucidité ou les légumes ?\nEvite les erreurs courantes !\nLes écrivains et les poètes disparus te guideront vers une vie meilleure !"
+        },
+        {
+          "culture": "en-EN", "value": "What is the most important?\nResilience, Responsibility or Raspberries? \nSteer clear of common mistakes! \nLet vanished writers and poets guide you towards a good life!"
+        },
+        {
+          "culture": "es-ES","value": "¿Cuál es el más importante?\nResiliencia, Responsabilidad o Patatas?\nEvite los errores comunes!\n¡Deja que los escritores y poetas desaparecidos te guíen hacia una buena vida!"
+        }
+      ]
+    }    
+  ],
+  "text": [
+    {
+      "key": "quotes",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Citations"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Quotes"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Citas"
+        }
+      ]
+    },
+    {
+      "key": "surveys",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Questionaire"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Surveys"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Enquestas"
+        }
+      ]
+    },
+    {
+      "key": "welcome",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bienvenue"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Welcome"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Bienvenidos"
+        }
+      ]
+    },
+    {
+      "key": "languagechanged",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "D'accord. Parlons français !"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Sure. Let's talk English!"
+        },
+        {
+          "culture": "es-ES",
+          "value": "El lenguaje de la conversación se ha cambiado a Español"
+        }
+      ]
+    },
+    {
+      "key": "ditnotgetthat",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je n'ai pas compris"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I did not get that"
+        },
+        {
+          "culture": "es-ES",
+          "value": "No entendí eso"
+        }
+      ]
+    },
+    {
+      "key": "showanother",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Une autre 😃"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Show Another 😃"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Otra 😃"
+        }
+      ]
+    },
+    {
+      "key": "talktome",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Parle-moi"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Talk to me"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Hablame"
+        }
+      ]
+    },
+    {
+      "key": "continue conversation",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Suite Conversation"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Continue Talking"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Seguir Hablando"
+        }
+      ]
+    },
+    {
+      "key": "errorMessageFromException",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bigre. Je n'arrive pas à comprendre :-("
+        },
+        {
+          "culture": "en-EN",
+          "value": "Oh no! I'm all confused!"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Lo siento, tengo problemas para entenderte. Vamos a intentarlo de nuevo."
+        }
+      ]
+    },
+     {
+      "key": "totalVoters",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{total} personnes ont voté"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{total} people voted"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{total} personas han votado"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgree",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{percentValue}% ont choisi comme toi"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{percentValue}% chose like you"
+        },
+        {
+          "culture": "es-ES",
+          "value": "el {percentValue}% han votado como tú"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeMen",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "hommes : {percentValue}%"
+        },
+        {
+          "culture": "en-EN",
+          "value": "men: {percentValue}%"
+        },
+        {
+          "culture": "es-ES",
+          "value": "hombres: {percentValue}%"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeWomen",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "femmes : {percentValue}%"
+        },
+        {
+          "culture": "en-EN",
+          "value": "women: {percentValue}%"
+        },
+        {
+          "culture": "es-ES",
+          "value": "mujeres: {percentValue}%"
+        }
+      ]
+    },
+    {
+      "key": "percentVotersAgreeCountry",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "{country} : {percentValue}%"
+        },
+        {
+          "culture": "en-EN",
+          "value": "{country}: {percentValue}%"
+        },
+        {
+          "culture": "es-ES",
+          "value": "{country}: {percentValue}%"
+        }
+      ]
+    },
+    
+    {
+      "key": "percentVotersAgreeLessThan40",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "moins de 40 ans : {percentValue}%"
+        },
+        {
+          "culture": "en-EN",
+          "value": "younger people: {percentValue}%"
+        },
+        {
+          "culture": "es-ES",
+          "value": "menores de 40 años: {percentValue}%"
+        }
+      ]
+    },
+    
+    {
+      "key": "percentVotersAgree40AndOver",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "40 ans et plus : {percentValue}%"
+        },
+        {
+          "culture": "en-EN",
+          "value": "people over 40: {percentValue}%"
+        },
+        {
+          "culture": "es-ES",
+          "value": "mayores de 40 años: {percentValue}%"
+        }
+      ]
+    }
+    
+  ],
+  "commands": [
+    {
+      "key": "imfeelinglucky",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "J'ai de la chance"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm feeling lucky"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Me siento afortunado"
+        }
+      ],
+      "alternates": [ "lucky", "tengo suerte", "chanceux", "chanceuse" ]
+    },
+    {
+      "key": "start",
+      "commandName":"StartConversationCommand",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Démarrer"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Start"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Empezar"
+        }
+      ],
+      "alternates": [ "hi", "hello", "bonjour", "ola", "start", "hola", "buenos dias" ]
+    }
+  ],
+  "intentions": [
+    {
+      "key": "03B6E4",
+      "slug": "I-am-here-for-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Réconforte-moi 🤗"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Comfort me 🤗"
+        },
+        {  
+          "culture": "es-ES",
+          "value": "Consolado 🤗"
+        }
+      ],
+      "alternates": [ "bof", "depressed", "sad", "triste", "deprimido", "deprimida", "déprime", "déprimé", "déprimée", "unhappy", "malheureux", "infeliz" ]
+    },
+    {
+      "key": "A64962",
+      "slug": "*",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Un mot pour moi 😺"
+        },
+        {
+          "culture": "en-EN",
+          "value": "A few words for me 😺"
+        },
+        {  
+          "culture": "es-ES",
+          "value": "Palabras para mi 😺"
+        }
+      ]
+    },
+    {
+      "key": "0ECC82",
+      "slug": "humorous-insults",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Grrrr 😈"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Let it out 😈"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy enojado 😈"
+        }
+        
+      ],
+      "alternates": [ "fun", "enojado", "énervé", "énervée", "angry", "enojada", "colère", "colere", "boude", "bouder", "grumpy", "fâché", "fâchée", "faché" ]
+    },
+    {
+      "key": "0B1EA1",
+      "slug": "jokes",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Fais-moi rire 😂"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Make me laugh 😂"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Hazme reír 😂"
+        }
+        
+      ],
+      "alternates": [ "laugh", "jokes", "rire", "blague", "reir", "drole", "drôle", "funny", "divertido", "gracioso", "lol", "lmao", "mdr", "joke", "humour", "humoroso" ]
+    },
+    {
+      "key": "2E2986",
+      "slug": "facebook-status",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Parle moi de toi 😉"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Tell me about you 😉"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Cuéntame de ti 😉"
+        }
+      ],
+      "alternates": [ "status", "statut", "statuto", "estado", "humeur", "mood" ]
+    },
+    {
+      "key": "43B296",
+      "slug": "poems",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Poèmes 💐"
+        },
+        {
+
+          "culture": "en-EN",
+          "value": "Poems 💐"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Poemas 💐"
+        }
+      ]
+    },
+    {
+      "key": "451563",
+      "slug": "stop-the-world",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Pourquoi? 🙁"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Why? 🙁"
+        },
+        {
+          "culture": "es-ES",
+          "value": "¿Por qué? 🙁"
+        }
+      ]
+
+    },
+    {
+      "key": "5CDCF2",
+      "slug": "I-love-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Je suis amoureux 💘"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I'm in love 💘"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Estoy enamorado 💘"
+        }
+      ],
+      "alternates": [ "love", "amour", "chérie", "amor", "enamorado", "enamorada", "chéri", "amoureux", "amoureuse", "amur", "lov", "luv", "querido", "querida", "novio", "novia" ]
+    },
+    {
+      "key": "67CC40",
+      "slug": "positive-thoughts",
+      "labels": [
+
+        {
+          "culture": "fr-FR",
+          "value": "Encourage-moi 🌻"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Encourage me 🌻"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Anímame 🌻"
+        }
+      ],
+      "alternates": [ "positive", "positivo", "luck", "positives", "positif", "chance", "positivas", "positiva", "suerte", "oportunidad" ]
+    },
+    {
+      "key": "8ED62C",
+      "slug": "I-miss-you",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Mon amour me manque💌"
+        },
+        {
+          "culture": "en-EN",
+          "value": "I miss my loved one💌"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Extraño a mi amor 💌"
+        }
+      ]
+    },
+    {
+      "key": "A730B4",
+      "slug": "happy-birthday",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bon anniversaire 🎈"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Birthday messages 🎈"
+        },
+        {
+          "culture": "es-ES",
+          "value": "Feliz cumpleaños 🎈"
+        }
+      ]
+    },
+    {
+      "key": "D392C1",
+      "slug": "good-night",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "Bonne nuit!🌜"
+        },
+        {
+          "culture": "en-EN",
+          "value": "Good night!🌜"
+        },
+        {
+          "culture": "es-ES",
+          "value": "¡Buenas noches!🌜"
+        }
+      ],
+      "alternates": [ "dormir", "sleep", "cama", "lit", "bed", "asleep", "durmiendo", "durmir", "dorme" ]
+    }
+  ]
+}
