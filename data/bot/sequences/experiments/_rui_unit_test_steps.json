@@ -25,11 +25,11 @@
       "Steps": [
         {
           "Type": "Text",
-              "Label": {
-                "en": "let's wait 4s",
-                "fr": "let's wait 4s",
-                "es": "let's wait 4s"
-              }
+          "Label": {
+            "en": "let's wait 4s",
+            "fr": "let's wait 4s",
+            "es": "let's wait 4s"
+          }
         },
         {
           "Type": "Pause",
@@ -40,11 +40,11 @@
         },
         {
           "Type": "Text",
-              "Label": {
-                "en": "ok after 4s",
-                "fr": "ok after 4s",
-                "es": "ok after 4s"
-              }
+          "Label": {
+            "en": "ok after 4s",
+            "fr": "ok after 4s",
+            "es": "ok after 4s"
+          }
         }
       ]
     },
@@ -61,16 +61,44 @@
         {
           "Type": "Pause",
           "Parameters": {
-           "Mode": "ConfirmContinuation"
+            "Mode": "ConfirmContinuation"
           }
         },
         {
           "Type": "Text",
-              "Label": {
-                "en": "ok after confirmation",
-                "fr": "ok after confirmation",
-                "es": "ok after confirmation"
-              }
+          "Label": {
+            "en": "ok after confirmation",
+            "fr": "ok after confirmation",
+            "es": "ok after confirmation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "setUserProperty",
+      "CommandLabel": {
+        "en": "set user property",
+        "fr": "set user property",
+        "es": "set user property"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "40-64"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "ok after set user property",
+            "fr": "ok after set user property",
+            "es": "ok after set user property"
+          }
         }
       ]
     }
