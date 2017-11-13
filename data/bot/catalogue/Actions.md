@@ -8,10 +8,7 @@ _______________________
 ###### 1. Definition
 
 `"CreateAnimatedEmoji"` is an action specific to the Android and iOS clients for the WaveMining apps.
-
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "CreateAnimatedEmoji"` in a Step, then the client will redirect the User to the Create Animated Emoji feature.
-
-The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "CreateAnimatedEmoji"` in a Step, then the client will redirect the User to the Create Animated Emoji feature. The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
 
 ###### 2. Client integration
 
@@ -26,7 +23,6 @@ The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in l
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
 ###### 4. Example
-
     ...
       "Steps": [
             {
@@ -37,7 +33,6 @@ The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in l
               "Name": "CreateAnimatedEmoji"
             }
         ]
-
 _______________________
 ## "EmbedLink"
 
