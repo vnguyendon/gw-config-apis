@@ -17,7 +17,7 @@ No pre-requirements.
 #### 3. Within a sequence
 
 The `"EmbedLink"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-#### **VERY IMPORTANT**: 
+##### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
