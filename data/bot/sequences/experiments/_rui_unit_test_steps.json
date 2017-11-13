@@ -24,6 +24,14 @@
       },
       "Steps": [
         {
+          "Type": "Text",
+              "Label": {
+                "en": "let's wait 4s",
+                "fr": "let's wait 4s",
+                "es": "let's wait 4s"
+              }
+        },
+        {
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
@@ -36,6 +44,32 @@
                 "en": "ok after 4s",
                 "fr": "ok after 4s",
                 "es": "ok after 4s"
+              }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "pauseConfirmContinuation",
+      "CommandLabel": {
+        "en": "Pause : confirm",
+        "fr": "Pause : confirm",
+        "es": "Pause : confirm"
+      },
+      "Steps": [
+        {
+          "Type": "Pause",
+          "Parameters": {
+           "Mode": "ConfirmContinuation"
+          }
+        },
+        {
+          "Type": "Text",
+              "Label": {
+                "en": "ok after confirmation",
+                "fr": "ok after confirmation",
+                "es": "ok after confirmation"
               }
         }
       ]
