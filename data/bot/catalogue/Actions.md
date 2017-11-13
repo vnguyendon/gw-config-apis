@@ -17,7 +17,6 @@ Only the iOS and Android clients can parse this value and integrate the feature 
 ###### 3. Within a sequence
 
 The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-
 ##### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
@@ -39,7 +38,6 @@ _______________________
 ###### 1. Definition
 
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "EmbedLink"` in a Step, then the client will embed a link in whatever label is inserted. When the user will click on this label, he/she will be redirected to the web page/app 
-
 The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
 
 ###### 2. Client integration
@@ -49,7 +47,6 @@ No pre-requirements.
 ###### 3. Within a sequence
 
 The `"EmbedLink"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-
 ##### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
@@ -59,7 +56,6 @@ The writer will need to provide:
 - a label, with localized versions if necessary
 
 ###### 4. Example
-
     ...
       "Steps": [
             {
@@ -78,7 +74,6 @@ The writer will need to provide:
             }
         ]
 
-
 _______________________
 ## "MessagesByRecipient"
 
@@ -91,9 +86,7 @@ _______________________
 ###### 1. Definition
 
 `"SetReminder"` is an action specific to the Android and iOS clients for the WaveMining apps.
-
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "SetReminder"` in a Step, then the client will redirect the User to the SetReminder feature.
-
 The Set Reminder feature invites the user to set a reminder to send a message to someone. 
 
 ###### 2. Client integration
@@ -240,6 +233,45 @@ Example 4 - calling for a card made of 1 image only
         ]
 
 
+_______________________
+## "ShowCardsWithMenu"
+
+###### 1. Definition
+
+The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one very important difference: 
+- the client will show a predefined menu after the card is displayed
+- in this case, the menu has four options: "Send", "One More", "Menu", "Talk to me"
+- as a consequence, the sequence should be finished after we use this action
+- since the sequence opens up another menu, the master file will be exited until the user selects "Talk to me" or returns to the bot after exiting the app 
+
+**Please refer to the section on `"ShowCards"` - definition** if you want to understand the functionning of this action
+
+###### 2. Client integration
+
+The client will need to use WaveMining's relevant APIs to use this feature.
+
+###### 3. Within a sequence
+
+The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+##### **VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"ShowCardsWithMenu"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
+
+###### 4. Example
+
+    ...
+      "Steps": [
+            {
+            ...
+            },
+            {
+              "Type": "Action",
+              "Name": "ShowCardsWithMenu",
+              "Parameters":
+                  "Type": "TextImage",
+                  "Id": "43B296"
+            }
+        ]
 
 _______________________
 ## "ShowDailyIdeas"
@@ -259,7 +291,6 @@ _______________________
 ###### 1. Definition
 
 `"ShowUsers"` is an action specific to the Android and iOS clients for the WaveMining apps.
-
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "ShowUsers"` in a Step, then the client will show another user's profile in the chatbot feed and the conversation.
 
 ###### 2. Client integration
@@ -274,7 +305,6 @@ The `"ShowUsers"` action needs to be inserted inside a Step hash, in link with a
 - as the client reads the steps from top to bottom, this `"ShowUsers"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
 
 ###### 4. Example
-
     ...
       "Steps": [
             {
