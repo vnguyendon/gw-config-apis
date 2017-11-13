@@ -1,0 +1,44 @@
+{
+  "Type": "Node",
+  "Id": "testingSteps",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "choose step to test",
+        "fr": "choose step to test",
+        "es": "choose step to test"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "pauseWait4000ms",
+      "CommandLabel": {
+        "en": "Pause : wait 4000 ms",
+        "fr": "Pause : wait 4000 ms",
+        "es": "Pause : wait 4000 ms"
+      },
+      "Steps": [
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Text",
+              "Label": {
+                "en": "ok after 4s",
+                "fr": "ok after 4s",
+                "es": "ok after 4s"
+              }
+        }
+      ]
+    }
+  ]
+}
