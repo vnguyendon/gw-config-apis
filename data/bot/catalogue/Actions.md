@@ -3,36 +3,6 @@
 Actions trigger the use of external resources or services in or outside the bot. We will here list the most popular actions and the way they can be used.
 
 _______________________
-## "CreateAnimatedEmoji
-
-###### 1. Definition
-
-`"CreateAnimatedEmoji"` is an action specific to the Android and iOS clients for the WaveMining apps.
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "CreateAnimatedEmoji"` in a Step, then the client will redirect the User to the Create Animated Emoji feature. The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
-
-###### 2. Client integration
-
-Only the iOS and Android clients can parse this value and integrate the feature it triggers.
-
-###### 3. Within a sequence
-
-The `"CreateAnimatedEmoji"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-##### **VERY IMPORTANT**: 
-- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
-- as the client reads the steps from top to bottom, this `"CreateAnimatedEmoji"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
-
-###### 4. Example
-    ...
-      "Steps": [
-            {
-                ...
-            },
-            {
-              "Type": "Action",
-              "Name": "CreateAnimatedEmoji"
-            }
-        ]
-_______________________
 ## "EmbedLink"
 
 ###### 1. Definition
@@ -66,10 +36,10 @@ The writer will need to provide:
               "Name": "EmbedLink",
               "Parameters": {
                    "Path": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite&hl=en_GB",
-                    "Label": {
+                   "Label": {
                         "en": "Rate us on the Play Store",
                         "fr": "Notez-nous sur le Play Store"
-                    }
+                   }
               }
             }
         ]
@@ -78,7 +48,102 @@ _______________________
 ## "MessagesByRecipient"
 
 _______________________
-## "OpenTab"
+## "RedirectTo"
+
+###### 1. Definition
+
+`"RedirectTo"` is an action specific to the Android and iOS clients for the WaveMining apps. It allows the writer the client to redirect the user to another part of the app. 
+
+The writer will need to provide `"Paramaters"`: namely
+- a `"Type"` to identify in which part of the app we want the redirection to happen (Feature, Tab or Content category)
+- a `"Path"` to locate exactly where we want to send the user within this object
+
+There will be five possible `"Type"`:
+- `"Feature"`. Its `"Path"` values will include (but not limited to): "Recipients", "CreateAnimatedEmoji", "StickerPals", "TrendingMessages",...
+- `"Tab"`. Its `"Path"` values will include (but not limited to): "HelloHuggy", "SurveyBot", "Pairs", "UsefulMessages", "Recipients", "TrendingGifs", "Emoji", "DailyIdeas", "IThinkOfYou"...
+- categories of content: `"GifCategory"`, `"ThemeCategory"` or `"TextCategory"`. Their `"Path"` values will be the URL of the content page. Example: "/data/common/giphycontent/hungry.json" in the case of a `"GifCategory"` or "/themes/penguins/small" in the case of a `"ThemeCategory"`
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "RedirectTo"` in a Step, then the client will redirect the User to the Create Animated Emoji feature. The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+
+###### 2. Client integration
+
+Only the iOS and Android clients can parse this value and integrate the feature it triggers, as they involve a redirection to part of the apps.
+
+###### 3. Within a sequence
+
+The `"RedirectTo"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+##### **VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"RedirectTo"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
+
+###### 4. Examples
+
+Example 1 with a Tab redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "Tab",
+                  "Path": "UsefulMessages"
+            }
+        ]
+
+Example 2 with a Feature redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "Feature",
+                  "Path": "CreateAnimatedEmoji"
+            }
+        ]
+
+
+Example 3 with a Content redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "ThemeCategory",
+                  "Path": "/themes/emoticons/small"
+            }
+        ]
+
+
+Example 4 with a Content redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "GifCategory",
+                  "Path": "/data/common/giphycontent/bored.json"
+            }
+        ]
+
 
 _______________________
 ## "SetReminder"
@@ -291,7 +356,7 @@ The client will need to use WaveMining's relevant APIs to use this feature.
 
 The `"ShowCards"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 
-###### 4. Example
+###### 4. Examples
 
 Example 1 - calling for a card made of text + image
 
