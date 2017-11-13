@@ -2,15 +2,16 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-       { "order" :  5, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
-       { "order" : 10, "file": "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"},
-       { "order" : 30, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"},
-       { "order" : 20, "file": "/data/bot/sequences/experiments/CatsOrDogsV5.json"},
-       { "order" : 40, "file": "/data/bot/sequences/experiments/FarneIslandsV5.json"},
-       { "order" : 50, "file": "/data/bot/sequences/experiments/GlobalWarmingV5.json"},
-       { "order" : 60, "file": "/data/bot/sequences/experiments/SherlockGoesCampingV5.json"},
-       { "order" : 70, "file": "/data/bot/sequences/experiments/WouldYouLikeToFeelZen-Testing.json"},
-       { "order" : 80, "file": "/data/bot/sequences/experiments/ppDecisionsAriseFromV5.json"}
+       { "order" : 20, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
+       { "order" :  50, "file":"/data/bot/sequences/experiments/HowAreYou.json"},
+       { "order" : 100, "file": "/data/bot/sequences/experiments/AllMediaSergey-MediaPreference.json"},
+       { "order" : 300, "file": "/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"},
+       { "order" : 200, "file": "/data/bot/sequences/experiments/CatsOrDogsV5.json"},
+       { "order" : 400, "file": "/data/bot/sequences/experiments/FarneIslandsV5.json"},
+       { "order" : 500, "file": "/data/bot/sequences/experiments/GlobalWarmingV5.json"},
+       { "order" : 600, "file": "/data/bot/sequences/experiments/SherlockGoesCampingV5.json"},
+       { "order" : 700, "file": "/data/bot/sequences/experiments/WouldYouLikeToFeelZen-Testing.json"},
+       { "order" : 800, "file": "/data/bot/sequences/experiments/ppDecisionsAriseFromV5.json"}
     ]
   }
 ]
