@@ -32,7 +32,7 @@
       ]
     },
     {
-      "Type": "DoNothing",
+      "Type": "Leaf",
       "Id": "DontWantCuteKitten",
       "ElementValue": "0",
       "CommandLabel": {
