@@ -1,0 +1,54 @@
+{
+  "Type": "Node",
+  "Id": "DoYouWantAKittenGif",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like me to show you kittens 😀?",
+        "fr": "Tu veux que je te montre un chaton trop mignon ? 😀",
+        "es": "¿Puedo mostrarte un gatito bonito? 😀"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesCuteKitten",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FRg1FUARsn96"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "DoNothing",
+      "Id": "DontWantCuteKitten",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "d78vbBA54uHFS"
+          }
+        }
+      ]
+    }
+  ]
+}
