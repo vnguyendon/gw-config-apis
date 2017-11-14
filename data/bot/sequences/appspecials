@@ -1,0 +1,42 @@
+{
+  "Type": "Node",
+  "Id": "CreateAnimatedEmoji",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like to created an animated emoji?",
+        "fr": "Veux-tu créer un emoji animé ?",
+        "es": "¿Te gustaría crear un emoji animado?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AnimatedEmojiYes",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "CreateAnimatedEmoji"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AnimatedEmojiNo",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
