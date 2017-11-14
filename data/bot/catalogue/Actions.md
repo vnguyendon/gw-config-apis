@@ -45,11 +45,6 @@ The writer will need to provide:
         ]
 
 _______________________
-## "MessagesByRecipient"
-
- 006
-
-_______________________
 ## "RedirectTo"
 
 #### 1. Definition
@@ -65,7 +60,11 @@ There will be five possible `"Type"`:
 - `"Tab"`. Its `"Path"` values will include (but not limited to): "HelloHuggy", "SurveyBot", "Pairs", "UsefulMessages", "Recipients", "TrendingGifs", "Emoji", "DailyIdeas", "IThinkOfYou"...
 - categories of content: `"GifCategory"`, `"ThemeCategory"` or `"TextCategory"`. Their `"Path"` values will be the URL of the content page. Example: "/data/common/giphycontent/hungry.json" in the case of a `"GifCategory"` or "/themes/penguins/small" in the case of a `"ThemeCategory"`
 
-When the property/value pair `"Type: "Action"` is triggered along the `"Name: "RedirectTo"` in a Step, then the client will redirect the User to the Create Animated Emoji feature. The Create Animated Emoji feature invites the user to create a small gif composed of a suite of gifs.
+BEWARE: the difference between Feature and Tab can sometimes be very fine. One tab can be comprised of only one feature. Make surer the client knows explicitely what you are refering to.
+
+As a rule, when I am redirected to a Feature, I should be able to complete the user journey in this feature and then land back on the bot. 
+On the contrary, when I am redirected to a tab and I complete the user journey through this tab, I will land back in this tab.
+
 
 #### 2. Client integration
 
@@ -162,6 +161,21 @@ Example 5 with a Tab redirection:
             }
         ]
 
+Example 6 with a Tab redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "Feature",
+                  "Path": "MessageByRecipients"
+            }
+        ]
 
 _______________________
 ## "SetReminder"
