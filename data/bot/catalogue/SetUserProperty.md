@@ -9,7 +9,7 @@
 
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "SetUserProperty"`, we can set a property for the user's relationship status. That can then be used to personalize the experience in the app or in the bot.
 
-To set this user property, we need to send the relevant parameters to the server. For that, we will use the `"Property": "ppSingle"` and the `"Value": "yes"` or `"no"`, depending on the answer 
+To set this user property, we need to send the relevant parameters to the server. For that, we will use the `"Property": "ppSingle"` and the `"Value": "true"` or `"false"`, depending on the answer 
 
 ###### 2. Client integration
 
@@ -32,7 +32,7 @@ This `"SetUserProperty"` action needs to be inserted inside a Step hash, in link
               "Name": "SetUserProperty",
               "Parameters": {
                    "Property": "ppSingle",
-                   "Value": "Yes"
+                   "Value": "true"
               }
             }
         ]
