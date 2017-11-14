@@ -165,22 +165,6 @@ Example 5 with a Tab redirection:
             }
         ]
 
-Example 6 with a Tab redirection:
-
-    ...
-      "Steps": [
-            {
-                ...
-            },
-            {
-              "Type": "Action",
-              "Name": "RedirectTo"
-              "Parameters":
-                  "Type": "Feature",
-                  "Path": "MessageByRecipients"
-            }
-        ]
-
 _______________________
 ## "SetReminder"
 
@@ -250,10 +234,7 @@ IMPORTANT: we should preferably ask the user's consent before showing an ad, or 
             },
             {
               "Type": "Action",
-              "Name": "ShowAdvert",
-              "Parameters":
-                  "Provider": "Facebook",
-                  "ID": "1727516507493157_1972147769696695"
+              "Name": "ShowAdvert"
             }
         ]
 
