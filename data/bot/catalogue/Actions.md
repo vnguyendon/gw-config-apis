@@ -47,6 +47,8 @@ The writer will need to provide:
 _______________________
 ## "MessagesByRecipient"
 
+ 006
+
 _______________________
 ## "RedirectTo"
 
@@ -141,6 +143,22 @@ Example 4 with a Content redirection:
               "Parameters":
                   "Type": "GifCategory",
                   "Path": "/data/common/giphycontent/bored.json"
+            }
+        ]
+
+Example 5 with a Tab redirection:
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo"
+              "Parameters":
+                  "Type": "Tab",
+                  "Path": "Recipients"
             }
         ]
 
