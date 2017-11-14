@@ -5,6 +5,8 @@ Actions trigger the use of external resources or services in or outside the bot.
 _______________________
 ## "EmbedLink"
 
+Action: as a user, I will redirected to a webpage or an app when I click on the weblink on the text that appears in the chatbot feed.
+
 #### 1. Definition
 
 When the property/value pair `"Type: "Action"` is triggered along the `"Name: "EmbedLink"` in a Step, then the client will embed a link in whatever label is inserted. When the user will click on this label, he/she will be redirected to the web page/app 
@@ -46,6 +48,8 @@ The writer will need to provide:
 
 _______________________
 ## "RedirectTo"
+
+Action: as a user, I will be redirected to another part of the app.
 
 #### 1. Definition
 
@@ -180,6 +184,8 @@ Example 6 with a Tab redirection:
 _______________________
 ## "SetReminder"
 
+Action: as a user, I will have the opportunity to set a reminder. I will then receive a notification when the time comes.
+
 #### 1. Definition
 
 `"SetReminder"` is an action specific to the Android and iOS clients for the WaveMining apps.
@@ -212,6 +218,8 @@ The `"SetReminder"` action needs to be inserted inside a Step hash, in link with
 
 _______________________
 ## "ShowAdvert"
+
+Action: as a user, I will see an advert (interstitial).
 
 #### 1. Definition
 
@@ -251,6 +259,8 @@ IMPORTANT: we should preferably ask the user's consent before showing an ad, or 
 
 _______________________
 ## "ShowCards"
+
+Action: as a user, I will see a card of content (Gif, text, image, text+image)
 
 #### 1. Definition
 
@@ -331,6 +341,8 @@ Example 4 - calling for a card made of 1 GIF only
 _______________________
 ## "ShowCardsWithMenu"
 
+Action: as a user, I will see a card of content (Gif, text, image, text+image) and a set of commands associated with this card.
+
 #### 1. Definition
 
 The action `"ShowCardsWithMenu"` works exactly as `"ShowCards"`, except for one very important difference: the client will show a predefined menu after the card is displayed
@@ -369,6 +381,8 @@ The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in lin
 
 _______________________
 ## "ShowTrendingContent"
+
+Action: as a user, I will see a card with a popular or trendy content (Gif, text, image, text+image). 
 
 #### 1. Definition
 
@@ -431,6 +445,8 @@ Example 3 - calling for a card made of 1 image only
 _______________________
 ## "ShowTrendingContentWithMenu"
 
+Action: as a user, I will see a card with a popular or trendy content (Gif, text, image, text+image) and a set of commands associated with this card.
+
 #### 1. Definition
 
 The action `"ShowTrendingContentWithMenu"` works exactly as `"ShowTrendingContent"`, except for one very important difference: the client will show a predefined menu after the card is displayed
@@ -468,6 +484,8 @@ The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step ha
 
 _______________________
 ## "ShowUsers"
+
+Action: as a user, I will see a card with a user picture and a set of specific commands.
 
 #### 1. Definition
 
