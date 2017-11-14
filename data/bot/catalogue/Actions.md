@@ -447,7 +447,7 @@ The client will need to use WaveMining's relevant APIs to use this feature.
 #### 3. Within a sequence
 
 The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
-####### **VERY IMPORTANT**: 
+###### **VERY IMPORTANT**: 
 - since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
 - as the client reads the steps from top to bottom, `"ShowTrendingContentWithMenu"` step has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user.
 
