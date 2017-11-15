@@ -1,0 +1,151 @@
+{
+  "Type": "Node",
+  "Id": "Stars",
+  "Steps": [
+    {
+      "en": "How many stars would you rate us?",
+      "fr": "Combien d'étoiles nous noterais-tu?",
+      "es": "¿Qué nota nos darías?"
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FiveStars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "⭐⭐⭐⭐⭐",
+        "fr": "⭐⭐⭐⭐⭐",
+        "es": "⭐⭐⭐⭐⭐"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohzdQoCngNoESFV28"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RateStore",
+        "Steps": [
+          {
+            "en": "Great, thanks! Please rate us on the store!",
+            "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
+            "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "StoreYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Si"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "yoJC2El7xJkYCadlWE"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "EmbedLink",
+                "Parameters": {
+                  "Path": "custom",
+                  "Label": {
+                    "en": "You can rate us here",
+                    "fr": "Vous pouvez nous noter ici",
+                    "es": "TBD"
+                  }
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "StoreNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No"
+            },
+            "Steps": []
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FourStars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "⭐⭐⭐⭐",
+        "fr": "⭐⭐⭐⭐",
+        "es": "⭐⭐⭐⭐"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2R0eYcNq9rJUsVAA"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ThreeStars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "⭐⭐⭐",
+        "fr": "⭐⭐⭐",
+        "es": "⭐⭐⭐"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "1009wQ2WcsEmBO"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LessThreeStars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Less than ⭐⭐⭐",
+        "fr": "Moins de ⭐⭐⭐",
+        "es": "Menos de ⭐⭐⭐"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9Y5BbDSkSTiY8"
+          }
+        }
+      ]
+    }
+  ]
+}
