@@ -24,7 +24,7 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "StepValue": "1",
+            "ElementValue": "1",
             "Id": "DecisionsAriseFromFeelings",
             "CommandLabel": {
                 "en": "Your values and feelings",
@@ -53,7 +53,7 @@
         },
         {
             "Type": "Leaf",
-            "StepValue": "1",
+            "ElementValue": "1",
             "Id": "DecisionsAriseFromThinking",
             "CommandLabel": {
                 "en": "Rational thinking",
