@@ -4,7 +4,6 @@
     "Steps": [
         {
             "Type": "Image",
-            "Id": "10",
             "Parameters": {
                 "Source": "Internal",
                 "Path": "/themes/emoticons/small/000073674269.jpg"
@@ -12,7 +11,6 @@
         },
         {
             "Type": "Text",
-            "Id": "20",
             "Label": {
                 "en": "(3/4) Your decisions arise from",
                 "fr": "(3/4) Vos décisions sont guidées par",
@@ -34,7 +32,6 @@
             "Steps": [
                 {
                     "Type": "AnimatedGif",
-                    "Id": "10",
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "pYCZPDymIVjeo"
@@ -42,7 +39,6 @@
                 },
                 {
                     "Type": "Action",
-                    "Id": "20",
                     "Name": "SetUserProperty",
                     "Parameters": {
                         "property": "ppDecisionsAriseFrom",
@@ -63,7 +59,6 @@
             "Steps": [
                 {
                     "Type": "AnimatedGif",
-                    "Id": "10",
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "a5viI92PAF89q"
@@ -71,7 +66,6 @@
                 },
                 {
                     "Type": "Action",
-                    "Id": "20",
                     "Name": "SetUserProperty",
                     "Parameters": {
                         "property":"ppDecisionsAriseFrom",
