@@ -41,8 +41,8 @@
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
-            "property": "ppDecisionsAriseFrom",
-            "value": "Feelings"
+            "property": "ppEnergeticAfter",
+            "value": "WithPeople"
           }
         }
       ]
@@ -68,8 +68,8 @@
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
-            "property": "ppDecisionsAriseFrom",
-            "value": "Thinking"
+            "property": "ppEnergeticAfter",
+            "value": "OnYourOwn"
           }
         }
       ]
