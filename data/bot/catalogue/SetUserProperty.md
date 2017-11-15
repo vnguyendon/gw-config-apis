@@ -31,8 +31,8 @@ This `"SetUserProperty"` action needs to be inserted inside a Step hash, in link
               "Type": "Action",
               "Name": "SetUserProperty",
               "Parameters": {
-                   "Property": "ppSingle",
-                   "Value": "true"
+                   "property": "ppSingle",
+                   "value": "true"
               }
             }
         ]
@@ -69,8 +69,8 @@ This `"SetUserProperty"` action needs to be inserted inside a Step hash, in link
               "Type": "Action",
               "Name": "SetUserProperty",
               "Parameters": {
-                   "Property": "ppReceptiveTo",
-                   "Value": "Ideas"
+                   "property": "ppReceptiveTo",
+                   "value": "Ideas"
               }
             }
         ]
@@ -83,8 +83,8 @@ Alternatively, if the user had answered `"Facts"`, we would have written:
               "Type": "Action",
               "Name": "SetUserProperty",
               "Parameters": {
-                   "Property": "ppReceptiveTo",
-                   "Value": "Facts"
+                   "property": "ppReceptiveTo",
+                   "value": "Facts"
               }
             }
         ]
