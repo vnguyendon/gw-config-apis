@@ -1,0 +1,153 @@
+{
+  "Type": "Node",
+  "Id": "WhichMessagesDoYouSend",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which kind of messages do you usually send?",
+        "fr": "Quel genre de messages préfères-tu envoyer ?",
+        "es": "¿Qué tipo de mensajes prefieres enviar?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ILoveYou",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I love you",
+        "fr": "Je t'aime",
+        "es": "Te quiero"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEhmDMA4r9GxhwEqA"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Some emotions are better expressed with gifs 😉",
+            "fr": "C'est parfois plus facile d'exprimer ses émotions avec des gifs 😉",
+            "es": "Puede ser más fácil expresar sus emociones con gifs 😉"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IAmHungry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I'm hungry",
+        "fr": "J'ai faim",
+        "es": "Tengo hambre"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11NLstLWNHhNC0"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Some emotions are better expressed with gifs 😉",
+            "fr": "C'est parfois plus facile d'exprimer ses émotions avec des gifs 😉",
+            "es": "Puede ser más fácil expresar sus emociones con gifs 😉"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "YoureTheBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "You're the best",
+        "fr": "Tu es incroyable",
+        "es": "Eres increíble"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "sIV0wFDrsKNxe"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Some emotions are better expressed with gifs 😉",
+            "fr": "C'est parfois plus facile d'exprimer ses émotions avec des gifs 😉",
+            "es": "Puede ser más fácil expresar sus emociones con gifs 😉"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IAmTheBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I'm the best",
+        "fr": "Je suis le meilleur",
+        "es": "Soy el mejor"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "sgswHaZw5yklq"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Some emotions are better expressed with gifs 😉",
+            "fr": "C'est parfois plus facile d'exprimer ses émotions avec des gifs 😉",
+            "es": "Puede ser más fácil expresar sus emociones con gifs 😉"
+          }
+        }
+      ]
+    }
+  ]
+}

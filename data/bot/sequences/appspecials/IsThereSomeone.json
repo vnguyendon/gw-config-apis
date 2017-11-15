@@ -1,0 +1,221 @@
+{
+  "Type": "Node",
+  "Id": "IsThereSomeone",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is there someone more important for you than anyone else?",
+        "fr": "Est-ce qu'il y a une personne spéciale à tes yeux ?",
+        "es": "¿Hay una persona más importante para ti que todas las demás?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesThereIsSomeone",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatWouldYouTellHer",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And what would you like to tell this person right now?",
+              "fr": "Et qu'aimerais-tu dire à cette personne, là, maintenant ?",
+              "es": "¿Y qué querrías decir a esta persona, aquí y ahora?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "GoodMorning",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Good morning",
+              "fr": "Bonjour",
+              "es": "Buenos días"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "030FD0"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HowAreYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "How are you?",
+              "fr": "Comment vas-tu ?",
+              "es": "¿Cómo estás?"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "950C3C"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ILoveYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I love you",
+              "fr": "Je t'aime",
+              "es": "Te quiero"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "5CDCF2"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "IMissYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I miss you",
+              "fr": "Tu me manques",
+              "es": "Te extraño"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "8ED62C"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "IThinkOfYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I think of you",
+              "fr": "Je pense à toi",
+              "es": "Pienso en ti"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "016E91"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "GoodNight",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Good night",
+              "fr": "Bonne nuit",
+              "es": "Buenas noches"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Intention",
+                  "Id": "D392C1"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m sure this 'special someone' will be happy to receive such a message!",
+                  "fr": "Je suis sûr que ce message lui fera plaisir !",
+                  "es": "¡Estoy seguro de que este mensaje va a agradarlo!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoThereIsntSomeone",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
