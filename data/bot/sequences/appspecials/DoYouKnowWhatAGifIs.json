@@ -1,0 +1,124 @@
+{
+  "Type": "Node",
+  "Id": "DoYouKnowWhatAGifIs",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you know what a 'gif' is?",
+        "fr": "Sais-tu ce qu'est un \"gif\" ?",
+        "es": "¿Sabes lo que es un 'gif'?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesIknow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Here is one of my favorites:",
+            "fr": "Voici l'un de mes préférés :",
+            "es": "Aquí tienes uno de mis favoritos:"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "C9AuY1VOvurxm"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "There are plenty of them in this app!",
+            "fr": "Il y en a plein dans cette application !",
+            "es": "¡Hay muchos otros en esta aplicación!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And you can easily send them to your friends or family 🙂",
+            "fr": "Et tu peux facilement les envoyer à tes amis et à ta famille 🙂",
+            "es": "Y puedes facilmente enviarlos a tus amigos y tu familia 🙂"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoIDontKnow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s a kind of short video, like this:",
+            "fr": "C'est une espère de petite vidéo, comme ceci :",
+            "es": "Es una forma de breve video, como eso:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "bm5ogvN102mJO"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "There are plenty of them in this app!",
+            "fr": "Il y en a plein dans cette application !",
+            "es": "¡Hay muchos otros en esta aplicación!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And you can easily send them to your friends or family 🙂",
+            "fr": "Et tu peux facilement les envoyer à tes amis et à ta famille 🙂",
+            "es": "Y puedes facilmente enviarlos a tus amigos y tu familia 🙂"
+          }
+        }
+      ]
+    }
+  ]
+}
