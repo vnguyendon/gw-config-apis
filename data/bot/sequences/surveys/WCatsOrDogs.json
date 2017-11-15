@@ -51,7 +51,7 @@
             "en": "Dogs have masters. Cats have staff.",
             "fr": "Les chiens ont des maîtres. Les chats ont du personnel.",
             "es": "Los perros tienen amos. Los gatos tienen personal."
-          },
+          }
         },
         {
           "Type": "Pause",
@@ -107,7 +107,7 @@
             "en": "Be the person your dog thinks you are.",
             "fr": "Sois la personne que ton chien pense que tu es.",
             "es": "Sé la persona que tu perro piensa que eres."
-          },
+          }
         },
         {
           "Type": "Pause",
