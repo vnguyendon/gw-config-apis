@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "ppOpenedOrSettled",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000073674269.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "(4/4) You feel better when things are",
+        "fr": "(4/4) Vous préférez que les choses soient",
+        "es": "(4/4) Usted prefiere que las cosas sean"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsSettled",
+      "CommandLabel": {
+        "en": "Settled, decided",
+        "fr": "Tranchées, décidées",
+        "es": "Cortadas, decididas"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26vUNhQzmhMtArwC4"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppOpenedOrSettled",
+            "value": "Settled"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsOpened",
+      "CommandLabel": {
+        "en": "Interpretable, evolving",
+        "fr": "Interprétables, évolutives",
+        "es": "Interpretables, evolutivas"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lELRD773cY7Sg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppOpenedOrSettled",
+            "value": "Opened"
+          }
+        }
+      ]
+    }
+  ]
+}
