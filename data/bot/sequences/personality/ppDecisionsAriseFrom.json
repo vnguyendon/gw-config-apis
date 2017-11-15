@@ -1,78 +1,78 @@
 {
-    "Type": "Node",
-    "Id": "ppDecisionsAriseFrom",
-    "Steps": [
+  "Type": "Node",
+  "Id": "ppDecisionsAriseFrom",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000073674269.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "(3/4) Your decisions arise from",
+        "fr": "(3/4) Vos décisions sont guidées par",
+        "es": "(3/4) Sus decisiones están guiadas por"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "DecisionsAriseFromFeelings",
+      "CommandLabel": {
+        "en": "Your values and feelings",
+        "fr": "Vos valeurs, vos sentiments",
+        "es": "Sus valores, sus sentimientos"
+      },
+      "Steps": [
         {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Internal",
-                "Path": "/themes/emoticons/small/000073674269.jpg"
-            }
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "pYCZPDymIVjeo"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "(3/4) Your decisions arise from",
-                "fr": "(3/4) Vos décisions sont guidées par",
-                "es": "(3/4) Sus decisiones están guiadas por"
-            }
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Feelings"
+          }
         }
-    ],
-    "Randomize": "True",
-    "Commands": [
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "DecisionsAriseFromThinking",
+      "CommandLabel": {
+        "en": "Rational thinking",
+        "fr": "Des raisonnements logiques",
+        "es": "Razonamientos lógicos"
+      },
+      "Steps": [
         {
-            "Type": "Leaf",
-            "ElementValue": "1",
-            "Id": "DecisionsAriseFromFeelings",
-            "CommandLabel": {
-                "en": "Your values and feelings",
-                "fr": "Vos valeurs, vos sentiments",
-                "es": "Sus valores, sus sentimientos"
-            },
-            "Steps": [
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "pYCZPDymIVjeo"
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                        "property": "ppDecisionsAriseFrom",
-                        "value": "Feelings"
-                    }
-                }
-            ]
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "a5viI92PAF89q"
+          }
         },
         {
-            "Type": "Leaf",
-            "ElementValue": "1",
-            "Id": "DecisionsAriseFromThinking",
-            "CommandLabel": {
-                "en": "Rational thinking",
-                "fr": "Des raisonnements logiques",
-                "es": "Razonamientos lógicos"
-            },
-            "Steps": [
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "a5viI92PAF89q"
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "SetUserProperty",
-                    "Parameters": {
-                        "property":"ppDecisionsAriseFrom",
-                        "value": "Thinking"
-                    }
-                }
-            ]
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Thinking"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
