@@ -1,0 +1,39 @@
+{
+  "Type": "Node",
+  "Id": "ShowAnAdvert",
+  "Steps": [
+    {
+      "en": "Can I please show you an advert?",
+      "fr": "Puis-je te montrer une pub ?",
+      "es": "¿Te gustaría ver un anuncio?"
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AdvertYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowAdvert"
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AdvertNo",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
