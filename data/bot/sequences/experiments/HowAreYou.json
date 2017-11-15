@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Hi! How are you feeling today?",
-        "fr": "Hello ! Comment ça va aujourd'hui ?",
-        "es": "¡Hola! ¿Cómo estás?"
+        "en": "How are you feeling today?",
+        "fr": "Comment ça va aujourd'hui ?",
+        "es": "¿Cómo estás?"
       }
     }
   ],
