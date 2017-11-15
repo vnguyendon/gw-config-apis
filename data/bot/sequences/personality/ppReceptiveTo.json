@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "ppReceptiveTo",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "themes/emoticons/small/000015195705.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"(2/4) You are more receptive to",
+        "fr":"(2/4) Vous êtes plus réceptif aux",
+        "es":"(2/4) Usted es más receptivo a"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsSettled",
+      "CommandLabel": {
+        "en":"theories, possibilities",
+        "fr":"théories, possibilités",
+        "es":"teorías, posibilidades"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TuQUMaAji7pkY"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppReceptiveTo",
+            "value": "Ideas"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "ReceptiveToFacts",
+      "CommandLabel": {
+        "en":"facts, reality",
+        "fr":"faits, à la réalité",
+        "es":"la realidad"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YLHwkqayc1j7a"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppReceptiveTo",
+            "value": "Facts"
+          }
+        }
+      ]
+    }
+  ]
+}
