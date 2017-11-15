@@ -1,0 +1,78 @@
+{
+  "Type": "Node",
+  "Id": "ppEnergeticAfter",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000073674269.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "(1/4) You feel more energetic after",
+        "fr": "(1/4) Vous avez plus d'énergie après avoir été",
+        "es": "(1/4) Su energía aumenta cuándo ha estado"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "StepValue": "1",
+      "Id": "EnergeticAfterWithPeople",
+      "CommandLabel": {
+        "en": "Being with people",
+        "fr": "Avec d'autres personnes",
+        "es": "Con otras personas"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41JIcNde564wLtPG"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Feelings"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "StepValue": "1",
+      "Id": "EnergeticAfterOnYourOwn",
+      "CommandLabel": {
+        "en": "Being on your own",
+        "fr": "Avec vous-même",
+        "es": "Con usted mismo"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "B51EAJ0Frooq4"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Thinking"
+          }
+        }
+      ]
+    }
+  ]
+}
