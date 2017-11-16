@@ -1,0 +1,28 @@
+
+## 1. What's new?
+
+We adopted a new organisation for storing our sequences on Github. 
+
+The sequences are now categorised by nature. We have now these folders:
+- appspecials: we store the sequences that can only be used in the apps, because they involve actions that only apps can perform
+- experiments: in this folder we store sequences that are under test or experiments. If you are testing a new sequence, that's where you should store it first.
+- masterfiles: that's where we should store all our masterfiles
+- nationaltrust: in this folder we store the sequences built around the theme nationaltrust
+- personality: here we store the personality profile questions
+- settings: this folder contains sequences that help the client set important user properties (ppSingle, location, age..)
+- smalltalk: this folder is the most basic folder. It includes the most common and regular sequences that aren't part of other folders
+- stories: this folder contains all the files that are identified as "Stories"
+- surveys: here we store all the "Survey" type of questions
+
+This organisation is not fixed and will evolve. When you start a new project (example: nationaltrust), please do not hesitate to create a new folder if you feel it would bring clarity to the organisation.
+BEWARE: once a folder is created, it cannot be removed, as some clients will perpetually use these files.
+
+## 2. Why was this change necessary?
+
+For two reasons:
+- each client having its own need, everyone would create its own folder and have its own implicit rules. This creates a mess very quickly, hence the need for a common basis in sequence organisation.
+- as any organisation tends towards entropy with time, it was time to set the rules for this new folder before we start using it
+
+## 3. Where can I see it in the documentation?
+
+Easy. You can see it in this folder: https://github.com/GhostWording/gw-config-apis/tree/master/data/bot/sequences
