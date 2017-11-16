@@ -31,7 +31,7 @@
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/stop-the-world/default/small/old-pier-000046445702_Medium.jpg"
+            "Path": "/specialoccasions/stop-the-world/default/small/old-pier-000046445702_Medium.jpg"
           }
         },
         {
@@ -58,7 +58,7 @@
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/stop-the-world/default/small/shutterstock_170463986.jpg"
+            "Path": "/specialoccasions/stop-the-world/default/small/shutterstock_170463986.jpg"
           }
         },
         {
