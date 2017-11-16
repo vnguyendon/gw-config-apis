@@ -1,0 +1,97 @@
+{
+  "Type": "Node",
+  "Id": "NationalTrustIsAlso",
+  "Comments": "first National Trust Sequence",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "\"The National Trust\" is also the name of...",
+        "fr": "\"The National Trust\" is also the name of...",
+        "es": "\"The National Trust\" is also the name of..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ARugbyTeam",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a rugby team",
+        "fr": "a rugby team",
+        "es": "a rugby team"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "A music band! They are from Chicago and play soul music 😉",
+            "fr": "A music band! They are from Chicago and play soul music 😉",
+            "es": "A music band! They are from Chicago and play soul music 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "R7nZ4hgQGBAgo"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AMusicBand",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a music band",
+        "fr": "a music band",
+        "es": "a music band"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "A music band! They are from Chicago and play soul music 😉",
+            "fr": "A music band! They are from Chicago and play soul music 😉",
+            "es": "A music band! They are from Chicago and play soul music 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "R7nZ4hgQGBAgo"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
