@@ -1,0 +1,212 @@
+{
+  "Type": "Node",
+  "Id": "GiantsCauseway",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever heard of the Giant’s Causeway?",
+        "fr": "Have you ever heard of the Giant’s Causeway?",
+        "es": "Have you ever heard of the Giant’s Causeway?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BeatrixPotterRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "yes",
+        "es": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So you may already know how beautiful this volcanic site is:",
+            "fr": "So you may already know how beautiful this volcanic site is:",
+            "es": "So you may already know how beautiful this volcanic site is:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪",
+            "fr": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪",
+            "es": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26BRzQS5HXcEWM7du"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!",
+            "fr": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!",
+            "es": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GiantsCausewayNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "no",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It's a volcanic site in Northern Ireland. It looks like this:",
+            "fr": "It's a volcanic site in Northern Ireland. It looks like this:",
+            "es": "It's a volcanic site in Northern Ireland. It looks like this:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/224566GiantsCauseway1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪",
+            "fr": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪",
+            "es": "According to legend, the Irish giant Finn MacCool was challenged to a fight by the Scottish giant Benandonner 💪"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26BRzQS5HXcEWM7du"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!",
+            "fr": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!",
+            "es": "Finn accepted the challenge and built the causeway across the North Channel so that the two giants could meet!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/739647GiantsCauseway2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
