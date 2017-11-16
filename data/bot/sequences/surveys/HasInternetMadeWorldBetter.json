@@ -31,7 +31,7 @@
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/good-morning/default/small/Landscape-with-Haystacks-and-Rianbow-000082917691_Medium.jpg"
+            "Path": "/specialoccasions/good-morning/default/small/Landscape-with-Haystacks-and-Rianbow-000082917691_Medium.jpg"
           }
         },
         {
@@ -58,7 +58,7 @@
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/I-miss-you/default/small/12524332_1679706095625404_4035020990383831343_n.jpg"
+            "Path": "/specialoccasions/I-miss-you/default/small/12524332_1679706095625404_4035020990383831343_n.jpg"
           }
         },
         {
