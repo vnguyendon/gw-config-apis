@@ -28,24 +28,6 @@
           "Name": "DoVote"
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "wjXtAL0Z3Ef3W"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "2020 will be coming soon! 🏅",
@@ -59,6 +41,10 @@
             "Source": "Giphy",
             "Path": "l1KtXmfi3EnjM5zpK"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
