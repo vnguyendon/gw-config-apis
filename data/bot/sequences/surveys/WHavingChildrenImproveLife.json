@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "yes",
         "fr": "oui",
-        "es": "si"
+        "es": "sí"
       },
       "Steps": [
         {
@@ -28,8 +28,12 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+          "Type": "Text",
+          "Label": {
+            "en": "\"I want my children to have all the things I could not afford. Then I want to move in with them.\" - Phyllis Diller",
+            "fr": "\"Quiero que mis hijos tengan todo aquello que yo nunca pude tener. Y después voy a vivir con ellos.\" - Phyllis Diller",
+            "es": "\"Je veux que mes enfants aient toutes les choses que je n’ai jamais pu avoir. Et ensuite, j'irai vivre avec eux.\" - Phyllis Diller"
+          }
         },
         {
           "Type": "Pause",
@@ -46,19 +50,8 @@
           }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "\"I want my children to have all the things I could not afford. Then I want to move in with them.\" - Phyllis Diller",
-            "fr": "\"Quiero que mis hijos tengan todo aquello que yo nunca pude tener. Y después voy a vivir con ellos.\" - Phyllis Diller",
-            "es": "\"Je veux que mes enfants aient toutes les choses que je n’ai jamais pu avoir. Et ensuite, j'irai vivre avec eux.\" - Phyllis Diller"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 3000
-          }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -75,17 +68,6 @@
         {
           "Type": "Action",
           "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
         },
         {
           "Type": "Text",
@@ -108,6 +90,10 @@
             "Source": "Giphy",
             "Path": "2C7o4KdNauZy"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     }
