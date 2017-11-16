@@ -1,0 +1,100 @@
+{
+  "Type": "Node",
+  "Id": "LateBirthday",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you forgotten to wish someone a happy birthday recently? 🎂",
+        "fr": "As-tu oublié de souhaiter l'anniversaire de quelqu'un récemment? 🎂",
+        "es": "¿Te has olvidado de desear a alguien un feliz cumpleaños recientemente? 🎂"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Node",
+      "ElementValue": "1",
+      "Id": "LateBirthdayYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oXV6IEt10fvIQ"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "LateBirthdayWish",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Would you like to wish this person a late happy birthday?",
+              "fr": "Est-ce que tu voudrais lui envoyer un message?",
+              "es": "Te gustaría enviarle un mensaje?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "ElementValue": "1",
+            "Id": "LateBirthdayWishYes",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Sí"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "A730B4"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "ElementValue": "0",
+            "Id": "LateBirthdayWishNo",
+            "CommandLabel": {
+              "en": "Later",
+              "fr": "Plus tard",
+              "es": "Mas Tarde"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "LateBirthdayNo",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l1ugbvVp9O98ds6Ig"
+          }
+        }
+      ]
+    }
+  ]
+}
