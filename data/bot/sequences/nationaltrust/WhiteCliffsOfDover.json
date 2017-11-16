@@ -1,0 +1,146 @@
+{
+  "Type": "Node",
+  "Id": "WhiteCliffsOfDover",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/436959WhiteCliffsOfDover1SMALL.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Where would you go to see those impressive White Cliffs?",
+        "fr": "Where would you go to see those impressive White Cliffs?",
+        "es": "Where would you go to see those impressive White Cliffs?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WhiteCliffsRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Dover",
+        "fr": "Dover",
+        "es": "Dover"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊",
+            "fr": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊",
+            "es": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/927988WhiteCliffsOfDover3SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WhiteCliffsWrong",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hastings",
+        "fr": "Hastings",
+        "es": "Hastings"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Actually you have to go to Dover to see them 😉",
+            "fr": "Actually you have to go to Dover to see them 😉",
+            "es": "Actually you have to go to Dover to see them 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And those cliffs face the exact narrowest part of the Channel 🌊",
+            "fr": "And those cliffs face the exact narrowest part of the Channel 🌊",
+            "es": "And those cliffs face the exact narrowest part of the Channel 🌊"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/537063WhiteCliffsOfDover2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img4.hostingpics.net/pics/927988WhiteCliffsOfDover3SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
