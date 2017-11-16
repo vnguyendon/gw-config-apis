@@ -28,15 +28,12 @@
           "Name": "DoVote"
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "QOMIDxwVWZHWM"
+          "Type": "Text",
+          "Label": {
+            "en": "Hospitality (noun): the art of making your guests feel at home even when you wish they really were 😇",
+            "fr": "Le tact, c’est l’art de donner à vos invités l’impression qu’ils sont chez eux alors que vous souhaiteriez tant qu’ils y soient 😇",
+            "es": "El tacto es el arte de dar a sus invitados la impresión de estar en su propia casa mientras que usted desearía tanto que lo estén 😇"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         },
         {
           "Type": "Pause",
@@ -46,12 +43,8 @@
           }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Hospitality (noun): the art of making your guests feel at home even when you wish they really were 😇",
-            "fr": "Le tact, c’est l’art de donner à vos invités l’impression qu’ils sont chez eux alors que vous souhaiteriez tant qu’ils y soient 😇",
-            "es": "El tacto es el arte de dar a sus invitados la impresión de estar en su propia casa mientras que usted desearía tanto que lo estén 😇"
-          }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
