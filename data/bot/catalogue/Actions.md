@@ -53,7 +53,7 @@ Action: as a user, I will be redirected to another part of the app.
 
 #### 1. Definition
 
-`"RedirectTo"` is an action specific to the Android and iOS clients for the WaveMining apps. It allows the writer the client to redirect the user to another part of the app. 
+`"RedirectTo"` is an action specific to the Android and iOS clients for the WaveMining apps. It allows the client to redirect the user to another part of the app. 
 
 The writer will need to provide `"Paramaters"`: namely
 - a `"Type"` to identify in which part of the app we want the redirection to happen (Feature, Tab or Content category)
@@ -62,9 +62,9 @@ The writer will need to provide `"Paramaters"`: namely
 There will be five possible `"Type"`:
 - (i) `"Feature"`. Its `"Path"` values will include (but not limited to): "Recipients", "CreateAnimatedEmoji", "StickerPals", "TrendingMessages",...
 - (ii) `"Tab"`. Its `"Path"` values will include (but not limited to): "HelloHuggy", "SurveyBot", "Pairs", "UsefulMessages", "Recipients", "TrendingGifs", "Emoji", "DailyIdeas", "IThinkOfYou"...
-- categories of content: (iii) `"GifCategory"`, (iv) `"ThemeCategory"` or (v) `"TextCategory"`. Their `"Path"` values will be the URL of the content page. Example: "/data/common/giphycontent/hungry.json" in the case of a `"GifCategory"` or "/themes/penguins/small" in the case of a `"ThemeCategory"`
+- categories of content: (iii) `"GifCategory"`, (iv) `"ImageCategory"` or (v) `"TextCategory"`. Their `"Path"` values will be the URL of the content page. Example: "/data/common/giphycontent/hungry.json" in the case of a `"GifCategory"` or "/themes/penguins/small" in the case of an `"ImageCategory"`
 
-BEWARE: the difference between Feature and Tab can sometimes be very fine. One tab can be comprised of only one feature. Make surer the client knows explicitely what you are refering to.
+BEWARE: the difference between Feature and Tab can sometimes be very fine. One tab can be comprised of only one feature. Make sure the client knows explicitely what you are refering to.
 
 As a rule, when I am redirected to a Feature, I should be able to complete the user journey in this feature and then land back on the bot. 
 On the contrary, when I am redirected to a tab and I complete the user journey through this tab, I will land back in this tab.
@@ -127,7 +127,7 @@ Example 3 with a Content redirection:
               "Type": "Action",
               "Name": "RedirectTo"
               "Parameters":
-                  "Type": "ThemeCategory",
+                  "Type": "ImageCategory",
                   "Path": "/themes/emoticons/small"
             }
         ]
@@ -381,7 +381,7 @@ The client will need to use WaveMining's relevant APIs to use this feature.
 
 #### 3. Within a sequence
 
-The `"ShowCards"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+The `"ShowTrendingContent"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
 
 #### 4. Examples
 
