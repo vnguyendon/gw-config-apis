@@ -1,0 +1,24 @@
+{
+  "GroupName": "Visible-All",
+  "SequenceFiles": [
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouLikePoems.json.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/FirstTimeBot.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/HaveYouRegrets.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/IsThereSomeone.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/LateBirthday.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/RealBot.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WantMessageSuggestions.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatDoLikeSending.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatsYourFavoriteAnimal.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WantMessageSuggestions.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"},
+    { "order" : 10, "file":"/data/bot/sequences/settings/Age.json"},
+    { "order" : 10, "file":"/data/bot/sequences/settings/AreYouSingle.json"},
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/CreateAnimatedEmoji.json"},
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"},
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/RateUs.json"},
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/ShowAnAdvert.json"}
+  ]
+}
