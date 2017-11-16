@@ -1,0 +1,156 @@
+{
+  "Type": "Node",
+  "Id": "AliceInWonderland",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever watched the movie Alice in Wonderland by Tim Burton? 🐇⏱",
+        "fr": "Have you ever watched the movie Alice in Wonderland by Tim Burton? 🐇⏱",
+        "es": "Have you ever watched the movie Alice in Wonderland by Tim Burton? 🐇⏱"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AliceInWonderlandYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "yes",
+        "es": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So you might recognize Antony House, where the movie was partly shot:",
+            "fr": "So you might recognize Antony House, where the movie was partly shot:",
+            "es": "So you might recognize Antony House, where the movie was partly shot:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!",
+            "fr": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!",
+            "es": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AliceInWonderlandNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "no",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The movie was partly shot in Antony House:",
+            "fr": "The movie was partly shot in Antony House:",
+            "es": "The movie was partly shot in Antony House:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/235247AntonyHouse1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!",
+            "fr": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!",
+            "es": "Its iconic tree was the perfect spot for the mysterious hole that leads to Alice’s great adventures!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/553202AntonyHouse2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        }
+      ]
+    }
+  ]
+}
