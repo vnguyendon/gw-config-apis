@@ -35,17 +35,6 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "\"Sometimes you climb out of bed in the morning and you think, I’m not going to make it, but you laugh inside - remembering all the times you’ve felt that way.\" - Charles Bukowski",
@@ -57,8 +46,12 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 4000
+            "ms": 3000
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
