@@ -10,8 +10,8 @@ This document has to be read in parallel to the main documentation: https://gith
 - finally, we will make an example of how the property/value pair should work in a typical context
 
 Beware: we do not list properties that take **unique or undefined values** !
-Examples: "Id", "Title", "Command", "CommandLabel", "Name", "Steps", "Paths", "ElementValue", "Randomize"
+Examples: "Id", "Title", "Commands", "CommandLabel", "Name", "Steps", "Path", "ElementValue", "Randomize"
 
-These values' principles are described and examplified in the main documentation.
+These values' principles are described and illustrated in the main documentation.
 
 
