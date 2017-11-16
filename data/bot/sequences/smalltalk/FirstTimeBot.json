@@ -1,0 +1,55 @@
+{
+  "Type": "Node",
+  "Id": "FirstTimeBot",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is it your first chat with a bot?",
+        "fr": "Est-ce ta première conversation avec un bot?",
+        "es": "¿Esta es tu primera charla con un bot?"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "FirstTimeBotYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "juG2hdQUFo06Y"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "FirstTimeBotNo",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7abB06u9bNzA8lu8"
+          }
+        }
+      ]
+    }
+  ]
+}
