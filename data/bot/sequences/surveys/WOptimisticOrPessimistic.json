@@ -28,24 +28,6 @@
           "Name": "DoVote"
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "dEnwjHRw2C5SE"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "Always borrow money from a pessimist. He won’t expect it back 😉",
@@ -57,8 +39,12 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 3000
+            "ms": 2000
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
