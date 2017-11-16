@@ -31,7 +31,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/stop-the-world/default/small/182983_378972485547361_1749016060_n.jpg"
+            "Path": "/specialoccasions/stop-the-world/default/small/182983_378972485547361_1749016060_n.jpg"
           }
         },
         {
@@ -58,7 +58,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/I-am-sad/default/small/Man-walking-on-slackline-in-the-meadow-at-sunset-000066952383_Medium.jpg"
+            "Path": "/specialoccasions/I-am-sad/default/small/Man-walking-on-slackline-in-the-meadow-at-sunset-000066952383_Medium.jpg"
           }
         },
         {
