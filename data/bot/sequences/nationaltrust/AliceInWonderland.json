@@ -76,8 +76,7 @@
         {
           "Type": "Pause",
           "Parameters": {
-            "Mode": "Wait",
-            "ms": 3000
+            "Mode": "ConfirmContinuation"
           }
         }
       ]
@@ -146,8 +145,7 @@
         {
           "Type": "Pause",
           "Parameters": {
-            "Mode": "Wait",
-            "ms": 3000
+            "Mode": "ConfirmContinuation"
           }
         }
       ]
