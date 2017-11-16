@@ -1,0 +1,134 @@
+{
+  "Type": "Node",
+  "Id": "NymansGardens",
+  "Comments": "first National Trust Sequence",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/537579NymansGardens3SMALL.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever visited Nymans and its mysterious ruins?",
+        "fr": "Have you ever visited Nymans and its mysterious ruins?",
+        "es": "Have you ever visited Nymans and its mysterious ruins?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NymansGardensYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "yes",
+        "es": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Lucky you!",
+            "fr": "Lucky you!",
+            "es": "Lucky you!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Be it summer or winter, the garden is always pretty and romantic.",
+            "fr": "Be it summer or winter, the garden is always pretty and romantic.",
+            "es": "Be it summer or winter, the garden is always pretty and romantic."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/772618NymansGardens4SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NymansGardensNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "no",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It is in West Sussex, near Crawley 🙂",
+            "fr": "It is in West Sussex, near Crawley 🙂",
+            "es": "It is in West Sussex, near Crawley 🙂"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Be it summer or winter, the garden is always pretty and romantic.",
+            "fr": "Be it summer or winter, the garden is always pretty and romantic.",
+            "es": "Be it summer or winter, the garden is always pretty and romantic."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/772618NymansGardens4SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
