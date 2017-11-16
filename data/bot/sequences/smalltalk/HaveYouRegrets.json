@@ -1,0 +1,57 @@
+{
+  "Type": "Node",
+  "Id": "DoYouHaveRegrets",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is it your first chat with a bot?",
+        "fr": "Est-ce ta première conversation avec un bot?",
+        "es": "¿Esta es tu primera charla con un bot?"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "RegretsYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "03B6E4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "RegretsNo",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "8FB4AF"
+          }
+        }
+      ]
+    }
+  ]
+}
