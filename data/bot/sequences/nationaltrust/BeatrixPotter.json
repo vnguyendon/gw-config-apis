@@ -1,0 +1,212 @@
+{
+  "Type": "Node",
+  "Id": "BeatrixPotter",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which famous writer was an active member of the National Trust?",
+        "fr": "Which famous writer was an active member of the National Trust?",
+        "es": "Which famous writer was an active member of the National Trust?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BeatrixPotterRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "yes",
+        "es": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Beatrix Potter indeed!",
+            "fr": "Beatrix Potter indeed!",
+            "es": "Beatrix Potter indeed!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "In all her drawings you can see she loved nature and farm animals 🐏",
+            "fr": "In all her drawings you can see she loved nature and farm animals 🐏",
+            "es": "In all her drawings you can see she loved nature and farm animals 🐏"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BeatrixPotterWrong",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Lewis Carroll",
+        "fr": "Lewis Carroll",
+        "es": "Lewis Carroll"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was Beatrix Potter!",
+            "fr": "It was Beatrix Potter!",
+            "es": "It was Beatrix Potter!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "In all her drawings you can see she loved nature and farm animals 🐏",
+            "fr": "In all her drawings you can see she loved nature and farm animals 🐏",
+            "es": "In all her drawings you can see she loved nature and farm animals 🐏"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/720468BeatrixPotter2.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/910568BeatrixPotter3.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/710215BeatrixPotter4.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/811306BeatrixPotter5.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    }
+  ]
+}
