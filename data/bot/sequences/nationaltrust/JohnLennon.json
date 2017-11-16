@@ -1,0 +1,96 @@
+{
+  "Type": "Node",
+  "Id": "JohnLennon",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Thanks to the National Trust, you can visit the childhood home of…?",
+        "fr": "Thanks to the National Trust, you can visit the childhood home of…?",
+        "es": "Thanks to the National Trust, you can visit the childhood home of…?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JohnLennonHome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "John Lennon",
+        "fr": "John Lennon",
+        "es": "John Lennon"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Right!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉",
+            "fr": "Right!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉",
+            "es": "Right!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FQxoTjGrl7R6"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DavidBowieHome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "David Bowie",
+        "fr": "David Bowie",
+        "es": "David Bowie"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "John Lennon!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉",
+            "fr": "John Lennon!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉",
+            "es": "John Lennon!🎵 You can also visit Paul McCartney’s former house. A must-seen for all Beatles fans 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FQxoTjGrl7R6"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
