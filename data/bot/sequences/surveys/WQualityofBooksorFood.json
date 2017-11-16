@@ -28,6 +28,14 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Text",
+          "Label": {
+            "en": "Eat what you want, when you want and as much as you want. If anyone comments on your weight, eat them too 😋",
+            "fr": "Mange ce que tu veux, quand tu veux et autant que tu veux, et si quelqu'un te critique par rapport à ton poids, mange-le aussi 😋",
+            "es": "Come lo que quieras, cuando quieras y tanto como quieras, y si alguien te critica por tu peso, ¡cómetelo también! 😋"
+          }
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
@@ -37,14 +45,6 @@
         {
           "Type": "Action",
           "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Eat what you want, when you want and as much as you want. If anyone comments on your weight, eat them too 😋",
-            "fr": "Mange ce que tu veux, quand tu veux et autant que tu veux, et si quelqu'un te critique par rapport à ton poids, mange-le aussi 😋",
-            "es": "Come lo que quieras, cuando quieras y tanto como quieras, y si alguien te critica por tu peso, ¡cómetelo también! 😋"
-          }
         }
       ]
     },
