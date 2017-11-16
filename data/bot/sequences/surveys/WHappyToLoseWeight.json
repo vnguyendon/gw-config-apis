@@ -35,14 +35,10 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 2000
+            "ms": 1000
           }
         },
         {
@@ -54,18 +50,15 @@
           }
         },
         {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "oaSMcEHCAJYSA"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
