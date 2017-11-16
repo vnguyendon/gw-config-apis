@@ -1,7 +1,7 @@
 {
   "GroupName": "Visible-All",
   "SequenceFiles": [
-    { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouLikePoems.json.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouLikePoems.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/FirstTimeBot.json"},
