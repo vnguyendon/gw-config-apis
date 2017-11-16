@@ -55,7 +55,7 @@
     {
       "Type": "Leaf",
       "Id": "SuggestionsNo",
-      "ElementValue": "0",
+      "ElementValue": "1",
       "CommandLabel": {
         "en": "Nature",
         "fr": "Nature",
