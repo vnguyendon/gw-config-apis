@@ -31,7 +31,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/I-love-you/default/small/paradise-heart-shaped-island-000018664690_Medium.jpg"
+            "Path": "/specialoccasions/I-love-you/default/small/paradise-heart-shaped-island-000018664690_Medium.jpg"
           }
         },
         {
@@ -58,7 +58,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/I-love-you/default/small/401237_306837836094160_1135347896_n.jpg"
+            "Path": "/specialoccasions/I-love-you/default/small/401237_306837836094160_1135347896_n.jpg"
           }
         },
         {
