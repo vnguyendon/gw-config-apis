@@ -46,7 +46,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/themes/nature/small/Alpine-Meadow-000056976900_Medium.jpg"
+            "Path": "/themes/nature/small/Alpine-Meadow-000056976900_Medium.jpg"
           }
         },
         {
@@ -88,7 +88,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/good-night/default/small/iStock_000016355424_Medium.jpg"
+            "Path": "/specialoccasions/good-night/default/small/iStock_000016355424_Medium.jpg"
           }
         },
         {
