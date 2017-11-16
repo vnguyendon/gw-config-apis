@@ -17,9 +17,9 @@
       "Id": "BeatrixPotterRight",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "yes",
-        "fr": "yes",
-        "es": "yes"
+        "en": "Beatrix Potter",
+        "fr": "Beatrix Potter",
+        "es": "Beatrix Potter"
       },
       "Steps": [
         {
