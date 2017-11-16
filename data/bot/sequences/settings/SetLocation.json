@@ -1,0 +1,46 @@
+{
+  "Type": "Node",
+  "Id": "LocationUsers",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like to know how people feel in your country? I need to know in which country you live!",
+        "fr": "Veux-tu savoir ce que pensent les gens de ton pays? J'ai besoin de connaître le pays où tu habites !",
+        "es": "¿Quieres saber lo que piensa la gente de tu pais? ¡Necesito saber donde vives!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LocationYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes 😊",
+        "fr": "oui 😊",
+        "es": "sí 😊"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetLocation",
+          "Parameters": {
+            "property": "Location",
+            "value": "UserLocation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LocationNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      }
+    }
+  ]
+}
