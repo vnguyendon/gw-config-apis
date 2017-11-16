@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "BeatrixPotterRight",
+      "Id": "GiantsCausewayYes",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "yes",
