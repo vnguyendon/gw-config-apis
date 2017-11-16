@@ -1,0 +1,138 @@
+{
+  "Type": "Node",
+  "Id": "SetAge",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you want to know what people of your generation think? I need to know where your age!",
+        "fr": "Veux-tu savoir ce que pensent les gens de ta génération? J'ai besoin de savoir ton age !",
+        "es": "¿Quieres saber lo que piensa la gente de tu generación? ¡Necesito saber cuantos años tienes!"
+      },
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EighteenLess",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Less than 18",
+        "fr": "Moins de 18 ans",
+        "es": "Menos de 18 años"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "MzId7vT7YOUzm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "Less18"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EighteenThirtyNine",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Between 18 and 39",
+        "fr": "Entre 18 et 39 ans",
+        "es": "Entre 18 y 39"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "QMkPpxPDYY0fu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "18-39"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FourtySixtyFour",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Between 40 and 64",
+        "fr": "Entre 40 et 64 ans",
+        "es": "Entre 40 y 64"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "14udF3WUwwGMaA"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "40-64"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SixtyFourMore",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "More than 64",
+        "fr": "Plus de 64 ans",
+        "es": "Más de 64"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12ncq33I7ZidwI"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "64more"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AgeNo",
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "no, thanks",
+            "fr": "non merci",
+            "es": "no, gracias"
+          }
+        }
+      ]
+    }
+  ]
+}
