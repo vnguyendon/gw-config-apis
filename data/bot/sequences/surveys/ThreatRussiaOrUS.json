@@ -58,7 +58,7 @@
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
-            "Path": "gw-static/specialoccasions/stop-the-world/default/small/winter-landscape-000028450860_Medium.jpg"
+            "Path": "/specialoccasions/stop-the-world/default/small/winter-landscape-000028450860_Medium.jpg"
           }
         },
         {
