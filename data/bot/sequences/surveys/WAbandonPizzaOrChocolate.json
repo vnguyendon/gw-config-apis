@@ -43,10 +43,6 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
@@ -54,11 +50,8 @@
           }
         },
         {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 3000
-          }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -75,17 +68,6 @@
         {
           "Type": "Action",
           "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
         },
         {
           "Type": "Text",
@@ -108,6 +90,10 @@
             "Source": "Giphy",
             "Path": "YU3MG6zV3pmHS"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     }
