@@ -1,0 +1,169 @@
+{
+  "Type": "Node",
+  "Id": "IsaacNewton",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "When I say \"apple 🍎\", you think of",
+        "fr": "When I say \"apple 🍎\", you think of",
+        "es": "When I say \"apple 🍎\", you think of"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "IsaacNewtonWrong",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Snow White",
+        "fr": "Snow White",
+        "es": "Snow White"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I don’t know about Snow White...",
+            "fr": "I don’t know about Snow White...",
+            "es": "I don’t know about Snow White..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "...but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!",
+            "fr": "...but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!",
+            "es": "...but Newton is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳",
+            "fr": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳",
+            "es": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/483705IsaacNewton3SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IsaacNewtonRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Isaac Newton",
+        "fr": "Isaac Newton",
+        "es": "Isaac Newton"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?",
+            "fr": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?",
+            "es": "Great! And do you know he is likely to have discovered gravity at Woolsthorpe Manor, Lincolnshire?"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 5000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/328627WoolsthorpeManor1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳",
+            "fr": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳",
+            "es": "And, after all these years, the apple tree that inspired Newton is still growing well 🌳"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/483705IsaacNewton3SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
