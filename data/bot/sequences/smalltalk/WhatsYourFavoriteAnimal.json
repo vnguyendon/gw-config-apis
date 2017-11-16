@@ -1,0 +1,98 @@
+{
+  "Type": "Node",
+  "Id": "WhatsYourFavoriteAnimal",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What are your favorite animals?",
+        "fr": "Quels sont tes animaux préférés ?",
+        "es": "¿Cuáles son tus animales favoritos?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Kittens",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Cats 🐱",
+        "fr": "Chats 🐱",
+        "es": "Gatos 🐱"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10rW4Xw9eO0RmU"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"I like them too! 💕",
+            "fr":"Moi aussi je les adore 💕",
+            "es":"Me gustan también 💕"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Puppies",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Dogs 🐶",
+        "fr": "Chiens 🐶",
+        "es": "Perros 🐶"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "gxxlowyvtfS0M"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"«A dog is a symbol of loyalty, yet we still keep it on a lead» - L. Sövény",
+            "fr":"«Le chien est le symbole de la fidélité, mais nous le tenons en laisse» - L. Sövény",
+            "es":"«El perro es el simbolo de la fidelidad, pero lo tenemos atado» - L. Sövény"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Penguins",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Penguins 🐧",
+        "fr": "Pingouins 🐧",
+        "es": "Pingüinos 🐧"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "gbjAtqpO716Hm"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"They are sooo funny 😂",
+            "fr":"Ils sont trop drôles 😂",
+            "es":"¡Son taaaan divertidos! 😂"
+          }
+        }
+      ]
+    }
+  ]
+}
+
