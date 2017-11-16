@@ -1,0 +1,155 @@
+{
+  "Type": "Node",
+  "Id": "PrideAndPrejudice",
+  "Comments": "first National Trust Sequence",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you know which was the largest and most complicated shoot hosted by the National Trust?",
+        "fr": "Do you know which was the largest and most complicated shoot hosted by the National Trust?",
+        "es": "Do you know which was the largest and most complicated shoot hosted by the National Trust?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PrideAndPrejudiceRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Pride and Prejudice",
+        "fr": "Pride and Prejudice",
+        "es": "Pride and Prejudice"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park:",
+            "fr": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park:",
+            "es": "Right! The Pride and Prejudice movie by Joe Wright featured Basildon Park:"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!",
+            "fr": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!",
+            "es": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 5000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PrideAndPrejudiceWrong",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Game of Thrones",
+        "fr": "Game of Thrones",
+        "es": "Game of Thrones"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was Pride and Prejudice! This movie by Joe Wright featured Basildon Park.",
+            "fr": "It was Pride and Prejudice! This movie by Joe Wright featured Basildon Park.",
+            "es": "It was Pride and Prejudice! This movie by Joe Wright featured Basildon Park."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/770526BasildonPark1SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!",
+            "fr": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!",
+            "es": "The house was shut for 6 weeks, and the ball scene involved 250 extras, with horses and carriages waiting outside!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 5000
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img11.hostingpics.net/pics/254247BasildonPark2SMALL.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "ConfirmContinuation"
+          }
+        }
+      ]
+    }
+  ]
+}
