@@ -31,18 +31,7 @@
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "pPzjpxJXa0pna"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
+            "Path": "Cj3Ce7e8h2EKY"
           }
         },
         {
@@ -64,8 +53,12 @@
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "Cj3Ce7e8h2EKY"
+            "Path": "pPzjpxJXa0pna"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
       ]
     },
