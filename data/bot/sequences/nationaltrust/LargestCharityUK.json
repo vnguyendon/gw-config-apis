@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "LargestCharityUK",
+  "Comments": "first National Trust Sequence",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "https://img11.hostingpics.net/pics/411165LargestCharityBreconBeaconsSMALL.jpg"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you know which is the largest charity in the UK?",
+        "fr": "Do you know which is the largest charity in the UK?",
+        "es": "Do you know which is the largest charity in the UK?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LargestCharityUKYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "yes",
+        "es": "yes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s the National Trust!",
+            "fr": "It’s the National Trust!",
+            "es": "It’s the National Trust!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞",
+            "fr": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞",
+            "es": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LargestCharityUKNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "no",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s the National Trust!",
+            "fr": "It’s the National Trust!",
+            "es": "It’s the National Trust!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞",
+            "fr": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞",
+            "es": "This charity protects historic places and natural areas in England, Wales and Northern Ireland 🏰🏞"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        }
+      ]
+    }
+  ]
+}
