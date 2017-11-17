@@ -1,57 +1,57 @@
 
 {
-  "Type": "Node",
-  "Id": "AreYouSingle",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Are you single?",
-        "fr": "Es-tu célibataire ?",
-        "es": "¿Estas soltero?"
-      },
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "EighteenLess",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Yes",
-        "fr": "Oui",
-        "es": "Si"
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "Property": "ppSingle",
-            "Value": "True"
-          }
+    "Type": "Node",
+    "Id": "AreYouSingle",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Are you single?",
+          "fr": "Es-tu célibataire ?",
+          "es": "¿Estas soltero?"
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "SixtyFourMore",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "No",
-        "fr": "Non",
-        "es": "No"
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "Property": "ppSingle",
-            "Value": "False"
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "EighteenLess",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Si"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+              "property": "ppSingle",
+              "value": "True"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "SixtyFourMore",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+              "property": "ppSingle",
+              "value": "False"
+            }
+          }
+        ]
+      }
+    ]
+  }
