@@ -1,0 +1,21 @@
+[
+  "data/bot/sequences/smalltalk/DoYouLikePoems.json",
+  "data/bot/sequences/smalltalk/DoYouWantAKittenGif.json",
+  "data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json",
+  "data/bot/sequences/smalltalk/FirstTimeBot.json",
+  "data/bot/sequences/smalltalk/HaveYouRegrets.json",
+  "data/bot/sequences/smalltalk/IsThereSomeone.json",
+  "data/bot/sequences/smalltalk/LateBirthday.json",
+  "data/bot/sequences/smalltalk/RealBot.json",
+  "data/bot/sequences/smalltalk/WantMessageSuggestions.json",
+  "data/bot/sequences/smalltalk/WhatDoLikeSending.json",
+  "data/bot/sequences/smalltalk/WhatsYourFavoriteAnimal.json",
+  "data/bot/sequences/smalltalk/WantMessageSuggestions.json",
+  "data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json",
+  "data/bot/sequences/settings/Age.json",
+  "data/bot/sequences/settings/AreYouSingle.json",
+  "data/bot/sequences/appspecials/CreateAnimatedEmoji.json",
+  "data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json",
+  "data/bot/sequences/appspecials/RateUs.json",
+  "data/bot/sequences/appspecials/ShowAnAdvert.json"
+]
