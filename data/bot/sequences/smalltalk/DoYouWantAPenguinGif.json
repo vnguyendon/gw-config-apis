@@ -1,78 +1,81 @@
 {
-  "Type": "Node",
-  "Id": "CreateAnimatedEmoji",
-  "Steps": [
-    {
-      "en": "Can I show you my funniest penguin gif?",
-      "fr": "Je peux te montrer mon meilleur gif de pingouin ?",
-      "es": "¿Puedo mostrarte mi gif de pingüino lo más divertido?"
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "FunnyPenguinYes",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Yes",
-        "fr": "Oui",
-        "es": "Sí"
-      },
-      "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "11StaZ9Lj74oCY"
-          }
+    "Type": "Node",
+    "Id": "CreateAnimatedEmoji",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Can I show you my funniest penguin gif?",
+          "fr": "Je peux te montrer mon meilleur gif de pingouin ?",
+          "es": "¿Puedo mostrarte mi gif de pingüino lo más divertido?"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "FunnyPenguinYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Yes",
+          "fr": "Oui",
+          "es": "Sí"
         },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": ";-)",
-            "fr": ";-)",
-            "es": ";-)"
+        "Steps": [
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "11StaZ9Lj74oCY"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": ";-)",
+              "fr": ";-)",
+              "es": ";-)"
+            }
           }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "FunnyPenguinNo",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "No",
-        "fr": "Non",
-        "es": "No"
+        ]
       },
-      "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "yMNNk7LgImRws"
+      {
+        "Type": "Leaf",
+        "Id": "FunnyPenguinNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "No",
+          "fr": "Non",
+          "es": "No"
+        },
+        "Steps": [
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "yMNNk7LgImRws"
+            }
           }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "IPreferKittens",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I prefer kittens",
-        "fr": "Plutôt un chaton",
-        "es": "Preferio gatitos"
+        ]
       },
-      "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "VxbvpfaTTo3le"
+      {
+        "Type": "Leaf",
+        "Id": "IPreferKittens",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "I prefer kittens",
+          "fr": "Plutôt un chaton",
+          "es": "Preferio gatitos"
+        },
+        "Steps": [
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "VxbvpfaTTo3le"
+            }
           }
-        }
-      ]
-    }
-  ]
-}
+        ]
+      }
+    ]
+  }
