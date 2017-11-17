@@ -23,6 +23,7 @@
       { "order" : 28, "file": "/data/bot/sequences/surveys/WHavingChildrenImproveLife.json"},
       { "order" : 29, "file": "/data/bot/sequences/surveys/ClimateChangeManMade.json"},
       { "order" : 30, "file": "/data/bot/sequences/surveys/WKindOrFunny.json"},
+      { "order" : 31, "file": "/data/bot/sequences/settings/SetAge.json"},
       { "order" : 32, "file": "/data/bot/sequences/surveys/WMessengerOrWhatsapp.json"},
       { "order" : 34, "file": "/data/bot/sequences/surveys/WMoneyOrLove.json"},
       { "order" : 36, "file": "/data/bot/sequences/surveys/WMoreImportantTalkOrListen.json"},
