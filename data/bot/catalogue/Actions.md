@@ -5,7 +5,7 @@ Actions trigger the use of external resources or services in or outside the bot.
 _______________________
 ## "EmbedLink"
 
-Action: as a user, I will redirected to a webpage or an app when I click on the weblink on the text that appears in the chatbot feed.
+Action: as a user, I will be redirected to a webpage or an app when I click on the weblink on the text that appears in the chatbot feed.
 
 #### 1. Definition
 
@@ -37,12 +37,45 @@ The writer will need to provide:
               "Type": "Action",
               "Name": "EmbedLink",
               "Parameters": {
-                   "Path": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite&hl=en_GB",
+                   "Path": "http://www.celinedion.com/",
                    "Label": {
-                        "en": "Rate us on the Play Store",
-                        "fr": "Notez-nous sur le Play Store"
+                        "en": "Oh man you should check out Celine Dion's website",
+                        "fr": "Va voir le site de Celine tabernacle"
                    }
               }
+            }
+        ]
+
+_______________________
+## "RateUs"
+
+Action: as a user, I will be redirected to the phone's app store to rate the app.
+
+#### 1. Definition
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "RateUs"` in a Step, then the client will redirect the user to the app store (Google Play for Android and AppStore for Apple Store).
+We are using a specific action rather than `"EmbedLink"`, because each client will need to redirect the user to a different store. Therefore, it is up to the client to define where the redirection will exactly take place.
+
+#### 2. Client integration
+
+No pre-requirements.
+
+#### 3. Within a sequence
+
+The `"RateUs"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+###### **VERY IMPORTANT**: 
+- since it redirects to an action performed outside the bot, it can only be contained in a `"Type": "Leaf"` element.
+- as the client reads the steps from top to bottom, this `"RateUs"` action has to be the last hash of the step. Otherwise, the content appearing after will not be shown to the user 
+
+##### 4. Example
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "RateUs"
             }
         ]
 
@@ -164,6 +197,43 @@ Example 5 with a Tab redirection:
                   "Path": "Recipients"
             }
         ]
+
+_______________________
+## "SetLocation"
+
+Action: as a user, I will give the client the authorisation to pull my location data.
+
+#### 1. Definition
+
+`"SetLocation"` is an action specific to the Messenger client and can more broadly be used by any client that has not got access to the location the location of the user.
+
+When the property/value pair `"Type: "Action"` is triggered along the `"Name: "SetLocation"` in a Step, then the client will pull the 
+
+#### 2. Client integration
+
+Highly dependent on the client's authorisation: can it get the location info without asking it in the bot?
+
+#### 3. Within a sequence
+
+The `"SetLocation"` action needs to be inserted inside a Step hash, in link with a `"Type": "Action"` pair. 
+
+In Messenger, this action will temporarily trigger the use of a special "Location" command that the user will need to click  ; however, once the location is set, the conversation will continue its natural flow
+
+IMPORTANT: we should preferably ask the user's consent before showing an ad, or at least announce it in the sequence.
+
+#### 4. Example
+
+    ...
+      "Steps": [
+            {
+                ...
+            },
+            {
+              "Type": "Action",
+              "Name": "SetLocation"
+            }
+        ]
+
 
 _______________________
 ## "SetReminder"
@@ -495,6 +565,4 @@ The `"ShowUsers"` action needs to be inserted inside a Step hash, in link with a
               "Name": "ShowUsers"
             }
         ]
-
-
 
