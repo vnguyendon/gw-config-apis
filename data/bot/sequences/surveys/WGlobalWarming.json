@@ -6,9 +6,9 @@
       "Type": "Text",
       "Id": "10",
       "Label": {
-        "en": "Here is an important question..",
-        "fr": "Question plus sérieuse..",
-        "es": "Pregunta más seria.."
+        "en": "Here is an important question...",
+        "fr": "Et maintenant une question plus sérieuse...",
+        "es": "Pregunta más seria..."
       }
     },
     {
@@ -24,7 +24,7 @@
       "Id": "30",
       "Parameters": {
         "Source": "Giphy",
-        "Path": "3oz8xzmy5jM39tV4OI"
+        "Path": "K3feu0r6u74SQ"
       }
     },
     {
@@ -40,7 +40,7 @@
       "Id": "50",
       "Label": {
         "en": "Is global warming an important issue?",
-        "fr": "Le réchauffement climatique est-il un problème important ?",
+        "fr": "Le réchauffement climatique est-il un problème importante ?",
         "es": "¿El cambio climático es un problema importante?"
       }
     }
