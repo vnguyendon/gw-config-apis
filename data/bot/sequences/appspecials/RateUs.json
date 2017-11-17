@@ -3,9 +3,12 @@
     "Id": "Stars",
     "Steps": [
       {
-        "en": "How many stars would you rate us?",
-        "fr": "Combien d'étoiles nous noterais-tu?",
-        "es": "¿Qué nota nos darías?"
+        "Type": "Text",
+        "Label": {
+          "en": "How many stars would you rate us?",
+          "fr": "Combien d'étoiles nous noterais-tu?",
+          "es": "¿Qué nota nos darías?"
+        }
       }
     ],
     "Commands": [
@@ -18,23 +21,24 @@
           "fr": "⭐⭐⭐⭐⭐",
           "es": "⭐⭐⭐⭐⭐"
         },
-        "Steps": [
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "3ohzdQoCngNoESFV28"
-            }
-          }
-        ],
         "LinksTo": {
           "Type": "Node",
           "Id": "RateStore",
           "Steps": [
             {
-              "en": "Great, thanks! Please rate us on the store!",
-              "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
-              "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "3ohzdQoCngNoESFV28"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great, thanks! Please rate us on the store!",
+                "fr": "Super, merci ! Tu veux laisser une note sur le store ?",
+                "es": "¿Quieres notar esta aplicacion en Google Play? Nos ayudaria mucho !"
+              }
             }
           ],
           "Commands": [
@@ -76,8 +80,7 @@
                 "en": "No",
                 "fr": "Non",
                 "es": "No"
-              },
-              "Steps": []
+              }
             }
           ]
         }
@@ -141,4 +144,3 @@
       }
     ]
   }
-  
