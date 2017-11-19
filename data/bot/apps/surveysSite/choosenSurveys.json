@@ -39,11 +39,11 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/FewercarsOrCheapercars.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/MoreImportantPeaceOrFood.json"},      
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ShouldGvtsRegulateTheInternet.json"},      
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/WillTrumpFinishHisMandate.json"}, 
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/NorthAmericaOrEurope.json"}, 
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/LiveInJapanOrUS.json"}, 
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/MoreHappinessSalaryOrPartner.json"}, 
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/PreferChattingByTextsOrPhone.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveys/WillTrumpFinishHisMandate.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveys/NorthAmericaOrEurope.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveys/LiveInJapanOrUS.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveys/MoreHappinessSalaryOrPartner.json"}, 
+      { "order" : 100, "file": "/bot/sequences/surveys/PreferChattingByTextsOrPhone.json"}, 
       { "order" : 100, "file": "/bot/sequences/surveyquestions/ThreatRussiaOrUS.json"},       
       { "order" : 100, "file": "/bot/sequences/surveyquestions/HarmonyOrFreedom.json"}      
       ]
