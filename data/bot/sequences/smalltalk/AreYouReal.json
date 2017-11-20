@@ -1,0 +1,222 @@
+{
+  "Type": "Node",
+  "Id": "AreYouReal",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey! I’m trapped inside your phone! Are you human?",
+        "fr": "Coucou ! Je suis piégé dans ton téléphone ! Tu es un humain, c'est ça ?",
+        "es": "¡Hola! Estoy entrampado en tu teléfono. ¿Eres humano?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesImreal",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "IsItFunToBeHuman",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And is it fun to be human?",
+              "fr": "Et c'est amusant d'être un humain ?",
+              "es": "¿Y es divertido ser humano?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesItsFun",
+            "CommandLabel": {
+              "en": "yes, food is delicious",
+              "fr": "oui, j'adore la nourriture",
+              "es": "sí, me encanta la comida"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "xUA7bjfr8Q1BB3LbJm"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoItsNotFun",
+            "CommandLabel": {
+              "en": "no, emoji are more fun",
+              "fr": "non, les emojis sont plus drôles",
+              "es": "no, emojis son más divertidos"
+            },
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "WhichIsYourFavoriteEmoji",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Id": "1",
+                  "Label": {
+                    "en": "Which is your favorite?",
+                    "fr": "Lequel préfères-tu ?",
+                    "es": "¿Cuál es tu favorito?"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Laughing",
+                  "CommandLabel": {
+                    "en": "😂",
+                    "fr": "😂",
+                    "es": "😂"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Poo",
+                  "CommandLabel": {
+                    "en": "💩",
+                    "fr": "💩",
+                    "es": "💩"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Cat",
+                  "CommandLabel": {
+                    "en": "😻",
+                    "fr": "😻",
+                    "es": "😻"
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Monkey",
+                  "CommandLabel": {
+                    "en": "🙈",
+                    "fr": "🙈",
+                    "es": "🙈"
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoImNotreal",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "WhatAreYou",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Id": "1",
+                  "Label": {
+                    "en": "What are you then?",
+                    "fr": "Dans ce cas, qu'est-ce que tu es ?",
+                    "es": "En este caso, ¿qué eres?"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "ImABot",
+                  "CommandLabel": {
+                    "en": "a bot",
+                    "fr": "un robot",
+                    "es": "un robot"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "SdA8j9rOcQwTe"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "ImaUnicorn",
+                  "CommandLabel": {
+                    "en": "a unicorn",
+                    "fr": "une licorne",
+                    "es": "un unicornio"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "KlZUpkygM5hCM"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "ImaPanda",
+                  "CommandLabel": {
+                    "en": "a panda",
+                    "fr": "un panda",
+                    "es": "un panda"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "xkhn6Ry4taRtC"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "ImanAlien",
+                  "CommandLabel": {
+                    "en": "an alien",
+                    "fr": "un extraterrestre",
+                    "es": "un extraterrestre"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "Zy79ySAjpMynS"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
