@@ -1,10 +1,7 @@
 
 enter sequence
-
-if 
-  user.ppsingle =! "true"
-else 
-  next sequence
+if user.ppsingle =! "true"
+else next sequence
 end
 
 {
