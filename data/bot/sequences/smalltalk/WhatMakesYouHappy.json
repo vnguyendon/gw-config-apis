@@ -1,0 +1,176 @@
+{
+  "Type": "Node",
+  "Id": "WhatMakesYouHappy",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What makes you happy?",
+        "fr": "Qu'est-ce qui te rend heureux ?",
+        "es": "¿Qué te hace feliz?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HappyFamily",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "family",
+        "fr": "ta famille",
+        "es": "la familia"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WouldYouLikeToSendAMessage",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Would you like to send them a message?",
+              "fr": "A qui aimerais-tu envoyer un message ?",
+              "es": "¿A quién te gustaría enviarle un mensaje?"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "MessageToParents",
+            "CommandLabel": {
+              "en": "parents",
+              "fr": "parents",
+              "es": "padres"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "E7E997"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "MessageToSiblings",
+            "CommandLabel": {
+              "en": "siblings",
+              "fr": "frères et soeurs",
+              "es": "hermanos"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "87F524"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoMessage",
+            "CommandLabel": {
+              "en": "no, thanks",
+              "fr": "non merci",
+              "es": "no, gracias"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "y65VoOlimZaus"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappySweetheart",
+      "CommandLabel": {
+        "en": "sweetheart",
+        "fr": "ton couple",
+        "es": "tu pareja"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "48B14C"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappyFood",
+      "CommandLabel": {
+        "en": "food",
+        "fr": "la nourriture",
+        "es": "la comida"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "96898A"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappyWork",
+      "CommandLabel": {
+        "en": "work",
+        "fr": "le travail",
+        "es": "el trabajo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "7F8AB89569"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HappyFriends",
+      "CommandLabel": {
+        "en": "friends",
+        "fr": "tes amis",
+        "es": "los amigos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "18BF91"
+          }
+        }
+      ]
+    }
+  ]
+}

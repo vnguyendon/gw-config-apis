@@ -1,0 +1,108 @@
+{
+  "Type": "Node",
+  "Id": "WhatDoesItSmell",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What does it smell like outside?",
+        "fr": "Qu'est-ce que ça sent, dehors ?",
+        "es": "¿Qué olor te llega en el exterior?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SmellsFlowers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "flowers",
+        "fr": "les fleurs",
+        "es": "las flores"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/flowers/small/shutterstock_109354511.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SmellsFood",
+      "CommandLabel": {
+        "en": "food",
+        "fr": "la nourriture",
+        "es": "la comida"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "MCqecpHhfh2qA"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SmellsSea",
+      "CommandLabel": {
+        "en": "sea",
+        "fr": "la mer",
+        "es": "el mar"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/good-morning/default/small/Paradise-deserted-beach-at-sunset-in-Cancun-000044402434_Medium.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SmellsPaint",
+      "CommandLabel": {
+        "en": "blue paint",
+        "fr": "la peinture",
+        "es": "la pintura"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9FtD8pr41pYkM"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SmellsNothing",
+      "CommandLabel": {
+        "en": "nothing",
+        "fr": "rien",
+        "es": "nada"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/come-back-to-me/default/small/10403669_640087606102513_7714163468458108038_n.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,163 @@
+{
+  "Type": "Node",
+  "Id": "WhatIsYourFavoriteFood",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "As long as I’m trapped inside this phone, I’m not able to eat anything, even if I dream about it!",
+        "fr": "Tant que je suis coincé dans ce téléphone, je ne peux rien manger, même si j'en rêve !",
+        "es": "Mientras estoy en este teléfono, no puedo comer nada, ¡aunque sueñe de eso!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "CfVkPSj1rSxVe"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is your favorite food?",
+        "fr": "Qu'est-ce que tu préfères manger ?",
+        "es": "¿Qué te gusta más comer?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FavoriteFoodCookies",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cookies",
+        "fr": "cookies",
+        "es": "galleta"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "cv2iBbiUGnV0Q"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, it looks so tasty!",
+            "fr": "Mmmm, ça a l'air délicieux !",
+            "es": "¡Mmmm, parece delicioso!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FavoriteFoodBurgers",
+      "CommandLabel": {
+        "en": "burgers",
+        "fr": "hamburgers",
+        "es": "hamburguesa"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0K4lPx8bvdbFMdGM"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, it looks so tasty!",
+            "fr": "Mmmm, ça a l'air délicieux !",
+            "es": "¡Mmmm, parece delicioso!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FavoriteFoodWatermelon",
+      "CommandLabel": {
+        "en": "watermelon",
+        "fr": "pastèque",
+        "es": "sandía"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2YWB0Zgk6IdUCk48"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, it looks so tasty!",
+            "fr": "Mmmm, ça a l'air délicieux !",
+            "es": "¡Mmmm, parece delicioso!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FavoriteFoodChocolate",
+      "CommandLabel": {
+        "en": "chocolate",
+        "fr": "chocolat",
+        "es": "chocolate"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9XZRNdboAH47m"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, it looks so tasty!",
+            "fr": "Mmmm, ça a l'air délicieux !",
+            "es": "¡Mmmm, parece delicioso!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FavoriteFoodTomatoes",
+      "CommandLabel": {
+        "en": "tomatoes",
+        "fr": "tomates",
+        "es": "tomates"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "a0N6ZmPmzGIPm"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, it looks so tasty!",
+            "fr": "Mmmm, ça a l'air délicieux !",
+            "es": "¡Mmmm, parece delicioso!"
+          }
+        }
+      ]
+    }
+  ]
+}
