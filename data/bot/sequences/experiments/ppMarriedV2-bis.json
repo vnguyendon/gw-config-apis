@@ -1,0 +1,73 @@
+{
+   "Type": "Node",
+   "Id": "MarriedYet",
+   "Steps": [
+      {
+        "Trigger": {
+          "Type": "Action",
+          "Name": "ContinueSequence",
+          "Condition": {
+            "property": "ppSingle",
+            "value": "false"
+          }
+        }
+      },
+      {
+         "Type": "Text",
+         "Label": {
+            "en": "Are you married yet?"
+         }
+      }
+   ],
+   "Randomize": "true",
+   "Commands": [
+      {
+         "Type": "Leaf",
+         "Id": "MarriedYes",
+         "ElementValue": "1",
+         "CommandLabel": {
+            "en": "Yes"
+         },
+         "Steps": [
+            {
+               "Type": "Action",
+               "Name": "SetUserProperty",
+               "Parameters": {
+                  "property": "ppMarried",
+                  "value": "true"
+               }
+            },
+            {
+               "Type": "Text",
+               "Label": {
+                  "en": "That's great :)"
+               }
+            }
+         ]
+      },
+      {
+         "Type": "Leaf",
+         "Id": "MarriedNo",
+         "ElementValue": "1",
+         "CommandLabel": {
+            "en": "No"
+         },
+         "Steps": [
+            {
+               "Type": "Action",
+               "Name": "SetUserProperty",
+               "Parameters": {
+                  "property": "ppMarried",
+                  "value": "false"
+               }
+            },
+            {
+               "Type": "Text",
+               "Label": {
+                  "en": "Things can't come soon enough"
+               }
+            }
+         ]
+      }
+   ]
+}
