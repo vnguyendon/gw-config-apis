@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "WhatIsYourFavoriteFood",
+  "Id": "WhatsYourFavoriteFood",
   "Steps": [
     {
       "Type": "Text",
