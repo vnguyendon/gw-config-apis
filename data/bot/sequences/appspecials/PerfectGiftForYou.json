@@ -1,0 +1,305 @@
+{
+  "Type": "Node",
+  "Id": "PerfectGiftForYou",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which is your favorite animal among those?",
+        "fr": "Quel est ton animal préféré parmi ceux-ci ?",
+        "es": "¿Qué es tu animal favorito entre ellos?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FavoriteDogs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "dogs 🐕",
+        "fr": "les chiens 🐕",
+        "es": "perros 🐕"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DogGifsOrPictures",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And do you prefer gifs or pictures?",
+              "fr": "Et tu préfères les gifs ou les photos ?",
+              "es": "¿Y prefieres gifs o fotos?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "DogGifs",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "gifs",
+              "fr": "les gifs",
+              "es": "gifs"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "GifCategory",
+                  "Path": "/data/common/giphycontent/premiumpuppies.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DogPictures",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "pictures",
+              "fr": "les photos",
+              "es": "fotos"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "ImageCategory",
+                  "Path": "/themes/puppies/small"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "FavoriteCats",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cats 🐈",
+        "fr": "les chats 🐈",
+        "es": "gatos 🐈"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CatGifsOrPictures",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And do you prefer gifs or pictures?",
+              "fr": "Et tu préfères les gifs ou les photos ?",
+              "es": "¿Y prefieres gifs o fotos?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "CatGifs",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "gifs",
+              "fr": "les gifs",
+              "es": "gifs"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "GifCategory",
+                  "Path": "/data/common/giphycontent/premiumkitties.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CatPictures",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "pictures",
+              "fr": "les photos",
+              "es": "fotos"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "ImageCategory",
+                  "Path": "/themes/kittens/small"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "FavoriteHorses",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "horses 🐎",
+        "fr": "les chevaux 🐎",
+        "es": "caballos 🐎"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HorseGifsOrPictures",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And do you prefer gifs or pictures?",
+              "fr": "Et tu préfères les gifs ou les photos ?",
+              "es": "¿Y prefieres gifs o fotos?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "HorseGifs",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "gifs",
+              "fr": "les gifs",
+              "es": "gifs"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "GifCategory",
+                  "Path": "/data/common/giphycontent/premiumhorses.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HorsePictures",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "pictures",
+              "fr": "les photos",
+              "es": "fotos"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then I have the perfect gift for you!",
+                  "fr": "Dans ce cas j'ai le cadeau idéal pour toi !",
+                  "es": "¡En este caso tengo el regalo ideal para ti!"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 3000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "ImageCategory",
+                  "Path": "/themes/horses/small"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

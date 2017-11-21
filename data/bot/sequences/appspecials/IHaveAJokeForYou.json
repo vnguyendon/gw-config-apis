@@ -1,0 +1,110 @@
+{
+  "Type": "Node",
+  "Id": "IHaveAJokeForYou",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I have a joke for you!",
+        "fr": "J'ai une blague pour toi !",
+        "es": "¡Tengo un chiste para ti!"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesTellMe",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Tell me!",
+        "fr": "Vas-y!",
+        "es": "¡Vamos!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Text",
+            "Id": "0B1EA1"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😁",
+            "fr": "😁",
+            "es": "😁"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WantMoreJokes",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Would you like to see more jokes like this one?",
+              "fr": "Voudrais-tu voir plus de blagues comme celle-là ?",
+              "es": "¿Te gustaría ver más chistes como eso?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesMoreJokes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "Text",
+                  "Id": "0B1EA1"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoMoreJokes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoThanks",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BGpx4ljIl8Jiw"
+          }
+        }
+      ]
+    }
+  ]
+}
