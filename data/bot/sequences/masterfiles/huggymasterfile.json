@@ -13,7 +13,7 @@
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/WantMessageSuggestions.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatDoLikeSending.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatsYourFavoriteAnimal.json"},
-    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WantMessageSuggestions.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"},
     { "order" : 10, "file":"/data/bot/sequences/settings/Age.json"},
     { "order" : 10, "file":"/data/bot/sequences/settings/AreYouSingle.json"},
