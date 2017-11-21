@@ -129,10 +129,11 @@
               }
             },
             {
-              "Type": "AnimatedGif",
+              "Type": "Action",
+              "Name": "ShowCards",
               "Parameters": {
-                "Source": "Giphy",
-                "Path": "FWtVYDHIxgGgE"
+                "Type": "Gif",
+                "Id": "/data/common/giphycontent/poems.json"
               }
             },
             {
