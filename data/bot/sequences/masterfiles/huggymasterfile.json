@@ -1,6 +1,7 @@
 {
   "GroupName": "Visible-All",
   "SequenceFiles": [
+    { "order" : 5, "file":"/data/bot/sequences/smalltalk/AreYouReal.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouLikePoems.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"},
@@ -19,6 +20,9 @@
     { "order" : 10, "file":"/data/bot/sequences/appspecials/CreateAnimatedEmoji.json"},
     { "order" : 10, "file":"/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"},
     { "order" : 10, "file":"/data/bot/sequences/appspecials/RateUs.json"},
-    { "order" : 10, "file":"/data/bot/sequences/appspecials/ShowAnAdvert.json"}
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/ShowAnAdvert.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatDoesItSmell.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"},
+    { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"}
   ]
 }
