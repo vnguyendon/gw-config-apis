@@ -57,6 +57,7 @@
             "Steps": [
               {
                 "Type": "Action",
+                "Name" : "ShowCards",
                 "Parameters": {
                   "Type": "TextImage",
                   "Id": "A730B4"
