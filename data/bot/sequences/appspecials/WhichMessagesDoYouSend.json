@@ -24,10 +24,11 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Action",
+          "Name": "ShowCards",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "3oEhmDMA4r9GxhwEqA"
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/love.json"
           }
         },
         {
@@ -58,10 +59,11 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Action",
+          "Name": "ShowCards",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "11NLstLWNHhNC0"
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/hungry.json"
           }
         },
         {
@@ -92,10 +94,11 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Action",
+          "Name": "ShowCards",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "sIV0wFDrsKNxe"
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/best.json"
           }
         },
         {
@@ -126,10 +129,11 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
+          "Type": "Action",
+          "Name": "ShowCards",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "sgswHaZw5yklq"
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/I-am-the-best.json"
           }
         },
         {
