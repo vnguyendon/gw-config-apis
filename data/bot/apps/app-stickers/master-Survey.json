@@ -1,4 +1,4 @@
-[
+
   {
     "GroupName":"All",
     "SequenceFiles" : [
@@ -149,4 +149,4 @@
       { "order" : 100, "file": ["/data/bot/sequences/personality/ppOpenedOrSettled.json"]}
     ]
   }
-]
+
