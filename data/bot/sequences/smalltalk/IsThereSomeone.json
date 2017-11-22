@@ -50,7 +50,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "030FD0"
                 }
               },
@@ -78,7 +78,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "950C3C"
                 }
               },
@@ -106,7 +106,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "5CDCF2"
                 }
               },
@@ -134,7 +134,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "8ED62C"
                 }
               },
@@ -162,7 +162,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "016E91"
                 }
               },
@@ -190,7 +190,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "Intention",
+                  "Type": "TextImage",
                   "Id": "D392C1"
                 }
               },
