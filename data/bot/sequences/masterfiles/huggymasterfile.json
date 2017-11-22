@@ -25,6 +25,7 @@
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"},
     { "order" : 10, "file":"/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"},
     { "order" : 10, "file":"/data/bot/sequences/appspecials/IHaveAJokeForYou.json"},
-    { "order" : 10, "file":"/data/bot/sequences/appspecials/PerfectGiftForYou.json"}
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/PerfectGiftForYou.json"},
+    { "order" : 10, "file":"/data/bot/sequences/appspecials/DoYouLikeCartoons.json"}
   ]
 }
