@@ -1,0 +1,117 @@
+{
+  "Type": "Node",
+  "Id": "DoYouLikeCartoons",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Cinderella, The Lion King, Beauty and the Beast...",
+        "fr": "Cendrillon, Le Roi Lion, La Belle et la Bête...",
+        "es": "La cenicienta, El rey león, La bella y la bestia..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like cartoons?",
+        "fr": "Tu aimes les dessins animés ?",
+        "es": "¿Te gustan las películas de animación?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesLikeCartoons",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes!",
+        "fr": "oui !",
+        "es": "¡sí!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me too 😍",
+            "fr": "Moi aussi 😍",
+            "es": "A mi también 😍"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "bCcxY1ADkAqfS"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HaveYouSeenCartoonGifs",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Have you seen my special selections of gifs from the most famous cartoons?",
+              "fr": "As-tu remarqué ma sélection de gifs des meilleurs dessins animés ?",
+              "es": "¿Has visto mi seleccion de gifs de los mejores dibujados animados?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "ShowMeCartoonGifs",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no, show me!",
+              "fr": "non, montre-moi !",
+              "es": "no, ¡muéstrame!"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "GifCategory",
+                  "Id": "/data/common/giphycontent/premiumcartoon1.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "YesIKnowCartoonGifs",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes, thanks",
+              "fr": "oui, merci",
+              "es": "sí, gracias"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoDontLikeCartoons",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "t5XqW33a9VYSQ"
+          }
+        }
+      ]
+    }
+  ]
+}
