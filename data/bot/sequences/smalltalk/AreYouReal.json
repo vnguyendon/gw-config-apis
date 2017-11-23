@@ -5,9 +5,39 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Hey! I’m trapped inside your phone! Are you human?",
-        "fr": "Coucou ! Je suis piégé dans ton téléphone ! Tu es un humain, c'est ça ?",
-        "es": "¡Hola! Estoy entrampado en tu teléfono. ¿Eres humano?"
+        "en": "Hey! 🙂",
+        "fr": "Coucou ! 🙂",
+        "es": "¡Hola! 🙂"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 1000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’m trapped inside your phone...",
+        "fr": "Je suis piégé dans ton téléphone...",
+        "es": "Estoy entrampado en tu teléfono..."
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you human?",
+        "fr": "Tu es un humain, c'est ça ?",
+        "es": "¿Eres humano?"
       }
     }
   ],
@@ -15,7 +45,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "YesImreal",
+      "Id": "YesImHuman",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "yes",
@@ -29,9 +59,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "And is it fun to be human?",
-              "fr": "Et c'est amusant d'être un humain ?",
-              "es": "¿Y es divertido ser humano?"
+              "en": "And is it fun to be human? 🤔",
+              "fr": "Et c'est amusant d'être un humain ? 🤔",
+              "es": "¿Y es divertido ser humano? 🤔"
             }
           }
         ],
@@ -51,6 +81,21 @@
                   "Source": "Giphy",
                   "Path": "xUA7bjfr8Q1BB3LbJm"
                 }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good to know! 😄",
+                  "fr": "C'est bon à savoir 😄",
+                  "es": "Es bueno saberlo 😄"
+                }
               }
             ]
           },
@@ -68,11 +113,10 @@
               "Steps": [
                 {
                   "Type": "Text",
-                  "Id": "1",
                   "Label": {
-                    "en": "Which is your favorite?",
-                    "fr": "Lequel préfères-tu ?",
-                    "es": "¿Cuál es tu favorito?"
+                    "en": "Really? And which is your favorite?",
+                    "fr": "Vraiment ? Et lequel préfères-tu ?",
+                    "es": "¿Verdad? ¿Y cuál es tu favorito?"
                   }
                 }
               ],
@@ -84,7 +128,32 @@
                     "en": "😂",
                     "fr": "😂",
                     "es": "😂"
-                  }
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "😂😂😂😂😂",
+                        "fr": "😂😂😂😂😂",
+                        "es": "😂😂😂😂😂"
+                      }
+                    }
+                  ]
                 },
                 {
                   "Type": "Leaf",
@@ -93,7 +162,32 @@
                     "en": "💩",
                     "fr": "💩",
                     "es": "💩"
-                  }
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "💩💩💩💩💩",
+                        "fr": "💩💩💩💩💩",
+                        "es": "💩💩💩💩💩"
+                      }
+                    }
+                  ]
                 },
                 {
                   "Type": "Leaf",
@@ -102,7 +196,32 @@
                     "en": "😻",
                     "fr": "😻",
                     "es": "😻"
-                  }
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "😻😻😻😻😻",
+                        "fr": "😻😻😻😻😻",
+                        "es": "😻😻😻😻😻"
+                      }
+                    }
+                  ]
                 },
                 {
                   "Type": "Leaf",
@@ -111,7 +230,32 @@
                     "en": "🙈",
                     "fr": "🙈",
                     "es": "🙈"
-                  }
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "🙈🙈🙈🙈🙈",
+                        "fr": "🙈🙈🙈🙈🙈",
+                        "es": "🙈🙈🙈🙈🙈"
+                      }
+                    }
+                  ]
                 }
               ]
             }
@@ -134,7 +278,21 @@
         "Steps": [
           {
             "Type": "Text",
-            "Id": "1",
+            "Label": {
+              "en": "Really?",
+              "fr": "Vraiment ?",
+              "es": "¿Verdad?"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "Text",
             "Label": {
               "en": "What are you then?",
               "fr": "Dans ce cas, qu'est-ce que tu es ?",
@@ -156,7 +314,22 @@
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
-                  "Path": "SdA8j9rOcQwTe"
+                  "Path": "ktI31VYb7oG6k"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow, impressive!",
+                  "fr": "Wouah, impressionnant !",
+                  "es": "¡Guay, impresionante!"
                 }
               }
             ]
@@ -176,6 +349,21 @@
                   "Source": "Giphy",
                   "Path": "KlZUpkygM5hCM"
                 }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow, impressive!",
+                  "fr": "Wouah, impressionnant !",
+                  "es": "¡Guay, impresionante!"
+                }
               }
             ]
           },
@@ -194,6 +382,21 @@
                   "Source": "Giphy",
                   "Path": "xkhn6Ry4taRtC"
                 }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Aww, so cute!",
+                  "fr": "Ooh, trop mignon !",
+                  "es": "¡Qué lindo!"
+                }
               }
             ]
           },
@@ -211,6 +414,21 @@
                 "Parameters": {
                   "Source": "Giphy",
                   "Path": "Zy79ySAjpMynS"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Aww, so cute!",
+                  "fr": "Ooh, trop mignon !",
+                  "es": "¡Qué lindo!"
                 }
               }
             ]
