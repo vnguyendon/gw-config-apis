@@ -116,9 +116,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Oh, no problem!",
-            "fr": "Oh, pas de souci !",
-            "es": "Oh, ¡no problema!"
+            "en": "No problem!",
+            "fr": "Pas de souci !",
+            "es": "¡No problema!"
           }
         },
         {
