@@ -1,213 +1,363 @@
 {
-    "Type": "Node",
-    "Id": "DoYouLikePoems",
-    "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Do you like poems?",
-          "fr": "Tu aimes la poésie ?",
-          "es": "¿Te gusta la poesía?"
-        }
+  "Type": "Node",
+  "Id": "DoYouLikePoems",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like poems?",
+        "fr": "Tu aimes la poésie ?",
+        "es": "¿Te gusta la poesía?"
       }
-    ],
-    "Randomize": "true",
-    "Commands": [
-      {
-        "Type": "Node",
-        "Id": "YesLikePoems",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "yes",
-          "fr": "oui",
-          "es": "sí"
-        },
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "WhatDoYouThinkCard",
-          "Steps": [
-            {
-              "Type": "Action",
-              "Name": "ShowCards",
-              "Parameters": {
-                "Type": "TextImage",
-                "Id": "43B296"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "What do you think of this one?",
-                "fr": "Qu'en penses-tu ?",
-                "es": "¿Qué piensas de eso?"
-              }
-            }
-          ],
-          "Commands": [
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "great!",
-                "fr": "super !",
-                "es": "¡estupendo!"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Thank you for sharing your opinion with me 🌼",
-                    "fr": "Merci de m'avoir donné ton avis 🌼",
-                    "es": "Gracias por darme tu opinión 🌼"
-                  }
-                }
-              ]
-            },
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "nice",
-                "fr": "sympa",
-                "es": "bueno"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Thank you for sharing your opinion with me 🌼",
-                    "fr": "Merci de m'avoir donné ton avis 🌼",
-                    "es": "Gracias por darme tu opinión 🌼"
-                  }
-                }
-              ]
-            },
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "not so good",
-                "fr": "pas terrible",
-                "es": "nada bueno"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Still, thank you for sharing your opinion with me 🌼",
-                    "fr": "D'accord, merci quand même de m'avoir donné ton avis 🌼",
-                    "es": "Gracias de todos modos por darme tu opinión 🌼"
-                  }
-                }
-              ]
-            }
-          ]
-        }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesLikePoems",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
       },
-      {
+      "LinksTo": {
         "Type": "Node",
-        "Id": "NoDontLikePoems",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "no",
-          "fr": "non",
-          "es": "no"
-        },
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "WhatDoYouThinkGif",
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "But maybe you'll like poetic gifs!",
-                "fr": "Mais peut-être que tu aimeras les gifs poétiques !",
-                "es": "¡A lo mejor te gustarán poéticos gifs!"
-              }
-            },
-            {
-              "Type": "Action",
-              "Name": "ShowCards",
-              "Parameters": {
-                "Type": "Gif",
-                "Id": "/data/common/giphycontent/poems.json"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "What do you think of this one?",
-                "fr": "Qu'en penses-tu ?",
-                "es": "¿Qué piensas de eso?"
-              }
+        "Id": "WhatDoYouThinkCard",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Great!",
+              "fr": "Cool !",
+              "es": "¡Genial!"
             }
-          ],
-          "Commands": [
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "great!",
-                "fr": "super !",
-                "es": "¡estupendo!"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Thank you for sharing your opinion with me 🌼",
-                    "fr": "Merci de m'avoir donné ton avis 🌼",
-                    "es": "Gracias por darme tu opinión 🌼"
-                  }
-                }
-              ]
-            },
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "nice",
-                "fr": "sympa",
-                "es": "bueno"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Thank you for sharing your opinion with me 🌼",
-                    "fr": "Merci de m'avoir donné ton avis 🌼",
-                    "es": "Gracias por darme tu opinión 🌼"
-                  }
-                }
-              ]
-            },
-            {
-              "Type": "Leaf",
-              "Id": "Great",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "not so good",
-                "fr": "pas terrible",
-                "es": "nada bueno"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Still, thank you for sharing your opinion with me 🌼",
-                    "fr": "D'accord, merci quand même de m'avoir donné ton avis 🌼",
-                    "es": "Gracias de todos modos por darme tu opinión 🌼"
-                  }
-                }
-              ]
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
             }
-          ]
-        }
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowCards",
+            "Parameters": {
+              "Type": "TextImage",
+              "Id": "43B296"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 4000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "What do you think of this one?",
+              "fr": "Qu'en penses-tu ?",
+              "es": "¿Qué piensas de eso?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "very good!",
+              "fr": "très joli !",
+              "es": "¡muy bueno!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thank you for sharing your opinion with me 🌼",
+                  "fr": "Merci de m'avoir donné ton avis 🌼",
+                  "es": "Gracias por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "nice",
+              "fr": "sympa",
+              "es": "bueno"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thank you for sharing your opinion with me 🌼",
+                  "fr": "Merci de m'avoir donné ton avis 🌼",
+                  "es": "Gracias por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "not so good",
+              "fr": "pas terrible",
+              "es": "nada bueno"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Oh, okay...",
+                  "fr": "Oh, d'accord...",
+                  "es": "Oh, vale..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Still, thank you for sharing your opinion with me 🌼",
+                  "fr": "D'accord, merci quand même de m'avoir donné ton avis 🌼",
+                  "es": "Gracias de todos modos por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          }
+        ]
       }
-    ]
-  }
+    },
+    {
+      "Type": "Node",
+      "Id": "NoDontLikePoems",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatDoYouThinkGif",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "But maybe you'll like poetic gifs!",
+              "fr": "Mais peut-être que tu aimeras les gifs poétiques !",
+              "es": "¡A lo mejor te gustarán poéticos gifs!"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowCards",
+            "Parameters": {
+              "Type": "Gif",
+              "Id": "/data/common/giphycontent/poems.json"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "What do you think of this one?",
+              "fr": "Qu'en penses-tu ?",
+              "es": "¿Qué piensas de eso?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "great!",
+              "fr": "super !",
+              "es": "¡estupendo!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thank you for sharing your opinion with me 🌼",
+                  "fr": "Merci de m'avoir donné ton avis 🌼",
+                  "es": "Gracias por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "nice",
+              "fr": "sympa",
+              "es": "bueno"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thank you for sharing your opinion with me 🌼",
+                  "fr": "Merci de m'avoir donné ton avis 🌼",
+                  "es": "Gracias por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "not so good",
+              "fr": "pas terrible",
+              "es": "nada bueno"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Oh, okay...",
+                  "fr": "Oh, d'accord...",
+                  "es": "Oh, vale..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Still, thank you for sharing your opinion with me 🌼",
+                  "fr": "D'accord, merci quand même de m'avoir donné ton avis 🌼",
+                  "es": "Gracias de todos modos por darme tu opinión 🌼"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "q9lNzUPfLAbBK"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
