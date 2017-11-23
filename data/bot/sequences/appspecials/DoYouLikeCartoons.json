@@ -22,34 +22,32 @@
         "fr": "oui !",
         "es": "¡sí!"
       },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Me too 😍",
-            "fr": "Moi aussi 😍",
-            "es": "A mi también 😍"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "bCcxY1ADkAqfS"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        }
-      ],
       "LinksTo": {
         "Type": "Node",
         "Id": "HaveYouSeenCartoonGifs",
         "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Me too 😍",
+              "fr": "Moi aussi 😍",
+              "es": "A mi también 😍"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "bCcxY1ADkAqfS"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
           {
             "Type": "Text",
             "Label": {
