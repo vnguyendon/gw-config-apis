@@ -115,105 +115,105 @@
                 }
               ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoImNotreal",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatAreYou",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "1",
+            "Label": {
+              "en": "What are you then?",
+              "fr": "Dans ce cas, qu'est-ce que tu es ?",
+              "es": "En este caso, ¿qué eres?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "ImABot",
+            "CommandLabel": {
+              "en": "a bot",
+              "fr": "un robot",
+              "es": "un robot"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "SdA8j9rOcQwTe"
+                }
+              }
+            ]
           },
           {
             "Type": "Leaf",
-            "Id": "NoImNotreal",
-            "ElementValue": "1",
+            "Id": "ImaUnicorn",
             "CommandLabel": {
-              "en": "no",
-              "fr": "non",
-              "es": "no"
+              "en": "a unicorn",
+              "fr": "une licorne",
+              "es": "un unicornio"
             },
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "WhatAreYou",
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Id": "1",
-                  "Label": {
-                    "en": "What are you then?",
-                    "fr": "Dans ce cas, qu'est-ce que tu es ?",
-                    "es": "En este caso, ¿qué eres?"
-                  }
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "KlZUpkygM5hCM"
                 }
-              ],
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "ImABot",
-                  "CommandLabel": {
-                    "en": "a bot",
-                    "fr": "un robot",
-                    "es": "un robot"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "SdA8j9rOcQwTe"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "ImaUnicorn",
-                  "CommandLabel": {
-                    "en": "a unicorn",
-                    "fr": "une licorne",
-                    "es": "un unicornio"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "KlZUpkygM5hCM"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "ImaPanda",
-                  "CommandLabel": {
-                    "en": "a panda",
-                    "fr": "un panda",
-                    "es": "un panda"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "xkhn6Ry4taRtC"
-                      }
-                    }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "ImanAlien",
-                  "CommandLabel": {
-                    "en": "an alien",
-                    "fr": "un extraterrestre",
-                    "es": "un extraterrestre"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "AnimatedGif",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "Zy79ySAjpMynS"
-                      }
-                    }
-                  ]
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ImaPanda",
+            "CommandLabel": {
+              "en": "a panda",
+              "fr": "un panda",
+              "es": "un panda"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "xkhn6Ry4taRtC"
                 }
-              ]
-            }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ImanAlien",
+            "CommandLabel": {
+              "en": "an alien",
+              "fr": "un extraterrestre",
+              "es": "un extraterrestre"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "Zy79ySAjpMynS"
+                }
+              }
+            ]
           }
         ]
       }
