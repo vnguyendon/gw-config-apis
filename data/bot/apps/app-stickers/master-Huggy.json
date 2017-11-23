@@ -15,7 +15,7 @@
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"]},
     { "order" : 10, "file":["/data/bot/sequences/settings/Age.json"]},
-    { "order" : 10, "file":["/data/bot/sequences/settings/AreYouSingle.json"]},
+    { "order" : 2, "file":["/data/bot/sequences/settings/AreYouSingle.json", "/data/bot/sequences/settings/Age.json", "/data/bot/sequences/appspecials/RateUs.json","/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/RateUs.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
