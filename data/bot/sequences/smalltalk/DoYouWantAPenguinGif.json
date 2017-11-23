@@ -1,81 +1,149 @@
 {
-    "Type": "Node",
-    "Id": "DoYouWantAPenguinGif",
-    "Steps": [
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "Can I show you my funniest penguin gif?",
-          "fr": "Je peux te montrer mon meilleur gif de pingouin ?",
-          "es": "¿Puedo mostrarte mi gif de pingüino lo más divertido?"
+  "Type": "Node",
+  "Id": "DoYouWantAPenguinGif",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Can I show you my funniest penguin gif? 🐧",
+        "fr": "Je peux te montrer mon meilleur gif de pingouin ? 🐧",
+        "es": "¿Puedo mostrarte mi gif de pingüino lo más divertido? 🐧"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FunnyPenguinYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "3...",
+            "fr": "3...",
+            "es": "3..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "2...",
+            "fr": "2...",
+            "es": "2..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "1...",
+            "fr": "1...",
+            "es": "1..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11StaZ9Lj74oCY"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😆",
+            "fr": "😆",
+            "es": "😆"
+          }
         }
-      }
-    ],
-    "Commands": [
-      {
-        "Type": "Leaf",
-        "Id": "FunnyPenguinYes",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "Yes",
-          "fr": "Oui",
-          "es": "Sí"
-        },
-        "Steps": [
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "11StaZ9Lj74oCY"
-            }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": ";-)",
-              "fr": ";-)",
-              "es": ";-)"
-            }
-          }
-        ]
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FunnyPenguinNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
       },
-      {
-        "Type": "Leaf",
-        "Id": "FunnyPenguinNo",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "No",
-          "fr": "Non",
-          "es": "No"
-        },
-        "Steps": [
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "yMNNk7LgImRws"
-            }
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "yMNNk7LgImRws"
           }
-        ]
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IPreferKittens",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I prefer kittens",
+        "fr": "Plutôt un chaton",
+        "es": "Prefiero gatitos"
       },
-      {
-        "Type": "Leaf",
-        "Id": "IPreferKittens",
-        "ElementValue": "1",
-        "CommandLabel": {
-          "en": "I prefer kittens",
-          "fr": "Plutôt un chaton",
-          "es": "Preferio gatitos"
-        },
-        "Steps": [
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "VxbvpfaTTo3le"
-            }
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh, no problem!",
+            "fr": "Oh, pas de souci !",
+            "es": "Oh, ¡no problema!"
           }
-        ]
-      }
-    ]
-  }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VxbvpfaTTo3le"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😉",
+            "fr": "😉",
+            "es": "😉"
+          }
+        }
+      ]
+    }
+  ]
+}
