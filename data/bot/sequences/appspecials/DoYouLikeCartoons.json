@@ -5,17 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Cinderella, The Lion King, Beauty and the Beast...",
-        "fr": "Cendrillon, Le Roi Lion, La Belle et la Bête...",
-        "es": "La cenicienta, El rey león, La bella y la bestia..."
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Do you like cartoons?",
-        "fr": "Tu aimes les dessins animés ?",
-        "es": "¿Te gustan las películas de animación?"
+        "en": "Do you like cartoons? Like the Disney ones for example 👑",
+        "fr": "Tu aimes les dessins animés ? Comme les Disney par exemple 👑",
+        "es": "¿Te gustan las películas de animación? Como los Disney por ejemplo 👑"
       }
     }
   ],
@@ -45,6 +37,13 @@
             "Source": "Giphy",
             "Path": "bCcxY1ADkAqfS"
           }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
         }
       ],
       "LinksTo": {
@@ -54,7 +53,7 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "Have you seen my special selections of gifs from the most famous cartoons?",
+              "en": "Have you seen my special selection of gifs from the most famous cartoons?",
               "fr": "As-tu remarqué ma sélection de gifs des meilleurs dessins animés ?",
               "es": "¿Has visto mi seleccion de gifs de los mejores dibujados animados?"
             }
@@ -89,7 +88,24 @@
               "en": "yes, thanks",
               "fr": "oui, merci",
               "es": "sí, gracias"
-            }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I hope you liked them 💛",
+                  "fr": "J'espère qu'ils t'ont plu 💛",
+                  "es": "Espero que te hayan gustado 💛"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "11cwuBQ4TLa8FO"
+                }
+              }
+            ]
           }
         ]
       }
