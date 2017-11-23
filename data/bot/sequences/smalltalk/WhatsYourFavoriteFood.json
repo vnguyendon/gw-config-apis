@@ -11,10 +11,24 @@
       }
     },
     {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 3000
+      }
+    },
+    {
       "Type": "AnimatedGif",
       "Parameters": {
         "Source": "Giphy",
         "Path": "CfVkPSj1rSxVe"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
       }
     },
     {
@@ -46,6 +60,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Mmm, it looks so tasty!",
@@ -69,6 +90,13 @@
           "Parameters": {
             "Source": "Giphy",
             "Path": "l0K4lPx8bvdbFMdGM"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         },
         {
@@ -98,6 +126,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Mmm, it looks so tasty!",
@@ -124,6 +159,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Mmm, it looks so tasty!",
@@ -147,6 +189,13 @@
           "Parameters": {
             "Source": "Giphy",
             "Path": "a0N6ZmPmzGIPm"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         },
         {
