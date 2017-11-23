@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "CreateAnimatedEmoji",
+    "Id": "DoYouWantAPenguinGif",
     "Steps": [
       {
         "Type": "Text",
