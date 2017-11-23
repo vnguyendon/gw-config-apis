@@ -15,7 +15,7 @@
     "Commands": [
       {
         "Type": "Leaf",
-        "Id": "EighteenLess",
+        "Id": "SingleYes",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "Yes",
@@ -35,7 +35,7 @@
       },
       {
         "Type": "Leaf",
-        "Id": "SixtyFourMore",
+        "Id": "SingleNo",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "No",
