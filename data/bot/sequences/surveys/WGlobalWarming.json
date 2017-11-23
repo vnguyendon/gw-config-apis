@@ -20,22 +20,6 @@
       }
     },
     {
-      "Type": "AnimatedGif",
-      "Id": "30",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "K3feu0r6u74SQ"
-      }
-    },
-    {
-      "Type": "Pause",
-      "Id": "40",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 2000
-      }
-    },
-    {
       "Type": "Text",
       "Id": "50",
       "Label": {
