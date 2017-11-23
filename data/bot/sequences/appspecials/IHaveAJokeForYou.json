@@ -22,28 +22,26 @@
         "fr": "Vas-y!",
         "es": "¡Vamos!"
       },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "ShowCards",
-          "Parameters": {
-            "Type": "Text",
-            "Id": "0B1EA1"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "😁",
-            "fr": "😁",
-            "es": "😁"
-          }
-        }
-      ],
       "LinksTo": {
         "Type": "Node",
         "Id": "WantMoreJokes",
         "Steps": [
+          {
+            "Type": "Action",
+            "Name": "ShowCards",
+            "Parameters": {
+              "Type": "Text",
+              "Id": "0B1EA1"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "😁",
+              "fr": "😁",
+              "es": "😁"
+            }
+          },
           {
             "Type": "Text",
             "Label": {
@@ -68,8 +66,8 @@
                 "Type": "Action",
                 "Name": "RedirectTo",
                 "Parameters": {
-                  "Type": "Text",
-                  "Id": "0B1EA1"
+                  "Type": "TextCategory",
+                  "Path": "0B1EA1"
                 }
               }
             ]
