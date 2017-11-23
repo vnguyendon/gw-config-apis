@@ -51,9 +51,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "Have you seen my special selection of gifs from the most famous cartoons?",
-              "fr": "As-tu remarqué ma sélection de gifs des meilleurs dessins animés ?",
-              "es": "¿Has visto mi seleccion de gifs de los mejores dibujados animados?"
+              "en": "Would you like to see my special selection of gifs from the most famous cartoons?",
+              "fr": "Voudrais-tu voir ma sélection de gifs tirés des meilleurs dessins animés ?",
+              "es": "¿Querrías ver mi selección de gifs de los mejores dibujados animados?"
             }
           }
         ],
@@ -63,9 +63,9 @@
             "Id": "ShowMeCartoonGifs",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "no, show me!",
-              "fr": "non, montre-moi !",
-              "es": "no, ¡muéstrame!"
+              "en": "yes, show me!",
+              "fr": "oui, montre-moi !",
+              "es": "sí, ¡muéstrame!"
             },
             "Steps": [
               {
@@ -83,17 +83,17 @@
             "Id": "YesIKnowCartoonGifs",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "yes, thanks",
-              "fr": "oui, merci",
-              "es": "sí, gracias"
+              "en": "no, thanks",
+              "fr": "non, merci",
+              "es": "no, gracias"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "I hope you liked them 💛",
-                  "fr": "J'espère qu'ils t'ont plu 💛",
-                  "es": "Espero que te hayan gustado 💛"
+                  "en": "At your service 💛",
+                  "fr": "A ton service 💛",
+                  "es": "A tu servicio 💛"
                 }
               },
               {
