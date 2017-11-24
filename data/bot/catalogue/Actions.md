@@ -126,9 +126,10 @@ Example 1 with a Tab redirection:
             {
               "Type": "Action",
               "Name": "RedirectTo"
-              "Parameters":
+              "Parameters": {
                   "Type": "Tab",
                   "Path": "UsefulMessages"
+                  }
             }
         ]
 
@@ -142,9 +143,10 @@ Example 2 with a Feature redirection:
             {
               "Type": "Action",
               "Name": "RedirectTo"
-              "Parameters":
+              "Parameters": {
                   "Type": "Feature",
                   "Path": "CreateAnimatedEmoji"
+                  }
             }
         ]
 
@@ -159,9 +161,10 @@ Example 3 with a Content redirection:
             {
               "Type": "Action",
               "Name": "RedirectTo"
-              "Parameters":
+              "Parameters": {
                   "Type": "ImageCategory",
                   "Path": "/themes/emoticons/small"
+                  }
             }
         ]
 
@@ -176,9 +179,10 @@ Example 4 with a Content redirection:
             {
               "Type": "Action",
               "Name": "RedirectTo"
-              "Parameters":
+              "Parameters": {
                   "Type": "GifCategory",
                   "Path": "/data/common/giphycontent/bored.json"
+                  }
             }
         ]
 
@@ -192,9 +196,10 @@ Example 5 with a Tab redirection:
             {
               "Type": "Action",
               "Name": "RedirectTo"
-              "Parameters":
+              "Parameters": {
                   "Type": "Tab",
                   "Path": "Recipients"
+                   }
             }
         ]
 
@@ -342,9 +347,10 @@ Example 1 - calling for a card made of text + image
             {
               "Type": "Action",
               "Name": "ShowCards",
-              "Parameters":
+              "Parameters": {
                   "Type": "TextImage",
                   "Id": "43B296"
+                  }
             }
         ]
 
@@ -355,9 +361,10 @@ Example 2 - calling for a card made of text only
             {
               "Type": "Action",
               "Name": "ShowCards",
-              "Parameters":
+              "Parameters": {
                   "Type": "Text",
                   "Id": "43B296"
+                  }
             }
         ]
 
@@ -369,9 +376,10 @@ Example 3 - calling for a card made of 1 image only
             {
               "Type": "Action",
               "Name": "ShowCards",
-              "Parameters":
+              "Parameters": {
                   "Type": "Image",
                   "Id": "themes/kittens"
+                  }
             }
         ]
 
@@ -382,9 +390,10 @@ Example 4 - calling for a card made of 1 GIF only
             {
               "Type": "Action",
               "Name": "ShowCards",
-              "Parameters":
+              "Parameters": {
                   "Type": "Gif",
                   "Id": "/data/common/giphycontent/animals.json"
+                  }
             }
         ]
 
@@ -424,9 +433,10 @@ The `"ShowCardsWithMenu"` action needs to be inserted inside a Step hash, in lin
             {
               "Type": "Action",
               "Name": "ShowCardsWithMenu",
-              "Parameters":
+              "Parameters": {
                   "Type": "TextImage",
                   "Id": "43B296"
+                  }
             }
         ]
 
@@ -462,9 +472,9 @@ Example 1 - calling for a card made of text + image
             {
               "Type": "Action",
               "Name": "ShowTrendingContent",
-              "Parameters":
-                  "Type": "TextImage",
-
+              "Parameters": {
+                  "Type": "TextImage"
+                   }
             }
         ]
 
@@ -475,8 +485,9 @@ Example 2 - calling for a card made of text only
             {
               "Type": "Action",
               "Name": "ShowTrendingContent",
-              "Parameters":
-                  "Type": "Text",
+              "Parameters": {
+                  "Type": "Text"
+                   }
             }
         ]
 
@@ -487,8 +498,9 @@ Example 3 - calling for a card made of 1 image only
             {
               "Type": "Action",
               "Name": "ShowTrendingContent",
-              "Parameters":
-                  "Type": "Gif",
+              "Parameters": {
+                  "Type": "Gif"
+                  }
             }
         ]
 
@@ -528,8 +540,9 @@ The `"ShowTrendingContentWithMenu"` action needs to be inserted inside a Step ha
             {
               "Type": "Action",
               "Name": "ShowTrendingContentWithMenu",
-              "Parameters":
-                  "Type": "TextImage",
+              "Parameters": {
+                  "Type": "TextImage"
+                   }
             }
         ]
 
