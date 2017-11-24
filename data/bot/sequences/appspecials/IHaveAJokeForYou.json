@@ -64,10 +64,10 @@
             "Steps": [
               {
                 "Type": "Action",
-                "Name": "RedirectTo",
+                "Name": "ShowCards",
                 "Parameters": {
-                  "Type": "TextCategory",
-                  "Path": "0B1EA1"
+                  "Type": "Text",
+                  "Id": "0B1EA1"
                 }
               }
             ]
