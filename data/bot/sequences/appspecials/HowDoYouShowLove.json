@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "HowDoYouShowLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How do you prefer to show your love?",
+        "fr": "Comment préfères-tu montrer ton amour?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LoveWithHugs",
+      "CommandLabel": {
+        "en": "With hugs",
+        "fr": "Avec des calins",
+        "es": "Con abrazos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResult"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/data/common/giphycontent/hugs.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LoveWithFlowers",
+      "CommandLabel": {
+        "en": "With flowers",
+        "fr": "Avec des fleurs",
+        "es": "Con flores"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResult"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/data/common/giphycontent/flowers.json"
+          }
+        }
+      ]
+    }
+  ]
+}
