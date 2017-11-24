@@ -302,7 +302,7 @@
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
-                  "Path": "q9lNzUPfLAbBK"
+                  "Id": "q9lNzUPfLAbBK"
                 }
               }
             ]
