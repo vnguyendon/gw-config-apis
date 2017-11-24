@@ -73,7 +73,7 @@
                 "Name": "RedirectTo",
                 "Parameters": {
                   "Type": "GifCategory",
-                  "Id": "/data/common/giphycontent/premiumcartoon1.json"
+                  "Path": "/data/common/giphycontent/premiumcartoon1.json"
                 }
               }
             ]
