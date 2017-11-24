@@ -31,13 +31,6 @@
           }
         },
         {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 1000
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "2...",
@@ -46,25 +39,11 @@
           }
         },
         {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 1000
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "1...",
             "fr": "1...",
             "es": "1..."
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 1000
           }
         },
         {
@@ -119,13 +98,6 @@
             "en": "No problem!",
             "fr": "Pas de souci !",
             "es": "¡No problema!"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
           }
         },
         {
