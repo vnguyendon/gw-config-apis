@@ -8,7 +8,6 @@
     { "order" : 5, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
     { "order" : 6, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
     { "order" : 7, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json"]},
-    { "order" : 8, "file":["/data/bot/sequences/smalltalk/HaveYouRegrets.json"]},
     { "order" : 9, "file":["/data/bot/sequences/smalltalk/IsThereSomeone.json"]},
     { "order" : 11, "file":["/data/bot/sequences/smalltalk/LateBirthday.json"]},
     { "order" : 12, "file":["/data/bot/sequences/smalltalk/RealBot.json"]},
