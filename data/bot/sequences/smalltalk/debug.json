@@ -1,0 +1,66 @@
+{
+  "Type": "Node",
+  "Id": "HowAboutMessageSuggestions",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you want message suggestions?",
+        "fr": "Quelques idées de messages?",
+        "es": "¿Quieres ideas de mensajes?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SuggestionsJoke",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Jokes",
+        "fr": "Blagues",
+        "es": "Bromas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "0B1EA1"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SuggestionsPoems",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Poems",
+        "fr": "Poèmes",
+        "es": "Poemas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "43B296"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SuggestionsNo",
+      "ElementValue": "0",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
