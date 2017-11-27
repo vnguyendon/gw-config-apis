@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "JohnnyDeppOrMorganFreeman",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Who is the best actor?",
+        "fr": "Qui est le meilleur acteur ?",
+        "es": "¿Quién es el mejor actor?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JohnnyDepp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Johnny Depp",
+        "fr": "Johnny Depp",
+        "es": "Johnny Depp"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10XL4Fr1cr2sE0"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MorganFreeman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Morgan Freeman",
+        "fr": "Morgan Freeman",
+        "es": "Morgan Freeman"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "J4JN1fW9HsOHu"
+          }
+        }
+      ]
+    }
+  ]
+}
