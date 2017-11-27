@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GreatestSportsmanBoltOrAli",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Who is the greatest sportsman?",
+        "fr": "Qui est le plus grand sportif ?",
+        "es": "¿Quién es el más grande deportista?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "UsainBolt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Usain Bolt",
+        "fr": "Usain Bolt",
+        "es": "Usain Bolt"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT0BKthtIEdrXWrjFu"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MuhammadAli",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Muhammad Ali",
+        "fr": "Mohamed Ali",
+        "es": "Muhammad Ali"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "OoiCAPb4gZYOs"
+          }
+        }
+      ]
+    }
+  ]
+}
