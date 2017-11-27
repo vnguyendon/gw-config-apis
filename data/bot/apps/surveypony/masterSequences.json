@@ -11,11 +11,10 @@
     "SequenceFiles" : [
       { "order" : 12, "file": "/data/bot/sequences/surveys/WCatsOrDogs.json"},
       { "order" : 15, "file": "/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"},
-      { "order" : 16, "file": "/data/bot/sequences/surveys/WGlobalWarming.json"},
       { "order" : 17, "file": "/data/bot/sequences/surveys/WLoveOrFriendship.json"},
+      { "order" : 18, "file": "/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"},
       { "order" : 19, "file": "/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"},
       { "order" : 20, "file": "/data/bot/sequences/surveys/WEasyToSayILoveYou.json"},
-      { "order" : 26, "file": "/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"},
       { "order" : 27, "file": "/data/bot/sequences/surveys/WSpendTheWEAloneOrWithFriends.json"},
       { "order" : 28, "file": "/data/bot/sequences/surveys/WHavingChildrenImproveLife.json"},
       { "order" : 30, "file": "/data/bot/sequences/surveys/WKindOrFunny.json"},
@@ -24,11 +23,14 @@
       { "order" : 34, "file": "/data/bot/sequences/surveys/WMoneyOrLove.json"},
       { "order" : 36, "file": "/data/bot/sequences/surveys/WMoreImportantTalkOrListen.json"},
       { "order" : 38, "file": "/data/bot/sequences/surveys/WOptimisticOrPessimistic.json"},
+      { "order" : 39, "file": "/data/bot/sequences/surveys/NicoleKidmanOrAngelinaJolie.json"},
       { "order" : 40, "file": "/data/bot/sequences/surveys/WPassionOrIndependence.json"},
       { "order" : 45, "file": "/data/bot/sequences/surveys/WFacebookOrInstagram.json"},
       { "order" : 50, "file": "/data/bot/sequences/surveys/WQualityofBooksorFood.json"},
       { "order" : 60, "file": "/data/bot/sequences/surveys/WAbandonPizzaOrChocolate.json"},
       { "order" : 70, "file": "/data/bot/sequences/surveys/WHappyToLoseWeight.json"},
+      { "order" : 80, "file": "/data/bot/sequences/surveys/JohnnyDeppOrMorganFreeman.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/WGlobalWarming.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/ClimateChangeManMade.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/ParentsHadItEasier.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/NewspapersAccuratePicture.json"},
@@ -147,7 +149,10 @@
       { "order" : 100, "file": "/data/bot/sequences/surveys/YouHelpWomenOrChildren.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/YouPreferFishOrMeat.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/YourCountryGoodExampleYesNo.json"},
-      { "order" : 100, "file": "/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"}
+      { "order" : 100, "file": "/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/FlyingOrReadingThoughts.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/GreatestSportsmanBoltOrAli.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsBanDieselCars.json"}
     ]
   }
 ]
