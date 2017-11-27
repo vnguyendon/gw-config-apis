@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NicoleKidmanOrAngelinaJolie",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which actress do you prefer?",
+        "fr": "Quelle actrice préfères-tu ?",
+        "es": "¿Qué actriz prefieres?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NicoleKidman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nicole Kidman",
+        "fr": "Nicole Kidman",
+        "es": "Nicole Kidman"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ASO0ZtEXyTUiY"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AngelinaJolie",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Angelina Jolie",
+        "fr": "Angelina Jolie",
+        "es": "Angelina Jolie"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "P88jBjwcuS7zW"
+          }
+        }
+      ]
+    }
+  ]
+}
