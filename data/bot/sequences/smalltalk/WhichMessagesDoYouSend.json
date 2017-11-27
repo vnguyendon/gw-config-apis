@@ -28,7 +28,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/love.json"
+            "Path": "/data/common/giphycontent/love.json"
           }
         },
         {
@@ -63,7 +63,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/hungry.json"
+            "Path": "/data/common/giphycontent/hungry.json"
           }
         },
         {
@@ -98,7 +98,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/best.json"
+            "Path": "/data/common/giphycontent/best.json"
           }
         },
         {
@@ -133,7 +133,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/I-am-the-best.json"
+            "Path": "/data/common/giphycontent/I-am-the-best.json"
           }
         },
         {
