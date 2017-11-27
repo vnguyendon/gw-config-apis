@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FlyingOrReadingThoughts",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which superpower would you choose?",
+        "fr": "Quel super-pouvoir choisirais-tu?",
+        "es": "¿Qué superpoder elegirías?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Flying",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "flying",
+        "fr": "voler",
+        "es": "volar"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "B5BP3OYgVN5ss"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ReadingThoughts",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "reading thoughts",
+        "fr": "lire les pensées",
+        "es": "leer la mente"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "g8zEXoRJzeRnW"
+          }
+        }
+      ]
+    }
+  ]
+}
