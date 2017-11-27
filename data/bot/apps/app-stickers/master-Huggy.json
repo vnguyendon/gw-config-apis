@@ -1,7 +1,7 @@
 {
   "GroupName": "All",
   "SequenceFiles": [
-    { "order" : 13, "file":["/data/bot/sequences/smalltalk/WantMessageSuggestions].json"]},
+    { "order" : 13, "file":["/data/bot/sequences/smalltalk/WantMessageSuggestions.json"]},
     { "order" : 15, "file":["/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"]}
   ]
 }
