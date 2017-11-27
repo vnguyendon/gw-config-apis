@@ -3,9 +3,12 @@
   "Id": "ShowAnAdvert",
   "Steps": [
     {
-      "en": "Can I please show you an advert?",
-      "fr": "Puis-je te montrer une pub ?",
-      "es": "¿Te gustaría ver un anuncio?"
+      "Type": "Text",
+      "Label": {
+        "en": "Can I please show you an advert?",
+        "fr": "Puis-je te montrer une pub ?",
+        "es": "¿Te gustaría ver un anuncio?"
+      }
     }
   ],
   "Commands": [
