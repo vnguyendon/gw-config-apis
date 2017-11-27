@@ -10,7 +10,7 @@
     "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 12, "file": "/data/bot/sequences/surveys/WCatsOrDogs.json"},
-      { "order" : 15, "file": "/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"},
+      { "order" : 10 "file": "/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"},
       { "order" : 16, "file": "/data/bot/sequences/surveys/WGlobalWarming.json"},
       { "order" : 17, "file": "/data/bot/sequences/surveys/WLoveOrFriendship.json"},
       { "order" : 19, "file": "/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"},
