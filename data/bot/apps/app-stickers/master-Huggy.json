@@ -12,7 +12,6 @@
     { "order" : 11, "file":["/data/bot/sequences/smalltalk/LateBirthday.json"]},
     { "order" : 12, "file":["/data/bot/sequences/smalltalk/RealBot.json"]},
     { "order" : 13, "file":["/data/bot/sequences/smalltalk/WantMessageSuggestions].json"]},
-    { "order" : 14, "file":["/data/bot/sequences/smalltalk/WhatDoLikeSending.json"]},
     { "order" : 15, "file":["/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"]},
     { "order" : 16, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"]},
     { "order" : 17, "file":["/data/bot/sequences/settings/Age.json"]},
