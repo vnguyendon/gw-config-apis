@@ -53,7 +53,7 @@ Example:
 Here the first sequence to be displayed will be /data/bot/sequences/experiments/HowAreYou.json because it is assigned the number 10. The last sequence to be shown to the user will be /data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json, because it carries the largest number (19). 
 
 
-####### Important note: the `GroupName` should note have an impact on the ordering
+###### Important note: the `GroupName` should note have an impact on the ordering
 
 Example:
 
