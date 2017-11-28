@@ -28,6 +28,7 @@
       { "order" : 45, "file": "/data/bot/sequences/surveys/WFacebookOrInstagram.json"},
       { "order" : 50, "file": "/data/bot/sequences/surveys/WQualityofBooksorFood.json"},
       { "order" : 60, "file": "/data/bot/sequences/surveys/WAbandonPizzaOrChocolate.json"},
+      { "order" : 65, "file": "/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"},
       { "order" : 70, "file": "/data/bot/sequences/surveys/WHappyToLoseWeight.json"},
       { "order" : 80, "file": "/data/bot/sequences/surveys/JohnnyDeppOrMorganFreeman.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/WGlobalWarming.json"},
@@ -152,7 +153,11 @@
       { "order" : 100, "file": "/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/FlyingOrReadingThoughts.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/GreatestSportsmanBoltOrAli.json"},
-      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsBanDieselCars.json"}
+      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsBanDieselCars.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/AmazonOrMicrosoft.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/CountryBetterLooking.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"},
+      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsProhibitCigarettes.json"}
     ]
   }
 ]
