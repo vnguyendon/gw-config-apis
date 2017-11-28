@@ -1,0 +1,162 @@
+{
+  "Type": "Node",
+  "Id": "DoYouWatchRealityTV",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you watch a lot of Reality TV shows?",
+        "fr": "Tu regardes beaucoup d'émissions de téléréalité ?",
+        "es": "¿Miras muchos programas de telerrealidad?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesWatchRealityTV",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-WatchRealityTV-KimKardashianOrKylieJenner",
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Perfect, you might be able to help me in my popularity contest!",
+              "fr": "Parfait, tu vas peut-être pouvoir m'aider dans un concours de popularité !",
+              "es": "¡Perfecto, a lo mejor puedes ayudarme en mi concurso de popularidad!"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Who do you like the most?",
+              "fr": "Quelle star de télé-réalité préfères-tu ?",
+              "es": "¿Qué celebridad prefieres?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PreferKimKardashian",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Kim Kardashian",
+              "fr": "Kim Kardashian",
+              "es": "Kim Kardashian"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/165313j5NOs7Dj400x400.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PreferKylieJenner",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Kylie Jenner",
+              "fr": "Kylie Jenner",
+              "es": "Kylie Jenner"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/327346092217kyliejennerpregnantlead2.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoDontWatchRealityTV",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "w8oQzlXLnzPLq"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I should have known you were too clever for that! 😉",
+            "fr": "J'aurais dû savoir que tu es trop intelligent pour ça 😉",
+            "es": "Debí haber sabido que eres demasiado listo para eso 😉"
+          }
+        }
+      ]
+    }
+  ]
+}
