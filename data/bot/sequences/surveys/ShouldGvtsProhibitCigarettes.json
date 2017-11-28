@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ShouldGvtsProhibitCigarettes",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should governments prohibit cigarettes?",
+        "fr": "Les gouvernements devraient-ils interdire la cigarette ?",
+        "es": "¿Gobiernos deberían prohibir el cigarrillo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesGvtsShouldProhibitCigarettes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "iGlFO51WE0Dmg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoGvtsShouldntProhibitCigarettes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Pu3MzS917wZHi"
+          }
+        }
+      ]
+    }
+  ]
+}
