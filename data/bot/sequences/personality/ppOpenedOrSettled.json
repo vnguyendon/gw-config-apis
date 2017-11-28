@@ -38,6 +38,14 @@
           }
         },
         {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
