@@ -12,9 +12,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "(3/4) Your decisions arise from",
-        "fr": "(3/4) Vos décisions sont guidées par",
-        "es": "(3/4) Sus decisiones están guiadas por"
+        "en": "Your decisions arise from",
+        "fr": "Vos décisions sont guidées par",
+        "es": "Sus decisiones están guiadas por"
       }
     }
   ],
