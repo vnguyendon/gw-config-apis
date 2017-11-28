@@ -10,7 +10,7 @@
       { "order" : 20, "file": ["/data/bot/sequences/surveys/ShouldGvtsBanDieselCars.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/AmazonOrMicrosoft.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/CountryBetterLooking.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"]},
+      { "order" : 1, "file": ["/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/ShouldGvtsProhibitCigarettes.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"]},
