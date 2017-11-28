@@ -38,7 +38,7 @@ For this exemple, when you send HuggySequenceStart for the HowAreYou sequence, t
 Example:
 ```
   {
-    "GroupName":"All",
+    "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 10, "file": ["/data/bot/sequences/experiments/HowAreYou.json"]},
       { "order" : 11, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
@@ -51,6 +51,31 @@ Example:
 ```
 
 Here the first sequence to be displayed will be /data/bot/sequences/experiments/HowAreYou.json because it is assigned the number 10. The last sequence to be shown to the user will be /data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json, because it carries the largest number (19). 
+
+
+####### Important note: the `GroupName` should note have an impact on the ordering
+
+Example:
+
+```
+[
+  {
+    "GroupName":"Start",
+    "SequenceFiles" : [
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/HowAreYou.json"]}
+    ]
+  },
+  {
+    "GroupName":"Survey",
+    "SequenceFiles" : [
+      { "order" : 9, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]}
+    ]
+  }
+]
+```
+
+In the above example, the first file to be displayed to the user will be "/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json" (order number: 9). Then, the user will see "/data/bot/sequences/experiments/HowAreYou.json" (order number: 10). Finally, the user will see "/data/bot/sequences/surveys/WCatsOrDogs.json" (order number: 11).
 
 
 ## 3. Randomizing files
