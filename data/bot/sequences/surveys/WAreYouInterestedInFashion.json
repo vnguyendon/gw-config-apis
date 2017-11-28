@@ -1,0 +1,154 @@
+{
+  "Type": "Node",
+  "Id": "AreYouInterestedInFashion",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you interested in fashion and modelling?",
+        "fr": "Tu t'intéresses à la mode et au mannequinat ?",
+        "es": "¿Tienes interés en la moda y los modelos?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesInterestedinFashion",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-InterestedinFashion-GigiHadidorKendallJenner",
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "So I guess you won’t be surprised by the next question...",
+              "fr": "Dans ce cas, ma prochaine question ne te surprendra pas...",
+              "es": "Pues la próxima pregunta no va a sorprenderte..."
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Who do you prefer?",
+              "fr": "Quel mannequin préfères-tu ?",
+              "es": "¿Quién prefieres?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PreferGigiHadid",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Gigi Hadid",
+              "fr": "Gigi Hadid",
+              "es": "Gigi Hadid"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/209548gigi0gigihadidofficial3970962314001873.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PreferKendallJenner",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Kendall Jenner",
+              "fr": "Kendall Jenner",
+              "es": "Kendall Jenner"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/605277kendalljennervogue02.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoNotInterestedinFashion",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "iVhLISAEmtpFS"
+          }
+        }
+      ]
+    }
+  ]
+}
