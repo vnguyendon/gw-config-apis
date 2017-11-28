@@ -12,9 +12,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "(4/4) You feel better when things are",
-        "fr": "(4/4) Vous préférez que les choses soient",
-        "es": "(4/4) Usted prefiere que las cosas sean"
+        "en": "You feel better when things are",
+        "fr": "Vous préférez que les choses soient",
+        "es": "Usted prefiere que las cosas sean"
       }
     }
   ],
@@ -71,6 +71,14 @@
             "Source": "Giphy",
             "Path": "lELRD773cY7Sg"
           }
+        },
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
         },
         {
           "Type": "Action",
