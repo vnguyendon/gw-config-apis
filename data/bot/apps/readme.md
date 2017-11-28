@@ -3,6 +3,32 @@ In this file, we will describe our proposal for the Masterfile logic.
 
 ## 1. Group names
 
+** As a client, I will push userevents about sequences with the right TargetType **
+
+When you push user events about sequences (the `Huggy` events like "HuggySequenceStart,HuggySequenceNext,etc..."), you need to know how to categorize the event. If you are executing a sequence that is a survey, your engine don't know that it's a survey, and you can't define the TargetType="Survey" in your Huggy events.
+
+In order to get this TargetType correctly filled, the common rule is to use the `GroupName` where the sequence belongs to as the name used for the TargetType.
+
+Example:
+```
+[
+  {
+    "GroupName":"Start",
+    "SequenceFiles" : [
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/HowAreYou.json"]}
+    ]
+  },
+  {
+    "GroupName":"Survey",
+    "SequenceFiles" : [
+      { "order" : 11, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]}
+    ]
+  }
+]
+```
+
+For this exemple, when you send HuggySequenceStart for the HowAreYou sequence, the TargetType of the userevent should be "Start" whereas the TargetType of the WCatsOrDogs sequence will be "Survey"
 
 
 ## 2. Ordering
