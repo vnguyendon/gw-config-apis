@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CountryBetterLooking",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "People in your country are better looking than elsewhere?",
+        "fr": "Dans ton pays, les gens sont-ils plus beaux qu'ailleurs ?",
+        "es": "¿Crees que la gente de tu país es más bonita que en otro lugar?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesMyCountryBetterLooking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10m2CWb9JCStA4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoMyCountryNotBetterLooking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12te8GVzcfu5pu"
+          }
+        }
+      ]
+    }
+  ]
+}
