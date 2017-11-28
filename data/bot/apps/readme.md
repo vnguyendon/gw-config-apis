@@ -33,9 +33,19 @@ Here the first sequence to be displayed will be /data/bot/sequences/experiments/
 
 Example:
 ```
-
-
+  {
+    "GroupName":"All",
+    "SequenceFiles" : [
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/HowAreYou.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
+      { "order" : 15, "file": ["/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"]},
+      { "order" : 17, "file": ["/data/bot/sequences/surveys/WLoveOrFriendship.json"]},
+      { "order" : 19, "file": ["/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"]}
+      ]
+  }
 ```
+Here, the files /experiments/HowAreYou.json, /surveys/WHaveYouTriedAChatbotYesNo.json and /surveys/WCatsOrDogs.json will be the three first files to be seen by the user. However, we can't predict their order as they are assigned a similar number.
 
 ## 4. Picking one file OR another
 
@@ -43,8 +53,16 @@ Example:
 
 Example:
 ```
-
-
+  {
+    "GroupName":"All",
+    "SequenceFiles" : [
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/HowAreYou.json, /data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
+      { "order" : 11, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
+      { "order" : 15, "file": ["/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"]},
+      { "order" : 17, "file": ["/data/bot/sequences/surveys/WLoveOrFriendship.json"]},
+      { "order" : 19, "file": ["/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"]}
+      ]
+  }
 ```
-
+Here, the files /data/bot/sequences/experiments/HowAreYou.json and /data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json are contained in the same array. It means that we will see only one of them and we can't predict which one.
 
