@@ -38,6 +38,14 @@
           }
         },
         {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
@@ -63,6 +71,14 @@
             "Source": "Giphy",
             "Path": "B51EAJ0Frooq4"
           }
+        },
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
         },
         {
           "Type": "Action",
