@@ -12,9 +12,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en":"(2/4) You are more receptive to",
-        "fr":"(2/4) Vous êtes plus réceptif aux",
-        "es":"(2/4) Usted es más receptivo a"
+        "en":"You are more receptive to",
+        "fr":"Vous êtes plus réceptif aux",
+        "es":"Usted es más receptivo a"
       }
     }
   ],
@@ -36,6 +36,14 @@
             "Source": "Giphy",
             "Path": "TuQUMaAji7pkY"
           }
+        },
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
         },
         {
           "Type": "Action",
@@ -63,6 +71,14 @@
             "Source": "Giphy",
             "Path": "YLHwkqayc1j7a"
           }
+        },
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
         },
         {
           "Type": "Action",
