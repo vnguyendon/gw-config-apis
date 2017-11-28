@@ -3,7 +3,7 @@ In this file, we will describe our proposal for the Masterfile logic.
 
 ## 1. Group names
 
-**As a client, I will push userevents about sequences with the right TargetType **
+**As a client, I will push userevents about sequences with the right TargetType.**
 
 When you push user events about sequences (the `Huggy` events like "HuggySequenceStart,HuggySequenceNext,etc..."), you need to know how to categorize the event. If you are executing a sequence that is a survey, your engine don't know that it's a survey, and you can't define the TargetType="Survey" in your Huggy events.
 
