@@ -1,5 +1,5 @@
   {
-    "GroupName":"All",
+    "GroupName":"Survey-experiment",
     "SequenceFiles" : [
       { "order" : 5, "file":["/data/bot/sequences/experiments/HowAreYou.json"]},
       { "order" : 8, "file":["/data/bot/sequences/personality/ppDecisionsAriseFrom.json"]},
