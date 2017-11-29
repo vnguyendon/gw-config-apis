@@ -152,11 +152,7 @@
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YouHelpWomenOrChildren.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YouPreferFishOrMeat.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YourCountryGoodExampleYesNo.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/personality/ppEnergeticAfter.json.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/personality/ppReceptiveTo.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/personality/ppDecisionsAriseFrom.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/personality/ppOpenedOrSettled.json"]}
+      { "order" : 100, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]}
     ]
   }
 
