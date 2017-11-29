@@ -28,7 +28,7 @@
         },
         {
           "Type": "Action",
-          "Name": "ShowSurveyResult"
+          "Name": "ShowSurveyResults"
         },
         {
           "Type": "Pause",
@@ -62,7 +62,7 @@
         },
         {
           "Type": "Action",
-          "Name": "ShowSurveyResult"
+          "Name": "ShowSurveyResults"
         },
         {
           "Type": "Pause",
