@@ -28,7 +28,7 @@ Example:
 ]
 ```
 
-For this exemple, when you send HuggySequenceStart for the HowAreYou sequence, the TargetType of the userevent should be "Start" whereas the TargetType of the WCatsOrDogs sequence will be "Survey"
+For this example, when you send HuggySequenceStart for the HowAreYou sequence, the TargetType of the userevent should be "Start" whereas the TargetType of the WCatsOrDogs sequence will be "Survey"
 
 
 ## 2. Ordering
