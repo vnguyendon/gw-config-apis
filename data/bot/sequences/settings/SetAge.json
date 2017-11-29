@@ -123,16 +123,11 @@
     {
       "Type": "Leaf",
       "Id": "AgeNo",
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "no, thanks",
-            "fr": "non merci",
-            "es": "no, gracias"
-          }
-        }
-      ]
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      }
     }
   ]
 }
