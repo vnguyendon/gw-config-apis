@@ -1,6 +1,6 @@
 
   {
-    "GroupName":"All",
+    "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 10, "file":["/data/bot/sequences/experiments/HowAreYou.json"]},
       { "order" : 11, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
