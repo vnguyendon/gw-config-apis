@@ -1,5 +1,5 @@
 {
-  "GroupName": "All",
+  "GroupName": "Huggy",
   "SequenceFiles": [
     { "order" : 10, "file":["/data/bot/sequences/appspecials/HowDoYouShowLove.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/CreateAnimatedEmoji.json"]},
