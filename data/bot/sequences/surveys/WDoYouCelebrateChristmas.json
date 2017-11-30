@@ -1,0 +1,169 @@
+{
+  "Type": "Node",
+  "Id": "DoYouCelebrateChristmas",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you usually celebrate Christmas?",
+        "fr": "En général, est-ce que tu fêtes Noël ?",
+        "es": "¿Celebras la Navidad o no?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesCelebrateChristmas",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-CelebrateChristmas-SpendMoreOrLessMoney",
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "11BEQyXROgnLTG"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "This Christmas, are you going to spend more or less money than last year?",
+              "fr": "Cette année, vas-tu dépenser plus ou moins d'argent qu'à Noël dernier ?",
+              "es": "¿Este año, para Navidad, vas a gastar más o menos dinero que el año pasado?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "SpendMoreMoney",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "more money",
+              "fr": "dépenser plus",
+              "es": "más dinero"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/celebrate-the-occasion/default/small/Defocused-Decoration-Gold-Abstract-000027784403_Medium.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Merry Christmas! 🎄✨",
+                  "fr": "Joyeux Noël! 🎄✨",
+                  "es": "¡Feliz Navidad! 🎄✨"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SpendLessMoney",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "less money",
+              "fr": "dépenser moins",
+              "es": "menos dinero"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/celebrate-the-occasion/default/small/iStock_000078149675_Medium.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Merry Christmas! 🎄✨",
+                  "fr": "Joyeux Noël! 🎄✨",
+                  "es": "¡Feliz Navidad! 🎄✨"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoDontCelebrateChristmas",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "RdzzVrtvfqnM4"
+          }
+        }
+      ]
+    }
+  ]
+}
