@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "IsChristmasReligious",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you consider Christmas as a religious celebration?",
+        "fr": "Selon toi, Noël est principalement une fête religieuse ?",
+        "es": "¿Según tú, Navidad es principalmente una fiesta religiosa?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesChristmasIsReligious",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BF19rpaZL2IJG"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoChristmasIsntReligious",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "kI205WhwlsK2s"
+          }
+        }
+      ]
+    }
+  ]
+}
