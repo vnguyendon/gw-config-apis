@@ -60,6 +60,20 @@ they can be set and defined by the `SetUserProperty` steps in sequences (or dire
 These dynamic properties always have their name starting with `pp`. 
 They can by used in expressions directly with their names, ex: `ppAge == '18-39'`
 
+## A word on Null
+
+In order to simply test the existence of a value, we also support the comparison with null (for exemple, _I want to execute this sequence only if ppAge property is set_).
+
+If you want to do that compare the property with null:
+
+```
+{ 
+   ...
+   "Comment": "execute this sequence is age is already set"
+   "Condition": "ppAge != null"
+   ...
+}
+
 
 
 
