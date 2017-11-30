@@ -157,7 +157,9 @@
       { "order" : 100, "file": "/data/bot/sequences/surveys/AmazonOrMicrosoft.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/CountryBetterLooking.json"},
       { "order" : 100, "file": "/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"},
-      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsProhibitCigarettes.json"}
+      { "order" : 100, "file": "/data/bot/sequences/surveys/ShouldGvtsProhibitCigarettes.json"},
+      { "order" : 100, "file":  "/data/bot/sequences/surveys/IsChristmasReligious.json"},
+      { "order" : 100, "file":  "/data/bot/sequences/surveys/WDoYouCelebrateChristmas.json"}
     ]
   }
 ]
