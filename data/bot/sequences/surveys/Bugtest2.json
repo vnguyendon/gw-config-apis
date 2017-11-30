@@ -1,0 +1,90 @@
+{
+	"Type": "Node",
+	"Id": "Test-1",
+	"Steps": [
+	  {
+		"Type": "Text",
+		"Label": {
+		  "en": "Test",
+		  "fr": "Test",
+		  "es": "Test"
+		}
+	  }
+	],
+	"Randomize": "true",
+	"Commands": [
+	  {
+		"Type": "Node",
+		"Id": "Test1",
+		"ElementValue": "1",
+		"CommandLabel": {
+		  "en": "yes",
+		  "fr": "oui",
+		  "es": "sí"
+		},
+		"LinksTo": {
+		  "Type": "Node",
+		  "Id": "Test1-1",
+		  "Steps": [
+			{
+			  "Type": "Action",
+			  "Name": "DoVote"
+			},
+			{
+			  "Type": "Action",
+			  "Name": "ShowSurveyResults"
+			},
+			{
+			  "Type": "AnimatedGif",
+			  "Parameters": {
+				"Source": "Giphy",
+				"Path": "11BEQyXROgnLTG"
+			  }
+			}
+		  ],
+		  "Commands":[
+			{
+			  "Type": "Leaf",
+			  "Id": "TestYes1",
+			  "ElementValue": "1",
+			  "CommandLabel": {
+				"en": "yes",
+				"fr": "oui",
+				"es": "sí"
+			  }
+			},
+			{
+			  "Type": "Leaf",
+			  "Id": "TestNo1",
+			  "ElementValue": "1",
+			  "CommandLabel": {
+				"en": "yes",
+				"fr": "oui",
+				"es": "sí"
+			  },
+			}
+		  ]
+		}
+	  },
+	  {
+		"Type": "Leaf",
+		"Id": "Test1",
+		"ElementValue": "1",
+		"CommandLabel": {
+		  "en": "no",
+		  "fr": "non",
+		  "es": "no"
+		},
+		"Steps": [
+		  {
+			"Type": "Action",
+			"Name": "DoVote"
+		  },
+		  {
+			"Type": "Action",
+			"Name": "ShowSurveyResults"
+		  }
+		]
+	  }
+	]
+  }
