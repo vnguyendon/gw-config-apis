@@ -10,9 +10,10 @@
     "GroupName":"Survey",
     "SequenceFiles" : [
       { "order" : 12, "file": "/data/bot/sequences/surveys/WCatsOrDogs.json"},
-      { "order" : 15, "file": "/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"},
+      { "order" : 15, "file": "/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"},
+      { "order" : 16, "file": "/data/bot/sequences/surveys/BeyonceOrRihanna.json"},
       { "order" : 17, "file": "/data/bot/sequences/surveys/WLoveOrFriendship.json"},
-      { "order" : 18, "file": "/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"},
+      { "order" : 18, "file": "/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"},
       { "order" : 19, "file": "/data/bot/sequences/surveys/WEarlyBirdOrNightOwl.json"},
       { "order" : 20, "file": "/data/bot/sequences/surveys/WEasyToSayILoveYou.json"},
       { "order" : 27, "file": "/data/bot/sequences/surveys/WSpendTheWEAloneOrWithFriends.json"},
