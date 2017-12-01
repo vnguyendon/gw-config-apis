@@ -22,32 +22,27 @@
         "fr": "oui",
         "es": "sí"
       },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }, 
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11BEQyXROgnLTG"
+          }
+        }
+      ],
       "LinksTo": {
         "Type": "Node",
         "Id": "ZZ-CelebrateChristmas-SpendMoreOrLessMoney",
         "Steps": [
-          {
-            "Type": "Action",
-            "Name": "DoVote"
-          },
-          {
-            "Type": "Action",
-            "Name": "ShowSurveyResults"
-          },
-          {
-            "Type": "Pause",
-            "Parameters": {
-              "Mode": "Wait",
-              "ms": 1000
-            }
-          },
-          {
-            "Type": "AnimatedGif",
-            "Parameters": {
-              "Source": "Giphy",
-              "Path": "11BEQyXROgnLTG"
-            }
-          },
           {
             "Type": "Pause",
             "Parameters": {
