@@ -4,6 +4,7 @@
     "SequenceFiles" : [
       { "order" : 10, "file":["/data/bot/sequences/experiments/HowAreYou.json"]},
       { "order" : 11, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/surveys/WDoYouCelebrateChristmas.json"]}
       { "order" : 12, "file": ["/data/bot/sequences/settings/SetAge.json"]},
       { "order" : 13, "file": ["/data/bot/sequences/surveys/FlyingOrReadingThoughts.json"]},
       { "order" : 15, "file": ["/data/bot/sequences/surveys/IsChristmasReligious.json"]},
