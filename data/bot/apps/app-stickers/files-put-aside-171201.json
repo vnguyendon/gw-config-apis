@@ -3,5 +3,7 @@
 
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"]},
+      { "order" : 100, "file": ["/data/bot/sequences/surveys/WGlobalWarming.json"]},
+
 
 
