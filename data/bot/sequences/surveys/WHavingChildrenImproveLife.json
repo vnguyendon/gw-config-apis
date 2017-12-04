@@ -50,6 +50,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
           "Type": "Action",
           "Name": "ShowSurveyResults"
         }
@@ -89,6 +96,13 @@
           "Parameters": {
             "Source": "Giphy",
             "Path": "2C7o4KdNauZy"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
           }
         },
         {
