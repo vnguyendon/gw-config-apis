@@ -7,7 +7,7 @@
       "Label": {
         "en": "How do you prefer to show your love?",
         "fr": "Comment préfères-tu montrer ton amour?",
-        "es": "TBD"
+        "es": "¿Cómo prefieres mostrar tu amor?"
       }
     }
   ],
@@ -17,9 +17,9 @@
       "Type": "Leaf",
       "Id": "LoveWithHugs",
       "CommandLabel": {
-        "en": "With hugs",
-        "fr": "Avec des calins",
-        "es": "Con abrazos"
+        "en": "with hugs",
+        "fr": "avec des calins",
+        "es": "con abrazos"
       },
       "Steps": [
         {
@@ -51,9 +51,9 @@
       "Type": "Leaf",
       "Id": "LoveWithFlowers",
       "CommandLabel": {
-        "en": "With flowers",
-        "fr": "Avec des fleurs",
-        "es": "Con flores"
+        "en": "with flowers",
+        "fr": "avec des fleurs",
+        "es": "con flores"
       },
       "Steps": [
         {
