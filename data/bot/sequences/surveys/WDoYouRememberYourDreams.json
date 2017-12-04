@@ -1,0 +1,263 @@
+{
+  "Type": "Node",
+  "Id": "DoYouRememberYourDreams",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now that I know you a bit better, can I ask you something a bit more...",
+        "fr": "Maintenant que je te connais un peu mieux, je peux te poser une question un peu plus...",
+        "es": "Como te conozco un poquito mejor ¿puedo preguntarte algo un poco más..."
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "personal, maybe? 🙃",
+        "fr": "personnelle, peut-être ? 🙃",
+        "es": "personal? 🙃"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 1000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you often remember your dreams when you wake up?",
+        "fr": "Tu te souviens souvent de tes rêves au réveil ?",
+        "es": "¿A menudo recuerdas tus sueños cuando te despiertes?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesRememberMyDreams",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/good-night/default/small/Piramid-Stone-on-beach-in-Amalfi-000023628247_Medium.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatDidYouDreamAbout",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Dreams can be so strange sometimes!",
+              "fr": "Les rêves peuvent parfois être tellement étranges !",
+              "es": "¡Sueños pueden ser tan raros!"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "oGM7oUhPctSqA"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "For instance, what did you dream about last night?",
+              "fr": "Par exemple, de quoi as-tu rêvé cette nuit ?",
+              "es": "Por ejemplo, ¿con qué has soñado la noche pasada?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "DreamtAboutPinkElephant",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "a pink elephant",
+              "fr": "un éléphant rose",
+              "es": "un elefante rosado"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Like this one?",
+                  "fr": "Comme celui-là ?",
+                  "es": "¿Como eso?"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/337900shutterstock131869670.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "😉",
+                  "fr": "😉",
+                  "es": "😉"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DreamtAboutFlying",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "flying",
+              "fr": "voler",
+              "es": "volar"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So poetic 🦋",
+                  "fr": "Très poétique 🦋",
+                  "es": "Tan poético 🦋"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/616115shutterstock606346757.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DreamtAboutFood",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "food",
+              "fr": "nourriture",
+              "es": "comida"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Me too!! 😲",
+                  "fr": "Moi aussi !! 😲",
+                  "es": "¡Yo también! 😲"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "https://img15.hostingpics.net/pics/541330shutterstock399391621.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DreamtAboutFalling",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "falling",
+              "fr": "tomber",
+              "es": "caer"
+            },
+            "Steps": [
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/stop-the-world/default/small/267948_375218722585647_1660084553_n.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Luckily, it was just a dream 😥",
+                  "fr": "Heureusement, ce n'était qu'un rêve 😥",
+                  "es": "Afortunadamente, sólo era un sueño 😥"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoDontRememberMyDreams",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Dreams can be so strange sometimes!",
+            "fr": "Les rêves peuvent parfois être tellement étranges !",
+            "es": "¡Sueños pueden ser tan raros!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oGM7oUhPctSqA"
+          }
+        }
+      ]
+    }
+  ]
+}
