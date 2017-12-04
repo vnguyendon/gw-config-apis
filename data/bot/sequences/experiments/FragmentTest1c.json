@@ -43,9 +43,6 @@
       "Type": "Node",
       "Id": "SixtyFourMore",
       "ElementValue": "1",
-      "LinksToFragment": {
-        "FragmentPath": "FragmentTest1a.json"
-      },
       "CommandLabel": {
         "en": "More than 64",
         "fr": "Plus de 64 ans",
@@ -67,7 +64,10 @@
             "value": "64more"
           }
         }
-      ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "FragmentTest1a.json"
+      }
     }
   ]
 }
