@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "BeingOldStateOfMind",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Age is just a state of mind 😉",
+        "fr": "L'age n'est qu'un état d'esprit 😉",
+        "es": "TBD 😉"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you think that's true?",
+        "fr": "Tu pense que c'est vrai?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BeingOldStateOfMindYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Absolutely",
+        "fr": "Absolument",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l4KibWpBGWchSqCRy"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I agree: even robots can have fun at any age",
+            "fr": "Je suis d'accord: même les robots peuvent s'amuser à n'importe quel age",
+            "es": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BeingOldStateOfMindNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really",
+        "fr": "Pas vraiment",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ooh 😟",
+            "fr": "Ooh 😟",
+            "es": "Ooh 😟"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'll be here for you at any age'",
+            "fr": "Je suis la pour t'aider, à n'importe quel age",
+            "es": "TD"
+          }
+        }
+      ]
+    }
+  ]
+}
