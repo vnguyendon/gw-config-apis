@@ -40,10 +40,7 @@
         "fr": "oui",
         "es": "sí"
       },
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "ZZ-GlobalWarming-CuteOrFunnyPenguins",
-        "Steps": [
+      "Steps": [
           {
             "Type": "Action",
             "Id": "10",
@@ -53,7 +50,12 @@
             "Type": "Action",
             "Id": "20",
             "Name": "ShowSurveyResults"
-          },
+          }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-GlobalWarming-CuteOrFunnyPenguins",
+        "Steps": [
           {
             "Type": "Text",
             "Id": "30",
