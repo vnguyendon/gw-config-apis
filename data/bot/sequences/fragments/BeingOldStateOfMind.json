@@ -25,9 +25,9 @@
       "Id": "BeingOldStateOfMindYes",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Absolutely",
-        "fr": "Absolument",
-        "es": "Absolutamente"
+        "en": "absolutely",
+        "fr": "absolument",
+        "es": "absolutamente"
       },
       "Steps": [
         {
@@ -52,9 +52,9 @@
       "Id": "BeingOldStateOfMindNo",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Not really",
-        "fr": "Pas vraiment",
-        "es": "No realmente"
+        "en": "not really",
+        "fr": "pas vraiment",
+        "es": "no realmente"
       },
       "Steps": [
         {
