@@ -1,0 +1,82 @@
+{
+  "Type": "Node",
+  "Id": "SetAge",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you want to know what people of your generation think? I need to know your age!",
+        "fr": "Veux-tu savoir ce que pensent les gens de ta génération? J'ai besoin de connaître ton âge !",
+        "es": "¿Quieres saber lo que piensa la gente de tu generación? ¡Necesito saber cuantos años tienes!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EighteenLess",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Young",
+        "fr": "Jeune",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "MzId7vT7YOUzm"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "Less18"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "SixtyFourMore",
+      "ElementValue": "1",
+      "LinksToFragment": {
+        "FragmentPath": "FragmentTest1a.json"
+      },
+      "CommandLabel": {
+        "en": "More than 64",
+        "fr": "Plus de 64 ans",
+        "es": "Más de 64"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12ncq33I7ZidwI"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAge",
+            "value": "64more"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AgeNo",
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      }
+    }
+  ]
+}
