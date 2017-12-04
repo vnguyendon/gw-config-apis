@@ -6,16 +6,16 @@
       "Type": "Text",
       "Label": {
         "en": "Age is just a state of mind 😉",
-        "fr": "L'age n'est qu'un état d'esprit 😉",
-        "es": "TBD 😉"
+        "fr": "L'âge n'est qu'un état d'esprit 😉",
+        "es": "La edad sólo está en la mente 😉"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "Do you think that's true?",
-        "fr": "Tu pense que c'est vrai?",
-        "es": "TBD"
+        "fr": "Tu penses que c'est vrai?",
+        "es": "¿Crees que es verdadero?"
       }
     }
   ],
@@ -27,7 +27,7 @@
       "CommandLabel": {
         "en": "Absolutely",
         "fr": "Absolument",
-        "es": "TBD"
+        "es": "Absolutamente"
       },
       "Steps": [
         {
@@ -41,8 +41,8 @@
           "Type": "Text",
           "Label": {
             "en": "I agree: even robots can have fun at any age",
-            "fr": "Je suis d'accord: même les robots peuvent s'amuser à n'importe quel age",
-            "es": "TBD"
+            "fr": "Je suis d'accord: même les robots peuvent s'amuser à n'importe quel âge",
+            "es": "Estoy de acuerdo: robots también pueden divertirse a cualquier edad"
           }
         }
       ]
@@ -54,7 +54,7 @@
       "CommandLabel": {
         "en": "Not really",
         "fr": "Pas vraiment",
-        "es": "TBD"
+        "es": "No realmente"
       },
       "Steps": [
         {
@@ -69,8 +69,8 @@
           "Type": "Text",
           "Label": {
             "en": "I'll be here for you at any age'",
-            "fr": "Je suis la pour t'aider, à n'importe quel age",
-            "es": "TD"
+            "fr": "Je suis là pour t'aider, à n'importe quel age",
+            "es": "Estoy aquí para ayudarte a cualquier edad"
           }
         }
       ]
