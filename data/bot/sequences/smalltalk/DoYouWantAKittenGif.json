@@ -17,9 +17,9 @@
       "Id": "YesCuteKitten",
       "ElementValue": "0",
       "CommandLabel": {
-        "en": "Yes",
-        "fr": "Oui",
-        "es": "Sí"
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
       },
       "Steps": [
         {
@@ -36,9 +36,9 @@
       "Id": "DontWantCuteKitten",
       "ElementValue": "0",
       "CommandLabel": {
-        "en": "No",
-        "fr": "Non",
-        "es": "No"
+        "en": "no",
+        "fr": "non",
+        "es": "no"
       },
       "Steps": [
         {
