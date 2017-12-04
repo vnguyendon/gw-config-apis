@@ -18,9 +18,9 @@
       "ElementValue": "1",
       "Id": "FirstTimeBotYes",
       "CommandLabel": {
-        "en": "Yes",
-        "fr": "Oui",
-        "es": "Sí"
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
       },
       "Steps": [
         {
@@ -37,9 +37,9 @@
       "ElementValue": "1",
       "Id": "FirstTimeBotNo",
       "CommandLabel": {
-        "en": "No",
-        "fr": "Non",
-        "es": "No"
+        "en": "no",
+        "fr": "non",
+        "es": "no"
       },
       "Steps": [
         {
