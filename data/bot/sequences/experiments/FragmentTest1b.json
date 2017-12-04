@@ -34,7 +34,7 @@
           "Name": "SetUserProperty",
           "Parameters": {
             "property": "ppAge",
-            "value": "Less18"
+            "value": "Young"
           }
         }
       ]
