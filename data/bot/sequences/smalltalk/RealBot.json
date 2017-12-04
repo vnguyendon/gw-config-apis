@@ -18,9 +18,9 @@
       "ElementValue": "1",
       "Id": "RealBotYes",
       "CommandLabel": {
-        "en": "Real bot",
-        "fr": "Un vrai bot",
-        "es": "Un robot real"
+        "en": "real bot",
+        "fr": "un vrai bot",
+        "es": "un robot real"
       },
       "Steps": [
         {
@@ -37,9 +37,9 @@
       "ElementValue": "1",
       "Id": "CoolSexyHuman",
       "CommandLabel": {
-        "en": "Cool human",
-        "fr": "Un humain cool",
-        "es": "Un humano fesco"
+        "en": "cool human",
+        "fr": "un humain cool",
+        "es": "un humano fresco"
       },
       "Steps": [
         {
@@ -56,9 +56,9 @@
       "ElementValue": "1",
       "Id": "ZombieKitten",
       "CommandLabel": {
-        "en": "A zombie kitten",
-        "fr": "Un chaton zombie",
-        "es": "Un gatito zombie"
+        "en": "zombie kitten",
+        "fr": "un chaton zombie",
+        "es": "un gatito zombie"
       },
       "Steps": [
         {
