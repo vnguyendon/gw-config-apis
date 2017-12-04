@@ -17,9 +17,9 @@
       "Id": "Kittens",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Cats 🐱",
-        "fr": "Chats 🐱",
-        "es": "Gatos 🐱"
+        "en": "cats 🐱",
+        "fr": "chats 🐱",
+        "es": "gatos 🐱"
       },
       "Steps": [
         {
@@ -44,9 +44,9 @@
       "Id": "Puppies",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Dogs 🐶",
-        "fr": "Chiens 🐶",
-        "es": "Perros 🐶"
+        "en": "dogs 🐶",
+        "fr": "chiens 🐶",
+        "es": "perros 🐶"
       },
       "Steps": [
         {
@@ -71,9 +71,9 @@
       "Id": "Penguins",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Penguins 🐧",
-        "fr": "Pingouins 🐧",
-        "es": "Pingüinos 🐧"
+        "en": "penguins 🐧",
+        "fr": "pingouins 🐧",
+        "es": "pingüinos 🐧"
       },
       "Steps": [
         {
@@ -86,9 +86,63 @@
         {
           "Type": "Text",
           "Label": {
-            "en":"They are sooo funny 😂",
+            "en":"They are so funny 😂",
             "fr":"Ils sont trop drôles 😂",
-            "es":"¡Son taaaan divertidos! 😂"
+            "es":"¡Son tan divertidos! 😂"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Horses",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "horses 🐴",
+        "fr": "chevaux 🐴",
+        "es": "caballos 🐴"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "S0A0PBw8pZNFC"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"They are so clever and graceful 💖",
+            "fr":"Ils sont tellement beaux et intelligents 💖",
+            "es":"Son tan bonitos y listos 💖"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Pandas",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pandas 🐼",
+        "fr": "pandas 🐼",
+        "es": "pandas 🐼"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "hMtf0t0g3UP9m"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"They are so cute 😍",
+            "fr":"Ils sont tellement mignons 😍",
+            "es":"Son tan lindos 😍"
           }
         }
       ]
