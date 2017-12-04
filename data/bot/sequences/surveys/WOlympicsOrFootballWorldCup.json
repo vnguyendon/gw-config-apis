@@ -28,12 +28,8 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "2020 will be coming soon! 🏅",
-            "fr": "2020 va vite arriver ! 🏅",
-            "es": "¡2020 va a llegar pronto! 🏅"
-          }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         },
         {
           "Type": "AnimatedGif",
@@ -43,8 +39,12 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+          "Type": "Text",
+          "Label": {
+            "en": "2020 will be coming soon! 🏅",
+            "fr": "2020 va vite arriver ! 🏅",
+            "es": "¡2020 va a llegar pronto! 🏅"
+          }
         }
       ]
     },
@@ -63,15 +63,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "mGoPr61k51BCM"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
