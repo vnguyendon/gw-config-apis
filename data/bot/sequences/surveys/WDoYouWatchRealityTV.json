@@ -22,10 +22,7 @@
         "fr": "oui",
         "es": "sí"
       },
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "ZZ-WatchRealityTV-KimKardashianOrKylieJenner",
-        "Steps": [
+      "Steps": [
           {
             "Type": "Action",
             "Name": "DoVote"
@@ -33,7 +30,12 @@
           {
             "Type": "Action",
             "Name": "ShowSurveyResults"
-          },
+          }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-WatchRealityTV-KimKardashianOrKylieJenner",
+        "Steps": [
           {
             "Type": "Pause",
             "Parameters": {
