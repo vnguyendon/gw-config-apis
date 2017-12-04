@@ -17,9 +17,9 @@
       "Id": "EighteenLess",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Less than 18",
-        "fr": "Moins de 18 ans",
-        "es": "Menos de 18 años"
+        "en": "Young",
+        "fr": "Jeune",
+        "es": "TBD"
       },
       "Steps": [
         {
@@ -35,60 +35,6 @@
           "Parameters": {
             "property": "ppAge",
             "value": "Less18"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "EighteenThirtyNine",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Between 18 and 39",
-        "fr": "Entre 18 et 39 ans",
-        "es": "Entre 18 y 39"
-      },
-      "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "QMkPpxPDYY0fu"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "property": "ppAge",
-            "value": "18-39"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "FourtySixtyFour",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Between 40 and 64",
-        "fr": "Entre 40 et 64 ans",
-        "es": "Entre 40 y 64"
-      },
-      "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "14udF3WUwwGMaA"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "property": "ppAge",
-            "value": "40-64"
           }
         }
       ]
@@ -118,7 +64,14 @@
             "value": "64more"
           }
         }
-      ]
+      ],
+      "LinksTo": {
+        "Type": "Leaf",
+        "Id": "OldIsFine",
+        "LinksToFragment": {
+          "FragmentPath": "FragmentTest1a.json"
+        }
+      }
     },
     {
       "Type": "Leaf",
@@ -128,8 +81,6 @@
         "fr": "non merci",
         "es": "no, gracias"
       }
-    },
-    "LinksTo":
-    
+    }
   ]
 }
