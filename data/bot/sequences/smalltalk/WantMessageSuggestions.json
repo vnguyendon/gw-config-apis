@@ -17,9 +17,9 @@
       "Id": "SuggestionsJoke",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Jokes",
-        "fr": "Blagues",
-        "es": "Bromas"
+        "en": "jokes",
+        "fr": "blagues",
+        "es": "bromas"
       },
       "Steps": [
         {
@@ -37,9 +37,9 @@
       "Id": "SuggestionsPoems",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Poems",
-        "fr": "Poèmes",
-        "es": "Poemas"
+        "en": "poems",
+        "fr": "poèmes",
+        "es": "poemas"
       },
       "Steps": [
         {
@@ -57,9 +57,9 @@
       "Id": "SuggestionsNo",
       "ElementValue": "0",
       "CommandLabel": {
-        "en": "No",
-        "fr": "Non",
-        "es": "No"
+        "en": "no",
+        "fr": "non",
+        "es": "no"
       }
     }
   ]
