@@ -28,15 +28,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
             "Path": "/specialoccasions/I-love-you/default/small/paradise-heart-shaped-island-000018664690_Medium.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -55,15 +55,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
             "Path": "/specialoccasions/I-love-you/default/small/401237_306837836094160_1135347896_n.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
