@@ -28,6 +28,17 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "This week’s challenge: look at the sky more than your phone 🌤",
@@ -48,10 +59,6 @@
             "Source": "Giphy",
             "Path": "6u1VzKr6iTRfy"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -70,6 +77,17 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "This week’s challenge: look at the sky more than your phone 🌤",
@@ -90,10 +108,6 @@
             "Source": "Giphy",
             "Path": "6u1VzKr6iTRfy"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
