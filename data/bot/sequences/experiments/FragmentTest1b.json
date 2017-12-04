@@ -5,16 +5,16 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Do you want to know what people of your generation think? I need to know your age!",
-        "fr": "Veux-tu savoir ce que pensent les gens de ta génération? J'ai besoin de connaître ton âge !",
-        "es": "¿Quieres saber lo que piensa la gente de tu generación? ¡Necesito saber cuantos años tienes!"
+        "en": "How old are you?",
+        "fr": "Quel âge as-tu?",
+        "es": "¿Cuantos años tienes?"
       }
     }
   ],
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "EighteenLess",
+      "Id": "Young",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Young",
@@ -71,15 +71,6 @@
         "LinksToFragment": {
           "FragmentPath": "FragmentTest1a.json"
         }
-      }
-    },
-    {
-      "Type": "Leaf",
-      "Id": "AgeNo",
-      "CommandLabel": {
-        "en": "no, thanks",
-        "fr": "non merci",
-        "es": "no, gracias"
       }
     }
   ]
