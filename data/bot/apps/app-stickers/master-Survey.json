@@ -41,7 +41,6 @@
       { "order" : 100, "file": ["/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/WLoveOrFriendship.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/surveys/WGlobalWarming.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/BookOrMovie.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/DoYouHaveAPet.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/experiments/BeautyOrIntelligenceV5.json"]},
