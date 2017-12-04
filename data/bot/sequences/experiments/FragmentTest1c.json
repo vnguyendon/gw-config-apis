@@ -17,9 +17,9 @@
       "Id": "Young",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Young",
-        "fr": "Jeune",
-        "es": "TBD"
+        "en": "young",
+        "fr": "jeune",
+        "es": "joven"
       },
       "Steps": [
         {
@@ -44,9 +44,9 @@
       "Id": "SixtyFourMore",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "More than 64",
-        "fr": "Plus de 64 ans",
-        "es": "Más de 64"
+        "en": "more than 64",
+        "fr": "plus de 64 ans",
+        "es": "más de 64"
       },
       "Steps": [
         {
