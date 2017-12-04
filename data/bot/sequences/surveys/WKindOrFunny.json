@@ -28,6 +28,10 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Never underestimate the power of good morning texts, apologies, and random compliments.",
@@ -48,10 +52,6 @@
             "Source": "Giphy",
             "Path": "8KKRIP5ZHUo2k"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -70,15 +70,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "ZqlvCTNHpqrio"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
