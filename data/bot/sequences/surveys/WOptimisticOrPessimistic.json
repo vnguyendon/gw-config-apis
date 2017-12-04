@@ -28,12 +28,8 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Always borrow money from a pessimist. He won’t expect it back 😉",
-            "fr": "Il faut toujours emprunter de l'argent à un pessimiste. Il ne s’attendra pas à ce qu’on le lui rende 😉",
-            "es": "Siempre pide dinero prestado a un pesimista. Él nunca espéra que se lo devuelvas 😉"
-          }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         },
         {
           "Type": "Pause",
@@ -43,8 +39,12 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+          "Type": "Text",
+          "Label": {
+            "en": "Always borrow money from a pessimist. He won’t expect it back 😉",
+            "fr": "Il faut toujours emprunter de l'argent à un pessimiste. Il ne s’attendra pas à ce qu’on le lui rende 😉",
+            "es": "Siempre pide dinero prestado a un pesimista. Él nunca espéra que se lo devuelvas 😉"
+          }
         }
       ]
     },
@@ -63,15 +63,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "JzsG0EmHY9eKc"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
