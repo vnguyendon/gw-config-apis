@@ -74,17 +74,17 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "Good!",
-                  "fr": "Tant mieux !",
-                  "es": "¡Mejor así!"
+                  "en": "Lucky you!",
+                  "fr": "La chance !",
+                  "es": "¡Qué suerte!"
                 }
               },
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "Hope you'll have a good day then 😊",
-                  "fr": "J'espère que tu passeras une bonne journée du coup 😊",
-                  "es": "Entonces espero que tengas buen día 😊"
+                  "en": "I wish I could say the same 😅",
+                  "fr": "J'aurais aimé pouvoir dire la même chose 😅",
+                  "es": "Me habría gustado decir lo mismo 😅"
                 }
               }
             ]
@@ -122,6 +122,13 @@
                   "fr": "Dans ce cas : bon courage ! 🍀",
                   "es": "Entonces: ¡Te deseo mucho ánimo!🍀"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "OiKAQbQEQItxK"
+                }
               }
             ]
           }
@@ -141,9 +148,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Nice",
-            "fr": "Sympa",
-            "es": "Chido"
+            "en": "Nice!",
+            "fr": "Sympa !",
+            "es": "¡Chido!"
           }
         }
       ],
@@ -199,20 +206,28 @@
             },
             "Steps": [
               {
+                "Type": "Text",
+                "Label": {
+                  "en": "Same for me!",
+                  "fr": "Moi aussi !",
+                  "es": "¡Yo también!"
+                }
+              },
+              {
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
-                  "Path": "JYrFV4xwBXokg"
+                  "Path": "6INrKIoDVZlkc"
                 }
               },
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "Hope you'll have a good day then 😊",
-                  "fr": "J'espère que tu passeras une bonne journée du coup 😊",
-                  "es": "Entonces espero que tengas buen día 😊"
+                  "en": "There is nothing better than running in the wild 🐎",
+                  "fr": "Il n'y a rien de mieux que de courir dans la nature 🐎",
+                  "es": "No hay nada mejor que correr en la naturaleza 🐎"
                 }
-              }            
+              }
             ]
           }
         ]
