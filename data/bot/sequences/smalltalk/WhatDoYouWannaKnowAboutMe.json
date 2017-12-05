@@ -23,43 +23,35 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "KnowYourAge",
+      "Id": "KnowWhereYouLive",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "How old are you?",
-        "fr": "Quel âge as-tu?",
-        "es": "¿Qué edad tienes?"
+        "en": "Where do you live?",
+        "fr": "Où habites-tu?",
+        "es": "¿Dónde vives?"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "I'm 7",
-            "fr": "J'ai 7 ans",
-            "es": "Tengo 7 años"
+            "en": "All pony bots live in the place:",
+            "fr": "Tous les poney-bots vivent au même endroit :",
+            "es": "Todos los poni-bots viven en el mismo lugar:"
           }
         },
         {
           "Type": "Text",
           "Label": {
-            "en": "(in pony bot years, of course 🐴)",
-            "fr": "(en années de poney-bot, bien sûr 🐴)",
-            "es": "(en años de poni-bot, por supuesto 🐴)"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "I don't know the human equivalent, but I guess I'm much older than you!",
-            "fr": "Je ne connais pas l'équivalent humain, mais je suppose que je suis bien plus vieux que toi !",
-            "es": "No conozco el equivalente humano, pero ¡supongo que soy mucho mayor que tú!"
+            "en": "Shetland islands, of course! 🐴",
+            "fr": "les îles Shetland, bien sûr ! 🐴",
+            "es": "las islas Shetland, ¡por supuesto! 🐴"
           }
         },
         {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "/themes/horses/small/shutterstock_619596653.jpg"
+            "Path": "/specialoccasions/jokes/default/small/shutterstock_664316992.jpg"
           }
         }
       ]
@@ -156,24 +148,16 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "No, I'm not single.",
-            "fr": "Non, je ne suis pas célibataire.",
-            "es": "No, no estoy soltero."
+            "en": "It's complicated.",
+            "fr": "C'est compliqué.",
+            "es": "Es complicado."
           }
         },
         {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "/themes/horses/small/shutterstock_390334900.jpg"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "💘",
-            "fr": "💘",
-            "es": "💘"
+            "Path": "/specialoccasions/jokes/default/small/shutterstock_664316992.jpg"
           }
         }
       ]
