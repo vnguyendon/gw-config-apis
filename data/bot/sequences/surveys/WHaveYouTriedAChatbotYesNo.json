@@ -72,9 +72,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Well, now you have! Congratulations 🎉",
-            "fr": "Eh bien maintenant, oui ! Félicitations 🎉",
-            "es": "Pues, ¡ahora sí! Felicitaciones 🎉"
+            "en": "Now you have! Congratulations 🎉",
+            "fr": "Maintenant, oui ! Félicitations 🎉",
+            "es": "¡Ahora sí! Felicitaciones 🎉"
           }
         },
         {
