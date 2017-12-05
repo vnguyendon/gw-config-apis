@@ -35,9 +35,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Do you often remember your dreams when you wake up?",
-        "fr": "Tu te souviens souvent de tes rêves au réveil ?",
-        "es": "¿A menudo recuerdas tus sueños cuando te despiertes?"
+        "en": "Do you sometimes remember your dreams when you wake up?",
+        "fr": "Tu te souviens, parfois, de tes rêves au réveil ?",
+        "es": "¿A veces recuerdas tus sueños cuando te despiertes?"
       }
     }
   ],
