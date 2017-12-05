@@ -1,0 +1,182 @@
+{
+  "Type": "Node",
+  "Id": "WhatDoYouWannaKnowAboutMe",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Ok, now it's my turn to answer your questions 😉",
+        "fr": "Ok, maintenant c'est à moi de répondre à tes questions 😉",
+        "es": "Ok, ahora es mi turno de contestar tus preguntas 😉"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you want to know about me?",
+        "fr": "Que veux-tu savoir ?",
+        "es": "¿Qué quieres saber?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "KnowYourAge",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "How old are you?",
+        "fr": "Quel âge as-tu?",
+        "es": "¿Qué edad tienes?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm 7",
+            "fr": "J'ai 7 ans",
+            "es": "Tengo 7 años"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "(in pony bot years, of course 🐴)",
+            "fr": "(en années de poney-bot, bien sûr 🐴)",
+            "es": "(en años de poni-bot, por supuesto 🐴)"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I don't know the human equivalent, but I guess I'm much older than you!",
+            "fr": "Je ne connais pas l'équivalent humain, mais je suppose que je suis bien plus vieux que toi !",
+            "es": "No conozco el equivalente humano, pero ¡supongo que soy mucho mayor que tú!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/horses/small/shutterstock_619596653.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "KnowFavoriteColor",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Favorite color?",
+        "fr": "Couleur préférée?",
+        "es": "¿Color favorito?"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/positive-thoughts/default/small/shutterstock_259213139.jpg"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/poems/default/small/Lyth-Valley-in-the-English-Lake-District-000017585719_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/thank-you/default/small/shutterstock_93200743.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Easy to guess, right? 🤔",
+            "fr": "Facile à deviner, non ? 🤔",
+            "es": "¿Es fácil adivinarlo, no? 🤔"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "KnowIfSingle",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Are you single?",
+        "fr": "Tu es célibataire?",
+        "es": "¿Estás soltero?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, that's very...",
+            "fr": "Wow, c'est une question très...",
+            "es": "Wow, es una pregunta muy..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "personal?! 😳",
+            "fr": "personnelle ?! 😳",
+            "es": "¡¿personal?! 😳"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But if you really want to know...",
+            "fr": "Enfin bon, si tu veux vraiment savoir...",
+            "es": "Pero si realmente quieres saberlo..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "No, I'm not single.",
+            "fr": "Non, je ne suis pas célibataire.",
+            "es": "No, no estoy soltero."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/horses/small/shutterstock_390334900.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "💘",
+            "fr": "💘",
+            "es": "💘"
+          }
+        }
+      ]
+    }
+  ]
+}
