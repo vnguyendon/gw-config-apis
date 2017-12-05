@@ -1,0 +1,286 @@
+{
+  "Type": "Node",
+  "Id": "WhatAreYourPlansForTomorrow",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What are your plans for tomorrow? Anything special? 🙂",
+        "fr": "Quels sont tes plans pour demain? Quelque chose de spécial ? 🙂",
+        "es": "¿Qué piensas hacer mañana? ¿Algo especial? 🙂"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "PlanWorking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "working",
+        "fr": "travailler",
+        "es": "trabajar"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Just like this little one:",
+            "fr": "J'en connais un autre qui ira travailler:",
+            "es": "Conozco a otro que va a trabajar:"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VkMV9TldsPd28"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😉",
+            "fr": "😉",
+            "es": "😉"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DoYouLikeYourJob",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And do you like your job (or your studies)?",
+              "fr": "Et tu aimes bien ton métier (ou tes études)?",
+              "es": "¿Y te gusta tu trabajo (o tus estudios)?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesLikeMyJob",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good!",
+                  "fr": "Tant mieux !",
+                  "es": "¡Mejor así!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope you'll have a good day then 😊",
+                  "fr": "J'espère que tu passeras une bonne journée du coup 😊",
+                  "es": "Entonces espero que tengas buen día 😊"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoDontLikeMyJob",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "not much",
+              "fr": "pas trop",
+              "es": "no realmente"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Oh.",
+                  "fr": "Oh.",
+                  "es": "Oh."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I see...",
+                  "fr": "Je vois...",
+                  "es": "Entiendo..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good luck then!🍀",
+                  "fr": "Dans ce cas : bon courage ! 🍀",
+                  "es": "Entonces: ¡Te deseo mucho ánimo!🍀"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PlanDoingSport",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "doing sport",
+        "fr": "faire du sport",
+        "es": "hacer deporte"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Nice",
+            "fr": "Sympa",
+            "es": "Chido"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "TrainForCompetitionOrLeisure",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Do you train for competition? Or just as a leisure?",
+              "fr": "Tu fais de la compétition? Ou c'est juste un loisir ?",
+              "es": "¿Haces competencias? ¿O sólo es un pasatiempo? "
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Competition",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "competition",
+              "fr": "compétition",
+              "es": "competencias"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope you'll win the next one then 😉🥇",
+                  "fr": "J'espère que tu gagneras la prochaine 😉🥇",
+                  "es": "Espero que vayas a ganar la próxima 😉🥇"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "yoJC2JaiEMoxIhQhY4"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Leisure",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "leisure",
+              "fr": "loisir",
+              "es": "pasatiempo"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "JYrFV4xwBXokg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope you'll have a good day then 😊",
+                  "fr": "J'espère que tu passeras une bonne journée du coup 😊",
+                  "es": "Entonces espero que tengas buen día 😊"
+                }
+              }            
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PlanChilling",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "chilling out",
+        "fr": "traîner",
+        "es": "relajarse"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "My favorite activity 😍",
+            "fr": "Mon activité préférée 😍",
+            "es": "Mi actividad favorita 😍"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Be it summer...",
+            "fr": "En été...",
+            "es": "En verano..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "IvjjgsEhnLCzm"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "or winter!",
+            "fr": "comme en hiver !",
+            "es": "como en invierno!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "rdvDGctztED3W"
+          }
+        }
+      ]
+    }
+  ]
+}
