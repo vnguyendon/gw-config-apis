@@ -22,7 +22,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "KnowYourAge",
       "ElementValue": "1",
       "CommandLabel": {
@@ -65,7 +65,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "KnowFavoriteColor",
       "ElementValue": "1",
       "CommandLabel": {
