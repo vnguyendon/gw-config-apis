@@ -28,15 +28,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "10wwy1cJ8j2aD6"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -55,15 +55,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "TR3abToJDTBII"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
