@@ -30,6 +30,13 @@
           {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "yaw0LEOQEuDEA"
+            }
           }
       ],
       "LinksTo": {
@@ -46,24 +53,24 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "So I guess you won’t be surprised by the next question...",
-              "fr": "Dans ce cas, ma prochaine question ne te surprendra pas...",
-              "es": "Pues la próxima pregunta no va a sorprenderte..."
+              "en": "The next question was made for you, hope you'll like it! 🤞",
+              "fr": "La prochaine question a été créée pour toi, j'espère qu'elle te fera plaisir ! 🤞",
+              "es": "La próxima pregunta fue creada para ti, ¡espero que te guste! 🤞"
             }
           },
           {
             "Type": "Pause",
             "Parameters": {
               "Mode": "Wait",
-              "ms": 2000
+              "ms": 1000
             }
           },
           {
             "Type": "Text",
             "Label": {
-              "en": "Who do you prefer?",
+              "en": "Which model do you prefer?",
               "fr": "Quel mannequin préfères-tu ?",
-              "es": "¿Quién prefieres?"
+              "es": "¿Qué modelo prefieres?"
             }
           }
         ],
@@ -92,6 +99,14 @@
                   "Source": "Web",
                   "Path": "https://img15.hostingpics.net/pics/209548gigi0gigihadidofficial3970962314001873.jpg"
                 }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So pretty 💮",
+                  "fr": "Tellement jolie 💮",
+                  "es": "Tan guapa 💮"
+                }
               }
             ]
           },
@@ -118,6 +133,14 @@
                 "Parameters": {
                   "Source": "Web",
                   "Path": "https://img15.hostingpics.net/pics/605277kendalljennervogue02.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "So pretty 💮",
+                  "fr": "Tellement jolie 💮",
+                  "es": "Tan guapa 💮"
                 }
               }
             ]
