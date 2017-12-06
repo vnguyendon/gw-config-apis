@@ -28,6 +28,17 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "\"I love you, and I will love you until I die, and if there’s a life after that, I’ll love you then.\" - Cassandra Clare",
@@ -43,15 +54,19 @@
           }
         },
         {
+          "Type": "Text",
+          "Label": {
+            "en": "(one of my favourite declarations of love 💘)",
+            "fr": "(l'une de mes déclarations d'amour préférées 💘)",
+            "es": "(una de mis declaraciones de amor favoritas 💘)"
+          }
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
             "Path": "/specialoccasions/I-love-you/default/small/shutterstock_93294814.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -70,11 +85,30 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
-            "en": "\"The verb ‘to love’ is difficult to conjugate: its past is not simple, its present is only indicative and its future is always conditional.\" - Jean Cocteau",
-            "fr": "\"Le verbe aimer est difficile à conjuguer : son passé n'est pas simple, son présent n'est qu'indicatif, et son futur est toujours conditionnel.\" - Jean Cocteau",
-            "es": "\"El verbo amar es difícil de conjugar: su pasado no es simple, su presente solo es indicativo, y su futuro siempre es incondicional.\" - Jean Cocteau"
+            "en": "Jean Cocteau shared your opinion:",
+            "fr": "Jean Cocteau partageait ton point de vue :",
+            "es": "Jean Cocteau compartía tu punto de vista:"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "\"The verb ‘to love’ is difficult to conjugate: its past is not simple, its present is only indicative and its future is always conditional.\"",
+            "fr": "\"Le verbe aimer est difficile à conjuguer : son passé n'est pas simple, son présent n'est qu'indicatif, et son futur est toujours conditionnel.\"",
+            "es": "\"El verbo amar es difícil de conjugar: su pasado no es simple, su presente solo es indicativo, y su futuro siempre es condicional.\""
           }
         },
         {
@@ -90,10 +124,6 @@
             "Source": "Giphy",
             "Path": "rpf0Du8NasK6Q"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
