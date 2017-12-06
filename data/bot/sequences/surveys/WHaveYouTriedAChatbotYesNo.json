@@ -30,9 +30,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "But not to a chatbot as great as me, I assume 😎",
-            "fr": "Mais jamais avec un chatbot aussi cool que moi, je suppose 😎",
-            "es": "Pero nunca con un chatbot tan genial como yo, ¿verdad? 😎"
+            "en": "You deserve a hug right now.",
+            "fr": "Tu mérites un câlin maintenant tout de suite.",
+            "es": "Te mereces un abrazo ya mismo."
           }
         },
         {
@@ -46,12 +46,28 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 2000
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Because look at those figures:",
+            "fr": "Parce que regarde ces chiffres:",
+            "es": "Porque mira los datos:"
           }
         },
         {
           "Type": "Action",
           "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You're a great example to others! 😄",
+            "fr": "Tu es un chouette exemple pour les autres ! 😄",
+            "es": "¡Eres un gran ejemplo para los demás! 😄"
+          }
         }
       ]
     },
@@ -88,7 +104,7 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 2000
+            "ms": 1000
           }
         },
         {
