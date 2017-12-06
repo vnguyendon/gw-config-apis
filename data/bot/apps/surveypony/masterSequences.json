@@ -4,7 +4,7 @@
     "SequenceFiles": [
       {
         "order": 10,
-        "file": ["/data/bot/sequences/experiments/HowAreYou.json"]
+        "file": ["/data/bot/sequences/smalltalk/HowAreYou.json"]
       },
       {
         "order": 11,
