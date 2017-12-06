@@ -1,7 +1,7 @@
   {
     "GroupName":"Survey-experiment",
     "SequenceFiles" : [
-      { "order" : 5, "file":["/data/bot/sequences/experiments/HowAreYou.json"]},
+      { "order" : 5, "file":["/data/bot/sequences/smalltalk/HowAreYou.json"]},
       { "order" : 8, "file":["/data/bot/sequences/personality/ppDecisionsAriseFrom.json"]},
       { "order" : 7, "file":["/data/bot/sequences/personality/ppReceptiveTo.json"]},
       { "order" : 6, "file":["/data/bot/sequences/personality/ppEnergeticAfter.json"]},
