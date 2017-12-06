@@ -28,15 +28,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
             "Path": "https://img4.hostingpics.net/pics/875688pexelsphoto105032.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -55,15 +55,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
             "Path": "https://img4.hostingpics.net/pics/634190badyqb42775.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
