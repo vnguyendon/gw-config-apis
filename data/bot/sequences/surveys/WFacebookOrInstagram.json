@@ -28,11 +28,14 @@
           "Name": "DoVote"
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I don’t know what I’d do without Facebook. Probably my work.",
-            "fr": "Je ne sais pas ce que je ferais sans Facebook. Probablement mon travail.",
-            "es": "No sé lo que haría sin Facebook. Probablemente mi trabajo."
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "EP0U4NhHvF4EU"
           }
         },
         {
@@ -43,15 +46,42 @@
           }
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "EP0U4NhHvF4EU"
+          "Type": "Text",
+          "Label": {
+            "en": "I totally understand, I don’t know what I’d do without Facebook.",
+            "fr": "Je comprends totalement, je ne sais pas ce que je ferais sans Facebook.",
+            "es": "Yo te entiendo, no sé lo que haría sin Facebook."
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Probably my work.",
+            "fr": "Probablement mon travail.",
+            "es": "Probablemente mi trabajo."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😅",
+            "fr": "😅",
+            "es": "😅"
+          }
         }
       ]
     },
@@ -70,6 +100,10 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
@@ -77,8 +111,49 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I totally understand, I don’t know what I’d do without Insta.",
+            "fr": "Je comprends totalement, je ne sais pas ce que je ferais sans Insta.",
+            "es": "Yo te entiendo, no sé lo que haría sin Insta."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Probably my work.",
+            "fr": "Probablement mon travail.",
+            "es": "Probablemente mi trabajo."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😅",
+            "fr": "😅",
+            "es": "😅"
+          }
         }
       ]
     }
