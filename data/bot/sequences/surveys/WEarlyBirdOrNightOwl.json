@@ -28,6 +28,32 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/nature/small/Alpine-Meadow-000056976900_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That reminds me of a quote I really like...",
+            "fr": "Ça me fait penser à une citation que j'aime beaucoup...",
+            "es": "Me recuerda una cita que me gusta mucho..."
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "\"Spring flowers are the dreams of winter told, in the morning, at the table of the angels.\" - Khalil Gibran",
@@ -43,15 +69,12 @@
           }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Internal",
-            "Path": "/themes/nature/small/Alpine-Meadow-000056976900_Medium.jpg"
+          "Type": "Text",
+          "Label": {
+            "en": "🌷",
+            "fr": "🌷",
+            "es": "🌷"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -70,6 +93,32 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/good-night/default/small/iStock_000016355424_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That reminds me of a quote I really like...",
+            "fr": "Ça me fait penser à une citation que j'aime beaucoup...",
+            "es": "Me recuerda una cita que me gusta mucho..."
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "\"I like the night. Without the dark, we’d never see the stars.\" - Stephenie Meyer",
@@ -85,15 +134,12 @@
           }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Internal",
-            "Path": "/specialoccasions/good-night/default/small/iStock_000016355424_Medium.jpg"
+          "Type": "Text",
+          "Label": {
+            "en": "🌌",
+            "fr": "🌌",
+            "es": "🌌"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
