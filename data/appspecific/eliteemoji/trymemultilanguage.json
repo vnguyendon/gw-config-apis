@@ -1,0 +1,32 @@
+{
+  "apps": [
+    {
+      "header": {
+        "en": "Say what you think to a Pony bot!",
+        "fr": "Dis ce que tu pense a un robot-poney !",
+        "es": "¡Dígale lo que piensas a un poni-bot!"
+      },
+      "iconUrl": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png",
+      "button": {
+        "en": "Try me!",
+        "fr": "Essaie-moi !",
+        "es": "¡Pruébame!"
+      },
+      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
+    },
+    {
+      "header": {
+        "en": "A new app to express yourself with GIFS",
+        "fr": "Une nouvelle app pour s'exprimer avec des GIFs!",
+        "es": "¡Pruébame!"
+      },
+      "button": {
+        "en": "Let's go!",
+        "fr": "Allons-y!",
+        "es": "¡Vamos!"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
+    }
+  ]
+}
