@@ -28,15 +28,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
             "Path": "/specialoccasions/stop-the-world/default/small/old-pier-000046445702_Medium.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -55,15 +55,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters":{
             "Source": "Internal",
             "Path": "/specialoccasions/stop-the-world/default/small/shutterstock_170463986.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
