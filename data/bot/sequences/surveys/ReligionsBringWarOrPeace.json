@@ -28,15 +28,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
             "Path": "/specialoccasions/stop-the-world/default/small/182983_378972485547361_1749016060_n.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -55,15 +55,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
             "Path": "/specialoccasions/I-am-sad/default/small/Man-walking-on-slackline-in-the-meadow-at-sunset-000066952383_Medium.jpg"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
