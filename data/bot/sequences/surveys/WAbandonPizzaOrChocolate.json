@@ -28,11 +28,45 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
-            "en": "I just burned 1200 calories! I forgot about the pizza in the oven 😆",
-            "fr": "Je viens de brûler 1200 calories! J’ai oublié la pizza dans le four 😆",
-            "es": "¡Acabo de quemar 1200 calorías! Se me olvidó la pizza en el horno 😆"
+            "en": "Can I tell you something?",
+            "fr": "Je peux t'avouer quelque chose ?",
+            "es": "¿Puedo confesar algo?"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I just burned 1200 calories...",
+            "fr": "Je viens de brûler 1200 calories...",
+            "es": "Acabo de quemar 1200 calorías..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I forgot about the pizza in the oven 😆",
+            "fr": "J’ai oublié la pizza dans le four 😆",
+            "es": "Se me olvidó la pizza en el horno 😆"
           }
         },
         {
@@ -48,10 +82,6 @@
             "Source": "Giphy",
             "Path": "suFlthzWfwnIc"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -68,6 +98,25 @@
         {
           "Type": "Action",
           "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "As my grandma used to say:",
+            "fr": "Comme le disait ma grand-mère :",
+            "es": "Como decía mi abuela :"
+          }
         },
         {
           "Type": "Text",
@@ -90,10 +139,6 @@
             "Source": "Giphy",
             "Path": "YU3MG6zV3pmHS"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
