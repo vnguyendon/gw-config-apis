@@ -4,6 +4,8 @@
     { "order" : 10, "file":["/data/bot/sequences/appspecials/HowDoYouShowLove.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/CreateAnimatedEmoji.json"]},
     { "order" : 5, "file":["/data/bot/sequences/smalltalk/AreYouReal.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/PerfectGiftForYou.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/RateUs.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
