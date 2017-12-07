@@ -23,19 +23,19 @@
       },
       "Steps": [
         {
-          "Type": "Action",
-          "Name": "ShowCards",
-          "Parameters": {
-            "Type": "Gif",
-            "Path": "/data/common/giphycontent/flowers.json"
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "\"If I had a single flower for every time I think of you, I could walk forever in my garden\" - Claudia Adrienne Grandi",
             "fr": "\"Si j'avais une seule fleur pour chaque fois que je pense à toi, je pourrais me promener éternellement dans mon jardin\" - Claudia Adrienne Grandi",
             "es": "\"Si por cada vez que pienso en ti obtuviera una flor, podría pasearme eternamente en mi jardin.\" - Claudia Adrienne Grandi"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/flowers.json"
           }
         }
       ]
@@ -51,18 +51,18 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "IgLt8tZcGGYXS"
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en":"\"I am so clever that sometimes I don't understand a single word of what I am saying.\" - Oscar Wilde",
             "fr":"\"Je suis si intelligent que parfois je ne comprends pas un traître mot de ce que je dis.\" - Oscar Wilde",
             "es":"\"Soy tan inteligente que a veces no entiendo ni una sola palabra de lo que digo.\" - Oscar Wilde"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "IgLt8tZcGGYXS"
           }
         }
       ]
