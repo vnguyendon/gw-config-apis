@@ -18,7 +18,7 @@
       "Id": "LoveWithHugs",
       "CommandLabel": {
         "en": "with hugs",
-        "fr": "avec des calins",
+        "fr": "avec des câlins",
         "es": "con abrazos"
       },
       "Steps": [
@@ -34,7 +34,22 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 4000
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I have something that you may like 😉",
+            "fr": "J'ai quelque chose qui pourrait te plaire 😉",
+            "es": "Tengo algo que podría gustarte 😉"
+          }
+         },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         },
         {
@@ -68,7 +83,22 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 4000
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I have something that you may like 😉",
+            "fr": "J'ai quelque chose qui pourrait te plaire 😉",
+            "es": "Tengo algo que podría gustarte 😉"
+          }
+         },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         },
         {
