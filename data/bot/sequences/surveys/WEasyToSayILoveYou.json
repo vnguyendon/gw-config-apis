@@ -98,9 +98,16 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Jean Cocteau shared your opinion:",
-            "fr": "Jean Cocteau partageait ton point de vue :",
-            "es": "Jean Cocteau compartía tu punto de vista:"
+            "en": "French author Jean Cocteau would have answered the same",
+            "fr": "Jean Cocteau aurait dit la même chose",
+            "es": "El autor francés Jean Cocteau habría dicho lo mismo"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
           }
         },
         {
@@ -115,7 +122,7 @@
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
-            "ms": 2000
+            "ms": 3000
           }
         },
         {
