@@ -1,0 +1,527 @@
+{
+  "Type": "Node",
+  "Id": "LookingFor",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you looking for..",
+        "fr": "Es-tu en quête...",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LookingForLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love",
+        "fr": "de l'amour",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "DtJw1cqMCHSvu"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I can help you 👼🏼",
+            "fr": "Je peux t'aider 👼🏼",
+            "es": "TBD 👼🏼"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I just need to ask you a couple of questions to find the perfect match",
+            "fr": "J'ai juste besoin de te poser quelques questions pour trouver ton ame-soeur",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "💕",
+            "fr": "💕",
+            "es": "💕"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "ppDecisionsAriseFrom"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PersonalityQuestion2",
+        "LinksToFragment": {
+          "FragmentPath": "ppEnergeticAfter"
+        },
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "PersonalityQuestion3",
+          "LinksToFragment": {
+            "FragmentPath": "ppOpenedOrSettled"
+          },
+          "LinksTo": {
+            "Type": "Leaf",
+            "Id": "PersonalityQuestion4",
+            "LinksToFragment": {
+              "FragmentPath": "ppReceptiveTo"
+            }
+          }
+        }
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "stickers",
+        "fr": "de stickers",
+        "es": "TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I can help you 💪🏽!",
+            "fr": "Je peux t'aider 💪🏽 !",
+            "es": "TBD 💪🏽"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Are you looking for a specific category of stickers?",
+            "fr": "Est-ce que tu cherches une catégorie spécifique de stickers?",
+            "es": "TBD"
+          }
+        }
+      ],
+      "Randomize": "true",
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersLove",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Love ",
+            "fr": "Amour",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice 💓",
+                "fr": "Excellent choix 💓",
+                "es": "TBD 💓"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/specialoccasions/I-love-you/default/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersMiss",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "I miss you",
+            "fr": "Tu me manques",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice 💋",
+                "fr": "Excellent choix 💋",
+                "es": "TBD 💋"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/specialoccasions/I-miss-you/default/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersMorning",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Good morning",
+            "fr": "Bonjour",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice 🌅",
+                "fr": "Excellent choix 🌅",
+                "es": "TBD 🌅"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/specialoccasions/good-morning/default/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersBest",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "You're the best",
+            "fr": "Tu es les meilleur",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice 👏🏼",
+                "fr": "Excellent choix 👏🏼",
+                "es": "TBD 👏🏼"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/specialoccasions/you-are-the-best/default/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersKittens",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Kittens",
+            "fr": "Chats",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice 😸",
+                "fr": "Excellent choix 😸",
+                "es": "TBD 😸"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/themes/kittens/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForStickersAll",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "All categories",
+            "fr": "Toutes catégories",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Great choice",
+                "fr": "Excellent choix",
+                "es": "TBD"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "I will now redirect you to the stickers 👻",
+                "fr": "Je vais maintenant te rediriger vers les stickers 👻",
+                "es": "TBD 👻"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "Tab",
+                "Path": "Stickers"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForMoney",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "money",
+        "fr": "d'argent",
+        "es": "TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "We all are, even robots 😉",
+            "fr": "Nous le sommes tous, même les robots 😉",
+            "es": "TBD 😉"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5MX601lGlxPLa"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Can I suggest you a website where you can earn moneybjust by answering simple questions?",
+            "fr": "Est-ce que je ouex te suggérer un site ou tu pourras gagner de l'argent en répondant à quelques questions?",
+            "es": "TBD"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "MakeMoneySurveyYes",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "yes",
+            "fr": "oui",
+            "es": "si"
+          },
+          "Steps": [
+            {
+              "Type": "Action",
+              "Name": "EmbedLink",
+              "Parameters": {
+                "Path": "http://www.celinedion.com/",
+                "Label": {
+                  "en": "Here you go 🙂",
+                  "fr": "Très bien ! C'est par ici 🙂",
+                  "es": "TBD 🙂"
+                }
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "MakeMoneySurveyNo",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "no",
+            "fr": "non",
+            "es": "no"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Alright",
+                "fr": "D'accord",
+                "es": "TBD"
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "dykJfX4dbM0Vy"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForEmojis",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Emojis!",
+        "fr": "d'emojis !",
+        "es": "TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Welcome in Emojis Paradise then 😎!",
+            "fr": "Bienvenu au paradis des Emojis dans ce cas 😎 !",
+            "es": "TBD 😎"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Are you interested in Emojis Gifs or Emoji stickers?",
+            "fr": "Souhaites-tu voir des gifs d'emojis ou des stickers d'emojis?",
+            "es": "TBD"
+          }
+        }
+      ],
+      "Randomize": "true",
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "LookingForEmojisGifs",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Emoji Gifs!",
+            "fr": "Des gifs d'emojis !",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "You will find the prettiest here 😍",
+                "fr": "Tu trouveras les plus beaux ici 😍",
+                "es": "TBD 😍"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "GifCategory",
+                "Path": "/common/giphycontent/emojis.json"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Node",
+          "Id": "LookingForEmojisStickers",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Emoji stickers!",
+            "fr": "Des stickers d'emojis !",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Image",
+              "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/emoticons/small/000018292730.jpg"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Is there a specific theme of emoji you are after?",
+                "fr": "Est-ce qu'il y a un thème d'emoji que tu cherchers en particulier?",
+                "es": "TBD"
+              }
+            }
+          ],
+          "Commands": [
+            {
+              "Type": "Leaf",
+              "Id": "LookingForEmojisStickersClassic",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Classic emojis",
+                "fr": "Des emojis classiques",
+                "es": "TDB"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "RedirectTo",
+                  "Parameters": {
+                    "Type": "ImageCategory",
+                    "Path": "/themes/emoticons/small"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "LookingForEmojisStickersClassic",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Sun Emojis",
+                "fr": "Des emojis Soleil",
+                "es": "TDB"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "RedirectTo",
+                  "Parameters": {
+                    "Type": "ImageCategory",
+                    "Path": "/themes/emojiSun/small"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "LookingForEmojisStickers3D",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "3D Emojis",
+                "fr": "Des emojis 3D",
+                "es": "TDB"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "RedirectTo",
+                  "Parameters": {
+                    "Type": "ImageCategory",
+                    "Path": "/themes/emoticons2/small"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
