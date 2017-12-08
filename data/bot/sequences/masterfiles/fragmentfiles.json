@@ -1,4 +1,8 @@
 [
-     "/data/bot/sequences/fragments/BeingOldStateOfMind.json",
-     "/data/bot/sequences/fragments/FragmentTest2bWhatDidYouDreamAbout.json"
+	{"BeingOldStateOfMind": "/data/bot/sequences/fragments/BeingOldStateOfMind.json"},
+	{"WhatDidYouDreamAbout": "/data/bot/sequences/fragments/WhatDidYouDreamAbout.json"},
+	{"ppDecisionsAriseFrom": "/data/bot/sequences/personality/ppDecisionsAriseFrom.json"},
+	{"ppEnergeticAfter": "/data/bot/sequences/personality/ppEnergeticAfter.json"},
+	{"ppOpenedOrSettled": "/data/bot/sequences/personality/ppOpenedOrSettled.json"},
+	{"ppReceptiveTo": "/data/bot/sequences/personality/ppReceptiveTo.json"}
 ]
