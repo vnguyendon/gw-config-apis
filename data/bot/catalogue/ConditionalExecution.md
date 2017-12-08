@@ -8,9 +8,9 @@ This expression will be dynamically evaluated for the user context (variables ar
 
 exemples of supported expressions:
 
-* show only if you are a young french male `"ppAge == 'less18' && u.Gender='male' && u.Country='France'"`
+* show only if you are a young french male `"ppAge == 'less18' && u.Gender=='male' && u.Country=='France'"`
 * show only if your profile is INTP or (INTJ and woman) : 
-`"u.PsychologicalProfile == 'INTP' || (u.PsychologicalProfile == 'INTJ'" && u.Gender='female')`
+`"u.PsychologicalProfile == 'INTP' || (u.PsychologicalProfile == 'INTJ'" && u.Gender=='female')`
 * show only if you're in south america (by using timezones) : `"u.Timezone >= -6 && u.Timezone < -2"`
 
 ## Supported operators
@@ -26,7 +26,7 @@ The expression should be a simple boolean expression using the basic following o
 * `%` modulus
 * `+` unary plus
 * `-` unary minus
-* `=` equal (for numbers and strings)
+* `==` equal (for numbers and strings)
 * `!=` not equal (for numbers and strings)
 * `<` less than (for numbers and strings)
 * `<=` less than or equal (for numbers and strings)
@@ -73,13 +73,3 @@ If you want to do that compare the property with null:
    "Condition": "ppAge != null"
    ...
 }
-
-
-
-
-
-
-
-
-
-
