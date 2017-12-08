@@ -26,14 +26,6 @@
       },
       "Steps": [
         {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
@@ -52,14 +44,6 @@
         "es": "Microsoft"
       },
       "Steps": [
-        {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
         {
           "Type": "AnimatedGif",
           "Parameters": {
