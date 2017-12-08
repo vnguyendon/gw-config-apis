@@ -59,6 +59,13 @@
           "Name": "ShowSurveyResults"
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "\"Some people ask the secret of our long marriage. We take time to go to a restaurant two times a week. A little candlelight, dinner, soft music and dancing. She goes Tuesdays, I go Fridays.\" - Henry Youngman",
@@ -78,6 +85,13 @@
           "Parameters": {
             "Source": "Giphy",
             "Path": "RzEQZJVN4CK6A"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         }
       ]
