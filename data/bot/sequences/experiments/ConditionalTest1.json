@@ -1,6 +1,7 @@
 
 {
   "Type": "Node",
+  "Condition": "ppAge=='18-39' && u.Gender=='male' && u.Country=='United-Kingdom'"
   "Id": "AmazonOrMicrosoft",
   "Steps": [
     {
