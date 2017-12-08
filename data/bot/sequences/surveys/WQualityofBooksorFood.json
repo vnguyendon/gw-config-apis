@@ -28,6 +28,10 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "Eat what you want, when you want and as much as you want. If anyone comments on your weight, eat them too 😋",
@@ -36,15 +40,18 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "DKvw9IJ57pn9K"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     },
@@ -63,15 +70,15 @@
           "Name": "DoVote"
         },
         {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "6zA0PVT8Y6zDO"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
         }
       ]
     }
