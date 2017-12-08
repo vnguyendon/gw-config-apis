@@ -1,0 +1,72 @@
+
+{
+  "Type": "Node",
+  "Id": "AmazonOrMicrosoft",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which company do you feel better about?",
+        "fr": "Quelle entreprise te fait meilleure impression ?",
+        "es": "¿Qué empresa te gusta más?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Amazon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Amazon",
+        "fr": "Amazon",
+        "es": "Amazon"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "g99t1mZB3jlmw"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Microsoft",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Microsoft",
+        "fr": "Microsoft",
+        "es": "Microsoft"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SryIsPJQVNxhm"
+          }
+        }
+      ]
+    }
+  ]
+}
