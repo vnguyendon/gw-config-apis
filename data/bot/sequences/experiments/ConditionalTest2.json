@@ -2,7 +2,7 @@
 {
   "Type": "Node",
   "Condition": "u.PsychologicalProfile=='INTP' || (u.PsychologicalProfile=='INTJ' && u.Gender=='female')",
-  "Id": "AmazonOrMicrosoft",
+  "Id": "WaveminingOrWinWiseTest",
   "Steps": [
     {
       "Type": "Text",
@@ -20,19 +20,11 @@
       "Id": "Amazon",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Amazon",
-        "fr": "Amazon",
-        "es": "Amazon"
+        "en": "WaveMining",
+        "fr": "WaveMining",
+        "es": "WaveMining"
       },
       "Steps": [
-        {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
         {
           "Type": "AnimatedGif",
           "Parameters": {
@@ -47,19 +39,11 @@
       "Id": "Microsoft",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Microsoft",
-        "fr": "Microsoft",
-        "es": "Microsoft"
+        "en": "WinWise",
+        "fr": "WinWise",
+        "es": "WinWise"
       },
       "Steps": [
-        {
-          "Type": "Action",
-          "Name": "DoVote"
-        },
-        {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
         {
           "Type": "AnimatedGif",
           "Parameters": {
