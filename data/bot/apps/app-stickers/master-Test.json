@@ -2,8 +2,8 @@
   "Version": 1,
   "GroupName": "Test",
   "SequenceFiles": [
-    { "order" : 9, "file":["/data/bot/sequences/smalltalk/WhatAreYourPlansForTomorrow.json"]},
-    { "order" : 10, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
-    { "order" : 11, "file":["/data/bot/sequences/smalltalk/WhatDoYouWannaKnowAboutMe.json"]}
+    { "order" : 9, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/FragmentTest2aDoYouRememberYourDreams.json"]},
+    { "order" : 11, "file":["/data/bot/sequences/experiments/LookingFor.json"]}
   ]
 }
