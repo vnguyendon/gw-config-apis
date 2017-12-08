@@ -74,10 +74,10 @@
             "Name": "ShowSurveyResults"
         },
         {
-          "Type": "AnimatedGif",
+          "Type": "Image",
           "Parameters": {
-            "Source": "Giphy",
-            "Path": "lELRD773cY7Sg"
+            "Source": "Internal",
+            "Path": "/themes/animals/small/iStock_000002939415_Medium.jpg"
           }
         },
         {
