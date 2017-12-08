@@ -13,8 +13,8 @@
       "Type": "Text",
       "Label": {
         "en": "You feel better when things are",
-        "fr": "Vous préférez que les choses soient",
-        "es": "Usted prefiere que las cosas sean"
+        "fr": "Tu préfères que les choses soient",
+        "es": "Prefieres que las cosas sean"
       }
     }
   ],
@@ -25,18 +25,11 @@
       "ElementValue": "1",
       "Id": "OpenedOrSettledIsSettled",
       "CommandLabel": {
-        "en": "Settled, decided",
-        "fr": "Tranchées, décidées",
-        "es": "Cortadas, decididas"
+        "en": "settled, decided",
+        "fr": "tranchées, décidées",
+        "es": "cortadas, decididas"
       },
       "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "26vUNhQzmhMtArwC4"
-          }
-        },
         {
             "Type": "Action",
             "Name": "DoVote"
@@ -44,6 +37,13 @@
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26vUNhQzmhMtArwC4"
+          }
         },
         {
           "Type": "Action",
@@ -60,18 +60,11 @@
       "ElementValue": "1",
       "Id": "OpenedOrSettledIsOpened",
       "CommandLabel": {
-        "en": "Interpretable, evolving",
-        "fr": "Interprétables, évolutives",
-        "es": "Interpretables, evolutivas"
+        "en": "interpretable, evolving",
+        "fr": "interprétables, évolutives",
+        "es": "interpretables, evolutivas"
       },
       "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "lELRD773cY7Sg"
-          }
-        },
         {
             "Type": "Action",
             "Name": "DoVote"
@@ -79,6 +72,13 @@
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lELRD773cY7Sg"
+          }
         },
         {
           "Type": "Action",
