@@ -66,9 +66,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "For instance:",
-            "fr": "Par exemple :",
-            "es": "Por ejemplo:"
+            "en": "For instance...",
+            "fr": "Par exemple...",
+            "es": "Por ejemplo..."
           }
         }
       ]
@@ -142,9 +142,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "For instance:",
-            "fr": "Par exemple :",
-            "es": "Por ejemplo:"
+            "en": "For instance...",
+            "fr": "Par exemple...",
+            "es": "Por ejemplo..."
           }
         }
       ]
