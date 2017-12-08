@@ -1,5 +1,5 @@
 {
-  "Version": "1",
+  "Version": 1,
   "GroupName": "Test",
   "SequenceFiles": [
     { "order" : 9, "file":["/data/bot/sequences/smalltalk/WhatAreYourPlansForTomorrow.json"]},
