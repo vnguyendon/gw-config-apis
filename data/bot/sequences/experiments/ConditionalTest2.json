@@ -1,6 +1,7 @@
 
 {
   "Type": "Node",
+  "Condition": "u.PsychologicalProfile=='INTP' || (u.PsychologicalProfile=='INTJ' && u.Gender=='female')",
   "Id": "AmazonOrMicrosoft",
   "Steps": [
     {
