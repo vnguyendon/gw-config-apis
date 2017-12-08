@@ -12,9 +12,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "You feel more energetic after",
-        "fr": "Vous avez plus d'énergie après avoir été",
-        "es": "Su energía aumenta cuándo ha estado"
+        "en": "You feel more energetic after being",
+        "fr": "Tu as plus d'énergie après avoir été avec",
+        "es": "Tu energía aumenta cuando has estado"
       }
     }
   ],
@@ -25,18 +25,11 @@
       "StepValue": "1",
       "Id": "EnergeticAfterWithPeople",
       "CommandLabel": {
-        "en": "Being with people",
-        "fr": "Avec d'autres personnes",
-        "es": "Con otras personas"
+        "en": "with people",
+        "fr": "d'autres personnes",
+        "es": "con otras personas"
       },
       "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "l41JIcNde564wLtPG"
-          }
-        },
         {
             "Type": "Action",
             "Name": "DoVote"
@@ -44,6 +37,13 @@
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41JIcNde564wLtPG"
+          }
         },
         {
           "Type": "Action",
@@ -60,18 +60,11 @@
       "StepValue": "1",
       "Id": "EnergeticAfterOnYourOwn",
       "CommandLabel": {
-        "en": "Being on your own",
-        "fr": "Avec vous-même",
-        "es": "Con usted mismo"
+        "en": "on your own",
+        "fr": "toi-même",
+        "es": "contigo mismo"
       },
       "Steps": [
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "B51EAJ0Frooq4"
-          }
-        },
         {
             "Type": "Action",
             "Name": "DoVote"
@@ -79,6 +72,13 @@
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "B51EAJ0Frooq4"
+          }
         },
         {
           "Type": "Action",
