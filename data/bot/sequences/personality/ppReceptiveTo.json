@@ -13,8 +13,8 @@
       "Type": "Text",
       "Label": {
         "en":"You are more receptive to",
-        "fr":"Vous êtes plus réceptif aux",
-        "es":"Usted es más receptivo a"
+        "fr":"Tu es plus réceptif aux",
+        "es":"Eres más receptivo a"
       }
     }
   ],
@@ -31,19 +31,19 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "TuQUMaAji7pkY"
-          }
-        },
-        {
             "Type": "Action",
             "Name": "DoVote"
         },
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TuQUMaAji7pkY"
+          }
         },
         {
           "Type": "Action",
@@ -66,19 +66,19 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "YLHwkqayc1j7a"
-          }
-        },
-        {
             "Type": "Action",
             "Name": "DoVote"
         },
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YLHwkqayc1j7a"
+          }
         },
         {
           "Type": "Action",
