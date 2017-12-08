@@ -10,7 +10,7 @@ exemples of supported expressions:
 
 * show only if you are a young french male `"ppAge=='less18' && u.Gender=='male' && u.Country=='France'"`
 * show only if your profile is INTP or (INTJ and woman) : 
-`"u.PsychologicalProfile=='INTP' || (u.PsychologicalProfile=='INTJ'" && u.Gender=='female')`
+`"u.PsychologicalProfile=='INTP' || (u.PsychologicalProfile=='INTJ'" && u.Gender=='female')"`
 * show only if you're in south america (by using timezones) : `"u.Timezone >= -6 && u.Timezone < -2"`
 
 ## Supported operators
