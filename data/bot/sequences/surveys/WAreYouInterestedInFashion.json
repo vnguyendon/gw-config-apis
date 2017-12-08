@@ -53,9 +53,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "The next question was made for you, hope you'll like it! 🤞",
-              "fr": "La prochaine question a été créée pour toi, j'espère qu'elle te fera plaisir ! 🤞",
-              "es": "La próxima pregunta fue creada para ti, ¡espero que te guste! 🤞"
+              "en": "This makes me curious...",
+              "fr": "Du coup, je suis curieux...",
+              "es": "Pues, me hace curioso..."
             }
           },
           {
