@@ -1,0 +1,57 @@
+
+{
+  "Type": "Node",
+  "Condition": "u.Timezone >= -6 && u.Timezone < -2",
+  "Id": "TwitterOrOracleTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which company do you feel better about?",
+        "fr": "Quelle entreprise te fait meilleure impression ?",
+        "es": "¿Qué empresa te gusta más?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Amazon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Twitter",
+        "fr": "Twitter",
+        "es": "Twitter"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "g99t1mZB3jlmw"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "Microsoft",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Oracle",
+        "fr": "Oracle",
+        "es": "Oracle"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SryIsPJQVNxhm"
+          }
+        }
+      ]
+    }
+  ]
+}
