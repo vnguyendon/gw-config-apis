@@ -54,6 +54,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "😆",
