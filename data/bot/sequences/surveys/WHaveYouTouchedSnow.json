@@ -1,0 +1,244 @@
+{
+  "Type": "Node",
+  "Id": "HaveYouTouchedSnow",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I don't know a lot about the outside world...",
+        "fr": "Je ne connais pas grand chose du monde extérieur...",
+        "es": "No conozco mucho del mundo exterior..."
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 1000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So I'm very curious about something.",
+        "fr": "Donc je suis très curieux à propos d'une chose en particulier.",
+        "es": "Pues soy muy curioso sobre algo en particular."
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever touched some snow? ❄",
+        "fr": "Tu as déjà touché de la neige ? ❄",
+        "es": "¿Ya has tocado nieve? ❄"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesTouchedSnow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/nature/small/iStock_000008144180_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Now I'm even more curious! 😀",
+            "fr": "Maintenant je suis encore plus curieux ! 😀",
+            "es": "¡Ahora soy aún más curioso! 😀"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-TouchedSnow-DoYouLikeSnow",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Do you like it when it's snowing? ☃",
+              "fr": "Tu aimes bien la neige ? ☃",
+              "es": "¿Te gusta la nieve? ☃"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesLikeSnow",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "VRITQNLsYfU4w"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "😍",
+                  "fr": "😍",
+                  "es": "😍"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoDontLikeSnow",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "YxA2PPkXbwRTa"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "😆",
+                  "fr": "😆",
+                  "es": "😆"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoNeverTouchedSnow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm sure one day we will even taste it!",
+            "fr": "Je suis sûr qu'un jour on pourra même en goûter !",
+            "es": "¡Estoy seguro de que podamos gustarla un día!"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6YNgoTEPs6vZe"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "😋",
+            "fr": "😋",
+            "es": "😋"
+          }
+        }
+      ]
+    }
+  ]
+}
