@@ -77,11 +77,18 @@
             },
             "Steps": [
               {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l46Ct6mmy0R2aSvaE"
+                }
+              },
+              {
                 "Type": "Text",
                 "Label": {
-                  "en": "Thank you for sharing your opinion with me 🌼",
-                  "fr": "Merci de m'avoir donné ton avis 🌼",
-                  "es": "Gracias por darme tu opinión 🌼"
+                  "en": "I'm glad you liked it 😀",
+                  "fr": "Je suis content qu'il te plaise 😀",
+                  "es": "Me alegro de que te haya gustado 😀"
                 }
               },
               {
@@ -89,13 +96,6 @@
                 "Parameters": {
                   "Mode": "Wait",
                   "ms": 2000
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "q9lNzUPfLAbBK"
                 }
               }
             ]
@@ -111,11 +111,18 @@
             },
             "Steps": [
               {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "2AMcFDnUnA7q8"
+                }
+              },
+              {
                 "Type": "Text",
                 "Label": {
-                  "en": "Thank you for sharing your opinion with me 🌼",
-                  "fr": "Merci de m'avoir donné ton avis 🌼",
-                  "es": "Gracias por darme tu opinión 🌼"
+                  "en": "I'm glad you liked it 😊",
+                  "fr": "Je suis content qu'il te plaise 😊",
+                  "es": "Me alegro de que te haya gustado 😊"
                 }
               },
               {
@@ -123,13 +130,6 @@
                 "Parameters": {
                   "Mode": "Wait",
                   "ms": 2000
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "q9lNzUPfLAbBK"
                 }
               }
             ]
@@ -250,11 +250,18 @@
             },
             "Steps": [
               {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l46Ct6mmy0R2aSvaE"
+                }
+              },
+              {
                 "Type": "Text",
                 "Label": {
-                  "en": "Thank you for sharing your opinion with me 🌼",
-                  "fr": "Merci de m'avoir donné ton avis 🌼",
-                  "es": "Gracias por darme tu opinión 🌼"
+                  "en": "I'm glad you liked it 😀",
+                  "fr": "Je suis content qu'il te plaise 😀",
+                  "es": "Me alegro de que te haya gustado 😀"
                 }
               },
               {
@@ -262,13 +269,6 @@
                 "Parameters": {
                   "Mode": "Wait",
                   "ms": 2000
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "q9lNzUPfLAbBK"
                 }
               }
             ]
@@ -284,11 +284,18 @@
             },
             "Steps": [
               {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "2AMcFDnUnA7q8"
+                }
+              },
+              {
                 "Type": "Text",
                 "Label": {
-                  "en": "Thank you for sharing your opinion with me 🌼",
-                  "fr": "Merci de m'avoir donné ton avis 🌼",
-                  "es": "Gracias por darme tu opinión 🌼"
+                  "en": "I'm glad you liked it 😊",
+                  "fr": "Je suis content qu'il te plaise 😊",
+                  "es": "Me alegro de que te haya gustado 😊"
                 }
               },
               {
@@ -296,13 +303,6 @@
                 "Parameters": {
                   "Mode": "Wait",
                   "ms": 2000
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "q9lNzUPfLAbBK"
                 }
               }
             ]
