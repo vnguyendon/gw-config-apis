@@ -85,7 +85,7 @@
             ]
           },
           {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "NoItsNotFun",
             "CommandLabel": {
               "en": "no, emoji are more fun",
@@ -249,7 +249,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "NoImNotreal",
       "ElementValue": "1",
       "CommandLabel": {
