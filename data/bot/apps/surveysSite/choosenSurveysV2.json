@@ -1,5 +1,5 @@
 [
-  { "order":100, "file": "/data/bot/sequences/surveys/AreYouHappy.json"},
+  { "order":100, "file": "/data/bot/sequences/surveys/AreYouHappy.json", "label":"Steps[0].Label","commands":"Commands"},
   { "order":200, "file": "/data/bot/sequences/surveys/CountryBetterLooking.json" },
   { "order":300, "file": "/data/bot/sequences/surveys/BatmanOrSuperman.json" }
 ]
