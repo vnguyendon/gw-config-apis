@@ -5,7 +5,7 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Are you looking for..",
+        "en": "Are you looking for...",
         "fr": "Es-tu en quête...",
         "es": "Tu gustaría encontrar..."
       }
@@ -380,7 +380,7 @@
       "Id": "LookingForEmojis",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Emojis!",
+        "en": "emojis!",
         "fr": "d'emojis !",
         "es": "¡emojis!"
       },
