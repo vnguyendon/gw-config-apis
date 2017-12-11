@@ -7,7 +7,7 @@
       "Label": {
         "en": "I don't know a lot about the outside world...",
         "fr": "Je ne connais pas grand chose du monde extérieur...",
-        "es": "No conozco mucho del mundo exterior..."
+        "es": "No conozco mucho el mundo exterior..."
       }
     },
     {
@@ -20,9 +20,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "So I'm very curious about something.",
-        "fr": "Donc je suis très curieux à propos d'une chose en particulier.",
-        "es": "Pues soy muy curioso sobre algo en particular."
+        "en": "And I'm very curious about something in particular.",
+        "fr": "Et il y a une chose en particulier qui m'intrigue beaucoup.",
+        "es": "Y hay algo en particular que me intriga mucho."
       }
     },
     {
@@ -91,9 +91,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "Do you like it when it's snowing? ☃",
-              "fr": "Tu aimes bien la neige ? ☃",
-              "es": "¿Te gusta la nieve? ☃"
+              "en": "Do you like it when it's snowing? 🌨",
+              "fr": "Tu aimes bien la neige ? 🌨",
+              "es": "¿Te gusta la nieve? 🌨"
             }
           }
         ],
@@ -132,9 +132,9 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "😍",
-                  "fr": "😍",
-                  "es": "😍"
+                  "en": "I wish I could do the same 😍",
+                  "fr": "J'aimerais tellement pouvoir faire la même chose 😍",
+                  "es": "Me gustaría tanto hacer lo mismo 😍"
                 }
               }
             ]
@@ -173,9 +173,9 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "😆",
-                  "fr": "😆",
-                  "es": "😆"
+                  "en": "I'm sure this cat feels the same 😆",
+                  "fr": "Je suis sûr que ce chat est d'accord 😆",
+                  "es": "Estoy seguro de que este gato esté de acuerdo 😆"
                 }
               }
             ]
