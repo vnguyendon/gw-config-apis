@@ -62,10 +62,10 @@
           "Name": "ShowSurveyResults"
         },
         {
-          "Type": "Image",
+          "Type": "AnimatedGif",
           "Parameters": {
-            "Source": "Internal",
-            "Path": "/themes/nature/small/iStock_000008144180_Medium.jpg"
+            "Source": "Giphy",
+            "Path": "KbbjidIlBnQbe"
           }
         },
         {
