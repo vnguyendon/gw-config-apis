@@ -62,8 +62,8 @@
             "Type": "Text",
             "Label": {
               "en": "How often do you think about the meaning and purpose of life?",
-              "fr": "A quelle fréquence réfléchis-tu au sens et au but de la vie ?",
-              "es": "¿Con cual frecuencia reflexionas sobre la meta y el sentido de la vida?"
+              "fr": "Tu réfléchis souvent au sens et au but de la vie ?",
+              "es": "¿A menudo reflexionas sobre la meta y el sentido de la vida?"
             }
           }
         ],
@@ -91,6 +91,14 @@
                   "Source": "Internal",
                   "Path": "/specialoccasions/stop-the-world/default/small/1785_10151256677994775_545283888_n.jpg"
                 }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I think a lot about it too 🤓",
+                  "fr": "Moi aussi j'y pense souvent 🤓",
+                  "es": "Yo también reflexiono mucho sobre eso 🤓"
+                }
               }
             ]
           },
@@ -110,6 +118,29 @@
               {
                 "Type": "Action",
                 "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "It can be scary...",
+                  "fr": "Cela peut faire peur...",
+                  "es": "Puede dar miedo..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "but also reassuring 🍀",
+                  "fr": "mais cela peut aussi rassurer 🍀",
+                  "es": "pero puede también reconfortar 🍀"
+                }
               },
               {
                 "Type": "Image",
