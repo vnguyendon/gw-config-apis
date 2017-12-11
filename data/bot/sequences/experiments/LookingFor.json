@@ -7,7 +7,7 @@
       "Label": {
         "en": "Are you looking for..",
         "fr": "Es-tu en quête...",
-        "es": "TBD"
+        "es": "Tu gustaría encontrar..."
       }
     }
   ],
@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "love",
         "fr": "de l'amour",
-        "es": "TBD"
+        "es": "el amor"
       },
       "Steps": [
         {
@@ -35,15 +35,15 @@
           "Label": {
             "en": "I can help you 👼🏼",
             "fr": "Je peux t'aider 👼🏼",
-            "es": "TBD 👼🏼"
+            "es": "Puedo ayudarte 👼🏼"
           }
         },
         {
           "Type": "Text",
           "Label": {
             "en": "I just need to ask you a couple of questions to find the perfect match",
-            "fr": "J'ai juste besoin de te poser quelques questions pour trouver ton ame-soeur",
-            "es": "TBD"
+            "fr": "J'ai juste besoin de te poser quelques questions pour trouver ton âme-soeur",
+            "es": "Solo hay que contestar algunas preguntas para encontrar tu alma gemela"
           }
         },
         {
@@ -87,7 +87,7 @@
       "CommandLabel": {
         "en": "stickers",
         "fr": "de stickers",
-        "es": "TDB"
+        "es": "stickers"
       },
       "Steps": [
         {
@@ -95,7 +95,7 @@
           "Label": {
             "en": "I can help you 💪🏽!",
             "fr": "Je peux t'aider 💪🏽 !",
-            "es": "TBD 💪🏽"
+            "es": "¡Puedo ayudarte 💪🏽!"
           }
         },
         {
@@ -103,7 +103,7 @@
           "Label": {
             "en": "Are you looking for a specific category of stickers?",
             "fr": "Est-ce que tu cherches une catégorie spécifique de stickers?",
-            "es": "TBD"
+            "es": "¿Estás buscando un tipo especial de stickers?"
           }
         }
       ],
@@ -116,7 +116,7 @@
           "CommandLabel": {
             "en": "Love ",
             "fr": "Amour",
-            "es": "TDB"
+            "es": "Amor"
           },
           "Steps": [
             {
@@ -124,7 +124,7 @@
               "Label": {
                 "en": "Great choice 💓",
                 "fr": "Excellent choix 💓",
-                "es": "TBD 💓"
+                "es": "Elección excelente 💓"
               }
             },
             {
@@ -144,7 +144,7 @@
           "CommandLabel": {
             "en": "I miss you",
             "fr": "Tu me manques",
-            "es": "TDB"
+            "es": "Te echo de menos"
           },
           "Steps": [
             {
@@ -152,7 +152,7 @@
               "Label": {
                 "en": "Great choice 💋",
                 "fr": "Excellent choix 💋",
-                "es": "TBD 💋"
+                "es": "Elección excelente 💋"
               }
             },
             {
@@ -172,7 +172,7 @@
           "CommandLabel": {
             "en": "Good morning",
             "fr": "Bonjour",
-            "es": "TDB"
+            "es": "Buenos días"
           },
           "Steps": [
             {
@@ -180,7 +180,7 @@
               "Label": {
                 "en": "Great choice 🌅",
                 "fr": "Excellent choix 🌅",
-                "es": "TBD 🌅"
+                "es": "Elección excelente 🌅"
               }
             },
             {
@@ -200,7 +200,7 @@
           "CommandLabel": {
             "en": "You're the best",
             "fr": "Tu es les meilleur",
-            "es": "TDB"
+            "es": "Eres el mejor"
           },
           "Steps": [
             {
@@ -208,7 +208,7 @@
               "Label": {
                 "en": "Great choice 👏🏼",
                 "fr": "Excellent choix 👏🏼",
-                "es": "TBD 👏🏼"
+                "es": "Elección excelente 👏🏼"
               }
             },
             {
@@ -228,7 +228,7 @@
           "CommandLabel": {
             "en": "Kittens",
             "fr": "Chats",
-            "es": "TDB"
+            "es": "Gatos"
           },
           "Steps": [
             {
@@ -236,7 +236,7 @@
               "Label": {
                 "en": "Great choice 😸",
                 "fr": "Excellent choix 😸",
-                "es": "TBD 😸"
+                "es": "Elección excelente 😸"
               }
             },
             {
@@ -256,7 +256,7 @@
           "CommandLabel": {
             "en": "All categories",
             "fr": "Toutes catégories",
-            "es": "TDB"
+            "es": "Todos tipos"
           },
           "Steps": [
             {
@@ -264,7 +264,7 @@
               "Label": {
                 "en": "Great choice",
                 "fr": "Excellent choix",
-                "es": "TBD"
+                "es": "Elección excelente"
               }
             },
             {
@@ -272,7 +272,7 @@
               "Label": {
                 "en": "I will now redirect you to the stickers 👻",
                 "fr": "Je vais maintenant te rediriger vers les stickers 👻",
-                "es": "TBD 👻"
+                "es": "Ahora voy a redirigirte hacia los stickers 👻"
               }
             },
             {
@@ -294,7 +294,7 @@
       "CommandLabel": {
         "en": "money",
         "fr": "d'argent",
-        "es": "TDB"
+        "es": "dinero"
       },
       "Steps": [
         {
@@ -302,14 +302,14 @@
           "Label": {
             "en": "We all are, even robots 😉",
             "fr": "Nous le sommes tous, même les robots 😉",
-            "es": "TBD 😉"
+            "es": "Nos gustaría a todos, incluso a los robots 😉"
           }
         },
         {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "5MX601lGlxPLa"
+            "Path": "w3BQ70JafTEFW"
           }
         },
         {
@@ -317,7 +317,7 @@
           "Label": {
             "en": "Can I suggest you a website where you can earn moneybjust by answering simple questions?",
             "fr": "Est-ce que je ouex te suggérer un site ou tu pourras gagner de l'argent en répondant à quelques questions?",
-            "es": "TBD"
+            "es": "¿Puedo sugerirte un sitio web donde podrás ganar dinero contestando algunas preguntas?"
           }
         }
       ],
@@ -329,7 +329,7 @@
           "CommandLabel": {
             "en": "yes",
             "fr": "oui",
-            "es": "si"
+            "es": "sí"
           },
           "Steps": [
             {
@@ -340,7 +340,7 @@
                 "Label": {
                   "en": "Here you go 🙂",
                   "fr": "Très bien ! C'est par ici 🙂",
-                  "es": "TBD 🙂"
+                  "es": "¡Muy bueno! Está por aquí 🙂"
                 }
               }
             }
@@ -361,7 +361,7 @@
               "Label": {
                 "en": "Alright",
                 "fr": "D'accord",
-                "es": "TBD"
+                "es": "Vale"
               }
             },
             {
@@ -382,7 +382,7 @@
       "CommandLabel": {
         "en": "Emojis!",
         "fr": "d'emojis !",
-        "es": "TDB"
+        "es": "¡emojis!"
       },
       "Steps": [
         {
@@ -390,15 +390,15 @@
           "Label": {
             "en": "Welcome in Emojis Paradise then 😎!",
             "fr": "Bienvenu au paradis des Emojis dans ce cas 😎 !",
-            "es": "TBD 😎"
+            "es": "¡Bienvenido en el paraíso de los emojis! 😎"
           }
         },
         {
           "Type": "Text",
           "Label": {
             "en": "Are you interested in Emojis Gifs or Emoji stickers?",
-            "fr": "Souhaites-tu voir des gifs d'emojis ou des stickers d'emojis?",
-            "es": "TBD"
+            "fr": "Souhaites-tu voir des emojis statiques ou animés?",
+            "es": "¿Prefieres emojis estáticos o animados?"
           }
         }
       ],
@@ -409,9 +409,9 @@
           "Id": "LookingForEmojisGifs",
           "ElementValue": "1",
           "CommandLabel": {
-            "en": "Emoji Gifs!",
-            "fr": "Des gifs d'emojis !",
-            "es": "TDB"
+            "en": "emoji gifs",
+            "fr": "emojis animés",
+            "es": "emojis animados"
           },
           "Steps": [
             {
@@ -419,7 +419,7 @@
               "Label": {
                 "en": "You will find the prettiest here 😍",
                 "fr": "Tu trouveras les plus beaux ici 😍",
-                "es": "TBD 😍"
+                "es": "Encontrarás los más bonitos aquí 😍"
               }
             },
             {
@@ -437,9 +437,9 @@
           "Id": "LookingForEmojisStickers",
           "ElementValue": "1",
           "CommandLabel": {
-            "en": "Emoji stickers!",
-            "fr": "Des stickers d'emojis !",
-            "es": "TDB"
+            "en": "emoji stickers",
+            "fr": "emojis statiques",
+            "es": "emojis estáticos"
           },
           "Steps": [
             {
@@ -454,7 +454,7 @@
               "Label": {
                 "en": "Is there a specific theme of emoji you are after?",
                 "fr": "Est-ce qu'il y a un thème d'emoji que tu cherchers en particulier?",
-                "es": "TBD"
+                "es": "¿Estás buscando un tipo especial de emojis?"
               }
             }
           ],
@@ -464,9 +464,9 @@
               "Id": "LookingForEmojisStickersClassic",
               "ElementValue": "1",
               "CommandLabel": {
-                "en": "Classic emojis",
-                "fr": "Des emojis classiques",
-                "es": "TDB"
+                "en": "classic emojis",
+                "fr": "des emojis classiques",
+                "es": "emojis clásicos"
               },
               "Steps": [
                 {
@@ -484,9 +484,9 @@
               "Id": "LookingForEmojisStickersClassic",
               "ElementValue": "1",
               "CommandLabel": {
-                "en": "Sun Emojis",
-                "fr": "Des emojis Soleil",
-                "es": "TDB"
+                "en": "sun Emojis",
+                "fr": "des emojis Soleil",
+                "es": "emojis Sol"
               },
               "Steps": [
                 {
@@ -505,8 +505,8 @@
               "ElementValue": "1",
               "CommandLabel": {
                 "en": "3D Emojis",
-                "fr": "Des emojis 3D",
-                "es": "TDB"
+                "fr": "des emojis 3D",
+                "es": "emojis 3D"
               },
               "Steps": [
                 {
