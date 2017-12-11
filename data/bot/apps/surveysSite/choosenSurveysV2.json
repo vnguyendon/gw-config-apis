@@ -1,10 +1,5 @@
 [
-  {
-    "order":"100",
-    "file": "/data/bot/sequences/surveys/AreYouHappy.json",
-    "question": "Steps[0].Labbel",
-    "commands": "Commands",
-  },
+  { "order":100, "file": "/data/bot/sequences/surveys/AreYouHappy.json"},
   { "order":200, "file": "/data/bot/sequences/surveys/CountryBetterLooking.json" },
   { "order":300, "file": "/data/bot/sequences/surveys/BatmanOrSuperman.json" }
 ]
