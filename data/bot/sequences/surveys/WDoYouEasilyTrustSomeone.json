@@ -1,0 +1,139 @@
+{
+  "Type": "Node",
+  "Id": "DoYouEasilyTrustPeople",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you easily trust people you meet for the first time?",
+        "fr": "Fais-tu facilement confiance aux gens que tu rencontres pour la première fois ?",
+        "es": "¿Confias fácilmente en la gente que conoce por primera vez?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesTrustEasily",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "gqlllRaVSyNxe"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "NoDontTrustEasily",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmmm, interesting...",
+            "fr": "Mmmm, intéressant...",
+            "es": "Mmmm, interesante..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "IlVXCcLIFH3z2"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DoYouTrustMe",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And do you trust me? 😉",
+              "fr": "Et moi, tu me fais confiance ? 😉",
+              "es": "¿Y confias en mi? 😉"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesITrustYou",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "TU5Qalf84igMM"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'm honoured, thank you!",
+                  "fr": "C'est un honneur, merci beaucoup !",
+                  "es": "¡Es un honor, muchas gracias!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoIDontTrustYou",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "L95W4wv8nnb9K"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
