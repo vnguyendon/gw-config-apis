@@ -1,0 +1,425 @@
+{
+  "Type": "Node",
+  "Id": "AreYouHuman",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What about you? 🙂",
+        "fr": "Et toi ? 🙂",
+        "es": "¿Y tú? 🙂"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you human?",
+        "fr": "Tu es un humain, c'est ça ?",
+        "es": "¿Eres humano?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesImHuman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "IsItFunToBeHuman",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "And is it fun to be human? 🤔",
+              "fr": "Et c'est amusant d'être un humain ? 🤔",
+              "es": "¿Y es divertido ser humano? 🤔"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesItsFun",
+            "CommandLabel": {
+              "en": "yes, food is delicious",
+              "fr": "oui, j'adore la nourriture",
+              "es": "sí, me encanta la comida"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "xUA7bjfr8Q1BB3LbJm"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good to know! 😄",
+                  "fr": "C'est bon à savoir 😄",
+                  "es": "Es bueno saberlo 😄"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoItsNotFun",
+            "CommandLabel": {
+              "en": "no, emoji are more fun",
+              "fr": "non, les emojis sont plus drôles",
+              "es": "no, emojis son más divertidos"
+            },
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "WhichIsYourFavoriteEmoji",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Really? And which is your favorite?",
+                    "fr": "Vraiment ? Et lequel préfères-tu ?",
+                    "es": "¿Verdad? ¿Y cuál es tu favorito?"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Laughing",
+                  "CommandLabel": {
+                    "en": "😂",
+                    "fr": "😂",
+                    "es": "😂"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "😂😂😂😂😂",
+                        "fr": "😂😂😂😂😂",
+                        "es": "😂😂😂😂😂"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Poo",
+                  "CommandLabel": {
+                    "en": "💩",
+                    "fr": "💩",
+                    "es": "💩"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "💩💩💩💩💩",
+                        "fr": "💩💩💩💩💩",
+                        "es": "💩💩💩💩💩"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Cat",
+                  "CommandLabel": {
+                    "en": "😻",
+                    "fr": "😻",
+                    "es": "😻"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "😻😻😻😻😻",
+                        "fr": "😻😻😻😻😻",
+                        "es": "😻😻😻😻😻"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Monkey",
+                  "CommandLabel": {
+                    "en": "🙈",
+                    "fr": "🙈",
+                    "es": "🙈"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Nice choice!",
+                        "fr": "Très bon choix !",
+                        "es": "¡Muy buena elección!"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "🙈🙈🙈🙈🙈",
+                        "fr": "🙈🙈🙈🙈🙈",
+                        "es": "🙈🙈🙈🙈🙈"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoImNotreal",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatAreYou",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Really?",
+              "fr": "Vraiment ?",
+              "es": "¿Verdad?"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 1000
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "What are you then?",
+              "fr": "Dans ce cas, qu'est-ce que tu es ?",
+              "es": "En este caso, ¿qué eres?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "ImABot",
+            "CommandLabel": {
+              "en": "a bot",
+              "fr": "un robot",
+              "es": "un robot"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ktI31VYb7oG6k"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow, impressive!",
+                  "fr": "Wouah, impressionnant !",
+                  "es": "¡Guay, impresionante!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ImaUnicorn",
+            "CommandLabel": {
+              "en": "a unicorn",
+              "fr": "une licorne",
+              "es": "un unicornio"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "KlZUpkygM5hCM"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow, impressive!",
+                  "fr": "Wouah, impressionnant !",
+                  "es": "¡Guay, impresionante!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ImaPanda",
+            "CommandLabel": {
+              "en": "a panda",
+              "fr": "un panda",
+              "es": "un panda"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "xkhn6Ry4taRtC"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Aww, so cute!",
+                  "fr": "Ooh, trop mignon !",
+                  "es": "¡Qué lindo!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ImanAlien",
+            "CommandLabel": {
+              "en": "an alien",
+              "fr": "un extraterrestre",
+              "es": "un extraterrestre"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "Zy79ySAjpMynS"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Aww, so cute!",
+                  "fr": "Ooh, trop mignon !",
+                  "es": "¡Qué lindo!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
