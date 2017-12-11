@@ -1,8 +1,7 @@
 [
   {
-    "order":100,
+    "order":"100",
     "file": "/data/bot/sequences/surveys/AreYouHappy.json",
-    "id":"AreYouHappy",
     "question": "Steps[0].Labbel",
     "commands": "Commands",
   },
