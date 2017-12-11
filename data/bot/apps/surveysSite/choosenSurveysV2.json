@@ -4,5 +4,5 @@
   { "order":300, "file": "/data/bot/sequences/surveys/BatmanOrSuperman.json" },
   { "order":400, "file": "/data/bot/sequences/surveys/AreHumansNaturallyGood.json"},
   { "order":500, "file": "/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"},
-  { "order":600, "file": "/data/bot/sequences/surveys/WAreYouInterestedInFashion.json", "label":"Steps[3].Label", "commands":"LinksTo.Commands", "id":"Id": "ZZ-InterestedinFashion-GigiHadidorKendallJenner"}
+  { "order":600, "file": "/data/bot/sequences/surveys/WAreYouInterestedInFashion.json", "label":"Steps[3].Label", "commands":"LinksTo.Commands", "id":"ZZ-InterestedinFashion-GigiHadidorKendallJenner"}
 ]
