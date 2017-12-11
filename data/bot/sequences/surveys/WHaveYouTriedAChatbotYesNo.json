@@ -30,9 +30,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "You deserve a hug right now.",
-            "fr": "Tu mérites un câlin maintenant tout de suite.",
-            "es": "Te mereces un abrazo ya mismo."
+            "en": "Waouh, any chance you’re up for adoption?",
+            "fr": "Waouh, il n'y aurait pas moyen de t'adopter, par hasard ?",
+            "es": "Wao, ¿existirá alguna manera de adoptarte?"
           }
         },
         {
@@ -40,21 +40,6 @@
           "Parameters": {
             "Source": "Giphy",
             "Path": "ZTN7U4ipOXPaw"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 1000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Because look at those figures:",
-            "fr": "Parce que regarde ces chiffres:",
-            "es": "Porque mira los datos:"
           }
         },
         {
