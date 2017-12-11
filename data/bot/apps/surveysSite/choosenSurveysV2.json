@@ -1,0 +1,20 @@
+[
+  {
+    "file": "/data/bot/sequences/surveys/AreYouHappy.json",
+    "id":"AreYouHappy",
+    "question": "Steps[0].Labbel",
+    "commands": "Commands",
+  },
+  {
+    "file": "/data/bot/sequences/surveys/CountryBetterLooking.json",
+    "id":"CountryBetterLooking",
+    "question": "Steps[0].Labbel",
+    "commands": "Commands",
+  },
+  {
+    "file": "/data/bot/sequences/surveys/BatmanOrSuperman.json",
+    "id":"AreYouHappy",
+    "question": "Steps[0].Labbel",
+    "commands": "Commands",
+  }
+]
