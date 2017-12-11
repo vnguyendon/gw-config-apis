@@ -89,10 +89,18 @@
       },
       "Steps": [
         {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow!",
+            "fr": "Waouh!",
+            "es": "Wow!"
+          }
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "l1ugbvVp9O98ds6Ig"
+            "Path": "h2MLtoOjxtkGY"
           }
         }
       ]
