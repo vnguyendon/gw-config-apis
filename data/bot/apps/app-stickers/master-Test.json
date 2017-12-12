@@ -1,5 +1,5 @@
 {
-  "Version": 2,
+  "Version": 3,
   "GroupName": "Test",
   "SequenceFiles": [
     { "order" : 6, "file":["/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"]},
