@@ -1,5 +1,5 @@
 {
-  "Version": 1,
+  "Version": 2,
   "GroupName": "Test",
   "SequenceFiles": [
     { "order": 8, "file": ["/data/bot/sequences/experiments/TouchSnow.json"]},
