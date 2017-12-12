@@ -55,9 +55,9 @@
             "Type": "Leaf",
             "Id": "YesItsFun",
             "CommandLabel": {
-              "en": "yes, food is delicious",
-              "fr": "oui, j'adore la nourriture",
-              "es": "sí, me encanta la comida"
+              "en": "yes, food is great",
+              "fr": "oui, j'adore manger",
+              "es": "sí, me encanta comer"
             },
             "Steps": [
               {
