@@ -19,7 +19,6 @@
       }
     }
   ],
-  "Randomize": "true",
   "Commands": [
     {
       "Type": "Node",
