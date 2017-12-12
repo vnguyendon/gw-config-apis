@@ -123,9 +123,17 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "Merry Christmas! 🎄✨",
-                  "fr": "Joyeux Noël! 🎄✨",
-                  "es": "¡Feliz Navidad! 🎄✨"
+                  "en": "\"Blizzards here on earth,\n blizzards of stars \n in the sky\" \n Inahata Teiko 🌟",
+                  "fr": "\"Una gota de rocío \n y dos pétalos de rosa \n ¡hacen una mariposa!\" \n Mario Benedetti 🦋",
+                  "es": "« Le corbeau d’habitude je le hais \n Mais qu’il est beau \n Ce matin sur la neige ! » \n Matsuo Basho ❄"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I've always thought poems could be beautiful gifts 🎁",
+                  "fr": "J'ai toujours trouvé que les poèmes faisaient de très beaux cadeaux 🎁",
+                  "es": "Siempre he pensado que poemas son perfectos regalos 🎁"
                 }
               }
             ]
