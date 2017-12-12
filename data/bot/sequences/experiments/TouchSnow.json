@@ -1,0 +1,98 @@
+{
+	"Type": "Node",
+	"Id": "ZZ-TouchedSnow-DoYouLikeSnow",
+	"Steps": [
+		{
+			"Type": "Text",
+			"Label": {
+				"en": "Do you like it when it's snowing? 🌨",
+				"fr": "Tu aimes bien quand il neige ? 🌨",
+				"es": "¿Te gusta la nieve? 🌨"
+			}
+		}
+	],
+	"Commands": [
+		{
+			"Type": "Leaf",
+			"Id": "YesLikeSnow",
+			"CommandLabel": {
+				"en": "yes",
+				"fr": "oui",
+				"es": "sí"
+			},
+			"Steps": [
+				{
+					"Type": "Action",
+					"Name": "DoVote"
+				},
+				{
+					"Type": "Action",
+					"Name": "ShowSurveyResults"
+				},
+				{
+					"Type": "AnimatedGif",
+					"Parameters": {
+						"Source": "Giphy",
+						"Path": "VRITQNLsYfU4w"
+					}
+				},
+				{
+					"Type": "Pause",
+					"Parameters": {
+						"Mode": "Wait",
+						"ms": 1000
+					}
+				},
+				{
+					"Type": "Text",
+					"Label": {
+						"en": "I wish I could do the same 😍",
+						"fr": "J'aimerais tellement pouvoir faire la même chose 😍",
+						"es": "Me gustaría tanto hacer lo mismo 😍"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Leaf",
+			"Id": "NoDontLikeSnow",
+			"CommandLabel": {
+				"en": "no",
+				"fr": "non",
+				"es": "no"
+			},
+			"Steps": [
+				{
+					"Type": "Action",
+					"Name": "DoVote"
+				},
+				{
+					"Type": "Action",
+					"Name": "ShowSurveyResults"
+				},
+				{
+					"Type": "AnimatedGif",
+					"Parameters": {
+						"Source": "Giphy",
+						"Path": "YxA2PPkXbwRTa"
+					}
+				},
+				{
+					"Type": "Pause",
+					"Parameters": {
+						"Mode": "Wait",
+						"ms": 1000
+					}
+				},
+				{
+					"Type": "Text",
+					"Label": {
+						"en": "I'm sure this cat feels the same 😆",
+						"fr": "Je suis sûr que ce chat est d'accord 😆",
+						"es": "Estoy seguro de que este gato esté de acuerdo 😆"
+					}
+				}
+			]
+		}
+	]
+}
