@@ -2,6 +2,7 @@
   "Version": 3,
   "GroupName": "Test",
   "SequenceFiles": [
+    { "order" : 5, "file":["/data/bot/sequences/experiments/StepsAlone.json"]},
     { "order" : 6, "file":["/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"]},
     { "order" : 7, "file":["/data/bot/sequences/experiments/HowOftenDoYouThinkAboutLife.json"]},
     { "order" : 8, "file":["/data/bot/sequences/experiments/TouchSnow.json"]},
