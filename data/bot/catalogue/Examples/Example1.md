@@ -130,7 +130,7 @@ Example:
 }
 ```
 
--> Againm, we define the source of the media and its path in the `"Parameters"`
+-> Again, we define the source of the media and its path in the `"Parameters"`
 -> In this case, the Gif will come from an "Internal" source, meaning from WaveMining's database
--> We will be able to retrieve this image by using the path `"/specialoccasions/jokes/default/small/000022011350.jpg"` in WaveMining's API
--> The API call should 
+-> We will be able to retrieve this image by using recomposing its path. To do so, we will concatenate "http://gw-static.azurewebsites.net" and `"/specialoccasions/jokes/default/small/000022011350.jpg"`
+-> We will then get the image http://gw-static.azurewebsites.net/specialoccasions/jokes/default/small/000022011350.jpg
