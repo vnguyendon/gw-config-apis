@@ -45,14 +45,6 @@
         {
           "Type": "Action",
           "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You're a great example to others! 😄",
-            "fr": "Tu es un chouette exemple pour les autres ! 😄",
-            "es": "¡Eres un gran ejemplo para los demás! 😄"
-          }
         }
       ]
     },
