@@ -5,8 +5,9 @@
     { "order" : 9, "file":["/data/bot/sequences/surveys/WHaveYouTouchedSnow.json"]},
     { "order" : 9, "file":["/data/bot/sequences/surveys/WHowOftenDoYouThinkAboutLife.json"]},
     { "order" : 9, "file":["/data/bot/sequences/surveys/WDoYouEasilyTrustSomeone.json"]},
-    { "order" : 9, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
-    { "order" : 10, "file":["/data/bot/sequences/experiments/FragmentTest2aDoYouRememberYourDreams.json"]},
-    { "order" : 11, "file":["/data/bot/sequences/experiments/LookingFor.json"]}
+    { "order" : 10, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
+    { "order" : 11, "file":["/data/bot/sequences/experiments/FragmentTest2aDoYouRememberYourDreams.json"]},
+    { "order" : 12, "file":["/data/bot/sequences/experiments/LookingFor.json"]},
+    { "order" : 13, "file":["/data/bot/sequences/surveys/WDoYouCelebrateChristmas.json"]}
   ]
 }
