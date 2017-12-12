@@ -57,7 +57,7 @@ Example:
 -> We will be able to retrieve this GIF by using the path `"9AeRnRRNQokeI"` in its API or directly via a web link by concatenating  https://giphy,com/gifs/ and 9AeRnRRNQokeI. Like that: https://giphy.com/gifs/9AeRnRRNQokeI
 
 => The following should appear on the user screen:
-[Screenshot](/data/bot/catalogue/Examples/Example1-Img1.png?rw=true "Option")
+![Screenshot](/data/bot/catalogue/Examples/Example1-Img1.png?rw=true "Option")
 
 
 #### ii. Example with text
