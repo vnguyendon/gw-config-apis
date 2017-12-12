@@ -5,16 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "What about you? 🙂",
-        "fr": "Et toi ? 🙂",
-        "es": "¿Y tú? 🙂"
-      }
-    },
-    {
-      "Type": "Pause",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 2000
+        "en": "I was wondering...",
+        "fr": "Je me demandais...",
+        "es": "Me pregunto..."
       }
     },
     {
@@ -77,9 +70,9 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "Good to know! 😄",
-                  "fr": "C'est bon à savoir 😄",
-                  "es": "Es bueno saberlo 😄"
+                  "en": "Don't hesitate to leave a few crumbs on your screen so I can taste it 😄",
+                  "fr": "Laisse quelques miettes sur ton écran à l'occasion, comme ça je pourrai y goûter 😄",
+                  "es": "Deja algunas migajas sobre tu pantalla de vez en cuando, para que yo pueda probarlas 😄"
                 }
               }
             ]
@@ -88,9 +81,9 @@
             "Type": "Node",
             "Id": "NoItsNotFun",
             "CommandLabel": {
-              "en": "no, emoji are more fun",
-              "fr": "non, les emojis sont plus drôles",
-              "es": "no, emojis son más divertidos"
+              "en": "emoji are funnier",
+              "fr": "moins qu'un emoji",
+              "es": "menos que un emoji"
             },
             "LinksTo": {
               "Type": "Node",
@@ -264,9 +257,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "Really?",
-              "fr": "Vraiment ?",
-              "es": "¿Verdad?"
+              "en": "Oh dear!",
+              "fr": "Sacrebleu !",
+              "es": "¡Cielos!"
             }
           },
           {
