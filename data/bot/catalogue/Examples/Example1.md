@@ -1,36 +1,5 @@
 In this file, we will describe a simple json file and how it should be read by the client.
 
-Our example is the following:
-```
-{
-  "Steps": [
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "9AeRnRRNQokeI"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "My name is Marvin, I am a bot",
-        "fr": "Je m'appelle Marvin, je suis un robot",
-        "es": "Mi nombre es Marvin, soy un robot"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Internal",
-        "Path": "/specialoccasions/jokes/default/small/000022011350.jpg"
-      }
-    }
-  ]
-}
-```
-
-Here's how to read it:
 
 ### a. What is a Step?
 
@@ -44,7 +13,7 @@ A `"Steps"` is a container of content that will be shown to a user
 }
 ```
 
--> This array will contain several hashes 
+-> This array can contain several hashes 
 
 ```
 {
@@ -86,6 +55,10 @@ Example:
 -> We define the source of the media and its path in the `"Parameters"`
 -> In this case, the Gif will come from Giphy 
 -> We will be able to retrieve this GIF by using the path `"9AeRnRRNQokeI"` in its API or directly via a web link by concatenating  https://giphy,com/gifs/ and 9AeRnRRNQokeI. Like that: https://giphy.com/gifs/9AeRnRRNQokeI
+
+=> The following should appear on the user screen:
+[Screenshot](/data/bot/catalogue/Examples/Example1-Img1.png?rw=true "Option")
+
 
 #### ii. Example with text
 
@@ -134,3 +107,7 @@ Example:
 -> In this case, the Gif will come from an "Internal" source, meaning from WaveMining's database
 -> We will be able to retrieve this image by using recomposing its path. To do so, we will concatenate "http://gw-static.azurewebsites.net" and `"/specialoccasions/jokes/default/small/000022011350.jpg"`
 -> We will then get the image http://gw-static.azurewebsites.net/specialoccasions/jokes/default/small/000022011350.jpg
+
+
+### c.Summary
+
