@@ -48,6 +48,7 @@ Example:
         "Path": "9AeRnRRNQokeI"
       }
     },
+    ...
   ]
 }
 ```
@@ -57,7 +58,8 @@ Example:
 -> We will be able to retrieve this GIF by using the path `"9AeRnRRNQokeI"` in its API or directly via a web link by concatenating  https://giphy,com/gifs/ and 9AeRnRRNQokeI. Like that: https://giphy.com/gifs/9AeRnRRNQokeI
 
 => The following should appear on the user screen:
-![Screenshot](/data/bot/catalogue/Examples/Example1-Img1.png?rw=true "Option")
+
+![Screenshot](/data/bot/catalogue/Examples/Example1-Img1.png?rw=true "Marvin Gif, Step 1")
 
 
 #### ii. Example with text
@@ -68,6 +70,7 @@ Example:
 ```
 {
   "Steps": [
+    ...
     {
       "Type": "Text",
       "Label": {
@@ -76,6 +79,7 @@ Example:
         "es": "Mi nombre es Marvin, soy un robot"
       }
     },
+    ...
   ]
 }
 ```
@@ -83,6 +87,11 @@ Example:
 -> We define the text in the `"Label"`
 -> In this case, we provide three languages. ("en" for English / "fr" for French / "es" for Spanish)
 -> We will send the text to the user in the language that the app is set into (English/French/Spanish)
+
+=> The following should now appear on the user screen:
+
+![Screenshot](/data/bot/catalogue/Examples/Example1-Img2.png?rw=true "Marvin Gif + Text, Step 2")
+
 
 #### iii. Example with an image
 
@@ -92,13 +101,14 @@ Example:
 ```
 {
   "Steps": [
+    ...
     {
       "Type": "Image",
       "Parameters": {
         "Source": "Internal",
         "Path": "/specialoccasions/jokes/default/small/000022011350.jpg"
       }
-    },
+    }
   ]
 }
 ```
@@ -108,6 +118,9 @@ Example:
 -> We will be able to retrieve this image by using recomposing its path. To do so, we will concatenate "http://gw-static.azurewebsites.net" and `"/specialoccasions/jokes/default/small/000022011350.jpg"`
 -> We will then get the image http://gw-static.azurewebsites.net/specialoccasions/jokes/default/small/000022011350.jpg
 
+=> The following should now appear on the user screen:
+
+!(/data/bot/catalogue/Examples/Example1-Img3.png?rw=true "Marvin Gif + Text, Step 3")
 
 ### c.Summary
 
