@@ -1,0 +1,155 @@
+{
+  "Type": "Node",
+  "Id": "HumanityBeyondEarth",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Speaking of which...",
+        "fr": "En parlant de ça...",
+        "es": "Y hablando de eso..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Does humanity have a future beyond Earth? 🌏",
+        "fr": "L'humanité a-t-elle un futur au-delà la Terre ? 🌏",
+        "es": "¿Crees que la humanidad tiene un futuro más allá de la Tierra? 🌏"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesHumanityBeyondEarth",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/good-night/default/small/205592_466709553367839_911718846_n.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "LiveOnMarsOrMoon",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Let's say this future happens sooner than expected.",
+              "fr": "Supposons que ce futur arrive plus vite que prévu.",
+              "es": "Supongamos que ese futuro occurre más rápido que lo previsto."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "You would rather live on",
+              "fr": "Tu préférerais habiter sur",
+              "es": "Preferirías vivir en"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LiveOnMoon",
+            "CommandLabel": {
+              "en": "the Moon",
+              "fr": "la Lune",
+              "es": "la Luna"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/good-night/default/small/12079280_780744632036809_1440221187128959062_n.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LiveOnMars",
+            "CommandLabel": {
+              "en": "Mars",
+              "fr": "Mars",
+              "es": "Marte"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "zgRJqdsZ6QhBC"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHumanityBeyondEarth",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/good-night/default/small/10805596_641844305926843_6937101521242263981_n.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

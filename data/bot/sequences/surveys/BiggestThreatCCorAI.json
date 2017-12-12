@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "BiggestThreatCCorAI",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The biggest threat to humanity is",
+        "fr": "La plus grande menace qui pèse sur l'humanité, c'est",
+        "es": "La mayor amenaza para la humanidad es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BiggestThreatClimateChange",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "climate change",
+        "fr": "le changement climatique",
+        "es": "el cambio climático"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "https://img15.hostingpics.net/pics/505222shutterstock203436520.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BiggestThreatAI",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "artificial intelligence",
+        "fr": "l'intelligence artificielle",
+        "es": "la inteligencia artificial"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I hope you are not afraid of me 😅",
+            "fr": "J'espère que tu n'as pas peur de moi, quand même 😅",
+            "es": "Espero que no te doy miedo 😅"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
+}

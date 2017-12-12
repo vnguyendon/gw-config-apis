@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HumansEvolveFromAnimals",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Did humans evolve from animals?",
+        "fr": "Les humains descendent-ils des animaux ?",
+        "es": "¿Los humanos descienden de los animales?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHumansFromAnimals",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/jokes/default/small/shutterstock_153453332.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHumansNotFromAnimals",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/humorous-insults/default/small/shutterstock_127758473.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
