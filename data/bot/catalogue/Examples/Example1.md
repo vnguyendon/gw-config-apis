@@ -114,13 +114,16 @@ Example:
 ```
 
 -> Again, we define the source of the media and its path in the `"Parameters"`
+
 -> In this case, the Gif will come from an "Internal" source, meaning from WaveMining's database
+
 -> We will be able to retrieve this image by using recomposing its path. To do so, we will concatenate "http://gw-static.azurewebsites.net" and `"/specialoccasions/jokes/default/small/000022011350.jpg"`
+
 -> We will then get the image http://gw-static.azurewebsites.net/specialoccasions/jokes/default/small/000022011350.jpg
 
 => The following should now appear on the user screen:
 
-!(/data/bot/catalogue/Examples/Example1-Img3.png?rw=true "Marvin Gif + Text, Step 3")
+![screenshot](/data/bot/catalogue/Examples/Example1-Img3.png?rw=true "Marvin Gif + Text, Step 3")
 
 ### c.Summary
 
