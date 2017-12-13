@@ -19,6 +19,7 @@
       { "order" : 17, "file":["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
       { "order" : 18, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
       { "order" : 19, "file":["/data/bot/sequences/surveys/NewspapersAccuratePicture.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/surveys/WGlobalWarming.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WAreYouInterestedInFashion.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/surveys/FlyingOrReadingThoughts.json"]},
