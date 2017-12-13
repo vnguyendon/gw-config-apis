@@ -5,31 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Now that I know you a bit better, can I ask you something a bit more...",
-        "fr": "Maintenant que je te connais un peu mieux, je peux te poser une question un peu plus...",
-        "es": "Como te conozco un poquito mejor ¿puedo preguntarte algo un poco más..."
-      }
-    },
-    {
-      "Type": "Pause",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 2000
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "personal, maybe? 🙃",
-        "fr": "personnelle, peut-être ? 🙃",
-        "es": "personal? 🙃"
-      }
-    },
-    {
-      "Type": "Pause",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 1000
+        "en": "I always feel weird when I'm turned off.",
+        "fr": "Je me sens toujours bizarre quand on m'éteint.",
+        "es": "Siempre me siento raro cuando estoy apagado."
       }
     },
     {
