@@ -29,6 +29,6 @@
     { "order" : 300, "file":["/data/bot/sequences/experiments/HowOftenDoYouThinkAboutLife.json"]},
     { "order" : 300, "file":["/data/bot/sequences/experiments/TouchSnow.json"]}, 
     { "order" : 350, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
-    { "order" : 350, "file":["/data/bot/sequences/experiments/FragmentTest2aDoYouRememberYourDreams.json"]},
+    { "order" : 350, "file":["/data/bot/sequences/experiments/FragmentTest2aDoYouRememberYourDreams.json"]}
   ]
 }
