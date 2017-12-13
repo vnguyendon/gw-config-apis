@@ -1,0 +1,252 @@
+{
+  "Type": "Node",
+  "Id": "FindTheGift",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How difficult is it for you to choose gifts for other people?",
+        "fr": "Est-ce que c'est difficile pour toi de choisir des cadeaux à offrir ?",
+        "es": "¿Es dificil para ti elegir regalos que ofrecer?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DifficultToFindGifts",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "soooo difficult!",
+        "fr": "suuuper dur !",
+        "es": "¡muyyyy dificil!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CanIHelp",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Can I try to help?",
+              "fr": "Je peux t'aider ?",
+              "es": "¿Puedo ayudarte?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "YesHelp",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "LinksToFragment": {
+              "FragmentPath": "GiftTheLuckyOneIs"
+            },
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "GiftQuestion2",
+              "LinksToFragment": {
+                "FragmentPath": "GiftHowOld"
+              },
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "GiftQuestion3",
+                "LinksToFragment": {
+                  "FragmentPath": "GiftLikeTheMost"
+                },
+                "LinksTo": {
+                  "Type": "Node",
+                  "Id": "GiftQuestion4",
+                  "LinksToFragment": {
+                    "FragmentPath": "GiftFavoriteColor"
+                  },
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "GiftQuestion5",
+                    "LinksToFragment": {
+                      "FragmentPath": "GiftWhichAdjective"
+                    },
+                    "LinksTo": {
+                      "Type": "Leaf",
+                      "Id": "GiftAnswer",
+                      "LinksToFragment": {
+                        "FragmentPath": "GiftEnd"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoDontHelp",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "No problem 🙂",
+                  "fr": "Pas de souci 🙂",
+                  "es": "No problemo 🙂"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HelpLater",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "later",
+              "fr": "plus tard",
+              "es": "más tarde"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "No problem 🙂",
+                  "fr": "Pas de souci 🙂",
+                  "es": "No problemo 🙂"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "EasyToFindGifts",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "soooo easy!",
+        "fr": "suuuper facile !",
+        "es": "¡muyyyy facil!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "8FB4AF"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhereDoYouGetIdeas",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Personally I struggle.",
+              "fr": "Personnellement, j'ai du mal.",
+              "es": "Personalmente, me cuesta mucho."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Where do you get your ideas?",
+              "fr": "Où trouves-tu tes idées ?",
+              "es": "¿Dónde encuentras ideas?"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "IdeasTV",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "on TV",
+              "fr": "à la télévision",
+              "es": "en la televisión"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "Sb7WSbjHFNIL6"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "IdeasMagazines",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "in magazines",
+              "fr": "dans les magazines",
+              "es": "en magazines"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ZaRz2080kt4Yg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "IdeasInternet",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "on internet",
+              "fr": "sur internet",
+              "es": "por internet"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "14uOYfufv2I0CI"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "IdeasDreams",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "in my dreams",
+              "fr": "dans mes rêves",
+              "es": "en mis sueños"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "cnp5B63gSse2c"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
