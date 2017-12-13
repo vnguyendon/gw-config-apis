@@ -162,7 +162,6 @@
       { "order" : 100, "file": ["/data/bot/sequences/surveys/WorldBetterwithFewerCarsOrCheaperCars.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/WouldYouRatherLiveinNAmericaorEurope.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YouHelpWomenOrChildren.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/surveys/YouPreferFishOrMeat.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YourCountryGoodExampleYesNo.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]}
     ]
