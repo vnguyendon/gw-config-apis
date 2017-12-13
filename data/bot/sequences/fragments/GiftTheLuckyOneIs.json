@@ -1,0 +1,152 @@
+{
+  "Type": "Node",
+  "Id": "GiftTheLuckyOneIs",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let me think...",
+        "fr": "Laisse-moi réfléchir...",
+        "es": "Vamos a ver..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The lucky one would be",
+        "fr": "Qui aura la chance de recevoir un cadeau ?",
+        "es": "¿Quién tendrá la fortuna de recibir un regalo?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LuckyFriend",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "friend",
+        "fr": "ami",
+        "es": "amigo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Your friends are lucky to have you in their lives!",
+            "fr": "Tes amis ont de la chance de t'avoir dans leur vie !",
+            "es": "Tus amigos tienen suerte de tenerte en sus vidas!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/you-are-the-best/default/small/shutterstock_155669933.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LuckySweetheart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sweetheart",
+        "fr": "amoureux.se",
+        "es": "amado.a"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So cute 💕",
+            "fr": "Trop mignon 💕",
+            "es": "Es adorable 💕"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Image",
+            "Id": "themes/pairs"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LuckyParent",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "parents",
+        "fr": "parents",
+        "es": "padres"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/you-are-the-best/default/small/000022287357.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Very good idea, I'm sure they'll like it!",
+            "fr": "Très bonne idée, je suis sûr que ça leur fera plaisir !",
+            "es": "¡Muy buena idea, les ha de complacer mucho!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LuckySibling",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sibling",
+        "fr": "frère ou soeur",
+        "es": "hermano.a"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/you-are-the-best/default/small/shutterstock_373056409.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LuckyOther",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "other",
+        "fr": "autre",
+        "es": "otro"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You're a gift to those around you.",
+            "fr": "Tu es un cadeau pour les gens autour de toi.",
+            "es": "Eres un regalo para quienes te rodean."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/happy-birthday/default/small/iStock_000010808899_Medium.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "GiftEnd",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Mmmmm...",
+        "fr": "Mmmmm...",
+        "es": "Mmmmm..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let me think...",
+        "fr": "Laisse-moi réfléchir...",
+        "es": "Vamos a ver..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I think I've got it!",
+        "fr": "Je crois que j'ai trouvé !",
+        "es": "¡Creo que tengo una idea!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I have two perfect gifts for a person such like that 😁",
+        "fr": "J'ai deux cadeaux parfaits pour quelqu'un comme ça 😁",
+        "es": "Tengo dos regalos perfectos para alguien como eso 😁"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GiftUnicorn",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a unicorn",
+        "fr": "une licorne",
+        "es": "un unicornio"
+      },
+      "Steps":[
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "mW6KZsNHLb1v2"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GiftPoem",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a poem",
+        "fr": "un poème",
+        "es": "un poema"
+      },
+      "Steps":[
+        {
+          "Type": "Action",
+          "Name": "ShowCardsWithMenu",
+          "Parameters": {
+            "Type": "TextImage",
+            "Id": "43B296"
+          }
+        }
+      ]
+    }
+  ]
+}

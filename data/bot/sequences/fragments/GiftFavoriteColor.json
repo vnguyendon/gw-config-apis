@@ -1,0 +1,196 @@
+{
+  "Type": "Node",
+  "Id": "GiftFavoriteColor",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is his/her favorite color?",
+        "fr": "Quelle est sa couleur préférée ?",
+        "es": "¿Qué es su color favorito?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferBlue",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "blue",
+        "fr": "bleu",
+        "es": "azul"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, I'm not surprised...",
+            "fr": "Mmm, ça ne m'étonne pas...",
+            "es": "Mmm, no me sorprende..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferRed",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "red",
+        "fr": "rouge",
+        "es": "rojo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, I'm not surprised...",
+            "fr": "Mmm, ça ne m'étonne pas...",
+            "es": "Mmm, no me sorprende..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferYellow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yellow",
+        "fr": "jaune",
+        "es": "amarillo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, interesting...",
+            "fr": "Mmm, intéressant...",
+            "es": "Mmm, interesante..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferGreen",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "green",
+        "fr": "vert",
+        "es": "verde"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, I'm not surprised...",
+            "fr": "Mmm, ça ne m'étonne pas...",
+            "es": "Mmm, no me sorprende..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferPink",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pink",
+        "fr": "rose",
+        "es": "rosado"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, interesting...",
+            "fr": "Mmm, intéressant...",
+            "es": "Mmm, interesante..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferPurple",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "purple",
+        "fr": "violet",
+        "es": "violeta"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, original...",
+            "fr": "Mmm, original...",
+            "es": "Mmm, original..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferOrange",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "orange",
+        "fr": "orange",
+        "es": "naranja"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, original...",
+            "fr": "Mmm, original...",
+            "es": "Mmm, original..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferBlack",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "black",
+        "fr": "noir",
+        "es": "negro"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, I'm not sure it really is a color, but why not.",
+            "fr": "Mmm, je ne suis pas sûr que ce soit vraiment une couleur, mais pourquoi pas.",
+            "es": "Mmm, no estoy seguro de que sea un color de verdad, pero ¿por qué no?"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferWhite",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "white",
+        "fr": "blanc",
+        "es": "blanco"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Mmm, I'm not sure it really is a color, but why not.",
+            "fr": "Mmm, je ne suis pas sûr que ce soit vraiment une couleur, mais pourquoi pas.",
+            "es": "Mmm, no estoy seguro de que sea un color de verdad, pero ¿por qué no?"
+          }
+        }
+      ]
+    }
+  ]
+}

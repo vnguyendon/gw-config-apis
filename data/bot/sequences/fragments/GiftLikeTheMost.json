@@ -1,0 +1,111 @@
+{
+  "Type": "Node",
+  "Id": "GiftLikeTheMost",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you think this person likes the most?",
+        "fr": "A ton avis, qu'est-ce que cette personne préfère ?",
+        "es": "¿En tu opinión, que prefiere esta persona?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferSport",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sport",
+        "fr": "le sport",
+        "es": "el deporte"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/let-me-introduce-myself/default/small/63202_160710477277851_154638737885025_571735_479398_n.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferMusic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "music",
+        "fr": "la musique",
+        "es": "la música"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/let-me-introduce-myself/default/small/10623538_924399740908222_584042635526052415_o.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferAnimals",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "animals",
+        "fr": "les animaux",
+        "es": "los animales"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small/shutterstock_100400029.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferReading",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "reading",
+        "fr": "la lecture",
+        "es": "la lectura"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/kittens/small/196385_329668327144444_1541590776_n.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferCinema",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cinema",
+        "fr": "le cinéma",
+        "es": "el cine"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/kittens/small/443319609_0b27455b78_o.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "Type": "Node",
+  "Id": "GiftWhichAdjective",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which adjective would you use to describe him/her?",
+        "fr": "Quel adjectif lui correspond le mieux ?",
+        "es": "¿Qué adjetivo le corresponde mejor?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "DescribeJoyful",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "joyful",
+        "fr": "joyeux",
+        "es": "alegre"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I knew it!! 😀",
+            "fr": "J'en étais sûr !! 😀",
+            "es": "¡¡Yo lo sabía!! 😀"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DescribeSmart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "smart",
+        "fr": "intelligent",
+        "es": "listo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I knew it!! 😀",
+            "fr": "J'en étais sûr !! 😀",
+            "es": "¡¡Yo lo sabía!! 😀"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DescribeGloomy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "gloomy",
+        "fr": "mélancolique",
+        "es": "melancólico"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh, that was... unexpected.",
+            "fr": "Oh, c'est... inattendu.",
+            "es": "Oh, es... imprevisto."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DescribeHandsome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "handsome",
+        "fr": "magnifique",
+        "es": "guapo"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Would you introduce me? 😍",
+            "fr": "Tu me présentes ? 😍",
+            "es": "¿Me presentas a esa persona? 😍"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DescribeGenerous",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "generous",
+        "fr": "généreux",
+        "es": "generoso"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I knew it!! 😀",
+            "fr": "J'en étais sûr !! 😀",
+            "es": "¡¡Yo lo sabía!! 😀"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DescribeFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "funny",
+        "fr": "drôle",
+        "es": "divertido"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I knew it!! 😀",
+            "fr": "J'en étais sûr !! 😀",
+            "es": "¡¡Yo lo sabía!! 😀"
+          }
+        }
+      ]
+    }
+  ]
+}

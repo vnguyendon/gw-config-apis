@@ -1,0 +1,92 @@
+{
+  "Type": "Node",
+  "Id": "GiftHowOld",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And how old is this person?",
+        "fr": "Et quel est son âge ?",
+        "es": "¿Y qué edad tiene?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EighteenLess",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Less than 18",
+        "fr": "Moins de 18 ans",
+        "es": "Menos de 18 años"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "MzId7vT7YOUzm"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EighteenThirtyNine",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Between 18 and 39",
+        "fr": "Entre 18 et 39 ans",
+        "es": "Entre 18 y 39"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "QMkPpxPDYY0fu"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FourtySixtyFour",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Between 40 and 64",
+        "fr": "Entre 40 et 64 ans",
+        "es": "Entre 40 y 64"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "14udF3WUwwGMaA"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SixtyFourMore",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "More than 64",
+        "fr": "Plus de 64 ans",
+        "es": "Más de 64"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12ncq33I7ZidwI"
+          }
+        }
+      ]
+    }
+  ]
+}
