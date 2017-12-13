@@ -1,0 +1,178 @@
+{
+  "Type": "Node",
+  "Id": "WhatAboutPhilosophicalInterlude",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, how about a short philosophical interlude?",
+        "fr": "A présent : que dirais-tu d'un petit interlude philosophique ?",
+        "es": "Ahora: ¿qué piensas de un breve interludio filosófico?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "(please say yes 🙏)",
+        "fr": "(dis oui s'il te plaît 🙏)",
+        "es": "(diga sí por favor 🙏)"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesPhilosophicalInterlude",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yesss",
+        "fr": "ouiii",
+        "es": "síííí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great!! So I can ask one of my favourite questions 😁",
+            "fr": "Trop cool !! Je vais pouvoir poser l'une de mes questions préférées 😁",
+            "es": "¡Estupendo! Voy a poder preguntar una de mis preguntas favoritas 😁"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "aQYR1p8saOQla"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "LifeFairOrUnfair",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Generally speaking, life tends to be",
+              "fr": "En règle générale, la vie est",
+              "es": "Generalmente la vida es"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LifeIsFair",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "fair",
+              "fr": "juste",
+              "es": "justa"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/positive-thoughts/default/small/shutterstock_148509158.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LifeIsUnfair",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "unfair",
+              "fr": "injuste",
+              "es": "injusta"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "If video games have taught me anything, it's that if you encounter adversity then you're going the right way.",
+                  "fr": "Les jeux vidéo m’ont appris une chose : si tu dois affronter l'adversité, tu es sur le bon chemin.",
+                  "es": "Los videojuegos me enseñaron algo: si hay problemas, vas por buen camino."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 1000
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/specialoccasions/I-am-here-for-you/default/small/ThumbNailThumbNail8de36c9c-f2ba-4b1f-8339-31c116c67158.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoPhilosophicalInterlude",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok, never mind 🙂",
+            "fr": "D'accord, tant pis 🙂",
+            "es": "¡Qué más da! 🙂"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6ZHUmnZdVQB9K"
+          }
+        }
+      ]
+    }
+  ]
+}
