@@ -1,1 +1,91 @@
-
+{
+  "Type": "Node",
+  "Id": "EmojiHeroDiscover",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi there ! My name is Emoji Hero, I am here to guide you on this app",
+        "fr": "Bonjour bonjour ! Mon nom est Emoji Hero, je suis ici pour te guider !",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000048048778.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you had the chance to discover this app before?",
+        "fr": "As-tu déja eu la chance de découvrir cette application?",
+        "es": ""
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EmojiHeroDiscoverYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great !",
+            "fr": "Génial !",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "dMYVHzANYb9p6"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "TBD"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EmojiHeroDiscoverNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Don't worry, I can show you around",
+            "fr": "Ne t'inquiète pas, je peux te faire visiter",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l4FGqdcIxHdC7rUiI"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "TBD"
+      }
+    }
+  ]
+}
