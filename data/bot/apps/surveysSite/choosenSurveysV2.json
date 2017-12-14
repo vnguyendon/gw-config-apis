@@ -4,7 +4,7 @@
   { "order":300, "file": "/data/bot/sequences/surveys/BatmanOrSuperman.json" },
   { "order":400, "file": "/data/bot/sequences/surveys/AreHumansNaturallyGood.json"},
   { "order":500, "file": "/data/bot/sequences/surveys/BeatlesOrRollingStones.json"},
-  { "order":500, "file": "/data/bot/sequences/surveys/BeautyOrIntelligence.json"},
+  { "order":500, "file": "/data/bot/experiments/surveys/BeautyOrIntelligenceV5.json"},
   { "order":500, "file": "/data/bot/sequences/surveys/BoxOrYoga.json"},
   { "order":500, "file": "/data/bot/sequences/surveys/DeforestationOrOverfishing.json"},
   { "order":500, "file": "/data/bot/sequences/surveys/DoYouBelieveInAliens.json"},
