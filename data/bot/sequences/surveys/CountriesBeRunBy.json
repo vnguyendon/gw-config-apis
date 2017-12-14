@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CountriesBeRunBy",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Countries should be run more often by",
+        "fr": "Les pays devraient plus souvent être dirigés par",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CountriesRunByEngineers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "engineers",
+        "fr": "des ingénieurs",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "o6uStaoGio7Ek"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CountriesRunByPoliticians",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "politicians",
+        "fr": "des hommes politiques",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "WiHmuijabzn6o"
+          }
+        }
+      ]
+    }
+  ]
+}
