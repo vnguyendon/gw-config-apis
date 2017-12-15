@@ -14,18 +14,6 @@
     },
     {
       "Path": {
-        "Source": "Web",
-        "Link": "https://www.messenger.com/t/SurveyPonyy"
-      },
-      "DefaultImage": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png",
-      "Labels": {
-        "fr": "Survey Pony",
-        "en": "Survey Pony",
-        "es": "Survey Pony"
-      }
-    },
-    {
-      "Path": {
         "Source": "Internal",
         "Link": "themes/kittens"
       },
@@ -130,6 +118,18 @@
         "fr": "Football",
         "en": "Football",
         "es": "Fútbol"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Web",
+        "Link": "https://www.messenger.com/t/SurveyPonyy"
+      },
+      "DefaultImage": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png",
+      "Labels": {
+        "fr": "Survey Pony",
+        "en": "Survey Pony",
+        "es": "Survey Pony"
       }
     },
     {
