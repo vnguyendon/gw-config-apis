@@ -69,87 +69,15 @@
           }
         }
       ],
+      "LinksToFragment": {
+        "FragmentPath": "TabEmojiCanYouSeeIt"
+      },
       "LinksTo": {
-        "Type": "Node",
-        "Id": "EmojiCanYouSeeIt",
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "The second tab says “EMOJI” can you see it?",
-              "fr": "Le second onglet s'appelle EMOJI, est-ce que tu le vois?",
-              "es": "TBD"
-            }
-          }
-        ],
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "EmojiCanYouSeeItYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "yes",
-              "fr": "oui",
-              "es": "si"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowCards",
-                "Parameters": {
-                  "Type": "TextImage",
-                  "Id": "8FB4AF"
-                }
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LookingFor"
-            }
-          },
-          {
-            "Type": "Leaf",
-            "Id": "EmojiCanYouSeeItNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "no",
-              "fr": "non",
-              "es": "no"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Interesting...I will have a word with the designers!",
-                  "fr": "Intéressant..Je vais devoir parler aux designers de l'app!",
-                  "es": "TBD"
-                }
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowCards",
-                "Parameters": {
-                  "Type": "TextImage",
-                  "Id": "451563"
-                }
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LookingFor"
-            }
-          }
-        ]
+        "Type": "Leaf",
+        "Id": "LookingForOpened",
+        "LinksToFragment": {
+          "FragmentPath": "LookingFor"
+        }
       }
     },
     {
@@ -178,87 +106,15 @@
           }
         }
       ],
+      "LinksToFragment": {
+        "FragmentPath": "TabEmojiCanYouSeeIt"
+      },
       "LinksTo": {
-        "Type": "Node",
-        "Id": "EmojiCanYouSeeIt",
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "The second tab says “EMOJI” can you see it?",
-              "fr": "Le second onglet s'appelle EMOJI, est-ce que tu le vois?",
-              "es": "TBD"
-            }
-          }
-        ],
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "EmojiCanYouSeeItYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "yes",
-              "fr": "oui",
-              "es": "si"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowCards",
-                "Parameters": {
-                  "Type": "TextImage",
-                  "Id": "8FB4AF"
-                }
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LookingFor"
-            }
-          },
-          {
-            "Type": "Leaf",
-            "Id": "EmojiCanYouSeeItNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "no",
-              "fr": "non",
-              "es": "no"
-            },
-            "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Interesting...I will have a word with the designers!",
-                  "fr": "Intéressant..Je vais devoir parler aux designers de l'app!",
-                  "es": "TBD"
-                }
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowCards",
-                "Parameters": {
-                  "Type": "TextImage",
-                  "Id": "451563"
-                }
-              }
-            ],
-            "LinksToFragment": {
-              "FragmentPath": "LookingFor"
-            }
-          }
-        ]
+        "Type": "Leaf",
+        "Id": "LookingForOpened",
+        "LinksToFragment": {
+          "FragmentPath": "LookingFor"
+        }
       }
     }
   ]
