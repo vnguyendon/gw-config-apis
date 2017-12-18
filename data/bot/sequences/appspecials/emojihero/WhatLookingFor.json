@@ -1,0 +1,121 @@
+{
+  "Type": "Node",
+  "Id": "WhatLookingFor",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you looking for..",
+        "fr": "Es-tu en quête...",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LookingForLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love",
+        "fr": "de l'amour",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "sX755wvr2Q6gE"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "HaveASweetheart"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForFortune",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fortune",
+        "fr": "la fortune",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/you-are-the-best/default/small/shutterstock_189980657.jpg"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "PlanToFortune"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForEmoji",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fortune",
+        "fr": "la fortune",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "sX755wvr2Q6gE"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You are so right!",
+            "fr": "Tu as tellement raison!",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Id": "/data/common/giphycontent/best.json"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "ShowMeEmoji"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "stickers ",
+        "fr": "des stickers",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/cvd/sweetheart/naturelove/small/285610_343130539131556_1265333839_n.jpg"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "LookingForStickers"
+      }
+    }
+  ]
+}
