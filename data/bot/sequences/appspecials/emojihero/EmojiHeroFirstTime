@@ -1,0 +1,265 @@
+{
+  "Type": "Node",
+  "Id": "EmohjiHeroFirstTime",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi there ! My name is Emoji Hero, I am here to guide you on this app",
+        "fr": "Bonjour bonjour ! Mon nom est Emoji Hero, je suis ici pour te guider !",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "My mission is to guide you around the app",
+        "fr": "Ma mission est de te guider dans cette app!",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I can suggest thousands of emoji, sticker and text ideas to create great messages.",
+        "fr": "Je peux te suggérer des milliers d'emoji, de stickers et d'dées de textes pour créer de chouettes messages",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000048048778.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It is your first time here?",
+        "fr": "Est-ce la première fois que tu es ici?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EmohjiHeroFirstTimeYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
+            "fr": "Tu peux navoiguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26FLbV3xS3ik4BM2I"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "EmojiCanYouSeeIt",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "The second tab says “EMOJI” can you see it?",
+              "fr": "Le second onglet s'appelle EMOJI, est-ce que tu le vois?",
+              "es": "TBD"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "EmojiCanYouSeeItYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "si"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "8FB4AF"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "LookingFor"
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "EmojiCanYouSeeItNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Interesting...I will have a word with the designers!",
+                  "fr": "Intéressant..Je vais devoir parler aux designers de l'app!",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "451563"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "LookingFor"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EmohjiHeroFirstTimeYesMaybe",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "maybe",
+        "fr": "peut-être",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
+            "fr": "Tu peux navoiguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26FLbV3xS3ik4BM2I"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "EmojiCanYouSeeIt",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "The second tab says “EMOJI” can you see it?",
+              "fr": "Le second onglet s'appelle EMOJI, est-ce que tu le vois?",
+              "es": "TBD"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "EmojiCanYouSeeItYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "si"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "8FB4AF"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "LookingFor"
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "EmojiCanYouSeeItNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Interesting...I will have a word with the designers!",
+                  "fr": "Intéressant..Je vais devoir parler aux designers de l'app!",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "TextImage",
+                  "Id": "451563"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "LookingFor"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
