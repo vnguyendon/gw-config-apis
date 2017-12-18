@@ -7,6 +7,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/emojiPandas/small/shutterstock_431449828_8.jpg"
         },
       "Labels": {
@@ -22,6 +23,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/horses/small/shutterstock_173706239.jpg"
         },
       "Labels": {
@@ -37,6 +39,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/animals/small/iStock_000015359145_Large.jpg"
         },
       "Labels": {
@@ -52,6 +55,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/strange/small/310928_10150295389296564_166896605_n.jpg"
         },
       "Labels": {
@@ -67,6 +71,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/emoticons3/small/shutterstock_294472505_3.jpg"
         },
       "Labels": {
@@ -82,6 +87,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/football/small/shutterstock_75105484_1.jpg"
         },
       "Labels": {
@@ -97,6 +103,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg"
         },
       "Labels": {
@@ -112,6 +119,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg"
         },
       "Labels": {
@@ -127,6 +135,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Web",
         "Path": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png"
       },
       "Labels": {
@@ -142,6 +151,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/pairs/small/shutterstock_139733785.jpg"
         },
       "Labels": {
