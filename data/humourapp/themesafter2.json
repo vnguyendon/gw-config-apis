@@ -2,22 +2,13 @@
   "Themes": [
     {
       "Path": {
-        "Source": "Web",
-        "Link": "https://www.messenger.com/t/SurveyPonyy"
-      },
-      "DefaultImage": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png",
-      "Labels": {
-        "fr": "Survey Pony",
-        "en": "Survey Pony",
-        "es": "Survey Pony"
-      }
-    },
-    {
-      "Path": {
         "Source": "Internal",
         "Link": "themes/emojiPandas"
       },
-      "DefaultImage": "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiPandas/small/shutterstock_431449828_8.jpg"
+        },
       "Labels": {
         "fr": "Emoji Pandas",
         "en": "Emoji Pandas",
@@ -29,7 +20,10 @@
         "Source": "Internal",
         "Link": "themes/horses"
       },
-      "DefaultImage": "themes/horses/small/shutterstock_173706239.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/horses/small/shutterstock_173706239.jpg"
+        },
       "Labels": {
         "fr": "Chevaux",
         "en": "Horses",
@@ -41,7 +35,10 @@
         "Source": "Internal",
         "Link": "themes/animals"
       },
-      "DefaultImage": "themes/animals/small/iStock_000015359145_Large.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/animals/small/iStock_000015359145_Large.jpg"
+        },
       "Labels": {
         "fr": "Animaux",
         "en": "Animals",
@@ -53,7 +50,10 @@
         "Source": "Internal",
         "Link": "themes/strange"
       },
-      "DefaultImage": "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/strange/small/310928_10150295389296564_166896605_n.jpg"
+        },
       "Labels": {
         "fr": "Etrange",
         "en": "Weird",
@@ -65,7 +65,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons3"
       },
-      "DefaultImage": "themes/emoticons3/small/shutterstock_294472505_3.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emoticons3/small/shutterstock_294472505_3.jpg"
+        },
       "Labels": {
         "fr": "Emoji II",
         "en": "Emoji II",
@@ -77,7 +80,10 @@
         "Source": "Internal",
         "Link": "themes/flowers"
       },
-      "DefaultImage": "themes/football/small/shutterstock_75105484_1.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/football/small/shutterstock_75105484_1.jpg"
+        },
       "Labels": {
         "fr": "Football",
         "en": "Football",
@@ -89,7 +95,10 @@
         "Source": "Internal",
         "Link": "themes/emojiVarious"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg"
+        },
       "Labels": {
         "fr": "Emoji Variés",
         "en": "Emoji Various",
@@ -101,7 +110,10 @@
         "Source": "Internal",
         "Link": "themes/emojiGirlie"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg"
+        },
       "Labels": {
         "fr": "Emoji Girlie",
         "en": "Emoji Girly",
@@ -110,10 +122,28 @@
     },
     {
       "Path": {
+        "Source": "Web",
+        "Link": "https://www.messenger.com/t/SurveyPonyy"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png"
+      },
+      "Labels": {
+        "fr": "Survey Pony",
+        "en": "Survey Pony",
+        "es": "Survey Pony"
+      }
+    },
+    {
+      "Path": {
         "Source": "Internal",
         "Link": "themes/pairs"
       },
-      "DefaultImage": "themes/pairs/small/shutterstock_139733785.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/pairs/small/shutterstock_139733785.jpg"
+        },
       "Labels": {
         "fr": "Paires",
         "en": "Pairs",
