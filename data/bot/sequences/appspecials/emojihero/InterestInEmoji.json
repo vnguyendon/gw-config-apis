@@ -1,0 +1,134 @@
+{
+  "Type": "Node",
+  "Id": "InterestInEmoji",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you interested in Emoji Gifs or Emoji stickers?",
+        "fr": "Souhaites-tu voir des gifs d'emoji ou des stickers d'emoji?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LookingForEmojisGifs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Emoji Gifs!",
+        "fr": "Des gifs d'emoji !",
+        "es": "TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You will find the prettiest here 😍",
+            "fr": "Tu trouveras les plus beaux ici 😍",
+            "es": "TBD 😍"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/common/giphycontent/emojis.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "LookingForEmojiStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Emoji stickers!",
+        "fr": "Des stickers d'emoji !",
+        "es": "TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/emoticons/small/000018292730.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Is there a specific theme of emoji you are after?",
+            "fr": "Est-ce qu'il y a un thème d'emoji que tu cherchers en particulier?",
+            "es": "TBD"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "LookingForEmojiStickersClassic",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Classic emoji",
+            "fr": "Des emoji classiques",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/themes/emoticons/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForEmojiStickersClassic",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Sun Emoji",
+            "fr": "Des emoji Soleil",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/themes/emojiSun/small"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "LookingForEmojiStickers3D",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "3D Emoji",
+            "fr": "Des emoji 3D",
+            "es": "TDB"
+          },
+          "Steps": [
+            {
+              "Type": "Action",
+              "Name": "RedirectTo",
+              "Parameters": {
+                "Type": "ImageCategory",
+                "Path": "/themes/emoticons2/small"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
