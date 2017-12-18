@@ -5,7 +5,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons"
       },
-      "DefaultImage": "themes/emoticons/small/000075070105.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emoticons/small/000075070105.jpg"
+      },
       "Labels": {
         "fr": "Emoji",
         "en": "Emoji",
@@ -17,7 +20,10 @@
         "Source": "Internal",
         "Link": "themes/nature"
       },
-      "DefaultImage": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg"
+      },
       "Labels": {
         "fr": "Nature",
         "en": "Nature",
