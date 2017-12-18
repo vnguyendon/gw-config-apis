@@ -1,3 +1,4 @@
+
 {
   "Themes": [
     {
@@ -7,6 +8,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/emoticons/small/000075070105.jpg"
       },
       "Labels": {
@@ -22,6 +24,7 @@
       },
       "DefaultImage": {
         "Type": "Image",
+        "Source": "Internal",
         "Path": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg"
       },
       "Labels": {
