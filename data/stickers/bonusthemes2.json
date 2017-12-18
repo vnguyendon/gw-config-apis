@@ -5,7 +5,10 @@
         "Source": "Internal",
         "Link": "themes/emojiLions"
       },
-      "DefaultImage": "themes/emojiLions/small/shutterstock_402952978_14.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiLions/small/shutterstock_402952978_14.jpg"
+        },
       "Labels": {
         "fr": "Emoji Lions",
         "en": "Emoji Lions",
@@ -17,7 +20,10 @@
         "Source": "Internal",
         "Link": "themes/emojiBears"
       },
-      "DefaultImage": "themes/emojiBears/small/shutterstock_417336076_17.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiBears/small/shutterstock_417336076_17.jpg"
+        },
       "Labels": {
         "fr": "Emoji Ours",
         "en": "Emoji Bears",
@@ -29,7 +35,10 @@
         "Source": "Internal",
         "Link": "themes/emojiKittens"
       },
-      "DefaultImage": "themes/emojiKittens/small/shutterstock_397906726_12.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiKittens/small/shutterstock_397906726_12.jpg"
+        },
       "Labels": {
         "fr": "Emoji Chatons",
         "en": "Emoji Kittens",
@@ -41,7 +50,10 @@
         "Source": "Internal",
         "Link": "themes/emojiOwls"
       },
-      "DefaultImage": "themes/emojiOwls/small/shutterstock_386688127_6.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiOwls/small/shutterstock_386688127_6.jpg"
+        },
       "Labels": {
         "fr": "Emoji Chouettes",
         "en": "Emoji Owls",
@@ -53,7 +65,10 @@
         "Source": "Internal",
         "Link": "themes/emojiPandas"
       },
-      "DefaultImage": "themes/emojiPandas/small/shutterstock_431449828_8.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiPandas/small/shutterstock_431449828_8.jpg"
+        },
       "Labels": {
         "fr": "Emoji Pandas",
         "en": "Emoji Pandas",
@@ -65,7 +80,10 @@
         "Source": "Internal",
         "Link": "themes/emojiPuppies"
       },
-      "DefaultImage": "themes/emojiPuppies/small/shutterstock_398942398_16.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiPuppies/small/shutterstock_398942398_16.jpg"
+        },
       "Labels": {
         "fr": "Emoji Chiens",
         "en": "Emoji Puppies",
@@ -77,7 +95,10 @@
         "Source": "Internal",
         "Link": "themes/emojiRabbits"
       },
-      "DefaultImage": "themes/emojiRabbits/small/shutterstock_431193436_6.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiRabbits/small/shutterstock_431193436_6.jpg"
+        },
       "Labels": {
         "fr": "Emoji Lapins",
         "en": "Emoji Rabbits",
@@ -89,7 +110,10 @@
         "Source": "Internal",
         "Link": "themes/emojiRaccoons"
       },
-      "DefaultImage": "themes/emojiRaccoons/small/shutterstock_416608975_10.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiRaccoons/small/shutterstock_416608975_10.jpg"
+        },
       "Labels": {
         "fr": "Emoji Ratons",
         "en": "Emoji Raccoons",
@@ -101,7 +125,10 @@
         "Source": "Internal",
         "Link": "themes/emojiTigers"
       },
-      "DefaultImage": "themes/emojiTigers/small/shutterstock_399642061_13.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiTigers/small/shutterstock_399642061_13.jpg"
+        },
       "Labels": {
         "fr": "Emoji Tigres",
         "en": "Emoji Tigers",
@@ -113,7 +140,10 @@
         "Source": "Internal",
         "Link": "themes/penguins"
       },
-      "DefaultImage": "themes/penguins/small/shutterstock_326065541_2.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/penguins/small/shutterstock_326065541_2.jpg"
+        },
       "Labels": {
         "fr": "Pinguoins",
         "en": "Penguins",
@@ -125,7 +155,10 @@
         "Source": "Internal",
         "Link": "themes/holidays"
       },
-      "DefaultImage": "themes/holidays/small/shutterstock_258312176_10.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/holidays/small/shutterstock_258312176_10.jpg"
+        },
       "Labels": {
         "fr": "Vacances",
         "en": "Holidays",
@@ -137,7 +170,10 @@
         "Source": "Internal",
         "Link": "themes/emojiVanilla"
       },
-      "DefaultImage": "themes/emojiVanilla/small/shutterstock_407338447_12.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiVanilla/small/shutterstock_407338447_12.jpg"
+        },
       "Labels": {
         "fr": "Emoji Vanille",
         "en": "Emoji Vanilla",
@@ -149,7 +185,10 @@
         "Source": "Internal",
         "Link": "themes/emojiSun"
       },
-      "DefaultImage": "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "themes/emojiSun/small/shutterstock_422197138_3.jpg"
+        },
       "Labels": {
         "fr": "Emoji Soleil",
         "en": "Emoji Sun",
@@ -161,7 +200,10 @@
         "Source": "Internal",
         "Link": "themes/emojiGirlie"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_311548385_20.jpg"
+        },
       "Labels": {
         "fr": "Emoji Girlie",
         "en": "Emoji Girlie",
@@ -173,7 +215,10 @@
         "Source": "Internal",
         "Link": "themes/emojiHandDrawn"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_391162699_7.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_391162699_7.jpg"
+        },
       "Labels": {
         "fr": "Emoji Peints",
         "en": "Emoji HandDrawn",
@@ -185,7 +230,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons4"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_404046766_3.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_404046766_3.jpg"
+        },
       "Labels": {
         "fr": "Emoji IV",
         "en": "Emoji IV",
@@ -197,7 +245,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons5"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_387300097_14.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_387300097_14.jpg"
+        },
       "Labels": {
         "fr": "Emoji V",
         "en": "Emoji V",
@@ -209,7 +260,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons6"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_429136261_73.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_429136261_73.jpg"
+        },
       "Labels": {
         "fr": "Emoji VI",
         "en": "Emoji VI",
@@ -221,7 +275,10 @@
         "Source": "Internal",
         "Link": "themes/emoticons7"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_461742151_8.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_461742151_8.jpg"
+        },
       "Labels": {
         "fr": "Emoji VII",
         "en": "Emoji VII",
@@ -233,7 +290,10 @@
         "Source": "Internal",
         "Link": "themes/emojiNeon"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_396851035_21.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_396851035_21.jpg"
+        },
       "Labels": {
         "fr": "Emoji Néon",
         "en": "Emoji Neon",
@@ -245,7 +305,10 @@
         "Source": "Internal",
         "Link": "themes/emojiBlue"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_419416588_11.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_419416588_11.jpg"
+        },
       "Labels": {
         "fr": "Emoji Bleu",
         "en": "Emoji Blue",
@@ -257,7 +320,10 @@
         "Source": "Internal",
         "Link": "themes/emojiCats"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_429770818_4.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_429770818_4.jpg"
+        },
       "Labels": {
         "fr": "Emoji Chats",
         "en": "Emoji Cats",
@@ -269,7 +335,10 @@
         "Source": "Internal",
         "Link": "themes/emojiBubble"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_443842231_blue_29.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_443842231_blue_29.jpg"
+        },
       "Labels": {
         "fr": "Emoji Bulle",
         "en": "Emoji Bubble",
@@ -281,7 +350,10 @@
         "Source": "Internal",
         "Link": "themes/emojiPastel"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_384708250_31.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_384708250_31.jpg"
+        },
       "Labels": {
         "fr": "Emoji Pastel",
         "en": "Emoji Pastel",
@@ -293,7 +365,10 @@
         "Source": "Internal",
         "Link": "themes/emojiVarious"
       },
-      "DefaultImage": "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg",
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "cvd/intentions/default/xsmall/shutterstock_407290795_6.jpg"
+        },
       "Labels": {
         "fr": "Emoji Variés",
         "en": "Emoji Various",
