@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "HaveASweetheart",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you have a sweetheart?",
+        "fr": "As-tu un ou une chéri(e)?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HaveASweetheartYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/emojiLove/small/shutterstock_190844729_9.jp"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm jaleous..😉",
+            "fr": "je suis jaloux..😉",
+            "es": "TBD 😉"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "HowAboutSending"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "HaveASweetheartNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I am here for you 😘",
+            "fr": "Je suis la pour toi 😘",
+            "es": "TBD 😘"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/specialoccasions/I-am-here-for-you/default"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "HowAboutExpressing"
+      }
+    }
+  ]
+}
