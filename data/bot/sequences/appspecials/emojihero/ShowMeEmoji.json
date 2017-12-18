@@ -1,0 +1,74 @@
+{
+  "Type": "Node",
+  "Id": "ShowMeEmoji",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Welcome in Emoji Paradise 😎!",
+        "fr": "Bienvenu au paradis des Emoji 😎 !",
+        "es": "TBD 😎"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The emoji tab is the next one on the right. Shall I show you how to get there?",
+        "fr": "L'ongelt Emoji est juste à droite. Est-ce que tu veux que je te le montre?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ShowMeEmojiYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps":[
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26FLbV3xS3ik4BM2I"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "TabEmojiCanYouSeeIt"
+      },
+      "LinksTo": {
+        "Type": "Leaf",
+        "Id": "InterestInEmoji"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "ShowMeEmojiNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "🏝",
+            "fr": "🏝",
+            "es": "🏝"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "InterestInEmoji"
+      }
+    }
+  ]
+}
+
