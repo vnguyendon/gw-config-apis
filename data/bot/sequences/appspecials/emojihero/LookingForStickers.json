@@ -2,11 +2,6 @@
   "Type": "Node",
   "Id": "LookingForStickers",
   "ElementValue": "1",
-  "CommandLabel": {
-    "en": "stickers",
-    "fr": "de stickers",
-    "es": "TDB"
-  },
   "Steps": [
     {
       "Type": "Text",
