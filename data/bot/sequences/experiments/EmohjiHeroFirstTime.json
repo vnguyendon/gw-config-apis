@@ -1,12 +1,28 @@
 {
   "Type": "Node",
-  "Id": "EmojiHeroDiscover",
+  "Id": "EmohjiHeroFirstTime",
   "Steps": [
     {
       "Type": "Text",
       "Label": {
         "en": "Hi there ! My name is Emoji Hero, I am here to guide you on this app",
         "fr": "Bonjour bonjour ! Mon nom est Emoji Hero, je suis ici pour te guider !",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "My mission is to guide you around the app",
+        "fr": "Ma mission est de te guider dans cette app!",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I can suggest thousands of emoji, sticker and text ideas to create great messages.",
+        "fr": "Je peux te suggérer des milliers d'emoji, de stickers et d'dées de textes pour créer de chouettes messages",
         "es": "TBD"
       }
     },
@@ -20,16 +36,16 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Have you had the chance to discover this app before?",
-        "fr": "As-tu déja eu la chance de découvrir cette application?",
-        "es": ""
+        "en": "It is your first time here?",
+        "fr": "Est-ce la première fois que tu es ici?",
+        "es": "TBD"
       }
     }
   ],
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "EmojiHeroDiscoverYes",
+      "Id": "EmohjiHeroFirstTimeYes",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "yes",
@@ -40,8 +56,8 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Great !",
-            "fr": "Génial !",
+            "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
+            "fr": "Tu peux navoiguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
             "es": "TBD"
           }
         },
@@ -49,7 +65,7 @@
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "dMYVHzANYb9p6"
+            "Path": "26FLbV3xS3ik4BM2I"
           }
         }
       ],
@@ -59,19 +75,19 @@
     },
     {
       "Type": "Leaf",
-      "Id": "EmojiHeroDiscoverNo",
+      "Id": "EmohjiHeroFirstTimeYesMaybe",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "no",
-        "fr": "non",
+        "en": "maybe",
+        "fr": "peut-être",
         "es": "no"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "Don't worry, I can show you around",
-            "fr": "Ne t'inquiète pas, je peux te faire visiter",
+            "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
+            "fr": "Tu peux navoiguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
             "es": "TBD"
           }
         },
@@ -79,7 +95,7 @@
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "l4FGqdcIxHdC7rUiI"
+            "Path": "26FLbV3xS3ik4BM2I"
           }
         }
       ],
