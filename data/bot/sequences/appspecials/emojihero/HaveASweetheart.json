@@ -65,7 +65,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "/specialoccasions/I-am-here-for-you/default"
+            "Path": "specialoccasions/I-am-here-for-you/default"
           }
         }
       ],
