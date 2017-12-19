@@ -1,0 +1,126 @@
+{
+  "Type": "Node",
+  "Id": "PlanToFortune",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you have a plan to achieve it? 🗺",
+        "fr": "Est-ce que tu as un plan pour l'atteindre? 🗺",
+        "es": "TBD 🗺"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PlanToFortuneYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "Showcards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/best.json"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You're definitely the best 💪",
+            "fr": "Tu es définitivement le meilleur 💪",
+            "es": "TBD 💪"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "ShowHowBest"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PlanToFortuneNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That makes two of us 🙂",
+            "fr": "On est deux 🙂",
+            "es": "TBD 🙂"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "TwoOfUs",
+        "ElementValue": "1",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "That makes two of us 🙂",
+              "fr": "On est deux 🙂",
+              "es": "TBD 🙂"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "CategoryStopTheWorld",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "stop the world",
+              "fr": "arrêter le monde",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "ImageCategory",
+                  "Path": "specialoccasions/stop-the-world/default/small"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CategoryConfortMe",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "confort me",
+              "fr": "réconforte-moi",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "GifCategory",
+                  "Path": "/data/common/giphycontent/hugs.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
