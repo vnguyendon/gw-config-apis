@@ -1,0 +1,169 @@
+{
+  "Themes": [
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumkitties.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/themes/kittens/small/shutterstock_116218768.jpg"
+      },
+      "Labels": {
+        "en": "Kitties",
+        "fr": "Chatons",
+        "es": "Gatitos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumpuppies.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/themes/puppies/small/shutterstock_190771445.jpg"
+      },
+      "Labels": {
+        "en": "Puppies",
+        "fr": "Chiots",
+        "es": "Perritos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumpandas.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/cvd/friend/friends/small/446325988.jpg"
+      },
+      "Labels": {
+        "en": "Pandas",
+        "fr": "Pandas",
+        "es": "Pandas"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumhorses.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/themes/horses/small/iStock_000015373818_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Horses",
+        "fr": "Chevaux",
+        "es": "Caballos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumcartoon1.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/you-are-the-best/default/small/Believe-the-unbelievable-000053641330_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Cartoons I",
+        "fr": "Dessins animés I",
+        "es": "Dibujos animados I"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumcartoon2.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/you-are-the-best/default/small/From-a-fairy-tale-000053641224_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Cartoons II",
+        "fr": "Dessins animés II",
+        "es": "Dibujos animados II"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumcartoon3.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/celebrate-the-occasion/default/small/Full-golden-heart-000055173666_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Cartoons III",
+        "fr": "Dessins animés III",
+        "es": "Dibujos animados III"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumsoccer.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/you-are-the-best/default/small/shutterstock_75105484_2.jpg"
+      },
+      "Labels": {
+        "en": "Soccer",
+        "fr": "Football",
+        "es": "Futbol"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumpika.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/themes/emojiCats/small/shutterstock_429770818_70.jpg"
+      },
+      "Labels": {
+        "en": "Pika",
+        "fr": "Pika",
+        "es": "Pika"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumchristmas.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/happy-new-year/default/small/iStock_000008144180_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Merry Christmas",
+        "fr": "Joyeux Noël",
+        "es": "Feliz Navidad"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/common/giphycontent/premiumhappynewyear.json"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Path": "/specialoccasions/happy-new-year/default/small/shutterstock_339970934.jpg"
+      },
+      "Labels": {
+        "en": "Happy New Year",
+        "fr": "Bonne année",
+        "es": "Feliz año nuevo"
+      }
+    }
+  ]
+}
