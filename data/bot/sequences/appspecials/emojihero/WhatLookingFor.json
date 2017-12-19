@@ -18,9 +18,9 @@
       "Id": "LookingForLove",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "love",
-        "fr": "de l'amour",
-        "es": "TBD"
+        "en": "love 💞",
+        "fr": "de l'amour 💞",
+        "es": "TBD 💞"
       },
       "Steps": [
         {
@@ -40,16 +40,16 @@
       "Id": "LookingForFortune",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "fortune",
-        "fr": "la fortune",
-        "es": "TBD"
+        "en": "fortune 💸",
+        "fr": "la fortune 💸",
+        "es": "TBD 💸"
       },
       "Steps": [
         {
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "/specialoccasions/you-are-the-best/default/small/shutterstock_189980657.jpg"
+            "Path": "/themes/emoticons/small/000041677478.jpg"
           }
         }
       ],
@@ -62,9 +62,9 @@
       "Id": "LookingForEmoji",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "fortune",
-        "fr": "la fortune",
-        "es": "TBD"
+        "en": "emoji 😀",
+        "fr": "emoji 😀",
+        "es": "emoji 😀"
       },
       "Steps": [
         {
@@ -77,17 +77,16 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "You are so right!",
-            "fr": "Tu as tellement raison!",
+            "en": "You are in the right place!",
+            "fr": "Tu es au bon endroit!",
             "es": "TBD"
           }
         },
         {
-          "Type": "Action",
-          "Name": "ShowCards",
+          "Type": "Image",
           "Parameters": {
-            "Type": "Gif",
-            "Id": "/data/common/giphycontent/best.json"
+            "Source": "Internal",
+            "Path": "/themes/emoticons/small/000024582637.jpg"
           }
         }
       ],
@@ -100,9 +99,9 @@
       "Id": "LookingForStickers",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "stickers ",
-        "fr": "des stickers",
-        "es": "TBD"
+        "en": "stickers ⛺",
+        "fr": "des stickers ⛺",
+        "es": "TBD ⛺"
       },
       "Steps": [
         {
