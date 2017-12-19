@@ -1,0 +1,111 @@
+{
+  "Type": "Node",
+  "Id": "HereAFlower",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We have plenty of flowers 🌺🌻🌸🏵🌷🌼",
+        "fr": "On en a beaucoup de fleurs 🌺🌻🌸🏵🌷🌼",
+        "es": "TBD 🌺🌻🌸🏵🌷🌼"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Flower stickers..",
+        "fr": "Des stickers de fleurs",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/cvd/sweetheart/shutterflowers/small/shutterstock_178506917.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Flower gifs..",
+        "fr": "Des gifs de fleurs",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "6vg3kRY0Jk3Go"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which do you want to discover?",
+        "fr": "Lesquels veux-tu découvrir",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    { 
+      "Type": "Leaf",
+      "Id": "FlowerGifs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Flower gifs",
+        "fr": "Gifs de fleurs",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Taking you there.. 🚀🚀🚀",
+            "fr": "Je t'y emmène.. 🚀🚀🚀",
+            "es": "TBD 🚀🚀🚀"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/data/common/giphycontent/flowers.json"
+            }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FlowersStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Flower stickers",
+        "fr": "Stickers de fleurs",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Taking you there.. 🚀🚀🚀",
+            "fr": "Je t'y emmène.. 🚀🚀🚀",
+            "es": "TBD 🚀🚀🚀"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/themes/flowers/small"
+            }
+        }
+      ]
+    }
+  ]
+}
