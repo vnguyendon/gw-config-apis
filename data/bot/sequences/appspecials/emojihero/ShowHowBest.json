@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "ShowHowBest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let me show you how I feel about you with these..",
+        "fr": "Comment aimerais-tu exprimer ce sentiment?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowHowBestWithGif",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..gifs",
+        "fr": "..gifs",
+        "es": "..gifs"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/data/common/giphycontent/best.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ShowHowBestWithStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..stickers",
+        "fr": "..stickers",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "specialoccasions/you-are-the-best/default/small"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ShowHowBestWithText",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..stickers",
+        "fr": "..stickers",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "TextCategory",
+            "Path": "8FB4AF"
+          }
+        }
+      ]
+    }
+  ]
+}
