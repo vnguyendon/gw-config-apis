@@ -1,0 +1,131 @@
+{
+  "Type": "Node",
+  "Id": "WantMoreLove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "💖 Would you like to see more.. ",
+        "fr": "💖 Souhaites-tu découvrir plus de.. ",
+        "es": "💖 TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WantMoreLoveMessages",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..love messages",
+        "fr": "..messages d'amour",
+        "es": "..TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great choice. Come with me.. 🎠",
+            "fr": "Excellent choix. Suis moi.. 🎠",
+            "es": "TBD 🎠"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "TextCategory",
+            "Path": "5CDCF2"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WantMoreLoveStickers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..love stickers",
+        "fr": "..stickers d'amour",
+        "es": "..TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great choice. Come with me.. 🎠",
+            "fr": "Excellent choix. Suis moi.. 🎠",
+            "es": "TBD 🎠"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/themes/emojiLove/small"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WantMoreLoveGifs",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..love gifs",
+        "fr": "..gifs d'amour",
+        "es": "..TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great choice. Come with me.. 🎠",
+            "fr": "Excellent choix. Suis moi.. 🎠",
+            "es": "TBD 🎠"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "GifCategory",
+            "Path": "/data/common/giphycontent/love.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WantMoreLoveEmojis",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "..love emoji",
+        "fr": "..emoji d'amour",
+        "es": "..TDB"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great choice. Come with me.. 🎠",
+            "fr": "Excellent choix. Suis moi.. 🎠",
+            "es": "TBD 🎠"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/themes/emojiLove/small"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
