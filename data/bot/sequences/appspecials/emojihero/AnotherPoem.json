@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "AnotherPoem",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCards",
+      "Parameters": {
+        "Type": "Text",
+        "Id": "43B296"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you want to see another one?",
+        "fr": "Est-ce que tu veux en voir un autre?",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AnotherPoemYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Your wish is my command 😉",
+            "fr": "Vos désires sont des ordres 😉",
+            "es": "TBD 😉"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Text",
+            "Id": "43B296"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AnotherPoemNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non, merci",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameteres": {
+            "Source": "Giphy",
+            "Path": "l6Td5sKDNmDGU"
+          }
+        }
+      ]
+    }
+  ]
+}
