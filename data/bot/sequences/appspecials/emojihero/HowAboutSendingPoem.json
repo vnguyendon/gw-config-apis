@@ -1,0 +1,90 @@
+{
+  "Type": "Node",
+  "Id": "HowAboutSendingPoem",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here is one:",
+        "fr": "En voici un:",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCards",
+      "Parameters": {
+        "Type": "Text",
+        "Id": "43B296"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like to...",
+        "fr": "Est-ce que tu voudrais...",
+        "es": "TBD"
+      }
+    },
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowAnotherPoem",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "see another",
+        "fr": "en voir un autre",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Text",
+            "Id": "43B296"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "AnotherPoem"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SeePoemGallery",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "fr": "voir gallerie de poèmes",
+        "en": "see poem gallery",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters":{
+            "Source": "Internal",
+            "Path": "/specialoccasions/poems/default/small/44568.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great choice. Let me show you",
+            "fr": "Excellent choix. Laisse moi te montrer",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "TextCategory",
+            "Path": "43B296"
+          }
+        }
+      ]
+    }
+  ]
+}
