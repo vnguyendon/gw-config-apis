@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "HereALoveMessage",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here is one:",
+        "fr": "En voici un:",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCards",
+      "Parameters": {
+        "Type": "TextImage",
+        "Path": "5CDCF2"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can send it by clicking on it directly ⬆",
+        "fr": "Tu peux l'envoyer en cliquant dessus directement ⬆",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Like this ⬇",
+        "fr": "Comme ça ⬇",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "TBC"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SendGetIt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I get it 👻",
+        "fr": "J'ai compris 👻",
+        "es": "TBD 👻"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Id": "/data/common/giphycontent/best.json"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "WantMoreLove"
+      }
+    }
+  ]
+}
