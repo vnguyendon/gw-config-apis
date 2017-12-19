@@ -1,0 +1,55 @@
+{
+  "Type": "Node",
+  "Id": "HowAboutSending",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How about sending...",
+        "fr": "Que penses-tu de lui envoyer...",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HowAboutSendingPoem",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a poem 🌌",
+        "fr": "un poème 🌌",
+        "es": "TBD 🌌"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "HereAPoem"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HowAboutSendingFlower",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a flower 🌹",
+        "fr": "une fleur 🌹",
+        "es": "TBD 🌹"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "HereAFlower"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HowAboutSendingLoveMessage",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a love message 💌",
+        "fr": "un message d'amour 💌",
+        "es": "TBD 💌"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "HereALoveMessage"
+      }
+    }
+  ]
+}
