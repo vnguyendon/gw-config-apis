@@ -48,7 +48,7 @@
           "Name": "RedirectTo",
           "Parameters": {
             "Type": "ImageCategory",
-            "Path": "specialoccasions/you-are-the-best/default/small"
+            "Path": "/specialoccasions/you-are-the-best/default/small"
           }
         }
       ]
