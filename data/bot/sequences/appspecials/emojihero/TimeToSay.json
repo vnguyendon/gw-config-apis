@@ -56,7 +56,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/hugs.json"
+            "Path": "/data/common/giphycontent/hugs.json"
           }
         },
         {
@@ -84,7 +84,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/poems.json"
+            "Path": "/data/common/giphycontent/poems.json"
           }
         },
         {
