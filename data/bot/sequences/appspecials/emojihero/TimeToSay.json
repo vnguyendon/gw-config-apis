@@ -84,7 +84,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Path": "/data/common/giphycontent/poems.json"
+            "Path": "/data/common/giphycontent/morning.json"
           }
         },
         {
