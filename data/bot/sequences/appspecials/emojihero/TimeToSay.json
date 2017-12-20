@@ -1,0 +1,101 @@
+{
+  "Type": "Node",
+  "Id": "TimeToSay",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Maybe it's time to say..",
+        "fr": "Peut-être est-il de dire..",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TimeToSayILikeYou",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I like you",
+        "fr": "Tu me plais",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hummmm..😚",
+            "fr": "Hummmm..😚",
+            "es": "Hummmm..😚"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "TextCategory",
+            "Path": "64B504"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TimeToSayIMissYou",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I miss you",
+        "fr": "Tu me manques",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Id": "/data/common/giphycontent/hugs.json"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/specialoccasions/I-miss-you/default/small"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TimeToSayStopTheWorld",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Stop the world",
+        "fr": "Arrêtez le monde",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Id": "/data/common/giphycontent/poems.json"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/specialoccasions/stop-the-world/default/small"
+          }
+        }
+      ]
+    }
+  ]
+}
