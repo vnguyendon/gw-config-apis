@@ -1,5 +1,5 @@
 {
-  "Version": 5,
+  "Version": 6,
   "GroupName": "Test",
   "SequenceFiles": [
     { "order" : 2, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime"]},
