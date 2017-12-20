@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Are you looking for..",
-        "fr": "Es-tu en quête...",
+        "fr": "Es-tu en quête..",
         "es": "TBD"
       }
     }
@@ -85,7 +85,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "stickers ⛺",
-        "fr": "des stickers ⛺",
+        "fr": "de stickers ⛺",
         "es": "TBD ⛺"
       },
       "Steps": [
