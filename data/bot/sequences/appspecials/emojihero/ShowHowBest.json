@@ -58,8 +58,8 @@
       "Id": "ShowHowBestWithText",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "..stickers",
-        "fr": "..stickers",
+        "en": "..messages",
+        "fr": "..messages",
         "es": "TBD"
       },
       "Steps": [
