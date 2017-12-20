@@ -29,7 +29,7 @@
         "fr": "oui",
         "es": "si"
       },
-      "Steps":[
+      "Steps": [
         {
           "Type": "AnimatedGif",
           "Parameters": {
@@ -43,7 +43,10 @@
       },
       "LinksTo": {
         "Type": "Leaf",
-        "Id": "InterestInEmoji"
+        "Id": "InterestInEmojiOpened",
+        "LinksToFragment": {
+          "FragmentPath": "InterestInEmoji"
+        }
       }
     },
     {
@@ -71,4 +74,3 @@
     }
   ]
 }
-
