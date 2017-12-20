@@ -36,7 +36,7 @@
           "Name": "RedirectTo",
           "Parameters": {
             "Type": "GifCategory",
-            "Id": "/common/giphycontent/emojis.json"
+            "Path": "/data/common/giphycontent/emojis.json"
           }
         }
       ]
