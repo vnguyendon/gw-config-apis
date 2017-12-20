@@ -68,13 +68,6 @@
       },
       "Steps": [
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "sX755wvr2Q6gE"
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "You are in the right place!",
