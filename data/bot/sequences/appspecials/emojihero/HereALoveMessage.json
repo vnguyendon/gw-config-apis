@@ -58,7 +58,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Gif",
-            "Id": "/data/common/giphycontent/best.json"
+            "Path": "/data/common/giphycontent/best.json"
           }
         }
       ],
