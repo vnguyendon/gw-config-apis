@@ -71,9 +71,9 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "That makes two of us 🙂",
-              "fr": "On est deux 🙂",
-              "es": "TBD 🙂"
+              "en": "What do you feel like?",
+              "fr": "Comment te sens-tu?",
+              "es": "TBD"
             }
           }
         ],
