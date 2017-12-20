@@ -27,7 +27,7 @@
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
-            "Path": "sX755wvr2Q6gE"
+            "Path": "f6y4qvdxwEDx6"
           }
         }
       ],
@@ -67,14 +67,6 @@
         "es": "emoji 😀"
       },
       "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You are in the right place!",
-            "fr": "Tu es au bon endroit!",
-            "es": "TBD"
-          }
-        },
         {
           "Type": "Image",
           "Parameters": {
