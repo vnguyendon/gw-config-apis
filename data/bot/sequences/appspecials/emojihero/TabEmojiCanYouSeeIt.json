@@ -34,10 +34,7 @@
             "Id": "8FB4AF"
           }
         }
-      ], 
-      "LinksToFragment": {
-        "FragmentPath": "WhatLookingFor"
-      }
+      ]
     },
     {
       "Type": "Leaf",
@@ -73,10 +70,7 @@
             "Id": "451563"
           }
         }
-      ],
-      "LinksToFragment": {
-        "FragmentPath": "WhatLookingFor"
-      }
+      ]
     }
   ]
 }
