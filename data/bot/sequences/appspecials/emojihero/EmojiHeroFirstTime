@@ -13,14 +13,6 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "My mission is to guide you around the app",
-        "fr": "Ma mission est de te guider dans cette app!",
-        "es": "TBD"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
         "en": "I can suggest thousands of emoji, sticker and text ideas to create great messages.",
         "fr": "Je peux te suggérer des milliers d'emoji, de stickers et d'dées de textes pour créer de chouettes messages",
         "es": "TBD"
