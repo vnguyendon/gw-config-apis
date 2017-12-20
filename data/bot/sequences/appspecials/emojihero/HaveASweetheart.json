@@ -65,8 +65,8 @@
           "Type": "Action",
           "Name": "ShowCards",
           "Parameters": {
-            "Source": "Internal",
-            "Id": "specialoccasions/I-am-here-for-you/default"
+            "Type": "Image",
+            "Id": "specialoccasions/I-am-here-for-you/default/small"
           }
         }
       ],
