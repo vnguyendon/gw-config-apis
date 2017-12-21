@@ -2,7 +2,11 @@
 "Version": 3,
 "GroupName": "Hero",
 "SequenceFiles": [
-  { "order" : 5, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime"]},
+  { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/ShowHowBest.json"]},
+  { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/ShowHowBest.json"]},
+  { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/ShowHowBest.json"]},
+  { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/ShowHowBest.json"]},
+  { "order" : 5, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
   { "order" : 6, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
   { "order" : 6, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
   { "order" : 6, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
