@@ -161,42 +161,6 @@
           }
         }
       ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LookingForStickersAll",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "All categories",
-        "fr": "Toutes catégories",
-        "es": "TDB"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Great choice",
-            "fr": "Excellent choix",
-            "es": "TBD"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "I will now redirect you to the stickers ✈✈✈",
-            "fr": "Je vais maintenant te rediriger vers les stickers ✈✈✈",
-            "es": "TBD ✈✈✈"
-          }
-        },
-        {
-          "Type": "Action",
-          "Name": "RedirectTo",
-          "Parameters": {
-            "Type": "Tab",
-            "Path": "Stickers"
-          }
-        }
-      ]
     }
   ]
 }
