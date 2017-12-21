@@ -1,5 +1,5 @@
 {
-  "Version": 10,
+  "Version": 11,
   "GroupName": "Test",
   "SequenceFiles": [
     { "order" : 1, "file":["/data/bot/sequences/appspecials/emojihero/HereAPoem.json"]},
