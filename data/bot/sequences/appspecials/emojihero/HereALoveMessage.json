@@ -47,6 +47,7 @@
         "Mode": "Wait",
         "ms": 2000
       }
+    },
     {
       "Type": "AnimatedGif",
       "Parameters": {
