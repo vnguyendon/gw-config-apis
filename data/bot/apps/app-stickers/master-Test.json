@@ -1,8 +1,8 @@
 {
-  "Version": 11,
+  "Version": 12,
   "GroupName": "Test",
   "SequenceFiles": [
-    { "order" : 3, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.jso"]},
+    { "order" : 3, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"]},
     { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
     { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/HowAreYou.json"]},
