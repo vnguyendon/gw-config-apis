@@ -1,4 +1,5 @@
-{
+[
+  {
   "Version": 2,
   "GroupName": "Hero",
   "SequenceFiles": [
@@ -53,3 +54,4 @@
     { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]} 
   ]
 }
+]
