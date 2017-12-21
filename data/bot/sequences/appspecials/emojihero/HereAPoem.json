@@ -14,7 +14,7 @@
       "Type": "Action",
       "Name": "ShowCards",
       "Parameters": {
-        "Type": "Text",
+        "Type": "TextImage",
         "Id": "43B296"
       }
     },
@@ -42,7 +42,7 @@
           "Type": "Action",
           "Name": "ShowCards",
           "Parameters": {
-            "Type": "Text",
+            "Type": "TextImage",
             "Id": "43B296"
           }
         }
