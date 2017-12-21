@@ -31,6 +31,14 @@
       },
       "Steps": [
         {
+          "Type": "Text",
+          "Label": {
+            "en": "Like this ⏬",
+            "fr": "Comme ça ⏬",
+            "es": "TBD ⏬"
+          }
+        },
+        {
           "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
@@ -39,14 +47,7 @@
         }
       ],
       "LinksToFragment": {
-        "FragmentPath": "TabEmojiCanYouSeeIt"
-      },
-      "LinksTo": {
-        "Type": "Leaf",
-        "Id": "InterestInEmojiOpened",
-        "LinksToFragment": {
-          "FragmentPath": "InterestInEmoji"
-        }
+        "FragmentPath": "InterestInEmoji"
       }
     },
     {
