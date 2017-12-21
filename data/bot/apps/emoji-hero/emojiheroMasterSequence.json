@@ -1,0 +1,28 @@
+
+{
+  "GroupName": "Hero",
+  "SequenceFiles": [
+    { "order" : 2, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime"]},
+    { "order" : 3, "file":["/data/bot/sequences/experiments/LookingFor.json"]},
+    { "order" : 3, "file":["/data/bot/sequences/experiments/LookingFor.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/HowDoYouShowLove.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/smalltalk/AreYouReal.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/PerfectGiftForYou.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/RateUs.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/RealBot.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/WantMessageSuggestions.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhichMessagesDoYouSend.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.json"]},
+    { "order" : 11, "file":["/data/bot/sequences/settings/Age.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouKnowWhatAGifIs.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/ShowAnAdvert.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatDoesItSmell.json"]}, 
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]} 
+  ]
+}
