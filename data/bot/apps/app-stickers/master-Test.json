@@ -2,7 +2,7 @@
   "Version": 11,
   "GroupName": "Test",
   "SequenceFiles": [
-    { "order" : 3, "file":["/data/bot/sequences/appspecials/emojihero/HereAPoem.json"]},
+    { "order" : 3, "file":["/data/bot/sequences/smalltalk/YouPreferRomanticOrFunnyQuotes.jso"]},
     { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
     { "order" : 4, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/HowAreYou.json"]},
