@@ -1,0 +1,42 @@
+{
+  "Type": "Question",
+  "Id": "HowAreYou",
+  "Label": {
+    "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉. How are you feeling today?",
+    "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉. Comment ça va aujourd'hui ?",
+    "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉. ¿Cómo estás hoy?"
+  },
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "Good",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "l2QE9TcoKQR5N1hW8"
+      },
+      "Label": {
+        "en": "good",
+        "fr": "bien",
+        "es": "bien"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NotSoGood",
+      "StepValue": "1",
+      "OptionalFeedback": {
+        "Type": "AnimatedGif",
+        "Source": "Giphy",
+        "Path": "l2QEiGATcQKrgsYZa"
+      },
+      "Label": {
+        "en": "not so good",
+        "fr": "pas très bien",
+        "es": "más o menos"
+      }
+    }
+  ]
+}
