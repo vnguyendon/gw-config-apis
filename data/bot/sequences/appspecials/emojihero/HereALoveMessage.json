@@ -18,6 +18,12 @@
         "Id": "5CDCF2"
       }
     },
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
+    },
     {
       "Type": "Text",
       "Label": {
@@ -34,6 +40,11 @@
         "es": "TBD"
       }
     },
+    "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 2000
+      }
     {
       "Type": "AnimatedGif",
       "Parameters": {
