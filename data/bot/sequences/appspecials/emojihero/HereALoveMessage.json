@@ -18,6 +18,7 @@
         "Id": "5CDCF2"
       }
     },
+    {
       "Type": "Pause",
       "Parameters": {
         "Mode": "Wait",
@@ -40,7 +41,8 @@
         "es": "TBD"
       }
     },
-    "Type": "Pause",
+    {
+      "Type": "Pause",
       "Parameters": {
         "Mode": "Wait",
         "ms": 2000
