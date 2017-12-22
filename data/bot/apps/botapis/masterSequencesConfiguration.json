@@ -15,6 +15,10 @@
     {
       "Name": "surveyapps",
       "File": "/data/bot/apps/app-stickers/appsurveyMasterSequence.json"
+    },
+    {
+      "Name": "appstest",
+      "File": "/data/bot/apps/app-stickers/appstestMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
