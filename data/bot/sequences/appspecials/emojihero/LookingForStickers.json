@@ -8,7 +8,7 @@
       "Label": {
         "en": "I can help you 💪🏽!",
         "fr": "Je peux t'aider 💪🏽 !",
-        "es": "TBD 💪🏽"
+        "es": "¿Puedo ayudarte? 💪🏽"
       }
     },
     {
@@ -16,7 +16,7 @@
       "Label": {
         "en": "Are you looking for a specific category of stickers?",
         "fr": "Est-ce que tu cherches une catégorie spécifique de stickers?",
-        "es": "TBD"
+        "es": "¿Buscas una categoría especifíca de Stickers?"
       }
     }
   ],
@@ -29,7 +29,7 @@
       "CommandLabel": {
         "en": "Love ",
         "fr": "Amour",
-        "es": "TDB"
+        "es": "Amor"
       },
       "Steps": [
         {
@@ -37,7 +37,7 @@
           "Label": {
             "en": "Great choice 💓",
             "fr": "Excellent choix 💓",
-            "es": "TBD 💓"
+            "es": "Ecelente elección 💓"
           }
         },
         {
@@ -57,7 +57,7 @@
       "CommandLabel": {
         "en": "I miss you",
         "fr": "Tu me manques",
-        "es": "TDB"
+        "es": "Me haces falta"
       },
       "Steps": [
         {
@@ -65,7 +65,7 @@
           "Label": {
             "en": "Great choice 💋",
             "fr": "Excellent choix 💋",
-            "es": "TBD 💋"
+            "es": "Ecelente elección 💋"
           }
         },
         {
@@ -85,7 +85,7 @@
       "CommandLabel": {
         "en": "Good morning",
         "fr": "Bonjour",
-        "es": "TDB"
+        "es": "Buenos días"
       },
       "Steps": [
         {
@@ -93,7 +93,7 @@
           "Label": {
             "en": "Great choice 🌅",
             "fr": "Excellent choix 🌅",
-            "es": "TBD 🌅"
+            "es": "Ecelente elección 🌅"
           }
         },
         {
@@ -113,7 +113,7 @@
       "CommandLabel": {
         "en": "You're the best",
         "fr": "Tu es les meilleur",
-        "es": "TDB"
+        "es": "Eres lo mejor"
       },
       "Steps": [
         {
@@ -121,7 +121,7 @@
           "Label": {
             "en": "Great choice 👏🏼",
             "fr": "Excellent choix 👏🏼",
-            "es": "TBD 👏🏼"
+            "es": "Ecelente elección 👏🏼"
           }
         },
         {
@@ -141,7 +141,7 @@
       "CommandLabel": {
         "en": "Kittens",
         "fr": "Chats",
-        "es": "TDB"
+        "es": "Gatos"
       },
       "Steps": [
         {
@@ -149,7 +149,7 @@
           "Label": {
             "en": "Great choice 😸",
             "fr": "Excellent choix 😸",
-            "es": "TBD 😸"
+            "es": "Ecelente elección 😸"
           }
         },
         {
