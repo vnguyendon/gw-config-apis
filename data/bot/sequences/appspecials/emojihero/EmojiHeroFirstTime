@@ -63,13 +63,6 @@
       ],
       "LinksToFragment": {
         "FragmentPath": "TabEmojiCanYouSeeIt"
-      },
-      "LinksTo": {
-        "Type": "Leaf",
-        "Id": "LookingForOpened",
-        "LinksToFragment": {
-          "FragmentPath": "LookingFor"
-        }
       }
     },
     {
@@ -100,13 +93,6 @@
       ],
       "LinksToFragment": {
         "FragmentPath": "TabEmojiCanYouSeeIt"
-      },
-      "LinksTo": {
-        "Type": "Leaf",
-        "Id": "LookingForOpened",
-        "LinksToFragment": {
-          "FragmentPath": "LookingFor"
-        }
       }
     }
   ]
