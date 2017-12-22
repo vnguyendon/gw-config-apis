@@ -7,7 +7,7 @@
       "Label": {
         "en": "Are you looking for..",
         "fr": "Es-tu en quête..",
-        "es": "TBD"
+        "es": "Estás en busca de ..."
       }
     }
   ],
@@ -19,7 +19,7 @@
       "CommandLabel": {
         "en": "love 💞",
         "fr": "de l'amour 💞",
-        "es": "TBD 💞"
+        "es": "amor 💞"
       },
       "Steps": [
         {
@@ -41,7 +41,7 @@
       "CommandLabel": {
         "en": "fortune 💸",
         "fr": "la fortune 💸",
-        "es": "TBD 💸"
+        "es": "fortuna 💸"
       },
       "Steps": [
         {
