@@ -131,6 +131,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emojiLove/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiLove/small/iStock_000065867555_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Love emoji",
+        "fr": "Emoji love",
+        "es": "Emoji love"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/emojiPastel/small"
       },
       "DefaultImage": {
@@ -147,22 +163,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons4/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons4/small/shutterstock_404046766_11.jpg"
-      },
-      "Labels": {
-        "en": "Kawaii emoji",
-        "fr": "Emoji kawaii",
-        "es": "Emoji kawaii"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiNonsense/small"
       },
       "DefaultImage": {
@@ -174,6 +174,22 @@
         "en": "Carnival emoji",
         "fr": "Emoji carnaval",
         "es": "Emoji carnaval"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emoticons4/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emoticons4/small/shutterstock_404046766_11.jpg"
+      },
+      "Labels": {
+        "en": "Kawaii emoji",
+        "fr": "Emoji kawaii",
+        "es": "Emoji kawaii"
       }
     },
     {
@@ -270,22 +286,6 @@
         "en": "Pastel emoji",
         "fr": "Emoji pastels",
         "es": "Emoji pasteles"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiLove/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiLove/small/iStock_000065867555_Medium.jpg"
-      },
-      "Labels": {
-        "en": "Love emoji",
-        "fr": "Emoji love",
-        "es": "Emoji love"
       }
     }
   ]
