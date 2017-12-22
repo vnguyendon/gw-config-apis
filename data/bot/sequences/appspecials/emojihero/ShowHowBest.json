@@ -7,7 +7,7 @@
       "Label": {
         "en": "Let me show you how I feel about you with these..",
         "fr": "Laisse-moi te montrer à quel point je t'estime avec ces..",
-        "es": "TBD"
+        "es": "Dejame demostrarte lo mucho que te estimo con.. "
       }
     }
   ],
@@ -40,7 +40,7 @@
       "CommandLabel": {
         "en": "..stickers",
         "fr": "..stickers",
-        "es": "TBD"
+        "es": "..stickers"
       },
       "Steps": [
         {
@@ -60,7 +60,7 @@
       "CommandLabel": {
         "en": "..messages",
         "fr": "..messages",
-        "es": "TBD"
+        "es": "..mensajes"
       },
       "Steps": [
         {
