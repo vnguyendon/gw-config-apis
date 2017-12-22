@@ -15,6 +15,7 @@
     "GroupName":"NotCategorized",
     "SequenceFiles" : [
       "/bot/sequences/surveyquestions/HowAreYou.json",
+      "/bot/sequences/surveyquestions/CountriesRunBy.json",
       "/bot/sequences/surveyquestions/HaveYouTriedAChatbotYesNo.json",
       "/bot/sequences/surveyquestions/NapOrWorkout.json",
       "/bot/sequences/surveyquestions/OlympicsOrFootballWorldCup.json",
