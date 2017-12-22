@@ -1,0 +1,19 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "surveypony",
+      "Source": "github",
+      "File": "/data/bot/apps/surveypony/masterSequences.json"
+    },
+    {
+      "Name": "emoji-hero",
+      "File": "/data/bot/apps/emoji-hero/emojiheroMasterSequence.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/fragments/FragmentsMain.json"
+    }
+  ]
+}
