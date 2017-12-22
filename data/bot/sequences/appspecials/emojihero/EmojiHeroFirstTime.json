@@ -7,7 +7,7 @@
       "Label": {
         "en": "Hi there ! My name is Emoji Hero, I am here to guide you on this app",
         "fr": "Bonjour bonjour ! Mon nom est Emoji Hero, je suis ici pour te guider !",
-        "es": "TBD"
+        "es": "¡Hola, hola! Mi nombre es Emoji Hero ¡Estoy para guiarte!"
       }
     },
     {
@@ -15,7 +15,7 @@
       "Label": {
         "en": "I can suggest thousands of emoji, sticker and text ideas to create great messages.",
         "fr": "Je peux te suggérer des milliers d'emoji, de stickers et d'dées de textes pour créer de chouettes messages",
-        "es": "TBD"
+        "es": "Puedo sugerirte miles de Emojis, Stickers y hasta ideas de textos para componer los mejores mensajes"
       }
     },
     {
@@ -30,7 +30,7 @@
       "Label": {
         "en": "It is your first time here?",
         "fr": "Est-ce la première fois que tu es ici?",
-        "es": "TBD"
+        "es": "¿Es la primera vez que vienes por aquí?"
       }
     }
   ],
@@ -50,7 +50,7 @@
           "Label": {
             "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
             "fr": "Tu peux naviguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
-            "es": "TBD"
+            "es": "Puedes navegar en la aplicación deslizando hacia la izquierda o tocando los iconos en la parte superior de la pantalla"
           }
         },
         {
@@ -72,7 +72,7 @@
       "CommandLabel": {
         "en": "maybe",
         "fr": "peut-être",
-        "es": "no"
+        "es": "tal vez"
       },
       "Steps": [
         {
@@ -80,7 +80,7 @@
           "Label": {
             "en": "You can navigate the app by swiping left or by tapping the tabs on top of the screen",
             "fr": "Tu peux navoiguer dans l'app en glissant l'app ver la gauche ou en tapant sur les onglets en haut de l'écran",
-            "es": "TBD"
+            "es": "Puedes navegar en la aplicación deslizando hacia la izquierda o tocando los iconos en la parte superior de la pantalla"
           }
         },
         {
