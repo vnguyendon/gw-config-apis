@@ -3,22 +3,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons/small/000015392841.jpg"
-      },
-      "Labels": {
-        "en": "Classic emoji",
-        "fr": "Emoji classiques",
-        "es": "Emoji clásicos"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emoticons2/small"
       },
       "DefaultImage": {
@@ -30,6 +14,22 @@
         "en": "3D emoji",
         "fr": "Emoji 3D",
         "es": "Emoji 3D"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emoticons/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000015392841.jpg"
+      },
+      "Labels": {
+        "en": "Classic emoji",
+        "fr": "Emoji classiques",
+        "es": "Emoji clásicos"
       }
     },
     {
@@ -51,6 +51,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emojiBubble/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg"
+      },
+      "Labels": {
+        "en": "Bubble emoji",
+        "fr": "Emoji bulle",
+        "es": "Emoji globo"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/emoticons3/small"
       },
       "DefaultImage": {
@@ -67,38 +83,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiVanilla/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg"
-      },
-      "Labels": {
-        "en": "Pastel emoji",
-        "fr": "Emoji pastels",
-        "es": "Emoji pasteles"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiNonsense/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg"
-      },
-      "Labels": {
-        "en": "Carnival emoji",
-        "fr": "Emoji carnaval",
-        "es": "Emoji carnaval"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiHandDrawn/small"
       },
       "DefaultImage": {
@@ -110,22 +94,6 @@
         "en": "Hand drawn emoji",
         "fr": "Emoji crayonnés",
         "es": "Emoji dibujados"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiBubble/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiBubble/small/shutterstock_443842231_blue_12.jpg"
-      },
-      "Labels": {
-        "en": "Bubble emoji",
-        "fr": "Emoji bulle",
-        "es": "Emoji globo"
       }
     },
     {
@@ -174,6 +142,22 @@
         "en": "Kawaii emoji",
         "fr": "Emoji kawaii",
         "es": "Emoji kawaii"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiNonsense/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg"
+      },
+      "Labels": {
+        "en": "Carnival emoji",
+        "fr": "Emoji carnaval",
+        "es": "Emoji carnaval"
       }
     },
     {
@@ -238,6 +222,22 @@
         "en": "Neon emoji",
         "fr": "Emoji néon",
         "es": "Emoji neón"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiVanilla/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg"
+      },
+      "Labels": {
+        "en": "Pastel emoji",
+        "fr": "Emoji pastels",
+        "es": "Emoji pasteles"
       }
     },
     {
