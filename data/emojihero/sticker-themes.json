@@ -159,6 +159,38 @@
         "en": "Horses",
         "es": "Caballos"
       }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/specialoccasions/positive-thoughts/default/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "specialoccasions/positive-thoughts/default/small/shutterstock_148509158.jpg"
+        },
+      "Labels": {
+        "fr": "Positive thoughts",
+        "en": "Pensées positives",
+        "es": "Pensamientos Positivos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/specialoccasions/I-am-here-for-you/default/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "specialoccasions/I-am-here-for-you/default/small/10646873_599816080129666_5894380577519318970_n.jpg"
+        },
+      "Labels": {
+        "fr": "I am here for you",
+        "en": "Je suis là pour toi",
+        "es": "Estoy contigo"
+      }
     }
   ]
 }
