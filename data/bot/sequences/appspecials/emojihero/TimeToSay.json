@@ -7,7 +7,7 @@
       "Label": {
         "en": "Maybe it's time to say..",
         "fr": "Peut-être est-il de dire..",
-        "es": "TBD"
+        "es": "Tal vez sea tiempo de decir..."
       }
     }
   ],
@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "I like you",
         "fr": "Tu me plais",
-        "es": "TBD"
+        "es": "Me gustas"
       },
       "Steps": [
         {
@@ -48,7 +48,7 @@
       "CommandLabel": {
         "en": "I miss you",
         "fr": "Tu me manques",
-        "es": "TBD"
+        "es": "Me haces falta"
       },
       "Steps": [
         {
@@ -83,7 +83,7 @@
       "CommandLabel": {
         "en": "Stop the world",
         "fr": "Arrêtez le monde",
-        "es": "TBD"
+        "es": "Paren el mundo"
       },
       "Steps": [
         {
