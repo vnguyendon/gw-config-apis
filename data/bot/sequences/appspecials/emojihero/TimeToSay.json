@@ -87,14 +87,6 @@
       },
       "Steps": [
         {
-          "Type": "Action",
-          "Name": "ShowCards",
-          "Parameters": {
-            "Type": "Gif",
-            "Path": "/data/common/giphycontent/morning.json"
-          }
-        },
-        {
           "Type": "Pause",
           "Parameters": {
             "Mode": "Wait",
