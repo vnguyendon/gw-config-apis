@@ -44,7 +44,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "YesRememberMyDreams",
       "ElementValue": "1",
       "CommandLabel": {
