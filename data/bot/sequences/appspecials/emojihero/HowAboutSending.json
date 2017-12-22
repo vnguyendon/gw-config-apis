@@ -7,7 +7,7 @@
       "Label": {
         "en": "How about sending...",
         "fr": "Que penses-tu de lui envoyer...",
-        "es": "TBD"
+        "es": "¿Qué tal si lo envías?`"
       }
     }
   ],
@@ -19,7 +19,7 @@
       "CommandLabel": {
         "en": "a poem 🌌",
         "fr": "un poème 🌌",
-        "es": "TBD 🌌"
+        "es": "un poema 🌌"
       },
       "LinksToFragment": {
         "FragmentPath": "HereAPoem"
@@ -32,7 +32,7 @@
       "CommandLabel": {
         "en": "a flower 🌹",
         "fr": "une fleur 🌹",
-        "es": "TBD 🌹"
+        "es": "una flor 🌹"
       },
       "LinksToFragment": {
         "FragmentPath": "HereAFlower"
@@ -45,7 +45,7 @@
       "CommandLabel": {
         "en": "a love message 💌",
         "fr": "un message d'amour 💌",
-        "es": "TBD 💌"
+        "es": "un mensaje de amor 💌"
       },
       "LinksToFragment": {
         "FragmentPath": "HereALoveMessage"
