@@ -1,0 +1,5 @@
+{
+  "GlobalWarmingWithTags":"/data/bot/sequences/experiments/GlobalWarmingWithTags.json",
+  "FindTheGift":"/data/bot/sequences/experiments/FindTheGift.json",
+  "TwitterOrOracleTest3":"/data/bot/sequences/experiments/ConditionalTest3.json"
+}
