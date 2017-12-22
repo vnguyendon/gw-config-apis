@@ -2,7 +2,6 @@
   "MasterFiles": [
     {
       "Name": "surveypony",
-      "Source": "github",
       "File": "/data/bot/apps/surveypony/masterSequences.json"
     },
     {
