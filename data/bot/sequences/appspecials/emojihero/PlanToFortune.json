@@ -7,7 +7,7 @@
       "Label": {
         "en": "Do you have a plan? 🗺",
         "fr": "Est-ce que tu as un plan? 🗺",
-        "es": "TBD 🗺"
+        "es": "¿Tienes algún plan? 🗺"
       }
     }
   ],
@@ -36,7 +36,7 @@
           "Label": {
             "en": "You're definitely the best 💪",
             "fr": "Tu es définitivement le meilleur 💪",
-            "es": "TBD 💪"
+            "es": "Definitivamente eres lo mejor 💪"
           }
         }
       ],
@@ -59,7 +59,7 @@
           "Label": {
             "en": "That makes two of us 🙂",
             "fr": "On est deux 🙂",
-            "es": "TBD 🙂"
+            "es": "Somos dos 🙂"
           }
         }
       ],
@@ -73,7 +73,7 @@
             "Label": {
               "en": "What do you feel like?",
               "fr": "Comment te sens-tu?",
-              "es": "TBD"
+              "es": "¿Cómo te sientes?"
             }
           }
         ],
@@ -86,7 +86,7 @@
             "CommandLabel": {
               "en": "stop the world",
               "fr": "arrêter le monde",
-              "es": "TBD"
+              "es": "paren el mundo"
             },
             "Steps": [
               {
@@ -106,7 +106,7 @@
             "CommandLabel": {
               "en": "confort me",
               "fr": "réconforte-moi",
-              "es": "TBD"
+              "es": "consuelame"
             },
             "Steps": [
               {
