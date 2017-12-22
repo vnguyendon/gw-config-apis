@@ -7,6 +7,14 @@
     {
       "Name": "emoji-hero",
       "File": "/data/bot/apps/emoji-hero/emojiheroMasterSequence.json"
+    },
+    {
+      "Name": "huggy",
+      "File": "/data/bot/apps/app-stickers/appshuggyMasterSequence.json"
+    },
+    {
+      "Name": "surveyapps",
+      "File": "/data/bot/apps/app-stickers/appsurveyMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
