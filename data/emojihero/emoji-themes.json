@@ -3,22 +3,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons/small/000015392841.jpg"
-      },
-      "Labels": {
-        "en": "Classic emoji",
-        "fr": "Emoji classiques",
-        "es": "Emoji clásicos"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emoticons2/small"
       },
       "DefaultImage": {
@@ -35,17 +19,129 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiSun/small"
+        "Link": "/themes/emoticons7/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "/themes/emojiSun/small/shutterstock_422197138_2.jpg"
+        "Path": "/themes/emoticons7/small/shutterstock_461742151_7.jpg"
       },
       "Labels": {
-        "en": "Sunny emoji",
-        "fr": "Emoji soleil",
-        "es": "Emoji sol"
+        "en": "Ghost emoji",
+        "fr": "Emoji fantomes",
+        "es": "Fantasmas emoji"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiNonsense/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg"
+      },
+      "Labels": {
+        "en": "Crazy emoji",
+        "fr": "Emoji farfelus",
+        "es": "Locos moji"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/football/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/football/small/shutterstock_75105484_2.jpg"
+      },
+      "Labels": {
+        "en": "Soccer emoji",
+        "fr": "Emoji football",
+        "es": "Emoji futbol"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emoticons/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emoticons/small/000015392841.jpg"
+      },
+      "Labels": {
+        "en": "Classic emoji",
+        "fr": "Emoji classiques",
+        "es": "Emoji clásicos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiGirliePanda/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiGirliePanda/small/shutterstock_538611904_11.jpg"
+      },
+      "Labels": {
+        "en": "Girly Panda",
+        "fr": "Girlie Panda",
+        "es": "Girly Panda"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiCats/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiCats/small/shutterstock_429770818_1.jpg"
+      },
+      "Labels": {
+        "en": "Cats emoji",
+        "fr": "Emoji chats",
+        "es": "Emoji gatitos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/penguins/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/penguins/small/shutterstock_326065538_2.jpg"
+      },
+      "Labels": {
+        "en": "Penguins emoji",
+        "fr": "Emoji pinguins",
+        "es": "Pinguino emoji"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiLove/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiLove/small/iStock_000065867555_Medium.jpg"
+      },
+      "Labels": {
+        "en": "Love emoji",
+        "fr": "Emoji love",
+        "es": "Emoji love"
       }
     },
     {
@@ -99,17 +195,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiGirliePanda/small"
+        "Link": "/themes/emojiSun/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "/themes/emojiGirliePanda/small/shutterstock_538611904_11.jpg"
+        "Path": "/themes/emojiSun/small/shutterstock_422197138_2.jpg"
       },
       "Labels": {
-        "en": "Girly Panda",
-        "fr": "Girlie Panda",
-        "es": "Girly Panda"
+        "en": "Sunny emoji",
+        "fr": "Emoji soleil",
+        "es": "Emoji sol"
       }
     },
     {
@@ -131,22 +227,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiLove/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiLove/small/iStock_000065867555_Medium.jpg"
-      },
-      "Labels": {
-        "en": "Love emoji",
-        "fr": "Emoji love",
-        "es": "Emoji love"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiPastel/small"
       },
       "DefaultImage": {
@@ -158,22 +238,6 @@
         "en": "Square emoji",
         "fr": "Emoji carrés",
         "es": "Emoji cuadrados"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiNonsense/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiNonsense/small/shutterstock_437914531_20.jpg"
-      },
-      "Labels": {
-        "en": "Carnival emoji",
-        "fr": "Emoji carnaval",
-        "es": "Emoji carnaval"
       }
     },
     {
@@ -211,22 +275,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons7/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons7/small/shutterstock_461742151_7.jpg"
-      },
-      "Labels": {
-        "en": "White emoji",
-        "fr": "Emoji blancs",
-        "es": "Emoji blancos"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiGirlie/small"
       },
       "DefaultImage": {
@@ -238,22 +286,6 @@
         "en": "Girly moji",
         "fr": "Emoji Girlie",
         "es": "Emoji girly"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/football/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/football/small/shutterstock_75105484_2.jpg"
-      },
-      "Labels": {
-        "en": "Soccer emoji",
-        "fr": "Emoji football",
-        "es": "Emoji futbol"
       }
     },
     {
