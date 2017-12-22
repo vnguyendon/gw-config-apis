@@ -259,6 +259,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emojiVanilla/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg"
+      },
+      "Labels": {
+        "en": "Pastel emoji",
+        "fr": "Emoji pastels",
+        "es": "Emoji pasteles"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/emoticons5/small"
       },
       "DefaultImage": {
@@ -302,22 +318,6 @@
         "en": "Neon emoji",
         "fr": "Emoji néon",
         "es": "Emoji neón"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiVanilla/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiVanilla/small/shutterstock_407338447_8.jpg"
-      },
-      "Labels": {
-        "en": "Pastel emoji",
-        "fr": "Emoji pastels",
-        "es": "Emoji pasteles"
       }
     }
   ]
