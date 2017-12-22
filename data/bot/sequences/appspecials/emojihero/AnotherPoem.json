@@ -7,7 +7,7 @@
       "Label": {
         "en": "Do you want to see another one?",
         "fr": "Est-ce que tu veux en voir un autre?",
-        "es": "TBD"
+        "es": "¿Quieres ver otro?"
       }
     }
   ],
@@ -28,7 +28,7 @@
           "Label": {
             "en": "Your wish is my command 😉",
             "fr": "Vos désires sont des ordres 😉",
-            "es": "TBD 😉"
+            "es": "Tus deseos son ordenes 😉"
           }
         },
         {
@@ -48,7 +48,7 @@
       "CommandLabel": {
         "en": "no, thanks",
         "fr": "non, merci",
-        "es": "TBD"
+        "es": "no, gracias"
       },
       "Steps": [
         {
