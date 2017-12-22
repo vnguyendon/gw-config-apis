@@ -2,9 +2,9 @@
   "Type": "Question",
   "Id": "HowAreYou",
   "Label": {
-    "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉. How are you feeling today?",
-    "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉. Comment ça va aujourd'hui ?",
-    "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉. ¿Cómo estás hoy?"
+    "en": "Hello ! I’m a pony bot with special powers: I read people’s mind… by asking questions 😉. How are you feeling today?",
+    "fr": "Bonjour ! Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉. Comment ça va aujourd'hui ?",
+    "es": "Hola ! Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉. ¿Cómo estás hoy?"
   },
   "Randomize": "true",
   "Commands": [
