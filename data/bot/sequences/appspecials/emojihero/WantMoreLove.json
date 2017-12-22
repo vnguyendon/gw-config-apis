@@ -7,7 +7,7 @@
       "Label": {
         "en": "💖 Would you like to see more.. ",
         "fr": "💖 Souhaites-tu découvrir plus de.. ",
-        "es": "💖 TBD"
+        "es": "💖 Quisieras ver más.."
       }
     }
   ],
@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "..love messages",
         "fr": "..messages d'amour",
-        "es": "..TDB"
+        "es": "..mensajes de amor"
       },
       "Steps": [
         {
@@ -28,7 +28,7 @@
           "Label": {
             "en": "Great choice. Come with me.. 🎠",
             "fr": "Excellent choix. Suis moi.. 🎠",
-            "es": "TBD 🎠"
+            "es": "Exelente elección. Sigueme.. 🎠"
           }
         },
         {
@@ -48,7 +48,7 @@
       "CommandLabel": {
         "en": "..love stickers",
         "fr": "..stickers d'amour",
-        "es": "..TDB"
+        "es": "..stickers de amor"
       },
       "Steps": [
         {
@@ -56,7 +56,7 @@
           "Label": {
             "en": "Great choice. Come with me.. 🎠",
             "fr": "Excellent choix. Suis moi.. 🎠",
-            "es": "TBD 🎠"
+            "es": "Exelente elección. Sigueme.. 🎠"
           }
         },
         {
@@ -76,7 +76,7 @@
       "CommandLabel": {
         "en": "..love gifs",
         "fr": "..gifs d'amour",
-        "es": "..TBD"
+        "es": "..gifts de amor"
       },
       "Steps": [
         {
@@ -84,7 +84,7 @@
           "Label": {
             "en": "Great choice. Come with me.. 🎠",
             "fr": "Excellent choix. Suis moi.. 🎠",
-            "es": "TBD 🎠"
+            "es": "Exelente elección. Sigueme.. 🎠"
           }
         },
         {
@@ -104,7 +104,7 @@
       "CommandLabel": {
         "en": "..love emoji",
         "fr": "..emoji d'amour",
-        "es": "..TDB"
+        "es": "..emoji de amor"
       },
       "Steps": [
         {
@@ -112,7 +112,7 @@
           "Label": {
             "en": "Great choice. Come with me.. 🎠",
             "fr": "Excellent choix. Suis moi.. 🎠",
-            "es": "TBD 🎠"
+            "es": "Exelente elección. Sigueme.. 🎠"
           }
         },
         {
