@@ -7,7 +7,7 @@
       "Label": {
         "en": "Here is one:",
         "fr": "En voici un:",
-        "es": "TBD"
+        "es": "Aquí tienes uno:"
       }
     },
     {
@@ -30,7 +30,7 @@
       "Label": {
         "en": "You can send it by clicking on it directly ⬆",
         "fr": "Tu peux l'envoyer en cliquant dessus directement ⬆",
-        "es": "TBD"
+        "es": "Puedes enviarlo con solo un click ⬆"
       }
     },
     {
@@ -38,7 +38,7 @@
       "Label": {
         "en": "Like this ⬇",
         "fr": "Comme ça ⬇",
-        "es": "TBD"
+        "es": "Así ⬇"
       }
     },
     {
@@ -64,7 +64,7 @@
       "CommandLabel": {
         "en": "I get it 👌🏼",
         "fr": "J'ai compris 👌🏼",
-        "es": "TBD 👌🏼"
+        "es": "Entendido 👌🏼"
       },
       "Steps": [
         {
