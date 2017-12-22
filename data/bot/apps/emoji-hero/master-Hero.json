@@ -46,5 +46,6 @@
   { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierSingingOrDancing.json"]},
   { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToSport.json"]},
   { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToYoutube.json"]}
+  ]
 }
 
