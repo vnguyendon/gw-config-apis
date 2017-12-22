@@ -3,21 +3,6 @@
   "Id": "AnotherPoem",
   "Steps": [
     {
-      "Type": "Action",
-      "Name": "ShowCards",
-      "Parameters": {
-        "Type": "TextImage",
-        "Id": "43B296"
-      }
-    },
-    {
-      "Type": "Pause",
-      "Parameters": {
-        "Mode": "Wait",
-        "ms": 2000
-      }
-    },
-    {
       "Type": "Text",
       "Label": {
         "en": "Do you want to see another one?",
