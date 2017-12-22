@@ -60,6 +60,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Action",
           "Name": "RedirectTo",
           "Parameters": {
@@ -85,6 +92,13 @@
           "Parameters": {
             "Type": "Gif",
             "Path": "/data/common/giphycontent/morning.json"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
           }
         },
         {
