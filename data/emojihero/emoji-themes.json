@@ -3,22 +3,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons2/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons2/small/shutterstock_190844732_1.jpg"
-      },
-      "Labels": {
-        "en": "3D emoji",
-        "fr": "Emoji 3D",
-        "es": "Emoji 3D"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emoticons/small"
       },
       "DefaultImage": {
@@ -30,6 +14,22 @@
         "en": "Classic emoji",
         "fr": "Emoji classiques",
         "es": "Emoji clásicos"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emoticons2/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emoticons2/small/shutterstock_190844732_1.jpg"
+      },
+      "Labels": {
+        "en": "3D emoji",
+        "fr": "Emoji 3D",
+        "es": "Emoji 3D"
       }
     },
     {
@@ -99,6 +99,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emojiGirliePanda/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiGirliePanda/small/shutterstock_538611904_11.jpg"
+      },
+      "Labels": {
+        "en": "Girly Panda",
+        "fr": "Girlie Panda",
+        "es": "Girly Panda"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/emojiBlue/small"
       },
       "DefaultImage": {
@@ -115,17 +131,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiGirlie/small"
+        "Link": "/themes/emojiPastel/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg"
+        "Path": "/themes/emojiPastel/small/shutterstock_384708250_3.jpg"
       },
       "Labels": {
-        "en": "Girly moji",
-        "fr": "Emoji Girlie",
-        "es": "Emoji girly"
+        "en": "Square emoji",
+        "fr": "Emoji carrés",
+        "es": "Emoji cuadrados"
       }
     },
     {
@@ -195,6 +211,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emojiGirlie/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiGirlie/small/shutterstock_311548385_20.jpg"
+      },
+      "Labels": {
+        "en": "Girly moji",
+        "fr": "Emoji Girlie",
+        "es": "Emoji girly"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/football/small"
       },
       "DefaultImage": {
@@ -243,22 +275,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emojiPastel/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiPastel/small/shutterstock_384708250_3.jpg"
-      },
-      "Labels": {
-        "en": "Square emoji",
-        "fr": "Emoji carrés",
-        "es": "Emoji cuadrados"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiLove/small"
       },
       "DefaultImage": {
@@ -270,22 +286,6 @@
         "en": "Love emoji",
         "fr": "Emoji love",
         "es": "Emoji love"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiGirliePanda/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiGirliePanda/small/shutterstock_538611904_11.jpg"
-      },
-      "Labels": {
-        "en": "Emoji Girlie Panda",
-        "fr": "Emoji Girlie Panda",
-        "es": "Emoji Girlie Panda"
       }
     }
   ]
