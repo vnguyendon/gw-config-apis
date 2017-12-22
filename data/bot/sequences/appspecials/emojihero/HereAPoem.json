@@ -7,7 +7,7 @@
       "Label": {
         "en": "Here is one:",
         "fr": "En voici un:",
-        "es": "TBD"
+        "es": "Aquí hay uno:"
       }
     },
     {
@@ -23,7 +23,7 @@
       "Label": {
         "en": "Would you like to...",
         "fr": "Est-ce que tu voudrais...",
-        "es": "TBD"
+        "es": "Quisieras…"
       }
     }
   ],
@@ -35,7 +35,7 @@
       "CommandLabel": {
         "en": "see another",
         "fr": "en voir un autre",
-        "es": "TBD"
+        "es": "ver otro"
       },
       "Steps": [
         {
@@ -58,7 +58,7 @@
       "CommandLabel": {
         "fr": "voir gallerie de poèmes",
         "en": "see poem gallery",
-        "es": "TBD"
+        "es": "ver la galería de poemas"
       },
       "Steps": [
         {
@@ -73,7 +73,7 @@
           "Label": {
             "en": "Great choice. Let me show you",
             "fr": "Excellent choix. Laisse moi te montrer",
-            "es": "TBD"
+            "es": "Gran elección. Déjame mostrarte"
           }
         },
         {
