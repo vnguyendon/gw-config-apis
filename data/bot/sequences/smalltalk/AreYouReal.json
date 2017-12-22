@@ -264,7 +264,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "NoImNotreal",
       "ElementValue": "1",
       "CommandLabel": {
