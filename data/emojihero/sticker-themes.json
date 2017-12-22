@@ -191,6 +191,54 @@
         "en": "Je suis là pour toi",
         "es": "Estoy contigo"
       }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/specialoccasions/good-morning/default/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "specialoccasions/good-morning/default/small/iStock_000008988892_Medium.jpg"
+        },
+      "Labels": {
+        "fr": "Good morning",
+        "en": "Bonjour",
+        "es": "Buenos dias"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/specialoccasions/poems/default/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "specialoccasions/poems/default/small/iStock_000008513122_Full.jpg"
+        },
+      "Labels": {
+        "fr": "Poems",
+        "en": "Poèmes",
+        "es": "Poemas"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/specialoccasions/good-night/default/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "specialoccasions/good-night/default/small/12079280_780744632036809_1440221187128959062_n.jpg"
+        },
+      "Labels": {
+        "fr": "Good night",
+        "en": "Bonne nuit",
+        "es": "Buenas noches"
+      }
     }
   ]
 }
