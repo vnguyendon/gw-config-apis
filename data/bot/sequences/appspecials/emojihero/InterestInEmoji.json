@@ -7,7 +7,7 @@
       "Label": {
         "en": "Are you interested in Emoji Gifs or Emoji stickers?",
         "fr": "Souhaites-tu voir des gifs d'emoji ou des stickers d'emoji?",
-        "es": "TBD"
+        "es": "¿Quisieras ver algunos Gifts, Emojis, o Stickers de Emojis?"
       }
     }
   ],
@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "Emoji Gifs!",
         "fr": "Des gifs d'emoji !",
-        "es": "TDB"
+        "es": "¡Gifts Emoji!"
       },
       "Steps": [
         {
@@ -28,7 +28,7 @@
           "Label": {
             "en": "You will find the prettiest here 😍",
             "fr": "Tu trouveras les plus beaux ici 😍",
-            "es": "TBD 😍"
+            "es": "Aquí encontrarás los más lindos 😍"
           }
         },
         {
@@ -48,7 +48,7 @@
       "CommandLabel": {
         "en": "Emoji stickers!",
         "fr": "Des stickers d'emoji !",
-        "es": "TDB"
+        "es": "¡Stickers Emoji!"
       },
       "Steps": [
         {
@@ -63,7 +63,7 @@
           "Label": {
             "en": "Is there a specific theme of emoji you are after?",
             "fr": "Est-ce qu'il y a un thème d'emoji que tu cherchers en particulier?",
-            "es": "TBD"
+            "es": "¿Buscas algún tema Emoji en particular?"
           }
         }
       ],
@@ -75,7 +75,7 @@
           "CommandLabel": {
             "en": "Classic emoji",
             "fr": "Des emoji classiques",
-            "es": "TDB"
+            "es": "Los clasicos Emoji"
           },
           "Steps": [
             {
@@ -95,7 +95,7 @@
           "CommandLabel": {
             "en": "Sun Emoji",
             "fr": "Des emoji Soleil",
-            "es": "TDB"
+            "es": "Los Emoji Sol"
           },
           "Steps": [
             {
@@ -115,7 +115,7 @@
           "CommandLabel": {
             "en": "3D Emoji",
             "fr": "Des emoji 3D",
-            "es": "TDB"
+            "es": "Los Emoji 3D"
           },
           "Steps": [
             {
