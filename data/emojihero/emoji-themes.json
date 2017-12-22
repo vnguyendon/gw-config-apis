@@ -19,17 +19,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons7/small"
+        "Link": "/themes/football/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "/themes/emoticons7/small/shutterstock_461742151_7.jpg"
+        "Path": "/themes/football/small/shutterstock_75105484_2.jpg"
       },
       "Labels": {
-        "en": "Ghost emoji",
-        "fr": "Emoji fantomes",
-        "es": "Fantasmas emoji"
+        "en": "Soccer emoji",
+        "fr": "Emoji football",
+        "es": "Emoji futbol"
       }
     },
     {
@@ -51,17 +51,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/football/small"
+        "Link": "/themes/penguins/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "/themes/football/small/shutterstock_75105484_2.jpg"
+        "Path": "themes/penguins/small/shutterstock_326065538_2.jpg"
       },
       "Labels": {
-        "en": "Soccer emoji",
-        "fr": "Emoji football",
-        "es": "Emoji futbol"
+        "en": "Penguins emoji",
+        "fr": "Emoji pinguins",
+        "es": "Pinguino emoji"
       }
     },
     {
@@ -115,17 +115,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/penguins/small"
+        "Link": "/themes/emoticons7/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/penguins/small/shutterstock_326065538_2.jpg"
+        "Path": "/themes/emoticons7/small/shutterstock_461742151_7.jpg"
       },
       "Labels": {
-        "en": "Penguins emoji",
-        "fr": "Emoji pinguins",
-        "es": "Pinguino emoji"
+        "en": "Ghost emoji",
+        "fr": "Emoji fantomes",
+        "es": "Fantasmas emoji"
       }
     },
     {
@@ -163,22 +163,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "/themes/emoticons3/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emoticons3/small/shutterstock_294473564_4.jpg"
-      },
-      "Labels": {
-        "en": "Original emoji",
-        "fr": "Emoji originaux",
-        "es": "Emoji originales"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "/themes/emojiHandDrawn/small"
       },
       "DefaultImage": {
@@ -190,22 +174,6 @@
         "en": "Hand drawn emoji",
         "fr": "Emoji crayonnés",
         "es": "Emoji dibujados"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
-        "Link": "/themes/emojiSun/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "/themes/emojiSun/small/shutterstock_422197138_2.jpg"
-      },
-      "Labels": {
-        "en": "Sunny emoji",
-        "fr": "Emoji soleil",
-        "es": "Emoji sol"
       }
     },
     {
@@ -227,6 +195,22 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "/themes/emoticons3/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emoticons3/small/shutterstock_294473564_4.jpg"
+      },
+      "Labels": {
+        "en": "Original emoji",
+        "fr": "Emoji originaux",
+        "es": "Emoji originales"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "/themes/emojiPastel/small"
       },
       "DefaultImage": {
@@ -238,6 +222,22 @@
         "en": "Square emoji",
         "fr": "Emoji carrés",
         "es": "Emoji cuadrados"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "/themes/emojiSun/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "/themes/emojiSun/small/shutterstock_422197138_2.jpg"
+      },
+      "Labels": {
+        "en": "Sunny emoji",
+        "fr": "Emoji soleil",
+        "es": "Emoji sol"
       }
     },
     {
