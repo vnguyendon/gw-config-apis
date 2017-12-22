@@ -7,7 +7,7 @@
       "Label": {
         "en": "We have plenty of flowers 🌺🌸🏵🌷🌼",
         "fr": "On a beaucoup de fleurs 🌺🌸🏵🌷🌼",
-        "es": "TBD 🌺🌸🏵🌷🌼"
+        "es": "Tenemos un montón de flores 🌺🌸🏵🌷🌼"
       }
     },
     {
@@ -15,7 +15,7 @@
       "Label": {
         "en": "Flower stickers..",
         "fr": "Des stickers de fleurs",
-        "es": "TBD"
+        "es": "Stickers de flores"
       }
     },
     {
@@ -30,7 +30,7 @@
       "Label": {
         "en": "Flower gifs..",
         "fr": "Des gifs de fleurs",
-        "es": "TBD"
+        "es": "Gifts de flores"
       }
     },
     {
@@ -45,7 +45,7 @@
       "Label": {
         "en": "Which do you want to discover?",
         "fr": "Lesquels veux-tu découvrir",
-        "es": "TBD"
+        "es": "¿Qué quieres descubrir?"
       }
     }
   ],
@@ -58,7 +58,7 @@
       "CommandLabel": {
         "en": "Flower gifs",
         "fr": "Gifs de fleurs",
-        "es": "TBD"
+        "es": "Gifs de flores"
       },
       "Steps": [
         {
@@ -66,7 +66,7 @@
           "Label": {
             "en": "Taking you there.. 🚀🚀🚀",
             "fr": "Je t'y emmène.. 🚀🚀🚀",
-            "es": "TBD 🚀🚀🚀"
+            "es": "Te llevo conmigo.. 🚀🚀🚀"
           }
         },
         {
@@ -86,7 +86,7 @@
       "CommandLabel": {
         "en": "Flower stickers",
         "fr": "Stickers de fleurs",
-        "es": "TBD"
+        "es": "Stickers de flores"
       },
       "Steps": [
         {
@@ -94,7 +94,7 @@
           "Label": {
             "en": "Taking you there.. 🚀🚀🚀",
             "fr": "Je t'y emmène.. 🚀🚀🚀",
-            "es": "TBD 🚀🚀🚀"
+            "es": "Te llevo conmigo.. 🚀🚀🚀"
           }
         },
         {
