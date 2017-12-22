@@ -13,7 +13,7 @@
   ],
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LookingForLove",
       "ElementValue": "1",
       "CommandLabel": {
@@ -35,7 +35,7 @@
       }
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LookingForFortune",
       "ElementValue": "1",
       "CommandLabel": {
@@ -57,7 +57,7 @@
       }
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LookingForEmoji",
       "ElementValue": "1",
       "CommandLabel": {
