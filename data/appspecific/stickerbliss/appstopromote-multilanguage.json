@@ -1,4 +1,3 @@
-
 {
   "apps": [
     {
@@ -12,21 +11,21 @@
     },
     {
       "title": {
-        "en": "Say it with GIFS",
-        "fr": "Dis-le avec des GIFS!",
-        "es": "¡Dígalo con gifs!"
+        "en": "Try me, I'm a quote bot!",
+        "fr": "Essaie-moi, je suis un bot!",
+        "es": "¡Pruébame, soy un bot!"
       },
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Quoteo/small/quoteo-logo-messenger.jpg",
+      "storeUrl": "https://m.me/QuoteoBot"
     },
     {
-      "title": { 
-        "en": "Elite Emoji",
-        "fr": "Elite Emoji",
-        "es": "Elite Emoji"
+      "title": {
+        "en": "Hero, the Bot that recommends the best Emoji",
+        "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
+        "es": "Hero, el Bot que recomienda los mejores Emoji"
       },
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
+      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
     }
   ]
 }
