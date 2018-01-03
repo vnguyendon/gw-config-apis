@@ -2,6 +2,15 @@
   "apps": [
     {
       "title": {
+        "en": "Do people think like you? Ask our Messenger Pony!",
+        "fr": "Dis ce que tu pense a un robot-poney!",
+        "es": "¡Dígale lo que piensas a un poni-bot!"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
+      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
+    },
+    {
+      "title": {
         "en": "Try me, I'm a quote bot!",
         "fr": "Essaie-moi, je suis un bot!",
         "es": "¡Pruébame, soy un bot!"
@@ -11,20 +20,11 @@
     },
     {
       "title": {
-        "en": "Say what you think to a Pony bot!",
-        "fr": "Dis ce que tu pense a un robot-poney!",
-        "es": "¡Dígale lo que piensas a un poni-bot!"
+        "en": "Hero, the Bot that recommends the best Emoji",
+        "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
+        "es": "Hero, el Bot que recomienda los mejores Emoji"
       },
-      "iconUrl": "http://az767698.vo.msecnd.net/themes/horses/small/iStock_000027124506_Medium.jpg",
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
-    },
-    {
-      "title": {
-        "en": "Say it with GIFS",
-        "fr": "Dis-le avec des GIFS!",
-        "es": "¡Dígalo con gifs!"
-      },
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
     }
   ]
