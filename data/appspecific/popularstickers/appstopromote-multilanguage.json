@@ -20,21 +20,12 @@
     },
     {
       "title": {
-        "en": "Say it with GIFS",
-        "fr": "Dis-le avec des GIFS!",
-        "es": "¡Dígalo con gifs!"
+        "en": "Hero, the Bot that recommends the best Emoji",
+        "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
+        "es": "Hero, el Bot que recomienda los mejores Emoji"
       },
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
-    },
-    {
-      "title": { 
-        "en": "Elite Emoji",
-        "fr": "Elite Emoji",
-        "es": "Elite Emoji"
-      },
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
     }
   ]
 }
