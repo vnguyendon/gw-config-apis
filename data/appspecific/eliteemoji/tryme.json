@@ -1,3 +1,4 @@
+
 {
   "apps": [
     {
@@ -7,9 +8,9 @@
       "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
     },
     {
-      "header": "A new app to express yourself with GIFS",
+      "header": "Hero, the Bot that recommends the best Emoji",
       "button": "Let's have fun!",
-      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EmojiCartoon/small/EmojiCartoon256x256.jpg",
+      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
     }
   ]
