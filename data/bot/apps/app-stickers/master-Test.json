@@ -24,6 +24,6 @@
     { "order" : 250, "file":["/data/bot/sequences/experiments/StepsAlone.json"]},
     { "order" : 300, "file":["/data/bot/sequences/surveys/WDoYouWatchRealityTV.json"]},
     { "order" : 300, "file":["/data/bot/sequences/experiments/HowOftenDoYouThinkAboutLife.json"]},
-    { "order" : 300, "file":["/data/bot/sequences/experiments/TouchSnow.json"]}, 
+    { "order" : 300, "file":["/data/bot/sequences/experiments/TouchSnow.json"]}
   ]
 }
