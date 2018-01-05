@@ -174,7 +174,8 @@
         "fr": "Positive thoughts",
         "en": "Pensées positives",
         "es": "Pensamientos Positivos"
-      }
+      },
+      "IntentionId": "67CC40"
     },
     {
       "Path": {
@@ -190,7 +191,8 @@
         "fr": "I am here for you",
         "en": "Je suis là pour toi",
         "es": "Estoy contigo"
-      }
+      },
+      "IntentionId": "03B6E4"
     },
     {
       "Path": {
@@ -206,7 +208,8 @@
         "fr": "Good morning",
         "en": "Bonjour",
         "es": "Buenos dias"
-      }
+      },
+      "IntentionId": "030FD0"
     },
     {
       "Path": {
@@ -222,7 +225,8 @@
         "fr": "Poems",
         "en": "Poèmes",
         "es": "Poemas"
-      }
+      },
+      "IntentionId": "43B296"
     },
     {
       "Path": {
@@ -238,7 +242,8 @@
         "fr": "Good night",
         "en": "Bonne nuit",
         "es": "Buenas noches"
-      }
+      },
+      "IntentionId": "D392C1"
     }
   ]
 }
