@@ -1,0 +1,60 @@
+{
+  "Type": "Node",
+  "Id": "HowCanIHelp",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey 💐",
+        "fr": "Hey 💐",
+        "es": "Eh 💐"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How can I help you now?",
+        "fr": "En quoi puis-je t'aider?",
+        "es": "¿Cómo puedo ayudarte?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ShowMessageIdeas",
+      "CommandLabel": {
+        "en": "Show me message ideas",
+        "fr": "Montre-moi des idées de message",
+        "es": "Muéstrame ideas de mensaje"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok 😉",
+            "fr": "Ok 😉",
+            "es": "Ok 😉"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "DailyIdeas"
+            }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TalkTome",
+      "CommandLabel": {
+        "en": "Talk to me",
+        "fr": "Parle-moi",
+        "es": "Hablame"
+      }
+    }
+  ]
+}
