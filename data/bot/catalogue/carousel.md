@@ -60,7 +60,23 @@ Example:
         "Subtitle": {
           "en": "Fancy climbing Mt. Everest or Annapurna?"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I would love to trek around Annapurna peaks, but unfortunately I am only a bot. In another life, maybe :)"
+          }
+        }
+      ]
     },
     {
       "Type": "Leaf",
@@ -79,7 +95,23 @@ Example:
         "Subtitle": {
           "en": "Patagonia is a sublime land and definitely worth visiting"
         }
-      }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "My dream is to road-trip from the Atacama desert all the way South. Unfortunately, I am only a bot. In another life, maybe :)"
+          }
+        }
+      ]
     }
   ]
 }
