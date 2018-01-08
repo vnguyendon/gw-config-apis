@@ -20,7 +20,7 @@ When I click on a card in a carousel (on any part of it - image or button), I tr
 
 ### 2. Carousel json format 
 
-In terms of json format, a carousel is very similar to quick replies (which we usually call 'commands' as well). 
+In terms of json format, a carousel is very similar to quick replies.
 
 The only differences are:
 -> we will need to add some information (picture, title, subtitle)
