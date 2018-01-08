@@ -32,12 +32,12 @@ Example:
 ```
 {
   "Type": "Node",
-  "Id": "NextHolidays",
+  "Id": "VisitNext",
   "Steps": [
     {
       "Type": "Text",
       "Label": {
-        "en": "Where would you go to for your next holidays?"
+        "en": "Which country would you like to visit next?"
       }
     }
   ],
@@ -45,7 +45,7 @@ Example:
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "NextHolidaysNepal",
+      "Id": "VisitNextNepal",
       "CommandLabel": {
         "en": "NEPAL"
       },
@@ -64,7 +64,7 @@ Example:
     },
     {
       "Type": "Leaf",
-      "Id": "NextHolidaysChile",
+      "Id": "VisitNextChile",
       "CommandLabel": {
         "en": "CHILE"
       },
@@ -85,7 +85,7 @@ Example:
 }
 ```
 
-The `CarouselElements` property will gather all the carousel-specific properties that the client needs to read in order to build the carousel. We group them so as to optimise the visibility of the carousel for the reader and the writer.
+The `CarouselElements` property will gather all the carousel-specific properties that the client needs to read in order to build the cards. We group them so as to optimise the visibility of the carousel for the reader and the writer.
 
 #### 3. Carousel specificities
 
