@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "VisitNext",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which country would you like to visit next?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "VisitNextNepal",
+      "CommandLabel": {
+        "en": "NEPAL"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "Nepal is a remote country built on the edge of the himalayas"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "https://www.welcomenepal.com/imagecache/slider/everest-tkelly.jpeg"
+        },
+        "Subtitle": {
+          "en": "Fancy climbing Mt. Everest or Annapurna?"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I would love to trek around Annapurna peaks, but unfortunately I am only a bot. In another life, maybe :)"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "VisitNextChile",
+      "CommandLabel": {
+        "en": "CHILE"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "Chile is a strip of land locked between the Pacific and the Andes"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://santiagotimes.cl/en/wp-content/uploads/2017/10/Santiago_Chile.jpg"
+        },
+        "Subtitle": {
+          "en": "Patagonia is a sublime land and definitely worth visiting"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "My dream is to road-trip from the Atacama desert all the way South. Unfortunately, I am only a bot. In another life, maybe :)"
+          }
+        }
+      ]
+    }
+  ]
+}
