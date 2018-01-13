@@ -2,7 +2,7 @@
 {
   "FirstLaunch": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/5997059467"
+    "ID": "ca-app-pub-7822741681642396/4077307864"
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
@@ -13,7 +13,7 @@
     "ID": "1727516507493157_2050700328508105",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/5997059467"
+      "ID": "ca-app-pub-7822741681642396/4077307864"
     }
   },
   "GalleryNative": {
