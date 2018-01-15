@@ -40,7 +40,7 @@
       ]
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "SixtyFourMore",
       "ElementValue": "1",
       "CommandLabel": {
