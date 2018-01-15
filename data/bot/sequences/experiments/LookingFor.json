@@ -71,7 +71,7 @@
             "FragmentPath": "ppOpenedOrSettled"
           },
           "LinksTo": {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "PersonalityQuestion4",
             "LinksToFragment": {
               "FragmentPath": "ppReceptiveTo"
