@@ -13,7 +13,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "LookingForLove",
       "ElementValue": "1",
       "CommandLabel": {
