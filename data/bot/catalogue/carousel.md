@@ -13,7 +13,7 @@ Then, I see three cards, displayed horizontally: (1) Nepal, (2) Scotland, (3) Ch
 
 It looks like the following: 
 
-![Screenshot](/data/bot/catalogue/Examples/Carousel2.PNG?rw=true "Carousel test")
+![Screenshot](/data/bot/catalogue/images/Carousel2.PNG?rw=true "Carousel test")
 
 When I click on a card in a carousel (on any part of it - image or button), I trigger the next step in the sequence.
 
