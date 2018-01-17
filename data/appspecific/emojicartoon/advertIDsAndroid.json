@@ -23,5 +23,9 @@
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/6776711598"
     }
+  },
+  "GalleryNative": {
+    "Provider": "Facebook",
+    "ID": "1435005416530891_1567049409993157"
   }
 }
