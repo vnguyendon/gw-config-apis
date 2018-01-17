@@ -6,7 +6,7 @@ Therefore, issues may arise when client Y is suggested to read a file for which 
 
 To avoid this problem from occuring, the writer can set the clients he wants to be able to parse the files.
 Example: for one specific file, I know that only the Android and Messenger clients can execute the action *read a video*. 
-=> In this case, at the first level of the json file, I should write `"Channel": ["Messenger", "Android"]`
+=> In this case, at the first level of the json file, I should write `"Channels": ["Messenger", "Android"]`
 
 At the moment, we only have three clients. We will grossly distinguish them as follows:
 - `"Messenger"`
@@ -36,7 +36,7 @@ If only the iOS and Android have implemented the `"DoVote"` action so far and I 
           }
       }
   ],
-  "Channel": ["Android", "iOS"],
+  "Channels": ["Android", "iOS"],
   "Randomize": "true",
   "Commands": [
       {
@@ -80,8 +80,8 @@ If only the iOS and Android have implemented the `"DoVote"` action so far and I 
 ```
 
 
-#### 3. Default behaviour if `"Channel"` isn't set
+#### 3. Default behaviour if `"Channels"` isn't set
 
-What if there is no `"Channel"` property in my file? In this case, we should consider that all clients are able to read, by default.
+What if there is no `"Channels"` property in my file? In this case, we should consider that all clients are able to read, by default.
 
 If this isn't the case, then we should change it or alert the writer.
