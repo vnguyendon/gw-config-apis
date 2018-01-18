@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BrexitGoodOrBad",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Brexit is",
+        "fr": "Le Brexit est",
+        "es": "El Brexit es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BrexitGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a good thing",
+        "fr": "une bonne chose",
+        "es": "algo bueno"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11ISwbgCxEzMyY"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BrexitBad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a bad thing",
+        "fr": "une mauvaise chose",
+        "es": "algo malo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEjHJ18rsGn2gLaZa"
+          }
+        }
+      ]
+    }
+  ]
+}
