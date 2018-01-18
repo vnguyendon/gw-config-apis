@@ -2,7 +2,7 @@
   "Version": 15,
   "GroupName": "Test",
   "SequenceFiles": [
-    { "order" : 5, "file":["/data/bot/sequences/experiments/HelloHuman.json]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/HelloHuman.json"]},
     { "order" : 15, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
     { "order" : 15, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
     { "order" : 16, "file":["/data/bot/sequences/surveys/BrexitGoodOrBad.json"]},
