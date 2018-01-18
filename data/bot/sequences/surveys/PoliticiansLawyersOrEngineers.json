@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PoliticiansLawyersOrEngineers",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you prefer politicians to be",
+        "fr": "Tu préfèrerais que les hommes politiques soient",
+        "es": "Preferirías que los políticos sean"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PoliticiansLawyers",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "lawyers",
+        "fr": "avocats",
+        "es": "abogados"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "olNPDj26Tj8jK"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PoliticiansEngineer",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "engineers",
+        "fr": "ingénieurs",
+        "es": "ingenieros"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "LqW9dLVjQm3cs"
+          }
+        }
+      ]
+    }
+  ]
+}
