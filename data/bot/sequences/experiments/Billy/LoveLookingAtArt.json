@@ -1,0 +1,128 @@
+{
+  "Type": "Node",
+  "Id": "LoveLookingAtArt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I love looking at art, do you?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LoveLookingAtArtYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Awesome!",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Which do you prefer?",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ],
+      "DisplayHint": "Carousel",
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "PreferModernArt",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Spanish Love by Picasso",
+            "fr": "TBD",
+            "es": "TBD"
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "Modern art",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516288122/96e8742319b3f6b869c01e1937e3785f_zvurhd.jpg"
+            }
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "You’re super trendy! 😎",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            },
+            {
+              "Type": "Action",
+              "Name": "Showcards",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "/data/common/giphycontent/like.json"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "PreferClassicArt",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Classic",
+            "fr": "TBD",
+            "es": "TBD"
+          },
+          "CarouselElements": {
+            "Title": {
+              "en": "Las Meninas by Velazquez",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Picture": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516287951/l54j4lkj_kz1ehd.png"
+            }
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "A traditionalist, huh? I like your taste!",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LoveLookingAtArtNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not at all",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ]
+}
