@@ -1,0 +1,138 @@
+{
+  "Type": "Node",
+  "Id": "LikeMakingArt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like making art yourself? 👨‍🎨",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LikeMakingArtYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Love it!",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me too, though I’m no good at it…",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I bet if we teamed up we’d make great partners though",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "8UwQg4qWx1mKY"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "PaintingWithBot",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "You’re silly!",
+            "fr": "",
+            "es": ""
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "I know! By the way… am I being helpful? I need to report back to my boss… ",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            }
+          ],
+          "Commands": [
+            {
+              "Type": "Leaf",
+              "Id": "AbsolutelyHelpful",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Absolutely",
+                "fr": "",
+                "es": ""
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "Showcards",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "/data/common/giphycontent/thanks.json"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "NotReallyHelpful",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Not really",
+                "fr": "",
+                "es": ""
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Ok… thanks for letting me know, I’ll try to improve!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "LikeMakingArtNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me neither, I’m no good at it...",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+   
