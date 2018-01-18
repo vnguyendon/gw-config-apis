@@ -1,1 +1,6 @@
-
+{
+  "GroupName": "Extension",
+  "SequenceFiles": [
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/extensionbot/WantToDiscoverApp.json"]}
+  ]
+}
