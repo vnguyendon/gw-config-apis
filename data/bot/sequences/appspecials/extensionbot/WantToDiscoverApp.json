@@ -1,0 +1,66 @@
+{
+  "Type": "Node",
+  "Id": "WantToDiscoverApp",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi! I'm Huggy. You may recognize me 😉🐻",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I'd like to show you around in this app. Do you want to follow me?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WantToDiscoverAppYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/hugs.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WantToDiscoverAppNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I know this app better than you",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'd be impressed by that 💪💪😘",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}
+
