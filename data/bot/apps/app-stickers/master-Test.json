@@ -3,8 +3,10 @@
   "GroupName": "Test",
   "SequenceFiles": [
     { "order" : 3, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
-    { "order" : 8, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
-    { "order" : 8, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/LoveLookingAtArt.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/LoveLookingAtArt.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/LoveLookingAtArt.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/LoveLookingAtArt.json"]},
     { "order" : 8, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
     { "order" : 8, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
     { "order" : 8, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
