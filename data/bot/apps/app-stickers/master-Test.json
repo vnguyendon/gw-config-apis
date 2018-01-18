@@ -13,6 +13,6 @@
     { "order" : 9, "file":["/data/bot/sequences/experiments/HowManyTimesTravelAbroad.json"]},
     { "order" : 9, "file":["/data/bot/sequences/experiments/HowManyTimesTravelAbroad.json"]},
     { "order" : 25, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
-    { "order" : 20, "file":["/data/bot/sequences/smalltalk/HowAreYou.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/smalltalk/HowAreYou.json"]}
   ]
 }
