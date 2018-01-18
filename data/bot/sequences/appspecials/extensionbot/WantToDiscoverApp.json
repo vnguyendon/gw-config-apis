@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Hi! I'm Huggy. You may recognize me 😉🐻",
-        "fr": "TBD",
+        "fr": "Bonjour ! Je suis Huggy. Peut-être me reconnais-tu.. 😉🐻",
         "es": "TBD"
       }
     },
@@ -14,7 +14,7 @@
       "Type": "Text",
       "Label": {
         "en": "I'd like to show you around in this app. Do you want to follow me?",
-        "fr": "TBD",
+        "fr": "J'aimerais te faire visiter cette app. Est-ce que tu veux me suivre?",
         "es": "TBD"
       }
     }
@@ -27,8 +27,8 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Yes",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Oui",
+        "es": "Si"
       },
       "Steps": [
         {
@@ -47,7 +47,7 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "I know this app better than you",
-        "fr": "TBD",
+        "fr": "Je connais cette app mieux que toi",
         "es": "TBD"
       },
       "Steps": [
@@ -55,7 +55,7 @@
           "Type": "Text",
           "Label": {
             "en": "I'd be impressed by that 💪💪😘",
-            "fr": "TBD",
+            "fr": "Je serai impressioné 💪💪😘",
             "es": "TBD"
           }
         }
