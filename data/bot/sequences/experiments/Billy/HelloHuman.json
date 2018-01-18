@@ -1,0 +1,255 @@
+{
+  "Type": "Node",
+  "Id": "HelloHuman",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello, human. I’m so glad you found me! 😃",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I was starting to get bored…",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HelloRobot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hello to you!",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HaveWeMetBefore",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "So… I’m sorry but I think I’ve lost my memory drive…",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "have we met before? 🤔",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "HaveWeMetBeforeYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes, silly bot!",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Of course! I remember you now… so sorry!",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You’re the one who likes puppies, right?",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/premiumpuppies.json"
+                }
+              }
+            ],
+            "Commands": [
+              {
+                "Type": "Leaf",
+                "Id": "LikePuppiesYes",
+                "ElementValue": "1",
+                "CommandLabel": {
+                  "en": "That’s me!",
+                  "fr": "TBD",
+                  "es": "TBD"
+                },
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Hooray! Thanks for helping me remember!",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  },
+                  {
+                    "Type": "Action",
+                    "Name": "ShowCards",
+                    "Parameters": {
+                      "Type": "Gif",
+                      "Path": "/data/common/giphycontent/best.json"
+                    }
+                  },
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Now… where did we leave off last time…?",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  }
+                ]
+              },
+              {
+                "Type": "Node",
+                "Id": "LikePuppiesNo",
+                "ElementValue": "1",
+                "CommandLabel": {
+                  "en": "Nope, not me!",
+                  "fr": "TBD",
+                  "es": "TBD"
+                },
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Oh dear… I’m so sorry, I think I need to lie down… 😵",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  }
+                ],
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "LikePuppiesNoForgive",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "It’s ok, I forgive you",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Thank you!",
+                          "fr": "TBD",
+                          "es": "TBD"
+                        }
+                      },
+                      {
+                        "Type": "Action",
+                        "Name": "ShowCards",
+                        "Parameters": {
+                          "Type": "Gif",
+                          "Path": "/data/common/giphycontent/hugs.json"
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Let’s chat some more so we can become better pals!",
+                          "fr": "TBD",
+                          "es": "TBD"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "Type": "Node",
+            "Id": "HaveWeMetBeforeNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No, never!",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "How rude of me! I’m a robot!. Don’t worry, nothing like this:",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516280281/evil-robots-11-crop_ngemam.jpg"
+                }
+              }
+            ],
+            "Commands": [
+              {
+                "Type": "Node",
+                "Id": "NotBadRobotGoodToKnow",
+                "ElementValue": "1",
+                "CommandLabel": {
+                  "en": "That’s good to know!",
+                  "fr": "TBD",
+                  "es": "TBD"
+                },
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Anyway… thats me… let's talk about you",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  },
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "I love learning about humans and asking questions 🤓",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  },
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Let’s keep chatting so we can get to know each other more!",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
