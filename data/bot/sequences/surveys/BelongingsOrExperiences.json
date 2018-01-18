@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "BelongingsOrExperiences",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What makes you happy",
+        "fr": "Qu'est-ce qui te rend heureux",
+        "es": "Que te hace feliz"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NewBelongings",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "New belongings",
+        "fr": "De nouvelles affaires",
+        "es": "Nuevas cosas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7TKLlrPQJNLeYjo4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NewExperiences",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "New experiences",
+        "fr": "De nouvelles expériences",
+        "es": "Nuevas experiencias"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "vBMzK6KN6M6zK"
+          }
+        }
+      ]
+    }
+  ]
+}
