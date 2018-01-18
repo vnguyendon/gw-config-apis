@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "JobsReservedForMenWomen",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should certain jobs be reserved for men/women?",
+        "fr": "Certains métiers devraient-ils être réservés aux hommes/femmes ?",
+        "es": "¿Hay profesiones que deberían ser reservadas para los hombres/las mujeres?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JobsReservedForMenWomenYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "8cuyTaqM0nS9O"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "JobsReservedForMenWomenNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Y9uG8bbs2ToqI"
+          }
+        }
+      ]
+    }
+  ]
+}
