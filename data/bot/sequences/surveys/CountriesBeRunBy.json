@@ -7,7 +7,7 @@
       "Label": {
         "en": "Countries should be run more often by",
         "fr": "Les pays devraient plus souvent être dirigés par",
-        "es": "TBD"
+        "es": "Los países deberían ser dirigidos más frecuentemente por"
       }
     }
   ],
@@ -20,7 +20,7 @@
       "CommandLabel": {
         "en": "engineers",
         "fr": "des ingénieurs",
-        "es": "TBD"
+        "es": "ingenieros"
       },
       "Steps": [
         {
@@ -47,7 +47,7 @@
       "CommandLabel": {
         "en": "politicians",
         "fr": "des hommes politiques",
-        "es": "TBD"
+        "es": "políticos"
       },
       "Steps": [
         {
