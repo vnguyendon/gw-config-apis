@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HowManyTimesTravelAbroad",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How many times per year do you generally travel abroad?",
+        "fr": "En général, combien de fois par an pars-tu en voyage à l'étranger ?",
+        "es": "¿En general, cuántas veces por año vaís de viaje al extranjero?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TravelAbroadNever",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "0",
+        "fr": "0",
+        "es": "0"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xob8kbO5AsT9S"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TravelAbroadOneOrMore",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "1 or more",
+        "fr": "1 ou plus",
+        "es": "1 o más"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "leDgjatdaGyPK"
+          }
+        }
+      ]
+    }
+  ]
+}
