@@ -6,7 +6,7 @@
       { "order" : 12, "file": [
           "/data/bot/sequences/surveys/WCatsOrDogs.json",
           "/data/bot/sequences/surveys/WKindOrFunny.json"]},
-      { "order" : 15, "file": ["/data/bot/sequences/surveys/WOlympicsOrFootballWorldCup.json"]},
+      { "order" : 15, "file": ["data/bot/sequences/appspecials/emojihero/HowAboutSending.json"]},
       { "order" : 17, "file": ["/data/bot/sequences/settings/SetLocation.json"]},
       { "order" : 18, "file": ["/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"]}
     ]
