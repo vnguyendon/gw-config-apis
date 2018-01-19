@@ -113,7 +113,7 @@
       ]
     },
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "LikeMakingArtNo",
       "ElementValue": "1",
       "CommandLabel": {
