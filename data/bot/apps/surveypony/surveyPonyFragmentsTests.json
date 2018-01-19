@@ -1,5 +1,9 @@
 {
   "GlobalWarmingWithTags":"/data/bot/sequences/experiments/GlobalWarmingWithTags.json",
   "FindTheGift":"/data/bot/sequences/experiments/FindTheGift.json",
-  "TwitterOrOracleTest3":"/data/bot/sequences/experiments/ConditionalTest3.json"
+  "TwitterOrOracleTest3":"/data/bot/sequences/experiments/ConditionalTest3.json",
+  
+  "HereAFlower": "/data/bot/sequences/appspecials/emojihero/HereAFlower.json",
+  "HereALoveMessage": "/data/bot/sequences/appspecials/emojihero/HereALoveMessage.json",
+  "HereAPoem": "/data/bot/sequences/appspecials/emojihero/HereAPoem.json",
 }
