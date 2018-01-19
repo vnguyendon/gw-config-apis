@@ -13,7 +13,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "HowAboutSendingPoem",
       "ElementValue": "1",
       "CommandLabel": {
@@ -26,7 +26,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "HowAboutSendingFlower",
       "ElementValue": "1",
       "CommandLabel": {
@@ -39,7 +39,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "HowAboutSendingLoveMessage",
       "ElementValue": "1",
       "CommandLabel": {
