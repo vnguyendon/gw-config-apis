@@ -14,6 +14,7 @@
   "HowAboutSending": "/data/bot/sequences/appspecials/emojihero/HowAboutSending.json",
   "InterestInEmoji": "/data/bot/sequences/appspecials/emojihero/InterestInEmoji.json",
   "LookingForStickers": "/data/bot/sequences/appspecials/emojihero/LookingForStickers.json",
+  "LifeAfterDeathYesNo": "/data/bot/sequences/surveys/LifeAfterDeathYesNo.json",
   "PlanToFortune": "/data/bot/sequences/appspecials/emojihero/PlanToFortune.json",
   "ShowHowBest": "/data/bot/sequences/appspecials/emojihero/ShowHowBest.json",
   "ShowMeEmoji": "/data/bot/sequences/appspecials/emojihero/ShowMeEmoji.json",
