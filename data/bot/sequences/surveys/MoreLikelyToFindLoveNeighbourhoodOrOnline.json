@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreLikelyToFindLoveNeighbourhoodOrOnline",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You are more likely to find love",
+        "fr": "Tu as plus de chances de trouver l'amour",
+        "es": "Es más probable que encontres el amor"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LoveInNeighbourhood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "in your neighbourhood 🏠",
+        "fr": "dans ton quartier 🏠",
+        "es": "en tu vecindario 🏠"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUNemBWNqrAIBNuFk4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LoveOnline",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "online 💻",
+        "fr": "sur internet 💻",
+        "es": "en la red 💻"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26mkhMYkitO7DoJuU"
+          }
+        }
+      ]
+    }
+  ]
+}
