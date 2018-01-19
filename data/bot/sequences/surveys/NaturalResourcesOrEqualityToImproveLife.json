@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "NaturalResourcesOrEqualityToImproveLife",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Life in your country would improve given more",
+        "fr": "La vie dans ton pays s'améliorerait davantage s'il y avait plus",
+        "es": "La vida en tu país mejoraría si hubiera más"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NaturalResourcesToImproveLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "natural resources",
+        "fr": "de ressources naturelles",
+        "es": "recursos naturales"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5UU1LbkyFo8o0"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EqualityToImproveLife",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "equality",
+        "fr": "d'égalité",
+        "es": "igualdad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT8qBit7YomT80d0M8"
+          }
+        }
+      ]
+    }
+  ]
+}
