@@ -1,0 +1,20 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "surveypony",
+      "Source": "github",
+      "File": "/data/bot/apps/surveypony/surveyPonyMaster.json"
+    },
+    {
+      "Name": "rcdevbot",
+      "Source": "github",
+      "File": "/data/bot/apps/surveypony/masterSequences.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/masterfiles/fragmentfiles.json"
+    }
+  ]
+}
