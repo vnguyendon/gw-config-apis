@@ -73,7 +73,7 @@
                       "FragmentPath": "GiftWhichAdjective"
                     },
                     "LinksTo": {
-                      "Type": "Leaf",
+                      "Type": "Node",
                       "Id": "GiftAnswer",
                       "LinksToFragment": {
                         "FragmentPath": "GiftEnd"
