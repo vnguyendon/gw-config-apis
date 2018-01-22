@@ -21,7 +21,6 @@
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]},
-    { "order" : 10, "file":["/data/bot/sequences/surveys/WDoYouCelebrateChristmas.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/DoYouHaveAPet.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
