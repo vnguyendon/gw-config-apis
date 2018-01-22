@@ -29,7 +29,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "ShowAnotherPoem",
       "ElementValue": "1",
       "CommandLabel": {
