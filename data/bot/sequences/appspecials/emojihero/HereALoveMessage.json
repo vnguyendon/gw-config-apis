@@ -58,7 +58,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "SendGetIt",
       "ElementValue": "1",
       "CommandLabel": {
