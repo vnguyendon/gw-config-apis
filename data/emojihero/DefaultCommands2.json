@@ -1,0 +1,197 @@
+{
+  "Type": "Node",
+  "Id": "CommandsGifMode",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Id": "IAmTheBest",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "I am the best 💪",
+        "fr": "Je suis le meilleur 💪",
+        "es": "Soy el mejor 💪"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/I-am-the-best.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Hugs",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Hugs 💜",
+        "fr": "Calins 💜",
+        "es": "Abrazos 💜"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/hugs.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "ILikeYou",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "I like you 😉",
+        "fr": "Tu me plais 😉",
+        "es": "Me gustas 😉"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/like.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "BirthdayMessages",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Birthday messages 🎈",
+        "fr": "Bon anniversaire 🎈",
+        "es": "Feliz cumpleaños 🎈"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/birthday.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Poems",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Poems 💐",
+        "fr": "Poèmes 💐",
+        "es": "Poemas 💐"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "TextImage",
+            "Path": "/data/common/giphycontent/poems.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Flowers",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Flowers 🌻",
+        "fr": "Fleurs 🌻",
+        "es": "Anímame 🌻"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/flowers.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Hungry",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Hungry 🍕",
+        "fr": "J'ai faim 🍕",
+        "es": "Tengo hambre 🍕"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/hungry.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "Goodnight",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Good night!🌜",
+        "fr": "Bonne nuit!🌜",
+        "es": "¡Buenas noches!🌜"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/night.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "MissLovedOne",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "I miss my loved one 💌",
+        "fr": "Mon amour me manque 💌",
+        "es": "Extraño a mi amor 💌"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/miss.json"
+          }
+        }
+      ]
+    },
+    {
+      "Id": "ThinkingOfYou",
+      "Type": "Leaf",
+      "CommandLabel": {
+        "en": "Thinking of you 😘",
+        "fr": "Je pense à toi 😘",
+        "es": "Te pienso 😘"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/think.json"
+          }
+        }
+      ]
+    }
+  ]
+}
