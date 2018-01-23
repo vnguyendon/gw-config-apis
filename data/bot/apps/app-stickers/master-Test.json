@@ -2,8 +2,6 @@
   "Version": 15,
   "GroupName": "Test",
   "SequenceFiles": [
-    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/BaseballMovie.json"]},
-    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/BaseballMovie.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
     { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/LearnMakeJokes.json"]},
