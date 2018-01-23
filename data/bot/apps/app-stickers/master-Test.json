@@ -26,6 +26,6 @@
     { "order" : 1800, "file":["/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"]},
     { "order" : 1800, "file":["/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"]},
     { "order" : 1800, "file":["/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"]},
-    { "order" : 1900, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
+    { "order" : 1900, "file":["/data/bot/sequences/experiments/VisitNext.json"]}
   ]
 }
