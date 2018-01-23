@@ -52,13 +52,13 @@
             "Id": "PreferModernArt",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Spanish Love by Picasso",
+              "en": "Modern art",
               "fr": "TBD",
               "es": "TBD"
             },
             "CarouselElements": {
               "Title": {
-                "en": "Modern art",
+                "en": "Spanish Love by Picasso",
                 "fr": "TBD",
                 "es": "TBD"
               },
