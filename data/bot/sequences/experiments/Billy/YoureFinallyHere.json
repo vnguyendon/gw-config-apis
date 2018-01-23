@@ -63,102 +63,108 @@
                     "fr": "Pour moi ça en a ! 😁",
                     "es": "¡Para mi sí que tiene sentido! 😁"
                   }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "How are you feeling today?",
-                    "fr": "Comment tu te sens aujourd'hui ?",
-                    "es": "¿Como te sientes hoy día?"
-                  }
                 }
               ],
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "FeelingTired",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "i'm tired 😴",
-                    "fr": "je suis fatigué 😴",
-                    "es": "estoy cansado 😴"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Time for a nap, maybe!",
-                        "fr": "C'est l'heure de faire la sieste !",
-                        "es": "¡Es la hora de dormir una siesta!"
-                      }
-                    },
-                    {
-                      "Type": "Action",
-                      "Name": "NapTime",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "xT8qBvH1pAhtfSx52U"
-                      }
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "BotTrappedInRestroom",
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "How are you feeling today?",
+                      "fr": "Comment tu te sens aujourd'hui ?",
+                      "es": "¿Como te sientes hoy día?"
                     }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "FeelingHungry",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "i'm hungry 🍔",
-                    "fr": "j'ai faim 🍔",
-                    "es": "tengo hambre 🍔"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Oh no! Fix that, quick!",
-                        "fr": "Oh non ! Arrange ça vite !",
-                        "es": "¡Que pena! Arregla eso, ¡presto!"
-                      }
+                  }
+                ],
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "FeelingTired",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "i'm tired 😴",
+                      "fr": "je suis fatigué 😴",
+                      "es": "estoy cansado 😴"
                     },
-                    {
-                      "Type": "Action",
-                      "Name": "Showcards",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "CDpAmfo9dbOyA"
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Time for a nap, maybe!",
+                          "fr": "C'est l'heure de faire la sieste !",
+                          "es": "¡Es la hora de dormir una siesta!"
+                        }
+                      },
+                      {
+                        "Type": "Action",
+                        "Name": "NapTime",
+                        "Parameters": {
+                          "Source": "Giphy",
+                          "Path": "xT8qBvH1pAhtfSx52U"
+                        }
                       }
-                    }
-                  ]
-                },
-                {
-                  "Type": "Leaf",
-                  "Id": "FeelingSad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "i'm sad 😢",
-                    "fr": "je suis triste 😢",
-                    "es": "estoy triste 😢"
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "no worries, I can cheer you up!",
-                        "fr": "ne t'inquiète pas, je peux te réconforter !",
-                        "es": "no te preocupas, ¡te puedo alegrar!"
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "FeelingHungry",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "i'm hungry 🍔",
+                      "fr": "j'ai faim 🍔",
+                      "es": "tengo hambre 🍔"
                     },
-                    {
-                      "Type": "Action",
-                      "Name": "Showcards",
-                      "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "EvYHHSntaIl5m"
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Oh no! Fix that, quick!",
+                          "fr": "Oh non ! Arrange ça vite !",
+                          "es": "¡Que pena! Arregla eso, ¡presto!"
+                        }
+                      },
+                      {
+                        "Type": "Action",
+                        "Name": "Showcards",
+                        "Parameters": {
+                          "Source": "Giphy",
+                          "Path": "CDpAmfo9dbOyA"
+                        }
                       }
-                    }
-                  ]
-                }
-              ]
+                    ]
+                  },
+                  {
+                    "Type": "Leaf",
+                    "Id": "FeelingSad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "i'm sad 😢",
+                      "fr": "je suis triste 😢",
+                      "es": "estoy triste 😢"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "no worries, I can cheer you up!",
+                          "fr": "ne t'inquiète pas, je peux te réconforter !",
+                          "es": "no te preocupas, ¡te puedo alegrar!"
+                        }
+                      },
+                      {
+                        "Type": "Action",
+                        "Name": "Showcards",
+                        "Parameters": {
+                          "Source": "Giphy",
+                          "Path": "EvYHHSntaIl5m"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
             }
           }
         ]
