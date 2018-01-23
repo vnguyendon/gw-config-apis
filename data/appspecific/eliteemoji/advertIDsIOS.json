@@ -16,6 +16,14 @@
       "ID": "ca-app-pub-7822741681642396/9034770936"
     }
   },
+  "AfterSharing": {
+    "Provider": "Facebook",
+    "ID": "1727516507493157_1886351148276358",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/9034770936"
+    }
+  },  
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1727516507493157_2063079410603530"
