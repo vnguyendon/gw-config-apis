@@ -4,8 +4,6 @@
   "SequenceFiles": [
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
-    { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/LearnMakeJokes.json"]},
-    { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/LearnMakeJokes.json"]},
     { "order" : 60, "file":["/data/bot/sequences/experiments/Billy/LikeMakingArt.json"]},
     { "order" : 60, "file":["/data/bot/sequences/experiments/Billy/LikeMakingArt.json"]},
     { "order" : 80, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
