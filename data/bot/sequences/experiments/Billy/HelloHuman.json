@@ -68,120 +68,130 @@
                   "fr": "TBD",
                   "es": "TBD"
                 }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "You’re the one who likes puppies, right?",
-                  "fr": "TBD",
-                  "es": "TBD"
-                }
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowCards",
-                "Parameters": {
-                  "Type": "Gif",
-                  "Path": "/data/common/giphycontent/premiumpuppies.json"
-                }
               }
             ],
-            "Commands": [
-              {
-                "Type": "Leaf",
-                "Id": "LikePuppiesYes",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "That’s me!",
-                  "fr": "TBD",
-                  "es": "TBD"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Hooray! Thanks for helping me remember!",
-                      "fr": "TBD",
-                      "es": "TBD"
-                    }
-                  },
-                  {
-                    "Type": "Action",
-                    "Name": "ShowCards",
-                    "Parameters": {
-                      "Type": "Gif",
-                      "Path": "/data/common/giphycontent/best.json"
-                    }
-                  },
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Now… where did we leave off last time…?",
-                      "fr": "TBD",
-                      "es": "TBD"
-                    }
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "TheOneThatLikesPuppies",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "You’re the one who likes puppies, right?",
+                    "fr": "TBD",
+                    "es": "TBD"
                   }
-                ]
-              },
-              {
-                "Type": "Node",
-                "Id": "LikePuppiesNo",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "Nope, not me!",
-                  "fr": "TBD",
-                  "es": "TBD"
                 },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Oh dear… I’m so sorry, I think I need to lie down… 😵",
-                      "fr": "TBD",
-                      "es": "TBD"
-                    }
+                {
+                  "Type": "Action",
+                  "Name": "ShowCards",
+                  "Parameters": {
+                    "Type": "Gif",
+                    "Path": "/data/common/giphycontent/premiumpuppies.json"
                   }
-                ],
-                "Commands": [
-                  {
-                    "Type": "Leaf",
-                    "Id": "LikePuppiesNoForgive",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "It’s ok, I forgive you",
-                      "fr": "TBD",
-                      "es": "TBD"
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "LikePuppiesYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s me!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Hooray! Thanks for helping me remember!",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
                     },
-                    "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "ShowCards",
+                      "Parameters": {
+                        "Type": "Gif",
+                        "Path": "/data/common/giphycontent/best.json"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Now… where did we leave off last time…?",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Node",
+                  "Id": "LikePuppiesNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Nope, not me!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Oh dear… I’m so sorry, I think I need to lie down… 😵",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "NeedToLieDown",
+                    "Commands": [
                       {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "Thank you!",
+                        "Type": "Leaf",
+                        "Id": "LikePuppiesNoForgive",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "It’s ok, I forgive you",
                           "fr": "TBD",
                           "es": "TBD"
-                        }
-                      },
-                      {
-                        "Type": "Action",
-                        "Name": "ShowCards",
-                        "Parameters": {
-                          "Type": "Gif",
-                          "Path": "/data/common/giphycontent/hugs.json"
-                        }
-                      },
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "Let’s chat some more so we can become better pals!",
-                          "fr": "TBD",
-                          "es": "TBD"
-                        }
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Thank you!",
+                              "fr": "TBD",
+                              "es": "TBD"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "ShowCards",
+                            "Parameters": {
+                              "Type": "Gif",
+                              "Path": "/data/common/giphycontent/hugs.json"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Let’s chat some more so we can become better pals!",
+                              "fr": "TBD",
+                              "es": "TBD"
+                            }
+                          }
+                        ]
                       }
                     ]
                   }
-                ]
-              }
-            ]
+                }
+              ]
+            }
           },
           {
             "Type": "Node",
@@ -209,44 +219,48 @@
                 }
               }
             ],
-            "Commands": [
-              {
-                "Type": "Node",
-                "Id": "NotBadRobotGoodToKnow",
-                "ElementValue": "1",
-                "CommandLabel": {
-                  "en": "That’s good to know!",
-                  "fr": "TBD",
-                  "es": "TBD"
-                },
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Anyway… thats me… let's talk about you",
-                      "fr": "TBD",
-                      "es": "TBD"
-                    }
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "HowRudeOfMe",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "NotBadRobotGoodToKnow",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s good to know!",
+                    "fr": "TBD",
+                    "es": "TBD"
                   },
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "I love learning about humans and asking questions 🤓",
-                      "fr": "TBD",
-                      "es": "TBD"
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Anyway… thats me… let's talk about you",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I love learning about humans and asking questions 🤓",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Let’s keep chatting so we can get to know each other more!",
+                        "fr": "TBD",
+                        "es": "TBD"
+                      }
                     }
-                  },
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Let’s keep chatting so we can get to know each other more!",
-                      "fr": "TBD",
-                      "es": "TBD"
-                    }
-                  }
-                ]
-              }
-            ]
+                  ]
+                }
+              ]
+            }
           }
         ]
       }
