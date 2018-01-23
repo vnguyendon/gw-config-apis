@@ -35,6 +35,16 @@
       "LinksTo": {
         "Type": "Node",
         "Id": "WantOneJokeStepOne",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "...’",
+              "fr": "...",
+              "es": "..."
+            }
+          }
+        ],
         "Commands": [
           {
             "Type": "Node",
@@ -53,18 +63,20 @@
                   "fr": "L'humain commande à boire, la souris prend du fromage, et le chatbot demande 'Bonjour, que puis-je faire pour vous ?'",
                   "es": "El humano pide para beber, el ratón pide queso, y el chatbot pregunta 'Hola, ¿qué puedo hacer por usted?"
                 }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "O5NyCibf93upy"
-                }
               }
             ],
             "LinksTo": {
               "Type": "Node",
               "Id": "MidJokeAnswer",
+              "Steps": [
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "O5NyCibf93upy"
+                  }
+                }
+              ],
               "Commands": [
                 {
                   "Type": "Leaf",
