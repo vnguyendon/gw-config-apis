@@ -103,7 +103,7 @@
                 "Type": "Action",
                 "Name": "Showcards",
                 "Parameters": {
-                  "Source": "Giphy",
+                  "Type": "Gif",
                   "Path": "/data/common/giphycontent/thankyou.json"
                 }
               }
@@ -131,7 +131,7 @@
                 "Type": "Action",
                 "Name": "Showcards",
                 "Parameters": {
-                  "Source": "Giphy",
+                  "Type": "Gif",
                   "Path": "/data/common/giphycontent/thankyou.json"
                 }
               }
