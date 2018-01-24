@@ -79,8 +79,7 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "Puppy",
+          "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "10KOMzibDYXOH6"
