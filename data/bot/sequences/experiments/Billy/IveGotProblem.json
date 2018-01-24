@@ -73,7 +73,7 @@
               },
               {
                 "Type": "Action",
-                "Name": "Showcards",
+                "Name": "ShowCards",
                 "Parameters": {
                   "Source": "Giphy",
                   "Path": "/data/common/giphycontent/thankyou.json"
@@ -101,7 +101,7 @@
               },
               {
                 "Type": "Action",
-                "Name": "Showcards",
+                "Name": "ShowCards",
                 "Parameters": {
                   "Type": "Gif",
                   "Path": "/data/common/giphycontent/thankyou.json"
@@ -129,7 +129,7 @@
               },
               {
                 "Type": "Action",
-                "Name": "Showcards",
+                "Name": "ShowCards",
                 "Parameters": {
                   "Type": "Gif",
                   "Path": "/data/common/giphycontent/thankyou.json"
@@ -142,4 +142,3 @@
     }
   ]
 }
-
