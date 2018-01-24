@@ -98,8 +98,7 @@
                         }
                       },
                       {
-                        "Type": "Action",
-                        "Name": "NapTime",
+                        "Type": "AnimatedGif",
                         "Parameters": {
                           "Source": "Giphy",
                           "Path": "xT8qBvH1pAhtfSx52U"
@@ -129,7 +128,7 @@
                         "Type": "Action",
                         "Name": "Showcards",
                         "Parameters": {
-                          "Source": "Giphy",
+                          "Tyoe": "Gif",
                           "Path": "CDpAmfo9dbOyA"
                         }
                       }
