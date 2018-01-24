@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "OhHiThere",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "😴… wha…? Oh, hi there!",
+        "fr": "😴… mmh…? Oh, salut toi !",
+        "es": "😴… ¿que…? Oh, ¡hola!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I was just dreaming of lying on a sunny beach somewhere… 🏖",
+        "fr": "J'étais en train de rêver d'une plage ensoleillée, quelque part… 🏖",
+        "es": "Estaba soñando con una playa soleada, en algún lugar… 🏖"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SorryToWakeYou",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sorry to wake you!",
+        "fr": "désolé de te réveiller !",
+        "es": "¡disculpas por despertarte!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HaveYouBeenOnHoliday",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "No, not at all! 😊",
+              "fr": "Non, aucun souci ! 😊",
+              "es": "No, ¡no hay ningun problema! 😊"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Have you been on holiday recently?",
+              "fr": "Tu es parti en vacances récemment ?",
+              "es": "¿Saliste de vacaciones hace poco?"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "HaveYouBeenOnHolidayYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'm so jealous!",
+                  "fr": "Je suis tellement jaloux !",
+                  "es": "¡Soy tan envidioso!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Take me with you next time!",
+                  "fr": "Prends moi avec la prochaine fois !",
+                  "es": "¡Llévame contigo la proxima vez!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HaveYouBeenOnHolidayNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, that means your next is getting closer!",
+                  "fr": "Eh bien, ça veut dire que c'est pour bientôt !",
+                  "es": "Bueno, ¡significa que ocurrirá dentro de poco!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We can plan it together 🤗",
+                  "fr": "On peut organiser ça ensemble 🤗",
+                  "es": "Podemos organizarlas juntos 🤗"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
