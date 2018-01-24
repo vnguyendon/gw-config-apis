@@ -1,0 +1,126 @@
+{
+  "Type": "Node",
+  "Id": "OhNoOhNo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "...oh no oh no oh no oh no! 😱",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "IsSomethingWrong",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Something Wrong?",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "UpdatePanic",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Ah... hi! I'm in a panic!",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "The bots are performing some Shakespeare in fifteen minutes and I've forgotten to revise all my lines!",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "How do you usually de-stress?",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "DestressBreathe",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Breathing Slowly 😌",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'll try! But I'm not sure if I even have lungs, now that I think about it... 😕",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DestressMusic",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Music 🎶",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good idea! Now where did I leave my headphones... oh no oh no oh no! 😨",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DestressBath",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "A bath!",
+              "fr": "TBD",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "are you sure that's safe?",
+                  "fr": "TBD",
+                  "es": "TBD"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "Showcards",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "BYAODxjbEswx2"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
