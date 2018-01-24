@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HoursWatchingTV",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you watch TV more than 2 hours a day? 😵",
+        "fr": "Est-ce que vous regardez la télé plus de 2 heures par jour ? 😵",
+        "es": "¿Miras la tele más de 2 horas al día? 😵"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WatchingTVMore2hours",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Sb7WSbjHFNIL6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WatchingTVLess2hours",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "XhT868oxljs88"
+          }
+        }
+      ]
+    }
+  ]
+}
