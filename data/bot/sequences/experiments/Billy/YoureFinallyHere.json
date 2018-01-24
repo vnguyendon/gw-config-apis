@@ -125,10 +125,9 @@
                         }
                       },
                       {
-                        "Type": "Action",
-                        "Name": "Showcards",
+                        "Type": "AnimatedGif",
                         "Parameters": {
-                          "Tyoe": "Gif",
+                          "Type": "Gif",
                           "Path": "CDpAmfo9dbOyA"
                         }
                       }
