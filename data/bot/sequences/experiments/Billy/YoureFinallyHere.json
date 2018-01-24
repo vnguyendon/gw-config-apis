@@ -152,8 +152,7 @@
                         }
                       },
                       {
-                        "Type": "Action",
-                        "Name": "ShowCards",
+                        "Type": "AnimatedGif",
                         "Parameters": {
                           "Source": "Giphy",
                           "Path": "EvYHHSntaIl5m"
