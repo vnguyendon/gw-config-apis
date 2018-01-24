@@ -35,16 +35,6 @@
       "LinksTo": {
         "Type": "Node",
         "Id": "WantOneJokeStepOne",
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "...’",
-              "fr": "...",
-              "es": "..."
-            }
-          }
-        ],
         "Commands": [
           {
             "Type": "Node",
