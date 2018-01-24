@@ -1,8 +1,8 @@
 
 {
-  "FirstLaunch": {
-    "Provider": "Facebook",
-    "ID": "1001221899915187_1500926526611386"
+  "FirstLaunchToPutBack": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2071767060"
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
