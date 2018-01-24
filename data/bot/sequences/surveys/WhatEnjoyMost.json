@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhatEnjoyMost",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you enjoy most?",
+        "fr": "Qu'est-ce que tu préfères le plus ?",
+        "es": "¿Qué prefieres lo más?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EnjoyMostOutdoorActivities",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "outdoor activities",
+        "fr": "les sorties en plein air",
+        "es": "actividades exteriores"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9nhlk6r8u52iA"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "EnjoyMostWatchingTV",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "watching TV",
+        "fr": "regarder la télé",
+        "es": "ver la tele"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GbdFBa5OzTh9m"
+          }
+        }
+      ]
+    }
+  ]
+}
