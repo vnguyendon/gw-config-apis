@@ -87,13 +87,15 @@
                     "fr": "haha très drôle 😂",
                     "es": "jaja muy divertido 😂"
                   },
-                  "Steps": {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                      "Source": "Giphy",
-                      "Path": "yoJC2El7xJkYCadlWE"
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "yoJC2El7xJkYCadlWE"
+                      }
                     }
-                  }
+                  ]
                 },
                 {
                   "Type": "Leaf",
@@ -104,14 +106,16 @@
                     "fr": "Hmm…😒",
                     "es": "Bueno…😒"
                   },
-                  "Steps": {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "I guess I need practice…",
-                      "fr": "J'imagine que je dois encore un peu m'entraîner…",
-                      "es": "Imagino que necesito practicar un poco más…"
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess I need practice…",
+                        "fr": "J'imagine que je dois encore un peu m'entraîner…",
+                        "es": "Imagino que necesito practicar un poco más…"
+                      }
                     }
-                  }
+                  ]
                 },
                 {
                   "Type": "Leaf",
@@ -122,14 +126,16 @@
                     "fr": "Tu as déjà vu un chatbot dans un bar toi ? 😛",
                     "es": "¿Ya viste un chatbot en un bar? 😛"
                   },
-                  "Steps": {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "I guess I missed that part…",
-                      "fr": "J'imagine que j'avais oublié ce petit détail…",
-                      "es": "Parece que había olvidado este detalle…"
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess I missed that part…",
+                        "fr": "J'imagine que j'avais oublié ce petit détail…",
+                        "es": "Parece que había olvidado este detalle…"
+                      }
                     }
-                  }
+                  ]
                 }
               ]
             }
