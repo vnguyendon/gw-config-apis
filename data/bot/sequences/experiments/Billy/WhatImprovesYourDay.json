@@ -39,8 +39,7 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "Dancing",
+          "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "blSTtZehjAZ8I"
@@ -67,8 +66,7 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "Eating",
+          "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "8MObiTsZrFlTi"
@@ -115,8 +113,7 @@
           }
         },
         {
-          "Type": "Action",
-          "Name": "HugIntent",
+          "Type": "AnimatedGif",
           "Parameters": {
             "Source": "Giphy",
             "Path": "XiRKBj0SAA0EWvbG"
