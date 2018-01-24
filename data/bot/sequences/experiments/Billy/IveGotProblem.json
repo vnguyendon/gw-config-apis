@@ -75,7 +75,7 @@
                 "Type": "Action",
                 "Name": "ShowCards",
                 "Parameters": {
-                  "Source": "Giphy",
+                  "Type": "Gif",
                   "Path": "/data/common/giphycontent/thankyou.json"
                 }
               }
