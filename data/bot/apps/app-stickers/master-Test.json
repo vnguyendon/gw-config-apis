@@ -7,6 +7,8 @@
     { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
     { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
     { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/LearnMakeJokes.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/LearnMakeJokes.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/YoureFinallyHere.json"]},
     { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/DidInterrupt.json"]},
