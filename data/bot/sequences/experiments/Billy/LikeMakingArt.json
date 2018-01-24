@@ -88,7 +88,7 @@
                   "Steps": [
                     {
                       "Type": "Action",
-                      "Name": "Showcards",
+                      "Name": "ShowCards",
                       "Parameters": {
                         "Type": "Gif",
                         "Path": "/data/common/giphycontent/thanks.json"
