@@ -82,8 +82,8 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Absolutely",
-                    "fr": "",
-                    "es": ""
+                    "fr": "TBD",
+                    "es": "TBD"
                   },
                   "Steps": [
                     {
@@ -102,8 +102,8 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Not really",
-                    "fr": "",
-                    "es": ""
+                    "fr": "TBD",
+                    "es": "TBD"
                   },
                   "Steps": [
                     {
