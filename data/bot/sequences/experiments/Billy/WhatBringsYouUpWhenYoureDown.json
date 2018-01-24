@@ -1,0 +1,100 @@
+{
+  "Type": "Node",
+  "Id": "WhatBringsYouUpWhenYoureDown",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Welcome back!",
+        "fr": "Re-bonjour !",
+        "es": "¡Bienvenido de vuelta!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Tell me… what brings you up when you’re feeling down?",
+        "fr": "Dis moi… qu'est-ce qui te remonte le moral quand il est au plus bas ?",
+        "es": "Dime… ¿que te eleva la moral cuando te sientes triste?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FamilyBringsMeUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "family 👪",
+        "fr": "la famille 👪",
+        "es": "familia 👪"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Family is not an important thing. It’s everything' - Michael J Fox",
+            "fr": "'La famille n'est pas une chose importante. C'est la seule chose qui compte' - Michael J Fox",
+            "es": "'La familia no es una cosa importante. Es la única cosa que vale' - Michael J Fox"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PeaceBringsMeUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "peace and quiet 😌",
+        "fr": "la paix et la tranquilité 😌",
+        "es": "paz y tranquilidad 😌"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "So relaxing… I hope I’m not intruding!",
+            "fr": "Tellement reposant… j'espère que je ne te dérange pas!",
+            "es": "Tan relajante… ¡espero que no te molesto!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PetsBringMeUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pets 🐶",
+        "fr": "les animaux de compagnie 🐶",
+        "es": "mascotas 🐶"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I didn’t know you had a pet!",
+            "fr": "Je ne savais pas que tu avais un animal de compagnie !",
+            "es": "¡No sabía que tuvieras una mascota!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "Puppy",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10KOMzibDYXOH6"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m now really jealous...",
+            "fr": "Je suis si jaloux...",
+            "es": "Estoy tan celoso ahora..."
+          }
+        }
+      ]
+    }
+  ]
+}
