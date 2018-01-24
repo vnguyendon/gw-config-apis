@@ -1,0 +1,128 @@
+{
+  "Type": "Node",
+  "Id": "WhatImprovesYourDay",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You coming online always makes my day better! 😃",
+        "fr": "Ça illumine toujours ma journée quand tu te connectes ! 😃",
+        "es": "¡Cuando te conectas, mejora siempre mi día ! 😃"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What improves yours?",
+        "fr": "Qu'est-ce qui améliore la tienne ?",
+        "es": "¿Que hace tuyo mejor?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MusicImprovesDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "music 🎵",
+        "fr": "la musique 🎵",
+        "es": "música 🎵"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Good choice… don’t mind me if I steal your playlist!",
+            "fr": "Bon choix… ne m'en veux pas si je vole ta playlist !",
+            "es": "Buena elección… ¡espero que no te importa si te robo tu playlist!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "Dancing",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "blSTtZehjAZ8I"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FoodImprovesDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "food 🍞",
+        "fr": "la nourriture 🍞",
+        "es": "comida 🍞"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Lucky human!",
+            "fr": "Quelle chance d'être un humain !",
+            "es": "¡Que suerte ser humano!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "Eating",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "8MObiTsZrFlTi"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FriendsImproveDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "friends 🙌",
+        "fr": "les amis 🙌",
+        "es": "amigos 🙌"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Friends are the family you choose' - Jess C. Scott",
+            "fr": "'Les amis sont la famille que l'on choisit' - Jess C. Scott",
+            "es": "'Amigos son la familia que elegimos' - Jess C. Scott"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BotImprovesDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "you!",
+        "fr": "toi !",
+        "es": "¡te!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Aww, you're too kind!",
+            "fr": "Ohh, c'est trop gentil !",
+            "es": "Ohh, ¡eres tan amable!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "HugIntent",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "XiRKBj0SAA0EWvbG"
+          }
+        }
+      ]
+    }
+  ]
+}
