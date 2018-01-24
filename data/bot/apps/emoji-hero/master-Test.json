@@ -1,0 +1,27 @@
+{
+  "Version": 1
+  "GroupName": "Test",
+  "SequenceFiles": [
+    { "order" : 15, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
+    { "order" : 15, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
+    { "order" : 16, "file":["/data/bot/sequences/surveys/BrexitGoodOrBad.json"]},
+    { "order" : 16, "file":["/data/bot/sequences/surveys/BrexitGoodOrBad.json"]},
+    { "order" : 17, "file":["/data/bot/sequences/surveys/JobsReservedForMenWomen.json"]},
+    { "order" : 17, "file":["/data/bot/sequences/surveys/JobsReservedForMenWomen.json"]},
+    { "order" : 18, "file":["/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"]},
+    { "order" : 18, "file":["/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"]},
+    { "order" : 18, "file":["/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"]},
+    { "order" : 18, "file":["/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"]},
+    { "order" : 19, "file":["/data/bot/sequences/surveys/FindLoveNeighbourhoodOrOnline.json"]},
+    { "order" : 19, "file":["/data/bot/sequences/surveys/FindLoveNeighbourhoodOrOnline.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/surveys/EnjoyMost.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/surveys/EnjoyMost.json"]},
+    { "order" : 21, "file":["/data/bot/sequences/surveys/HoursWatchingTV.json"]},
+    { "order" : 21, "file":["/data/bot/sequences/surveys/HoursWatchingTV.json"]},
+    { "order" : 22, "file":["/data/bot/sequences/surveys/PartnerOrRevenues.json"]},
+    { "order" : 22, "file":["/data/bot/sequences/surveys/PartnerOrRevenues.json"]},
+    { "order" : 23, "file":["/data/bot/sequences/surveys/PeopleHappierInYourCountry.json"]},
+    { "order" : 23, "file":["/data/bot/sequences/surveys/PeopleHappierInYourCountry.json"]},
+    { "order" : 190, "file":["/data/bot/sequences/experiments/VisitNext.json"]}
+  ]
+}
