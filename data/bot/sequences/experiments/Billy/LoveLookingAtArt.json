@@ -80,7 +80,7 @@
                 "Type": "Action",
                 "Name": "Showcards",
                 "Parameters": {
-                  "Source": "Giphy",
+                  "Type": "Gif",
                   "Path": "/data/common/giphycontent/like.json"
                 }
               }
