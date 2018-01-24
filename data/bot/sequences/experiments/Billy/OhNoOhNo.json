@@ -110,7 +110,7 @@
                 }
               },
               {
-                "Type": "Action",
+                "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
                   "Path": "BYAODxjbEswx2"
