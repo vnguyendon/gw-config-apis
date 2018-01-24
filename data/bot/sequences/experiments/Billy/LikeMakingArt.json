@@ -91,7 +91,7 @@
                       "Name": "ShowCards",
                       "Parameters": {
                         "Type": "Gif",
-                        "Path": "/data/common/giphycontent/thanks.json"
+                        "Path": "/data/common/giphycontent/thankyou.json"
                       }
                     }
                   ]
