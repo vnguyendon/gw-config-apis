@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PeopleHappierInYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are people in your country happier than elsewhere?",
+        "fr": "Les gens de ton pays sont-ils plus heureux qu'ailleurs ?",
+        "es": "¿Dirías que la gente de tu país es más feliz que en otro país? "
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHappier",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes 🙃",
+        "fr": "oui 🙃",
+        "es": "sí 🙃"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "QAfpIhgvlMU6Y"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoNotHappier",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no 😒",
+        "fr": "non 😒",
+        "es": "no 😒"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "IFpVKDqOo84F2"
+          }
+        }
+      ]
+    }
+  ]
+}
