@@ -40,14 +40,6 @@
               "fr": "TBD",
               "es": "TBD"
             }
-          },
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Is there anything you can't live without?",
-              "fr": "TBD",
-              "es": "TBD"
-            }
           }
         ],
         "LinksTo": {
