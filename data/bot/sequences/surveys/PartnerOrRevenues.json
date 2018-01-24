@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PartnerOrRevenues",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather have",
+        "fr": "Tu préfères avoir",
+        "es": "Prefieres tener"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BetterPartner",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a better partner 💑",
+        "fr": "un meilleur compagnon 💑",
+        "es": "un mejor novio/a 💑"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "rZsHHKeiPgz28"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BetterRevenues",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "better revenues 💰",
+        "fr": "plus d'argent 💰",
+        "es": "más dinero 💰"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "uyWTOgNGGWfks"
+          }
+        }
+      ]
+    }
+  ]
+}
