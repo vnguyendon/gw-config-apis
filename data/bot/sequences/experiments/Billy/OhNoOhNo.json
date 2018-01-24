@@ -111,7 +111,6 @@
               },
               {
                 "Type": "Action",
-                "Name": "Showcards",
                 "Parameters": {
                   "Source": "Giphy",
                   "Path": "BYAODxjbEswx2"
