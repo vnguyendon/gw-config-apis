@@ -47,7 +47,9 @@
           }
         }
       ],
-      "LinksToFragment": "LifeAfterDeathYesNo"
+      "LinksToFragment": {
+        "FragmentPath": "LifeAfterDeathYesNo"
+      }
     }
   ]
 }
