@@ -13,7 +13,7 @@
   ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "DidInterrupt",
       "ElementValue": "1",
       "CommandLabel": {
@@ -46,9 +46,9 @@
             "es": "TBD"
           }
         }
-      ]
+      ],
+      "LinksToFragment": "LifeAfterDeathYesNo"
     }
   ]
 }
-
    
