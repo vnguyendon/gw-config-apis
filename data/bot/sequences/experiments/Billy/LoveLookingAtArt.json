@@ -6,8 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "I love looking at art, do you?",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "J'adore observer des oeuvres d'art, pas toi ?",
+        "es": "Me encanta mirar a obras de arte, ¿y tú?"
       }
     }
   ],
@@ -18,17 +18,17 @@
       "Id": "LoveLookingAtArtYes",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Yes",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "yes",
+        "fr": "si",
+        "es": "yo también"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Awesome!",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Génial !",
+            "es": "¡Genial!"
           }
         }
       ],
@@ -40,8 +40,8 @@
             "Type": "Text",
             "Label": {
               "en": "Which do you prefer?",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Lequel préfères-tu ?",
+              "es": "¿Cuál te gusta más?"
             }
           }
         ],
@@ -53,18 +53,18 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Modern art",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Art moderne",
+              "es": "Arte moderno"
             },
             "CarouselElements": {
               "Title": {
-                "en": "Spanish Love by Picasso",
-                "fr": "TBD",
-                "es": "TBD"
+                "en": "Mandoline et guitare by Picasso",
+                "fr": "Mandoline et guitare de Picasso",
+                "es": "Mandoline et guitare de Picasso"
               },
               "Picture": {
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516288122/96e8742319b3f6b869c01e1937e3785f_zvurhd.jpg"
+                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516874456/picasso_crn7xx.jpg"
               }
             },
             "Steps": [
@@ -72,8 +72,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "You’re super trendy! 😎",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "T'es super tendance ! 😎",
+                  "es": "¡Eres súper moderno! 😎"
                 }
               },
               {
@@ -92,14 +92,14 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Classic",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Classique",
+              "es": "Clásico"
             },
             "CarouselElements": {
               "Title": {
                 "en": "Las Meninas by Velazquez",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Las Meninas de Velazquez",
+                "es": "Las Meninas de Velazquez"
               },
               "Picture": {
                 "Source": "Web",
@@ -111,8 +111,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "A traditionalist, huh? I like your taste!",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Un conservateur, hein ? Tu as bon goût !",
+                  "es": "¿Un conservador, verdad? ¡Tienes buen gusto!"
                 }
               }
             ]
@@ -125,9 +125,9 @@
       "Id": "LoveLookingAtArtNo",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Not at all",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "not at all",
+        "fr": "non, pas du tout",
+        "es": "no me gusta para nada"
       }
     }
   ]
