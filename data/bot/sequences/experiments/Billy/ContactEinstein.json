@@ -109,7 +109,7 @@
                         ],
                         "Commands": [
                           {
-                            "Type": "Node",
+                            "Type": "Leaf",
                             "Id": "DoYouHelpOftenYes",
                             "ElementValue": "1",
                             "CommandLabel": {
@@ -137,7 +137,7 @@
                             ]
                           },
                           {
-                            "Type": "Node",
+                            "Type": "Leaf",
                             "Id": "DoYouHelpOftenNo",
                             "ElementValue": "1",
                             "CommandLabel": {
