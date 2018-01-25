@@ -71,6 +71,28 @@
                     "es": "TBD 🤔"
                   }
                 }
+              ],
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "OrangeOrOrangeComeOn",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Oh come on... 😑",
+                    "fr": "Oh quand même.. 😑",
+                    "es": "TBD"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK OK I was joking… but thank you for offering to help..!",
+                        "fr": "OK OK Je rigole... merci de m'offrir ton aide en tout cas.. !",
+                        "es": "TBD"
+                      }
+                    }
+                  ]
+                }
               ]
             }
           }
