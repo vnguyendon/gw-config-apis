@@ -91,7 +91,21 @@
                         "es": "TBD"
                       }
                     }
-                  ]
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "DoYouHelpOften",
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Do you do that often?",
+                          "fr": "Est-ce que tu aides souvent les personnes autour de toi?",
+                          "es": "TBD"
+                        }
+                      }
+                    ]
+                  }
                 }
               ]
             }
