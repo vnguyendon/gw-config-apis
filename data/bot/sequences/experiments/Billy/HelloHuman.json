@@ -6,16 +6,16 @@
       "Type": "Text",
       "Label": {
         "en": "Hello, human. I’m so glad you found me! 😃",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Salut, humain. Je suis si content que tu m'aies trouvé ! 😃",
+        "es": "Hola, humano. ¡Estoy tan contento que me hubieras encontrado! 😃"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "I was starting to get bored…",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Je commençais à m'ennuyer...",
+        "es": "Empezaba a aburrirme..."
       }
     }
   ],
@@ -25,9 +25,9 @@
       "Id": "HelloRobot",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Hello to you!",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "hello to you!",
+        "fr": "salut à toi !",
+        "es": "¡hola!"
       },
       "LinksTo": {
         "Type": "Node",
@@ -37,16 +37,16 @@
             "Type": "Text",
             "Label": {
               "en": "So… I’m sorry but I think I’ve lost my memory drive…",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Bon... je suis désolé mais je crois que j'ai perdu mon disque dur...",
+              "es": "Bueno... disculpas pero creo que perdió mi unidad de memoria..."
             }
           },
           {
             "Type": "Text",
             "Label": {
-              "en": "have we met before? 🤔",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "Have we met before? 🤔",
+              "fr": "On s'est déjà rencontré ? 🤔",
+              "es": "¿Ya nos encontramos? 🤔"
             }
           }
         ],
@@ -56,17 +56,17 @@
             "Id": "HaveWeMetBeforeYes",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Yes, silly bot!",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "yes, silly bot!",
+              "fr": "oui, stupide robot !",
+              "es": "¡sí, estúpido!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "Of course! I remember you now… so sorry!",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Bien sûr ! Je me souviens de toi maintenant... désolé !",
+                  "es": "¡Seguro! Ahora me recuerdo de ti... ¡disculpas!"
                 }
               }
             ],
@@ -78,8 +78,8 @@
                   "Type": "Text",
                   "Label": {
                     "en": "You’re the one who likes puppies, right?",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "fr": "Tu es celui qui aime les chiots, c'est ça ?",
+                    "es": "¿Eres lo a quién le gustan los cachorros, verdad?"
                   }
                 },
                 {
@@ -97,17 +97,17 @@
                   "Id": "LikePuppiesYes",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s me!",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "en": "that’s me!",
+                    "fr": "c'est bien moi !",
+                    "es": "¡soy yo!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Hooray! Thanks for helping me remember!",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Hourra ! Merci de m'avoir aidé à me souvenir !",
+                        "es": "¡Viva! ¡Gracias por ayudarme a recordar!"
                       }
                     },
                     {
@@ -122,8 +122,8 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Now… where did we leave off last time…?",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Bon... où est-ce qu'on en était resté... ?",
+                        "es": "Bueno... ¿donde nos éramos dejados la ultima vez...?"
                       }
                     }
                   ]
@@ -133,17 +133,17 @@
                   "Id": "LikePuppiesNo",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "Nope, not me!",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "en": "nope, not me!",
+                    "fr": "non, c'est pas moi !",
+                    "es": "no, ¡no soy yo!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Oh dear… I’m so sorry, I think I need to lie down… 😵",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Ohlala... Désolé, je crois que j'ai besoin de m'allonger... 😵",
+                        "es": "Ay caramba... Disculpas, creo que necesito echarme... 😵"
                       }
                     }
                   ],
@@ -156,17 +156,17 @@
                         "Id": "LikePuppiesNoForgive",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "It’s ok, I forgive you",
-                          "fr": "TBD",
-                          "es": "TBD"
+                          "en": "it’s ok, I forgive you",
+                          "fr": "c'est bon, je te pardonne",
+                          "es": "está bien, te perdono"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
                               "en": "Thank you!",
-                              "fr": "TBD",
-                              "es": "TBD"
+                              "fr": "Merci !",
+                              "es": "¡Gracias!"
                             }
                           },
                           {
@@ -181,8 +181,8 @@
                             "Type": "Text",
                             "Label": {
                               "en": "Let’s chat some more so we can become better pals!",
-                              "fr": "TBD",
-                              "es": "TBD"
+                              "fr": "Viens, on discute encore comme ça on devient de meilleurs copains !",
+                              "es": "Vamos a discutir todavía, ¡así nos volvemos mejores amigos!"
                             }
                           }
                         ]
@@ -199,16 +199,16 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "No, never!",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Non, jamais !",
+              "es": "No, ¡nunca!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "How rude of me! I’m a robot!. Don’t worry, nothing like this:",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "en": "How rude of me! I’m a robot! Don’t worry, nothing like this:",
+                  "fr": "C'est tellement impoli de ma part ! Je suis un robot ! Mais ne t'inquiètes pas, rien de ce genre :",
+                  "es": "¡Es tan grosero de mi parte! ¡Soy un robot! Pero no te preocupas, nada como eso:"
                 }
               },
               {
@@ -228,33 +228,33 @@
                   "Id": "NotBadRobotGoodToKnow",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s good to know!",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "en": "that’s good to know!",
+                    "fr": "c'est bon à savoir !",
+                    "es": "¡está bien saberlo!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Anyway… thats me… let's talk about you",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Enfin bref... parlons un peu de toi !",
+                        "es": "Bueno... ¡vamos a parlar un poco de ti!"
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "I love learning about humans and asking questions 🤓",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "J'adore apprendre des choses sur les humains et poser des questions 🤓",
+                        "es": "Me encanta aprender cosas sobre los humanos y hacer preguntas 🤓"
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Let’s keep chatting so we can get to know each other more!",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Continuons à discuter pour apprendre à mieux se connaître !",
+                        "es": "¡Seguimos charlando, así podimos conocernos más!"
                       }
                     }
                   ]
