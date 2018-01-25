@@ -1,0 +1,53 @@
+{
+  "Type": "Node",
+  "Id": "NoSilly",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "...no, silly… when the human changes phone, we come with them! 😤",
+        "fr": "...mais non voyons.. quand un humain change de téléphone, on reste avec lui 😤",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DidInterrupt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Did I interrupt?",
+        "fr": "Excuse-moi?",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh! Hi! 😅",
+            "fr": "Oh! Salut! 😅",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I was just arguing with the mainframe about bot heaven",
+            "fr": "Je discutais juste du paradis des bots avec le processeur du téléphone",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That reminds me…",
+            "fr": "Tiens, d'ailleurs...",
+            "es": "TBD"
+          }
+        }
+      ],
+      "LinksToFragment": "LifeAfterDeathYesNo"
+    }
+  ]
+}
