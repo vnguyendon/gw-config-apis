@@ -35,7 +35,7 @@
       }
     },
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "LookingForFortune",
       "ElementValue": "1",
       "CommandLabel": {
