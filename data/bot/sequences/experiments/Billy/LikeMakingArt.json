@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Do you like making art yourself? 👨‍🎨",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "Do you like making art yourself? 🎨",
+        "fr": "Tu aimes créer des oeuvres artistiques ? 🎨",
+        "es": "¿Te gusta crear obras artisticas? 🎨"
       }
     }
   ],
@@ -18,17 +18,17 @@
       "Id": "LikeMakingArtYes",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Love it!",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "love it!",
+        "fr": "j'adore ça !",
+        "es": "¡me encanta!"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Me too, though I’m no good at it…",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Moi aussi, bien que je ne sois pas très doué...",
+            "es": "Yo también, aunque no soy muy talentoso..."
           }
         }
       ],
@@ -40,8 +40,8 @@
             "Type": "Text",
             "Label": {
               "en": "I bet if we teamed up we’d make great partners though",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Pourtant je parie que si on travaillait ensemble, on ferait une super équipe",
+              "es": "Sin embargo aposto que si trabajáramos juntos, seríamos un equipo estupendo"
             }
           },
           {
@@ -58,17 +58,17 @@
             "Id": "PaintingWithBot",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "You’re silly!",
-              "fr": "",
-              "es": ""
+              "en": "you’re silly!",
+              "fr": "t'es bête !",
+              "es": "¡eres tonto!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "I know! By the way… am I being helpful? I need to report back to my boss… ",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Je sais ! Et au fait... est-ce que je suis utile ? Je dois faire un rapport à mon chef...",
+                  "es": "¡Lo sé! Y por cierto... ¿soy útil? Tengo que dar parte a mi jefe..."
                 }
               }
             ],
@@ -81,9 +81,9 @@
                   "Id": "AbsolutelyHelpful",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "Absolutely",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "en": "absolutely",
+                    "fr": "absolument",
+                    "es": "absolutamente"
                   },
                   "Steps": [
                     {
@@ -101,17 +101,17 @@
                   "Id": "NotReallyHelpful",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "Not really",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "en": "not really",
+                    "fr": "pas vraiment",
+                    "es": "no lo eres realmente"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Ok… thanks for letting me know, I’ll try to improve!",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "D'accord... merci de me le dire, j'essaierai de m'améliorer !",
+                        "es": "Vale... gracias por decirmelo, ¡intentaré mejorar!"
                       }
                     }
                   ]
@@ -127,21 +127,20 @@
       "Id": "LikeMakingArtNo",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Not really",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "not really",
+        "fr": "pas vraiment",
+        "es": "no me gusta realmente"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Me neither, I’m no good at it...",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Moi non plus, je n'ai pas le talent pour...",
+            "es": "Yo tampoco, no tengo el talento suficiente..."
           }
         }
       ]
     }
   ]
 }
-   
