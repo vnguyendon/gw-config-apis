@@ -104,6 +104,72 @@
                           "es": "TBD"
                         }
                       }
+                    ],
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "DoYouHelpOftenYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Yes, it’s a great feeling 😌",
+                          "fr": "Oui, c'est important d'aider 😌",
+                          "es": "TBD 😌"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Right! It’s my favourite thing to do as a bot..",
+                              "fr": "Génial! C'est mon activité en tant qu'assistant-robot",
+                              "es": "TBD"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "ShowCards",
+                            "Parameters": {
+                              "Type": "Gif",
+                              "Path": "/data/common/giphycontent/hugs.json"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "DoYouHelpOftenNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "No, not enough",
+                          "fr": "Non, pas assez",
+                          "es": "TBD"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Well, you offered to help me, and that’s a start 😊",
+                              "fr": "Tu viens juste de m'aider, c'est un très bon début 😊",
+                              "es": "TBD"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "And I’m sure you’re just being modest… ",
+                              "fr": "Et je suis sur que tu es très modeste…",
+                              "es": "TBD"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "ShowCards",
+                            "Parameters": {
+                              "Type": "Gif",
+                              "Path": "/data/common/giphycontent/hugs.json"
+                            }
+                          }
+                        ]
+                      }
                     ]
                   }
                 }
