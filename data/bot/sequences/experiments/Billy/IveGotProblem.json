@@ -6,8 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "Just the human I wanted to see! I’ve got a problem… 😳",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Justement, l'humain que je voulais voir ! J'ai un problème... 😳",
+        "es": "¡Precisamente el humano que quería ver! Tengo un problema... 😳"
       }
     }
   ],
@@ -18,17 +18,17 @@
       "Id": "IveGotProblemGoAhead",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Go ahead!",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "go ahead!",
+        "fr": "dis moi tout!",
+        "es": "¡siga adelante!"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Well… I just can’t figure this out 🤔",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Eh bien... je n'arrive pas à décider 🤔",
+            "es": "Bueno... no logro decidir 🤔"
           }
         }
       ],
@@ -40,8 +40,8 @@
             "Type": "Text",
             "Label": {
               "en": "Is she smiling or frowning?",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Elle sourit ou elle fronce les sourcils ?",
+              "es": "¿Está sonriendo o frunciendo el ceño?"
             }
           },
           {
@@ -58,17 +58,17 @@
             "Id": "MonaLisaSmiling",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Smiling",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "smiling",
+              "fr": "elle sourit",
+              "es": "está sonriendo"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "Hooray! I can finish my homework now!",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
                 }
               },
               {
@@ -86,17 +86,17 @@
             "Id": "MonaLisaFrowning",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Frowning",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "frowning",
+              "fr": "elle fronce les sourcils",
+              "es": "está frunciendo el ceño"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "Hooray! I can finish my homework now!",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
                 }
               },
               {
@@ -114,17 +114,17 @@
             "Id": "MonaLisaNeither",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Neither",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "neither",
+              "fr": "aucun des deux",
+              "es": "ninguno"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "Hooray! I can finish my homework now!",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
                 }
               },
               {
