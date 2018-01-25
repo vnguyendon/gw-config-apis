@@ -1,5 +1,5 @@
 {
-  "Type": "Leaf",
+  "Type": "Node",
   "Id": "ContactEinstein",
   "Steps": [
     {
@@ -16,6 +16,28 @@
         "Source": "Web",
         "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
       }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "UhContactEinstein",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Uh..",
+        "fr": "Euh..",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok, well, I have a serious problem and need a super smart brain",
+            "fr": "Ok, bah, j'ai un sérieux problème et j'ai besoin de l'aide d'un cerveau super malin",
+            "es": "TBD"
+          }
+        }
+      ]
     }
   ]
 }
