@@ -37,6 +37,48 @@
             "es": "TBD"
           }
         }
+      ],
+      "LinksTo": [
+        {
+          "Type": "Node",
+          "Id": "EinsteinICanHelp",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "UhContactEinstein",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "I can help!",
+                "fr": "Je peux t'aider!",
+                "es": "TBD"
+              },
+              "LinksTo": [
+                {
+                  "Type": "Node",
+                  "Id": "OrangeOrOrange",
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Is an orange called an orange because of the colour?",
+                        "fr": "Est-ce qu'une orange est appelée une orange à cause de sa couleur?",
+                        "es": "TBD"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Or is the colour called ‘orange’ because of the fruit… 🤔",
+                        "fr": "Ou bien est-ce que c'est la couleur orange qui est appelée orange à cause du fruit.. 🤔?",
+                        "es": "TBD 🤔"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
       ]
     }
   ]
