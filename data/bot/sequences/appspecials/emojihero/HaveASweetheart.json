@@ -14,7 +14,7 @@
   "Randomize": "true",
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "HaveASweetheartYes",
       "ElementValue": "1",
       "CommandLabel": {
