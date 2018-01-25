@@ -2,6 +2,8 @@
   "Version": 15,
   "GroupName": "Test",
   "SequenceFiles": [
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/ContactEinstein.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy/ContactEinstein.json"]},
     { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
     { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/HelloHuman.json"]},
     { "order" : 15, "file":["/data/bot/sequences/experiments/Billy/IveGotProblem.json"]},
@@ -30,8 +32,6 @@
     { "order" : 70, "file":["/data/bot/sequences/experiments/Billy/AddictedBot.json"]},
     { "order" : 75, "file":["/data/bot/sequences/experiments/Billy/OhHiThere.json"]},
     { "order" : 75, "file":["/data/bot/sequences/experiments/Billy/OhHiThere.json"]},
-    { "order" : 80, "file":["/data/bot/sequences/experiments/Billy/ContactEinstein.json"]},
-    { "order" : 80, "file":["/data/bot/sequences/experiments/Billy/ContactEinstein.json"]},
     { "order" : 1500, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
     { "order" : 1500, "file":["/data/bot/sequences/surveys/BelongingsOrExperiences.json"]},
     { "order" : 1600, "file":["/data/bot/sequences/surveys/BrexitGoodOrBad.json"]},
