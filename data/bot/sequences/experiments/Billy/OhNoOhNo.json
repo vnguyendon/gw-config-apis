@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "...oh no oh no oh no oh no! 😱",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "... oh no oh no oh no oh no! 😱",
+        "fr": "... oh non oh non oh non oh non ! 😱",
+        "es": "... ¡oh no oh no oh no oh no! 😱"
       }
     }
   ],
@@ -17,9 +17,9 @@
       "Id": "IsSomethingWrong",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Something Wrong?",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "Something wrong?",
+        "fr": "Quelque chose ne va pas?",
+        "es": "¿Pasa algo malo?"
       },
       "LinksTo": {
         "Type": "Node",
@@ -29,24 +29,24 @@
             "Type": "Text",
             "Label": {
               "en": "Ah... hi! I'm in a panic!",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Ah... salut ! Je suis en panique !",
+              "es": "Ah... ¡hola! ¡Estoy preso del pánico! "
             }
           },
           {
             "Type": "Text",
             "Label": {
               "en": "The bots are performing some Shakespeare in fifteen minutes and I've forgotten to revise all my lines!",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Les bots jouent du Shakespeare dans quinze minutes et j'ai oublié de réviser mon texte !",
+              "es": "¡Los bots interpretan una obra de Shakespeare en quince minutos y olvidé revisar mi texto!"
             }
           },
           {
             "Type": "Text",
             "Label": {
               "en": "How do you usually de-stress?",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Comment tu fais d'habitude pour lutter contre le stress ?",
+              "es": "¿Cómo haces habitualmente para relajarte?"
             }
           }
         ],
@@ -56,17 +56,17 @@
             "Id": "DestressBreathe",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Breathing Slowly 😌",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "breathing slowly 😌",
+              "fr": "je respire lentement 😌",
+              "es": "respiro lentamente 😌"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "I'll try! But I'm not sure if I even have lungs, now that I think about it... 😕",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Je vais essayer ! Mais je ne suis pas srûr d'avoir des poumons, maintenant que j'y pense... 😕",
+                  "es": "¡Voy a provar! Pero no estoy seguro de tener pulmones, ahora que lo pienso... 😕"
                 }
               }
             ]
@@ -76,17 +76,17 @@
             "Id": "DestressMusic",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Music 🎶",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "music 🎶",
+              "fr": "musique 🎶",
+              "es": "música 🎶"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
                   "en": "Good idea! Now where did I leave my headphones... oh no oh no oh no! 😨",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "fr": "Bonne idée ! Oh, où est-ce que j'ai laissé mes écouteurs... oh non oh non oh non ! 😨",
+                  "es": "¡Buena idea! Oh, donde dejé mis auriculares... ¡oh no oh no oh no! 😨"
                 }
               }
             ]
@@ -96,17 +96,17 @@
             "Id": "DestressBath",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "A bath!",
-              "fr": "TBD",
-              "es": "TBD"
+              "en": "take a bath!",
+              "fr": "prendre un bain !",
+              "es": "¡tomar un baño!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "are you sure that's safe?",
-                  "fr": "TBD",
-                  "es": "TBD"
+                  "en": "Are you sure that's safe?",
+                  "fr": "Tu es sûr que c'est pas dangereux ?",
+                  "es": "¿Seguro que no es peligroso?"
                 }
               },
               {
