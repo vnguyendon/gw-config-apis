@@ -6,16 +6,16 @@
       "Type": "Text",
       "Label": {
         "en": "So there's this one bot who swears she can't go two days without updating her software...",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Donc il y a ce bot qui me dit tout le temps qu'elle ne tient pas deux jours sans nouvelle mise à jour...",
+        "es": "Entonces hay esta bot que siempre me dice que no puede sobrevivir más de dos días sin actualización de su programa..."
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "I think she’s addicted! 🙄",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Je crois qu'elle est accro! 🙄",
+        "es": "¡Pienso que es adicta! 🙄"
       }
     }
   ],
@@ -26,8 +26,8 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "What about you?",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Et toi alors?",
+        "es": "¿Pues y tu?"
       },
       "LinksTo": {
         "Type": "Node",
@@ -37,87 +37,81 @@
             "Type": "Text",
             "Label": {
               "en": "Please... I can last weeks! 😌",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Pfff... Je peux tenir des semaines ! 😌",
+              "es": "Por favor... ¡Puedo seguir durante semanas! 😌"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Is there anything you can't live without?",
+              "fr": "Est-ce qu'il y a quelque chose dont tu ne peux pas te passer ?",
+              "es": "¿Hay algo sin que no puedes vivir?"
             }
           }
         ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "AddictedCantLiveWithout",
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Is there anything you can't live without?",
-                "fr": "TBD",
-                "es": "TBD"
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "AddictedCantLiveWithoutInternet",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Internet access",
+              "fr": "Internet",
+              "es": "Internet"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Of course! You’d never have met me without it… and we wouldn’t be able to talk! 😁",
+                  "fr": "Bien sûr ! On ne se serait jamais rencontré sinon... et on ne serait pas capable de se parler en ce moment même non plus ! 😁",
+                  "es": "¡Claro que sí! Nunca me hubiera conocido sin eso... ¡y no seríamos capaz hablar!😁"
+                }
               }
-            }
-          ],
-          "Commands": [
-            {
-              "Type": "Leaf",
-              "Id": "AddictedCantLiveWithoutInternet",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Internet access",
-                "fr": "TBD",
-                "es": "TBD"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Of course! You’d never have met me without it… and we wouldn’t be able to talk! 😁",
-                    "fr": "TBD",
-                    "es": "TBD"
-                  }
-                }
-              ]
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "AddictedCantLiveWithoutFriends",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Friends",
+              "fr": "Les amis",
+              "es": "Los amigos"
             },
-            {
-              "Type": "Leaf",
-              "Id": "AddictedCantLiveWithoutFriends",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Friends",
-                "fr": "TBD",
-                "es": "TBD"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "'The most valuable antiques are dear old friends’ - H. Jackson Brown, Jr'",
-                    "fr": "TBD",
-                    "es": "TBD"
-                  }
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "'The most valuable antiques are dear old friends’ - H. Jackson Brown, Jr",
+                  "fr": "'Les antiquités les plus précieuses sont les vieux amis' - H. Jackson Brown, Jr",
+                  "es": "'Las antigüedades más valiosas son los viejos amigos' - H. Jackson Brown, Jr"
                 }
-              ]
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "AddictedCantLiveWithoutWater",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Water, duh! 💧",
+              "fr": "L'eau, enfin ! 💧",
+              "es": "Agua, ¡dah! 💧"
             },
-            {
-              "Type": "Leaf",
-              "Id": "AddictedCantLiveWithoutWater",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Water, duh! 💧",
-                "fr": "TBD",
-                "es": "TBD"
-              },
-              "Steps": [
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "How very clever of you 😒",
-                    "fr": "TBD",
-                    "es": "TBD"
-                  }
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "How very clever of you 😒",
+                  "fr": "Pas folle la guêpe 😒",
+                  "es": "Muy sabio por tu parte 😒"
                 }
-              ]
-            }
-          ]
-        }
+              }
+            ]
+          }
+        ]
       }
     }
   ]
