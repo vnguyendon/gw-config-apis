@@ -8,10 +8,18 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
   },
-  "OtherResumeActivity": {
+  "OtherResumeActivityToPutBack": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
-  },
+  },  
+ "OtherResumeActivity": {
+   "Provider": "Facebook",
+   "ID": "1001221899915187_1500926526611386",
+   "Fallback": {
+     "Provider": "AdMob",
+     "ID": "ca-app-pub-7822741681642396/2071767060"
+   }
+ },  
   "AfterSharing": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
