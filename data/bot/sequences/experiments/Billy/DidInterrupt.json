@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Id": "NoSilly",
+  "Tags": ["ResumeActivity"],
   "Steps": [
     {
       "Type": "Text",
