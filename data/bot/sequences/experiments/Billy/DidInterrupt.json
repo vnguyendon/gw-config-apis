@@ -6,8 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "...no, silly… when the human changes phone, we come with them! 😤",
-        "fr": "...mais non voyons.. quand un humain change de téléphone, on reste avec lui 😤",
-        "es": "TBD"
+        "fr": "...mais non voyons... quand un humain change de téléphone, on reste avec lui 😤",
+        "es": "...no, por favor... cuando un humano cambia su móvil, nos quedamos con ello 😤"
       }
     }
   ],
@@ -17,17 +17,17 @@
       "Id": "DidInterrupt",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Did I interrupt?",
-        "fr": "Excuse-moi?",
-        "es": "TBD"
+        "en": "did I interrupt?",
+        "fr": "excuse-moi?",
+        "es": "¿disculpas?"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Oh! Hi! 😅",
-            "fr": "Oh! Salut! 😅",
-            "es": "TBD"
+            "fr": "Oh ! Salut ! 😅",
+            "es": "¡Oh! ¡Hola! 😅"
           }
         },
         {
@@ -35,7 +35,7 @@
           "Label": {
             "en": "I was just arguing with the mainframe about bot heaven",
             "fr": "Je discutais juste du paradis des bots avec le processeur du téléphone",
-            "es": "TBD"
+            "es": "Estaba solo charlando del paraíso de los bots con el procesador del teléfono"
           }
         },
         {
@@ -43,11 +43,13 @@
           "Label": {
             "en": "That reminds me…",
             "fr": "Tiens, d'ailleurs...",
-            "es": "TBD"
+            "es": "A propósito, eso me recuerda..."
           }
         }
-      ]
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "LifeAfterDeathYesNo"
+      }
     }
   ]
 }
-   
