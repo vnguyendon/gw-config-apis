@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Id": "YoureFinallyHere",
+  "Tags": ["ResumeActivity"]
   "Steps": [
     {
       "Type": "Text",
