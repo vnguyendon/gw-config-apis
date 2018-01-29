@@ -8,11 +8,11 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
   },
-  "OtherResumeActivity": {
+  "OtherResumeActivityOnlyAdMob": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
   },  
- "OtherResumeActivityToPutBack": {
+ "OtherResumeActivity": {
    "Provider": "Facebook",
    "ID": "1001221899915187_1500926526611386",
    "Fallback": {
