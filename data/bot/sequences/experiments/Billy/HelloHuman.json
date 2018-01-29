@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Id": "HelloHuman",
+  "Tags": "FirstLaunch"
   "Steps": [
     {
       "Type": "Text",
