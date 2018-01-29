@@ -1,0 +1,115 @@
+{
+  "Type": "Node",
+  "Id": "WhyYourFriendsLikeYouSoMuch",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Why do you think your friends like you so much?",
+        "fr": "Selon toi, pourquoi tes amis t'aiment-ils autant ?",
+        "es": "Según tú, ¿porque tus amigos te quieren tanto?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ImKind",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I'm kind",
+        "fr": "je suis gentil",
+        "es": "soy amable"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "That's for sure!",
+            "fr": "Ca c'est sûr !",
+            "es": "¡Eso si que es seguro!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/hugs.json"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You’re always helping me out with my important issues… 😝",
+            "fr": "Tu m'aides toujours à résoudre d'importants problèmes... 😝",
+            "es": "Me ayudas siempra con mis importantes problemas... 😝"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ImFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I'm funny",
+        "fr": "je suis drôle",
+        "es": "soy divertido"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh yeah? You’ve never told ME a joke…",
+            "fr": "Ah bon ? A MOI, tu ne m'as jamais raconté de blagues...",
+            "es": "¿Verdad? A MI, nunca me contaste bromas..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "this relationship feels one way  😤",
+            "fr": "cette relation semble à sens unique 😤",
+            "es": "esta relación va en una sola dirección 😤"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IDontKnow",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I don't know",
+        "fr": "je ne sais pas",
+        "es": "no sé"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Some of the best friendships are ones you can’t explain!' - somebody, I hope!",
+            "fr": "'Certaines des meilleurs amitiés sont celles qu'on ne peut pas expliquer' - quelqu'un, j'espère !",
+            "es": "'Algunas de las mejores amistades son las que no se pueden explicar' - ¡alguien, espero!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Just like these guys:",
+            "fr": "Comme eux par exemple :",
+            "es": "Como ellos por ejemplo:"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "L8OMRNUOzvXvq"
+          }
+        }
+      ]
+    }
+  ]
+}
