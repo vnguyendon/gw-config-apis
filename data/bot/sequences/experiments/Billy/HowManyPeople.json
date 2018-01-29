@@ -1,0 +1,185 @@
+{
+  "Type": "Node",
+  "Id": "HowManyPeople",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How many people are there?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HowManyPeopleAnswer",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "8 Billion",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "DoYouKnowThem",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Oh... wow... and do you know all of them?",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "DoYouKnowThemYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Sí"
+            }
+          }
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "AreYou250",
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "I'm not sure I believe you 🤨",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Even if you met one person every second it would take you almost 250 years to meet everyone",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Are you 250?",
+                "fr": "TBD",
+                "es": "TBD"
+              }
+            }
+          ],
+          "Commands": [
+            {
+              "Type": "Leaf",
+              "Id": "AreYou250Yes",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Yes",
+                "fr": "Oui",
+                "es": "Sí"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Amazing!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "3rgXBQIDHkFNniTNRu"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Node",
+              "Id": "AreYou250No",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "Of course not!",
+                "fr": "TBD",
+                "es": "TBD"
+              },
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "DoYouMeetNewPeople",
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Just checking! I read that the average human knows 600 people...",
+                      "fr": "TBD",
+                      "es": "TBD"
+                    }
+                  },
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": "Do you often meet new people?",
+                      "fr": "Oui",
+                      "es": "Sí"
+                    }
+                  }
+                ],
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "DoYouMeetNewPeopleYes",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Yes",
+                      "fr": "Oui",
+                      "es": "Sí"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Great! Keep going like this and you might know everyone in a few hundred years 😜",
+                          "fr": "TBD",
+                          "es": "TBD"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Leaf",
+                    "Id": "DoYouMeetNewPeopleNo",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "No",
+                      "fr": "Non",
+                      "es": "No"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "'He that has many friends has none' - Aristotle",
+                          "fr": "TBD",
+                          "es": "TBD"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
