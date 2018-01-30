@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "JusticeOrVegetables",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "what is more important",
+        "fr": "qu'est-ce qui est le plus important",
+        "es": "qué es lo más importante"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JusticeImportantVSVegetables",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "justice ⚖",
+        "fr": "la justice ⚖",
+        "es": "la justicia ⚖"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUNda31OA8Rong6dm8"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "let's stand up for it!",
+            "fr": "levons-nous pour la justice !",
+            "es": "¡luchamos por eso!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "VegetablesImportantVSJustice",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "vegetables 🥕🥦",
+        "fr": "les légumes 🥕🥦",
+        "es": "las verduras 🥕🥦"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "bon appétit!",
+            "fr": "bon appétit !",
+            "es": "¡bon appétit!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l1J3PCjCldwNc8ShG"
+          }
+        }
+      ]
+    }
+  ]
+}
+
