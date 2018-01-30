@@ -13,8 +13,8 @@
     {
       "Type": "Image",
       "Parameters": {
-        "Source": "Internal",
-        "Path": "/themes/fashion?preview=pasteque+dress.jpg"
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1517325347/watermelon_pwdlum.jpg"
       }
     }
   ],
