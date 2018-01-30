@@ -1,0 +1,118 @@
+{
+  "Type": "Node",
+  "Id": "FashionTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OK, is this a good look? 🤔",
+        "fr": "Ok question, tu valides ce look ? 🤔",
+        "es": "Vale, ¿te parece ser un buen estilo? 🤔"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/fashion?preview=pasteque+dress.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesGoodLook",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK… um… I can book you an eye test if you like? 👓",
+            "fr": "Ok… hmm… Je peux te réserver un rendez-vous chez l'ophtalmo si tu veux ? 👓",
+            "es": "Bueno… Puedo reservar un examen de la vista si quieres ? 👓"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RudeGoodLook",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "SoRude",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "So rude…",
+              "fr": "Très drôle...",
+              "es": "Jajaja..."
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "😜",
+                  "fr": "😜",
+                  "es": "😜"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NoGoodLook",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Alright… you passed the test. Will you be my stylist?",
+            "fr": "Très bien... tu as réussi le test. Veux-tu être ma styliste ?",
+            "es": "Vale... pasaste la prueba. ¿Quieres ser mi estilista?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RudeGoodLook",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "CantWearClothes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "You can’t even wear clothes!",
+              "fr": "Tu ne peux même pas porter de vêtements !",
+              "es": "¡Ni siquiera puedes llevar ropa!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I can dream, ok! 😤",
+                  "fr": "J'ai le droit de rêver, ça va ! 😤",
+                  "es": "¡Puedo soñar vale! 😤"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
+
+
+
