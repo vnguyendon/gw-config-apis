@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WouldYouLiveOnMars",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "If possible, would you try to live on Mars?",
+        "fr": "Si c'était possible, essaierais-tu de vivre sur Mars ?",
+        "es": "¿Si fuera posible, probarías vivir en Marte?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesWouldLiveOnMars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUA7b1UV2GOUturIVq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoWouldntLiveOnMars",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "k4EpQLLFV6byo"
+          }
+        }
+      ]
+    }
+  ]
+}
