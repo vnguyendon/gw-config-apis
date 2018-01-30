@@ -5,9 +5,17 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "I couldn’t sleep AT ALL last night… something was bothering me so much: why must this gate be closed?!",
-        "fr": "Je n'ai pas pu fermer l'oeil de la nuit... quelque chose me turlupinait : pourquoi est-ce que cette porte doit rester fermée ?!",
-        "es": "No pegué los ojos esta noche... algo me preocupaba: ¿porqué esta puerta tiene que estar cerrada?"
+        "en": "I couldn’t sleep AT ALL last night… something was bothering me so much:",
+        "fr": "Je n'ai pas pu fermer l'oeil de la nuit... quelque chose me turlupinait :",
+        "es": "No pegué los ojos esta noche... algo me preocupaba:"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "why must this gate be closed?!",
+        "fr": "pourquoi est-ce que cette porte doit rester fermée ?!",
+        "es": "¿porqué esta puerta tiene que estar cerrada?"
       }
     },
     {
@@ -35,9 +43,17 @@
           {
             "Type": "Text",
             "Label": {
-              "en": "😫 It was part of my homework on understanding humans! I just couldn’t do it on my own… how do you prefer to work?",
-              "fr": "😫 C'est mon boulot d'essayer de comprendre les humains ! Je n'y arrivais juste pas tout seul... comment préfères-tu travailler toi ? ",
-              "es": "😫 ¡Comprender a los humanos forma parte de mis tareas! No podía conseguirlo solo... y tú, ¿como prefieres trabajar ?"
+              "en": "😫 It was part of my homework on understanding humans!",
+              "fr": "😫 C'est mon boulot d'essayer de comprendre les humains !",
+              "es": "😫 ¡Comprender a los humanos forma parte de mis tareas!"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": " I just couldn’t do it on my own… how do you prefer to work?",
+              "fr": "Je n'y arrivais juste pas tout seul... comment préfères-tu travailler toi ? ",
+              "es": "y tú, ¿como prefieres trabajar ?"
             }
           }
         ],
