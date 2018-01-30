@@ -16,162 +16,144 @@
         "Source": "Web",
         "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
       }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I have a serious problem and need a super smart brain",
+        "fr": "J'ai un sérieux problème et j'ai besoin de l'aide d'un cerveau super malin",
+        "es": "TBD"
+      }
     }
   ],
   "Commands": [
     {
       "Type": "Node",
-      "Id": "UhContactEinstein",
+      "Id": "EinsteinICanHelp",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Uh..",
-        "fr": "Euh..",
+        "en": "I can help!",
+        "fr": "Je peux t'aider!",
         "es": "TBD"
       },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Ok, well, I have a serious problem and need a super smart brain",
-            "fr": "Ok, bah, j'ai un sérieux problème et j'ai besoin de l'aide d'un cerveau super malin",
-            "es": "TBD"
-          }
-        }
-      ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "EinsteinICanHelp",
+        "Id": "OrangeOrOrange",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Is an orange called an orange because of the colour?",
+              "fr": "Est-ce qu'une orange est appelée une orange à cause de sa couleur?",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Or is the colour called ‘orange’ because of the fruit… 🤔",
+              "fr": "Ou bien est-ce que c'est la couleur orange qui est appelée orange à cause du fruit.. 🤔?",
+              "es": "TBD 🤔"
+            }
+          }
+        ],
         "Commands": [
           {
             "Type": "Node",
-            "Id": "UhContactEinstein",
+            "Id": "OrangeOrOrangeComeOn",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "I can help!",
-              "fr": "Je peux t'aider!",
+              "en": "Oh come on... 😑",
+              "fr": "Oh quand même.. 😑",
               "es": "TBD"
             },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "OK OK I was joking… but thank you for offering to help..!",
+                  "fr": "OK OK Je rigole... merci de m'offrir ton aide en tout cas.. !",
+                  "es": "TBD"
+                }
+              }
+            ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "OrangeOrOrange",
+              "Id": "DoYouHelpOften",
               "Steps": [
                 {
                   "Type": "Text",
                   "Label": {
-                    "en": "Is an orange called an orange because of the colour?",
-                    "fr": "Est-ce qu'une orange est appelée une orange à cause de sa couleur?",
+                    "en": "Do you do that often?",
+                    "fr": "Est-ce que tu aides souvent les personnes autour de toi?",
                     "es": "TBD"
-                  }
-                },
-                {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Or is the colour called ‘orange’ because of the fruit… 🤔",
-                    "fr": "Ou bien est-ce que c'est la couleur orange qui est appelée orange à cause du fruit.. 🤔?",
-                    "es": "TBD 🤔"
                   }
                 }
               ],
               "Commands": [
                 {
-                  "Type": "Node",
-                  "Id": "OrangeOrOrangeComeOn",
+                  "Type": "Leaf",
+                  "Id": "DoYouHelpOftenYes",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "Oh come on... 😑",
-                    "fr": "Oh quand même.. 😑",
+                    "en": "Yes, it’s a great feeling 😌",
+                    "fr": "Oui, c'est important d'aider 😌",
+                    "es": "TBD 😌"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Right! It’s my favourite thing to do as a bot..",
+                        "fr": "Génial! C'est mon activité en tant qu'assistant-robot",
+                        "es": "TBD"
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowCards",
+                      "Parameters": {
+                        "Type": "Gif",
+                        "Path": "/data/common/giphycontent/hugs.json"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "DoYouHelpOftenNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "No, not enough",
+                    "fr": "Non, pas assez",
                     "es": "TBD"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "OK OK I was joking… but thank you for offering to help..!",
-                        "fr": "OK OK Je rigole... merci de m'offrir ton aide en tout cas.. !",
+                        "en": "Well, you offered to help me, and that’s a start 😊",
+                        "fr": "Tu viens juste de m'aider, c'est un très bon début 😊",
                         "es": "TBD"
                       }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "And I’m sure you’re just being modest… ",
+                        "fr": "Et je suis sur que tu es très modeste…",
+                        "es": "TBD"
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowCards",
+                      "Parameters": {
+                        "Type": "Gif",
+                        "Path": "/data/common/giphycontent/hugs.json"
+                      }
                     }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "DoYouHelpOften",
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "Do you do that often?",
-                          "fr": "Est-ce que tu aides souvent les personnes autour de toi?",
-                          "es": "TBD"
-                        }
-                      }
-                    ],
-                    "Commands": [
-                      {
-                        "Type": "Leaf",
-                        "Id": "DoYouHelpOftenYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Yes, it’s a great feeling 😌",
-                          "fr": "Oui, c'est important d'aider 😌",
-                          "es": "TBD 😌"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Right! It’s my favourite thing to do as a bot..",
-                              "fr": "Génial! C'est mon activité en tant qu'assistant-robot",
-                              "es": "TBD"
-                            }
-                          },
-                          {
-                            "Type": "Action",
-                            "Name": "ShowCards",
-                            "Parameters": {
-                              "Type": "Gif",
-                              "Path": "/data/common/giphycontent/hugs.json"
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "Type": "Leaf",
-                        "Id": "DoYouHelpOftenNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "No, not enough",
-                          "fr": "Non, pas assez",
-                          "es": "TBD"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Well, you offered to help me, and that’s a start 😊",
-                              "fr": "Tu viens juste de m'aider, c'est un très bon début 😊",
-                              "es": "TBD"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "And I’m sure you’re just being modest… ",
-                              "fr": "Et je suis sur que tu es très modeste…",
-                              "es": "TBD"
-                            }
-                          },
-                          {
-                            "Type": "Action",
-                            "Name": "ShowCards",
-                            "Parameters": {
-                              "Type": "Gif",
-                              "Path": "/data/common/giphycontent/hugs.json"
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
+                  ]
                 }
               ]
             }
