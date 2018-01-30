@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CanRainSpoilYourDay",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Can rain spoil you day?",
+        "fr": "Est-ce que la pluie peut gâcher ta journée ?",
+        "es": "¿Puede la lluvia arruinar tu día?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesRainSpoilDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7TKIqinTbvtBivK0"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoRainDontSpoilDay",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2SqdlKgzWTH0pgK4"
+          }
+        }
+      ]
+    }
+  ]
+}
