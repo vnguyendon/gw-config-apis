@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "DoYouLikeSurprises",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like surprises?",
+        "fr": "Tu aimes les surprises ?",
+        "es": "¿Te gustan las sorpresas?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LikeSurprises",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok... I’ll try remember that",
+            "fr": "D'accord... j'essaierai de m'en souvenir",
+            "es": "Vale... probaré recordar eso"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I bet you'll enjoy this then:",
+            "fr": "Je parie que ça va te plaire alors :",
+            "es": "Entonces apuesto que eso te gustará:"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "t0TNY68t8wq2Y"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DontLikeSurprises",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Just like me! I like plans and order…",
+            "fr": "Comme moi ! J'aime l'organisation et l'ordre...",
+            "es": "¡Yo tampoco! Me gustan la organización y el orden"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But some surprises aren’t so bad:",
+            "fr": "Mais certaines surprises ne sont pas si mal :",
+            "es": "Pero hay algunas sorpresas que no son malas:"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "t0TNY68t8wq2Y"
+          }
+        }
+      ]
+    }
+  ]
+}
+
+
