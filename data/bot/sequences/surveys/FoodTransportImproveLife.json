@@ -50,7 +50,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "BetterRevenues",
+      "Id": "BetterTransports",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "better transports 🚇🚀🚦",
@@ -85,4 +85,3 @@
     }
   ]
 }
-
