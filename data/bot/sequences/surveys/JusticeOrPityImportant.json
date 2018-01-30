@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "JusticeOrPityImportant",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "what is more important",
+        "fr": "qu'est-ce qui est le plus important",
+        "es": "qué es lo más importante"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JusticeImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "justice ⚖",
+        "fr": "la justice ⚖",
+        "es": "la justicia ⚖"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUNda31OA8Rong6dm8"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "let's stand up for it!",
+            "fr": "levons-nous pour la justice !",
+            "es": "¡luchamos por la justicia!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PityImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "pity",
+        "fr": "la compassion",
+        "es": "la compasión"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "do you have pity then for my friend ?",
+            "fr": "compatis-tu alors pour mon ami ?",
+            "es": "¿entonces compadeces con mi amigo claro?"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l9mASFqtemeKk"
+          }
+        }
+      ]
+    }
+  ]
+}
