@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PreferYourEyesOrYourSmile",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you prefer about yourself?",
+        "fr": "Qu'est-ce que tu préfères chez toi ?",
+        "es": "¿Qué prefieres sobre tu cara?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferMyEyes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your eyes",
+        "fr": "ton regard",
+        "es": "tu mirada"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "9JLQKmspQAMWQ"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferMySmile",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "your smile",
+        "fr": "ton sourire",
+        "es": "tu sonrisa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oDLDbBgf0dkis"
+          }
+        }
+      ]
+    }
+  ]
+}
