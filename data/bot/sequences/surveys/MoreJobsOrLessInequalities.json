@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreJobsOrLessInequalities",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is the most important for your country?",
+        "fr": "Qu'est-ce qui est le plus important pour ton pays ?",
+        "es": "¿Qué es lo más importante para tu país?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreJobsMostImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "more jobs",
+        "fr": "plus d'emplois'",
+        "es": "más empleos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "nCVVpakhBTwBi"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LessInequalitiesMoreImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "less inequalities",
+        "fr": "moins d'inégalités'",
+        "es": "menos desigualdades"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "jFaFmyZNipl4Y"
+          }
+        }
+      ]
+    }
+  ]
+}
