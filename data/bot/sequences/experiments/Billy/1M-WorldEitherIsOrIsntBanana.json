@@ -28,9 +28,7 @@
         "en": "how useless!",
         "fr": "tellement inutile !",
         "es": "¡tan inútil!"
-      }
-    },
-    {
+      },
       "LinksTo": {
         "Type": "Node",
         "Id": "WhatWouldBeUseful",
