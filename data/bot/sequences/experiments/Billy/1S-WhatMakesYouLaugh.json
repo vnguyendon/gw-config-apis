@@ -1,0 +1,98 @@
+{
+  "Type": "Node",
+  "Id": "WhatMakesYouLaugh",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Lord Byron said “always laugh when you can - it is cheap medicine”. What a clever fellow! 🧐",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What makes you laugh most?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughFriends",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Friends",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11caEgnSDg0avS"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughJokes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Jokes",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm learning those fast! I just completed 'knock knock'",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11caEgnSDg0avS"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughChatbots",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Chatbots",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You're very kind! I haven't even completed my humour training... just you wait!",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/jokes.json"
+          }
+        }
+      ]
+    }
+  ]
+}
