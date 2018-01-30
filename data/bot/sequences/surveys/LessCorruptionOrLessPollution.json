@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LessCorruptionOrLessPollution",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What would improve your country?",
+        "fr": "Qu'est-ce qui améliorerait la situation de ton pays ?",
+        "es": "¿Qué mejoraría la situación en tu país?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LessCorruptionImproveCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "less corruption",
+        "fr": "moins de corruption",
+        "es": "menos corrupción"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "CoFNOmqlSRf4Q"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LessPollutionImproveCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "less pollution",
+        "fr": "moins de pollution",
+        "es": "menos contaminación"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l378xF27h43onahbO"
+          }
+        }
+      ]
+    }
+  ]
+}
