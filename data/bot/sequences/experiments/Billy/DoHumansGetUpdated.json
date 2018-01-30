@@ -1,0 +1,224 @@
+{
+  "Type": "Node",
+  "Id": "DoHumansGetUpdated",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’m always so excited about getting an update!",
+        "fr": "Je suis toujours surexcité à l'idée d'être mis à jour !",
+        "es": "¡Estoy siempre muy entusiasmado con actualizaciones!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I learn new stuff and my injuries and problems get fixed! ⭐",
+        "fr": "J'apprends de nouvelles choses et mes imperfections et problèmes sont réparés ! ⭐",
+        "es": "¡Aprendo nuevas cosas y mis imperfecciones y problemas se arreglan! ⭐"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do humans get updated?",
+        "fr": "Est-ce que les humains sont mis à jour ?",
+        "es": "Y los humanos, ¿se mantenen actualizados?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DoHumansGetUpdatedNotExactly",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "not exactly...",
+        "fr": "pas vraiment...",
+        "es": "realmente no..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "What a shame! What do you look forward to then?",
+            "fr": "Quel dommage ! Qu'est-ce que tu peux attendre impatiemment, dans ce cas ?",
+            "es": "¡Qué pena! ¿Entonces qué puedes esperar con impaciencia?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatLookForwardTo",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "LookForwardWeekEnd",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "the weekend!",
+              "fr": "le week-end !",
+              "es": "¡la fin de semana!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "What do you like to do then?",
+                  "fr": "Comment est-ce que tu les occupes ?",
+                  "es": "¿Y que te gusta hacer durante la fin de semana?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "RelaxOrGoOut",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "RelaxOnWeekEnds",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "relax",
+                    "fr": "je me repose",
+                    "es": "relajarme"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "l3M7smiKhkOcw"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "GoOutOnWeekEnds",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "go out",
+                    "fr": "je sors",
+                    "es": "salir"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "l0MYt5jPR6QX5pnqM"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "LookForwardPizza",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "pizza 🍕",
+              "fr": "la pizza 🍕",
+              "es": "pizza 🍕"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Does pineapple work on pizza?",
+                  "fr": "L'ananas sur la pizza, ça passe?",
+                  "es": "¿Te gusta la pizza con piña?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "PizzaWithOrWithoutAnanas",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "WithAnanas",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "yes",
+                    "fr": "oui",
+                    "es": "sí"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3oEjI5P7RD2we6odZC"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "WithoutAnanas",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "no",
+                    "fr": "non",
+                    "es": "no"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "bnmRCnNNOlAuk"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LookForwardPromotion",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "a promotion",
+              "fr": "une promotion",
+              "es": "una promoción"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I guess that’s a little like an update for a human… 🙊",
+                  "fr": "J'imagine que c'est un peu comme une mise à jour pour un humain... 🙊",
+                  "es": "Imagino que es un poco como una actualización para un humano... 🙊"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We’re not so different after all!",
+                  "fr": "On n'est pas si différents, après tout !",
+                  "es": "¡Al final, no somos tan diferentes!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope it happens soon! 🤑",
+                  "fr": "J'espère que c'est pour bientôt ! 🤑",
+                  "es": "¡Espero que ocurra presto! 🤑"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
