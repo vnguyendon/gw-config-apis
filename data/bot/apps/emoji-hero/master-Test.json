@@ -1,132 +1,34 @@
 {
-  "Version": 1,
+  "Version": 2,
   "GroupName": "Test",
   "SequenceFiles": [
-    {
-      "order": 15,
-      "file": [
-        "/data/bot/sequences/surveys/BelongingsOrExperiences.json"
-      ]
-    },
-    {
-      "order": 15,
-      "file": [
-        "/data/bot/sequences/surveys/BelongingsOrExperiences.json"
-      ]
-    },
-    {
-      "order": 16,
-      "file": [
-        "/data/bot/sequences/surveys/BrexitGoodOrBad.json"
-      ]
-    },
-    {
-      "order": 16,
-      "file": [
-        "/data/bot/sequences/surveys/BrexitGoodOrBad.json"
-      ]
-    },
-    {
-      "order": 17,
-      "file": [
-        "/data/bot/sequences/surveys/JobsReservedForMenWomen.json"
-      ]
-    },
-    {
-      "order": 17,
-      "file": [
-        "/data/bot/sequences/surveys/JobsReservedForMenWomen.json"
-      ]
-    },
-    {
-      "order": 18,
-      "file": [
-        "/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"
-      ]
-    },
-    {
-      "order": 18,
-      "file": [
-        "/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"
-      ]
-    },
-    {
-      "order": 18,
-      "file": [
-        "/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"
-      ]
-    },
-    {
-      "order": 18,
-      "file": [
-        "/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json"
-      ]
-    },
-    {
-      "order": 19,
-      "file": [
-        "/data/bot/sequences/surveys/FindLoveNeighbourhoodOrOnline.json"
-      ]
-    },
-    {
-      "order": 19,
-      "file": [
-        "/data/bot/sequences/surveys/FindLoveNeighbourhoodOrOnline.json"
-      ]
-    },
-    {
-      "order": 20,
-      "file": [
-        "/data/bot/sequences/surveys/EnjoyMost.json"
-      ]
-    },
-    {
-      "order": 20,
-      "file": [
-        "/data/bot/sequences/surveys/EnjoyMost.json"
-      ]
-    },
-    {
-      "order": 21,
-      "file": [
-        "/data/bot/sequences/surveys/HoursWatchingTV.json"
-      ]
-    },
-    {
-      "order": 21,
-      "file": [
-        "/data/bot/sequences/surveys/HoursWatchingTV.json"
-      ]
-    },
-    {
-      "order": 22,
-      "file": [
-        "/data/bot/sequences/surveys/PartnerOrRevenues.json"
-      ]
-    },
-    {
-      "order": 22,
-      "file": [
-        "/data/bot/sequences/surveys/PartnerOrRevenues.json"
-      ]
-    },
-    {
-      "order": 23,
-      "file": [
-        "/data/bot/sequences/surveys/PeopleHappierInYourCountry.json"
-      ]
-    },
-    {
-      "order": 23,
-      "file": [
-        "/data/bot/sequences/surveys/PeopleHappierInYourCountry.json"
-      ]
-    },
-    {
-      "order": 190,
-      "file": [
-        "/data/bot/sequences/experiments/VisitNext.json"
-      ]
-    }
+    { "order" : 10, "file":["/data/bot/sequences/surveys/LessCorruptionOrLessPollution.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/surveys/LessCorruptionOrLessPollution.json"]},
+    { "order" : 15, "file":["/data/bot/sequences/experiments/Billy/MoreJobsOrLessInequalities.json"]},
+    { "order" : 15, "file":["/data/bot/sequences/experiments/Billy/MoreJobsOrLessInequalities.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/GoodAtWrestlingMushrooms.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy/GoodAtWrestlingMushrooms.json"]},
+    { "order" : 25, "file":["/data/bot/sequences/experiments/Billy/AbsurdToQuestionAbsurdity.json"]},
+    { "order" : 25, "file":["/data/bot/sequences/experiments/Billy/AbsurdToQuestionAbsurdity.json"]},
+    { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/CanRainSpoilYourDay.json"]},
+    { "order" : 30, "file":["/data/bot/sequences/experiments/Billy/CanRainSpoilYourDay.json"]},
+    { "order" : 35, "file":["/data/bot/sequences/experiments/Billy/WouldYouLiveOnMars.json"]},
+    { "order" : 35, "file":["/data/bot/sequences/experiments/Billy/WouldYouLiveOnMars.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/EyesOrSmile.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/experiments/Billy/EyesOrSmile.json"]},
+    { "order" : 45, "file":["/data/bot/sequences/experiments/Billy/OptimismOrRealism.json"]},
+    { "order" : 45, "file":["/data/bot/sequences/experiments/Billy/OptimismOrRealism.json"]},
+    { "order" : 50, "file":["/data/bot/sequences/experiments/Billy/JusticeOrVegetables.json"]},
+    { "order" : 50, "file":["/data/bot/sequences/experiments/Billy/JusticeOrVegetables.json"]},
+    { "order" : 55, "file":["/data/bot/sequences/experiments/Billy/FoodTransportImproveLife.json"]},
+    { "order" : 55, "file":["/data/bot/sequences/experiments/Billy/FoodTransportImproveLife.json"]},
+    { "order" : 60, "file":["/data/bot/sequences/experiments/Billy/CheaperFoodTransportImprove.json"]},
+    { "order" : 60, "file":["/data/bot/sequences/experiments/Billy/CheaperFoodTransportImprove.json"]},
+    { "order" : 65, "file":["/data/bot/sequences/experiments/Billy/HomeCountryMoreTolerant.json"]},
+    { "order" : 65, "file":["/data/bot/sequences/experiments/Billy/HomeCountryMoreTolerant.json"]},
+    { "order" : 70, "file":["/data/bot/sequences/experiments/Billy/JusticeOrPityImportant.json"]},
+    { "order" : 70, "file":["/data/bot/sequences/experiments/Billy/JusticeOrPityImportant.json"]},
+    { "order" : 75, "file":["/data/bot/sequences/experiments/Billy/MostPeopleBenevolent.json"]},
+    { "order" : 75, "file":["/data/bot/sequences/experiments/Billy/MostPeopleBenevolent.json"]}
   ]
 }
