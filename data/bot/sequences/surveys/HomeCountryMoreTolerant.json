@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "HomeCountryMoreTolerant",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "your home country is more tolerant than most?",
+        "fr": "ton pays est-il plus tolérant que la plupart des autres pays ?",
+        "es": "¿opinas que tu país es más tolerante que los otros?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHomeCountryMoreTolerant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "then do you dare changing your profile picture for a picture of my friend?",
+            "fr": "du coup cap' de mettre mon ami en photo de profil ?",
+            "es": "¿entonces eres capaz cambiar tu foto de profil para poner mi amigo en su lugar?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/strange/small/10488006_715634765156907_4178246020264377450_n.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHomeCountryMoreTolerant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "umm I guess that you couldn't have that as a photo identification in your country",
+            "fr": "ah donc j'imagine que dans ton pays, ça ça ne pourrait pas être ta photo d'identité",
+            "es": "pues imagino que no podrías tener esta foto en tu pasaporte en tu país"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/strange/small/10488006_715634765156907_4178246020264377450_n.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
