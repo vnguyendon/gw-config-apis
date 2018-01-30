@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "FoodTransportImproveLife",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "what would improve your life the most",
+        "fr": "qu'est-ce qui améliorerait le plus ta vie",
+        "es": "qué mejoraría tu vida lo más"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BetterFood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "better food 🥑🥘🍇",
+        "fr": "une meilleure alimentation 🥑🥘🍇",
+        "es": "mejor comida 🥑🥘🍇"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "eAH6GS73H0Qxy"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "there you go I am hungry again...",
+            "fr": "et voilà ca y est j'ai faim...",
+            "es": "aquí está tengo hambre..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BetterRevenues",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "better transports 🚇🚀🚦",
+        "fr": "de meilleurs transports 🚇🚀🚦",
+        "es": "mejores servicios de transporte 🚇🚀🚦"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ojtdpE8iqOgsE"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "me too I guess, look what happened to me last time I caught the bus...",
+            "fr": "moi aussi j'imagine, regarde ce qui m'est arrivé la dernière fois que j'ai sauté dans le bus...",
+            "es": "creo que yo también, miras lo que occurío la última vez que tomé el autobús..."
+          }
+        }
+      ]
+    }
+  ]
+}
+
