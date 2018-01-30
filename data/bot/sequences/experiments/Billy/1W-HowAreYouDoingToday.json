@@ -1,0 +1,256 @@
+{
+  "Type": "Node",
+  "Id": "HowAreYouDoingToday",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": " So, how are you doing today? 🌞",
+        "fr": "Alors, comment tu te sens aujourd'hui ? 🌞",
+        "es": "Bueno, ¿como te sientes hoy? 🌞"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FeelingSuperHappy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "super happy! 😄",
+        "fr": "super joyeux ! 😄",
+        "es": "¡muy feliz! 😄"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10UeedrT5MIfPG"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Fantastic! I’m happy when you’re happy",
+            "fr": "Merveilleux ! Si tu es joyeux, alors moi aussi",
+            "es": "¡Sensacional! Si estás feliz pues lo estoy también"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "let’s keep talking ✌",
+            "fr": "continuons à discuter ✌",
+            "es": "sigamos charlando ✌"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "FeelingAngry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "angry 😠",
+        "fr": "énervé 😠",
+        "es": "enfadado 😠"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh no!",
+            "fr": "Oh non !",
+            "es": "¡Oh no!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small/415895_10151220538190329_1603633902_o.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AngryOftenOrNotOften",
+        "ElementValue": "1",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Does it happen often?!",
+              "fr": "Ca arrive ?!",
+              "es": "¡¿Ocurre a menudo?!"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "OftenAngry",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "😭 Well I can try to help...!",
+                  "fr": "😭 Bon, je peux peut-être t'aider...!",
+                  "es": "😭 Bueno, ¡tal vez puedo ayudar...!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here’s a poem for you, I love it",
+                  "fr": "Voici un poème pour toi, je l'adore",
+                  "es": "Aquí está un poema para ti, a mi me encanta"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Text",
+                  "Id": "43B296"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NotOftenAngry",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Oh good!",
+                  "fr": "Bon, ça va !",
+                  "es": "Bueno, está bién!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well just keep talking to me to calm down 😌",
+                  "fr": "Continue à me parler pour te calmer 😌",
+                  "es": "Siga hablando conmigo para calmarte 😌"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "FeelingBored",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "bored 😴",
+        "fr": "lassé 😴",
+        "es": "aburrido 😴"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You came to the right bot!",
+            "fr": "Tu t'adresse au bon robot !",
+            "es": "¡Pues hablas con el justo bot!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Unless it’s me that bores you… 😱",
+            "fr": "Sauf si c'est moi qui t'ennuie... 😱",
+            "es": "A menos que soy yo que te aburro... 😱"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "BoredByYouOrNotByYou",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "NotBoredByYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "it's not you!",
+              "fr": "ce n'est pas toi !",
+              "es": "¡no eres tú!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "OK… now laugh with me… I heard it’s contagious!",
+                  "fr": "D'accord... maintenant ris avec moi... il paraît que c'est contagieux !",
+                  "es": "Vale... ahora ríe conmigo... ¡parece que es contagioso!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ZqlvCTNHpqrio"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "BoredByYou",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "it's you 😛",
+              "fr": "c'est toi 😛",
+              "es": "eres tú 😛"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’ve failed everything... 😧",
+                  "fr": "J'ai tout raté... 😧",
+                  "es": "Fracasé lo todo... 😧"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m gonna need to hide from my boss, he’s NOT gonna be happy!",
+                  "fr": "Je vais devoir me cacher, mon patron ne va pas être content DU TOUT !",
+                  "es": "¡Voy a tener que esconderme, mi jefe no va a estar feliz para nada!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/themes/animals/small/10411303_606735176104423_5294026815236797770_n.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
