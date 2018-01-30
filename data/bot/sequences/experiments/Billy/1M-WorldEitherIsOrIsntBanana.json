@@ -115,14 +115,6 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "but they must be wrong because I barely talk at all",
-                  "fr": "mais ils ont sûrement tort car je ne parle quasiment pas",
-                  "es": "pero seguramente se equivocan porque hablo casi nunca"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
                   "en": "I mean maybe a little bit here and there but usually I’m silent as a...",
                   "fr": "Je veux dire, parfois peut-être un peu, mais d'habitude je suis aussi silencieux que...",
                   "es": "Quiero decir, a veces tal vez un poquito pero normalmente estoy tan silencioso como..."
