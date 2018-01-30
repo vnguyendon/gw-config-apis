@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AbsurdToQuestionAbsurdity",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is it absurd to question absurdity?",
+        "fr": "Est-il absurde de questionner l'absurdité ?",
+        "es": "¿Es absurdo interrogar la absurdidad?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesAbsurd",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "tJeGZumxDB01q"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "YouMustBeJoking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "d3mlE7uhX8KFgEmY"
+          }
+        }
+      ]
+    }
+  ]
+}
