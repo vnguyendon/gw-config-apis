@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "MostPeopleBenevolent",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Most people are benevolent?",
+        "fr": "Les gens sont-ils bienveillants de manière générale ?",
+        "es": "¿Dirías la mayoría de la gente es benevolente?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesMostPeopleBenevolent",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I love that kind of fairy world!",
+            "fr": "C'est un monde comme cela dont l'on a besoin !",
+            "es": "¡Es este tipo de mundo que quiero!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "J91U4vyflNyLK"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoMostPeopleBenevolent",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But dogs are!",
+            "fr": "Mais les chiens le sont toujours eux !",
+            "es": "¡Pero siempre los perros lo son!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "J91U4vyflNyLK"
+          }
+        }
+      ]
+    }
+  ]
+}
