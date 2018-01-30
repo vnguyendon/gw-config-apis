@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "OptimismOrRealism",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "One of your main qualities is",
+        "fr": "Une de tes qualités principales est",
+        "es": "Una de tuyas cualidades principales es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MainQualityOptimism",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "optimism",
+        "fr": "l'optimisme",
+        "es": "optimismo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "E6AKG0k1r2vx6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MainQualityRealism",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "realism",
+        "fr": "le réalisme",
+        "es": "realismo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ewehF76uajFW8"
+          }
+        }
+      ]
+    }
+  ]
+}
