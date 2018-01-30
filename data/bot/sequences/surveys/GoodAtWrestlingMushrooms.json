@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GoodAtWrestlingMushrooms",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you be good at wrestling mushrooms?",
+        "fr": "Tu serais fort en lutte contre des champignons ?",
+        "es": "¿Serías fuerte en lucha contra hongos?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BetterThanASquid",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "better than a squid",
+        "fr": "meilleur qu'un calamar",
+        "es": "mejor que un calamar"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "hO2p8FyKQOHXq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "YouMustBeJoking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "you must be joking",
+        "fr": "c'est une blague ?",
+        "es": "¿estas bromeando?"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "EsmlrgWNx5v0Y"
+          }
+        }
+      ]
+    }
+  ]
+}
