@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "CheaperFoodTransportImprove",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "what would improve your life the most",
+        "fr": "qu'est-ce qui améliorerait le plus ta vie",
+        "es": "qué mejoraría tu vida lo más"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CheaperFood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cheaper food 💴🥑",
+        "fr": "une alimentation moins coûteuse 💴🥑",
+        "es": "comida más barata 💴🥑"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "eSQKNSmg07dHq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CheaperTransports",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cheaper transports 💴🚀",
+        "fr": "des transports moins chers 💴🚀",
+        "es": "servicios de transporte más baratos 💴🚀"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I don't say anything but...",
+            "fr": "je dis ça mais je dis rien...",
+            "es": "pues no digo nada pero..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6Ztf7FHLnQVr6HuM"
+          }
+        }
+      ]
+    }
+  ]
+}
