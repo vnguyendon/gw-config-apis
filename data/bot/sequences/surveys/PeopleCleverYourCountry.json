@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "PeopleCleverYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "People in your country are a bit more clever than elsewhere? 🧐",
+        "fr": "Penses-tu que les gens de ton pays sont plus intelligents qu'ailleurs ? 🧐",
+        "es": "¿Dirías que la gente de tu país es más inteligente que en otro país? 🧐"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesPeopleCleverYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "d3mlE7uhX8KFgEmY"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Smart fellows!",
+            "fr": "Fier de ses compatriotes !",
+            "es": "¡Orgulloso de sus compatriotas!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoPeopleCleverYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12fWMaQdWIfHt6"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Sure they are funnier!",
+            "fr": "Je suis sûr qu'ils sont plus marrants !",
+            "es": "¡Seguro que son más divertidos!"
+          }
+        }
+      ]
+    }
+  ]
+}
