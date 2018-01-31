@@ -1,0 +1,211 @@
+{
+  "Type": "Node",
+  "Id": "WhatAreYouBestAt",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/animals/small/shutterstock_109115501.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I just learned that pandas spend 12 hours a day eating, and the rest sleeping",
+        "fr": "Je viens d'apprendre que les pandas passent 12 heures par jour à manger, et le reste à dormir",
+        "es": "Acabo de aprender que los pandas dedican 12 horas al día a comer, y el resto a dormir"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Their best skill is being lazy…",
+        "fr": "Leur compétence principale, c'est être paresseux...",
+        "es": "Su talento principal es estar perezoso..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What are you best at?",
+        "fr": "Tu es meilleur dans quel domaine ?",
+        "es": "¿En qué eres mejor?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "BestAtFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being funny 😂",
+        "fr": "humour 😂",
+        "es": "diversión 😂"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/jokes.json"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The most important skill there is!",
+            "fr": "La plus importante de toutes les compétences !",
+            "es": "¡El talento más importante que existe!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BestAtLazy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being a lazy panda 😴",
+        "fr": "paresse type panda 😴",
+        "es": "pereza tipo panda 😴"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But can you roll like this?",
+            "fr": "Mais est-ce que tu peux rouler comme ça ?",
+            "es": "Pero rodar así, ¿lo puedes?"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "EatwJZRUIv41G"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BestAtSmart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "being smart 🤓",
+        "fr": "intelligence 🤓",
+        "es": "inteligencia 🤓"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m glad I met you…",
+            "fr": "Je suis content de t'avoir rencontré...",
+            "es": "Estoy feliz de haberte encontrado..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "having someone smart around is so handy!",
+            "fr": "avoir quelqu'un d'intelligent dans son entourage est si pratique !",
+            "es": "¡conocer a alguien inteligente es tan práctico!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "NFA61GS9qKZ68"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "BestAtSports",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "sports 🏅",
+        "fr": "sport 🏅",
+        "es": "desporte 🏅"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "TeamOrSoloSport",
+        "ElementValue": "1",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "In a team or solo?",
+              "fr": "En équipe ou individuel ?",
+              "es": "¿En un équipo o solo?"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "TeamSports",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "team",
+              "fr": "en équipe",
+              "es": "en un équipo"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l3mZjdRvlqk4LB0A0"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SoloSports",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "solo",
+              "fr": "en individuel",
+              "es": "solo"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "hXHvJzFcRN0Ry"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
