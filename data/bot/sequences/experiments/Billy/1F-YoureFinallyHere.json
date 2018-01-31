@@ -1,7 +1,7 @@
 {
   "Type": "Node",
   "Id": "YoureFinallyHere",
-  "Tags": ["ResumeActivity"],
+  "Tags": ["NewBotSession"],
   "Steps": [
     {
       "Type": "Text",
