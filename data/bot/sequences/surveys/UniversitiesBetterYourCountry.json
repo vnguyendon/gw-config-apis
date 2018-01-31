@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "UniversitiesBetterYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Universities in your country are better than in most others? 👨🏼‍🎓👩🏾‍🎓",
+        "fr": "Les universités sont-elles meilleures dans votre pays qu'à l'étranger ? 👨🏼‍🎓👩🏾‍🎓",
+        "es": "¿Son mejores las universidades en tu país que en el extranjero? 👨🏼‍🎓👩🏾‍🎓"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesUniversitiesBetterYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7btZZhRA6JMg1sKQ"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoUniversitiesBetterYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+       ,
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BfcNk5h20pdte"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+          "en": "'Formal education will make you a living; self-education will make you a fortune'- Jim Rohn",
+          "fr": "'L’éducation formelle vous aidera à vous faire une vie. L’autoéducation vous aidera à faire fortune.'- Jim Rohn",
+          "es": "'La educación formal te dará una vida; la autoeducación te dará una fortuna.'- Jim Rohn"
+          }
+      }
+      ]
+    }
+  ]
+}
