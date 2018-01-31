@@ -2,6 +2,8 @@
   "Version": 16,
   "GroupName": "Test",
   "SequenceFiles": [
+    { "order" : 870, "file":["/data/bot/sequences/surveys/2D-WhatAreYouBestAt.json"]},
+    { "order" : 870, "file":["/data/bot/sequences/surveys/2D-WhatAreYouBestAt.json"]},
     { "order" : 875, "file":["/data/bot/sequences/surveys/2C-DoYouLikeSurprises.json"]},
     { "order" : 875, "file":["/data/bot/sequences/surveys/2C-DoYouLikeSurprises.json"]},
     { "order" : 880, "file":["/data/bot/sequences/experiments/Billy/1Z-WhyYourFriendsLikeYouSoMuch.json"]},
