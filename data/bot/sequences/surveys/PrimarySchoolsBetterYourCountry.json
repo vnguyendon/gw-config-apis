@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "PrimarySchoolsBetterYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Primary schools in your country are better than in most others? 👩‍🏫🏫",
+        "fr": "Les écoles primaires sont-elles meilleures dans votre pays qu'à l'étranger ? 👩‍🏫🏫",
+        "es": "¿Son mejores las escualas primarias de tu país que en el extranjero? 👩‍🏫🏫"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesPrimarySchoolsBetterYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "14eB8xLJYGh1Ys"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+          "en": "I want to go back to primary school! 👶🏼👶🏽",
+          "fr": "Je veux retourner au primaire ! 👶🏼👶🏽",
+          "es": "¡Quiero regresar en la primaria! 👶🏼👶🏽"
+          }
+      }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoPrimarySchoolsBetterYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+       ,
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "13tLbNypHGL4Zy"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+          "en": "I still remember my teacher being so nice with me...",
+          "fr": "Je me souviens encore de ma prof qui était si gentille avec moi...",
+          "es": "Todavía me acuerdo de mi profe tan agradable conmigo..."
+          }
+      }
+      ]
+    }
+  ]
+}
