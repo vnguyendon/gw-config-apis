@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ImproveLifeCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Life in your country would improve with better",
+        "fr": "Dans ton pays la vie s'améliorerait avec de meilleurs",
+        "es": "Se mejoraría la vida en tu país con más"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CountryLifeImproveLaw",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "rule of law",
+        "fr": "état de droit",
+        "es": "estado de derecho"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "KYZpUoZk7Soxy"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CountryLifeImproveIncome",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "income per person",
+        "fr": "revenus par personne",
+        "es": "ingresos por persona"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26n6QhiUfska2v38s"
+          }
+        }
+      ]
+    }
+  ]
+}
