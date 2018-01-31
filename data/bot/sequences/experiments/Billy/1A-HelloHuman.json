@@ -1,7 +1,7 @@
 {
   "Type": "Node",
   "Id": "HelloHuman",
-  "Tags": ["FirstLaunch"],
+  "Tags": ["FirstBotSession"],
   "Steps": [
     {
       "Type": "Text",
