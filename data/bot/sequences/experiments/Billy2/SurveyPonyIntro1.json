@@ -1,0 +1,43 @@
+{
+    "Type":"Node",
+    "Id":"SurveyPonyIntro1",
+    "Steps":[
+        {
+            "Type":"Text",
+            "Label":{
+                "en":"Hi there, human!",
+                "fr":"TBD",
+                "es":"TBD"
+            }
+        },
+        {
+            "Type":"AnimatedGif",
+            "Parameters":{
+                "Source":"Giphy",
+                "Path":"12052SgJhHpCmc"
+            }
+        }
+    ],
+    "Commands":[
+        {
+            "Type":"Leaf",
+            "Id":"SurveyPonyIntro1Hey",
+            "ElementValue":"1",
+            "CommandLabel":{
+                "en":"Hey 😃",
+                "fr":"TBD",
+                "es":"TBD"
+            },
+            "Steps":[
+                {
+                    "Type":"Text",
+                    "Label":{
+                        "en":"So I was wondering...",
+                        "fr":"TBD",
+                        "es":"TBD"
+                    }
+                }
+            ]
+        }
+    ]
+}
