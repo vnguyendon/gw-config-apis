@@ -1,7 +1,7 @@
 {
   "Type": "Node",
   "Id": "NoSilly",
-  "Tags": ["ResumeActivity"],
+  "Tags": ["NewBotSession"],
   "Steps": [
     {
       "Type": "Text",
