@@ -1,0 +1,59 @@
+{
+    "Type":"Node",
+    "Id":"SurveyPonyIntro2",
+    "Steps":[
+        {
+            "Type":"Text",
+            "Label":{
+                "en":"Fascinating, right?",
+                "fr":"TBD",
+                "es":"TBD"
+            }
+        },
+        {
+            "Type":"AnimatedGif",
+            "Parameters":{
+                "Source":"Giphy",
+                "Path":"gVE7nURcnD9bW"
+            }
+        },
+        {
+            "Type":"Text",
+            "Label":{
+                "en":"By the way, I'm SurveyPony",
+                "fr":"TBD",
+                "es":"TBD"
+            }
+        },
+        {
+            "Type":"Text",
+            "Label":{
+                "en":"I'm trying to learn all about humans by asking awesome questions 😊",
+                "fr":"TBD",
+                "es":"TBD"
+            }
+        }
+    ],
+    "Commands":[
+        {
+            "Type":"Leaf",
+            "Id":"SurveyPonyIntro2Hi",
+            "ElementValue":"1",
+            "CommandLabel":{
+                "en":"Hi SurveyPony!",
+                "fr":"TBD",
+                "es":"TBD"
+            },
+            "Steps":[
+                {
+                    "Type":"Text",
+                    "Label":{
+                        "en":"So good to meet you...",
+                        "fr":"TBD",
+                        "es":"TBD"
+                    }
+                }
+            ]
+        }
+    ]
+}
