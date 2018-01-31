@@ -1,0 +1,88 @@
+{
+  "Type": "Node",
+  "Id": "SafetyFreedomMoreImportant",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is more important?",
+        "fr": "Qu'est-ce qui est le plus important ?",
+        "es": "¿Qué es lo más importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SafetySafetyFreedomMoreImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "safety 👮",
+        "fr": "la sécurité 👮",
+        "es": "la seguridad 👮"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+          "en": "Safety is sexy!!",
+          "fr": "La sécurité c'est sexy !",
+          "es": "¡Claro, la seguridad es sexy!"
+          }
+      },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "WGcA9HOqcfFXa"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FreedomSafetyFreedomMoreImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "freedom 🕺",
+        "fr": "la liberté 🕺",
+        "es": "la libertad 🕺"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+       ,
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "kI6tjO6dQEU5a"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+          "en": "To infinity, and beyond!",
+          "fr": "Vers l'infini, et au-delà !",
+          "es": "Al infinito... ¡y más allá!"
+          }
+      }
+      ]
+    }
+  ]
+}
