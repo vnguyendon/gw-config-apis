@@ -1,0 +1,60 @@
+{
+  "Type": "Node",
+  "Id": "ppRevealed",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Right, I think I have enough info. Let me use my pony brain and work it out...",
+        "fr": "Voici ton profil psychologique. Est-ce qu'il te ressemble?",
+        "es": "Aquí está tu perfil psicológico. ¿Se parece a ti?"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+        "Mode": "Wait",
+        "ms": 5000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OK, here's your psychological profile. Does it sound like you?",
+        "fr": "Voici ton profil psychologique. Est-ce qu'il te ressemble?",
+        "es": "Aquí está tu perfil psicológico. ¿Se parece a ti?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You are a quiet mentor and enjoy quietly contributing to improving the lives of your loved ones. Usually private, you may seem hard to know and mysterious as you do not readily share your emotions. Once you open up, however, your inner feelings may be full of surprises for your close and carefully selected friends. Even though you have a complex personality, you value cooperation and are excellent at communicating with people on a one-to-one basis because you naturally understand their emotions and feelings. You enjoy playing with languages and are usually seen as very poetic and imaginative.",
+        "fr": "Tu es un mentor discret, qui aime contribuer dans l'ombre à améliorer la vie de ceux que tu aimes. Tu es plutôt secret et semble difficile à connaître, voire mystérieux, car tu ne partages pas spontanément tes émotions. Une fois que tu t'ouvres, cependant, tes émotions et pensées peuvent être source de surprises pour tes amis, que tu sélectionnes avec soin. Même si tu as une personnalité complexe, tu apprécies la coopération et es excellent dans la communication en tête à tête car tu comprends instinctivement les émotions et sensations de tes interlocuteurs. Tu aimes jouer avec les langues et tu es souvent considéré comme poétique et doté d'un grand sens de l'imagination.",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "RightProfile",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsOpened",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      }
+    }
+  ]
+}
