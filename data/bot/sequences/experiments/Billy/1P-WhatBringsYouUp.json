@@ -5,6 +5,14 @@
     {
       "Type": "Text",
       "Label": {
+        "en": "Let's talk about something else...",
+        "fr": "Dis moi… qu'est-ce qui te remonte le moral quand il est au plus bas ?",
+        "es": "Dime… ¿que te eleva la moral cuando te sientes triste?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
         "en": "Tell me… what brings you up when you’re feeling down?",
         "fr": "Dis moi… qu'est-ce qui te remonte le moral quand il est au plus bas ?",
         "es": "Dime… ¿que te eleva la moral cuando te sientes triste?"
