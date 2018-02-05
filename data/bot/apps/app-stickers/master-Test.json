@@ -2,6 +2,9 @@
   "Version": 16,
   "GroupName": "Test",
   "SequenceFiles": [
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/2A-DogPlayingChairMessySurvey.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/2A-DogPlayingChairMessySurvey.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy/2A-DogPlayingChairMessySurvey.json"]},
     { "order" : 870, "file":["/data/bot/sequences/surveys/2D-WhatAreYouBestAt.json"]},
     { "order" : 870, "file":["/data/bot/sequences/surveys/2D-WhatAreYouBestAt.json"]},
     { "order" : 875, "file":["/data/bot/sequences/surveys/2C-DoYouLikeSurprises.json"]},
