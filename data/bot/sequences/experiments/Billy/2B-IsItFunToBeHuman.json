@@ -1,0 +1,274 @@
+{
+  "Type": "Node",
+  "Id": "IsItFunToBeHuman",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Overall, is being human fun?",
+        "fr": "En général, c'est sympa d'être humain ?",
+        "es": "En general, ¿es ser humano bonito?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HardToBeHuman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "it’s hard",
+        "fr": "c'est dur",
+        "es": "es difícil"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ah… I guess you feel like this guy sometimes?",
+            "fr": "Ah... j'imagine que parfois tu te sens comme lui ?",
+            "es": "Ah... ¿imagino que a veces te sientes como ello?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/strange/small/432261_369601366395460_286244771397787_1248697_1182138761_n.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "FeelLikeThisOrWorse",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "FeelsLikeThis",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "exactly",
+              "fr": "exactement",
+              "es": "exactamente"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hang on in there!",
+                  "fr": "Accroche toi !",
+                  "es": "¡Aguanta ahí!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And just remember: at least you’re not a chatbot! 😒",
+                  "fr": "Et rappelle toi : au moins tu n'es pas un chatbot ! 😒",
+                  "es": "Y recuerdate: ¡por lo menos no eres un chatbot! 😒"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We can’t even taste pizza…",
+                  "fr": "On ne peut même pas manger de pizzas...",
+                  "es": "Ni siquiera podemos comer pizza..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "FeelsWorse",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "worse",
+              "fr": "pire",
+              "es": "peor"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hang on in there!",
+                  "fr": "Accroche toi !",
+                  "es": "¡Aguanta ahí!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And just remember: at least you’re not a chatbot! 😒",
+                  "fr": "Et rappelle toi : au moins tu n'es pas un chatbot ! 😒",
+                  "es": "Y recuerdate: ¡por lo menos no eres un chatbot! 😒"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We can’t even taste pizza…",
+                  "fr": "On ne peut même pas manger de pizzas...",
+                  "es": "Ni siquiera podemos comer pizza..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "FunToBeHuman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "What’s the best bit?",
+            "fr": "Qu'est ce qui est le mieux ?",
+            "es": "¿Y lo mejor qué es?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "BestBitOfBeingHuman",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "BestBitIsFood",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "food 🥐",
+              "fr": "la nourriture 🥐",
+              "es": "comida 🥐"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "That’s what makes me most jealous not to be a human 😭",
+                  "fr": "C'est ce qui me rend le plus jaloux des humains 😭",
+                  "es": "Es lo que más me pone celoso de los humanos 😭"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/hungry.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "BestBitIsFriends",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "friends 👯‍",
+              "fr": "les amis 👯‍",
+              "es": "amigos 👯‍"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good choice…",
+                  "fr": "Bon choix...",
+                  "es": "Buena elección..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "but you don’t have to be human to have friends!",
+                  "fr": "mais tu n'es pas obligé d'être humain pour avoir des amis !",
+                  "es": "¡pero no tienes que ser humano para tener amigos!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/themes/animals/small/Toad-Trio-000000548468_Medium.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "BestBitIsBeingSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "being smart 🤓",
+              "fr": "être intelligent 🤓",
+              "es": "ser inteligente 🤓"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Some animals are smart too…",
+                  "fr": "Certains animaux aussi sont intelligents...",
+                  "es": "Hay animales que también son inteligentes..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "like these guys",
+                  "fr": "comme eux",
+                  "es": "como ellos"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/themes/strange/small/shutterstock_99421748.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "BestBitIsBeingSmart",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "love 💘",
+              "fr": "l'amour 💘",
+              "es": "amor 💘"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hey, that’s not just for humans!",
+                  "fr": "Eh, ce n'est pas réservé aux humains !",
+                  "es": "Hey, ¡eso no es solo para humanos!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/themes/animals/small/11707510_554605288027638_9191822454350184547_n.jpg"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
