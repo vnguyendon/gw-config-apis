@@ -1,11 +1,6 @@
 {
   "MasterFiles": [
     {
-      "Name": "surveypony",
-      "Source": "github",
-      "File": "/data/bot/apps/surveypony/surveyPonyMaster.json"
-    },
-    {
       "Name": "rcbotdev",
       "Source": "github",
       "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
