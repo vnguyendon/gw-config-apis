@@ -1,0 +1,188 @@
+{
+  "Type": "Node",
+  "Id": "GlobalWarming",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Id": "30",
+      "Label": {
+        "en": "Is global warming an important issue?",
+        "fr": "Le réchauffement climatique est-il un problème important ?",
+        "es": "¿El cambio climático es un problema importante?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "GWisImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ZZ-GlobalWarming-CuteOrFunnyPenguins",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Id": "30",
+            "Label": {
+              "en": "I bet you like penguins! 🐧",
+              "fr": "Je parie que tu aimes bien les pingouins ! 🐧",
+              "es": "¡Seguro te gustan los pingüinos! 🐧"
+            }
+          },
+          {
+            "Type": "Pause",
+            "Id": "40",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+          },
+          {
+            "Type": "Text",
+            "Id": "50",
+            "Label": {
+              "en": "Especially the ones that are",
+              "fr": "Surtout ceux qui sont",
+              "es": "Especialmente los que son"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LikeFunnyPenguins",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "funny",
+              "fr": "amusants",
+              "es": "divertidos"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Id": "20",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Id": "30",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "AtZKYbmuszStW"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LikeCutePenguins",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "cute",
+              "fr": "mignons",
+              "es": "bonitos"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Id": "10",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Id": "20",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "AnimatedGif",
+                "Id": "30",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "C0EYVrLCgnYdy"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "GWisNotImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Id": "10",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You know, I've got a great memory: I remember anyone who has ever voted!",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Then I do some maths and I can show you the results! Like so...",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Id": "20",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Id": "1",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7btPCcdNniyf0ArS"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "How about another...",
+            "fr": "tbd",
+            "es": "tbd"
+          }
+        }
+      ]
+    }
+  ]
+}
