@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "DogPlayingChairMessySurvey",
+  "Id": "DogPlaying",
   "Steps": [
     {
       "Type": "Image",
@@ -21,7 +21,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "FuriousDogPlayingChairMessySurvey",
+      "Id": "FuriousDogPlaying",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "furious!",
@@ -30,7 +30,7 @@
       },
       "LinksTo": {
         "Type": "Node",
-        "Id": "AreYouMessyToo",
+        "Id": "FuriousPoorDog",
         "Steps": [
           {
             "Type": "Text",
@@ -53,7 +53,7 @@
         "Commands": [
           {
             "Type": "Leaf",
-            "Id": "YesVeryAreYouMessyToo",
+            "Id": "FuriousYesMessy",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "yes, very",
@@ -72,7 +72,7 @@
           },
           {
             "Type": "Leaf",
-            "Id": "NoSuperTidyVeryAreYouMessyToo",
+            "Id": "FuriousNoTidy",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "no, super tidy!",
@@ -94,12 +94,75 @@
     },
     {
       "Type": "Node",
-      "Id": "NoWayDogPlayingChairMessySurvey",
+      "Id": "NoWayDogPlaying",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "no way!",
         "fr": "pas question !",
         "es": "¡de ninguna manera!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "NoWaySoKind",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "You’re so kind!",
+              "fr": "Ta bonté te perdra !",
+              "es": "¡Eres tan buena!"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Are you messy (too)? 😏",
+              "fr": "Es-tu bordélique (toi aussi) ? 😏",
+              "es": "¿Eres desordenado también? 😏"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "SoKindYesMessy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes, very",
+              "fr": "oui, beaucoup",
+              "es": "sí, mucho"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "3ov9k7jVXSVZyTQaTS"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SoKingNoTidy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no, super tidy!",
+              "fr": "non, super organisé !",
+              "es": "no, ¡muy ordenado!"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "26FPxK7LVhEHammiY"
+                }
+              }
+            ]
+          }
+        ]
       }
     }
   ]
