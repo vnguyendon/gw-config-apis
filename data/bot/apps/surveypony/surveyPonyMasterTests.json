@@ -2,6 +2,7 @@
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
+      { "order": 10, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
        { "order" : 31, "file": ["/data/bot/sequences/settings/SetAge.json"]},
       { "order" : 12, "file": [
           "/data/bot/sequences/surveys/WCatsOrDogs.json",
