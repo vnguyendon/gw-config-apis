@@ -15,9 +15,9 @@
     "value": true,
     "Label": {
       "en": "Not interested",
-	    "fr": "Pas intéressé",
+      "fr": "Pas intéressé",
       "es": "TBD"
-	  }
+      }
    },
   "Randomize": "true",
   "Commands": [
