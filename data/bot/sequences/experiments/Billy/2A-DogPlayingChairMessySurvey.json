@@ -62,14 +62,6 @@
             },
             "Steps": [
               {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
@@ -88,14 +80,6 @@
               "es": "no, ¡muy ordenado!"
             },
             "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
               {
                 "Type": "AnimatedGif",
                 "Parameters": {
@@ -151,14 +135,6 @@
             },
             "Steps": [
               {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
@@ -178,14 +154,6 @@
             },
             "Steps": [
               {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
                 "Type": "AnimatedGif",
                 "Parameters": {
                   "Source": "Giphy",
@@ -199,3 +167,4 @@
     }
   ]
 }
+
