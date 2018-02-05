@@ -1,20 +1,24 @@
 [
   {
-    "GroupName": "Start",
-    "SequenceFiles": [
-      {
-        "order": 10,
-        "file": ["/data/bot/sequences/smalltalk/HowAreYou.json"]
-      },
-      {
-        "order": 11,
-        "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]
-      }
-    ]
-  },
-  {
     "GroupName": "Survey",
     "SequenceFiles": [
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HowAreYou.json"]},
+      { "order" : 12, "file": ["/data/bot/sequences/experiments/Billy2/GlobalWarming.json"]},
+      { "order" : 13, "file": ["/data/bot/sequences/surveys/BestFoodFrenchOrJapanese.json"]},
+      { "order" : 19, "file": ["/data/bot/sequences/experiments/Billy/1N-SoupStopsHungerAndThirst.json"]},
+      { "order" : 24, "file": ["/data/bot/sequences/personality/ppEnergeticAfter.json"]},
+      { "order" : 25, "file": ["/data/bot/sequences/experiments/Billy2/ppRevealed.json"]},
+      { "order" : 26, "file": ["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy/2B-IsItFunToBeHuman.json"]},
+      { "order" : 35, "file": ["/data/bot/sequences/experiments/Billy/1O-WhatImprovesYourDay.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/surveys/HoursWatchingTV.json"]},
+      { "order" : 45, "file": ["/data/bot/sequences/experiments/Billy/1P-WhatBringsYouUp.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]},
+      { "order" : 55, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1F-YoureFinallyHere.json"]},
+      { "order" : 65, "file": ["/data/bot/sequences/experiments/Billy/1U-ContactEinstein.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/experiments/Billy/2A-DogPlayingChairMessySurvey.json"]},
+      { "order" : 500, "file": ["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
       { "order" : 890, "file": ["/data/bot/sequences/surveys/YouPreferFishOrMeat.json"]},
       { "order" : 895, "file": ["/data/bot/sequences/settings/SetAge.json"]},
       { "order" : 900, "file": ["/data/bot/sequences/surveys/WLifeFairOrUnfair.json"]},
