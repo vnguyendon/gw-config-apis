@@ -27,6 +27,69 @@
         "en": "furious!",
         "fr": "fou de rage !",
         "es": "¡furioso!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AreYouMessyToo",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Poor doggy! He was just playing…",
+              "fr": "Pauvre toutou ! Il s'amusait juste...",
+              "es": "¡Pobre perrito! Solo estaba jugando..."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Are you messy (too)? 😏",
+              "fr": "Es-tu bordélique (toi aussi) ? 😏",
+              "es": "¿Eres desordenado también? 😏"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "YesVeryAreYouMessyToo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes, very",
+              "fr": "oui, beaucoup",
+              "es": "sí, mucho"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "3ov9k7jVXSVZyTQaTS"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "NoSuperTidyVeryAreYouMessyToo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no, super tidy!",
+              "fr": "non, super organisé !",
+              "es": "no, ¡muy ordenado!"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "26FPxK7LVhEHammiY"
+                }
+              }
+            ]
+          }
+        ]
       }
     },
     {
