@@ -11,7 +11,7 @@
       }
     }
   ],
-  "Skippable": {"value": false}
+  "Skippable": {"value": false},
   "Randomize": "true",
   "Commands": [
     {
