@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "TraditionalValuesInYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "In your country, the role of traditional values is",
+        "fr": "Dans ton pays, le rôle des valeurs traditionnelles est",
+        "es": "En tu país, el papel de las valores tradicionales es"
+      }
+    }
+  ],
+  "Skippable": {"value": false}
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TraditionalValuesTooBig",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "too big",
+        "fr": "trop important",
+        "es": "demasiado grande"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "126hfX8uFjXV1C"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TraditionalValuesTooSmall",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "too small",
+        "fr": "pas assez important",
+        "es": "demasiado pequeño"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "n7DgfXU6kFCfe"
+          }
+        }
+      ]
+    }
+  ]
+}
