@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Id": "OhNoOhNo",
+  "Tags": ["NewBotSession"],
   "Steps": [
     {
       "Type": "Text",
