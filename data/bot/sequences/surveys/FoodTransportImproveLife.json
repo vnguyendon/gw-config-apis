@@ -67,18 +67,18 @@
           "Name": "ShowSurveyResults"
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "ojtdpE8iqOgsE"
-          }
-        },
-        {
           "Type": "Text",
           "Label": {
             "en": "me too I guess, look what happened to me last time I caught the bus...",
             "fr": "moi aussi j'imagine, regarde ce qui m'est arrivé la dernière fois que j'ai sauté dans le bus...",
             "es": "creo que yo también, miras lo que occurío la última vez que tomé el autobús..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ojtdpE8iqOgsE"
           }
         }
       ]
