@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CloserToNuclearWar",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are we closer to nuclear war than 50 years ago?",
+        "fr": "Est-on plus proche d'une guerre nucléaire qu'il y a 50 ans ?",
+        "es": "¿Estamos más cercanos de una guerra nuclear respeto a hace 50 años?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CloserToNuclearWar",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohjUXd0kN7M5LExEY"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotCloserToNuclearWar",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xUPGGePcEyYvkS75ew"
+          }
+        }
+      ]
+    }
+  ]
+}
