@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GiveMoneyToCharity",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you consider giving money to a charity?",
+        "fr": "Envisagerais-tu de donner de l'argent à une oeuvre de charité ?",
+        "es": "¿Contemplarías dar dinero a una organización benéfica?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WouldGiveMoney",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26xBuwDvSNN9w8sda"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WouldNotGiveMoney",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "4GRj3pwoAJSwg"
+          }
+        }
+      ]
+    }
+  ]
+}
