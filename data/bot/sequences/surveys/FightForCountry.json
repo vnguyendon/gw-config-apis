@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FightForCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "If a war was to come, would you be willing to fight for your country?",
+        "fr": "Si une guerre survenait, accepterais tu de te battre pour ton pays ?",
+        "es": "¿Si una guerra ocurriera, aceptarías luchar para tu país?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WouldFightForYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "FTELxTvVLJqRq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WouldNotFightForYourCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BZjZpr8tP8lVe"
+          }
+        }
+      ]
+    }
+  ]
+}
