@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "NewQuestionOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "...and time for a new question!",
+        "fr": "...place à une nouvelle question !",
+        "es": "...¡aqui esta una nueva pregunta!"
+      }
+    }
+  ]
+}
