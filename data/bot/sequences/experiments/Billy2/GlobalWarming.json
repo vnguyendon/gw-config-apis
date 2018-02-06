@@ -4,7 +4,6 @@
   "Steps": [
     {
       "Type": "Text",
-      "Id": "30",
       "Label": {
         "en": "Is global warming an important issue?",
         "fr": "Le réchauffement climatique est-il un problème important ?",
@@ -26,12 +25,10 @@
       "Steps": [
         {
           "Type": "Action",
-          "Id": "10",
           "Name": "DoVote"
         },
         {
           "Type": "Action",
-          "Id": "20",
           "Name": "ShowSurveyResults"
         }
       ],
@@ -41,7 +38,6 @@
         "Steps": [
           {
             "Type": "Text",
-            "Id": "30",
             "Label": {
               "en": "I bet you like penguins! 🐧",
               "fr": "Je parie que tu aimes bien les pingouins ! 🐧",
@@ -50,7 +46,6 @@
           },
           {
             "Type": "Pause",
-            "Id": "40",
             "Parameters": {
               "Mode": "Wait",
               "ms": 2000
@@ -58,7 +53,6 @@
           },
           {
             "Type": "Text",
-            "Id": "50",
             "Label": {
               "en": "Especially the ones that are",
               "fr": "Surtout ceux qui sont",
@@ -79,12 +73,10 @@
             "Steps": [
               {
                 "Type": "Action",
-                "Id": "10",
                 "Name": "DoVote"
               },
               {
                 "Type": "Action",
-                "Id": "20",
                 "Name": "ShowSurveyResults"
               },
               {
@@ -109,12 +101,10 @@
             "Steps": [
               {
                 "Type": "Action",
-                "Id": "10",
                 "Name": "DoVote"
               },
               {
                 "Type": "Action",
-                "Id": "20",
                 "Name": "ShowSurveyResults"
               },
               {
@@ -142,13 +132,19 @@
       "Steps": [
         {
           "Type": "Action",
-          "Id": "10",
           "Name": "DoVote"
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
         },
         {
           "Type": "Text",
           "Label": {
-            "en": "You know, I've got a great memory: I remember anyone who has ever voted!",
+            "en": "You know I've got a great memory: I remember anyone who has ever voted!",
             "fr": "TBD",
             "es": "TBD"
           }
@@ -162,24 +158,28 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
+        },
+        {
           "Type": "Action",
-          "Id": "20",
           "Name": "ShowSurveyResults"
         },
         {
           "Type": "AnimatedGif",
-          "Id": "1",
           "Parameters": {
             "Source": "Giphy",
             "Path": "3o7btPCcdNniyf0ArS"
           }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "How about another...",
-            "fr": "tbd",
-            "es": "tbd"
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
           }
         }
       ]
