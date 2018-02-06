@@ -1,0 +1,144 @@
+{
+  "Type": "Node",
+  "Id": "IveGotProblem",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Just the human I wanted to see! I’ve got a problem… 😳",
+        "fr": "Justement, l'humain que je voulais voir ! J'ai un problème... 😳",
+        "es": "¡Precisamente el humano que quería ver! Tengo un problema... 😳"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "IveGotProblemGoAhead",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "go ahead!",
+        "fr": "dis moi tout!",
+        "es": "¡siga adelante!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well… I just can’t figure this out 🤔",
+            "fr": "Eh bien... je n'arrive pas à décider 🤔",
+            "es": "Bueno... no logro decidir 🤔"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "SmilingOrFrowning",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Is she smiling or frowning?",
+              "fr": "Elle sourit ou elle fronce les sourcils ?",
+              "es": "¿Está sonriendo o frunciendo el ceño?"
+            }
+          },
+          {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516285700/687px-Mona_Lisa__by_Leonardo_da_Vinci__from_C2RMF_retouched_lqpqmj.jpg"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "MonaLisaSmiling",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "smiling",
+              "fr": "elle sourit",
+              "es": "está sonriendo"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hooray! I can finish my homework now!",
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/thankyou.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "MonaLisaFrowning",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "frowning",
+              "fr": "elle fronce les sourcils",
+              "es": "está frunciendo el ceño"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hooray! I can finish my homework now!",
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/thankyou.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "MonaLisaNeither",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "neither",
+              "fr": "aucun des deux",
+              "es": "ninguno"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hooray! I can finish my homework now!",
+                  "fr": "Hourra ! Je peux finir mes devoirs maintenant !",
+                  "es": "¡Viva! ¡Ahora puedo terminar mis deberes!"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/thankyou.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
