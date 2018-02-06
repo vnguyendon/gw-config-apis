@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "UnemploymentOrSpendings",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should your country focus on reducing",
+        "fr": "Ton pays devrait réduire en priorité",
+        "es": "En prioridad, tu país debería reducir"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ReduceUnemployment",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "unemployment",
+        "fr": "le chômage",
+        "es": "el paro"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "10aADbYxnJlc9q"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ReduceSpendings",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "spendings",
+        "fr": "les dépenses",
+        "es": "los gastos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YJjvTqoRFgZaM"
+          }
+        }
+      ]
+    }
+  ]
+}
