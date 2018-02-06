@@ -1,0 +1,171 @@
+{
+  "Type": "Node",
+  "Id": "AreYouDisorganised",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This is crazy!",
+        "fr": "C'est dingue !",
+        "es": "¡Es loco!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "They say that each person spends about one week of time looking for misplaced items!",
+        "fr": "Il paraît que tout le monde passe en moyenne une semaine de sa vie à chercher de objets perdus !",
+        "es": "¡Parece que en promedio, todo el mundo pasa une semana en su vida buscando cosas perdidas!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "1952-l3q2PZSVUUEsajBIY"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say you’re disorganised?",
+        "fr": "Dirais-tu que tu es désordonné ?",
+        "es": "¿Dirías que eres desordenado?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "IAmDisorganised",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes 😇",
+        "fr": "oui 😇",
+        "es": "sí 😇"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Not to worry… they also say disorganised people may be smarter!",
+            "fr": "Pas de quoi s'inquiéter... il paraît aussi que les gens désordonnés sont plus intelligents !",
+            "es": "No te preocupas... ¡parece también que las personas desordenadas son más inteligentes!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Do you think a chatbot could help with organisation?",
+            "fr": "Tu penses qu'un chatbot pourrait aider à s'organiser ?",
+            "es": "¿Piensas que un chatbot podría ayudar a organizarse?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CouldAChatbotHelp",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "ChatbotCouldHelp",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes 🤖",
+              "fr": "oui 🤖",
+              "es": "sí 🤖"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "That’s good to know…",
+                  "fr": "C'est bon à savoir...",
+                  "es": "Es bueno saberlo..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’ll start working out how",
+                  "fr": "Je vais commencer à y travailler",
+                  "es": "Pues voy a trabajar sobre esto"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "qYTn6z4fjSqXK"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ChatbotCouldNotHelp",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no 😝",
+              "fr": "non 😝",
+              "es": "no 😝"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hmm... ok",
+                  "fr": "Hmm... d'accord",
+                  "es": "Hmm... vale"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I may be able to prove you wrong!",
+                  "fr": "Je peux peut-être te faire mentir !",
+                  "es": "¡Tal vez puedo demostrar que te equivocas!"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "12qq4Em3MVuwJW"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IAmNotDisorganised",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no 🤓",
+        "fr": "non 🤓",
+        "es": "no 🤓"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Science is organized knowledge. Wisdom is organized life' - Immanuel Kant",
+            "fr": "'La science est un savoir organisé. La sagesse est une vie organisée' - Emmanuel Kant",
+            "es": "'Sciencia es conocimiento organizado. Sabiduría es vida organizada' - Immanuel Kant"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "m171D9eM7Jq6s"
+          }
+        }
+      ]
+    }
+  ]
+}
