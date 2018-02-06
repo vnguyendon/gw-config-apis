@@ -1,5 +1,5 @@
-
 {
+  "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
     { "order" : 6, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
@@ -21,6 +21,8 @@
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/WhatMakesYouHappy.json"]},
     { "order" : 10, "file":["/data/bot/sequences/appspecials/DoYouLikeCartoons.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/surveys/WHaveYouTouchedSnow.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/surveys/WDoYouCelebrateChristmas.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/WHaveYouTriedAChatbotYesNo.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/DoYouHaveAPet.json"]},
     { "order" : 10, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
@@ -35,6 +37,18 @@
     { "order" : 10, "file": ["/data/bot/sequences/surveys/HaveYouEverBeenInLove.json"]},
     { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierSingingOrDancing.json"]},
     { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToSport.json"]},
-    { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToYoutube.json"]}
-  ]
-}
+    { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToYoutube.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/AddictedBot.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/CantSleepWork.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/DoHumansHaveBatteries.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/FashionTest.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/ILoveMakingYouLaugh.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/LearnMakeJokes.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/LikeMakingArt.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/SoupStopsHungerAndThirst.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/WhatBringsYouUp.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/WhatImprovesYourDay.json"]},
+    { "order" : 9, "file":["/data/bot/sequences/smalltalk/WorldEitherIsOrIsntBanana.json"]}
+    ]
+  }
