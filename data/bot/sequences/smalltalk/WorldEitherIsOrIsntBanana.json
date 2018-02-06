@@ -1,0 +1,165 @@
+{
+  "Type": "Node",
+  "Id": "WorldEitherIsOrIsntBanana",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s your turn to learn something:",
+        "fr": "C'est ton tour d'apprendre quelque chose :",
+        "es": "Ahora es tu turno de aprender algo:"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Everything in the world either is or isn’t a banana! 🤔",
+        "fr": "Tout, sur Terre, est ou bien n'est bas une banane ! 🤔",
+        "es": "Todo lo que existe, sobre el planeta, es o no es un plátano! 🤔"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Useless",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "how useless!",
+        "fr": "tellement inutile !",
+        "es": "¡tan inútil!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhatWouldBeUseful",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I thought that would be helpful...",
+              "fr": "Je pensais que ça pouvait aider...",
+              "es": "Pensaba que podría ayudar..."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "What would be useful to you?",
+              "fr": "Qu'est ce qui te serait utile ?",
+              "es": "¿Qué sería útil para ti?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LaughUseful",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "making me laugh",
+              "fr": "me faire rire",
+              "es": "hacerme réir"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I think I can do that...",
+                  "fr": "Je pense que je peux faire ça...",
+                  "es": "Eso pienso que lo puedo hacer..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "t7MWRoExDRF72"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "ChattingUseful",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "chatting",
+              "fr": "discuter",
+              "es": "discutir"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "That works for me…",
+                  "fr": "C'est bon pour moi...",
+                  "es": "A mi me conviene..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "some people tell me I talk too much",
+                  "fr": "on me dit parfois que je parle trop",
+                  "es": "hay gente que me dice que hablo demasiado"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "but they must be wrong because I barely talk at all",
+                  "fr": "mais ils ont sûrement tort car je ne parle quasiment pas",
+                  "es": "pero seguramente se equivocan porque hablo casi nunca"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I mean maybe a little bit here and there but usually I’m silent as a...",
+                  "fr": "Je veux dire, parfois peut-être un peu, mais d'habitude je suis aussi silencieux que...",
+                  "es": "Quiero decir, a veces tal vez un poquito pero normalmente estoy tan silencioso como..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "oh… sorry 😅",
+                  "fr": "oups... désolé 😅",
+                  "es": "oh... disculpas 😅"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "SpecificFunctionsUseful",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "specific functions",
+              "fr": "fonctions spéciales",
+              "es": "usos específicos"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Got it! I can’t do those now…",
+                  "fr": "C'est compris! Je ne peux pas le faire pour le moment...",
+                  "es": "¡Entendido! No lo puedo hacer ahora..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "but I’m a fast learner and can pick up some useful skills soon 😃",
+                  "fr": "mais j'apprends vite et peux acquérir des fonctions utiles très bientôt 😃",
+                  "es": "pero aprendo presto y puedo conseguir usos útiles pronto 😃"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
