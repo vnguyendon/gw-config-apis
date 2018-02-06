@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WillHomoSapiensSurvive",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Will Homo Sapiens survive for the next 500 years?",
+        "fr": "Est-ce qu'Homo Sapiens survivra encore 500 ans ?",
+        "es": "¿Sobrevivirá Homo Sapiens 500 años más?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HomoSapiensDoSurvive",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "2JXpNjNChv1ss"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HomoSapiensDoesntSurvive",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11qK6bXFZ1ku88"
+          }
+        }
+      ]
+    }
+  ]
+}
