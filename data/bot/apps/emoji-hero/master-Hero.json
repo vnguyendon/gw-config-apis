@@ -40,6 +40,7 @@
     { "order" : 10, "file": ["/data/bot/sequences/surveys/HappierThanksToYoutube.json"]},
     { "order" : 9, "file": ["/data/bot/sequences/smalltalk/AddictedBot.json"]},
     { "order" : 9, "file": ["/data/bot/sequences/smalltalk/CantSleepWork.json"]},
+    { "order" : 9, "file": ["/data/bot/sequences/smalltalk/ContactEinstein.json"]},
     { "order" : 9, "file": ["/data/bot/sequences/smalltalk/DoHumansHaveBatteries.json"]},
     { "order" : 9, "file": ["/data/bot/sequences/smalltalk/FashionTest.json"]},
     { "order" : 9, "file": ["/data/bot/sequences/smalltalk/ILoveMakingYouLaugh.json"]},
