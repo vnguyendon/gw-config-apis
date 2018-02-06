@@ -1,0 +1,134 @@
+{
+  "Type": "Node",
+  "Id": "LoveLookingAtArt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I love looking at art, do you?",
+        "fr": "J'adore observer des oeuvres d'art, pas toi ?",
+        "es": "Me encanta mirar a obras de arte, ¿y tú?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LoveLookingAtArtYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "si",
+        "es": "yo también"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Awesome!",
+            "fr": "Génial !",
+            "es": "¡Genial!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WhichDoYouPrefer",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Which do you prefer?",
+              "fr": "Lequel préfères-tu ?",
+              "es": "¿Cuál te gusta más?"
+            }
+          }
+        ],
+        "DisplayHint": "Carousel",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PreferModernArt",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Modern art",
+              "fr": "Art moderne",
+              "es": "Arte moderno"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "Mandoline et guitare by Picasso",
+                "fr": "Mandoline et guitare de Picasso",
+                "es": "Mandoline et guitare de Picasso"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516874456/picasso_crn7xx.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You’re super trendy! 😎",
+                  "fr": "T'es super tendance ! 😎",
+                  "es": "¡Eres súper moderno! 😎"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/like.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PreferClassicArt",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Classic",
+              "fr": "Classique",
+              "es": "Clásico"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "Las Meninas by Velazquez",
+                "fr": "Las Meninas de Velazquez",
+                "es": "Las Meninas de Velazquez"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516287951/l54j4lkj_kz1ehd.png"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "A traditionalist, huh? I like your taste!",
+                  "fr": "Un conservateur, hein ? Tu as bon goût !",
+                  "es": "¿Un conservador, verdad? ¡Tienes buen gusto!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LoveLookingAtArtNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "not at all",
+        "fr": "non, pas du tout",
+        "es": "no me gusta para nada"
+      }
+    }
+  ]
+}
