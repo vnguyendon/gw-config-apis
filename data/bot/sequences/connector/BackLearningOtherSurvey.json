@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "BackLearningOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Right… back to learning 🤓",
+        "fr": "OK... on continue à apprendre 🤓",
+        "es": "Vale... sigamos aprendendo 🤓"
+      }
+    }
+  ]
+}
