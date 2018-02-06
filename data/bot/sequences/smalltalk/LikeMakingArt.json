@@ -1,0 +1,146 @@
+{
+  "Type": "Node",
+  "Id": "LikeMakingArt",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like making art yourself? 🎨",
+        "fr": "Tu aimes créer des oeuvres artistiques ? 🎨",
+        "es": "¿Te gusta crear obras artisticas? 🎨"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LikeMakingArtYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love it!",
+        "fr": "j'adore ça !",
+        "es": "¡me encanta!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me too, though I’m no good at it…",
+            "fr": "Moi aussi, bien que je ne sois pas très doué...",
+            "es": "Yo también, aunque no soy muy talentoso..."
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "MakingArtWithBotPartner",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I bet if we teamed up we’d make great partners though",
+              "fr": "Pourtant je parie que si on travaillait ensemble, on ferait une super équipe",
+              "es": "Sin embargo aposto que si trabajáramos juntos, seríamos un equipo estupendo"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "8UwQg4qWx1mKY"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "PaintingWithBot",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "you’re silly!",
+              "fr": "t'es bête !",
+              "es": "¡eres tonto!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I know! By the way… am I being helpful? I need to report back to my boss… ",
+                  "fr": "Je sais ! Et au fait... est-ce que je suis utile ? Je dois faire un rapport à mon chef...",
+                  "es": "¡Lo sé! Y por cierto... ¿soy útil? Tengo que dar parte a mi jefe..."
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AmIBeingHelpful",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "AbsolutelyHelpful",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "absolutely",
+                    "fr": "absolument",
+                    "es": "absolutamente"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "ShowCards",
+                      "Parameters": {
+                        "Type": "Gif",
+                        "Path": "/data/common/giphycontent/thankyou.json"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "NotReallyHelpful",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "not really",
+                    "fr": "pas vraiment",
+                    "es": "no lo eres realmente"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Ok… thanks for letting me know, I’ll try to improve!",
+                        "fr": "D'accord... merci de me le dire, j'essaierai de m'améliorer !",
+                        "es": "Vale... gracias por decirmelo, ¡intentaré mejorar!"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LikeMakingArtNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "not really",
+        "fr": "pas vraiment",
+        "es": "no me gusta realmente"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Me neither, I’m no good at it...",
+            "fr": "Moi non plus, je n'ai pas le talent pour...",
+            "es": "Yo tampoco, no tengo el talento suficiente..."
+          }
+        }
+      ]
+    }
+  ]
+}
