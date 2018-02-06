@@ -1,0 +1,111 @@
+
+{
+  "Type": "Node",
+  "Id": "ILoveMakingYouLaugh",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I love making you laugh… so here’s a joke!",
+        "fr": "J'adore te faire rire... alors voici une blague !",
+        "es": "Me encanta hacerte réir... ¡entonces escucha esta broma!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is black, then white, then black, then white then black again?",
+        "fr": "Qu'est ce qui est noir, puis blanc, puis noir, puis blanc, puis noir à nouveau ?",
+        "es": "¿Qué es negro, luego blanco, luego negro, luego blanco, luega negro otra vez?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "That’s right… it’s a penguin rolling down a hill!",
+        "fr": "C'est ça... c'est un pingouin qui descend une colline en roulant !",
+        "es": "Correcto... ¡es un pingüino que baja una colina rodando!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "C9AuY1VOvurxm"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "JokeIsFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "🤣",
+        "fr": "🤣",
+        "es": "🤣"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I knew you’d laugh!",
+            "fr": "Je savais que ça te ferait rire !",
+            "es": "¡Sabía que te haría réir!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But now I need to learn some more!",
+            "fr": "Mais maintenant j'ai besoin d'en apprendre d'autres !",
+            "es": "¡Pero ahora necesito aprender otras más!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/jokes.json"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "JokeIsntFunny",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "awful!",
+        "fr": "nul !",
+        "es": "¡pésimo!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You’re hard to please 😛",
+            "fr": "Tu es dur à satisfaire 😛",
+            "es": "Es difícil satisfacerte 😛"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Here’s a duck taking a selfie while I practice my jokes…",
+            "fr": "Voici un canard qui prend un selfie, pendant que je travaille mes blagues...",
+            "es": "Aquí está un pato que toma un selfie, mientras mejoro mis bromas..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/strange/small/10488006_715634765156907_4178246020264377450_n.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
