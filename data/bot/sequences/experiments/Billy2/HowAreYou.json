@@ -1,66 +1,100 @@
 {
-    "Type": "Node",
-    "Id": "HowAreYou",
-    "Steps": [
+  "Type": "Node",
+  "Id": "HowAreYou",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How are you feeling today?",
+        "fr": "Bonjour ! Comment ça va aujourd'hui ?",
+        "es": "¡Hola! ¿Cómo estás?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Good",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good",
+        "fr": "bien",
+        "es": "bien"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Hi ! How are you feeling today?",
-                "fr": "Bonjour ! Comment ça va aujourd'hui ?",
-                "es": "¡Hola! ¿Cómo estás?"
-            }
-        }
-    ],
-    "Commands": [
+          "Type": "Text",
+          "Label": {
+            "en": "Great! 😃",
+            "fr": "tbd",
+            "es": "tbd"
+          }
+        },
         {
-            "Type": "Leaf",
-            "Id": "Good",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "good",
-                "fr": "bien",
-                "es": "bien"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Great! 😃",
-                        "fr": "tbd",
-                        "es": "tbd"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
-                        "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉",
-                        "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "l2QE9TcoKQR5N1hW8"
-                    }
-                },
-                {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "For instance...",
-                        "fr": "Par exemple...",
-                        "es": "Por ejemplo..."
-                    }
-                }
-            ]
+          "Type": "Text",
+          "Label": {
+            "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
+            "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉",
+            "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3500
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QE9TcoKQR5N1hW8"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "For instance...",
+            "fr": "Par exemple...",
+            "es": "Por ejemplo..."
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 4000
+          }
         }
-    ]
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotSoGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not so good",
+        "fr": "bien",
+        "es": "bien"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Great! 😃",
+            "fr": "tbd",
+            "es": "tbd"
+          }
+        }
+      ]
+    }
+  ]
 }
