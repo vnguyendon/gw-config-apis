@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "WhereWereWeOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Now, where were we?",
+        "fr": "Euh, on en était où ?",
+        "es": "Bueno, ¿donde nos quedamos?"
+      }
+    }
+  ]
+}
