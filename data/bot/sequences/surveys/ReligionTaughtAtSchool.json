@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ReligionTaughtAtSchool",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should religion be taught in public schools?",
+        "fr": "Devrait-on enseigner la religion à l'école publique ?",
+        "es": "¿Haría que enseñar religión en escuelas públicas?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ReligionShouldBeTaught",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3KEJl20q5ggBW"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ReligionShouldNotBeTaught",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT9KVteixWgVlXckQE"
+          }
+        }
+      ]
+    }
+  ]
+}
