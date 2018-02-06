@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "TheMeaningOfLife42",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The meaning of life is",
+        "fr": "Le sens de la vie, c'est",
+        "es": "El sentido de la vida es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MeaningIs42",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "42",
+        "fr": "42",
+        "es": "42"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "MoW0kBA0d1NF6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MeaningIsElse",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "something else",
+        "fr": "autre chose",
+        "es": "otra cosa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "4RhXvVIvJmSCQ"
+          }
+        }
+      ]
+    }
+  ]
+}
+
