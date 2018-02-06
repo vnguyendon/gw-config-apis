@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "ResistingTemptation",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you good at resisting temptation?",
+        "fr": "Resistes-tu bien à la tentation ?",
+        "es": "¿Piensas que te resistes bién a la tentación?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "GoodAtResistingTemptation",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "qjfeT5XdAirCg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "BadAtResistingTemptation",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oAt1Vq8YVk2qwPU64"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'I can resist everything except temptation.' - Oscar Wilde",
+            "fr": "'Le seul moyen de se délivrer d'une tentation, c'est d'y céder.' - Oscar Wilde",
+            "es": "'La única manera de librarse de la tentación es ceder ante ella.' - Oscar Wilde"
+          }
+        }
+      ]
+    }
+  ]
+}
