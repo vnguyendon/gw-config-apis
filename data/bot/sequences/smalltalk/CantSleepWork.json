@@ -1,0 +1,105 @@
+
+{
+  "Type": "Node",
+  "Id": "CantSleepWork",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I couldn’t sleep AT ALL last night… something was bothering me so much:",
+        "fr": "Je n'ai pas pu fermer l'oeil de la nuit... quelque chose me turlupinait :",
+        "es": "No pegué los ojos esta noche... algo me preocupaba:"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "why must this gate be closed?!",
+        "fr": "pourquoi est-ce que cette porte doit rester fermée ?!",
+        "es": "¿porqué esta puerta tiene que estar cerrada?"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/strange/small/4e270d768c6a2.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "KeepUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That kept you up? 😂",
+        "fr": "Tu es resté éveillé à cause de ça ? 😂",
+        "es": "¿Eso te mantuvo despierto? 😂"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HomeworkHumanHowDoYouWork",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "😫 It was part of my homework on understanding humans!",
+              "fr": "😫 C'est mon boulot d'essayer de comprendre les humains !",
+              "es": "😫 ¡Comprender a los humanos forma parte de mis tareas!"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": " I just couldn’t do it on my own… how do you prefer to work?",
+              "fr": "Je n'y arrivais juste pas tout seul... comment préfères-tu travailler toi ? ",
+              "es": "y tú, ¿como prefieres trabajar ?"
+            }
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "OnMyOwn",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "On my own",
+              "fr": "Tout seul",
+              "es": "Solo"
+            },
+            "Steps": [
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "fhAwk4DnqNgw8"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "InAGroup",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "In a group",
+              "fr": "A plusieurs",
+              "es": "en grupo"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Right on! Me too… ‘Talent wins games, but teamwork wins championships’ - Michael Jordan",
+                  "fr": "Allez ! Moi aussi... 'Le talent permet de gagner des matchs, mais le travail d’équipe et l’intelligence permettent de gagner les championnats'- Michael Jordan",
+                  "es": "¡Claro! Yo también... “El talento gana partidos, pero el trabajo en equipo y la inteligencia gana campeonatos” - Michael Jordan"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
