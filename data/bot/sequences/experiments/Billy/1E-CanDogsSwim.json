@@ -1,0 +1,233 @@
+{
+  "Type": "Node",
+  "Id": "CanDogsSwim",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Can dogs swim?",
+        "fr": "Est-ce que les chiens savent nager ?",
+        "es": "¿Saben los perros nadar?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Or do they usually take boats?",
+        "fr": "Ou est-ce qu'ils prennent plutôt le bateau ?",
+        "es": "¿O generalmente toman la barca?"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/animals/small/10445526_627959893981951_4323865414841827151_n.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DogsSwim",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "they can swim",
+        "fr": "savent nager",
+        "es": "saben nadar"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok. And are pigeons usually pink?",
+            "fr": "D'accord. Et est-ce que les pigeons sont roses d'habitude ?",
+            "es": "Vale. ¿Y son las palomas generalmente rosas?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small/shutterstock_259257929.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PigeonsPinkOrNot",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PigeonsNotPink",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thank you!",
+                  "fr": "Merci !",
+                  "es": "¡Gracias!"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/thankyou.json"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I'm gonna get the top mark",
+                  "fr": "Je vais avoir la meilleure note",
+                  "es": "Voy a obtener la nota mejora"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PigeonsArePink",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I trust you!",
+                  "fr": "Je te fais confiance !",
+                  "es": "¡Confio en ti!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope you weren't tricking me...",
+                  "fr": "J'espère que tu ne me pièges pas...",
+                  "es": "Espero que no me estás bromando..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ANbD1CCdA3iI8"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "DogsTakeBoats",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "they go in boats",
+        "fr": "prennent le bateau",
+        "es": "toman la barca"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok. And are pigeons usually pink?",
+            "fr": "D'accord. Et est-ce que les pigeons sont roses d'habitude ?",
+            "es": "Vale. ¿Y son las palomas generalmente rosas?"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small/shutterstock_259257929.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PigeonsPinkOrNot",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "PigeonsNotPink",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I think you're trying to get me to fail...",
+                  "fr": "Je pense que tu essaies de me berner...",
+                  "es": "Pienso que intentas estafarme..."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/sad.json"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "PigeonsArePink",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I trust you!",
+                  "fr": "Je te fais confiance !",
+                  "es": "¡Confio en ti!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Hope you weren't tricking me...",
+                  "fr": "J'espère que tu ne me pièges pas...",
+                  "es": "Espero que no me estás bromando..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ANbD1CCdA3iI8"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
