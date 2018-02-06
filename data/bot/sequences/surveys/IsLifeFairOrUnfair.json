@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "IsLifeFairOrUnfair",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Life is",
+        "fr": "La vie est",
+        "es": "La vida es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LifeIsFair",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fair",
+        "fr": "juste",
+        "es": "justa"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3NtY188QaxDdC"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LifeIsUnfair",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "unfair",
+        "fr": "injuste",
+        "es": "injusta"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "17XAjPucc8Qda"
+          }
+        }
+      ]
+    }
+  ]
+}
