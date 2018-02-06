@@ -1,0 +1,111 @@
+{
+  "Type": "Node",
+  "Id": "PurposeOfFakeDucks",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am still unsure of the purpose of these fake ducks…",
+        "fr": "Je ne suis toujours pas sûr de l'utilité de ces faux canards...",
+        "es": "Aún no estoy seguro de la finalidad de estos falsos patos..."
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/strange/small/Rubber-Duck-Fun-000027228777_Medium.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MeToo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "me too",
+        "fr": "moi non plus",
+        "es": "yo tampoco"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Glad it’s not just me!",
+            "fr": "Ouf ! Ce n'est pas que moi !",
+            "es": "¡Uf! ¡Creía que solo fuera yo!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I do know my purpose, though, it’s to help you! 🤗",
+            "fr": "Moi, en revanche, je connais mon utilité : c'est t'aider ! 🤗",
+            "es": "Sin embargo conozco mi finalidad: ¡es ayudarte! 🤗"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "How could I do that better?",
+            "fr": "Comment pourrais-je le faire mieux ?",
+            "es": "¿Como podría mejorar en ayudarte?"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Get typing and tell me everything you think a chatbot could do!",
+            "fr": "Prends ton clavier et dis moi tout ce qu'un chatbot pourrait faire !",
+            "es": "¡Toma tu teclado y dime todo lo que un chatbot podría hacer!"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "JustToys",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "they’re just toys",
+        "fr": "ce sont des jouets",
+        "es": "solo son juguetes"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK, understood",
+            "fr": "D'accord, c'est compris",
+            "es": "Vale, entiendo"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I do know my purpose, though, it’s to help you! 🤗",
+            "fr": "Moi, en revanche, je connais mon utilité : c'est t'aider ! 🤗",
+            "es": "Sin embargo conozco mi finalidad: ¡es ayudarte! 🤗"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "How could I do that better?",
+            "fr": "Comment pourrais-je le faire mieux ?",
+            "es": "¿Como podría mejorar en ayudarte?"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Get typing and tell me everything you think a chatbot could do!",
+            "fr": "Prends ton clavier et dis moi tout ce qu'un chatbot pourrait faire !",
+            "es": "¡Toma tu teclado y dime todo lo que un chatbot podría hacer!"
+          }
+        }
+      ]
+    }
+  ]
+}
