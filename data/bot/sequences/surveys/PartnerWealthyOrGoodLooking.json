@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PartnerWealthyOrGoodLooking",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer your partner to be",
+        "fr": "Tu préfères que ton partenaire soit",
+        "es": "Prefieres que tu compañero/a sea"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PartnerWealthy",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "wealthy",
+        "fr": "riche",
+        "es": "rico/a"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "LdOyjZ7io5Msw"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PartnerGoodLooking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good-looking",
+        "fr": "beau",
+        "es": "guapo/a"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l0EoAViL97GNqG5YQ"
+          }
+        }
+      ]
+    }
+  ]
+}
