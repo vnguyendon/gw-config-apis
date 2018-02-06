@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "WeGotDistractedOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Looks like we got distracted...",
+        "fr": "On dirait qu'on s'est laissé distraire...",
+        "es": "Parece que nos dejamos distraer..."
+      }
+    }
+  ]
+}
