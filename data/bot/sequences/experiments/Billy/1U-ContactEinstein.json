@@ -7,7 +7,7 @@
       "Label": {
         "en": "Do you know how I can contact this man?",
         "fr": "Sais-tu comment je pourrais contacter cette personne?",
-        "es": "TBD"
+        "es": "¿Sabes como podría contactar a este hombre?"
       }
     },
     {
@@ -22,7 +22,7 @@
       "Label": {
         "en": "I have a serious problem and need a super smart brain",
         "fr": "J'ai un sérieux problème et j'ai besoin de l'aide d'un cerveau super malin",
-        "es": "TBD"
+        "es": "Tengo un problema grave y necesito la ayuda de un cerebro muy inteligente"
       }
     }
   ],
@@ -34,7 +34,7 @@
       "CommandLabel": {
         "en": "I can help!",
         "fr": "Je peux t'aider!",
-        "es": "TBD"
+        "es": "¡Te puedo ayudar!"
       },
       "LinksTo": {
         "Type": "Node",
@@ -45,15 +45,15 @@
             "Label": {
               "en": "Is an orange called an orange because of the colour?",
               "fr": "Est-ce qu'une orange est appelée une orange à cause de sa couleur?",
-              "es": "TBD"
+              "es": "¿Es una naranja llamada naranja a causa de su color?"
             }
           },
           {
             "Type": "Text",
             "Label": {
-              "en": "Or is the colour called ‘orange’ because of the fruit… 🤔",
-              "fr": "Ou bien est-ce que c'est la couleur orange qui est appelée orange à cause du fruit.. 🤔?",
-              "es": "TBD 🤔"
+              "en": "Or is the colour called ‘orange’ because of the fruit…? 🤔",
+              "fr": "Ou bien est-ce que c'est la couleur orange qui est appelée orange à cause du fruit...? 🤔",
+              "es": "O es el color naranja que es llamado así a causa de la fruta...? 🤔"
             }
           }
         ],
@@ -64,16 +64,16 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Oh come on... 😑",
-              "fr": "Oh quand même.. 😑",
-              "es": "TBD"
+              "fr": "Oh quand même... 😑",
+              "es": "Anda ya... 😑"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "OK OK I was joking… but thank you for offering to help..!",
-                  "fr": "OK OK Je rigole... merci de m'offrir ton aide en tout cas.. !",
-                  "es": "TBD"
+                  "en": "OK OK I was joking… but thank you for offering to help...!",
+                  "fr": "OK OK je rigolais... merci de m'offrir ton aide en tout cas... !",
+                  "es": "Vale vale estaba bromeando... gracias por tu ayuda...!"
                 }
               }
             ],
@@ -86,7 +86,7 @@
                   "Label": {
                     "en": "Do you do that often?",
                     "fr": "Est-ce que tu aides souvent les personnes autour de toi?",
-                    "es": "TBD"
+                    "es": "¿Ayudas a menudo las personas en torno a te?"
                   }
                 }
               ],
@@ -96,17 +96,17 @@
                   "Id": "DoYouHelpOftenYes",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "Yes, it’s a great feeling 😌",
-                    "fr": "Oui, c'est important d'aider 😌",
-                    "es": "TBD 😌"
+                    "en": "Yes, it feels good 😌",
+                    "fr": "Oui, ça me plaît 😌",
+                    "es": "Sí, me gusta 😌"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Right! It’s my favourite thing to do as a bot..",
-                        "fr": "Génial! C'est mon activité en tant qu'assistant-robot",
-                        "es": "TBD"
+                        "fr": "Génial! C'est mon activité en tant qu'assistant-robot...",
+                        "es": "Muy bien! Es mi actividad preferida como bot-asistente..."
                       }
                     },
                     {
@@ -126,7 +126,7 @@
                   "CommandLabel": {
                     "en": "No, not enough",
                     "fr": "Non, pas assez",
-                    "es": "TBD"
+                    "es": "No, no es suficiente"
                   },
                   "Steps": [
                     {
@@ -134,7 +134,7 @@
                       "Label": {
                         "en": "Well, you offered to help me, and that’s a start 😊",
                         "fr": "Tu viens juste de m'aider, c'est un très bon début 😊",
-                        "es": "TBD"
+                        "es": "Pues acabas de ayudarme, es un buen comienzo 😊"
                       }
                     },
                     {
@@ -142,7 +142,7 @@
                       "Label": {
                         "en": "And I’m sure you’re just being modest… ",
                         "fr": "Et je suis sur que tu es très modeste…",
-                        "es": "TBD"
+                        "es": "Y estoy seguro que eres muy recatado..."
                       }
                     },
                     {
