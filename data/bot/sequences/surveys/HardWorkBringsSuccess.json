@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "HardWorkBringsSuccess",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you think hard work usually brings success?",
+        "fr": "Penses-tu que travailler dur permet, en général, de réussir ?",
+        "es": "¿Piensas que generalmente, la dedicación lleva el éxito?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "HardWorkBringsSuccess",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oriO7A7bt1wsEP4cw"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HardWorkDoesntBringsSuccess",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YWAiayVul0JLq"
+          }
+        }
+      ]
+    }
+  ]
+}
