@@ -1,0 +1,175 @@
+
+{
+  "Type": "Node",
+  "Id": "BaseballMovie",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So I just watched a baseball movie, and now I want to play!",
+        "fr": "Alors je viens de regarder un film sur le baseball, et maintenant j'ai envie d'y jouer !",
+        "es": "Bueno, acabo de ver una pelicula sobre el béisbol, ¡y ahora tengo ganas de jugar!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "But I don't have hands... or legs... or a body",
+        "fr": "Mais je n'ai pas de mains... ni de jambes... ni de corps",
+        "es": "Pero no tengo manos... ni piernas... ni cuerpo"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/specialoccasions/come-back-to-me/default/small/iStock_000006842719_Large.jpg"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "BaseballMovieItsOk",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "it's OK, I'm here now",
+        "fr": "ça va, je suis là",
+        "es": "vale, estoy aquí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Thanks, human 😊",
+            "fr": "Merci, humain 😊",
+            "es": "Gracias, humano 😊"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "If I can’t play sports... I guess I’ll do something else...",
+            "fr": "Si je ne peux pas faire de sport... J'imagine que je ferai autre chose...",
+            "es": "Si no puedo jugar deportes... Imagino que haré otras cosas..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "What do you usually do for fun?",
+            "fr": "Qu'est-ce que tu fais, toi, pour t'amuser ?",
+            "es": "¿Y tú, que haces para divertirte?"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Leaf",
+          "Id": "BaseballMovieItsOkTV",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Watch TV 📺",
+            "fr": "Télévision 📺",
+            "es": "Televisión 📺"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Alright 😄 I’ll look for some shows",
+                "fr": "D'accord 😄 Je vais chercher des séries",
+                "es": "Vale 😄 Voy a buscar telenovelas"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Here’s something that makes me laugh to say thank you",
+                "fr": "Voici quelque chose qui me fait rire, pour te remercier",
+                "es": "Aquí está algo que me hace reír, para agradecerte"
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "NNzvP5CCe1XsQ"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "BaseballMovieItsOkBooks",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Read 📚",
+            "fr": "Lecture 📚",
+            "es": "Lectura 📚"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Alright 😄 I’ll look up some authors",
+                "fr": "D'accord 😄 Je vais chercher des auteurs",
+                "es": "Vale 😄 Voy a buscar autores"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Here’s something that makes me laugh to say thank you",
+                "fr": "Voici quelque chose qui me fait rire, pour te remercier",
+                "es": "Aquí está algo que me hace reír, para agradecerte"
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "NNzvP5CCe1XsQ"
+              }
+            }
+          ]
+        },
+        {
+          "Type": "Leaf",
+          "Id": "BaseballMovieItsOkMusic",
+          "ElementValue": "1",
+          "CommandLabel": {
+            "en": "Listen to music 🎵",
+            "fr": "Musique 🎵",
+            "es": "Música 🎵"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Alright 😄 I’ll find some songs",
+                "fr": "D'accord 😄 Je vais chercher des chansons",
+                "es": "Vale 😄 Voy a buscar canciones"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Here’s something that makes me laugh to say thank you",
+                "fr": "Voici quelque chose qui me fait rire, pour te remercier",
+                "es": "Aquí está algo que me hace reír, para agradecerte"
+              }
+            },
+            {
+              "Type": "AnimatedGif",
+              "Parameters": {
+                "Source": "Giphy",
+                "Path": "NNzvP5CCe1XsQ"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
