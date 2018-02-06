@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "what would improve your life the most",
-        "fr": "qu'est-ce qui améliorerait le plus ta vie",
-        "es": "qué mejoraría tu vida lo más"
+        "en": "What would improve your life the most",
+        "fr": "Qu'est-ce qui améliorerait le plus ta vie",
+        "es": "Qué mejoraría tu vida lo más"
       }
     }
   ],
@@ -41,9 +41,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "there you go I am hungry again...",
-            "fr": "et voilà ca y est j'ai faim...",
-            "es": "aquí está tengo hambre..."
+            "en": "There you go I am hungry again...",
+            "fr": "Et voilà ca y est j'ai faim...",
+            "es": "Aquí está tengo hambre..."
           }
         }
       ]
@@ -69,9 +69,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "me too I guess, look what happened to me last time I caught the bus...",
-            "fr": "moi aussi j'imagine, regarde ce qui m'est arrivé la dernière fois que j'ai sauté dans le bus...",
-            "es": "creo que yo también, miras lo que occurío la última vez que tomé el autobús..."
+            "en": "Me too I guess, look what happened to me last time I caught the bus...",
+            "fr": "Moi aussi j'imagine, regarde ce qui m'est arrivé la dernière fois que j'ai sauté dans le bus...",
+            "es": "Creo que yo también, miras lo que occurío la última vez que tomé el autobús..."
           }
         },
         {
