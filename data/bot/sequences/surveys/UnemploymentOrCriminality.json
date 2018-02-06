@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "UnemploymentOrCriminality",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should your country focus on reducing",
+        "fr": "Ton pays devrait réduire en priorité",
+        "es": "En prioridad, tu país debería reducir"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ReduceUnemployment",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "unemployment",
+        "fr": "le chômage",
+        "es": "el paro"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "bDT3UIJqyQDVm"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ReduceCriminality",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "criminality",
+        "fr": "la criminalité",
+        "es": "la criminalidad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "m9rMVyKactNK"
+          }
+        }
+      ]
+    }
+  ]
+}
