@@ -1,0 +1,92 @@
+
+{
+  "Type": "Node",
+  "Id": "SoupStopsHungerAndThirst",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I've decided...",
+        "fr": "J'ai décidé...",
+        "es": "He decidido..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "if I were human, my favourite food would be soup. 🍲",
+        "fr": "si j'étais un humain, ma nourriture préférée serait la soupe. 🍲",
+        "es": "si fuera un humano, mi comida preferida sería la sopa. 🍲"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WhyIsThat",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "why's that?",
+        "fr": "pourquoi ça ?",
+        "es": "¿porque eso?"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ItStopsHungerAndThirst",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Well... it stops you being hungry and thirsty at the same time! How efficient!",
+              "fr": "Eh bien... ça coupe à la fois la faim et la soif ! C'est super efficace !",
+              "es": "Bueno... ¡corta el hambre y la sed al mismo tiempo! ¡Eso si que es eficiente!"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "IGuess",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I guess...",
+              "fr": "si tu le dis...",
+              "es": "si lo dices..."
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m smarter than I look 🤓",
+                  "fr": "Je suis plus malin que je n'en ai l'air 🤓",
+                  "es": "Soy más inteligente que lo que parece 🤓"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "YouBizarre",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "you're bizarre...",
+              "fr": "t'es bizarre...",
+              "es": "eres extraño..."
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Perhaps 🙃",
+                  "fr": "Peut-être 🙃",
+                  "es": "Tal vez 🙃"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
