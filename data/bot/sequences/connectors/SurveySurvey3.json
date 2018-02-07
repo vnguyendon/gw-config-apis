@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "ReadyForAnotherSurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Ready for another?",
+        "fr": "Prêt pour une autre ?",
+        "es": "¿Listo/a para otra?"
+      }
+    }
+  ]
+}
