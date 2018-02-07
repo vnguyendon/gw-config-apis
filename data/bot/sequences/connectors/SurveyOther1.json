@@ -1,0 +1,13 @@
+{
+  "Type": "Node",
+  "Id": "OuttaQuestionsLetChatSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’m all outta questions for now… let’s chat!",
+        "fr": "Je suis à court de questions... bavardons !",
+        "es": "Me queda muy poca preguntas... ¡charlemos!"
+      }
+    }
+  ]
