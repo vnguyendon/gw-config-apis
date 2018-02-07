@@ -13,4 +13,5 @@
       { "order" : 90, "file": ["/data/bot/sequences/surveys/GotobedBeforeOrAfter11pm.json","/data/bot/sequences/surveys/HumansEvolveFromAnimals.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/connectors/SurveySurvey01.json","/data/bot/sequences/connectors/SurveySurvey02.json","/data/bot/sequences/connectors/SurveySurvey03.json","/data/bot/sequences/connectors/SurveySurvey04.json","/data/bot/sequences/connectors/SurveySurvey05.json","/data/bot/sequences/connectors/SurveySurvey06.json","/data/bot/sequences/connectors/SurveySurvey07.json"]},
       { "order" : 110, "file": ["/data/bot/sequences/surveys/TeaOrCoffee.json","/data/bot/sequences/surveys/WLifeFairOrUnfair.json"]}
+    ]
 }
