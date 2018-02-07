@@ -1,8 +1,7 @@
-[
-  {
-    "GroupName":"Survey",
-    "SequenceFiles" : [
-      { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]}
-    ]
-  }
-]
+
+{
+  "GroupName":"Survey",
+  "SequenceFiles" : [
+    { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]}
+  ]
+}
