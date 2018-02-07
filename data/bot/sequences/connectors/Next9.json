@@ -1,0 +1,15 @@
+{
+ "Type": "Node",
+ "Id": "ContinueNextButtons",
+ "Commands": [
+  {
+   "Type": "Leaf",
+   "Id": "Continue",
+   "CommandLabel": {
+    "en": "Continue",
+    "fr": "Continue",
+    "es": "Continúa"
+   }
+  }
+ ]
+}
