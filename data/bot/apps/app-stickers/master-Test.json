@@ -3,15 +3,19 @@
   "GroupName":"Survey",
   "SequenceFiles" : [
      { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
-      { "order" : 40, "file": ["/data/bot/sequences/surveys/BelieveinAliens.json","/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]},
-      { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
-      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json","/data/bot/sequences/experiments/Billy/1M-WorldEitherIsOrIsntBanana.json"]},
-      { "order" : 70, "file": ["/data/bot/sequences/connectors/ConnectSpecial03.json"]},
-      { "order" : 80, "file": ["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json","/data/bot/sequences/surveys/WFacebookOrInstagram.json"]},
-      { "order" : 90, "file": ["/data/bot/sequences/surveys/GotobedBeforeOrAfter11pm.json","/data/bot/sequences/surveys/HumansEvolveFromAnimals.json"]},
-      { "order" : 100, "file": ["/data/bot/sequences/connectors/SurveySurvey01.json","/data/bot/sequences/connectors/SurveySurvey02.json","/data/bot/sequences/connectors/SurveySurvey03.json","/data/bot/sequences/connectors/SurveySurvey04.json","/data/bot/sequences/connectors/SurveySurvey05.json","/data/bot/sequences/connectors/SurveySurvey06.json","/data/bot/sequences/connectors/SurveySurvey07.json"]},
-      { "order" : 110, "file": ["/data/bot/sequences/surveys/TeaOrCoffee.json","/data/bot/sequences/surveys/WLifeFairOrUnfair.json"]}
+     { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
+     { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
+     { "order" : 40, "file": ["/data/bot/sequences/surveys/BelieveinAliens.json","/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]},
+     { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
+     { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json","/data/bot/sequences/experiments/Billy/1M-WorldEitherIsOrIsntBanana.json"]},
+     { "order" : 70, "file": ["/data/bot/sequences/connectors/ConnectSpecial03.json"]},
+     { "order" : 80, "file": ["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json","/data/bot/sequences/surveys/WFacebookOrInstagram.json"]},
+     { "order" : 90, "file": ["/data/bot/sequences/surveys/GotobedBeforeOrAfter11pm.json","/data/bot/sequences/surveys/HumansEvolveFromAnimals.json"]},
+     { "order" : 100, "file": ["/data/bot/sequences/connectors/SurveySurvey01.json","/data/bot/sequences/connectors/SurveySurvey02.json","/data/bot/sequences/connectors/SurveySurvey03.json","/data/bot/sequences/connectors/SurveySurvey04.json","/data/bot/sequences/connectors/SurveySurvey05.json","/data/bot/sequences/connectors/SurveySurvey06.json","/data/bot/sequences/connectors/SurveySurvey07.json"]},
+     { "order" : 110, "file": ["/data/bot/sequences/surveys/TeaOrCoffee.json","/data/bot/sequences/surveys/WLifeFairOrUnfair.json"]},
+     { "order" : 120, "file": ["/data/bot/sequences/connectors/SurveyOther01.json","/data/bot/sequences/connectors/SurveyOther02.json","/data/bot/sequences/connectors/SurveyOther03.json","/data/bot/sequences/connectors/SurveyOther04.json","/data/bot/sequences/connectors/SurveyOther05.json","/data/bot/sequences/connectors/SurveyOther06.json","/data/bot/sequences/connectors/SurveyOther07.json"]},
+     { "order" : 130, "file": ["/data/bot/sequences/experiments/Billy/2B-IsItFunToBeHuman.json","/data/bot/sequences/experiments/Billy/1U-ContactEinstein.json","/data/bot/sequences/experiments/Billy/1B-IveGotProblem.json","/data/bot/sequences/experiments/Billy/1C-LoveLookingAtArt.json","/data/bot/sequences/experiments/Billy/1E-BaseballMovie.json"]},
+     { "order" : 140, "file": ["/data/bot/sequences/connectors/OtherSurvey01.json","/data/bot/sequences/connectors/OtherSurvey02.json","/data/bot/sequences/connectors/OtherSurvey03.json","/data/bot/sequences/connectors/OtherSurvey04.json","/data/bot/sequences/connectors/OtherSurvey05.json","/data/bot/sequences/connectors/OtherSurvey06.json","/data/bot/sequences/connectors/OtherSurvey07.json","/data/bot/sequences/connectors/OtherSurvey08.json","/data/bot/sequences/connectors/OtherSurvey09.json"]},
+     { "order" : 150, "file": ["/data/bot/sequences/surveys/HoursWatchingTV.json","/data/bot/sequences/surveys/JobsReservedForMenWomen.json","/data/bot/sequences/surveys/HowManyTimesTravelAbroad.json","/data/bot/sequences/surveys/BrexitGoodOrBad.json","/data/bot/sequences/surveys/DoYouHaveAPet.json","/data/bot/sequences/surveys/NewspapersAccuratePicture.json","/data/bot/sequences/surveys/WCatsOrDogs.json","/data/bot/sequences/surveys/ClimateChangeManMade.json","/data/bot/sequences/surveys/HowOftenDoYouThinkAboutLife.json","/data/bot/sequences/surveys/WDoYouEasilyTrustSomeone.json"]}
     ]
 }
