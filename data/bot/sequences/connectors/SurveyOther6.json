@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "EnoughOfThatSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OK OK, enough of that…",
+        "fr": "Ok ok, assez parlé de ça...",
+        "es": "Vale vale, bastante de eso..."
+      }
+    }
+  ]
+}
