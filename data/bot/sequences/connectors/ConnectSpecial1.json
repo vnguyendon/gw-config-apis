@@ -1,0 +1,14 @@
+{
+    "Type": "Node",
+    "Id": "ConnectSpecial1",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Let's try one!",
+          "fr": "Allez, on en essaie un!",
+          "es": "Bueno, ¡intentemos uno!"
+        }
+      }
+    ]
+  }
