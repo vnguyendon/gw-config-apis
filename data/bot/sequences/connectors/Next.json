@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "MoreMoreNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreMore",
+      "CommandLabel": {
+        "en": "More more!",
+        "fr": "Encore encore!",
+        "es": "¡Otra vez otra vez!"
+      }
+    }
+  ]
+}
