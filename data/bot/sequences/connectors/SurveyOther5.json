@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "TalkSomethingElseSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let’s talk about something else…",
+        "fr": "Allez parlons d'autre chose...",
+        "es": "Vale, hablamos de otra cosa..."
+      }
+    }
+  ]
+}
