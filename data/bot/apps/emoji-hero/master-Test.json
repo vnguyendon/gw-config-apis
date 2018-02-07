@@ -1,4 +1,4 @@
-[
+
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
@@ -190,4 +190,4 @@
       { "order" : 1000, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]}
     ]
   }
-]
+
