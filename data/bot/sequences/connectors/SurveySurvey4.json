@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "NeedAllAnswersSurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I need ALL the answers…",
+        "fr": "Je dois TOUT savoir...",
+        "es": "Tengo que saber TODO..."
+      }
+    }
+  ]
+}
