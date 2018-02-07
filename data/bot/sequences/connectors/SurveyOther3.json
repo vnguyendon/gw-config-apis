@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "TiredOfQuestionsSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Tired of questions? 😅 Don’t worry, I like other stuff too",
+        "fr": "Tu en as assez des questions ? 😅 Ne t'inquiète pas, j'aime d'autres choses aussi...",
+        "es": "¿Cansado/a de las preguntas? 😅 No te preocupes, me gustan otras cosas también..."
+      }
+    }
+  ]
+}
