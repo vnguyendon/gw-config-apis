@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "AlarmBreakSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "There goes my alarm! It’s time for a break from questions...",
+        "fr": "Ca y est c'est mon alarme ! C'est l'heure de la pause pour les questions...",
+        "es": "¡Ahí va mi alarma! Es la hora de la pause para las preguntas..."
+      }
+    }
+  ]
+}
