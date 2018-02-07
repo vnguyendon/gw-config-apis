@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "FascinatingSurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Fascinating!",
+        "fr": "Fascinant !",
+        "es": "¡Fascinante!"
+      }
+    }
+  ]
+}
