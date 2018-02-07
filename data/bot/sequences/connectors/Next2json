@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "NextNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Next",
+      "CommandLabel": {
+        "en": "Next",
+        "fr": "Suivant",
+        "es": "Siguiente"
+      }
+    }
+  ]
+}
