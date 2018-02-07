@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "KeepGoingNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "KeepGoing",
+      "CommandLabel": {
+        "en": "Keep going 😊",
+        "fr": "Ne t'arrête pas 😊",
+        "es": "No deja 😊"
+      }
+    }
+  ]
+}
