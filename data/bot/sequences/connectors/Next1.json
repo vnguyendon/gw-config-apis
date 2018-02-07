@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "AnotherOneNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AnotherOne",
+      "CommandLabel": {
+        "en": "Another one",
+        "fr": "Encore un",
+        "es": "Uno más"
+      }
+    }
+  ]
+}
