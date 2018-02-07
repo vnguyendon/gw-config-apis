@@ -21,6 +21,10 @@
       "File": "/data/bot/apps/app-stickers/appsurveyMasterSequence.json"
     },
     {
+      "Name": "surveyios",
+      "File": "/data/bot/apps/app-stickers/iossurveyMasterSequence.json"
+    },
+    {
       "Name": "appstest",
       "File": "/data/bot/apps/app-stickers/appstestMasterSequence.json"
     }
