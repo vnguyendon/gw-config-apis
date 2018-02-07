@@ -1,0 +1,22 @@
+{
+    "Type": "Node",
+    "Id": "ConnectSpecial3",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "And now...",
+          "fr": "Et maintenant...",
+          "es": "Y ahora..."
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "back to surveys! 😊",
+          "fr": "retour aux sondages ! 😊",
+          "es": "¡vuelta a las encuestas! 😊"
+        }
+      }
+    ]
+  }
