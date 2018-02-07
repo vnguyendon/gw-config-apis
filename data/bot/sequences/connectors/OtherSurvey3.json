@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "IWasWonderingOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "By the way, I was wondering…",
+        "fr": "Au fait, je me demandais...",
+        "es": "Por cierto, me preguntaba..."
+      }
+    }
+  ]
+}
