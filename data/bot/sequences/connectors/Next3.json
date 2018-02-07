@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "OneMoreNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OneMore",
+      "CommandLabel": {
+        "en": "One More!",
+        "fr": "Un de plus !",
+        "es": "¡Otra vez!"
+      }
+    }
+  ]
+}
