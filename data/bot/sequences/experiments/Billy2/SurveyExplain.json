@@ -1,0 +1,51 @@
+{
+  "Type": "Node",
+  "Id": "SurveyExplain",
+  "Steps": [
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "As you can see, after you answer my surveys, I do some super quick maths",
+              "fr": "tbd",
+              "es": "tbd"
+          }
+      },
+      {
+          "Type": "AnimatedGif",
+          "Parameters": {
+              "Source": "Giphy",
+              "Path": "3o7btPCcdNniyf0ArS"
+          }
+      },
+      {
+          "Type": "Text",
+          "Label": {
+              "en": "And then I give you the results! Understand?",
+              "fr": "tbd",
+              "es": "tbd"
+          }
+      },
+  ],
+  "Commands": [
+      {
+          "Type": "Leaf",
+          "Id": "Results",
+          "ElementValue": "1",
+          "CommandLabel": {
+              "en": "Got it!",
+              "fr": "tbd",
+              "es": "tbd"
+          },
+          "Steps": [
+              {
+                  "Type": "Text",
+                  "Label": {
+                      "en": "Great! Let's try another...",
+                      "fr": "tbd",
+                      "es": "tbd"
+                  }
+              }
+          ]
+      }
+  ]
+}
