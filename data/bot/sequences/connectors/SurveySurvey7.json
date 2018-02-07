@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "MakingLearningProgressSurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am making some serious learning progress…",
+        "fr": "J'en apprends sérieusement de plus en plus...'",
+        "es": "Estoy aprendiendo seriamente más y más"
+      }
+    }
+  ]
+}
