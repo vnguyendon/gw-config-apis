@@ -1,0 +1,175 @@
+
+  "Type": "Node",
+  "Id": "HiThereSP",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi there! 👋",
+        "fr": "Bonjour ! 👋",
+        "es": "¡Hola! 👋"
+      }
+    },
+    {
+        "Type": "Pause",
+        "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+        }
+    },
+    {
+        "Type": "Text",
+        "Label": {
+          "en": "Has a pony ever asked you surveys before?",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PonySurveyedBeforeYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+              "en": "How curious! 🤔",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+              "en": "Anyway, I'm Survey Pony! Nice to meet you 🐴",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QE9TcoKQR5N1hW8"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
+            "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉",
+            "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "For instance...",
+            "fr": "Par exemple...",
+            "es": "Por ejemplo..."
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PonySurveyedBeforeNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "No worries, there's a first time for everything!",
+            "fr": "Ooh 😟",
+            "es": "Ooh 😟"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm Survey Pony, it's a pleasure to meet you!",
+            "fr": "tbd",
+            "es": "tbd"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l2QEiGATcQKrgsYZa"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m a pony bot with special powers: I read people’s mind… by asking questions 😉",
+            "fr": "Je suis un poney-bot avec des super pouvoirs : je lis dans les pensées... en posant des questions 😉",
+            "es": "Soy un poni-bot con superpoderes: leo la mente... preguntando la gente 😉"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "For instance...",
+            "fr": "Par exemple...",
+            "es": "Por ejemplo..."
+          }
+        }
+      ]
+    }
+  ]
+}
