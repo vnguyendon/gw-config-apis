@@ -2,6 +2,6 @@
 {
   "GroupName":"Survey",
   "SequenceFiles" : [
-    { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]}
+    { "order" : 10, "file": ["/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]}
   ]
 }
