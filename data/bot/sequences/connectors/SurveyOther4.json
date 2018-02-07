@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "CalledsurveyponySurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I may be called SurveyPony, but that’s not all I can talk about…",
+        "fr": "Je m'appelle peut-être SurveyPony mais je ne fais pas que poser des questions...",
+        "es": "A lo mejor me llamo Surveypony pero preguntar cosas no es lo único que hago, puedo charlar también... "
+      }
+    }
+  ]
+}
