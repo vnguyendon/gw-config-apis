@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "QuickBreakSurveyOther",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We need a quick break from surveys I think…",
+        "fr": "Je pense qu'une petite pause sur les sondages s'impose...",
+        "es": "Creo que necesitamos una pequeña pausa con las encuestas..."
+      }
+    }
+  ]
+}
