@@ -1,0 +1,25 @@
+{
+  "Type": "Node",
+  "Id": "IsThatItNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "IsThatIt",
+      "CommandLabel": {
+        "en": "Is that it?",
+        "fr": "C'est tout ?",
+        "es": "¿Nada más?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "If you insist…",
+            "fr": "Si tu insistes...",
+            "es": "Si insistes..."
+          }
+        }
+      ]
+    }
+  ]
+}
