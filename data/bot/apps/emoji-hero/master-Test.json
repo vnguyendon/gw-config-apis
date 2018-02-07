@@ -1,4 +1,4 @@
-
+[
   {
     "GroupName":"Survey",
     "SequenceFiles" : [
@@ -7,7 +7,7 @@
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/surveys/BelieveinAliens.json","/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
-      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json","/data/bot/sequences/experiments/Billy/1M-WorldEitherIsOrIsntBanana.json",]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json","/data/bot/sequences/experiments/Billy/1M-WorldEitherIsOrIsntBanana.json"]},
       { "order" : 70, "file": ["/data/bot/sequences/connectors/ConnectSpecial03.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json","/data/bot/sequences/surveys/WFacebookOrInstagram.json"]},
       { "order" : 90, "file": ["/data/bot/sequences/surveys/GotobedBeforeOrAfter11pm.json","/data/bot/sequences/surveys/HumansEvolveFromAnimals.json"]},
@@ -190,4 +190,4 @@
       { "order" : 1000, "file": ["/data/bot/sequences/surveys/YourCountryMoreCorruptYesNo.json"]}
     ]
   }
-
+]
