@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "BurningToAskOtherSurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Oh, yes, I was burning to ask!",
+        "fr": "Oh, au fait, je brûlais de te demander!",
+        "es": "¡Oh, por cierto, quería muchísimo preguntarte!"
+      }
+    }
+  ]
+}
