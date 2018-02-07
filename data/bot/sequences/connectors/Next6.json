@@ -1,0 +1,15 @@
+{
+  "Type": "Node",
+  "Id": "NextQuestionNextButtons",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NextQuestion",
+      "CommandLabel": {
+        "en": "Next question",
+        "fr": "Question suivante",
+        "es": "Pregunta siguiente"
+      }
+    }
+  ]
+}
