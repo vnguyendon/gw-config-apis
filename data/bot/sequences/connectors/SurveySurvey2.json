@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "AwesomeHowAboutAnotherSurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Awesome! How about another…",
+        "fr": "Génial ! Qu'est-ce que tu dirais d'une autre...",
+        "es": "¡Genial! Qué tal otra..."
+      }
+    }
+  ]
+}
