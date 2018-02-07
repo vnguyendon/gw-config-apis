@@ -1,0 +1,14 @@
+{
+  "Type": "Node",
+  "Id": "VeryCuriousPonySurveySurvey",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am a VERY curious pony",
+        "fr": "Je suis un poney TRÈS curieux",
+        "es": "Soy un pony muy curioso"
+      }
+    }
+  ]
+}
