@@ -1,142 +1,93 @@
 {
-    "Type": "Node",
-    "Id": "HaveYouTriedAChatbotYesNo",
-    "Steps": [
+  "Type": "Node",
+  "Id": "HaveYouTriedAChatbotYesNo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever talked to a chatbot?",
+        "fr": "As-tu déjà discuté avec un chatbot?",
+        "es": "¿Has hablado antes con un chatbot?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesTriedAChatbot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Have you ever talked to a chatbot?",
-                "fr": "As-tu déjà discuté avec un chatbot?",
-                "es": "¿Has hablado antes con un chatbot?"
-            }
-        }
-    ],
-    "Randomize": "true",
-    "Commands": [
-        {
-            "Type": "Leaf",
-            "Id": "YesTriedAChatbot",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "yes",
-                "fr": "oui",
-                "es": "sí"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Wow, any chance you’re up for adoption?",
-                        "fr": "Waouh, il n'y aurait pas moyen de t'adopter, par hasard ?",
-                        "es": "Wao, ¿existirá alguna manera de adoptarte?"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "ZTN7U4ipOXPaw"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I've got a great memory: I remember anyone who has ever voted!",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Then I do some maths and I can show you the results...",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "How about another...",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                }
-            ]
+          "Type": "Action",
+          "Name": "DoVote"
         },
         {
-            "Type": "Leaf",
-            "Id": "NoHaventTriedAChatbot",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "no",
-                "fr": "non",
-                "es": "no"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Now you have! Congratulations 🎉",
-                        "fr": "Maintenant, oui ! Félicitations 🎉",
-                        "es": "¡Ahora sí! Felicitaciones 🎉"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "YTgQM9NjcFxQc"
-                    }
-                },
-                {
-                    "Type": "Pause",
-                    "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 1000
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I've got a great memory: I remember anyone who has ever voted!",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Then I do some maths and I can show you the results...",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "How about another...",
-                        "fr": "TBD",
-                        "es": "TBD"
-                    }
-                }
-            ]
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ZTN7U4ipOXPaw"
+          }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 2000
+            }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         }
-    ]
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHaventTriedAChatbot",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Now you have! Congratulations 🎉",
+            "fr": "Maintenant, oui ! Félicitations 🎉",
+            "es": "¡Ahora sí! Felicitaciones 🎉"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YTgQM9NjcFxQc"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 1000
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        }
+      ]
+    }
+  ]
 }
