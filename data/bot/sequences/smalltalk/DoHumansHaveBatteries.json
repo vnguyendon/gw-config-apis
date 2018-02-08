@@ -1,4 +1,3 @@
-
 {
   "Type": "Node",
   "Id": "DoHumansHaveBatteries",
@@ -44,79 +43,79 @@
               "en": "we need to sleep 🛌",
               "fr": "nous devons dormir 🛌",
               "es": "tenemos que dormir 🛌"
+            },
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "DoYouGetEnoughRest",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Oh I see...",
+                    "fr": "Oh, je vois...",
+                    "es": "Oh, entiendo..."
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "to rest I just get plugged into the charger 🔌...",
+                    "fr": "moi pour me reposer, je me branche simplement à un chargeur 🔌...",
+                    "es": "yo, para descansar, tengo solo que conectarme a un cargador 🔌..."
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "do you think you get enough rest?",
+                    "fr": "tu penses que tu dors suffisamment ?",
+                    "es": "¿piensas que duermes bastante?"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "YesEnoughRest",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "yes",
+                    "fr": "oui",
+                    "es": "sí"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "4YFcrXwpjeMWk"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "NoNotEnoughRest",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "no",
+                    "fr": "non",
+                    "es": "no"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "l378AEZceMwWboAQE"
+                      }
+                    }
+                  ]
+                }
+              ]
             }
           }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "DoYouGetEnoughRest",
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Oh I see...",
-                "fr": "Oh, je vois...",
-                "es": "Oh, entiendo..."
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "to rest I just get plugged into the charger 🔌...",
-                "fr": "moi pour me reposer, je me branche simplement à un chargeur 🔌...",
-                "es": "yo, para descansar, tengo solo que conectarme a un cargador 🔌..."
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "do you think you get enough rest?",
-                "fr": "tu penses que tu dors suffisamment ?",
-                "es": "¿piensas que duermes bastante?"
-              }
-            }
-          ],
-          "Commands": [
-            {
-              "Type": "Leaf",
-              "Id": "YesEnoughRest",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "yes",
-                "fr": "oui",
-                "es": "sí"
-              },
-              "Steps": [
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Giphy",
-                    "Path": "4YFcrXwpjeMWk"
-                  }
-                }
-              ]
-            },
-            {
-              "Type": "Leaf",
-              "Id": "NoNotEnoughRest",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "no",
-                "fr": "non",
-                "es": "no"
-              },
-              "Steps": [
-                {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Giphy",
-                    "Path": "l378AEZceMwWboAQE"
-                  }
-                }
-              ]
-            }
-          ]
-        }
+        ]
       }
     }
   ]
