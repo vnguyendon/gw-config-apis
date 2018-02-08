@@ -2,12 +2,7 @@
 {
   "GroupName":"Survey",
   "SequenceFiles" : [
-      { "order" : 4, "file": ["/data/bot/sequences/experiments/Billy/1Q-FashionTest.json"]},
-      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json"]},
-      { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy/1M-WorldEitherIsOrIsntBanana.json"]},
-      { "order" : 7, "file": ["/data/bot/sequences/experiments/Billy/2E-CanDogsSwim.json"]},
-      { "order" : 8, "file": ["/data/bot/sequences/experiments/Billy/1J-ILoveMakingYouLaugh.json"]},
-      { "order" : 9, "file": ["/data/bot/sequences/experiments/Billy/2A-DogPlayingChairMessySurvey.json"]},
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/surveys/BelieveinAliens.json","/data/bot/sequences/surveys/BiggestThreatCCorAI.json"]},
