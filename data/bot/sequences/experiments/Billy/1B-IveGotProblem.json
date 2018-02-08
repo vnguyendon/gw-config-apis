@@ -1,14 +1,13 @@
 {
   "Type": "Node",
   "Id": "IveGotProblem",
-  "Tags": ["NewBotSession"],
   "Steps": [
     {
       "Type": "Text",
       "Label": {
-        "en": "Just the human I wanted to see! I’ve got a problem… 😳",
-        "fr": "Justement, l'humain que je voulais voir ! J'ai un problème... 😳",
-        "es": "¡Precisamente el humano que quería ver! Tengo un problema... 😳"
+        "en": "I’ve got a problem… 😳",
+        "fr": "J'ai un problème... 😳",
+        "es": "Tengo un problema... 😳"
       }
     }
   ],
