@@ -5,18 +5,10 @@
       {
         "Type": "Text",
         "Label": {
-          "en": "And now...",
-          "fr": "Et maintenant...",
-          "es": "Y ahora..."
-        }
-      },
-      {
-        "Type": "Text",
-        "Label": {
-          "en": "back to surveys! 😊",
-          "fr": "retour aux sondages ! 😊",
-          "es": "¡vuelta a las encuestas! 😊"
+          "en": "And now... more questions 😊",
+          "fr": "Et maintenant... plus de questions 😊",
+          "es": "Y ahora... más preguntas 😊"
         }
       }
-    ]
-  }
+   ]
+}
