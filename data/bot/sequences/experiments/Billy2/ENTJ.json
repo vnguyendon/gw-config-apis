@@ -1,0 +1,285 @@
+{
+    "Type": "Node",
+    "Id": "ENTJ",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'the leader'",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ENTJBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You’re a born mentor: you see potential in all of your acquaintances and are willing to help them grow so as to reach their true potential...✍",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENTJBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ENTJBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "A highly sociable and positive person, you have outstanding speech abilities and are often popular and easy to get along with...✍",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ENTJBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ENTJBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "TBD",
+                                        "es": "TBD"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "As your life is built around your social engagements, you value planning in order to make sure that you honor your commitments...✍",
+                                                "fr": "TBD",
+                                                "es": "TBD"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ENTJBreakdownYes3",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "ENTJBreakdownYes3A",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "more!",
+                                                    "fr": "TBD",
+                                                    "es": "TBD"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You have a natural instinct for your emotions and that of your friends and family, whom with you are closely connected",
+                                                            "fr": "TBD",
+                                                            "es": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 3000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Did the profile sound like you?",
+                                                            "fr": "TBD",
+                                                            "es": "TBD"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "ENTJProfileLikeMe",
+                                                    "Id": "TBD",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ENTJProfileLikeMeYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "yes!",
+                                                                "fr": "oui!",
+                                                                "es": "sí"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ENTJProfileLikeMeNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "no",
+                                                                "fr": "non",
+                                                                "es": "no"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I'll definitely improve 💪",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ENTJBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'the leader' sounds like you at all?",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENTJTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENTJTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENTJTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
