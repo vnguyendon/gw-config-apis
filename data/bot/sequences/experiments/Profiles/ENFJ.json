@@ -48,12 +48,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "ENTJBreakdownYes1",
+                "Id": "ENFJBreakdownYes1",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "ENTJBreakdownYes1A",
+                        "Id": "ENFJBreakdownYes1A",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "more!",
@@ -72,12 +72,12 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "ENTJBreakdownYes2",
+                            "Id": "ENFJBreakdownYes2",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "ENTJBreakdownYes2A",
+                                    "Id": "ENFJBreakdownYes2A",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "keep going!",
@@ -96,12 +96,12 @@
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "ENTJBreakdownYes3",
+                                        "Id": "ENFJBreakdownYes3",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "ENTJBreakdownYes3A",
+                                                "Id": "ENFJBreakdownYes3A",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "more!",
@@ -134,13 +134,13 @@
                                                     }
                                                 ],
                                                 "LinksTo": {
-                                                    "Type": "ENTJProfileLikeMe",
+                                                    "Type": "ENFJProfileLikeMe",
                                                     "Id": "TBD",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "ENTJProfileLikeMeYes",
+                                                            "Id": "ENFJProfileLikeMeYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "yes!",
@@ -160,7 +160,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "ENTJProfileLikeMeNo",
+                                                            "Id": "ENFJProfileLikeMeNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "no",
@@ -200,7 +200,7 @@
         },
         {
             "Type": "Node",
-            "Id": "ENTJBreakdownNo",
+            "Id": "ENFJBreakdownNo",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "no",
@@ -227,12 +227,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "ENTJTitleLikeMe",
+                "Id": "ENFJTitleLikeMe",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "ENTJTitleLikeMeYes",
+                        "Id": "ENFJTitleLikeMeYes",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "yes",
@@ -252,7 +252,7 @@
                     },
                     {
                         "Type": "Leaf",
-                        "Id": "ENTJTitleLikeMeNo",
+                        "Id": "ENFJTitleLikeMeNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "no",
