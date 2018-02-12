@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "ENTJ",
+    "Id": "ENFJ",
     "Steps": [
         {
             "Type": "Text",
@@ -29,7 +29,7 @@
     "Commands": [
         {
             "Type": "Node",
-            "Id": "ENTJBreakdownYes",
+            "Id": "ENFJBreakdownYes",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "yes",
