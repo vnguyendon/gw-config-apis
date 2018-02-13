@@ -47,9 +47,9 @@
               "Id": "StoreYes",
               "ElementValue": "1",
               "CommandLabel": {
-                "en": "Yes",
-                "fr": "Oui",
-                "es": "Si"
+                "en": "OK",
+                "fr": "OK",
+                "es": "OK"
               },
               "Steps": [
                 {
