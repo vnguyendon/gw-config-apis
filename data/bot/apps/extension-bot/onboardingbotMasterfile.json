@@ -1,7 +1,6 @@
 {
   "GroupName": "onBoarding",
   "SequenceFiles": [
-    { "order" : 10, "file":["/data/bot/sequences/appspecials/extensionbot/WantToDiscoverApp.json"]},
     { "order" : 965, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
     { "order" : 970, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
     { "order" : 975, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
