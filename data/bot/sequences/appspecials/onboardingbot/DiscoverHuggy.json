@@ -1,0 +1,77 @@
+{
+  "Type": "Node",
+  "Id": "DiscoverHuggy",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello again, human!",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I'd like to introduce you to Huggy, my bot friend. Can I show you where he is?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "DiscoverHuggyYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes 😀!",
+        "fr": "Oui 😀!",
+        "es": "Si 😀!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Yeayyyyy 🚀🚀🚀",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "Huggy"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DiscoverHuggyNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No, thanks",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok.. 😑",
+            "fr": "D'accord.. 😑",
+            "es": "Vale.. 😑"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
