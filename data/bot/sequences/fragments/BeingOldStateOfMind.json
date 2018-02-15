@@ -21,7 +21,7 @@
   ],
   "Commands": [
     {
-      "Type": "Node",
+      "Type": "Leaf",
       "Id": "BeingOldStateOfMindYes",
       "ElementValue": "1",
       "CommandLabel": {
