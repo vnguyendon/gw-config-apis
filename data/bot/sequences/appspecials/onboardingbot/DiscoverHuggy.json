@@ -1,5 +1,6 @@
 {
   "Type": "Node",
+  "Redirection": "Huggy",
   "Id": "DiscoverHuggy",
   "Steps": [
     {
@@ -66,10 +67,6 @@
             "fr": "D'accord.. 😑",
             "es": "Vale.. 😑"
           }
-        },
-        {
-          "Type": "Action",
-          "Name": "ExitOnboardingBot"
         }
       ]
     }
