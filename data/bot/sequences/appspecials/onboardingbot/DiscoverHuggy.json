@@ -67,6 +67,10 @@
             "fr": "D'accord.. 😑",
             "es": "Vale.. 😑"
           }
+        },
+        {
+          "Type": "Action",
+          "Name": "ExitOnboardingBot"
         }
       ]
     }
