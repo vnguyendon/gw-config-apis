@@ -1,0 +1,285 @@
+{
+    "Type": "Node",
+    "Id": "ISFP",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Artist'",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/animals/small/shutterstock_93200743.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ISFPBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Kind, sensitive and gifted, you are highly connected to your inner senses and feelings...✍",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ISFPBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ISFPBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You tend to be a quiet person and express yourself through arts and creation rather than language...✍",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ISFPBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ISFPBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "TBD",
+                                        "es": "TBD"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You dislike planning and do the things you do only if and because you feel that you ought to...✍",
+                                                "fr": "TBD",
+                                                "es": "TBD"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ISFPBreakdownYes3",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "ISFPBreakdownYes3A",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "more!",
+                                                    "fr": "TBD",
+                                                    "es": "TBD"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Your strong instincts give you the inner ability to connect easily with children and animals, often finding their company easier and more rewarding than that of other people",
+                                                            "fr": "TBD",
+                                                            "es": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 3000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Did the profile sound like you?",
+                                                            "fr": "TBD",
+                                                            "es": "TBD"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "ISFPProfileLikeMe",
+                                                    "Id": "TBD",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ISFPProfileLikeMeYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "yes!",
+                                                                "fr": "oui!",
+                                                                "es": "sí"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ISFPProfileLikeMeNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "no",
+                                                                "fr": "non",
+                                                                "es": "no"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I'll definitely improve 💪",
+                                                                        "fr": "TBD",
+                                                                        "es": "TBD"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ISFPBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Artist' sounds like you at all?",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ISFPTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ISFPTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ISFPTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "TBD",
+                            "es": "TBD"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
