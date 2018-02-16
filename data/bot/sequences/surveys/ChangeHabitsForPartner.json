@@ -1,71 +1,71 @@
 {
-	"Type": "Node",
-	"Id": "ChangeHabitsForPartner",
-	"Steps": [
-		{
-			"Type": "Text",
-			"Label": {
-				"en": "Would you change your habits to please your partner?",
-				"fr": "Changerais-tu tes habitudes pour plaire à ton partenaire ?",
-				"es": "¿Cambiarías tus hábitos para complacer tu compañero/a?"
-			}
-		}
-	],
-	"Randomize": "true",
-	"Commands": [
-		{
-			"Type": "Leaf",
-			"Id": "WouldChangeHabits",
-			"ElementValue": "1",
-			"CommandLabel": {
-				"en": "yes",
-				"fr": "oui",
-				"es": "sí"
-			},
-			"Steps": [
-				{
-					"Type": "Action",
-					"Name": "DoVote"
-				},
-				{
-					"Type": "Action",
-					"Name": "ShowSurveyResults"
-				},
-				{
-					"Type": "AnimatedGif",
-					"Parameters": {
-						"Source": "Giphy",
-						"Path": "X2c514sNfujsc"
-					}
-				}
-			]
-		},
-		{
-			"Type": "Leaf",
-			"Id": "WouldNotChangeHabits",
-			"ElementValue": "1",
-			"CommandLabel": {
-				"en": "no",
-				"fr": "non",
-				"es": "no"
-			},
-			"Steps": [
-				{
-					"Type": "Action",
-					"Name": "DoVote"
-				},
-				{
-					"Type": "Action",
-					"Name": "ShowSurveyResults"
-				},
-				{
-					"Type": "AnimatedGif",
-					"Parameters": {
-						"Source": "Giphy",
-						"Path": "O9yaw3wFIGQ9O"
-					}
-				}
-			]
-		}
-	]
+  "Type": "Node",
+  "Id": "ChangeHabitsForPartner",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you change your habits to please your partner?",
+        "fr": "Changerais-tu tes habitudes pour plaire à ton partenaire ?",
+        "es": "¿Cambiarías tus hábitos para complacer tu compañero/a?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WouldChangeHabits",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "X2c514sNfujsc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WouldNotChangeHabits",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "O9yaw3wFIGQ9O"
+          }
+        }
+      ]
+    }
+  ]
 }
