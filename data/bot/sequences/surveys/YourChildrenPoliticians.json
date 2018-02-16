@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "YourChildrenPoliticians",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like your children to be politicians?",
+        "fr": "Aimerais-tu que tes enfants soient dans la politique ?",
+        "es": "¿Te gustaría que tu hijos trabajen en política?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesChildrenPoliticians",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SmGLzevndqQX6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoChildrenPoliticians",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "mpfMDb6MB6EWQ"
+          }
+        }
+      ]
+    }
+  ]
+}
