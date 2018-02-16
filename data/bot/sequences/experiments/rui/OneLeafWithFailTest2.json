@@ -1,0 +1,15 @@
+{
+  "Type": "Leaf",
+  "Comments":"it shouldn't be shown with an impossible test",
+  "Condition": "u.PsychologicalProfile=='XYZ'",
+  "Id": "OneLeafWithFailTest2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OneLeafWithFailTest:you must not see this",
+        "fr": "OneLeafWithFailTest:you must not see this"
+      }
+    }
+  ]
+}
