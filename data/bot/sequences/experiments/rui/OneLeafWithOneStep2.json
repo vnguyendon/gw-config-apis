@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "OneLeafWithOneStep2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OneLeafWithOneStep2:it should show one text and then continue",
+        "fr": "OneLeafWithOneStep2:it should show one text and then continue"
+      }
+    }
+  ]
+}
