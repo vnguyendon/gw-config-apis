@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FidelityOrMutualSupport",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "In a relationship, the most important is",
+        "fr": "Dans une relation, le plus important c'est",
+        "es": "En una relación, lo más importante es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FidelityMostImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "fidelity",
+        "fr": "la fidélité",
+        "es": "fidelidad"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "OQuo0LsrQYcX6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SupportMostImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "mutual support",
+        "fr": "le soutien mutuel",
+        "es": "apoyo mutuo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "26BRsVk2noIIPHjKU"
+          }
+        }
+      ]
+    }
+  ]
+}
