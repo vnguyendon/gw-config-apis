@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "DoYouHaveJob",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you have a job?",
+        "fr": "Est-ce que tu as un emploi ?",
+        "es": "¿Tienes un empleo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "DoHaveJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JIX9t2j0ZTN9S"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DontHaveJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JldBVyX8fTROo"
+          }
+        }
+      ]
+    }
+  ]
+}
