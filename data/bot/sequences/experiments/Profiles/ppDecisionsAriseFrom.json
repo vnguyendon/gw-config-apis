@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ppDecisionsAriseFrom",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you usually base your decisions on?",
+        "fr": "Tes décisions sont guidées par des",
+        "es": "Tus decisiones están guiadas por"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "DecisionsAriseFromFeelings",
+      "CommandLabel": {
+        "en": "values, feelings",
+        "fr": "valeurs, sentiments",
+        "es": "valores, sensaciones"
+      },
+      "Steps": [
+        {
+            "Type":"Image",
+            "Parameters":{
+                "Source":"Internal",
+                "Path":"/themes/animals/small?preview=iStock_000014150076_Medium.jpg"
+            }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Feelings"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "DecisionsAriseFromThinking",
+      "CommandLabel": {
+        "en": "logic, reason",
+        "fr": "logiques, réflexions",
+        "es": "lógica, razonamiento"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "a5viI92PAF89q"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppDecisionsAriseFrom",
+            "value": "Thinking"
+          }
+        }
+      ]
+    }
+  ]
+}
