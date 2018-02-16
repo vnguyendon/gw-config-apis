@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LiberalismOrSocialism",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What do you think works best?",
+        "fr": "Qu'est-ce qui fonctionne le mieux selon toi ?",
+        "es": "¿Qué funciona mejor según tú?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LiberalismWorksBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "liberalism",
+        "fr": "le libéralisme",
+        "es": "liberalismo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEjHQmvkaHgKaXhWE"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SocialismWorksBest",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "socialism",
+        "fr": "le socialisme",
+        "es": "socialismo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YGpkIRDYkyR9e"
+          }
+        }
+      ]
+    }
+  ]
+}
