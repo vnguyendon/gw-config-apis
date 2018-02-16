@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WouldYouChangeJob",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like to change job?",
+        "fr": "Aimerais-tu changer de travail ?",
+        "es": "¿Te gustaría cambiar trabajo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesChangeJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Wx0Kl0y3jcmMo"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoChangeJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l3q2umc327t2nzSOQ"
+          }
+        }
+      ]
+    }
+  ]
+}
