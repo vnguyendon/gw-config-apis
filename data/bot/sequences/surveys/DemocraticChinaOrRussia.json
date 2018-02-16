@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "DemocraticChinaOrRussia",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which country is more democratic?",
+        "fr": "Quel pays est le plus démocratique ?",
+        "es": "¿Cual país es más democrático?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ChinaMoreDemocratic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "China 🇨🇳",
+        "fr": "Chine 🇨🇳",
+        "es": "China 🇨🇳"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "13V5aTz3BfLdba"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "RussiaMoreDemocratic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Russia 🇷🇺",
+        "fr": "Russie 🇷🇺",
+        "es": "Rusia 🇷🇺"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "isP4TLqhjm3zq"
+          }
+        }
+      ]
+    }
+  ]
+}
