@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "MoreHonestInYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are people in your country more honest than elsewhere?",
+        "fr": "Les habitants de ton pays sont-ils plus honnêtes qu'ailleurs ?",
+        "es": "¿Es la gente de tu país más honrados respeto a los otros países?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreHonestInMyCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oz8xynJ88hmIdCCOI"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotMoreHonestInMyCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohze42XeMjxGp22Ry"
+          }
+        }
+      ]
+    }
+  ]
+}
