@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "ReadComicsOrNovels",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "You prefer to read",
+         "fr": "Tu préfères lire",
+         "es": "Prefieres leer"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "ReadComics",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "comics",
+          "fr": "des BDs",
+          "es": "cómics"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "wRJgVS4z4YI9y"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "ReadNovels",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "novels",
+          "fr": "des nouvelles",
+          "es": "novelas"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "1TgECF0mNVirC"
+            }
+          }
+        ]
+      }
+    ]
+  }
