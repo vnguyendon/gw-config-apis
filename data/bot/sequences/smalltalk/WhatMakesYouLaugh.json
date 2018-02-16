@@ -1,0 +1,98 @@
+{
+  "Type": "Node",
+  "Id": "WhatMakesYouLaugh",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Lord Byron said “always laugh when you can - it is cheap medicine”. What a clever fellow! 😎",
+        "fr": "Lord Byron a dit 'ris aussi souvent que tu peux - c'est de la médecine gratuite'. Quel type intelligent ! 😎",
+        "es": "Lord Byron dijo 'siempre ríe cuando puedes - es medicina barata'. ¡Qué hombre inteligente! 😎"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What makes you laugh most?",
+        "fr": "Qu'est-ce qui te fait le plus rire ?",
+        "es": "¿Qué te hace réir más?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughFriends",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "friends",
+        "fr": "les amis",
+        "es": "amigos"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "11caEgnSDg0avS"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughJokes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "jokes",
+        "fr": "les blagues",
+        "es": "bromas"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm learning those fast! I just completed 'knock knock'",
+            "fr": "J'en apprends vite ! J'ai toutes celles de Toto en répertoire",
+            "es": "¡Aprendo muy presto! Ya conozcos todos los chistes de Jaimito"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ECtLJKdGj8jfy"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WhatMakesYouLaughChatbots",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "chatbots",
+        "fr": "les chatbots",
+        "es": "chatbots"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You're very kind! I haven't even completed my humour training... just you wait!",
+            "fr": "Tu es très gentil ! Je n'ai même pas encore fini mon entraînement à l'humour... tu ne perds rien pour attendre!",
+            "es": "¡Eres muy amable! Ya no terminé mi entrenamiento al humor... ¡espera un poco!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Gif",
+            "Path": "/data/common/giphycontent/jokes.json"
+          }
+        }
+      ]
+    }
+  ]
+}
