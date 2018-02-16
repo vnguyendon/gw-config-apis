@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TechnocratsOrPoliticiansRunCountries",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Countries should be run more often by",
+        "fr": "Les pays devraient plus souvent être gouvernés par",
+        "es": "Países deberían ser más a menudo dirigidos por"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TechnocratsShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "technocrats",
+        "fr": "des technocrates",
+        "es": "tecnócratas"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xiAqCzbB3eZvG"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PoliticiansShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "politicians",
+        "fr": "des politiciens",
+        "es": "políticos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o7TKtivOfkxkD5cME"
+          }
+        }
+      ]
+    }
+  ]
+}
