@@ -15,20 +15,6 @@
             "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
             "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]}
       ]
-  },
-  {
-    "GroupName":"Survey",
-    "Sequences" : [
-      { "order": 1010, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
-      { "order": 1012, "file":["/data/bot/sequences/appspecials/emojihero/HowAboutSending.json"]},
-      { "order": 1015, "file":["/data/bot/sequences/experiments/Billy/1R-OhNoOhNo.json"]},
-      { "order" : 1031, "file": ["/data/bot/sequences/settings/SetAge.json"]},
-      { "order" : 1013, "file": [
-          "/data/bot/sequences/surveys/WCatsOrDogs.json",
-          "/data/bot/sequences/surveys/WKindOrFunny.json"]},
-      { "order" : 1020, "file": ["/data/bot/sequences/settings/SetLocation.json"]},
-      { "order" : 1020, "file": ["/data/bot/sequences/surveys/WGlobalWarming.json"]}
-    ]
   }
 ]
 
