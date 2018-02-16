@@ -1,0 +1,15 @@
+{
+  "Type": "Leaf",
+  "Comments":"you should always see this leaf as the test is always true",
+  "Condition": "u.Gender == 'male' || u.Gender !='male'",
+  "Id": "OneLeafWithSuccessTest2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OneLeafWithSuccessTest2:this always passes",
+        "fr": "OneLeafWithSuccessTest2:this always passes"
+      }
+    }
+  ]
+}
