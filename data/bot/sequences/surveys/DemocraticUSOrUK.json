@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "DemocraticUSOrUK",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which country is more democratic?",
+        "fr": "Quel pays est le plus démocratique ?",
+        "es": "¿Cual país es más democrático?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "USMoreDemocratic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "United States 🇺🇸",
+        "fr": "Etats-Unis 🇺🇸",
+        "es": "Estados Unidos 🇺🇸"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTiTnHXbRoaZ1B1Mo8"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "UKMoreDemocratic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "United Kingdom 🇬🇧",
+        "fr": "Royaume Uni 🇬🇧",
+        "es": "Reino Unido 🇬🇧"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "L0qJpkaQbhL8I"
+          }
+        }
+      ]
+    }
+  ]
+}
