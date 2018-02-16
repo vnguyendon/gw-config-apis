@@ -1,0 +1,87 @@
+{
+    "Type": "Node",
+    "Id": "TeachGenerosityOrObedience",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "It is more important to teach children",
+         "fr": "Il est plus important d'inculquer aux enfants",
+         "es": "Es más importante aprender a los niños"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "TeachGenerosity",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "generosity",
+          "fr": "la générosité",
+          "es": "generosidad"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "Text",
+            "Label": {
+             "en": "You're such a good person",
+             "fr": "Tu es vraiment quelqu'un de bien",
+             "es": "Eres realmente une buena persona"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+             "en": "You deserve this super cute gif",
+             "fr": "Tu mérites ce gif super mignon",
+             "es": "Mereces este adorable gif"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "5i22LlqUAS6KQ"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "TeachObedience",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "obedience",
+          "fr": "l'obéissance",
+          "es": "obediencia"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "CcGzKseY0dkti"
+            }
+          }
+        ]
+      }
+    ]
+  }
