@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "LittleHopeOrLittleFood",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You prefer having",
+        "fr": "Tu préfères avoir",
+        "es": "Prefieres tener"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "RatherLittleHope",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "very little hope",
+        "fr": "très peu d'espoir",
+        "es": "muy poca esperanza"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "LAFShX32UwUj6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "RatherLittleFood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "very little food",
+        "fr": "très peu à manger",
+        "es": "muy poca comida"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "CDpAmfo9dbOyA"
+          }
+        }
+      ]
+    }
+  ]
+} 
