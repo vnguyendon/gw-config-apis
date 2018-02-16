@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "LeaderCharismaticOrCultivated",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "A political leader should be",
+        "fr": "Un dirigeant politique devrait être",
+        "es": "Un líder político debería ser"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LeaderCharismatic",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "charismatic",
+        "fr": "charismatique",
+        "es": "carismático"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'The reason we're successful, darling? My overall charisma, of course.' Freddie Mercury",
+            "fr": "'La raison de notre succès, chérie ? Mon charisme total, bien entendu.' Freddie Mercury",
+            "es": "'¿La razón de nuestro éxito, querida? Mi carisma total, por supuesto.' Freddie Mercury"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YL29VDZoJOAPm"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LeaderCultivated",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "cultivated",
+        "fr": "cultivé",
+        "es": "culto"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'An investment in knowledge pays the best interest.' Benjamin Franklin",
+            "fr": "'Un investissement dans le savoir paie toujours les meilleurs intérêts.' Benjamin Franklin",
+            "es": "'Invertir en conocimientos produce siempre los mejores beneficios.' Benjamin Franklin"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "eE26mRFGxnasU"
+          }
+        }
+      ]
+    }
+  ]
+}
