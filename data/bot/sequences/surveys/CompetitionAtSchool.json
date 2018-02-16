@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CompetitionAtSchool",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Competition between people at school or at work is",
+        "fr": "La concurrence entre les élèves d'une classe ou les employés d'une entreprise, c'est",
+        "es": "La competencia entre alumnos de una clase o empleados de una empresa es algo"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CompetitionIsGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good",
+        "fr": "bonne",
+        "es": "bueno"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SKsITB8tGEJgI"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CompetitionIsHarmful",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "harmful",
+        "fr": "nuisible",
+        "es": "malo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "12hSpL9TptqjiU"
+          }
+        }
+      ]
+    }
+  ]
+}
