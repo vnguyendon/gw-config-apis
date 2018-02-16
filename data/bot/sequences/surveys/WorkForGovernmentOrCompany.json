@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "WorkForGovernmentOrCompany",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You would rather work for",
+        "fr": "Tu préfèrerais travailler pour",
+        "es": "Preferirías trabajar por"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "WorkForGovernment",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "the government",
+        "fr": "le gouvernement",
+        "es": "el gobierno"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'One of the key problems today is that politics is such a disgrace, good people don't go into government.' D. Trump",
+            "fr": "'Un des problèmes majeurs aujourd'hui est que la politique est une telle honte que les bonnes personnes ne vont pas au gouvernement.' D. Trump",
+            "es": "'Uno des los mayores problemas hoy es que la politica es tan una vergüenza, buenas personas no van al gobierno.' D. Trump"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Qjmp5vKEERPyw"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "WorkForCompany",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a private company",
+        "fr": "une compagnie privée",
+        "es": "une empresa privada"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "97vqYnFW3nhQI"
+          }
+        }
+      ]
+    }
+  ]
+}
