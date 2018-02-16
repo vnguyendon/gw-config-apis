@@ -1,0 +1,29 @@
+{
+  "Type": "Leaf",
+  "Id": "PersonalityRevealed",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Right... I can now read you like a book!",
+        "fr": "Bon... je peux maintenant lire en toi comme dans un livre !",
+        "es": "Bueno... ¡ahora puedo leerte como un libro!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "it8307a0XxlVS"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here's my best shot at your profile... 👨‍🔬",
+        "fr": "Voici ma meilleur tentative quant à ta personnalité... 👨‍🔬",
+        "es": "Aqui esta mi mejor intento sobre tu personalidad... 👨‍🔬"
+      }
+    }
+  ]
+}
