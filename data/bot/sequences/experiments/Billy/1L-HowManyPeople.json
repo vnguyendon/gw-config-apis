@@ -6,8 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "How many people are there?",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Combien êtes-vous sur Terre ?",
+        "es": "¿Cuantos son ahí?"
       }
     }
   ],
@@ -18,8 +18,8 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "8 Billion",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "8 milliards",
+        "es": "8 mil millones"
       },
       "LinksTo": {
         "Type": "Node",
@@ -29,8 +29,8 @@
             "Type": "Text",
             "Label": {
               "en": "Oh... wow... and do you know all of them?",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Oh... ouah... et tu les connais tous ?",
+              "es": "Oh... guau... ¿y conoces a todos?"
             }
           }
         ],
@@ -54,24 +54,24 @@
               "Type": "Text",
               "Label": {
                 "en": "I'm not sure I believe you 🤨",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Je ne suis pas sûr de te croire 🤨",
+                "es": "No estoy tan seguro de creerte 🤨"
               }
             },
             {
               "Type": "Text",
               "Label": {
                 "en": "Even if you met one person every second it would take you almost 250 years to meet everyone",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Même si tu rencontrais une nouvelle personne toutes les secondes cela te prendrait 250 ans de rencontrer tout le monde",
+                "es": "Aún si encontrabas a una nueva persona cada segunda necesitarías 250 años para encontrar a todos"
               }
             },
             {
               "Type": "Text",
               "Label": {
                 "en": "Are you 250?",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "As-tu 250 ans ?",
+                "es": "¿Tienes 250 años?"
               }
             }
           ],
@@ -90,8 +90,8 @@
                   "Type": "Text",
                   "Label": {
                     "en": "Amazing!",
-                    "fr": "TBD",
-                    "es": "TBD"
+                    "fr": "Incroyable !",
+                    "es": "¡Estupendo!"
                   }
                 },
                 {
@@ -109,8 +109,8 @@
               "ElementValue": "1",
               "CommandLabel": {
                 "en": "Of course not!",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Bien sûr que non !",
+                "es": "¡Claro que no!"
               },
               "LinksTo": {
                 "Type": "Node",
@@ -120,16 +120,16 @@
                     "Type": "Text",
                     "Label": {
                       "en": "Just checking! I read that the average human knows 600 people...",
-                      "fr": "TBD",
-                      "es": "TBD"
+                      "fr": "Je vérifiais juste ! J'ai lu qu'un humain moyen connaît 600 personnes...",
+                      "es": "¡Solo comprobaba! Leí que un húmano medio conoce a 600 personas..."
                     }
                   },
                   {
                     "Type": "Text",
                     "Label": {
                       "en": "Do you often meet new people?",
-                      "fr": "Oui",
-                      "es": "Sí"
+                      "fr": "Fais-tu souvent de nouvelles rencontres ?",
+                      "es": "¿A menudo conoces a nuevas personas?"
                     }
                   }
                 ],
@@ -148,8 +148,8 @@
                         "Type": "Text",
                         "Label": {
                           "en": "Great! Keep going like this and you might know everyone in a few hundred years 😜",
-                          "fr": "TBD",
-                          "es": "TBD"
+                          "fr": "Top ! Continue comme ça et tu connaîtras tout le monde dans quelques centaines d'années 😜",
+                          "es": "¡Genial! Sigue así y conocerás a todo el mundo en unos cientos de años 😜"
                         }
                       }
                     ]
@@ -168,8 +168,8 @@
                         "Type": "Text",
                         "Label": {
                           "en": "'He that has many friends has none' - Aristotle",
-                          "fr": "TBD",
-                          "es": "TBD"
+                          "fr": "'Ami de chacun, ami d'aucun' - Aristote",
+                          "es": "'El que tiene muchos amigos no tiene ninguno' - Aristóteles"
                         }
                       }
                     ]
