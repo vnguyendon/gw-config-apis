@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FreedomOfSpeechOrOfBelief",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What is more important for you is the freedom of",
+        "fr": "Selon toi, le plus important c'est la liberté",
+        "es": "Piensas que lo más importante es la libertad"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FreedomOfSpeechImportant",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "speech",
+        "fr": "d'expression",
+        "es": "de expresión"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6ZsVuQw2StpwojGE"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MeaningIsElse",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "belief",
+        "fr": "de croyance",
+        "es": "de culto"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "JldBVyX8fTROo"
+          }
+        }
+      ]
+    }
+  ]
+}
