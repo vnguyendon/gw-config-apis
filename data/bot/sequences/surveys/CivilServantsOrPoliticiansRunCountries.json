@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "CivilServantsOrPoliticiansRunCountries",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Countries should be run more often by",
+        "fr": "Les pays devraient plus souvent être gouvernés par des",
+        "es": "Países deberían ser más a menudo dirigidos por"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CivilServantsShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "civil servants",
+        "fr": "fonctionnaires",
+        "es": "funcionarios"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oKIPeYIJSEUcbKdt6"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PoliticiansShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "politicians",
+        "fr": "hommes politiques",
+        "es": "políticos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6Ztc92bcyzaGtPRC"
+          }
+        }
+      ]
+    }
+  ]
+}
