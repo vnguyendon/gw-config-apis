@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "TrustReligionOrScience",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "Which do you tust the most:",
+         "fr": "Auquel tu fais le plus confiance :",
+         "es": "En qué confias más:"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "TrustReligion",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "religion",
+          "fr": "religion",
+          "es": "religión"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "SpNpT6DiexJwQ"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "TrustScience",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "science",
+          "fr": "science",
+          "es": "ciencia"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "3o6fJ8bXjuS5nEIlxK"
+            }
+          }
+        ]
+      }
+    ]
+  }
