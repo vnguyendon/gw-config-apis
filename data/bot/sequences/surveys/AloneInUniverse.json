@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "AloneInUniverse",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are we alone in the universe?",
+        "fr": "Sommes-nous seuls dans l'universe ?",
+        "es": "¿Somos solos en el universo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesAloneInUniverse",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "suqrPA1XxYjrq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotAloneInUniverse",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "d1FGfozCKIrIp8WY"
+          }
+        }
+      ]
+    }
+  ]
+}
