@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "ppReceptiveTo",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"You are more receptive to",
+        "fr":"Tu es plus réceptif aux",
+        "es":"Eres más receptivo a"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "ReceptiveToTheories",
+      "CommandLabel": {
+        "en":"theories, hypothesis",
+        "fr":"théories, hypothèses",
+        "es":"teorías, hipótesis"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small?preview=Introspective-Panda-634x400.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppReceptiveTo",
+            "value": "Ideas"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "ReceptiveToFacts",
+      "CommandLabel": {
+        "en":"facts, reality",
+        "fr":"faits, réalité",
+        "es":"hechos, realidad"
+      },
+      "Steps": [
+        {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Internal",
+              "Path": "/themes/animals/small?preview=shutterstock_99334949.jpg"
+            }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Get your facts first, then you can distort them as you please.' - Mark Twain",
+            "fr": "'Obtenez d'abord les faits. Vous pouvez ensuite les déformer à votre guise.' - Mark Twain",
+            "es": "'Primero confirma los hechos. Después puedes distorsionarlos.' - Mark Twain"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppReceptiveTo",
+            "value": "Facts"
+          }
+        }
+      ]
+    }
+  ]
+}
