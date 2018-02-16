@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "EntrepreneursOrPoliticiansRunCountries",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Countries should be run more often by",
+        "fr": "Les pays devraient plus souvent être gouvernés par des",
+        "es": "Países deberían ser más a menudo dirigidos por"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EntrepreneursShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "entrepreneurs",
+        "fr": "entrepreneurs",
+        "es": "empresarios"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l1J3BtZ57jdR6ymOs"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PoliticiansShouldRun",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "politicians",
+        "fr": "hommes politiques",
+        "es": "políticos"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6Ztc92bcyzaGtPRC"
+          }
+        }
+      ]
+    }
+  ]
+}
