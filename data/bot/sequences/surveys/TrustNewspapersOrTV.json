@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "TrustNewspapersOrTV",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "You trust more easily what you see:",
+         "fr": "Tu fais plus facilement confiance :",
+         "es": "Confias más facilmente en:"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "TrustNewspapers",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "in the newspapers",
+          "fr": "aux journaux",
+          "es": "los periódicos"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "H54R9ULqkR5bG"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "TrustTV",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "on TV",
+          "fr": "à la télévision",
+          "es": "la televisión"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "qC5abwZ54KV6U"
+            }
+          }
+        ]
+      }
+    ]
+  }
