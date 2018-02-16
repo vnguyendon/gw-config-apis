@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "PoliticsInterestedOrNot",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you interested in politics?",
+        "fr": "Est-ce que la politique t'intéresse ?",
+        "es": "¿Te interesa la política?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "InterestedInPolitics",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BxQ24oX6O1KSs"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotInterestedInPolitics",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o85xvr2egFreWY3zW"
+          }
+        }
+      ]
+    }
+  ]
+}
