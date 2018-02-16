@@ -1,0 +1,71 @@
+{
+	"Type": "Node",
+	"Id": "ReadingMakesHappier",
+	"Steps": [
+		{
+			"Type": "Text",
+			"Label": {
+				"en": "Does time spent reading make you happier?",
+				"fr": "Est-ce que le temps passé à lire te rend plus heureux ?",
+				"es": "¿Te hace más feliz el tiempo que pasas leendo?"
+			}
+		}
+	],
+	"Randomize": "true",
+	"Commands": [
+		{
+			"Type": "Leaf",
+			"Id": "ReadingDoesMakeHappier",
+			"ElementValue": "1",
+			"CommandLabel": {
+				"en": "yes",
+				"fr": "oui",
+				"es": "sí"
+			},
+			"Steps": [
+				{
+					"Type": "Action",
+					"Name": "DoVote"
+				},
+				{
+					"Type": "Action",
+					"Name": "ShowSurveyResults"
+				},
+				{
+					"Type": "AnimatedGif",
+					"Parameters": {
+						"Source": "Giphy",
+						"Path": "WoWm8YzFQJg5i"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Leaf",
+			"Id": "ReadingDoesNotMakeHappier",
+			"ElementValue": "1",
+			"CommandLabel": {
+				"en": "no",
+				"fr": "non",
+				"es": "no"
+			},
+			"Steps": [
+				{
+					"Type": "Action",
+					"Name": "DoVote"
+				},
+				{
+					"Type": "Action",
+					"Name": "ShowSurveyResults"
+				},
+				{
+					"Type": "AnimatedGif",
+					"Parameters": {
+						"Source": "Giphy",
+						"Path": "VgY4dDdN1W3NS"
+					}
+				}
+			]
+		}
+	]
+}
