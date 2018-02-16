@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "VoteForNationalElections",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Usually, when national elections take place, you",
+          "fr": "En général, quand une élection nationale a lieu, tu",
+          "es": "En general, cuando ocurre una elección nacional,"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "DoVote",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "vote",
+          "fr": "votes",
+          "es": "votas"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "l4FGxBPokj88DIsco"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "DoNotVote",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "don't vote",
+          "fr": "ne votes pas",
+          "es": "no votas"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "2MvPcQqA77u9y"
+            }
+          }
+        ]
+      }
+    ]
+  }
