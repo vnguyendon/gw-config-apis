@@ -3,13 +3,14 @@
     "GroupName":"Survey",
     "SequenceFiles" : [
       { "order": 10, "file":["/data/bot/sequences/surveys/WDoYouRememberYourDreams.json"]},
-       { "order" : 31, "file": ["/data/bot/sequences/settings/SetAge.json"]},
-      { "order" : 12, "file": [
+      { "order": 12, "file":["/data/bot/sequences/appspecials/emojihero/HowAboutSending.json"]},
+      { "order": 15, "file":["/data/bot/sequences/experiments/Billy/1R-OhNoOhNo.json"]},
+      { "order" : 31, "file": ["/data/bot/sequences/settings/SetAge.json"]},
+      { "order" : 13, "file": [
           "/data/bot/sequences/surveys/WCatsOrDogs.json",
           "/data/bot/sequences/surveys/WKindOrFunny.json"]},
-      { "order" : 15, "file": ["data/bot/sequences/appspecials/emojihero/HowAboutSending.json"]},
       { "order" : 17, "file": ["/data/bot/sequences/settings/SetLocation.json"]},
-      { "order" : 18, "file": ["/data/bot/sequences/surveys/WMoreEnergeticMorningOrAfternoon.json"]}
+      { "order" : 18, "file": ["/data/bot/sequences/surveys/WGlobalWarming.json"]}
     ]
   }
 ]
