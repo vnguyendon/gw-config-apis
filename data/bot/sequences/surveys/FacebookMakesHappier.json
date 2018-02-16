@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "FacebookMakesHappier",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Does time spent on Facebook make you happier?",
+        "fr": "Est-ce que le temps passé sur Facebook te rend plus heureux ?",
+        "es": "¿Te hace más feliz el tiempo que pasas sobre Facebook?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FacebookDoesMakeHappier",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "PsGZEKpj1pSNy"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FacebookDoesNotMakeHappier",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3xz2BLHPfdkbJXniM0"
+          }
+        }
+      ]
+    }
+  ]
+}
