@@ -6,16 +6,16 @@
       "Type": "Text",
       "Label": {
         "en": "Lord Byron said “always laugh when you can - it is cheap medicine”. What a clever fellow! 😎",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Lord Byron a dit 'ris aussi souvent que tu peux - c'est de la médecine gratuite'. Quel type intelligent ! 😎",
+        "es": "Lord Byron dijo 'siempre ríe cuando puedes - es medicina barata'. ¡Qué hombre inteligente! 😎"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "What makes you laugh most?",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Qu'est-ce qui te fait le plus rire ?",
+        "es": "¿Qué te hace réir más?"
       }
     }
   ],
@@ -25,9 +25,9 @@
       "Id": "WhatMakesYouLaughFriends",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Friends",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "friends",
+        "fr": "les amis",
+        "es": "amigos"
       },
       "Steps": [
         {
@@ -44,17 +44,17 @@
       "Id": "WhatMakesYouLaughJokes",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Jokes",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "jokes",
+        "fr": "les blagues",
+        "es": "bromas"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "I'm learning those fast! I just completed 'knock knock'",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "J'en apprends vite ! J'ai toutes celles de Toto en répertoire",
+            "es": "¡Aprendo muy presto! Ya conozcos todos los chistes de Jaimito"
           }
         },
         {
@@ -71,17 +71,17 @@
       "Id": "WhatMakesYouLaughChatbots",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Chatbots",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "chatbots",
+        "fr": "les chatbots",
+        "es": "chatbots"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "You're very kind! I haven't even completed my humour training... just you wait!",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Tu es très gentil ! Je n'ai même pas encore fini mon entraînement à l'humour... tu ne perds rien pour attendre!",
+            "es": "¡Eres muy amable! Ya no terminé mi entrenamiento al humor... ¡espera un poco!"
           }
         },
         {
