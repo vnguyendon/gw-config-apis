@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ppOpenedOrSettled",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And lastly... are you more comfortable when things are...",
+        "fr": "Et pour finir... tu es plus à l'aise quand les choses sont...",
+        "es": "Y por último... eres más cómodo cuando las cosas son..."
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsSettled",
+      "CommandLabel": {
+        "en": "settled, decided",
+        "fr": "tranchées, décidées",
+        "es": "rotundas, decididas"
+      },
+      "Steps": [
+       {
+           "Type":"Image",
+           "Parameters":{
+               "Source":"Internal",
+               "Path":"/themes/animals/small?preview=Bear-Cubs-05-634x441.jpg"
+           }
+       }
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppOpenedOrSettled",
+            "value": "Settled"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "OpenedOrSettledIsOpened",
+      "CommandLabel": {
+        "en": "fluid, scalable",
+        "fr": "fluides, évolutives",
+        "es": "fluidas, evolutivas"
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/animals/small/iStock_000002939415_Medium.jpg"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppOpenedOrSettled",
+            "value": "Opened"
+          }
+        }
+      ]
+    }
+  ]
+}
