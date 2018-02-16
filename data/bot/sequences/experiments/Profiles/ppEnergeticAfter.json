@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "ppEnergeticAfter",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which do you feel more energetic after being",
+        "fr": "Tu as plus d'énergie après avoir été",
+        "es": "Tienes más energía cuando fuiste"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "StepValue": "1",
+      "Id": "EnergeticAfterWithPeople",
+      "CommandLabel": {
+        "en": "with other people",
+        "fr": "en compagnie",
+        "es": "con otras personas"
+      },
+      "Steps": [
+          {
+              "Type":"Image",
+              "Parameters":{
+                  "Source":"Internal",
+                  "Path":"/themes/animals/small?preview=zoo_zuerich_pinguine_kbl7670.jpg"
+              }
+          },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppEnergeticAfter",
+            "value": "WithPeople"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "StepValue": "1",
+      "Id": "EnergeticAfterOnYourOwn",
+      "CommandLabel": {
+        "en": "on your own",
+        "fr": "seul",
+        "es": "solo"
+      },
+      "Steps": [
+        {
+            "Type":"Image",
+            "Parameters":{
+                "Source":"Internal",
+                "Path":"/themes/animals/small?preview=shutterstock_131239694.jpg"
+            }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppEnergeticAfter",
+            "value": "OnYourOwn"
+          }
+        }
+      ]
+    }
+  ]
+}
