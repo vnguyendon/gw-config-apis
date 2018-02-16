@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "LosingJobOrFeelingLonely",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You are more afraid of",
+        "fr": "Tu as plus peur de",
+        "es": "Tienes más miedo de "
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "AfraidOfLosingJob",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "losing your job",
+        "fr": "perdre ton emploi",
+        "es": "perder tu empleo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'Scratch a dog and you'll find a permanent job' Franklin P Jones",
+            "fr": "'Gratte un chien et tu trouveras un travail à temps plein' Franklin P Jones",
+            "es": "'Rasca un perro y trovarás un trabajo tiempo completo' Franklin P Jones"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "dTJd5ygpxkzWo"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "AfraidOfFeelingLonely",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "feeling lonely",
+        "fr": "te sentir seul",
+        "es": "sentirte solo"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "'The eternal quest of the individual human being is to shatter his loneliness.' Norman Cousins",
+            "fr": "'La quête éternelle de l'être humain consiste en rompre avec sa solitude' Norman Cousins",
+            "es": "'La búsqueda eterna del ser humano consiste en romper con su soledad' Norman Cousins"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VfyC5j7sR4cso"
+          }
+        }
+      ]
+    }
+  ]
+}
