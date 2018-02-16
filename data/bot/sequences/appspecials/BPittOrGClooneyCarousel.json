@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "BPittOrGClooney",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which actor do you prefer?",
+        "fr": "Quel acteur préfères-tu ?",
+        "es": "¿Cual actor prefieres?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "PreferPitt",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Brad Pitt",
+        "fr": "Brad Pitt",
+        "es": "Brad Pitt"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "👨🏼",
+          "fr": "👨🏼",
+          "es": "👨🏼"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "yoJC2El7xJkYCadlWE"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PreferClooney",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "George Clooney",
+        "fr": "George Clooney",
+        "es": "George Clooney"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "👨🏻",
+          "fr": "👨🏻",
+          "es": "👨🏻"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613933/09c15f1af2cf2869_georgeclooney.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "NrqPPuOqcVVZu"
+          }
+        }
+      ]
+    }
+  ]
+}
