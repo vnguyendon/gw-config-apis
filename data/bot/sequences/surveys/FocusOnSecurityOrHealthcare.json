@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "FocusOnSecurityOrHealthcare",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "Your country should focus on improving",
+         "fr": "Ton pays devrait se concentrer sur l'amélioration de la",
+         "es": "Tu país debería centrarse en mejorar la"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "FocusOnSecurity",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "security",
+          "fr": "sécurité",
+          "es": "seguridad"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "123ZMxSE6Y3JyE"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "FocusOnHealthcare",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "healthcare",
+          "fr": "santé publique",
+          "es": "salud pública"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "zfRG5WaSnBPd6"
+            }
+          }
+        ]
+      }
+    ]
+  }
