@@ -1,0 +1,71 @@
+{
+    "Type": "Node",
+    "Id": "FindPlanetsOrFiscalSchemes",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+         "en": "Governments should try to find new",
+         "fr": "Les gouvernements devraient essayer de trouver de nouvelles",
+         "es": "Los gobiernos deberian intentar de encontrar nuevos"
+        }
+      }
+    ],
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "FindPlanets",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "planets",
+          "fr": "planètes",
+          "es": "planetas"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "3ohs4rclkSSrNGSlFK"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "FindFiscalSchemes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "fiscal schemes",
+          "fr": "stratégies fiscales",
+          "es": "planos fiscalos"
+        },
+        "Steps": [
+          {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+          {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "NWg7M1VlT101W"
+            }
+          }
+        ]
+      }
+    ]
+  }
