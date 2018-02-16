@@ -7,16 +7,16 @@
       "Type": "Text",
       "Label": {
         "en": "Hello human! I am here to help and guide you",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Bonjour à toi humain ! Je suis ici pour t'aider et te guider",
+        "es": "¡Hola humano! Estoy aquí para ayudarte y guiarte"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "I'd like to introduce you to Huggy, my bot friend. Can I show you where he is?",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "J'aimerai te présenter Huggy, mon ami bot. Je peux te montrer où il est ?",
+        "es": "Me gustaría presentarte a Huggy, mi amigo bot. ¿Puedo mostrarte donde está?"
       }
     }
   ],
@@ -36,8 +36,8 @@
           "Type": "Text",
           "Label": {
             "en": "Yeayyyyy 🚀🚀🚀",
-            "fr": "TBD",
-            "es": "TBD"
+            "fr": "Allezzz 🚀🚀🚀",
+            "es": "Vengaaa 🚀🚀🚀"
           }
         },
         {
