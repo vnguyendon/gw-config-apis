@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "EconomicGrowthOrFreedomOfSpeech",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What would improve your country the most?",
+        "fr": "Qu'est-ce qui améliorerait le plus ton pays ?",
+        "es": "¿Qué mejoraría más tu país?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "EconomicGrowthImproves",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "economic growth",
+        "fr": "croissance",
+        "es": "crecimiento"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "jFaFmyZNipl4Y"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FreedomOfSpeechImproves",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "freedom of speech",
+        "fr": "liberté d'expression",
+        "es": "expresión libre"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "BKwEMMqmdhO92"
+          }
+        }
+      ]
+    }
+  ]
+}
