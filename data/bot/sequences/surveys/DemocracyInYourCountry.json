@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "DemocracyInYourCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you think your country is governed democratically?",
+        "fr": "Penses-tu que ton pays soit gouverné de façon démocratique ?",
+        "es": "¿Piensas que tu país es gobernado de manera democrática?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesDemocracyInCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEjHMTvWXeNaYYAHC"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoDemocracyInCountry",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6MbtkMMDIdSXwpyM"
+          }
+        }
+      ]
+    }
+  ]
+}
