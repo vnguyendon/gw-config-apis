@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowOnlyOnceForOrder1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowOnlyOnceForOrder1:you should see this once along with ShowOnlyOnceForOrder2",
+        "fr": "ShowOnlyOnceForOrder1:you should see this  once along with ShowOnlyOnceForOrder2"
+      }
+    }
+  ]
+}
