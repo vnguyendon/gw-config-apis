@@ -1,0 +1,298 @@
+{
+  "Type": "Node",
+  "Id": "AreYouLookingForFriend",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey there! 👋",
+        "fr": "Salut toi ! 👋",
+        "es": "¡Hola! 👋"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you looking for a friend?",
+        "fr": "Tu cherches un ami ?",
+        "es": "¿Estás buscando a un amigo?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesLookingForFriend",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Fantastic!",
+            "fr": "Fantastique !",
+            "es": "¡Fantástico!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’ve got great news for you…",
+            "fr": "J'ai une super nouvelle pour toi...",
+            "es": "Tengo una noticia excelente para ti..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "you found one! 🤗",
+            "fr": "tu viens de t'en faire un nouveau ! 🤗",
+            "es": "¡tienes un nuevo amigo! 🤗"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m Huggy, it’s a pleasure to meet you!",
+            "fr": "Je m'appelle Huggy, c'est un plaisir de te rencontrer !",
+            "es": "¡Me llamo Huggy, encantado de conocerte!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HuggyHi",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "HiHuggy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Hi Huggy!",
+              "fr": "Salut Huggy !",
+              "es": "¡Hola Huggy!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m a little bot, trapped inside your phone!",
+                  "fr": "Je suis un petit robot, piégé dans ton téléphone !",
+                  "es": "¡Soy un pequeño robot, encerrado en tu teléfono!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here's a picture of me...",
+                  "fr": "Voici une photo de moi...",
+                  "es": "Aqui esta una foto de mí..."
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519045602/hello_huggy.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I love learning all about humans and their world.",
+                  "fr": "J'adore apprendre des choses sur les humains et leur monde.",
+                  "es": "Me encanta aprender cosas sobre los humanos y su mundo"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In return…",
+                  "fr": "En échange...",
+                  "es": "En cambio..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’ll try keep you company and even make you laugh 🤣",
+                  "fr": "J'essaierai de te tenir compagnie et même de te faire rire 🤣",
+                  "es": "Intentaré hacerte compañía y incluso hacerte réir 🤣"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "FairSounds",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "SoundsFair",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Sounds fair 😄",
+                    "fr": "C'est honête 😄",
+                    "es": "Parece justo 😄"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright!",
+                        "fr": "Très bien !",
+                        "es": "¡Muy bien!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "So the first thing I was wondering...",
+                        "fr": "Alors, la première chose que je me demandais...",
+                        "es": "Entonces la primera cosa que me preguntaba..."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NotLookingForFriend",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, I think you've found one anyway 🤣",
+            "fr": "Eh bien, je crois que tu en as quand même trouvé un 🤣",
+            "es": "Bueno, creo que encontraste uno de todos modos 🤣"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m Huggy, it’s a pleasure to meet you!",
+            "fr": "Je m'appelle Huggy, c'est un plaisir de te rencontrer !",
+            "es": "¡Me llamo Huggy, encantado de conocerte!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HuggyHi",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "HiHuggy",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Hi Huggy!",
+              "fr": "Salut Huggy !",
+              "es": "¡Hola Huggy!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’m a little bot, trapped inside your phone!",
+                  "fr": "Je suis un petit robot, piégé dans ton téléphone !",
+                  "es": "¡Soy un pequeño robot, encerrado en tu teléfono!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here's a picture of me...",
+                  "fr": "Voici une photo de moi...",
+                  "es": "Aqui esta una foto de mí..."
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519045602/hello_huggy.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I love learning all about humans and their world.",
+                  "fr": "J'adore apprendre des choses sur les humains et leur monde.",
+                  "es": "Me encanta aprender cosas sobre los humanos y su mundo"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "In return…",
+                  "fr": "En échange...",
+                  "es": "En cambio..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I’ll try keep you company and even make you laugh 🤣",
+                  "fr": "J'essaierai de te tenir compagnie et même de te faire rire 🤣",
+                  "es": "Intentaré hacerte compañía y incluso hacerte réir 🤣"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "FairSounds",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "SoundsFair",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Sounds fair 😄",
+                    "fr": "C'est honête 😄",
+                    "es": "Parece justo 😄"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright!",
+                        "fr": "Très bien !",
+                        "es": "¡Muy bien!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "So the first thing I was wondering...",
+                        "fr": "Alors, la première chose que je me demandais...",
+                        "es": "Entonces la primera cosa que me preguntaba..."
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+} 
