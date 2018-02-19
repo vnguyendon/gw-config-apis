@@ -1,6 +1,6 @@
 {
   "Type": "Leaf",
-  "Comments":"it should show the text step and then continue",
+  "Comments":"along with ShowOnlyOnceForOrder2 this should be picked randomly and see at least once",
   "Id": "ShowOnlyOnceForOrder1",
   "Steps": [
     {
