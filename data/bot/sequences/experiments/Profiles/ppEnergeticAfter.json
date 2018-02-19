@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Which do you feel more energetic after being",
-        "fr": "Tu as plus d'énergie après avoir été",
-        "es": "Tienes más energía cuando fuiste"
+        "en": "You feel more energetic after being...",
+        "fr": "Tu as plus d'énergie après avoir été...",
+        "es": "Tienes más energía cuando fuiste..."
       }
     }
   ],
