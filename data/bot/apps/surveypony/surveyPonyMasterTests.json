@@ -13,7 +13,14 @@
             "/data/bot/sequences/experiments/rui/OneLeafWithFailTest2.json"]},
         { "order": 40, "file":[
             "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
-            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]}
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]},
+        
+        { "order": 50, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]}
+        { "order": 50, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]}
       ]
   }
 ]
