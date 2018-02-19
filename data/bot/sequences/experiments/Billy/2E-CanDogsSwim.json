@@ -5,6 +5,14 @@
     {
       "Type": "Text",
       "Label": {
+        "en": "OK... I have more questions about the outside world:",
+        "fr": "Est-ce que les chiens savent nager ?",
+        "es": "¿Saben los perros nadar?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
         "en": "Can dogs swim?",
         "fr": "Est-ce que les chiens savent nager ?",
         "es": "¿Saben los perros nadar?"
@@ -40,7 +48,7 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Ok. And are pigeons usually pink?",
+            "en": "OK. And are pigeons usually pink?",
             "fr": "D'accord. Et est-ce que les pigeons sont roses d'habitude ?",
             "es": "Vale. ¿Y son las palomas generalmente rosas?"
           }
