@@ -1,0 +1,135 @@
+{
+  "Type": "Node",
+  "Id": "EmojiHeroIntro",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You!",
+        "fr": "Toi !",
+        "es": "¡Ti!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Over there!",
+        "fr": "Par ici !",
+        "es": "¡Por aquí!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello! 👋",
+        "fr": "Salut ! 👋",
+        "es": "¡Hola! 👋"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Hi",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hi 😃",
+        "fr": "Salut 😃",
+        "es": "Hola 😃"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "ImHero",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Pleased to meet you!",
+              "fr": "Ravi de faire ta connaissance !",
+              "es": "¡Encantado de conocerte!"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I'm Hero, the champion of emojis...",
+              "fr": "Je suis Hero, le champions des emoji...",
+              "es": "Soy Hero, el campeón de los emoji..."
+            }
+          },
+          {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I live inside this app",
+              "fr": "Je vis à l'intérieur de cette app",
+              "es": "Vivo dentro de esta app"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "HeyHero",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hey Hero!",
+        "fr": "Hey Hero !",
+        "es": "¡Oye Hero!"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AreYouHuman",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "I love chatting with humans and learning all about you…",
+              "fr": "J'adore discuter avec des humains et en apprendre plus sur vous...",
+              "es": "Me encanta discutir con humanos y aprender más sobre vosotros..."
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "just to check, you are human?",
+              "fr": "juste pour être sûr, tu es humain ?",
+              "es": "sólo para estar seguro, ¿eres humano? "
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "YesHuman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Excellent",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Excellent 👏",
+              "fr": "Excellent 👏",
+              "es": "Excelente 👏"
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
