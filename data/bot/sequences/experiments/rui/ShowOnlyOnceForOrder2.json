@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"along with ShowOnlyOnceForOrder1 this should be picked randomly and see at least once",
+  "Id": "ShowOnlyOnceForOrder2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowOnlyOnceForOrder2:you should see this once along with ShowOnlyOnceForOrder1",
+        "fr": "ShowOnlyOnceForOrder2:you should see this  once along with ShowOnlyOnceForOrder1"
+      }
+    }
+  ]
+}
