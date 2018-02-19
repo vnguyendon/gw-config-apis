@@ -17,7 +17,7 @@
         
         { "order": 50, "file":[
             "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
-            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]}
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
         { "order": 50, "file":[
             "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
             "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]}
