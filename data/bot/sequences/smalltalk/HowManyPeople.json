@@ -7,7 +7,7 @@
       "Label": {
         "en": "How many people are there?",
         "fr": "Combien êtes-vous sur Terre ?",
-        "es": "¿Cuantos son ahí?"
+        "es": "¿Cuantos séis ahí?"
       }
     }
   ],
@@ -21,164 +21,328 @@
         "fr": "8 milliards",
         "es": "8 mil millones"
       },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh... wow... and do you know all of them?",
+            "fr": "Oh... ouah... et tu les connais tous ?",
+            "es": "Oh... guau... ¿y conoces a todos?"
+          }
+        }
+      ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "DoYouKnowThem",
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "Oh... wow... and do you know all of them?",
-              "fr": "Oh... ouah... et tu les connais tous ?",
-              "es": "Oh... guau... ¿y conoces a todos?"
-            }
-          }
-        ],
+        "Id": "KnowThemAllYesNo",
+        "ElementValue": "1",
         "Commands": [
           {
             "Type": "Node",
             "Id": "DoYouKnowThemYes",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Yes",
-              "fr": "Oui",
-              "es": "Sí"
-            }
-          }
-        ],
-        "LinksTo": {
-          "Type": "Node",
-          "Id": "AreYou250",
-          "Steps": [
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "I'm not sure I believe you 🤨",
-                "fr": "Je ne suis pas sûr de te croire 🤨",
-                "es": "No estoy tan seguro de creerte 🤨"
-              }
+              "en": "yes",
+              "fr": "oui",
+              "es": "sí"
             },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Even if you met one person every second it would take you almost 250 years to meet everyone",
-                "fr": "Même si tu rencontrais une nouvelle personne toutes les secondes cela te prendrait 250 ans de rencontrer tout le monde",
-                "es": "Aún si encontrabas a una nueva persona cada segunda necesitarías 250 años para encontrar a todos"
-              }
-            },
-            {
-              "Type": "Text",
-              "Label": {
-                "en": "Are you 250?",
-                "fr": "As-tu 250 ans ?",
-                "es": "¿Tienes 250 años?"
-              }
-            }
-          ],
-          "Commands": [
-            {
-              "Type": "Leaf",
-              "Id": "AreYou250Yes",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Yes",
-                "fr": "Oui",
-                "es": "Sí"
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Are you sure? 🤨",
+                  "fr": "Tu es sûr ? 🤨",
+                  "es": "¿Eres seguro? 🤨"
+                }
               },
-              "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Even if you met one person every second it would take you almost 250 years to meet everyone",
+                  "fr": "Même si tu rencontrais une nouvelle personne toutes les secondes cela te prendrait 250 ans de rencontrer tout le monde",
+                  "es": "Aún si encontrabas a una nueva persona cada segunda necesitarías 250 años para encontrar a todos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Are you 250?",
+                  "fr": "As-tu 250 ans ?",
+                  "es": "¿Tienes 250 años?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AreYou250YesNo",
+              "ElementValue": "1",
+              "Commands": [
                 {
-                  "Type": "Text",
-                  "Label": {
-                    "en": "Amazing!",
-                    "fr": "Incroyable !",
-                    "es": "¡Estupendo!"
-                  }
+                  "Type": "Leaf",
+                  "Id": "AreYou250Yes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "yes",
+                    "fr": "oui",
+                    "es": "sí"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Amazing!",
+                        "fr": "Incroyable !",
+                        "es": "¡Estupendo!"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3rgXBQIDHkFNniTNRu"
+                      }
+                    }
+                  ]
                 },
                 {
-                  "Type": "AnimatedGif",
-                  "Parameters": {
-                    "Source": "Giphy",
-                    "Path": "3rgXBQIDHkFNniTNRu"
+                  "Type": "Node",
+                  "Id": "AreYou250No",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "of course not!",
+                    "fr": "bien sûr que non !",
+                    "es": "¡claro que no!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Just checking!",
+                        "fr": "Je vérifiais juste !",
+                        "es": "¡Solo comprobaba!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I read that the average human knows 600 people...",
+                        "fr": "J'ai lu qu'un humain moyen connaît 600 personnes...",
+                        "es": "Leí que un húmano medio conoce a 600 personas..."
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Do you often meet new people?",
+                        "fr": "Fais-tu souvent de nouvelles rencontres ?",
+                        "es": "¿A menudo conoces a nuevas personas?"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "OftenMeetPeopleYesNo",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "OftenMeetPeopleYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "yes",
+                          "fr": "oui",
+                          "es": "sí"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Great! Keep going like this and you might know everyone in a few hundred years 😜",
+                              "fr": "Top ! Continue comme ça et tu connaîtras tout le monde dans quelques centaines d'années 😜",
+                              "es": "¡Genial! Sigue así y conocerás a todo el mundo en unos cientos de años 😜"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "OftenMeetPeopleNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "no",
+                          "fr": "non",
+                          "es": "no"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "'He that has many friends has none' - Aristotle",
+                              "fr": "'Ami de chacun, ami d'aucun' - Aristote",
+                              "es": "'El que tiene muchos amigos no tiene ninguno' - Aristóteles"
+                            }
+                          }
+                        ]
+                      }
+                    ]
                   }
                 }
               ]
-            },
-            {
-              "Type": "Node",
-              "Id": "AreYou250No",
-              "ElementValue": "1",
-              "CommandLabel": {
-                "en": "Of course not!",
-                "fr": "Bien sûr que non !",
-                "es": "¡Claro que no!"
-              },
-              "LinksTo": {
-                "Type": "Node",
-                "Id": "DoYouMeetNewPeople",
-                "Steps": [
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Just checking! I read that the average human knows 600 people...",
-                      "fr": "Je vérifiais juste ! J'ai lu qu'un humain moyen connaît 600 personnes...",
-                      "es": "¡Solo comprobaba! Leí que un húmano medio conoce a 600 personas..."
-                    }
-                  },
-                  {
-                    "Type": "Text",
-                    "Label": {
-                      "en": "Do you often meet new people?",
-                      "fr": "Fais-tu souvent de nouvelles rencontres ?",
-                      "es": "¿A menudo conoces a nuevas personas?"
-                    }
-                  }
-                ],
-                "Commands": [
-                  {
-                    "Type": "Leaf",
-                    "Id": "DoYouMeetNewPeopleYes",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "Yes",
-                      "fr": "Oui",
-                      "es": "Sí"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "Great! Keep going like this and you might know everyone in a few hundred years 😜",
-                          "fr": "Top ! Continue comme ça et tu connaîtras tout le monde dans quelques centaines d'années 😜",
-                          "es": "¡Genial! Sigue así y conocerás a todo el mundo en unos cientos de años 😜"
-                        }
-                      }
-                    ]
-                  },
-                  {
-                    "Type": "Leaf",
-                    "Id": "DoYouMeetNewPeopleNo",
-                    "ElementValue": "1",
-                    "CommandLabel": {
-                      "en": "No",
-                      "fr": "Non",
-                      "es": "No"
-                    },
-                    "Steps": [
-                      {
-                        "Type": "Text",
-                        "Label": {
-                          "en": "'He that has many friends has none' - Aristotle",
-                          "fr": "'Ami de chacun, ami d'aucun' - Aristote",
-                          "es": "'El que tiene muchos amigos no tiene ninguno' - Aristóteles"
-                        }
-                      }
-                    ]
-                  }
-                ]
-              }
             }
-          ]
-        }
+          },
+          {
+            "Type": "Node",
+            "Id": "DoYouKnowThemNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "no",
+              "fr": "non",
+              "es": "no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Quite right!",
+                  "fr": "Bien sûr !",
+                  "es": "¡Seguro!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Even if you met one person every second it would take you almost 250 years to meet everyone",
+                  "fr": "Même si tu rencontrais une nouvelle personne toutes les secondes cela te prendrait 250 ans de rencontrer tout le monde",
+                  "es": "Aún si encontrabas a una nueva persona cada segunda necesitarías 250 años para encontrar a todos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Are you 250?",
+                  "fr": "As-tu 250 ans ?",
+                  "es": "¿Tienes 250 años?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "AreYou250YesNo",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "AreYou250Yes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "yes",
+                    "fr": "oui",
+                    "es": "sí"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Amazing!",
+                        "fr": "Incroyable !",
+                        "es": "¡Estupendo!"
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3rgXBQIDHkFNniTNRu"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Node",
+                  "Id": "AreYou250No",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "of course not!",
+                    "fr": "bien sûr que non !",
+                    "es": "¡claro que no!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Just checking!",
+                        "fr": "Je vérifiais juste !",
+                        "es": "¡Solo comprobaba!"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I read that the average human knows 600 people...",
+                        "fr": "J'ai lu qu'un humain moyen connaît 600 personnes...",
+                        "es": "Leí que un húmano medio conoce a 600 personas..."
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Do you often meet new people?",
+                        "fr": "Fais-tu souvent de nouvelles rencontres ?",
+                        "es": "¿A menudo conoces a nuevas personas?"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "OftenMeetPeopleYesNo",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "OftenMeetPeopleYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "yes",
+                          "fr": "oui",
+                          "es": "sí"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Great! Keep going like this and you might know everyone in a few hundred years 😜",
+                              "fr": "Top ! Continue comme ça et tu connaîtras tout le monde dans quelques centaines d'années 😜",
+                              "es": "¡Genial! Sigue así y conocerás a todo el mundo en unos cientos de años 😜"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "OftenMeetPeopleNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "no",
+                          "fr": "non",
+                          "es": "no"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "'He that has many friends has none' - Aristotle",
+                              "fr": "'Ami de chacun, ami d'aucun' - Aristote",
+                              "es": "'El que tiene muchos amigos no tiene ninguno' - Aristóteles"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
       }
     }
   ]
