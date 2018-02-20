@@ -27,7 +27,7 @@
               "Type":"Image",
               "Parameters":{
                   "Source":"Internal",
-                  "Path":"/themes/animals/small?preview=zoo_zuerich_pinguine_kbl7670.jpg"
+                  "Path":"/themes/animals/small/zoo_zuerich_pinguine_kbl7670.jpg"
               }
           },
         {
@@ -54,7 +54,7 @@
             "Type":"Image",
             "Parameters":{
                 "Source":"Internal",
-                "Path":"/themes/animals/small?preview=shutterstock_131239694.jpg"
+                "Path":"/themes/animals/small/shutterstock_131239694.jpg"
             }
         },
         {
