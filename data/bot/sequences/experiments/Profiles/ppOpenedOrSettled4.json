@@ -45,7 +45,7 @@
       "ElementValue": "1",
       "Id": "OpenedOrSettledIsOpened",
       "CommandLabel": {
-        "en": "fluid, scalable",
+        "en": "fluid, changing",
         "fr": "fluides, évolutives",
         "es": "fluidas, evolutivas"
       },
