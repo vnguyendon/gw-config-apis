@@ -134,8 +134,8 @@
                                                     }
                                                 ],
                                                 "LinksTo": {
-                                                    "Type": "ENFJProfileLikeMe",
-                                                    "Id": "TBD",
+                                                    "Type": "Node",
+                                                    "Id": "ENFJProfileLikeMe",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
