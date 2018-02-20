@@ -2,6 +2,12 @@
   "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ppDecisionsAriseFrom3.json"]},  
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ppOpenedOrSettled4.json"]},  
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/PersonalityRevealed.json"]},  
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ENFJ.json"]},  
     { "order" : 20, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro"]},
     { "order" : 40, "file":["/data/bot/sequences/smalltalk/HowManyPeople.json"]},
     { "order" : 60, "file":["/data/bot/sequences/smalltalk/SoupStopsHungerAndThirst.json"]},
