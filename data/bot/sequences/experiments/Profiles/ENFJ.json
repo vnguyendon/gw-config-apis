@@ -5,24 +5,24 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "I think you are 'The Leader'",
-                "fr": "TBD",
-                "es": "TBD"
+                "en": "I think you are 'The Motivator'",
+                "fr": "Je pense que tu es 'Le Motivateur'",
+                "es": "Pienso que eres 'El Motivador'"
             }
         },
         {
             "Type": "Image",
             "Parameters": {
                 "Source": "Internal",
-                "Path": "/themes/animals/small/Swan-Family-000027606346_Medium.jpg"
+                "Path": "/themes/animals/small/iStock_000013928910_Large.jpg"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Wanna hear a full breakdown?",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
             }
         }
     ],
@@ -40,9 +40,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "You’re a born mentor: you see potential in all of your acquaintances and are willing to help them grow so as to reach their true potential...✍",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "en": "You’re a born mentor: you see potential in all of your acquaintances and are willing to help them grow to reach their true potential...✍",
+                        "fr": "Tu es un mentor né et as un don pour voir le véritable potentiel des personnes que tu connais, que tu es prêt à aider pour qu'elles grandissent et progressent...✍",
+                        "es": "Eres un(a) educador(a) nacido(a), puedes ver los potenciales de las personas que te rodean y haces lo necesario para ayudarles a desarrollar al máximo sus capacidades...✍"
                     }
                 }
             ],
@@ -57,16 +57,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "more!",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "encore !",
+                            "es": "¡más!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "A highly sociable and positive person, you have outstanding speech abilities and are often popular and easy to get along with...✍",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Tu es une personne sociable et positive, dotée d'excellentes capacités orales. Tu es populaire et il est facile de bien s'entendre avec toi...✍",
+                                    "es": "Una persona altamente sociable y positiva, tienes excelentes habilidades discursivas, eres popular y es fácil llevarse bien contigo...✍"
                                 }
                             }
                         ],
@@ -81,16 +81,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "keep going!",
-                                        "fr": "TBD",
-                                        "es": "TBD"
+                                        "fr": "continue!",
+                                        "es": "¡continúa!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "As your life is built around your social engagements, you value planning in order to make sure that you honor your commitments...✍",
-                                                "fr": "TBD",
-                                                "es": "TBD"
+                                                "fr": "Ta vie étant organisée autour de tes différents engagements sociaux, tu aimes la planification afin de t'assurer que tu honores tes engagements...✍",
+                                                "es": "Tu vida está construida en torno a tus relaciones sociales. Planear y organizar es un buen camino para asegurar el éxito de tus proyectos...✍"
                                             }
                                         }
                                     ],
@@ -105,16 +105,16 @@
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "more!",
-                                                    "fr": "TBD",
-                                                    "es": "TBD"
+                                                    "fr": "encore !",
+                                                    "es": "¡más!"
                                                 },
                                                 "Steps": [
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "You have a natural instinct for your emotions and that of your friends and family, whom with you are closely connected",
-                                                            "fr": "TBD",
-                                                            "es": "TBD"
+                                                            "en": "You have a natural instinct for your emotions and that of your friends and family, with whom you are closely connected",
+                                                            "fr": "Tu as un instinct fort pour sentir tes émotions ainsi que celles de tes amis et de ta famille, avec qui tu entretiens des relations proches",
+                                                            "es": "Tienes un instinto natural para equilibrar tus emociones y las de tus seres queridos, con quienes estás profundamente conectado"
                                                         }
                                                     },
                                                     {
@@ -128,8 +128,8 @@
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Did the profile sound like you?",
-                                                            "fr": "TBD",
-                                                            "es": "TBD"
+                                                            "fr": "Est-ce que ce profil te ressemble ?",
+                                                            "es": "¿Este perfil se parece a ti?"
                                                         }
                                                     }
                                                 ],
@@ -144,16 +144,16 @@
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "yes!",
-                                                                "fr": "oui!",
-                                                                "es": "sí"
+                                                                "fr": "oui !",
+                                                                "es": "¡sí!"
                                                             },
                                                             "Steps": [
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                                        "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
                                                                     }
                                                                 }
                                                             ]
@@ -172,16 +172,16 @@
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Aww... Well I'm only halfway through my psych course! 😅",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                                        "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
                                                                     }
                                                                 },
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "I'll definitely improve 💪",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                                        "es": "Voy a mejorar sin duda 💪"
                                                                     }
                                                                 }
                                                             ]
@@ -212,16 +212,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright! 👌",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Do you think 'the leader' sounds like you at all?",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "en": "Do you think 'The Motivator' sounds like you at all?",
+                        "fr": "Penses-tu que 'Le Motivateur' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Motivador' se parece a ti?"
                     }
                 }
             ],
@@ -236,16 +236,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "yes",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "oui",
+                            "es": "sí"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
                                 }
                             }
                         ]
@@ -256,24 +256,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "no",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "non",
+                            "es": "no"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Aww... Well I'm only halfway through my psych course! 😅",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll definitely improve 💪",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
                                 }
                             }
                         ]
