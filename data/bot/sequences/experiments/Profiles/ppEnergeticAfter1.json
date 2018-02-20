@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "You feel more energetic after being...",
-        "fr": "Tu as plus d'énergie après avoir été...",
-        "es": "Tienes más energía cuando fuiste..."
+        "en": "Which do you feel more energetic after?",
+        "fr": "Tu as plus d'énergie après avoir été avec",
+        "es": "Tu energía aumenta cuando has estado"
       }
     }
   ],
@@ -18,8 +18,8 @@
       "StepValue": "1",
       "Id": "EnergeticAfterWithPeople",
       "CommandLabel": {
-        "en": "with other people",
-        "fr": "en compagnie",
+        "en": "being with other people",
+        "fr": "d'autres personnes",
         "es": "con otras personas"
       },
       "Steps": [
@@ -45,9 +45,9 @@
       "StepValue": "1",
       "Id": "EnergeticAfterOnYourOwn",
       "CommandLabel": {
-        "en": "on your own",
-        "fr": "seul",
-        "es": "solo"
+        "en": "being on your own",
+        "fr": "toi-même?",
+        "es": "contigo mismo?"
       },
       "Steps": [
         {
