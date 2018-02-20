@@ -29,7 +29,7 @@
                "Source":"Internal",
                "Path":"/themes/animals/small/Bear-Cubs-05-634x441.jpg"
            }
-       }
+       },
         {
           "Type": "Action",
           "Name": "SetUserProperty",
