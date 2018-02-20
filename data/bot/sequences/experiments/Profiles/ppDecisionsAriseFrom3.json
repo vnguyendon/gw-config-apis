@@ -18,7 +18,7 @@
       "ElementValue": "1",
       "Id": "DecisionsAriseFromFeelings",
       "CommandLabel": {
-        "en": "values, feelings",
+        "en": "values and feelings",
         "fr": "valeurs, sentiments",
         "es": "valores, sensaciones"
       },
@@ -27,7 +27,7 @@
             "Type":"Image",
             "Parameters":{
                 "Source":"Internal",
-                "Path":"/themes/animals/small?preview=iStock_000014150076_Medium.jpg"
+                "Path":"/themes/animals/small/iStock_000014150076_Medium.jpg"
             }
         },
         {
@@ -45,7 +45,7 @@
       "ElementValue": "1",
       "Id": "DecisionsAriseFromThinking",
       "CommandLabel": {
-        "en": "logic, reason",
+        "en": "logic and reason",
         "fr": "logiques, réflexions",
         "es": "lógica, razonamiento"
       },
