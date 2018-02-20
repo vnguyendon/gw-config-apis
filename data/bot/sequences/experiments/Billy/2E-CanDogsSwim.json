@@ -11,6 +11,13 @@
       }
     },
     {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/animals/small/10445526_627959893981951_4323865414841827151_n.jpg"
+      }
+    },
+    {
       "Type": "Text",
       "Label": {
         "en": "Can dogs swim?",
@@ -24,13 +31,6 @@
         "en": "Or do they usually take boats?",
         "fr": "Ou est-ce qu'ils prennent plutôt le bateau ?",
         "es": "¿O generalmente toman la barca?"
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Internal",
-        "Path": "/themes/animals/small/10445526_627959893981951_4323865414841827151_n.jpg"
       }
     }
   ],
