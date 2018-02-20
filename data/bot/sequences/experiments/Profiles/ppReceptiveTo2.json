@@ -27,7 +27,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Internal",
-            "Path": "/themes/animals/small?preview=Introspective-Panda-634x400.jpg"
+            "Path": "/themes/animals/small/Introspective-Panda-634x400.jpg"
           }
         },
         {
@@ -54,7 +54,7 @@
             "Type": "Image",
             "Parameters": {
               "Source": "Internal",
-              "Path": "/themes/animals/small?preview=shutterstock_99334949.jpg"
+              "Path": "/themes/animals/small/shutterstock_99334949.jpg"
             }
         },
         {
