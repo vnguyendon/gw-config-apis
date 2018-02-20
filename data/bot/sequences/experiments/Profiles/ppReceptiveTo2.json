@@ -45,7 +45,7 @@
       "ElementValue": "1",
       "Id": "ReceptiveToFacts",
       "CommandLabel": {
-        "en":"facts, reality",
+        "en":"facts and reality",
         "fr":"faits, réalité",
         "es":"hechos, realidad"
       },
