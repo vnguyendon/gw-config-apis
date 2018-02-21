@@ -15,6 +15,10 @@
       "ID": "ca-app-pub-7822741681642396/7972137060"
     }
   },
+  "AfterSending": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/3017385473"
+  },
   "OtherResumeActivity": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1656581587986927",
