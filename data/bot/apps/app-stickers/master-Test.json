@@ -1,7 +1,8 @@
 {
   "GroupName": "Huggy",
   "SequenceFiles": [
-    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy2/HuggyIntro"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/experiments/Billy2/HuggyIntro.json"]},
     { "order" : 40, "file":["/data/bot/sequences/smalltalk/HowManyPeople.json"]},
     { "order" : 60, "file":["/data/bot/sequences/smalltalk/SoupStopsHungerAndThirst.json"]},
     { "order" : 80, "file":["/data/bot/sequences/smalltalk/WhatsYourFavoriteFood.json"]},
