@@ -1,0 +1,90 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingHello",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCards",
+      "Parameters": {
+        "Type": "Gif",
+        "Path": "/data/common/giphycontent/morning.json"
+      }
+    }
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Helloooooooooooo",
+        "fr": "Bonjoooooooooour",
+        "es": ""
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "OnboardingHi",
+      "CommandLabel": {
+        "en": "Hi !",
+        "fr": "Salut !",
+        "es": ""
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I live in this app - I’m here to help you!",
+            "fr": "",
+            "es": ""
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "There’s a whole lot of stuff to do in this app, I can guide you around!",
+            "fr": "",
+            "es": ""
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CloseISee",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "If you don’t want my help, you can just close our chat with that X just above me!",
+              "fr": "",
+              "es": ""
+            }
+          },
+          {
+            "Type": "Action",
+            "Name": "OnboardingAnimationRedCross"
+          }
+        ],
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "ISeeCloseButton",
+            "CommandLabel": {
+              "en": "I see it!",
+              "fr": "",
+              "es": ""
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Gif",
+                  "Path": "/data/common/giphycontent/goodjob.json"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
