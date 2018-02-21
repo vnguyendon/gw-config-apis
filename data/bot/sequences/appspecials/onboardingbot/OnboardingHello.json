@@ -15,7 +15,7 @@
       "Label": {
         "en": "Helloooooooooooo",
         "fr": "Bonjoooooooooour",
-        "es": ""
+        "es": "Holaaaaaaaaaaaaa"
       }
     }
   ],
@@ -26,23 +26,23 @@
       "CommandLabel": {
         "en": "Hi !",
         "fr": "Salut !",
-        "es": ""
+        "es": "¡Hola!"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "I live in this app - I’m here to help you!",
-            "fr": "",
-            "es": ""
+            "fr": "Je vis dans cette appli : je suis là pour t'aider !",
+            "es": "Vivo en este app: ¡estoy aquí para ayudarte!"
           }
         },
         {
           "Type": "Text",
           "Label": {
             "en": "There’s a whole lot of stuff to do in this app, I can guide you around!",
-            "fr": "",
-            "es": ""
+            "fr": "Il y a plein de trucs à faire dans cette appli, je peux te guider !",
+            "es": "Hay muchas cosas que hacer en este app, ¡puedo guiarte!"
           }
         }
       ],
@@ -54,8 +54,8 @@
             "Type": "Text",
             "Label": {
               "en": "If you don’t want my help, you can just close our chat with that X just above me!",
-              "fr": "",
-              "es": ""
+              "fr": "Si tu ne veux pas de mon aide, tu peux simplement fermer cette discussion grâce au X juste au-dessus de moi !",
+              "es": "¡Si no quieres mi ayuda, puedes simplemente cerrar esta charla con el X justo sobre mi!"
             }
           },
           {
@@ -69,8 +69,8 @@
             "Id": "ISeeCloseButton",
             "CommandLabel": {
               "en": "I see it!",
-              "fr": "",
-              "es": ""
+              "fr": "Je le vois !",
+              "es": "¡Lo veo!"
             },
             "Steps": [
               {
