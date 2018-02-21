@@ -12,6 +12,10 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/5018670662"
   },
+  "AfterSending": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/1755386641"
+  },
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1102012976529819_1223612501036532"
