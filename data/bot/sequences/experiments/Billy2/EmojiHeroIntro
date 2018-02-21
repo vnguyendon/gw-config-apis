@@ -1,137 +1,283 @@
 {
-  "Type": "Node",
-  "Id": "EmojiHeroIntro",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "You!",
-        "fr": "Toi !",
-        "es": "¡Ti!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Over there!",
-        "fr": "Par ici !",
-        "es": "¡Por aquí!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Hello! 🌊",
-        "fr": "Salut ! 🌊",
-        "es": "¡Hola! 🌊"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Hi",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Hi 😃",
-        "fr": "Salut 😃",
-        "es": "Hola 😃"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "EmojiHeroIntro",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Pleased to meet you!",
-            "fr": "Ravi de faire ta connaissance !",
-            "es": "¡Encantado de conocerte!"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "You!",
+                "fr": "Toi !",
+                "es": "¡Ti!"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "I'm Hero, the champion of emoji...",
-            "fr": "Je suis Hero, le champions des emoji...",
-            "es": "Soy Hero, el campeón de los emoji..."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Over there!",
+                "fr": "Par ici !",
+                "es": "¡Por aquí!"
+            }
         },
         {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "I live inside this app.",
-            "fr": "Je vis à l'intérieur de cette app.",
-            "es": "Vivo dentro de esta app."
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Hello! 👋",
+                "fr": "Salut ! 👋",
+                "es": "¡Hola! 👋"
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "HeroHey",
-        "ElementValue": "1",
-        "Commands": [
-          {
+    ],
+    "Skippable": {
+        "value": false
+    },
+    "Commands": [
+        {
             "Type": "Node",
-            "Id": "HeyHero",
+            "Id": "HeroIntroHi",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Hey Hero!",
-              "fr": "Hey Hero !",
-              "es": "¡Oye Hero!"
+                "en": "Hi 😃",
+                "fr": "Salut 😃",
+                "es": "Hola 😃"
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "I love chatting with humans and learning all about you…",
-                  "fr": "J'adore discuter avec des humains et en apprendre plus sur vous...",
-                  "es": "Me encanta discutir con humanos y aprender más sobre vosotros..."
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Pleased to meet you!",
+                        "fr": "Ravi de faire ta connaissance !",
+                        "es": "¡Encantado de conocerte!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm Hero, the champion of emoji...",
+                        "fr": "Je suis Hero, le champions des emoji...",
+                        "es": "Soy Hero, el campeón de los emoji..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I live inside this app.",
+                        "fr": "Je vis à l'intérieur de cette app.",
+                        "es": "Vivo dentro de esta app."
+                    }
                 }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "just to check, you are human?",
-                  "fr": "juste pour être sûr, tu es humain ?",
-                  "es": "sólo para estar seguro, ¿eres humano? "
-                }
-              }
             ],
             "LinksTo": {
-              "Type": "Node",
-              "Id": "HumanYes",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Leaf",
-                  "Id": "YesHuman",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "yes",
-                    "fr": "oui",
-                    "es": "sí"
-                  },
-                  "Steps": [
+                "Type": "Node",
+                "Id": "HeroIntroHey",
+                "ElementValue": "1",
+                "Skippable": {
+                    "value": false
+                },
+                "Commands": [
                     {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Excellent 👏",
-                        "fr": "Excellent 👏",
-                        "es": "Excelente 👏"
-                      }
+                        "Type": "Node",
+                        "Id": "HeyHero",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Hey Hero!",
+                            "fr": "Hey Hero !",
+                            "es": "¡Oye Hero!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "My superpower is knowing the perfect emoji and message for every situation...",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's a legendary tale how I got this power...",
+                                    "fr": "juste pour être sûr, tu es humain ?",
+                                    "es": "sólo para estar seguro, ¿eres humano? "
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "maybe I will tell it to you later!",
+                                    "fr": "TBD",
+                                    "es": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HeroTaleLater",
+                            "ElementValue": "1",
+                            "Skippable": {
+                                "value": false
+                            },
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "HeroTaleLaterAlright",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Alright 😄",
+                                        "fr": "tbd",
+                                        "es": "tbd"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "It is indeed a mighty power...",
+                                                "fr": "tbd",
+                                                "es": "tbd"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "rf5TGw330sy88"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "but I have sworn to use it only for good...",
+                                                "fr": "tbd",
+                                                "es": "tbd"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Which means helping humans like you! Just to check... are you human?",
+                                                "fr": "tbd",
+                                                "es": "tbd"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "HeroAreYouHuman",
+                                        "ElementValue": "1",
+                                        "Skippable": {
+                                            "value": false
+                                        },
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "HeroAreYouHumanYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "tbd",
+                                                    "es": "tbd"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Excellent 👏",
+                                                            "fr": "tbd",
+                                                            "es": "tbd"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "The best way is for me to ask you some questions and find out what you truly need...",
+                                                            "fr": "tbd",
+                                                            "es": "tbd"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And then I work my magic...",
+                                                            "fr": "tbd",
+                                                            "es": "tbd"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "4EALRFjyD5odO"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And find you the best message or emoji!",
+                                                            "fr": "tbd",
+                                                            "es": "tbd"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "HeroBestEmoji",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "HeroBestEmojiDoIt",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Let's do it!",
+                                                                "fr": "tbd",
+                                                                "es": "tbd"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "HeroBestEmojiNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "I'll look myself",
+                                                                "fr": "tbd",
+                                                                "es": "tbd"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Hey, that works too! 😆",
+                                                                        "fr": "tbd",
+                                                                        "es": "tbd"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Action",
+                                                                    "Name": "RedirectTo",
+                                                                    "Parameters": {
+                                                                        "Type": "Tab",
+                                                                        "Path": "Emojis"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
                     }
-                  ]
-                }
-              ]
+                ]
             }
-          }
-        ]
-      }
-    }
-  ]
+        }
+    ]
 }
