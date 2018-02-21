@@ -1,7 +1,16 @@
 {
+    "Condition": "ppEnergeticAfter=='WithPeople' && ppDecisionsAriseFrom=='Thinking' && ppReceptiveTo == 'Facts' && ppOpenedOrSettled=='Settled'",
     "Type": "Node",
     "Id": "ENFJ",
     "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                "property": "ppPsychologicalProfile",
+                "value": "ENFJ"
+            }
+        },
         {
             "Type": "Text",
             "Label": {
@@ -134,8 +143,8 @@
                                                     }
                                                 ],
                                                 "LinksTo": {
-                                                    "Type": "Node",
-                                                    "Id": "ENFJProfileLikeMe",
+                                                    "Type": "ENFJProfileLikeMe",
+                                                    "Id": "TBD",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
