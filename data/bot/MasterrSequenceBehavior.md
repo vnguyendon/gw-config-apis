@@ -24,3 +24,10 @@ This defines the list of available sequences of conversation and their order.
 
 We'll try to define here the rules that define the way we pick the next sequence for a user.
 
+When we try to get the next sequencee for a user we'll need (in parenthesis, the name of the objects for further reference):
+
+* the master file of the sequences (master) for the named bot (botname)
+* the user context with the user profile (userprofile) - we need that to test the conditions within sequences
+* the information of the last sequence (sequenceid)
+* the list of the previously show sequences (previousSequences) - in order to not show a sequence twice.
+
