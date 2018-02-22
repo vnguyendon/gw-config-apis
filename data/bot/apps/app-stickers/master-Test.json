@@ -1,7 +1,7 @@
 {
   "GroupName": "Huggy",
   "SequenceFiles": [
-    { "order" : 3, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro"]},
+    { "order" : 3, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
     { "order" : 4, "file":["/data/bot/sequences/experiments/Profiles/EmojiHeroProfileIntro.json"]},
     { "order" : 5, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
     { "order" : 6, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
