@@ -1,0 +1,69 @@
+{
+    "Type": "Node",
+    "Id": "EmojiHeroFollowUp",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Right on! 👊",
+                "fr": "tbd",
+                "es": "tbd",
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So first I think it's best if I learn your personality!",
+                "fr": "tbd",
+                "es": "tbd",
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "z0gyp60FssbkY"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Just answer me four quick questions and my genius brain will figure you out!",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "EmojiHeroProfileQs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "OK!",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here goes...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "EmojiHeroProfileQs",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ]
+}
