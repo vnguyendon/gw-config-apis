@@ -1,0 +1,267 @@
+{
+    "Condition": "ppEnergeticAfter=='WithPeople' && ppDecisionsAriseFrom=='Thinking' && ppReceptiveTo == 'Facts' && ppOpenedOrSettled=='Opened'",
+    "Type": "Node",
+    "Id": "ENFP",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "ENFP"
+            }
+          },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Tireless'",
+                "fr": "Je pense que tu es 'L'infatigable'",
+                "es": "Pienso que eres 'El Incansable'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/animals/small/shutterstock_500829625.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ENFPBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're full of emotions, highly interested in novelty and fascinated with new experiences: an inspiring and restless person who is keen to live life to its fullest extent...✍",
+                        "fr": "Riche en émotions, passionné par la nouveauté et fasciné par les nouvelles expériences, tu es une personne inspirante et pleine d'énergie, désireuse de croquer la vie à pleines dents...✍",
+                        "es": "Fascinado(a) por las emociones fuertes y las nuevas experiencias, eres una persona inspiradora que disfruta vivir la vida al limite...✍"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENFPBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ENFPBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "encore !",
+                            "es": "¡más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You are a highly intuitive person, able to read any situation or individual thanks to your excellent observation skills...✍",
+                                    "fr": "Tu as une grande intuition et tu es capable de lire rapidement une situation ou une personne grâce à ton excellent sens de l'observation...✍",
+                                    "es": "Eres una persona altamente intuitiva, capaz de interpretar las situaciones y leer las intenciones de casi cualquier individuo, gracias a tu excelente capacidad de observación...✍"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ENFPBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ENFPBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Highly sensitive, you are also a sociable, tolerant and energetic person who is willing to go the extra mile to make a difference and a positive contribution to your community",
+                                                "fr": "Très sensible, tu es aussi une personne sociable, tolérante et énergétique, qui sera toujours prête à faire des efforts pour changer le monde",
+                                                "es": "Altamente sensible, eres una persona sociable, tolerante y enérgica. Siempre dispuesto(a) a dar lo necesario para generar cambios y contribuir positivamente a la sociedad"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 3000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Did the profile sound like you?",
+                                                "fr": "Est-ce que ce profil te ressemble ?",
+                                                "es": "¿Este perfil se parece a ti?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ENFPProfileLikeMe",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ENFPProfileLikeMeYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "yes!",
+                                                    "fr": "oui !",
+                                                    "es": "sí"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                            "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin!",
+                                                            "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ENFPProfileLikeMeNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "no",
+                                                    "fr": "non",
+                                                    "es": "no"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                            "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                            "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "I'll definitely improve 💪",
+                                                            "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                            "es": "Voy a mejorar sin duda 💪"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ENFPBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Tireless' sounds like you at all?",
+                        "fr": "Penses-tu que 'Le Motivateur' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Motivador' se parece a ti?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENFPTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENFPTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "oui",
+                            "es": "sí"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENFPTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "non",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
