@@ -1,14 +1,14 @@
 
 {
-  "FirstLaunchOniOS": {
+  "FirstLaunch": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4102262669"
   },
-  "FirstResumeActivityOniOS": {
+  "FirstResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/6044656455"
   },
-  "OtherResumeActivityOniOS": {
+  "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/5484940176"
   },
