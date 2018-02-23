@@ -4,6 +4,11 @@
       "Name": "unittestbot",
       "Source": "github",
       "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
+    },
+    {
+      "Name": "unittestbot2",
+      "Source": "github",
+      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
     }
   ],
   "FragmentsFiles": [
