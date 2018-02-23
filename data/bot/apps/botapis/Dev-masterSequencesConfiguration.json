@@ -1,9 +1,9 @@
 {
   "MasterFiles": [
     {
-      "Name": "rcbotdev",
+      "Name": "unittestbot",
       "Source": "github",
-      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
     }
   ],
   "FragmentsFiles": [
