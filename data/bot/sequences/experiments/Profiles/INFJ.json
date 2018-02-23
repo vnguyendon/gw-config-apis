@@ -1,0 +1,294 @@
+{
+    "Condition": "ppEnergeticAfter=='OnYourOwn' && ppDecisionsAriseFrom=='Thinking' && ppReceptiveTo == 'Facts' && ppOpenedOrSettled=='Settled'",
+    "Type": "Node",
+    "Id": "INFJ",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "INFJ"
+            }
+          },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Quiet Helper'",
+                "fr": "Je pense que tu es 'L'Empathique",
+                "es": "Pienso que eres 'El Empático'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/animals/small/563816_447894138627960_1290097871_n.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "INFJBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are a quiet mentor and enjoy quietly contributing to improving the lives of your loved ones. Usually private, you may seem hard to know and mysterious as you do not readily share your emotions...✍",
+                        "fr": "Tu es un mentor discret, qui aime contribuer dans l'ombre à améliorer la vie de ceux que tu aimes. Tu es plutôt secret et semble difficile à connaître, voire mystérieux, car tu ne partages pas spontanément tes émotions...✍",
+                        "es": "Eres un(a) maestro(a) silencioso(a) y te gusta contribuir para mejorar la vida de tus seres queridos. Reservado(a) con un aire misterioso y aparentemente difícil de abordar puesto que no compartes tus emociones fácilmente...✍"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "INFJBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "INFJBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "encore !",
+                            "es": "¡más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Once you open up, however, your inner feelings may be full of surprises for your close and carefully selected friends...✍",
+                                    "fr": "Une fois que tu t'ouvres, cependant, tes émotions et pensées peuvent être source de surprises pour tes amis, que tu sélectionnes avec soin...✍",
+                                    "es": "Cuando te abres y dejas conocer tus sentimientos, tus más íntimos pensamientos pueden sorprender incluso a tus amigos más cercanos...✍"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "INFJBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "INFJBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Even though you have a complex personality, you value cooperation and are excellent at communicating with people on a one-to-one basis because you naturally understand their emotions and feelings...✍",
+                                                "fr": "Même si tu as une personnalité complexe, tu apprécies la coopération et es excellent dans la communication en tête à tête car tu comprends instinctivement les émotions et sensations de tes interlocuteurs...✍",
+                                                "es": "A pesar de tener una personalidad compleja, valoras la cooperación y tienes excelentes habilidades para comunicar con las personas, sobre todo en las discusiones en privado, porque entiende las emociones y sentimientos de los demás...✍"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "INFJBreakdownYes3",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "INFJBreakdownYes3A",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "more!",
+                                                    "fr": "encore !",
+                                                    "es": "¡más!"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You enjoy playing with languages and are usually seen as very poetic and imaginative",
+                                                            "fr": "Tu aimes jouer avec les langues et tu es souvent considéré comme poétique et doté d'un grand sens de l'imagination",
+                                                            "es": "Disfrutas jugando con el lenguaje y las personas pueden definirte como una persona poética e imaginativa"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 3000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Did the profile sound like you?",
+                                                            "fr": "Est-ce que ce profil te ressemble ?",
+                                                            "es": "¿Este perfil se parece a ti?"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "INFJProfileLikeMe",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "INFJProfileLikeMeYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "yes!",
+                                                                "fr": "oui !",
+                                                                "es": "¡sí!"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                                        "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                                        "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "INFJProfileLikeMeNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "no",
+                                                                "fr": "non",
+                                                                "es": "no"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                                        "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                                        "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I'll definitely improve 💪",
+                                                                        "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                                        "es": "Voy a mejorar sin duda 💪"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "INFJBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Quiet Helper' sounds like you at all?",
+                        "fr": "Penses-tu que 'L'Empathique' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Empático' se parece a ti?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "INFJTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "INFJTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "oui",
+                            "es": "sí"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "INFJTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "non",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
