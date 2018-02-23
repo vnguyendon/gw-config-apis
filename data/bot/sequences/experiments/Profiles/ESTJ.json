@@ -1,0 +1,267 @@
+{
+    "Condition": "ppEnergeticAfter=='WithPeople' && ppDecisionsAriseFrom=='Feelings' && ppReceptiveTo == 'Ideas' && ppOpenedOrSettled=='Settled'",
+    "Type": "Node",
+    "Id": "ESTJ",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "ESTJ"
+            }
+          },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Manager'",
+                "fr": "Je pense que tu es 'Le Gérant'",
+                "es": "Pienso que eres 'El Gerente'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/animals/small/1310.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ESTJBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're a super sociable and reliable person who enjoys spending time within clubs, associations or churches...✍",
+                        "fr": "Tu es une personne sociable et fiable, qui aime passer du temps dans des clubs et des associations...✍",
+                        "es": "Eres sociable, confiable y te gusta hacer parte de clubes, asociaciones o iglesias...✍"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ESTJBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ESTJBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "encore !",
+                            "es": "¡más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You are good at planning, coordinating and organizing events and usually prefer to stick to conventional and tried ways to tackle a specific topic...✍",
+                                    "fr": "Tu es excellent dans le domaine de la planification, de la coordination et de l'organisation d’événements et préfères généralement t'en tenir à des façons connues et éprouvées de faire les choses ou de résoudre des problèmes...✍",
+                                    "es": "Eres bueno planeando, coordinando y organizando eventos. Prefieres acogerte a las formas convencionales y comprobadas para para abordar un tema determinado...✍"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ESTJBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ESTJBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You are a hard-working and highly disciplined person who values traditional and family values",
+                                                "fr": "Tu travailles dur, fais preuve de discipline et as un goût prononcé pour les valeurs traditionnelles et familiales",
+                                                "es": "Eres trabajador(a), disciplinado(a) y aprecias los valores tradicionales y la familia"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 3000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Did the profile sound like you?",
+                                                "fr": "Est-ce que ce profil te ressemble ?",
+                                                "es": "¿Este perfil se parece a ti?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ESTJProfileLikeMe",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ESTJProfileLikeMeYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "yes!",
+                                                    "fr": "oui!",
+                                                    "es": "sí"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                            "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                            "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ESTJProfileLikeMeNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "no",
+                                                    "fr": "non",
+                                                    "es": "no"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                            "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                            "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "I'll definitely improve 💪",
+                                                            "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                            "es": "Voy a mejorar sin duda 💪"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ESTJBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Manager' sounds like you at all?",
+                        "fr": "Penses-tu que 'Le Gérant' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Gerente' se parece a ti?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ESTJTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ESTJTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "oui",
+                            "es": "sí"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ESTJTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "non",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
