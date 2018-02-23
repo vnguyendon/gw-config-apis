@@ -1,13 +1,22 @@
 {
+    "Condition": "ppEnergeticAfter=='OnYourOwn' && ppDecisionsAriseFrom=='Feelings' && ppReceptiveTo == 'Facts' && ppOpenedOrSettled=='Opened'",
     "Type": "Node",
     "Id": "ISFP",
     "Steps": [
         {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "ISFP"
+            }
+          },
+        {
             "Type": "Text",
             "Label": {
                 "en": "I think you are 'The Artist'",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Je pense que tu es 'L'Artiste'",
+                "es": "Pienso que eres 'El Artista'"
             }
         },
         {
@@ -21,8 +30,8 @@
             "Type": "Text",
             "Label": {
                 "en": "Wanna hear a full breakdown?",
-                "fr": "TBD",
-                "es": "TBD"
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
             }
         }
     ],
@@ -41,8 +50,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Kind, sensitive and gifted, you are highly connected to your inner senses and feelings...✍",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Gentil, sensible et doué dans de nombreux domaines, tu es très connecté à tes instincts et sentiments profonds...✍",
+                        "es": "Amable, sensible y talentoso(a), estás profundamente conectado con tus sentimientos...✍"
                     }
                 }
             ],
@@ -57,16 +66,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "more!",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "encore !",
+                            "es": "¡más!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "You tend to be a quiet person and express yourself through arts and creation rather than language...✍",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Tu es une personne calme qui s'exprime par le biais de la création artistique plutôt que par le langage...✍",
+                                    "es": "Tienes tendencia a ser una persona silenciosa y te expresas mejor a través de las artes o de alguna actividad creativa...✍"
                                 }
                             }
                         ],
@@ -81,16 +90,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "keep going!",
-                                        "fr": "TBD",
-                                        "es": "TBD"
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You dislike planning and do the things you do only if and because you feel that you ought to...✍",
-                                                "fr": "TBD",
-                                                "es": "TBD"
+                                                "fr": "Tu n'aimes pas prévoir quoi que ce soit et agis uniquement si ton instinct te dit de le faire...✍",
+                                                "es": "No te gusta planear las cosas y solo lo haces cuando sientes que es absolutamente necesario...✍"
                                             }
                                         }
                                     ],
@@ -105,16 +114,16 @@
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "more!",
-                                                    "fr": "TBD",
-                                                    "es": "TBD"
+                                                    "fr": "encore !",
+                                                    "es": "¡más!"
                                                 },
                                                 "Steps": [
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Your strong instincts give you the inner ability to connect easily with children and animals, often finding their company easier and more rewarding than that of other people",
-                                                            "fr": "TBD",
-                                                            "es": "TBD"
+                                                            "fr": "Ta grande sensibilité te permet d'entretenir facilement des relations avec les enfants et les animaux, dont tu trouves la compagnie plus simple et plus satisfaisante que celle de ton entourage",
+                                                            "es": "Tu fuerte sentido de la intuición te permite conectarte fácilmente con los niños y los animales. Estar en su compañía es más sencillo y reconfortante que compartir con otro tipo de personas"
                                                         }
                                                     },
                                                     {
@@ -128,14 +137,14 @@
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Did the profile sound like you?",
-                                                            "fr": "TBD",
-                                                            "es": "TBD"
+                                                            "fr": "Est-ce que ce profil te ressemble ?",
+                                                            "es": "¿Este perfil se parece a ti?"
                                                         }
                                                     }
                                                 ],
                                                 "LinksTo": {
-                                                    "Type": "ISFPProfileLikeMe",
-                                                    "Id": "TBD",
+                                                    "Type": "Node",
+                                                    "Id": "ISFPProfileLikeMe",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
@@ -145,15 +154,15 @@
                                                             "CommandLabel": {
                                                                 "en": "yes!",
                                                                 "fr": "oui!",
-                                                                "es": "sí"
+                                                                "es": "¡sí!"
                                                             },
                                                             "Steps": [
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                                        "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
                                                                     }
                                                                 }
                                                             ]
@@ -172,16 +181,16 @@
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "Aww... Well I'm only halfway through my psych course! 😅",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                                        "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
                                                                     }
                                                                 },
                                                                 {
                                                                     "Type": "Text",
                                                                     "Label": {
                                                                         "en": "I'll definitely improve 💪",
-                                                                        "fr": "TBD",
-                                                                        "es": "TBD"
+                                                                        "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                                        "es": "Voy a mejorar sin duda 💪"
                                                                     }
                                                                 }
                                                             ]
@@ -212,16 +221,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Alright! 👌",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Do you think 'The Artist' sounds like you at all?",
-                        "fr": "TBD",
-                        "es": "TBD"
+                        "fr": "Penses-tu que 'L'Artiste' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Artista' se parece a ti?"
                     }
                 }
             ],
@@ -236,16 +245,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "yes",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "oui",
+                            "es": "sí"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
                                 }
                             }
                         ]
@@ -256,24 +265,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "no",
-                            "fr": "TBD",
-                            "es": "TBD"
+                            "fr": "non",
+                            "es": "no"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Aww... Well I'm only halfway through my psych course! 😅",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I'll definitely improve 💪",
-                                    "fr": "TBD",
-                                    "es": "TBD"
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
                                 }
                             }
                         ]
