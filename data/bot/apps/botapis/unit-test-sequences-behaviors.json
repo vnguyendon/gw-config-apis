@@ -1,0 +1,26 @@
+[
+  {
+    "GroupName":"Test",
+    "SequenceFiles" : [
+        { "order": 10, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep2.json"]},
+        { "order": 20, "file":[
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json",
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
+        { "order": 30, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest2.json"]},
+        { "order": 40, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]},
+        
+        { "order": 50, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
+        { "order": 50, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]}
+      ]
+  }
+]
