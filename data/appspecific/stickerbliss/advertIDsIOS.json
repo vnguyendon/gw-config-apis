@@ -1,16 +1,16 @@
 
 {
   "FirstLaunchOniOS": {
-    "Provider": "Facebook",
-    "ID": "1102012976529819_1322999887764459"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4102262669"
   },
   "FirstResumeActivityOniOS": {
-    "Provider": "Facebook",
-    "ID": "1102012976529819_1322999887764459"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/6044656455"
   },
   "OtherResumeActivityOniOS": {
-    "Provider": "Facebook",
-    "ID": "1102012976529819_1322999887764459"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/5484940176"
   },
   "GalleryNative": {
     "Provider": "Facebook",
