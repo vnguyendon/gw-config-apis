@@ -1,0 +1,294 @@
+{
+    "Condition": "ppEnergeticAfter=='WithPeople' && ppDecisionsAriseFrom=='Feelings' && ppReceptiveTo == 'Facts' && ppOpenedOrSettled=='Settled'",
+    "Type": "Node",
+    "Id": "ESFJ",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "ESFJ"
+            }
+          },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Party Host'",
+                "fr": "Je pense que tu es 'L'organisateur de Soirées'",
+                "es": "Pienso que eres 'El Organizador de Fiestas'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/strange/small/shutterstock_99421748.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ESFJBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You're the cement of social organizations: super sociable, gregarious and generous with your time...✍",
+                        "fr": "Tu es le ciment et le pilier des organisations: une personne super sociable, aimant être entourée et généreuse avec ton temps...✍",
+                        "es": "Eres muy sociable, gregario(a), generoso(a) con tu tiempo...✍"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ESFJBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ESFJBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "encore !",
+                            "es": "¡más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You enjoy small talk and usually make an outstanding host for any sort of gathering...✍",
+                                    "fr": "tu aimes parler de tout et de rien et constitue un hôte extraordinaire pour toutes les occasions...✍",
+                                    "es": "te gusta conversar y eres un anfitrión excepcional...✍"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ESFJBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ESFJBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You always make sure that the needs of everyone are addressed and that no one is left behind...✍",
+                                                "fr": "Tu t'assures toujours que ton entourage a tout ce dont il a besoin et que personne n'est laissé à l'écart...✍",
+                                                "es": "Te aseguras de que las necesidades de todos estén cubiertas y que nadie esté en desventaja...✍"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ESFJBreakdownYes3",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "ESFJBreakdownYes3A",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "more!",
+                                                    "fr": "encore !",
+                                                    "es": "¡más!"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "You are a rather sensitive person and you are keen to make sure that your friends or family appreciate your social skills and commitments",
+                                                            "fr": "Tu es une personne plutôt sensible et tu aimes t'assurer que tes amis et ta famille apprécient à leur juste valeur ta sociabilité et ta capacité à tenir tes engagements",
+                                                            "es": "Eres sensible y te gusta que tus habilidades sociales y tu compromiso sean apreciadas por tus familiares y amigos"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 3000
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Did the profile sound like you?",
+                                                            "fr": "Est-ce que ce profil te ressemble ?",
+                                                            "es": "¿Este perfil se parece a ti?"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "ESFJProfileLikeMe",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ESFJProfileLikeMeYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "yes!",
+                                                                "fr": "oui!",
+                                                                "es": "sí"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                                        "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                                        "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "ESFJProfileLikeMeNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "no",
+                                                                "fr": "non",
+                                                                "es": "no"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                                        "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                                        "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "I'll definitely improve 💪",
+                                                                        "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                                        "es": "Voy a mejorar sin duda 💪"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ESFJBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Party Host' sounds like you at all?",
+                        "fr": "Penses-tu que 'L'organisateur de Soirées' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Organizador de Fiestas' se parece a ti?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ESFJTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ESFJTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "oui",
+                            "es": "sí"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ESFJTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "non",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
