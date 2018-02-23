@@ -1,0 +1,267 @@
+{
+    "Condition": "ppEnergeticAfter=='WithPeople' && ppDecisionsAriseFrom=='Thinking' && ppReceptiveTo == 'Ideas' && ppOpenedOrSettled=='Opened'",
+    "Type": "Node",
+    "Id": "ENTP",
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name": "SetUserProperty",
+            "Parameters": {
+                 "property": "ppPsychologicalProfile",
+                 "value": "ENTP"
+            }
+          },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think you are 'The Innovator'",
+                "fr": "Je pense que tu es 'L'innovateur'",
+                "es": "Pienso que eres 'El Innovador'"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/strange/small/11049562_734602389984367_8976661684968767487_n.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna hear a full breakdown?",
+                "fr": "Tu veux connaître le détail complet ?",
+                "es": "¿Quieres oír un detalle completo?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ENTPBreakdownYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are a born engineer who enjoys creating new tools and projects...✍",
+                        "fr": "Tu es un ingénieur né, qui aime créer de nouveaux outils et projets...✍",
+                        "es": "Tienes un ingenio natural y disfrutas creando nuevas herramientas y proyectos...✍"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENTPBreakdownYes1",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ENTPBreakdownYes1A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "more!",
+                            "fr": "encore !",
+                            "es": "¡más!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Highly capable of thinking outside the box, you are a sociable person who enjoys communicating and debating innovative ideas with friends and family...✍",
+                                    "fr": "Tu aimes réfléchir de façon originale et es une personne sociable, qui aime discuter et débattre d'idées innovantes avec des amis et en famille...✍",
+                                    "es": "Con altas capacidades para pensar más allá de los limites, eres una persona sociable que disfruta comunicar y discutir sobre ideas innovadoras con su familia y amigos...✍"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ENTPBreakdownYes2",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "ENTPBreakdownYes2A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "keep going!",
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You dislike routine, prefer rough concepts over precise plans and intuitively understand the politics of the (non-conformist) organizations you belong to",
+                                                "fr": "Tu n'aimes pas la routine, préfères les concepts vagues plutôt que les plans précis et comprends instinctivement les enjeux politiques et le fonctionnement caché des groupes (non conformistes) auxquels tu appartiens",
+                                                "es": "Detestas la rutina,en lugar de los planes precisos prefieres las ideas en general y entiendes de manera intuitiva las políticas de las organizaciones (anticonformistas) a las que perteneces"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 3000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Did the profile sound like you?",
+                                                "fr": "Est-ce que ce profil te ressemble ?",
+                                                "es": "¿Este perfil se parece a ti?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "ENTPProfileLikeMe",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ENTPProfileLikeMeYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "yes!",
+                                                    "fr": "oui!",
+                                                    "es": "sí"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                                            "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                                            "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "ENTPProfileLikeMeNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "no",
+                                                    "fr": "non",
+                                                    "es": "no"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                                            "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                                            "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "I'll definitely improve 💪",
+                                                            "fr": "Je vais tout faire pour m'améliorer 💪",
+                                                            "es": "Voy a mejorar sin duda 💪"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "ENTPBreakdownNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! 👌",
+                        "fr": "Ça marche ! 👌",
+                        "es": "¡Muy bien! 👌"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Do you think 'The Innovator' sounds like you at all?",
+                        "fr": "Penses-tu que 'L'Innovateur' te ressemble d'aucune façon ?",
+                        "es": "¿Piensas que 'El Innovador' se parece a ti?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ENTPTitleLikeMe",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENTPTitleLikeMeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "oui",
+                            "es": "sí"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Thanks! 😁 I think I'm probably the best pony psychologist around!",
+                                    "fr": "Merci ! 😁 Je pense que je suis probablement le meilleur poney psychologue dans le coin !",
+                                    "es": "¡Gracias! 😁 ¡Pienso que soy probabilmente lo mejor poni psicólogo por aquí!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "ENTPTitleLikeMeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "non",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Aww... Well I'm only halfway through my psych course! 😅",
+                                    "fr": "Ah... Bon, je n'en suis qu'à la moitié de mon cours de psycho ! 😅",
+                                    "es": "Ay... ¡Bueno, solo hice la mitad de mi clase de psicología! 😅"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'll definitely improve 💪",
+                                    "fr": "Je vais tout faire pour m'améliorer 💪",
+                                    "es": "Voy a mejorar sin duda 💪"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
