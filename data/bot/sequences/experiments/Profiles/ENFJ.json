@@ -7,10 +7,10 @@
             "Type": "Action",
             "Name": "SetUserProperty",
             "Parameters": {
-                "property": "ppPsychologicalProfile",
-                "value": "ENFJ"
+                 "property": "ppPsychologicalProfile",
+                 "value": "ENFJ"
             }
-        },
+          },
         {
             "Type": "Text",
             "Label": {
@@ -90,8 +90,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "keep going!",
-                                        "fr": "continue!",
-                                        "es": "¡continúa!"
+                                        "fr": "continue !",
+                                        "es": "¡sigamos!"
                                     },
                                     "Steps": [
                                         {
@@ -143,8 +143,8 @@
                                                     }
                                                 ],
                                                 "LinksTo": {
-                                                    "Type": "ENFJProfileLikeMe",
-                                                    "Id": "TBD",
+                                                    "Type": "Node",
+                                                    "Id": "ENFJProfileLikeMe",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
