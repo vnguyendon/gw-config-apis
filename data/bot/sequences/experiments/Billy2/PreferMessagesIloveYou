@@ -47,7 +47,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519647967/cat_in_hat_with_quote.jpg"
         }
       },
       "Steps": [
@@ -97,9 +97,9 @@
       "Id": "IlyMessage3",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "TBD",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "❤",
+        "fr": "❤",
+        "es": "❤"
       },
       "CarouselElements": {
         "Title": {
