@@ -72,7 +72,7 @@
       },
       "CarouselElements": {
         "Title": {
-          "en": "Don't ever let me go",
+          "en": "Don't ever let me go, because you have pieces of me I didn't know I had",
           "fr": "✅",
           "es": "✅"
         },
@@ -128,7 +128,7 @@
       "Id": "IlyMessage4",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "TBD",
+        "en": "Don't ever let me go, because you have pieces of me I didn't know I had",
         "fr": "TBD",
         "es": "TBD"
       },
@@ -159,13 +159,13 @@
       "Id": "IlyMessage5",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "TBD",
+        "en": "Don't ever let me go, because you have pieces of me I didn't know I had",
         "fr": "TBD",
         "es": "TBD"
       },
       "CarouselElements": {
         "Title": {
-          "en": "✅",
+          "en": "❤",
           "fr": "✅",
           "es": "✅"
         },
