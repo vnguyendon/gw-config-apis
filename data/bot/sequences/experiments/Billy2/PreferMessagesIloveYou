@@ -1,0 +1,189 @@
+{
+  "Type": "Node",
+  "Id": "LoveMessages",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’d also like to get to know what style of messages you love the most…",
+        "fr": "J'aimerais aussi apprendre quel genre de messages tu aimes le plus...",
+        "es": "Me gustaría también aprender que tipo de mensajes prefieres..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "After all, my suggestions have to be perfect! 😂",
+        "fr": "Après tout, mes suggestions doivent être parfaites ! 😂",
+        "es": "¿Cual actor prefieres?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Of these ‘I love you’ messages, which is your favourite?",
+        "fr": "Parmi ces messages pour dire 'Je t'aime', lequel préfères-tu ?",
+        "es": "¿Entre esos mensajes para decir 'Te amo', cual es tu preferido?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "IlyMessage1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "TBD",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "✅",
+          "fr": "✅",
+          "es": "✅"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, OK! That tells me a lot about you 🤓",
+            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IlyMessage2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "TBD",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "✅",
+          "fr": "✅",
+          "es": "✅"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, OK! That tells me a lot about you 🤓",
+            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IlyMessage3",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "TBD",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "✅",
+          "fr": "✅",
+          "es": "✅"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, OK! That tells me a lot about you 🤓",
+            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IlyMessage4",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "TBD",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "✅",
+          "fr": "✅",
+          "es": "✅"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, OK! That tells me a lot about you 🤓",
+            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "IlyMessage5",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "TBD",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "✅",
+          "fr": "✅",
+          "es": "✅"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wow, OK! That tells me a lot about you 🤓",
+            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+          }
+        }
+      ]
+    }
+  ]
+}
