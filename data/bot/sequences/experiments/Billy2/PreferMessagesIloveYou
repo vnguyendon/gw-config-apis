@@ -78,7 +78,7 @@
         },
         "Picture": {
           "Source": "Internal",
-          "Path": "/themes/emojiCats/small/shutterstock_429770818_10.jpg"
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519647967/cat_in_hat_with_quote.jpg"
         }
       },
       "Steps": [
