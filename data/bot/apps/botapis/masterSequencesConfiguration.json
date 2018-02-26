@@ -39,7 +39,7 @@
     {
       "Name": "onboardingiOS",
       "File": "/data/bot/apps/onboarding/onboardingbotiOSMasterfile.json"
-    },
+    }
   ],
   "FragmentsFiles": [
     {
