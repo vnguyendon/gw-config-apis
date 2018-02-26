@@ -66,19 +66,19 @@
       "Id": "IlyMessage2",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "TBD",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "✅",
+        "fr": "✅",
+        "es": "✅"
       },
       "CarouselElements": {
         "Title": {
-          "en": "✅",
+          "en": "Don't ever let me go, because you have pieces of me I didn't know I had",
           "fr": "✅",
           "es": "✅"
         },
         "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+          "Source": "Internal",
+          "Path": "/cvd/loveinterest/otherlove/small/shutterstock_162171659.jpg"
         }
       },
       "Steps": [
