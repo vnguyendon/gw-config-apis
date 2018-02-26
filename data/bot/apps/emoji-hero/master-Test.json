@@ -2,6 +2,7 @@
   "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
+    { "order" : 4, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]},
     { "order" : 5, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
     { "order" : 10, "file":["/data/bot/sequences/experiments/Profiles/ENFJ.json"]}, 
     { "order" : 10, "file":["/data/bot/sequences/experiments/Profiles/ENFP.json"]},
