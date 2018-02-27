@@ -3,11 +3,8 @@
     "Version": 13,
     "GroupName": "Test",
     "SequenceFiles": [
-      { "order" : 3, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
-      { "order" : 3, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
-      { "order" : 5, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
-      { "order" : 5, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
-      { "order" : 7, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]},
+      { "order" : 3, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
+      { "order" : 5, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
       { "order" : 7, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]}
     ]
   }
