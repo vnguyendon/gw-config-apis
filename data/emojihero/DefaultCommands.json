@@ -211,25 +211,6 @@
           }
         }
       ]
-    },
-    {
-      "Id": "AFewWords",
-      "Type": "Leaf",
-      "CommandLabel": {
-        "en": "A few words for me 😺",
-        "fr": "Un mot pour moi 😺",
-        "es": "Palabras para mi 😺"
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "ShowCards",
-          "Parameters": {
-            "Type": "TextImage",
-            "Id": "A64962"
-          }
-        }
-      ]
     }
   ]
 }
