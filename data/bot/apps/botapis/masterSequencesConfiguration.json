@@ -37,8 +37,8 @@
       "File": "/data/bot/apps/onboarding/onboardingbotAndroidMasterfile.json"
     },
     {
-      "Name": "onboardingiOS",
-      "File": "/data/bot/apps/onboarding/onboardingbotiOSMasterfile.json"
+      "Name": "onboardingios",
+      "File": "/data/bot/apps/onboarding/onboardingbotiosmasterfile.json"
     }
   ],
   "FragmentsFiles": [
