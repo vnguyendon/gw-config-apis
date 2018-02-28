@@ -1,0 +1,73 @@
+{
+  "Type": "Node",
+  "Id": "SuggestionIntent",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "And lastly...",
+        "fr": "Et pour finir...",
+        "es": "Y para acabar..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "is there anything specifically you want to say?",
+        "fr": "veux-tu dire quelque chose de spécifique ?",
+        "es": "¿hay algo específico que quieres decir?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "SayILoveYou",
+      "CommandLabel": {
+        "en": "I love you",
+        "fr": "Je t'aime",
+        "es": "Te quiero"
+      },
+    "LinksToFragment": {
+        "FragmentPath":"SuggestILoveYou"
+        }
+    },
+    {
+      "Type": "Node",
+      "Id": "SayThinkingOfYou",
+      "CommandLabel": {
+        "en": "Thinking of you",
+        "fr": "Je pense à toi",
+        "es": "Pienso en ti"
+      },
+    "LinksToFragment":{
+            "FragmentPath":"SuggestIThinkOfYou"
+        }
+    },
+    {
+      "Type": "Node",
+      "Id": "SayILikeYou",
+      "CommandLabel": {
+        "en": "I like you",
+        "fr": "Je t'aime bien",
+        "es": "Me caes bien"
+      },
+    "LinksToFragment": {
+            "FragmentPath":"SuggestILikeYou"
+        }
+    },
+    {
+      "Type": "Node",
+      "Id": "SayHowAreYou",
+      "CommandLabel": {
+        "en": "How are you?",
+        "fr": "Comment ça va ?",
+        "es": "¿Como estás?"
+      },
+    "LinksToFragment":{
+            "FragmentPath":"SuggestHowAreYou"
+        }
+    }
+  ]
+}
