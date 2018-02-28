@@ -36,18 +36,18 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
-        "fr": "This one",
-        "es": "This one"
+        "fr": "Celui-ci",
+        "es": "Este"
       },
       "CarouselElements": {
         "Title": {
           "en": "✔",
-          "fr": "☑",
-          "es": "☑"
+          "fr": "✔",
+          "es": "✔"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/c_scale,w_533/v1519815287/cat_in_hat.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839966/heart_keychain.jpg"
         }
       },
       "Steps": [
@@ -66,19 +66,19 @@
       "Id": "IlyMessage2",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "✔",
-        "fr": "✅",
-        "es": "✅"
+        "en": "This one",
+        "fr": "Celui-ci",
+        "es": "Este"
       },
       "CarouselElements": {
         "Title": {
-          "en": "You are extra weird. I love it! I think I love you",
-          "fr": "✅",
-          "es": "✅"
+          "en": "✔",
+          "fr": "✔",
+          "es": "✔"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/c_scale,w_533/v1519815287/cat_in_hat.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839972/cat_in_hat_no_text.jpg"
         }
       },
       "Steps": [
@@ -97,19 +97,19 @@
       "Id": "IlyMessage3",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "❤",
-        "fr": "❤",
-        "es": "❤"
+        "en": "This one",
+        "fr": "Celui-ci",
+        "es": "Este"
       },
       "CarouselElements": {
         "Title": {
-          "en": "✅",
-          "fr": "✅",
-          "es": "✅"
+          "en": "✔",
+          "fr": "✔",
+          "es": "✔"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519823534/heart_keychain_with_text.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839962/diving_board_pair.jpg"
         }
       },
       "Steps": [
@@ -128,19 +128,19 @@
       "Id": "IlyMessage4",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "TBD",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "This one",
+        "fr": "Celui-ci",
+        "es": "Este"
       },
       "CarouselElements": {
         "Title": {
-          "en": "✅",
-          "fr": "✅",
-          "es": "✅"
+          "en": "✔",
+          "fr": "✔",
+          "es": "✔"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519823539/diving_board_pair_with_quote.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839869/umbrella_pair.jpg"
         }
       },
       "Steps": [
@@ -160,18 +160,18 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
-        "fr": "TBD",
-        "es": "TBD"
+        "fr": "Celui-ci",
+        "es": "Este"
       },
       "CarouselElements": {
         "Title": {
-          "en": "❤",
-          "fr": "✅",
-          "es": "✅"
+          "en": "✔",
+          "fr": "✔",
+          "es": "✔"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519823542/umbrella_pair_with_text.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839866/I_love_you_landscape_preference.jpg"
         }
       },
       "Steps": [
