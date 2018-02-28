@@ -1,0 +1,67 @@
+{
+  "Type": "Node",
+  "Id": "MessageRecipient",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Great 😃",
+        "fr": "Génial 😃",
+        "es": "Genial 😃"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let’s continue on our quest!",
+        "fr": "Continuons notre quête !",
+        "es": "¡Sigamos nuestra búsqueda!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "kxAX99ncvbPk4"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "When we find your emoji or message, do you have anyone in mind that you want to send it to?",
+        "fr": "Une fois que l'on aura trouvé ton emoji ou message, penses-tu à quelqu'un à qui tu voudrais particulièrement l'envoyer ?",
+        "es": "Cuando encontremos tu emoji o mensaje, ¿pienses en alguién a quién quieres particularmente mandarlo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FamilyRecipient",
+      "CommandLabel": {
+        "en": "family 👨‍👩‍👧‍👧",
+        "fr": "famille 👨‍👩‍👧‍👧",
+        "es": "familia 👨‍👩‍👧‍👧"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "PartnerRecipient",
+      "CommandLabel": {
+        "en": "partner 💘",
+        "fr": "conjoint(e) 💘",
+        "es": "conjunto/a 💘"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FriendRecipient",
+      "CommandLabel": {
+        "en": "friend 👯",
+        "fr": "ami(e) 👯",
+        "es": "amigo/a 👯"
+      }
+    }
+  ]
+}
