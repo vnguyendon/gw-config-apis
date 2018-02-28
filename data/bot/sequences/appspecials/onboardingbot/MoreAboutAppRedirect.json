@@ -1,0 +1,352 @@
+{
+  "Type": "Node",
+  "Id": "MoreAboutAppRedirect",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Great 😃",
+        "fr": "Génial 😃",
+        "es": "Genial 😃"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "So, do you wanna know more about the app now?",
+        "fr": "Bon, tu veux en savoir plus sur cette application ?",
+        "es": "¿Pues quieres saber más sobre este app? "
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MoreAboutAppNo",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok - I'll be here when you need me!",
+            "fr": "D'accord : je serai là quand tu auras besoin de moi !",
+            "es": "Vale: ¡aquí estaré cuando me necesitarás!"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "ExitOnboardingBot"
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "MoreAboutAppYes",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Si"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Alright!",
+            "fr": "Ça marche !",
+            "es": "¡Vale!"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "LookingForSomething",
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Are you looking for something in particular?",
+              "fr": "Est-ce que tu cherches quelque chose en particulier ?",
+              "es": "¿Estás buscando algo en particular?"
+            }
+          }
+        ],
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingPictures",
+            "CommandLabel": {
+              "en": "Pictures",
+              "fr": "Photos",
+              "es": "Imágenes"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Easy! Let me show you some 😃",
+                  "fr": "Facile ! Laisse-moi te montrer 😃",
+                  "es": "¡Fácil! Déjame mostrarte 😃"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "Tab",
+                  "Path": "StickersEmoji"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingGifs",
+            "CommandLabel": {
+              "en": "Gifs",
+              "fr": "Gifs",
+              "es": "Gifs"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Gifs are the funniest! Check these out:",
+                  "fr": "Les gifs, c'est ce qu'il y a de plus drôle ! Regarde ceux-là:",
+                  "es": "¡Gifs son tan divertidos! Mira estos:"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "Tab",
+                  "Path": "Gifs"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingMessages",
+            "CommandLabel": {
+              "en": "Messages",
+              "fr": "Messages",
+              "es": "Mensajes"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I can show you plenty of useful messages 😊",
+                  "fr": "Je peux te montrer plein de messages utiles 😊",
+                  "es": "Te puedo mostrar muchos mensajes útiles 😊"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "Tab",
+                  "Path": "UsefulMessages"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Node",
+            "Id": "LookingForSomethingNo",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Understood 😁",
+                  "fr": "C'est compris 😁",
+                  "es": "Entendido 😁"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "SomeoneSpecific",
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Is there maybe someone specific you want to send something to?",
+                    "fr": "Peut-être y a-t-il quelqu'un en particulier à qui tu veux envoyer quelque chose ?",
+                    "es": "¿Tal vez haya alguién en particular a quién quieres mandar algo?"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "SomeoneSpecificYes",
+                  "CommandLabel": {
+                    "en": "Yes",
+                    "fr": "Oui",
+                    "es": "Sí"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright, let me show you something",
+                        "fr": "Très bien, laisse moi te montrer quelque chose",
+                        "es": "Muy bien, déjame mostrarte algo"
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "Recipients"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Node",
+                  "Id": "SomeoneSpecificNo",
+                  "CommandLabel": {
+                    "en": "No",
+                    "fr": "Non",
+                    "es": "No"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "OK 😊",
+                        "fr": "OK 😊",
+                        "es": "Vale 😊"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "MoodNoneSomethingElse",
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "In that case, come chat to my mate SurveyPony, or my buddy Huggy 😄",
+                          "fr": "Dans ce cas, viens discuter avec mon pote SurveyPony, ou mon copain Huggy 😄",
+                          "es": "En ese caso, ven a charlar con mi colega SurveyPony, o mi amigo Huggy 😄"
+                        }
+                      }
+                    ],
+                    "Randomize": "true",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "NoThanks",
+                        "CommandLabel": {
+                          "en": "no thanks",
+                          "fr": "non merci",
+                          "es": "no gracias"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm... then I've got the perfect thing!",
+                              "fr": "Hmm... dans ce cas j'ai ce qu'il te faut !",
+                              "es": "Hmm... ¡entonces tengo lo que necesitas!"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "You can vote on some other people's favourite cards 😊",
+                              "fr": "Tu peux parier sur les stickers préférés des autres utilisateurs 😊",
+                              "es": "Puedes apostar a los stickers preferidos de los otros usuarios 😊"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "Vote"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "Huggy",
+                        "CommandLabel": {
+                          "en": "Huggy",
+                          "fr": "Huggy",
+                          "es": "Huggy"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "You'll see, he's the sweetest!",
+                              "fr": "Tu verras, c'est le plus gentil !",
+                              "es": "¡Es lo más dulce de todos, ya verás!"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "Huggy"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "SurveyPony",
+                        "CommandLabel": {
+                          "en": "SurveyPony",
+                          "fr": "SurveyPony",
+                          "es": "SurveyPony"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Meet the smartest pony bot out here!",
+                              "fr": "Voici le robot poney le plus intelligent du coin !",
+                              "es": "¡Aquí está el robot poni lo más inteligente por aquí!"
+                            }
+                          },
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "SurveyPony"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
