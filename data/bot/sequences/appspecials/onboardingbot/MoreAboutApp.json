@@ -83,10 +83,16 @@
             "CommandLabel": {
               "en": "Pictures",
               "fr": "Photos",
-              "es": "TBD"
+              "es": "Imágenes"
             },
             "Steps": [
               {
+                "Type": "Text",
+                "Label": {
+                  "en": "Easy! Let me show you some 😃",
+                  "fr": "Facile ! Laisse-moi te montrer 😃",
+                  "es": "¡Fácil! Déjame mostrarte 😃"
+                }
               }
             ]
           },
@@ -96,10 +102,16 @@
             "CommandLabel": {
               "en": "Gifs",
               "fr": "Gifs",
-              "es": "TBD"
+              "es": "Gifs"
             },
             "Steps": [
               {
+                "Type": "Text",
+                "Label": {
+                  "en": "Gifs are the funniest! Check these out:",
+                  "fr": "Les gifs, c'est ce qu'il y a de plus drôle ! Regarde ceux-là:",
+                  "es": "¡Gifs son tan divertidos! Mira estos:"
+                }
               }
             ]
           },
@@ -109,10 +121,16 @@
             "CommandLabel": {
               "en": "Messages",
               "fr": "Messages",
-              "es": "TBD"
+              "es": "Mensajes"
             },
             "Steps": [
               {
+                "Type": "Text",
+                "Label": {
+                  "en": "I can show you plenty of useful messages 😊",
+                  "fr": "Je peux te montrer plein de messages utiles 😊",
+                  "es": "Te puedo mostrar muchos mensajes útiles 😊"
+                }
               }
             ]
           },
@@ -324,6 +342,12 @@
                               },
                               "Steps": [
                                 {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "You'll see, he's the sweetest!",
+                                    "fr": "Tu verras, c'est le plus gentil !",
+                                    "es": "¡Es lo más dulce de todos, ya verás!"
+                                  }
                                 }
                               ]
                             },
@@ -337,6 +361,12 @@
                               },
                               "Steps": [
                                 {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Meet the smartest pony bot out here!",
+                                    "fr": "Voici le robot poney le plus intelligent du coin !",
+                                    "es": "¡Aquí está el robot poni lo más inteligente por aquí!"
+                                  }
                                 }
                               ]
                             }
