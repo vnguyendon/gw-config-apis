@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "SuggestionIntent",
+  "Id": "SuggestionIntro",
   "Steps": [
     {
       "Type": "Text",
