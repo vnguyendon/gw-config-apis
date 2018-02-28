@@ -1,0 +1,359 @@
+{
+    "Type": "Node",
+    "Id": "HAYUltimateMessage",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "OK, I think I've researched you enough",
+                "fr": "OK, je pense que j'ai assez enquêté sur toi",
+                "es": "Vale, pienso que investigué bastante sobre ti"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Prepare yourself for the ultimate, personalised message",
+                "fr": "Prépare toi pour l'ultime message personnalisé",
+                "es": "Prepárate por el máximo mensaje personalizado"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "UDjF1zMreMld6"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here you go!",
+                "fr": "Et voilà !",
+                "es": "¡Aquí tiene!"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCards",
+            "Parameters": {
+                "Type": "TextImage",
+                "Id": "950C3C"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What do you think?",
+                "fr": "Qu'en penses tu ?",
+                "es": "¿Qué te parece?"
+            }
+        }
+    ],
+    "LinksTo": {
+        "Type": "Node",
+        "Id": "HAYOpinionImage1",
+        "ElementValue": "1",
+        "Commands": [
+            {
+                "Type": "Leaf",
+                "Id": "HAYImage1Perfect",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "it's perfect",
+                    "fr": "c'est parfait",
+                    "es": "es perfecto"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "EmojiHero saves the day again 😄",
+                            "fr": "Encore une mission accomplie pour EmojiHero 😄",
+                            "es": "Otra misión cumplida para EmojiHero 😄"
+                        }
+                    },
+                    {
+                        "Type": "AnimatedGif",
+                        "Parameters": {
+                            "Source": "Giphy",
+                            "Path": "xT9IgqgHL3SiMOyfWE"
+                        }
+                    }
+                ]
+            },
+            {
+                "Type": "Node",
+                "Id": "HAYImage1NotRight",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "it's not right",
+                    "fr": "c'est inexact",
+                    "es": "es inexacto"
+                },
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Hmm... I didn't calibrate properly",
+                            "fr": "Hmm... Je n'ai pas calibré convenablement",
+                            "es": "Hmm... No calibré adecuadamente"
+                        }
+                    },
+                    {
+                        "Type": "Action",
+                        "Name": "ShowCards",
+                        "Parameters": {
+                            "Type": "TextImage",
+                            "Id": "950C3C"
+                        }
+                    },
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "This must be the correct one!",
+                            "fr": "Celui-ci doit être le bon !",
+                            "es": "¡Eso debe ser correcto!"
+                        }
+                    }
+                ],
+                "LinksTo": {
+                    "Type": "Node",
+                    "Id": "HAYOpinionImage2",
+                    "ElementValue": "1",
+                    "Commands": [
+                        {
+                            "Type": "Leaf",
+                            "Id": "HAYImage2Perfect",
+                            "ElementValue": "1",
+                            "CommandLabel": {
+                                "en": "I love it!",
+                                "fr": "j'adore !",
+                                "es": "¡me encanta!"
+                            },
+                            "Steps": [
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "EmojiHero saves the day again 😄",
+                                        "fr": "Encore une mission accomplie pour EmojiHero 😄",
+                                        "es": "Otra misión cumplida para EmojiHero 😄"
+                                    }
+                                },
+                                {
+                                    "Type": "AnimatedGif",
+                                    "Parameters": {
+                                        "Source": "Giphy",
+                                        "Path": "xT9IgqgHL3SiMOyfWE"
+                                    }
+                                }
+                            ]
+                        },
+                        {
+                            "Type": "Node",
+                            "Id": "HAYImage2NotRight",
+                            "ElementValue": "1",
+                            "CommandLabel": {
+                                "en": "still not right",
+                                "fr": "toujours pas",
+                                "es": "aún no está bien"
+                            },
+                            "Steps": [
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "Oh dear...",
+                                        "fr": "Oh là là...",
+                                        "es": "Qué pena..."
+                                    }
+                                },
+                                {
+                                    "Type": "Action",
+                                    "Name": "ShowCards",
+                                    "Parameters": {
+                                        "Type": "TextImage",
+                                        "Id": "950C3C"
+                                    }
+                                },
+                                {
+                                    "Type": "Text",
+                                    "Label": {
+                                        "en": "How about that one?",
+                                        "fr": "Et celui-là ?",
+                                        "es": "¿Qué tal eso?"
+                                    }
+                                }
+                            ],
+                            "LinksTo": {
+                                "Type": "Node",
+                                "Id": "HAYOpinionImage3",
+                                "ElementValue": "1",
+                                "Commands": [
+                                    {
+                                        "Type": "Leaf",
+                                        "Id": "HAYImage3Perfect",
+                                        "ElementValue": "1",
+                                        "CommandLabel": {
+                                            "en": "perfect!",
+                                            "fr": "parfait !",
+                                            "es": "¡perfecto!"
+                                        },
+                                        "Steps": [
+                                            {
+                                                "Type": "Text",
+                                                "Label": {
+                                                    "en": "EmojiHero saves the day again 😄",
+                                                    "fr": "Encore une mission accomplie pour EmojiHero 😄",
+                                                    "es": "Otra misión cumplida para EmojiHero 😄"
+                                                }
+                                            },
+                                            {
+                                                "Type": "AnimatedGif",
+                                                "Parameters": {
+                                                    "Source": "Giphy",
+                                                    "Path": "xT9IgqgHL3SiMOyfWE"
+                                                }
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "Type": "Node",
+                                        "Id": "HAYImage3NotRight",
+                                        "ElementValue": "1",
+                                        "CommandLabel": {
+                                            "en": "nope!",
+                                            "fr": "non !",
+                                            "es": "¡nop!"
+                                        },
+                                        "Steps": [
+                                            {
+                                                "Type": "Text",
+                                                "Label": {
+                                                    "en": "Ah, I forgot today was a Tuesday",
+                                                    "fr": "Ah, j'ai oublié qu'on était mardi",
+                                                    "es": "Ah, olvidé que hoy era un martes"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Text",
+                                                "Label": {
+                                                    "en": "And that Mars is in full orbit...",
+                                                    "fr": "Et que Mars est en orbite complète...",
+                                                    "es": "Y que Marte está en órbita completa..."
+                                                }
+                                            },
+                                            {
+                                                "Type": "Action",
+                                                "Name": "ShowCards",
+                                                "Parameters": {
+                                                    "Type": "TextImage",
+                                                    "Id": "950C3C"
+                                                }
+                                            },
+                                            {
+                                                "Type": "Text",
+                                                "Label": {
+                                                    "en": "It's the correct one, I'm sure!",
+                                                    "fr": "Cette fois c'est la bonne, j'en suis sûr !",
+                                                    "es": "¡Esta es correcta, estoy seguro!"
+                                                }
+                                            }
+                                        ],
+                                        "LinksTo": {
+                                            "Type": "Node",
+                                            "Id": "HAYOpinionImage4",
+                                            "ElementValue": "1",
+                                            "Commands": [
+                                                {
+                                                    "Type": "Leaf",
+                                                    "Id": "HAYImage4Perfect",
+                                                    "ElementValue": "1",
+                                                    "CommandLabel": {
+                                                        "en": "yes",
+                                                        "fr": "oui",
+                                                        "es": "sí"
+                                                    },
+                                                    "Steps": [
+                                                        {
+                                                            "Type": "Text",
+                                                            "Label": {
+                                                                "en": "Got there in the end 😅",
+                                                                "fr": "On y arrive, finalement 😅",
+                                                                "es": "Finalmente conseguimos 😅"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "AnimatedGif",
+                                                            "Parameters": {
+                                                                "Source": "Giphy",
+                                                                "Path": "xT9IgqgHL3SiMOyfWE"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Leaf",
+                                                    "Id": "HAYImage4NotRight",
+                                                    "ElementValue": "1",
+                                                    "CommandLabel": {
+                                                        "en": "no",
+                                                        "fr": "non",
+                                                        "es": "no"
+                                                    },
+                                                    "Steps": [
+                                                        {
+                                                            "Type": "Text",
+                                                            "Label": {
+                                                                "en": "I give up... my superpowers have failed 😑",
+                                                                "fr": "J'abandonne... mes superpouvoirs ont échoué 😑",
+                                                                "es": "Me rindo... mis superpoderes fracasaron 😑"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "AnimatedGif",
+                                                            "Parameters": {
+                                                                "Source": "Giphy",
+                                                                "Path": "11StaZ9Lj74oCY"
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "Type": "Leaf",
+                                                    "Id": "HAYImage4RightLie",
+                                                    "ElementValue": "1",
+                                                    "CommandLabel": {
+                                                        "en": "yes (lie)",
+                                                        "fr": "oui (mensonge)",
+                                                        "es": "sí (mentira)"
+                                                    },
+                                                    "Steps": [
+                                                        {
+                                                            "Type": "Text",
+                                                            "Label": {
+                                                                "en": "Got there in the end 😅",
+                                                                "fr": "On y arrive, finalement 😅",
+                                                                "es": "Finalmente conseguimos 😅"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "AnimatedGif",
+                                                            "Parameters": {
+                                                                "Source": "Giphy",
+                                                                "Path": "xT9IgqgHL3SiMOyfWE"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    }
+}
