@@ -35,15 +35,15 @@
       "Id": "IlyMessage1",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "❤",
-        "fr": "❤",
-        "es": "❤"
+        "en": "This one",
+        "fr": "This one",
+        "es": "This one"
       },
       "CarouselElements": {
         "Title": {
-          "en": "✅",
-          "fr": "✅",
-          "es": "✅"
+          "en": "✔",
+          "fr": "☑",
+          "es": "☑"
         },
         "Picture": {
           "Source": "Web",
@@ -66,19 +66,19 @@
       "Id": "IlyMessage2",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "✅",
+        "en": "✔",
         "fr": "✅",
         "es": "✅"
       },
       "CarouselElements": {
         "Title": {
-          "en": "Don't ever let me go, because you have pieces of me I didn't know I had",
+          "en": "This one",
           "fr": "✅",
           "es": "✅"
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516874456/picasso_crn7xx.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/c_scale,w_533/v1519815287/cat_in_hat.jpg"
         }
       },
       "Steps": [
