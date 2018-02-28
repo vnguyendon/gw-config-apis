@@ -5,14 +5,6 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Great 😃",
-        "fr": "Génial 😃",
-        "es": "Genial 😃"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
         "en": "Let’s continue on our quest!",
         "fr": "Continuons notre quête !",
         "es": "¡Sigamos nuestra búsqueda!"
