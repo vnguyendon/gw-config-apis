@@ -75,7 +75,47 @@
             }
           }
         ],
+        "Randomize": "true",
         "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingPictures",
+            "CommandLabel": {
+              "en": "Pictures",
+              "fr": "Photos",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingGifs",
+            "CommandLabel": {
+              "en": "Gifs",
+              "fr": "Gifs",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LookingForSomethingMessages",
+            "CommandLabel": {
+              "en": "Messages",
+              "fr": "Messages",
+              "es": "TBD"
+            },
+            "Steps": [
+              {
+              }
+            ]
+          },
           {
             "Type": "Node",
             "Id": "LookingForSomethingNo",
@@ -230,19 +270,22 @@
                               "fr": "Très bien !",
                               "es": "¡Muy bien!"
                             }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "In that case, come chat to my mate SurveyPony, or my buddy Huggy 😄",
-                              "fr": "Dans ce cas, viens discuter avec mon pote SurveyPony, ou mon copain Huggy 😄",
-                              "es": "En ese caso, ven a charlar con mi colega SurveyPony, o mi amigo Huggy 😄"
-                            }
                           }
                         ],
                         "LinksTo": {
                           "Type": "Node",
-                          "Id": "VoteOnPeoplesCard",
+                          "Id": "MoodNoneSomethingElse",
+                          "Steps": [
+                            {
+                              "Type": "Text",
+                              "Label": {
+                                "en": "In that case, come chat to my mate SurveyPony, or my buddy Huggy 😄",
+                                "fr": "Dans ce cas, viens discuter avec mon pote SurveyPony, ou mon copain Huggy 😄",
+                                "es": "En ese caso, ven a charlar con mi colega SurveyPony, o mi amigo Huggy 😄"
+                              }
+                            }
+                          ],
+                          "Randomize": "true",
                           "Commands": [
                             {
                               "Type": "Leaf",
@@ -250,7 +293,7 @@
                               "CommandLabel": {
                                 "en": "no thanks",
                                 "fr": "non merci",
-                                "es": "no gracais"
+                                "es": "no gracias"
                               },
                               "Steps": [
                                 {
@@ -268,6 +311,32 @@
                                     "fr": "Tu peux parier sur les stickers préférés des autres utilisateurs 😊",
                                     "es": "Puedes apostar a los stickers preferidos de los otros usuarios 😊"
                                   }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "Huggy",
+                              "CommandLabel": {
+                                "en": "Huggy",
+                                "fr": "Huggy",
+                                "es": "Huggy"
+                              },
+                              "Steps": [
+                                {
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "SurveyPony",
+                              "CommandLabel": {
+                                "en": "SurveyPony",
+                                "fr": "SurveyPony",
+                                "es": "SurveyPony"
+                              },
+                              "Steps": [
+                                {
                                 }
                               ]
                             }
