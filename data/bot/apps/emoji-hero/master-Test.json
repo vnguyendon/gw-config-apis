@@ -16,7 +16,7 @@
     { "order" : 98, "file":["/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/AddictedBot.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/AreYouHuman.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/AreYoueal.json"]},
+    { "order" : 100, "file":["/data/bot/sequences/smalltalk/AreYouReal.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/BaseballMovie.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/CantSleepWork.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/ContactEinstein.json"]},
