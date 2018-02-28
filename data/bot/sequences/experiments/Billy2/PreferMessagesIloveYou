@@ -47,7 +47,7 @@
         },
         "Picture": {
           "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519647967/cat_in_hat_with_quote.jpg"
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/c_scale,w_533/v1519815287/cat_in_hat.jpg"
         }
       },
       "Steps": [
