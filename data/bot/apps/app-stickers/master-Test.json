@@ -1,7 +1,7 @@
 {
   "GroupName": "Huggy",
   "SequenceFiles": [
-    { "order" : 4, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesIloveYou"]},
+    { "order" : 4, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesILoveYou.json"]},
     { "order" : 5, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/AddictedBot.json"]},
     { "order" : 10, "file":["/data/bot/sequences/smalltalk/AreYouHuman.json"]},
