@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "LoveMessages",
+  "Id": "PreferMessagesLVU",
   "Steps": [
     {
       "Type": "Text",
@@ -32,7 +32,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "IlyMessage1",
+      "Id": "LVUMessage1",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
@@ -63,7 +63,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "IlyMessage2",
+      "Id": "LVUMessage2",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
@@ -94,7 +94,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "IlyMessage3",
+      "Id": "LVUMessage3",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
@@ -125,7 +125,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "IlyMessage4",
+      "Id": "LVUMessage4",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
@@ -156,7 +156,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "IlyMessage5",
+      "Id": "LVUMessage5",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "This one",
