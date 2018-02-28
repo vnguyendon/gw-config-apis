@@ -12,6 +12,7 @@
     { "order" : 85, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesILoveYou.json"]},
     { "order" : 90, "file":["/data/bot/sequences/experiments/Billy2/MessageRecipient.json"]},
     { "order" : 95, "file":["/data/bot/sequences/experiments/Billy2/SuggestIntro.json"]},
+    { "order" : 98, "file":["/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/AddictedBot.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/AreYouHuman.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/AreYoueal.json"]},
