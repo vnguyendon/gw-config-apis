@@ -3,9 +3,31 @@
     "Version": 13,
     "GroupName": "Test",
     "SequenceFiles": [
-      { "order" : 3, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
+      { "order" : 2, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
       { "order" : 5, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
-      { "order" : 7, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]}
+      { "order" : 7, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]},
+      { "order" : 13, "file":["/data/bot/sequences/experiments/Profiles/EmojiHeroProfileIntro.json"]},
+      { "order" : 15, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
+      { "order" : 16, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
+      { "order" : 17, "file":["/data/bot/sequences/experiments/Profiles/ppDecisionsAriseFrom3.json"]},  
+      { "order" : 18, "file":["/data/bot/sequences/experiments/Profiles/ppOpenedOrSettled4.json"]},  
+      { "order" : 19, "file":["/data/bot/sequences/experiments/Profiles/PersonalityRevealed.json"]},  
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ENFJ.json"]}, 
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ENFP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ENTJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ENTP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ESFJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ESFP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ESTJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ESTP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/INFJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/INFP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/INTJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/INTP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ISFJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ISFP.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ISTJ.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/experiments/Profiles/ISTP.json"]}
     ]
   }
 ]
