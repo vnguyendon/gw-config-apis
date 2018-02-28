@@ -21,8 +21,8 @@
         "Type": "Text",
         "Label": {
           "en": "Has a pony ever asked you surveys before?",
-          "fr": "TBD",
-          "es": "TBD"
+          "fr": "Est-ce qu'un poney t'a déjà posé des questions ?",
+          "es": "¿Ya fuiste interrogado por un poni?"
         }
     }
   ],
@@ -41,16 +41,16 @@
             "Type": "Text",
             "Label": {
               "en": "How curious! 🤔",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "C'est louche ! 🤔",
+              "es": "¡Qué raro! 🤔"
             }
         },
         {
             "Type": "Text",
             "Label": {
               "en": "Anyway, I'm Survey Pony! Nice to meet you 🐴",
-              "fr": "TBD",
-              "es": "TBD"
+              "fr": "Peu importe, je m'appelle Survey Pony ! Enchanté 🐴",
+              "es": "De todas formas, yo soy SurveyPony ! Mucho gusto 🐴"
             }
         },
         {
@@ -112,17 +112,17 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "No worries, there's a first time for everything!",
-            "fr": "Ooh 😟",
-            "es": "Ooh 😟"
+            "en": "No worries, there's a first time for everything 😉",
+            "fr": "Pas d'inquiétudes, il y a un début à tout 😉",
+            "es": "No te preocupes, hay una primera vez para todo 😉"
           }
         },
         {
           "Type": "Text",
           "Label": {
             "en": "I'm Survey Pony, it's a pleasure to meet you!",
-            "fr": "tbd",
-            "es": "tbd"
+            "fr": "Je m'appelle Survey Pony, c'est un plaisir de faire ta connaissance !",
+            "es": "Soy Survey pony, ¡es un placer conocerte! "
           }
         },
         {
