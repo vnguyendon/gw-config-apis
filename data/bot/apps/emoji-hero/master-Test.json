@@ -2,7 +2,8 @@
   "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
-   { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesILoveYou.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
     { "order" : 20, "file":["/data/bot/sequences/experiments/Profiles/EmojiHeroProfileIntro.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
     { "order" : 40, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
@@ -10,7 +11,6 @@
     { "order" : 60, "file":["/data/bot/sequences/experiments/Profiles/ppOpenedOrSettled4.json"]},  
     { "order" : 70, "file":["/data/bot/sequences/experiments/Profiles/PersonalityRevealed.json"]},
     { "order" : 80, "file":["/data/bot/sequences/experiments/Profiles/INFP.json"]},
-    { "order" : 85, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesILoveYou.json"]},
     { "order" : 90, "file":["/data/bot/sequences/experiments/Billy2/MessageRecipient.json"]},
     { "order" : 95, "file":["/data/bot/sequences/experiments/Billy2/SuggestIntro.json"]},
     { "order" : 98, "file":["/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json"]},
