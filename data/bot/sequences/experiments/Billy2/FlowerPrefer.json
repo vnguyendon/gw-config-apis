@@ -1,205 +1,205 @@
 {
-    "Type": "Node",
-    "Id": "FlowerPrefer",
-    "Steps": [
+  "Type": "Node",
+  "Id": "FlowerPrefer",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "OK, here's a strange one... I need to know your favourite flower 🌼!",
+        "fr": "tbd",
+        "es": "tbd"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It tells me more about you than you might think 😉",
+        "fr": "tbd",
+        "es": "tbd"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FlowerSure",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sure!",
+        "fr": "tbd",
+        "es": "tbd"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "OK, here's a strange one... I need to know your favourite flower 🌼!",
-                "fr": "tbd",
-                "es": "tbd"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It tells me more about you than you might think 😉",
-                "fr": "tbd",
-                "es": "tbd"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Alright: which of these do you like the most?",
+            "fr": "tbd",
+            "es": "tbd"
+          }
         }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "FlowerSure",
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "FlowerCarousel",
+        "ElementValue": "1",
+        "DisplayHint": "Carousel",
+        "Randomize": "true",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "FlowerPrefer1",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Sure!",
-                "fr": "tbd",
-                "es": "tbd"
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🌼",
+                "fr": "🌼",
+                "es": "🌼"
+              },
+              "Picture": {
+                "Source": "Internal",
+                "Path": "/themes/flowers/small/shutterstock_96822796.jpg"
+              }
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Alright: which of these do you like the most?",
-                        "fr": "tbd",
-                        "es": "tbd"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Fascinating choice!",
+                  "fr": "tbd",
+                  "es": "tbd"
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "FlowerCarousel",
-                "ElementValue": "1",
-                "DisplayHint": "Carousel",
-                "Randomize": "true",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "FlowerPrefer1",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🌼",
-                                "fr": "🌼",
-                                "es": "🌼"
-                            },
-                            "Picture": {
-                                "Source": "Internal",
-                                "Path": "/themes/flowers/small/shutterstock_96822796.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Fascinating choice!",
-                                    "fr": "tbd",
-                                    "es": "tbd"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "l0Ex8muQMJ3bOLFQY"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "FlowerPrefer2",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🌼",
-                                "fr": "🌼",
-                                "es": "🌼"
-                            },
-                            "Picture": {
-                                "Source": "Internal",
-                                "Path": "/themes/flowers/small/shutterstock_13695319.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Fascinating choice!",
-                                    "fr": "tbd",
-                                    "es": "tbd"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "l0Ex8muQMJ3bOLFQY"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "FlowerPrefer3",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🌼",
-                                "fr": "🌼",
-                                "es": "🌼"
-                            },
-                            "Picture": {
-                                "Source": "Internal",
-                                "Path": "/themes/flowers/small/shutterstock_111817763.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Fascinating choice!",
-                                    "fr": "tbd",
-                                    "es": "tbd"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "l0Ex8muQMJ3bOLFQY"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "FlowerPrefer4",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🌼",
-                                "fr": "🌼",
-                                "es": "🌼"
-                            },
-                            "Picture": {
-                                "Source": "Internal",
-                                "Path": "/themes/flowers/small/shutterstock_134309030.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Fascinating choice!",
-                                    "fr": "tbd",
-                                    "es": "tbd"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "l0Ex8muQMJ3bOLFQY"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        }
-    ]
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l0Ex8muQMJ3bOLFQY"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "FlowerPrefer2",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🌼",
+                "fr": "🌼",
+                "es": "🌼"
+              },
+              "Picture": {
+                "Source": "Internal",
+                "Path": "/themes/flowers/small/shutterstock_13695319.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Fascinating choice!",
+                  "fr": "tbd",
+                  "es": "tbd"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l0Ex8muQMJ3bOLFQY"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "FlowerPrefer3",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🌼",
+                "fr": "🌼",
+                "es": "🌼"
+              },
+              "Picture": {
+                "Source": "Internal",
+                "Path": "/themes/flowers/small/shutterstock_111817763.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Fascinating choice!",
+                  "fr": "tbd",
+                  "es": "tbd"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l0Ex8muQMJ3bOLFQY"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "FlowerPrefer4",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🌼",
+                "fr": "🌼",
+                "es": "🌼"
+              },
+              "Picture": {
+                "Source": "Internal",
+                "Path": "/themes/flowers/small/shutterstock_134309030.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Fascinating choice!",
+                  "fr": "tbd",
+                  "es": "tbd"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "l0Ex8muQMJ3bOLFQY"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
