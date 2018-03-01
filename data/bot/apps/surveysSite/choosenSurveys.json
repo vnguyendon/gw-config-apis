@@ -15,7 +15,6 @@
       { "order" : 65, "file": "/bot/sequences/surveyquestions/MoneyOrLove.json"},       
       { "order" : 70, "file": "/bot/sequences/surveyquestions/ThreatRussiaOrChina.json"},       
       { "order" : 75, "file": "/bot/sequences/surveyquestions/TomorrowBetterThanToday.json"},             
-      { "order" : 80, "file": "/bot/sequences/surveyquestions/HappyToLoseWeight.json"},
       { "order" : 85, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
       { "order" : 90, "file": "/bot/sequences/surveyquestions/YourCountryMoreCorruptYesNo.json"},
       { "order" : 91, "file": "/bot/sequences/surveyquestions/BelieveinAliens.json"},
