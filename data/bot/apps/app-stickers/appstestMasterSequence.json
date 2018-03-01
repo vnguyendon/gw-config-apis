@@ -6,6 +6,7 @@
       { "order" : 2, "file":["/data/bot/sequences/experiments/VisitNext.json"]},
       { "order" : 5, "file":["/data/bot/sequences/appspecials/BPittOrGClooneyCarousel.json"]},
       { "order" : 7, "file":["/data/bot/sequences/smalltalk/LoveLookingAtArt.json"]},
+       { "order" : 7, "file":["/data/bot/sequences/experiments/Billy2/SuggestIntro.json"]},
       { "order" : 13, "file":["/data/bot/sequences/experiments/Profiles/EmojiHeroProfileIntro.json"]},
       { "order" : 15, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
       { "order" : 16, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
