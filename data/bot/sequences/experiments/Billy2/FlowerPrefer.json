@@ -62,8 +62,8 @@
                 "es": "🌼"
               },
               "Picture": {
-                "Source": "Internal",
-                "Path": "/themes/flowers/small/shutterstock_96822796.jpg"
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_96822796.jpg"
               }
             },
             "Steps": [
@@ -100,8 +100,8 @@
                 "es": "🌼"
               },
               "Picture": {
-                "Source": "Internal",
-                "Path": "/themes/flowers/small/shutterstock_13695319.jpg"
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_13695319.jpg"
               }
             },
             "Steps": [
@@ -138,8 +138,8 @@
                 "es": "🌼"
               },
               "Picture": {
-                "Source": "Internal",
-                "Path": "/themes/flowers/small/shutterstock_111817763.jpg"
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_111817763.jpg"
               }
             },
             "Steps": [
@@ -176,8 +176,8 @@
                 "es": "🌼"
               },
               "Picture": {
-                "Source": "Internal",
-                "Path": "/themes/flowers/small/shutterstock_134309030.jpg"
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_134309030.jpg"
               }
             },
             "Steps": [
