@@ -1,0 +1,173 @@
+{
+    "Type": "Node",
+    "Id": "AnimalPrefer",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Oh wow... now this one's a fun question! Choose your favourite animal from these cute guys 😍",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "AnimalPrefer1",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/themes/profileAnimals/small/5672.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I had a feeling you were a cat lover...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AnimalPrefer2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐶",
+                    "fr": "🐶",
+                    "es": "🐶"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/themes/profileAnimals/small/iStock_000057902672_Medium.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Isn't he adorable...😊",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AnimalPrefer3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🦁",
+                    "fr": "🦁",
+                    "es": "🦁"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/themes/profileAnimals/small/155172_446429665395828_1728600957_n.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So majestic...! 👑",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AnimalPrefer4",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐻",
+                    "fr": "🐻",
+                    "es": "🐻"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/themes/profileAnimals/small/130.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So strong but so fluffy!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "AnimalPrefer5",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐼",
+                    "fr": "🐼",
+                    "es": "🐼"
+                },
+                "Picture": {
+                    "Source": "Internal",
+                    "Path": "/themes/profileAnimals/small/446325988.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Does that mean you're lazy?? 🤔",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        }
+    ]
+}
