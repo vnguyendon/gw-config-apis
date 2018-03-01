@@ -77,7 +77,7 @@
                             },
                             {
                                 "Type": "AnimatedGif",
-                                "Parameteres": {
+                                "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "l0Ex8muQMJ3bOLFQY"
                                 }
@@ -115,7 +115,7 @@
                             },
                             {
                                 "Type": "AnimatedGif",
-                                "Parameteres": {
+                                "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "l0Ex8muQMJ3bOLFQY"
                                 }
@@ -153,7 +153,7 @@
                             },
                             {
                                 "Type": "AnimatedGif",
-                                "Parameteres": {
+                                "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "l0Ex8muQMJ3bOLFQY"
                                 }
@@ -191,7 +191,7 @@
                             },
                             {
                                 "Type": "AnimatedGif",
-                                "Parameteres": {
+                                "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "l0Ex8muQMJ3bOLFQY"
                                 }
