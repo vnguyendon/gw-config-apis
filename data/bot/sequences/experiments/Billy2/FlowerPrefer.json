@@ -6,16 +6,16 @@
       "Type": "Text",
       "Label": {
         "en": "OK, here's a strange one... I need to know your favourite flower 🌼!",
-        "fr": "tbd",
-        "es": "tbd"
+        "fr": "Okay, j'en ai une bizarre maintenant... Je dois connaître ta fleur préférée 🌼!",
+        "es": "Vale, ahora tengo una pregunta rara... ¡Tengo que conocer tu flor favorita 🌼!"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en": "It tells me more about you than you might think 😉",
-        "fr": "tbd",
-        "es": "tbd"
+        "fr": "Cela m'en apprends plus sur toi que ce que tu crois😉",
+        "es": "Eso me enseña más sobre ti que lo crees 😉"
       }
     }
   ],
@@ -26,16 +26,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Sure!",
-        "fr": "tbd",
-        "es": "tbd"
+        "fr": "Bien sûr !",
+        "es": "¡Seguro!"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Alright: which of these do you like the most?",
-            "fr": "tbd",
-            "es": "tbd"
+            "fr": "Très bien, laquelle aimes-tu le plus ?",
+            "es": "Muy bien, ¿la cual te gusta más?"
           }
         }
       ],
@@ -52,8 +52,8 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "This one",
-              "fr": "Celui-ci",
-              "es": "Este"
+              "fr": "Celle-là",
+              "es": "Esta"
             },
             "CarouselElements": {
               "Title": {
@@ -71,8 +71,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "Fascinating choice!",
-                  "fr": "tbd",
-                  "es": "tbd"
+                  "fr": "Fascinant ce choix ! ",
+                  "es": "¡Fascinante elección!"
                 }
               },
               {
@@ -90,8 +90,8 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "This one",
-              "fr": "Celui-ci",
-              "es": "Este"
+              "fr": "Celle-là",
+              "es": "Esta"
             },
             "CarouselElements": {
               "Title": {
@@ -109,8 +109,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "Fascinating choice!",
-                  "fr": "tbd",
-                  "es": "tbd"
+                  "fr": "Fascinant ce choix ! ",
+                  "es": "¡Fascinante elección!"
                 }
               },
               {
@@ -128,8 +128,8 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "This one",
-              "fr": "Celui-ci",
-              "es": "Este"
+              "fr": "Celle-là",
+              "es": "Esta"
             },
             "CarouselElements": {
               "Title": {
@@ -147,8 +147,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "Fascinating choice!",
-                  "fr": "tbd",
-                  "es": "tbd"
+                  "fr": "Fascinant ce choix ! ",
+                  "es": "¡Fascinante elección!"
                 }
               },
               {
@@ -166,8 +166,8 @@
             "ElementValue": "1",
             "CommandLabel": {
               "en": "This one",
-              "fr": "Celui-ci",
-              "es": "Este"
+              "fr": "Celle-là",
+              "es": "Esta"
             },
             "CarouselElements": {
               "Title": {
@@ -185,8 +185,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "Fascinating choice!",
-                  "fr": "tbd",
-                  "es": "tbd"
+                  "fr": "Fascinant ce choix ! ",
+                  "es": "¡Fascinante elección!"
                 }
               },
               {
