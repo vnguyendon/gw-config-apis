@@ -3,7 +3,7 @@
   "GroupName": "Hero",
   "SequenceFiles": [
     { "order" : 5, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
-    { "order" : 2, "file":["/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
     { "order" : 15, "file":["/data/bot/sequences/experiments/Billy2/PreferMessagesILoveYou.json"]},
     { "order" : 90, "file":["/data/bot/sequences/experiments/Billy2/MessageRecipient.json"]},
     { "order" : 95, "file":["/data/bot/sequences/experiments/Billy2/SuggestIntro.json"]},
