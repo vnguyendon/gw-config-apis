@@ -1,6 +1,6 @@
 {
-    "Condition": "ppEnergeticAfter==WithPeople",
-    "Type": "Node",
+    "Type":"Node",
+    "Condition": "ppEnergeticAfter == WithPeople",
     "Id": "ESFP",
     "Steps": [
         {
