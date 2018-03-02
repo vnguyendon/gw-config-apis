@@ -1,5 +1,5 @@
 {
-    "Condition": "ppEnergeticAfter=='OnYourOwn'",
+    "Condition": "ppEnergeticAfter==OnYourOwn",
     "Type": "Node",
     "Id": "INFJ",
     "Steps": [
