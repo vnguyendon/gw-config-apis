@@ -1,6 +1,7 @@
 {
   "GroupName": "Huggy",
   "SequenceFiles": [
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
     { "order" : 20, "file":["/data/bot/sequences/experiments/Profiles/EmojiHeroProfileIntro.json"]},
     { "order" : 30, "file":["/data/bot/sequences/experiments/Profiles/ppEnergeticAfter1.json"]},  
     { "order" : 40, "file":["/data/bot/sequences/experiments/Profiles/ppReceptiveTo2.json"]},  
