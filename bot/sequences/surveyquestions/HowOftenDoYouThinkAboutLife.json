@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "HowOftenDoYouThinkAboutLife",
+  "Label": {
+    "en": "How often do you think about the meaning and purpose of life?",
+    "fr": "Tu réfléchis souvent au sens et au but de la vie ?",
+    "es": "¿A menudo reflexionas sobre la meta y el sentido de la vida?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "QuiteOftenThinkAboutLife",
+      "Label": {
+        "en": "quite often",
+        "fr": "assez souvent",
+        "es": "a menudo"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "RarelyThinkAboutLife",
+      "Label": {
+        "en": "rarely",
+        "fr": "rarement",
+        "es": "pocas veces"
+      }
+    }
+  ]
+}
