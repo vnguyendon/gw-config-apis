@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "CountryBetterLooking",
+  "Label": {
+    "en": "People in your country are better looking than elsewhere?",
+    "fr": "Dans ton pays, les gens sont-ils plus beaux qu'ailleurs ?",
+    "es": "¿Crees que la gente de tu país es más bonita que en otro lugar?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesMyCountryBetterLooking",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoMyCountryNotBetterLooking",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
