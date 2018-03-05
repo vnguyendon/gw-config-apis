@@ -1,6 +1,7 @@
 {
   "Type": "Node",
   "Id": "SetUserPropertySuccess",
+  "Condition": "ppTest == 'true'"
   "Steps": [
     {
       "Type": "Text",
