@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "ParentsHadItEasier",
+  "Label": {
+    "en": "Our parents had it easier than us?",
+    "fr": "La vie était-elle plus facile pour nos parents ?",
+    "es": "¿La vida era más fácil para nuestros padres?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesEasierForParents",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NotEasierForParents",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
