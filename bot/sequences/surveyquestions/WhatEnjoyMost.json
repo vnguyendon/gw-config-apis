@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "WhatEnjoyMost",
+  "Label": {
+    "en": "What do you enjoy most?",
+    "fr": "Qu'est-ce que tu préfères le plus ?",
+    "es": "¿Qué prefieres lo más?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "EnjoyMostOutdoorActivities",
+      "Label": {
+        "en": "outdoor activities",
+        "fr": "les sorties en plein air",
+        "es": "actividades exteriores"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "EnjoyMostWatchingTV",
+      "Label": {
+        "en": "watching TV",
+        "fr": "regarder la télé",
+        "es": "ver la tele"
+      }
+    }
+  ]
+}
