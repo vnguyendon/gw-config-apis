@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "HoursWatchingTV",
+  "Label": {
+    "en": "Do you watch TV more than 2 hours a day? 😵",
+    "fr": "Est-ce que vous regardez la télé plus de 2 heures par jour ? 😵",
+    "es": "¿Miras la tele más de 2 horas al día? 😵"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "WatchingTVMore2hours",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "WatchingTVLess2hours",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
