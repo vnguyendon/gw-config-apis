@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "GreatestSportsmanBoltOrAli",
+  "Label": {
+    "en": "Who is the greatest sportsman?",
+    "fr": "Qui est le plus grand sportif ?",
+    "es": "¿Quién es el más grande deportista?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "UsainBolt",
+      "Label": {
+        "en": "Usain Bolt",
+        "fr": "Usain Bolt",
+        "es": "Usain Bolt"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "MuhammadAli",
+      "Label": {
+        "en": "Muhammad Ali",
+        "fr": "Mohamed Ali",
+        "es": "Muhammad Ali"
+      }
+    }
+  ]
+}
