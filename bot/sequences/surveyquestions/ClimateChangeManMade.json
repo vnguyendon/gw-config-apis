@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "ClimateChangeManMade",
+  "Label": {
+    "en": "Climate change is a man-made problem?",
+    "fr": "Le changement climatique est-il un problème issu des activités humaines ?",
+    "es": "¿El cambio climático es un problema resultante de las actividades humanas?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesClimateChangeManMade",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoClimateChangeNotManMade",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
