@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "NewspapersAccuratePicture",
+  "Label": {
+    "en": "Do newspapers give an accurate picture of the world?",
+    "fr": "Les journaux donnent-ils une image fidèle de l'état du monde ?",
+    "es": "¿Los periódicos ofrecen una imagen fiel de la situación mundial?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesNewspapersAccuratePicture",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoNewspapersNotAccuratePicture",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
