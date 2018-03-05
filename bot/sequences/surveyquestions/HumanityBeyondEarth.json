@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "HumanityBeyondEarth",
+  "Label": {
+    "en": "Does humanity have a future beyond Earth? 🌏",
+    "fr": "L'humanité a-t-elle un futur au-delà la Terre ? 🌏",
+    "es": "¿Crees que la humanidad tiene un futuro más allá de la Tierra? 🌏"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesHumanityBeyondEarth",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoHumanityBeyondEarth",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
