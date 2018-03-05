@@ -3,6 +3,7 @@
     "GroupName":"Surveys",
     "SequenceFiles" : [
       { "order" : 10, "file": "/bot/sequences/surveyquestions/AreYouHappy.json"},
+      { "order" : 10, "file": "/bot/sequences/surveyquestions/DoYouBelieveInAliens.json"},
       { "order" : 15, "file": "/bot/sequences/surveyquestions/LiveInAnotherCountry.json"},
       { "order" : 20, "file": "/bot/sequences/surveyquestions/GunsAllowedOrForbidden.json"},
       { "order" : 30, "file": "/bot/sequences/surveyquestions/AreTheUNUsefulYesNo.json"},
