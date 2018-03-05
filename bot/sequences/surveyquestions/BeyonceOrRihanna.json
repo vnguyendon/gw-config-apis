@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "BeyonceOrRihanna",
+  "Label": {
+    "en": "Which singer do you prefer? 🎶",
+    "fr": "Quelle est ta chanteuse préférée ? 🎶",
+    "es": "¿Quién es tu cantante favorita? 🎶"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "Beyonce",
+      "Label": {
+        "en": "Beyonce",
+        "fr": "Beyonce",
+        "es": "Beyonce"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "Rihanna",
+      "Label": {
+        "en": "Rihanna",
+        "fr": "Rihanna",
+        "es": "Rihanna"
+      }
+    }
+  ]
+}
