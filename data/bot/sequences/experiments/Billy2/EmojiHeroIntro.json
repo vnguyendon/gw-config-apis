@@ -106,25 +106,25 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "messages...",
-                  "fr": "des messages...",
-                  "es": "mensajes..."
+                  "en": "you can find messages...",
+                  "fr": "tu peux y trouver des messages...",
+                  "es": "puedes encontrar mensajes..."
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowCards",
+                "Parameters": {
+                  "Type": "Text",
+                  "Id": "23769A"
                 }
               },
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "'When the heart is silent, all speech is useless.' Madame Deshoulières",
-                  "fr": "'Quand le coeur se tait, tout parle inutilement.' Madame Deshoulières",
-                  "es": "'Cuando se enmudece el corazón, toda habla es inútil.' Madame Deshoulières"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "and, of course, emojis!",
-                  "fr": "et, bien sûr, des emojis !",
-                  "es": "y, por supuesto, ¡emojis! "
+                  "en": "and, of course, you can find emojis!",
+                  "fr": "et, bien sûr, tu peux trouver emojis !",
+                  "es": "y, por supuesto, puedes encontrar emojis"
                 }
               },
               {
