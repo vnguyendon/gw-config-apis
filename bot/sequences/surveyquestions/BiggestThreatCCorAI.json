@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "BiggestThreatCCorAI",
+  "Label": {
+    "en": "The biggest threat to humanity is",
+    "fr": "La plus grande menace qui pèse sur l'humanité, c'est",
+    "es": "La mayor amenaza para la humanidad es"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "BiggestThreatClimateChange",
+      "Label": {
+        "en": "climate change",
+        "fr": "le changement climatique",
+        "es": "el cambio climático"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "BiggestThreatAI",
+      "Label": {
+        "en": "artificial intelligence",
+        "fr": "l'intelligence artificielle",
+        "es": "la inteligencia artificial"
+      }
+    }
+  ]
+}
