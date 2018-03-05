@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "JohnnyDeppOrMorganFreeman",
+  "Label": {
+    "en": "Who is the best actor?",
+    "fr": "Qui est le meilleur acteur ?",
+    "es": "¿Quién es el mejor actor?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "JohnnyDepp",
+      "Label": {
+        "en": "Johnny Depp",
+        "fr": "Johnny Depp",
+        "es": "Johnny Depp"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "MorganFreeman",
+      "Label": {
+        "en": "Morgan Freeman",
+        "fr": "Morgan Freeman",
+        "es": "Morgan Freeman"
+      }
+    }
+  ]
+}
