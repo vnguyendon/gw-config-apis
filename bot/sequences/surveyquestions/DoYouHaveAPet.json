@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "DoYouHaveAPet",
+  "Label": {
+    "en": "Do you have a pet?",
+    "fr": "As-tu un animal de compagnie ?",
+    "es": "¿Tienes una mascota?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesHaveAPet",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoDontHavePet",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
