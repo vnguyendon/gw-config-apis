@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "AmazonOrMicrosoft",
+  "Label": {
+    "en": "Which company do you feel better about?",
+    "fr": "Quelle entreprise te fait meilleure impression ?",
+    "es": "¿Qué empresa te gusta más?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "Amazon",
+      "Label": {
+        "en": "Amazon",
+        "fr": "Amazon",
+        "es": "Amazon"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "Microsoft",
+      "Label": {
+        "en": "Microsoft",
+        "fr": "Microsoft",
+        "es": "Microsoft"
+      }
+    }
+  ]
+}
