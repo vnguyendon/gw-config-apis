@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "DoYouRememberYourDreams",
+  "Label": {
+    "en": "Do you sometimes remember your dreams when you wake up?",
+    "fr": "Tu te souviens de tes rêves au réveil, parfois ?",
+    "es": "¿A veces recuerdas tus sueños cuando te despiertes?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesRememberMyDreams",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoDontRememberMyDreams",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
