@@ -1,0 +1,46 @@
+{
+  "Type": "Node",
+  "Id": "SetUserPropertyTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Set user property?",
+        "fr": "Set user property?",
+        "es": "Set user property?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertyYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppTest",
+            "value": "true"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertyNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
