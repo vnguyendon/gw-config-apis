@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "DoYouBelieveInAliens",
+  "Label": {
+    "en": "Do you think there is life on other planets? 👽",
+    "fr": "Tu crois qu'il y a de la vie sur d'autres planètes ? 👽",
+    "es": "¿Crees que hay vida en otras planetas? 👽"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesBelieveInAliens",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "si"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoDontBelieveInAliens",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
