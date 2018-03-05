@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "HumansEvolveFromAnimals",
+  "Label": {
+    "en": "Did humans evolve from animals?",
+    "fr": "Les humains descendent-ils des animaux ?",
+    "es": "¿Los humanos descienden de los animales?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesHumansFromAnimals",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoHumansNotFromAnimals",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
