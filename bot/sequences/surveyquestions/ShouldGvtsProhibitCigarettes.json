@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "ShouldGvtsProhibitCigarettes",
+  "Label": {
+    "en": "Should governments prohibit cigarettes?",
+    "fr": "Les gouvernements devraient-ils interdire la cigarette ?",
+    "es": "¿Gobiernos deberían prohibir el cigarrillo?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesGvtsShouldProhibitCigarettes",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoGvtsShouldntProhibitCigarettes",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
