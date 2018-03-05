@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "AreYouInterestedInFashion",
+  "Label": {
+    "en": "Are you interested in fashion and modelling?",
+    "fr": "Tu t'intéresses à la mode et au mannequinat ?",
+    "es": "¿Tienes interés en la moda y los modelos?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesInterestedinFashion",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoNotInterestedinFashion",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
