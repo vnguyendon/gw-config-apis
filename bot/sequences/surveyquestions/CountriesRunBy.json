@@ -2,40 +2,27 @@
   "Type": "Question",
   "Id": "CountriesRunBy",
   "Label": {
-    "en": "Countries should be run more often by..",
-    "fr": "Les pays devraient plus souvent être dirigés par..",
-    "es": "Los países deberían ser dirigidos más frecuentemente por.."
+    "en": "Countries should be run more often by",
+    "fr": "Les pays devraient plus souvent être dirigés par",
+    "es": "Los países deberían ser dirigidos más frecuentemente por"
   },
-  "Randomize": "true",
   "Commands": [
     {
       "Type": "Survey",
-      "Id": "CountriesRunByPoliticians",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "o6uStaoGio7Ek"
-      },
-      "Label": {
-        "en": "politicians",
-        "fr": "des hommes politiques",
-        "es": "políticos"
-      }
-    },
-    {
-      "Type": "Survey",
       "Id": "CountriesRunByEngineers",
-      "StepValue": "1",
-      "OptionalFeedback": {
-        "Type": "AnimatedGif",
-        "Source": "Giphy",
-        "Path": "WiHmuijabzn6o"
-      },
       "Label": {
         "en": "engineers",
         "fr": "des ingénieurs",
         "es": "ingenieros"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "CountriesRunByPoliticians",
+      "Label": {
+        "en": "politicians",
+        "fr": "des hommes politiques",
+        "es": "políticos"
       }
     }
   ]
