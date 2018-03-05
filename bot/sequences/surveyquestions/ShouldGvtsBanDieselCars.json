@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "ShouldGvtsBanDieselCars",
+  "Label": {
+    "en": "Should governments ban diesel cars?",
+    "fr": "Les gouvernements devraient-ils interdire les voitures diesel ?",
+    "es": "¿Gobiernos deberían prohibir los vehículos diésel?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesGvtsShouldBanDiesel",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoGvtsShouldntBanDiesel",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
