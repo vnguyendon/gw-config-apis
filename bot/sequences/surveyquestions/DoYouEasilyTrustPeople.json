@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "DoYouEasilyTrustPeople",
+  "Label": {
+    "en": "Do you easily trust people you meet for the first time?",
+    "fr": "Fais-tu facilement confiance aux gens que tu rencontres pour la première fois ?",
+    "es": "¿Confias fácilmente en la gente que conoce por primera vez?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesTrustEasily",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoDontTrustEasily",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
