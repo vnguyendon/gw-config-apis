@@ -39,6 +39,10 @@
     {
       "Name": "onboardingios",
       "File": "/data/bot/apps/onboarding/onboardingbotiOSMasterfile.json"
+    },
+    {
+      "Name": "unittestbot",
+      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
     }
   ],
   "FragmentsFiles": [
