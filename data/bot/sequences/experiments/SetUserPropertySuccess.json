@@ -1,0 +1,26 @@
+{
+  "Type": "Node",
+  "Id": "SetUserPropertySuccess",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Has the user property been set?",
+        "fr": "Has the user property been set?",
+        "es": "Has the user property been set?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertySuccessYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Apparently !",
+        "fr": "Apparently !",
+        "es": "Apparently !"
+      }
+    }
+  ]
+}
