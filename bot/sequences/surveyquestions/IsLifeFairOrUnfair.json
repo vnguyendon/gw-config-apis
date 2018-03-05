@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "IsLifeFairOrUnfair",
+  "Label": {
+    "en": "Life is",
+    "fr": "La vie est",
+    "es": "La vida es"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "LifeIsFair",
+      "Label": {
+        "en": "fair",
+        "fr": "juste",
+        "es": "justa"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "LifeIsUnfair",
+      "Label": {
+        "en": "unfair",
+        "fr": "injuste",
+        "es": "injusta"
+      }
+    }
+  ]
+}
