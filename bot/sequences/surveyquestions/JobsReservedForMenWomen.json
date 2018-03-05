@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "JobsReservedForMenWomen",
+  "Label": {
+    "en": "Should certain jobs be reserved for men/women?",
+    "fr": "Certains métiers devraient-ils être réservés aux hommes/femmes ?",
+    "es": "¿Hay profesiones que deberían ser reservadas para los hombres/las mujeres?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "JobsReservedForMenWomenYes",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "JobsReservedForMenWomenNo",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
