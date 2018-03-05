@@ -1,7 +1,7 @@
 {
   "Type": "Leaf",
   "Comments":"it shouldn't be shown with an impossible test",
-  "Condition": "u.PsychologicalProfile=='XYZ'",
+  "Condition": "u.PsychologicalProfile=='XYZ01'",
   "Id": "OneLeafWithFailTest2",
   "Steps": [
     {
