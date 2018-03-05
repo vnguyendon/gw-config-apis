@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "HasInternetMadeWorldBetter",
+  "Label": {
+    "en": "Has the internet made the world a better place?",
+    "fr": "Internet a-t-il rendu le monde meilleur ?",
+    "es": "¿Internet ha mejorado el mundo?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesInternetMadeWorldBetter",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoInternetHasntMakeWorldBetter",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
