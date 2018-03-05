@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "DoYouWatchRealityTV",
+  "Label": {
+    "en": "Do you watch a lot of Reality TV shows?",
+    "fr": "Tu regardes beaucoup d'émissions de téléréalité ?",
+    "es": "¿Miras muchos programas de telerrealidad?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "YesWatchRealityTV",
+      "Label": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "NoDontWatchRealityTV",
+      "Label": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
