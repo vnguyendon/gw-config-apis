@@ -1,0 +1,29 @@
+{
+  "Type": "Question",
+  "Id": "NicoleKidmanOrAngelinaJolie",
+  "Label": {
+    "en": "Which actress do you prefer?",
+    "fr": "Quelle actrice préfères-tu ?",
+    "es": "¿Qué actriz prefieres?"
+  },
+  "Commands": [
+    {
+      "Type": "Survey",
+      "Id": "NicoleKidman",
+      "Label": {
+        "en": "Nicole Kidman",
+        "fr": "Nicole Kidman",
+        "es": "Nicole Kidman"
+      }
+    },
+    {
+      "Type": "Survey",
+      "Id": "AngelinaJolie",
+      "Label": {
+        "en": "Angelina Jolie",
+        "fr": "Angelina Jolie",
+        "es": "Angelina Jolie"
+      }
+    }
+  ]
+}
