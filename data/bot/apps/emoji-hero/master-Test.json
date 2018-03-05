@@ -2,7 +2,8 @@
   "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
-    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
+    { "order" : 5, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro.json"]},
+    { "order" : 10, "file":["/data/bot/sequences/experiments/Billy2/EmojiHeroIntro2.json"]},
     { "order" : 11, "file":["/data/bot/sequences/experiments/Billy2/LandscapePrefer.json"]},
     { "order" : 12, "file":["/data/bot/sequences/experiments/Billy2/AnimalPrefer.json"]},
     { "order" : 13, "file":["/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
