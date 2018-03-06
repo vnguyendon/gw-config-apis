@@ -1,0 +1,27 @@
+{
+  "Type": "Node",
+  "Id": "ShouldExecuteThisIfPropertyWasSetToYes",
+  "Condition": "ppTestUserProperty == 'yes'",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You choose YES!",
+        "fr": "You choose YES!",
+        "es": "You choose YES!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertySuccessYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Continue",
+        "fr": "Continue",
+        "es": "Continue"
+      }
+    }
+  ]
+}
