@@ -4,9 +4,9 @@
     "SequenceFiles" : [
         { "order": 10, "file":[
             "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
-        { "order": 20, "file":[
+        { "order": 21, "file":[
             "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
-        { "order": 20, "file":[
+        { "order": 22, "file":[
             "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
         { "order": 100, "file":[
             "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
