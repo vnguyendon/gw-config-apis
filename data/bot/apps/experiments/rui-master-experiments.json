@@ -1,0 +1,11 @@
+[
+  {
+    "GroupName":"Test",
+    "SequenceFiles" : [
+        { "order": 10, "file":[
+            "/data/bot/sequences/experiments/SetUserPropertyTest.json"]},
+        { "order": 20, "file":[
+            "/data/bot/sequences/experiments/SetUserPropertySuccess.json"]}
+      ]
+  }
+]
