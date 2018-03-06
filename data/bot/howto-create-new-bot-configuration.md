@@ -105,13 +105,13 @@ Once this is done, you need to do a GET ON the reload all api for the BotApis kn
 _(note that host + keys are removed from this documentation for security reasons)_
 
 
-Test it
--------
+Test it first with the apis
+---------------------------
 
 in order to test the master file directly with the apis, you need to call the 'get next sequence' endpoint:
 
 ``` 
-POST http://gw-bot-apis.azurewebsites.net/api/sequences/next
+POST http://xxx.azurewebsites.net/api/sequences/next
 headers:
   - Accept : application/json
   - Content-Type : application/json
@@ -123,7 +123,43 @@ body: raw application/json
 }
 ```
 
+you can also set manually a property directly with the apis:
 
+```
+POST http://xxx.azurewebsites.net/api/user/setproperty
+headers:
+  - Accept : application/json
+  - Content-Type : application/json
+body: raw application/json
+{
+  "BotName":"docbot",
+  "DeviceId": "mydevice123",
+  "FacebookId":"myfb123",
+  "PropertyName": "ppTestUserProperty", 
+	 "PropertyValue" : "no" 
+}
+
+```
+
+When you finished you can reset the conversation with the clear endpoint:
+
+```
+GET http://xxx.azurewebsites.net/admin/command/history/clear?botName=docbot&deviceId=mydevice123&facebookId=myfb123&adminkey=xxxx
+
+```
+
+
+Test is within the apps
+-----------------------
+
+In development mode, you can setup the bot name you want to interact with:
+
+- open the app
+- go in developer mode
+- in the window, type in the name of the botname that you want to test
+- click on "save" (will be changed to "load")
+- go in Huggy and use the bot that you just loaded
+- once you have used the sequence one time, you can test them again by going back in dev mode and clicking on "reset"
 
 
 
