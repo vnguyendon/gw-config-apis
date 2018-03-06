@@ -3,9 +3,13 @@
     "GroupName":"Test",
     "SequenceFiles" : [
         { "order": 10, "file":[
-            "/data/bot/sequences/experiments/SetUserPropertyTest.json"]},
+            "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
         { "order": 20, "file":[
-            "/data/bot/sequences/experiments/SetUserPropertySuccess.json"]}
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
+        { "order": 20, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+        { "order": 100, "file":[
+            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
       ]
   }
 ]
