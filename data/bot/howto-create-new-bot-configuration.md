@@ -22,7 +22,7 @@ TL;DR;
   
   
   
-1. Create your master File
+Create your master File
 --------------------------
 
 Each `production` bot should be created in it's own folder under [/data/bot/apps](https://github.com/GhostWording/gw-config-apis/tree/master/data/bot/apps). If you have different bots related to the same app, you can put all bot master files in the same folder. 
@@ -61,6 +61,25 @@ For the test, we'll create a simple master file that:
 ```
 
 This testing master sequence file is located here [/data/bot/apps/experiments/rui-docbot-master-experiments-1.json](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/apps/experiments/rui-docbot-master-experiments-1.json)
+
+
+Working process:
+
+* sequence `ShouldSetAUserPropertyCorrectly`, will ask a question and show 2 choices 'yes' or 'no', then it will store the answer in a user property with a `SetUserProperty` step:
+
+```json
+{
+   "Type": "Action",
+   "Name": "SetUserProperty",
+   "Parameters": {
+     "property": "ppTestUserProperty",
+     "value": "yes"
+   }
+ }
+```
+* then it follows with the sequence `ShouldExecuteThisIfPropertyWasSetToYes` that has the condition `ppTestUserProperty == 'yes'` within. the api should use this sequence if you choose 'Yes' 
+* then it follows with the sequence `ShouldExecuteThisIfPropertyWasSetToNo` that has the condition `ppTestUserProperty == 'no'` within. the api should use this sequence if you choose 'No' 
+* it terminates the conversation with the sequence `ThisIsTheLastSequenceOfTheConversation` just to ensure that we arrived correctly at the planned end.
 
 
 
