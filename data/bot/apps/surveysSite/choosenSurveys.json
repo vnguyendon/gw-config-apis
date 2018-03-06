@@ -52,7 +52,6 @@
       { "order" : 100, "file": "/bot/sequences/surveyquestions/AmazonOrMicrosoft.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/AreYouInterestedInFashion.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/NewspapersAccuratePicture.json"},
-      { "order" : 100, "file": "/bot/sequences/surveyquestions/IsLifeFairOrUnfair.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/HoursWatchingTV.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/DoYouWatchRealityTV.json"},
       { "order" : 100, "file": "/bot/sequences/surveyquestions/DoYouHaveAPet.json"},
