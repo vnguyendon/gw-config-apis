@@ -134,6 +134,9 @@
                         "LinksTo": {
                             "Type": "Node",
                             "Id": "PowerfulVery",
+                            "Skippable": {
+                                "value": false
+                            },
                             "Commands": [
                                 {
                                     "Type": "Node",
@@ -157,7 +160,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "iLup1YcSTLaUg"
+                                                "Path": "onmxjhToh7A9G"
                                             }
                                         },
                                         {
@@ -239,6 +242,9 @@
                                                     "Type": "Node",
                                                     "Id": "LetsGoOrLookHimself",
                                                     "ElementValue": "1",
+                                                    "Skippable": {
+                                                        "value": false
+                                                    },
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
