@@ -1,0 +1,14 @@
+{
+  "Type": "Leaf",
+  "Comments":"it shouldn't be shown with an impossible test",
+  "Id": "ThisIsTheLastSequenceOfTheConversation",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We arrived at the end of the test conversation",
+        "fr": "We arrived at the end of the test conversation"
+      }
+    }
+  ]
+}
