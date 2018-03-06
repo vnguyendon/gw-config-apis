@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "ShouldSetAUserPropertyCorrectly",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Set user property?",
+        "fr": "Set user property?",
+        "es": "Set user property?..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertyYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppTestUserProperty",
+            "value": "yes"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "ok, done",
+            "fr": "ok, done",
+            "es": "ok, done"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertyNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppTestUserProperty",
+            "value": "no"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "ok, done",
+            "fr": "ok, done",
+            "es": "ok, done"
+          }
+        }
+      ]
+    }
+  ]
+}
