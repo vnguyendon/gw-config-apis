@@ -18,7 +18,6 @@
       { "order" : 75, "file": "/bot/sequences/surveyquestions/TomorrowBetterThanToday.json"},             
       { "order" : 85, "file": "/bot/sequences/surveyquestions/ObamaOrTrump.json"},
       { "order" : 90, "file": "/bot/sequences/surveyquestions/YourCountryMoreCorruptYesNo.json"},
-      { "order" : 91, "file": "/bot/sequences/surveyquestions/BelieveinAliens.json"},
       { "order" : 92, "file": "/bot/sequences/surveyquestions/QualityofBooksorFood.json"},
       { "order" : 93, "file": "/bot/sequences/surveyquestions/HaveYouEverBeenInLove.json"},  
       { "order" : 94, "file": "/bot/sequences/surveyquestions/LessCorruptionOrInequality.json"},   
