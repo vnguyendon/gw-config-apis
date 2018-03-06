@@ -1,205 +1,208 @@
 {
-  "Type": "Node",
-  "Id": "FlowerPrefer",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "OK, here's a strange one... I need to know your favourite flower 🌼!",
-        "fr": "Okay, j'en ai une bizarre maintenant... Je dois connaître ta fleur préférée 🌼!",
-        "es": "Vale, ahora tengo una pregunta rara... ¡Tengo que conocer tu flor favorita 🌼!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "It tells me more about you than you might think 😉",
-        "fr": "Cela m'en apprends plus sur toi que ce que tu crois 😉",
-        "es": "Eso me enseña más sobre ti que lo crees 😉"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "FlowerSure",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Sure!",
-        "fr": "Bien sûr !",
-        "es": "¡Seguro!"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Alright: which of these do you like the most?",
-            "fr": "Très bien, laquelle aimes-tu le plus ?",
-            "es": "Muy bien, ¿la cual te gusta más?"
-          }
+    "Type": "Node",
+    "Id": "FlowerPrefer",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "OK, here's a strange one... I need to know your favourite flower 🌼!",
+          "fr": "Okay, j'en ai une bizarre maintenant... Je dois connaître ta fleur préférée 🌼!",
+          "es": "Vale, ahora tengo una pregunta rara... ¡Tengo que conocer tu flor favorita 🌼!"
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "FlowerCarousel",
-        "ElementValue": "1",
-        "DisplayHint": "Carousel",
-        "Randomize": "true",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "FlowerPrefer1",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "This one",
-              "fr": "Celle-là",
-              "es": "Esta"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "🌼",
-                "fr": "🌼",
-                "es": "🌼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_96822796.jpg"
-              }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Fascinating choice!",
-                  "fr": "Fascinant ce choix ! ",
-                  "es": "¡Fascinante elección!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "l0Ex8muQMJ3bOLFQY"
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "FlowerPrefer2",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "This one",
-              "fr": "Celle-là",
-              "es": "Esta"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "🌼",
-                "fr": "🌼",
-                "es": "🌼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_13695319.jpg"
-              }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Fascinating choice!",
-                  "fr": "Fascinant ce choix ! ",
-                  "es": "¡Fascinante elección!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "l0Ex8muQMJ3bOLFQY"
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "FlowerPrefer3",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "This one",
-              "fr": "Celle-là",
-              "es": "Esta"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "🌼",
-                "fr": "🌼",
-                "es": "🌼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_111817763.jpg"
-              }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Fascinating choice!",
-                  "fr": "Fascinant ce choix ! ",
-                  "es": "¡Fascinante elección!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "l0Ex8muQMJ3bOLFQY"
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "FlowerPrefer4",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "This one",
-              "fr": "Celle-là",
-              "es": "Esta"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "🌼",
-                "fr": "🌼",
-                "es": "🌼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_134309030.jpg"
-              }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Fascinating choice!",
-                  "fr": "Fascinant ce choix ! ",
-                  "es": "¡Fascinante elección!"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "l0Ex8muQMJ3bOLFQY"
-                }
-              }
-            ]
-          }
-        ]
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "It tells me more about you than you might think 😉",
+          "fr": "Cela m'en apprends plus sur toi que ce que tu crois 😉",
+          "es": "Eso me enseña más sobre ti que lo crees 😉"
+        }
       }
-    }
-  ]
-}
+    ],
+    "Skippable":{
+      "value": false
+    },
+    "Commands": [
+      {
+        "Type": "Node",
+        "Id": "FlowerSure",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Sure!",
+          "fr": "Bien sûr !",
+          "es": "¡Seguro!"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Alright: which of these do you like the most?",
+              "fr": "Très bien, laquelle aimes-tu le plus ?",
+              "es": "Muy bien, ¿la cual te gusta más?"
+            }
+          }
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "FlowerCarousel",
+          "ElementValue": "1",
+          "DisplayHint": "Carousel",
+          "Randomize": "true",
+          "Commands": [
+            {
+              "Type": "Leaf",
+              "Id": "FlowerPrefer1",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "This one",
+                "fr": "Celle-là",
+                "es": "Esta"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "🌼",
+                  "fr": "🌼",
+                  "es": "🌼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_96822796.jpg"
+                }
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Fascinating choice!",
+                    "fr": "Fascinant ce choix ! ",
+                    "es": "¡Fascinante elección!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "l0Ex8muQMJ3bOLFQY"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "FlowerPrefer2",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "This one",
+                "fr": "Celle-là",
+                "es": "Esta"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "🌼",
+                  "fr": "🌼",
+                  "es": "🌼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_13695319.jpg"
+                }
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Fascinating choice!",
+                    "fr": "Fascinant ce choix ! ",
+                    "es": "¡Fascinante elección!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "l0Ex8muQMJ3bOLFQY"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "FlowerPrefer3",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "This one",
+                "fr": "Celle-là",
+                "es": "Esta"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "🌼",
+                  "fr": "🌼",
+                  "es": "🌼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_111817763.jpg"
+                }
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Fascinating choice!",
+                    "fr": "Fascinant ce choix ! ",
+                    "es": "¡Fascinante elección!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "l0Ex8muQMJ3bOLFQY"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "FlowerPrefer4",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "This one",
+                "fr": "Celle-là",
+                "es": "Esta"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "🌼",
+                  "fr": "🌼",
+                  "es": "🌼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/flowers/small/shutterstock_134309030.jpg"
+                }
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Fascinating choice!",
+                    "fr": "Fascinant ce choix ! ",
+                    "es": "¡Fascinante elección!"
+                  }
+                },
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "l0Ex8muQMJ3bOLFQY"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  }
