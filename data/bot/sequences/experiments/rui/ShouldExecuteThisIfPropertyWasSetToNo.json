@@ -1,0 +1,27 @@
+{
+  "Type": "Node",
+  "Id": "ShouldExecuteThisIfPropertyWasSetToNo",
+  "Condition": "ppTestUserProperty == 'no'",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You choose NO!",
+        "fr": "You choose NO!",
+        "es": "You choose NO!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SetUserPropertySuccessNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Continue",
+        "fr": "Continue",
+        "es": "Continue"
+      }
+    }
+  ]
+}
