@@ -82,6 +82,48 @@ Working process:
 * it terminates the conversation with the sequence `ThisIsTheLastSequenceOfTheConversation` just to ensure that we arrived correctly at the planned end.
 
 
+Load the master file within apis
+--------------------------------
+
+if it's the first time, you should create a new entry in [masterSequencesConfiguration.json](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/apps/botapis/masterSequencesConfiguration.json) for your bot/master file:
+
+```json
+ {
+   "Name": "docbot",
+   "File": "data/bot/apps/experiments/rui-docbot-master-experiments-1.json"
+ }
+```
+
+Once this is done, you need to do a GET ON the reload all api for the BotApis know about your new master file :
+
+```
+ GET http://gw-xxx.azurewebsites.net/admin/sequences/reloadall?adminkey=yyy
+ Headers: 
+    Accept : application/json
+```
+
+_(note that host + keys are removed from this documentation for security reasons)_
+
+
+Test it
+-------
+
+in order to test the master file directly with the apis, you need to call the 'get next sequence' endpoint:
+
+``` 
+POST http://gw-bot-apis.azurewebsites.net/api/sequences/next
+headers:
+  - Accept : application/json
+  - Content-Type : application/json
+body: raw application/json
+{
+  "BotName":"docbot",
+  "DeviceId": "mydevice123",
+  "FacebookId":"myfb123"
+}
+```
+
+
 
 
 
