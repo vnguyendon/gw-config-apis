@@ -22,3 +22,49 @@ TL;DR;
   
   
   
+1. Create your master File
+--------------------------
+
+Each `production` bot should be created in it's own folder under [/data/bot/apps](https://github.com/GhostWording/gw-config-apis/tree/master/data/bot/apps). If you have different bots related to the same app, you can put all bot master files in the same folder. 
+
+Each master file should be unique and be named accordingly `{mybotname}Master.json`.
+
+While testing, you should create your master files within the [/data/bot/apps/experiments/](https://github.com/GhostWording/gw-config-apis/tree/master/data/bot/apps/experiments) folder and use a naming pattern like that `{myname}-{mybotname}-master-experiment-{number}.json`.
+
+For exemple for this doc, I created the [/data/bot/apps/experiments/rui-docbot-master-experiments-1.json](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/apps/experiments/rui-docbot-master-experiments-1.json) master file.
+
+You can read the [readme](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/readme.md) file describing the contents of the master file or the [behavior](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/MasterSequenceBehavior.md) to understand the workflow of how the apis choose the next sequence.
+
+Note that the `GroupName` in sequences is important as it's used in the events sent by the apps to identify the type of the sequence.
+
+For the test, we'll create a simple master file that:
+* ask a question yes/no
+* choose the next sequence accordingly to the answer 
+* show a terminal message
+
+```json
+[
+  {
+    "GroupName":"Test",
+    "SequenceFiles" : [
+        { "order": 10, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
+        { "order": 20, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
+        { "order": 20, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+        { "order": 100, "file":[
+            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+      ]
+  }
+]
+```
+
+This testing master sequence file is located here [/data/bot/apps/experiments/rui-docbot-master-experiments-1.json](https://github.com/GhostWording/gw-config-apis/blob/master/data/bot/apps/experiments/rui-docbot-master-experiments-1.json)
+
+
+
+
+
+
+
