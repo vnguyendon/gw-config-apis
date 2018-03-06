@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "LikeAstrology",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you interested in astrology?",
+        "fr": "Es-tu intéressé par l'astrologie?",
+        "es": "¿Estás interesado en astrología?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LikeAstrologyYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "Gh2Y4KT0CH7FK"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LikeAstrologyNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oz8xYi5tmDZYPIrza"
+          }
+        }
+      ]
+    }
+  ]
+}
