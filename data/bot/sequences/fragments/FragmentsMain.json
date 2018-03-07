@@ -25,5 +25,6 @@
   "HAYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestHowAreYou.json",
   "LVUUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json",
   "LKUUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestILikeYou.json",
-  "ITYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json"
+  "ITYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json",
+  "RuiExperiment1": "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json"
 }
