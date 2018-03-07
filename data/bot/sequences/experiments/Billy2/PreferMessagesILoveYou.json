@@ -1,189 +1,189 @@
 {
-  "Type": "Node",
-  "Id": "PreferMessagesLVU",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "I’d also like to get to know what style of messages you love the most…",
-        "fr": "J'aimerais aussi apprendre quel genre de messages tu aimes le plus...",
-        "es": "Me gustaría también aprender que tipo de mensajes prefieres..."
+    "Type": "Node",
+    "Id": "PreferMessagesLVU",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "I’d also like to get to know what style of messages you love the most…",
+          "fr": "J'aimerais aussi apprendre quel genre de messages tu aimes le plus...",
+          "es": "Me gustaría también aprender que tipo de mensajes prefieres..."
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "After all, my suggestions have to be perfect! 😂",
+          "fr": "Après tout, mes suggestions doivent être parfaites ! 😂",
+          "es": "Después de todo, mis sugerencias deben ser perfectas! 😂"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Which of these pictures would best match an 'I love you' message?",
+          "fr": "Quelle photo irait le mieux avec un message 'Je t'aime'?",
+          "es": "¿Cuál foto sería la mejor para enviar con un mensaje 'te amo'?"
+        }
       }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "After all, my suggestions have to be perfect! 😂",
-        "fr": "Après tout, mes suggestions doivent être parfaites ! 😂",
-        "es": "Después de todo, mis sugerencias deben ser perfectas! 😂"
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "LVUMessage1",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "This one",
+          "fr": "Celui-ci",
+          "es": "Este"
+        },
+        "CarouselElements": {
+          "Title": {
+            "en": "❤",
+            "fr": "❤",
+            "es": "❤"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/otherlove/small/shutterstock_216009973.jpg"
+          }
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Wow, OK! That tells me a lot about you 🤓",
+              "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+              "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LVUMessage2",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "This one",
+          "fr": "Celui-ci",
+          "es": "Este"
+        },
+        "CarouselElements": {
+          "Title": {
+            "en": "❤",
+            "fr": "❤",
+            "es": "❤"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/intentions/default/small/1469997_10203571992841951_1190615554680040228_n.jpg"
+          }
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Wow, OK! That tells me a lot about you 🤓",
+              "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+              "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LVUMessage3",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "This one",
+          "fr": "Celui-ci",
+          "es": "Este"
+        },
+        "CarouselElements": {
+          "Title": {
+            "en": "❤",
+            "fr": "❤",
+            "es": "❤"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/stocklove/small/1960102_835595586455305_1859447209_n.jpg"
+          }
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Wow, OK! That tells me a lot about you 🤓",
+              "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+              "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LVUMessage4",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "This one",
+          "fr": "Celui-ci",
+          "es": "Este"
+        },
+        "CarouselElements": {
+          "Title": {
+            "en": "❤",
+            "fr": "❤",
+            "es": "❤"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/sweetheart/otherlove/small/shutterstock_162171659.jpg"
+          }
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Wow, OK! That tells me a lot about you 🤓",
+              "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+              "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+            }
+          }
+        ]
+      },
+      {
+        "Type": "Leaf",
+        "Id": "LVUMessage5",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "This one",
+          "fr": "Celui-ci",
+          "es": "Este"
+        },
+        "CarouselElements": {
+          "Title": {
+            "en": "❤",
+            "fr": "❤",
+            "es": "❤"
+          },
+          "Picture": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839866/I_love_you_landscape_preference.jpg"
+          }
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Wow, OK! That tells me a lot about you 🤓",
+              "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+              "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+            }
+          }
+        ]
       }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Which of these pictures would best match an 'I love you' message?",
-        "fr": "Quelle photo irait le mieux avec un message 'Je t'aime'?",
-        "es": "¿Cuál foto sería la mejor para enviar con un mensaje 'te amo'?"
-      }
-    }
-  ],
-  "DisplayHint": "Carousel",
-  "Randomize": "true",
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "LVUMessage1",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "This one",
-        "fr": "Celui-ci",
-        "es": "Este"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "❤",
-          "fr": "❤",
-          "es": "❤"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839966/heart_keychain.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow, OK! That tells me a lot about you 🤓",
-            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
-            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LVUMessage2",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "This one",
-        "fr": "Celui-ci",
-        "es": "Este"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "❤",
-          "fr": "❤",
-          "es": "❤"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839972/cat_in_hat_no_text.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow, OK! That tells me a lot about you 🤓",
-            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
-            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LVUMessage3",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "This one",
-        "fr": "Celui-ci",
-        "es": "Este"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "❤",
-          "fr": "❤",
-          "es": "❤"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839962/diving_board_pair.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow, OK! That tells me a lot about you 🤓",
-            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
-            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LVUMessage4",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "This one",
-        "fr": "Celui-ci",
-        "es": "Este"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "❤",
-          "fr": "❤",
-          "es": "❤"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839869/umbrella_pair.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow, OK! That tells me a lot about you 🤓",
-            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
-            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
-          }
-        }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "LVUMessage5",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "This one",
-        "fr": "Celui-ci",
-        "es": "Este"
-      },
-      "CarouselElements": {
-        "Title": {
-          "en": "❤",
-          "fr": "❤",
-          "es": "❤"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1519839866/I_love_you_landscape_preference.jpg"
-        }
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Wow, OK! That tells me a lot about you 🤓",
-            "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
-            "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
-          }
-        }
-      ]
-    }
-  ]
-}
+    ]
+  }
