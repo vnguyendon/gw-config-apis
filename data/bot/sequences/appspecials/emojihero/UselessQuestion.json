@@ -1,0 +1,129 @@
+{
+  "Type": "Node",
+  "Id": "UselessQuestion",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here's an important question for you... perhaps the most important of all:",
+        "fr": "Voici une question importante pour toi... peut-être la plus importante de toutes :",
+        "es": "Aquí está una pregunta importante para ti... tal vez sea la más importante de todas:"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Which shoe did you put on first today? 👟",
+        "fr": "Quelle chaussure as-tu enfilé en premier aujourd'hui ? 👟",
+        "es": "¿Cual zapato te pusiste en primer lugar hoy? 👟"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "UselessQuestionLeft",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Left",
+        "fr": "Gauche",
+        "es": "Izquierda"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Thanks! But I was just kidding you... 😂",
+            "fr": "Merci ! Mais je me moquais juste un peu... 😂",
+            "es": "¡Gracias! Pero estaba solo jugándote una broma... 😂"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It doesn't really tell me anything!",
+            "fr": "Ça ne me dit pas grand chose !",
+            "es": "¡No me dice nada!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GpyS1lJXJYupG"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "UselessQuestionRight",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Right",
+        "fr": "Droit",
+        "es": "Derecha"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Thanks! But I was just kidding you... 😂",
+            "fr": "Merci ! Mais je me moquais juste un peu... 😂",
+            "es": "¡Gracias! Pero estaba solo jugándote una broma... 😂"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It doesn't really tell me anything!",
+            "fr": "Ça ne me dit pas grand chose !",
+            "es": "¡No me dice nada!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GpyS1lJXJYupG"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "UselessQuestionWhat",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "What?!",
+        "fr": "Quoi ?!",
+        "es": "¡¿Qué?!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK... OK... I was joking 😂",
+            "fr": "OK... OK... Je rigolais 😂",
+            "es": "Vale... Vale... Estaba bromeando 😂"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It doesn't really tell me anything!",
+            "fr": "Ça ne me dit pas grand chose !",
+            "es": "¡No me dice nada!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "GpyS1lJXJYupG"
+          }
+        }
+      ]
+    }
+  ]
+}
