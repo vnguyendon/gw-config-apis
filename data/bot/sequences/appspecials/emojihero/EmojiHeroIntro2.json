@@ -1,0 +1,320 @@
+{
+    "Type": "Node",
+    "Id": "EmojiHeroIntro2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "This app is an awesome place...",
+                "fr": "Cette appli est un endroit génial...",
+                "es": "Este app es un lugar increíble..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "you can find pictures...",
+                "fr": "tu peux y trouver des photos...",
+                "es": "puedes encontrar fotos..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/specialoccasions/come-back-to-me/default/small/iStock_000020618166_Medium.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "you can find messages...",
+                "fr": "tu peux y trouver des messages...",
+                "es": "puedes encontrar mensajes..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCards",
+            "Parameters": {
+                "Type": "Text",
+                "Id": "23769A"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "and, of course, you can find emojis!",
+                "fr": "et, bien sûr, tu peux trouver emojis !",
+                "es": "y, por supuesto, puedes encontrar emojis"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Internal",
+                "Path": "/themes/emoticons2/small/shutterstock_237897823_9.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And there's loads of other sweet stuff for you to find too 😀",
+                "fr": "Et il y a pleins d'autres trucs bien sympas à découvrir 😀",
+                "es": "Y hay muchas otras cosas bien simpáticas para descubrir 😀"
+            }
+        }
+    ],
+    "Skippable": {
+        "value": false
+    },
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "SoundsFun",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds fun!",
+                "fr": "Ça a l'air sympa !",
+                "es": "¡Suena divertido!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It is! You can either just go and have a look yourself…",
+                        "fr": "Ça l'est ! Tu peux ou te balader et découvrir par toi-même...",
+                        "es": "¡Lo es! Puedes o empezar y descubrir por ti mismo..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "or we can go on a quest together to find something that’s perfect for you!",
+                        "fr": "ou on peut partir en mission pour trouver quelque chose de parfait pour toi !",
+                        "es": "o podemos ir en una búsqueda para encontrar lo perfecto para ti"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "StayWithHeroOrLookHimself",
+                "ElementValue": "1",
+                "Skippable": {
+                    "value": false
+                },
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "StayWithHero",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'll stay with you!",
+                            "fr": "je reste avec toi !",
+                            "es": "¡me quedo con ti!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Great choice 😉",
+                                    "fr": "Excellent choix 😉",
+                                    "es": "Excelente elección 😉"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "As you can see, I’m a superhero, and my superpower is knowing the perfect emoji and message for every situation…",
+                                    "fr": "Comme tu peux le voir, je suis un super-héros, et mon superpouvoir c'est connaître l'emoji et le message parfaits pour chaque situation...",
+                                    "es": "Como puedes verlo, soy un superhero, y mi superpoder es conocer el emoji y el mensaje perfectos para cada situación..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PowerfulVery",
+                            "Skippable": {
+                                "value": false
+                            },
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "VeryPowerful",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "very powerful!",
+                                        "fr": "puissant !",
+                                        "es": "¡poderoso!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I am indeed mighty...",
+                                                "fr": "Je suis en effet très puissant...",
+                                                "es": "Es verdad que soy muy poderoso..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "onmxjhToh7A9G"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "but I have sworn to use my power only for good...",
+                                                "fr": "mais j'ai juré de ne utiliser mon pouvoir que pour faire le bien...",
+                                                "es": "pero juré de utilizar mi poder solo para hacer el bien..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "which means helping humans like you! Just to check... are you human?",
+                                                "fr": "ce qui signifie aider les humains tels que toi ! Juste pour vérifier... tu es humain ?",
+                                                "es": "¡eso significa ayudar los humanos como ti! Solo para verificar... ¿eres humano?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "HeroAreYouHuman",
+                                        "ElementValue": "1",
+                                        "Skippable": {
+                                            "value": false
+                                        },
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "HeroAreYouHumanYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "yes",
+                                                    "fr": "oui",
+                                                    "es": "sí"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Excellent 👏",
+                                                            "fr": "Excellent 👏",
+                                                            "es": "Excelente 👏"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "The best way is for me to ask you some questions and find out what you truly need...",
+                                                            "fr": "La meilleure façon de procéder, c'est que je te pose des questions pour trouver ce dont tu as vraiment besoin...",
+                                                            "es": "La mejora manera de proceder es que te ponga preguntas para encontrar exactamente lo que necesitas..."
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And then I work my magic...",
+                                                            "fr": "Puis j'applique ma magie...",
+                                                            "es": "Luego aplico mi magia..."
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "4EALRFjyD5odO"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "... And I'll find you the best message or emoji!",
+                                                            "fr": "... Et je te trouve le meilleur message ou emoji !",
+                                                            "es": "... ¡Y encontro lo mejor mensaje o emoji para ti!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LetsGoOrLookHimself",
+                                                    "ElementValue": "1",
+                                                    "Skippable": {
+                                                        "value": false
+                                                    },
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LetsGo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Let's do it!",
+                                                                "fr": "Allons-y !",
+                                                                "es": "¡Vamos!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "HeroBestEmojiNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "I'll look myself",
+                                                                "fr": "Je me débrouille",
+                                                                "es": "Me los arreglo"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Hey, that works too! 😆",
+                                                                        "fr": "Eh, ça marche aussi ! 😆",
+                                                                        "es": "¡Oye, funciona también! 😆"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Action",
+                                                                    "Name": "RedirectTo",
+                                                                    "Parameters": {
+                                                                        "Type": "Tab",
+                                                                        "Path": "Emojis"
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "LookHimself",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I’ll look myself!",
+                            "fr": "Je me débrouille !",
+                            "es": "¡Me los arreglo!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "RedirectTo",
+                                "Parameters": {
+                                    "Type": "Tab",
+                                    "Path": "Emojis"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
