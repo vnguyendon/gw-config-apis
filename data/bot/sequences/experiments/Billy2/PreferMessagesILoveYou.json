@@ -21,9 +21,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Of these ‘I love you’ messages, which is your favourite?",
-        "fr": "Parmi ces messages pour dire 'Je t'aime', lequel préfères-tu ?",
-        "es": "¿Entre esos mensajes para decir 'Te amo', cual es tu preferido?"
+        "en": "Which of these pictures would best match an 'I love you' message?",
+        "fr": "Quelle photo irait le mieux avec un message 'Je t'aime'?",
+        "es": "¿Cuál foto sería la mejor para enviar con un mensaje 'te amo'?"
       }
     }
   ],
