@@ -1,9 +1,6 @@
 {
-  "GlobalWarmingWithTags":"/data/bot/sequences/experiments/GlobalWarmingWithTags.json",
-  "FindTheGift":"/data/bot/sequences/experiments/FindTheGift.json",
-  "TwitterOrOracleTest3":"/data/bot/sequences/experiments/ConditionalTest3.json",
-  
-  "HereAFlower": "/data/bot/sequences/appspecials/emojihero/HereAFlower.json",
-  "HereALoveMessage": "/data/bot/sequences/appspecials/emojihero/HereALoveMessage.json",
-  "HereAPoem": "/data/bot/sequences/appspecials/emojihero/HereAPoem.json",
+  "SuggestHowAreYou": "/data/bot/sequences/experiments/Billy2/SuggestHowAreYou.json",
+  "SuggestILoveYou": "/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json",
+  "SuggestILikeYou": "/data/bot/sequences/experiments/Billy2/SuggestILikeYou.json",
+  "SuggestIThinkOfYou": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json"
 }
