@@ -19,9 +19,6 @@
         }
       }
     ],
-    "Skippable":{
-      "value": false
-    },
     "Commands": [
       {
         "Type": "Node",
