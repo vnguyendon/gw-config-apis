@@ -127,7 +127,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "Awesome",
+                  "Id": "Fine",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "fine",
@@ -147,7 +147,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "Awesome",
+                  "Id": "NotGreat",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "not great",
