@@ -22,8 +22,8 @@
   "TimeToSay": "/data/bot/sequences/appspecials/emojihero/TimeToSay.json",
   "WantMoreLove": "/data/bot/sequences/appspecials/emojihero/WantMoreLove.json",
   "WhatLookingFor": "/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json",
-  "SuggestHowAreYou": "/data/bot/sequences/experiments/Billy2/SuggestHowAreYou.json",
-  "SuggestILoveYou": "/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json",
-  "SuggestILikeYou": "/data/bot/sequences/experiments/Billy2/SuggestILikeYou.json",
-  "SuggestIThinkOfYou": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json"
+  "HAYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestHowAreYou.json",
+  "LVUUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestILoveYou.json",
+  "LKUUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestILikeYou.json",
+  "ITYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json"
 }
