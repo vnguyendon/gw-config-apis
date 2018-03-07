@@ -30,7 +30,7 @@
         "es": "Te quiero"
       },
     "LinksToFragment": {
-        "FragmentPath":"SuggestILoveYou"
+        "FragmentPath":"LVUUltimateMessage"
         }
     },
     {
@@ -42,7 +42,7 @@
         "es": "Pienso en ti"
       },
     "LinksToFragment":{
-            "FragmentPath":"SuggestIThinkOfYou"
+            "FragmentPath":"ITYUltimateMessage"
         }
     },
     {
@@ -54,7 +54,7 @@
         "es": "Me caes bien"
       },
     "LinksToFragment": {
-            "FragmentPath":"SuggestILikeYou"
+            "FragmentPath":"LKUUltimateMessage"
         }
     },
     {
@@ -66,7 +66,7 @@
         "es": "¿Como estás?"
       },
     "LinksToFragment":{
-            "FragmentPath":"SuggestHowAreYou"
+            "FragmentPath":"HAYUltimateMessage"
         }
     }
   ]
