@@ -1,0 +1,191 @@
+{
+  "Type": "Node",
+  "Id": "EmojiHeroIntro",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You!",
+        "fr": "Toi !",
+        "es": "¡Ti!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Over there!",
+        "fr": "Par ici !",
+        "es": "¡Por aquí!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello! 👋",
+        "fr": "Salut ! 👋",
+        "es": "¡Hola! 👋"
+      }
+    }
+  ],
+  "Skippable": {
+    "value": false
+  },
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HeroIntroHi",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Hi 😃",
+        "fr": "Salut 😃",
+        "es": "Hola 😃"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Pleased to meet you!",
+            "fr": "Ravi de faire ta connaissance !",
+            "es": "¡Encantado de conocerte!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm Hero, the champion of emoji...",
+            "fr": "Je suis Hero, le champions des emoji...",
+            "es": "Soy Hero, el campeón de los emoji..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HeroHey",
+        "ElementValue": "1",
+        "Skippable": {
+          "value": false
+        },
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "HeyHero",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Hey Hero!",
+              "fr": "Hey Hero !",
+              "es": "¡Oye Hero!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I live inside this app.",
+                  "fr": "Je vis à l'intérieur de cette app.",
+                  "es": "Vivo dentro de esta app."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "How are you doing today?",
+                  "fr": "Comment ça va aujourd'hui ?",
+                  "es": "¿Cómo estás hoy?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "HowAreYou",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "Awesome",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "awesome",
+                    "fr": "super bien",
+                    "es": "muy bien"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "So glad to hear it!",
+                        "fr": "Ravi d'entendre ça !",
+                        "es": "¡Me alegro de oírlo!"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Awesome",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "fine",
+                    "fr": "ça peut aller",
+                    "es": "no estoy mal"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I’m sure I can turn that into ‘awesome’!",
+                        "fr": "Je suis sûr que je peux transformer ça en un 'ça va super' !",
+                        "es": "¡Esto seguro de poder transformar eso en un 'muy bien'!"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "Awesome",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "not great",
+                    "fr": "pas terrible",
+                    "es": "no muy bien"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Sorry to hear it 😟",
+                        "fr": "Désolé d'entendre ça 😟",
+                        "es": "Siento mucho oírlo 😟"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "But you came to the right app…",
+                        "fr": "Mais tu as choisi la bonne appli...",
+                        "es": "Pero elegiste la buena app..."
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I can turn that frown upside down! 😃",
+                        "fr": "Je sais comment te remonter le moral ! 😃",
+                        "es": "¡Sé como darle la vuelta a ese ceño fruncido! 😃"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
