@@ -3,7 +3,6 @@
   "Version": 5,
   "GroupName": "Hero",
   "SequenceFiles": [
-    { "order" : 3, "file":["/data/bot/sequences/appspecials/emojihero/WhatLookingFor.json"]},
     { "order" : 5, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroIntro.json"]},
     { "order" : 20, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroIntro2.json"]},
     { "order" : 35, "file":["/data/bot/sequences/appspecials/emojihero/PreferMessagesLVU.json"]},
