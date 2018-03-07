@@ -32,7 +32,7 @@
     "Commands": [
       {
         "Type": "Leaf",
-        "Id": "LVUMessage1",
+        "Id": "LVUPicture1",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "This one",
@@ -63,7 +63,7 @@
       },
       {
         "Type": "Leaf",
-        "Id": "LVUMessage2",
+        "Id": "LVUPicture2",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "This one",
@@ -94,7 +94,7 @@
       },
       {
         "Type": "Leaf",
-        "Id": "LVUMessage3",
+        "Id": "LVUPicture3",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "This one",
@@ -125,7 +125,7 @@
       },
       {
         "Type": "Leaf",
-        "Id": "LVUMessage4",
+        "Id": "LVUPicture4",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "This one",
@@ -156,7 +156,7 @@
       },
       {
         "Type": "Leaf",
-        "Id": "LVUMessage5",
+        "Id": "LVUPicture5",
         "ElementValue": "1",
         "CommandLabel": {
           "en": "This one",
