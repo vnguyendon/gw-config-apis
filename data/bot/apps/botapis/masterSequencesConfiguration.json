@@ -51,6 +51,10 @@
     {
       "Name": "louisjshotbot",
       "File": "/data/bot/apps/experiments/LouisJonboardingmasterexperiment1.json"
+    },
+    {
+      "Name": "louisgscreenshot",
+      "File": "/data/bot/apps/experiments/LouisGmasterexperiments1.json"
     }
   ],
   "FragmentsFiles": [
