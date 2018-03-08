@@ -1,260 +1,260 @@
 {
-    "Type": "Node",
-    "Id": "LandscapePrefer",
-    "Steps": [
+  "Type": "Node",
+  "Id": "LandscapePrefer",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "My research is going so well! 😉…",
+        "fr": "Mes recherches avancent super bien ! 😉…",
+        "es": "¡Mi investigación va muy bien! 😉…"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I feel like I know you by heart…",
+        "fr": "J'ai l'impression de te connaître par coeur...",
+        "es": "Me parece que te conozco al dedillo..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you wanna keep going?",
+        "fr": "Tu veux continuer ?",
+        "es": "¿Quieres seguir?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You can go find your own emojis and stickers at any time!",
+        "fr": "Tu peux aller chercher des emojis et des stickers par toi-même quand tu veux !",
+        "es": "¡Puedes ir a buscar emojis y stickers por ti mismo quando quieres!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "LandscapePreferContinue",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Keep going!",
+        "fr": "Continuons !",
+        "es": "¡Sigamos!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "My research is going so well! 😉…",
-                "fr": "Mes recherches avancent super bien ! 😉…",
-                "es": "¡Mi investigación va muy bien! 😉…"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Good choice!",
+            "fr": "Bon choix !",
+            "es": "¡Buena opción!"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "I feel like I know you by heart…",
-                "fr": "J'ai l'impression de te connaître par coeur...",
-                "es": "Me parece que te conozco al dedillo..."
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "So… I have another super important question:",
+            "fr": "Bon... J'ai une autre question très importante :",
+            "es": "Bueno... Tengo una otra pregunta muy importante:"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Do you wanna keep going?",
-                "fr": "Tu veux continuer ?",
-                "es": "¿Quieres seguir?"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "You can go find your own emojis and stickers at any time!",
-                "fr": "tbd",
-                "es": "tbd"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "which of these landscapes is the most beautiful to you?",
+            "fr": "lequel de ces paysages est le plus beau, selon toi ?",
+            "es": "¿cuál de estos paisajes es lo más hermoso, segun ti?"
+          }
         }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "LandscapePreferContinue",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Keep going!",
-                "fr": "Continuons !",
-                "es": "¡Sigamos!"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Good choice!",
-                        "fr": "Bon choix !",
-                        "es": "¡Buena opción!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "So… I have another super important question:",
-                        "fr": "Bon... J'ai une autre question très importante :",
-                        "es": "Bueno... Tengo una otra pregunta muy importante:"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "which of these landscapes is the most beautiful to you?",
-                        "fr": "lequel de ces paysages est le plus beau, selon toi ?",
-                        "es": "¿cuál de estos paisajes es lo más hermoso, segun ti?"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "LandscapeCarousel",
-                "ElementValue": "1",
-                "DisplayHint": "Carousel",
-                "Randomize": "true",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "LandscapePrefer1",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🏞",
-                                "fr": "🏞",
-                                "es": "🏞"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/10987377_662955520525947_5015081769844664549_n.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Just as I suspected...",
-                                    "fr": "C'est bien ce que je pensais...",
-                                    "es": "Exactamente como sospechaba..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "LandscapePrefer2",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🏞",
-                                "fr": "🏞",
-                                "es": "🏞"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/11145134_724912407663591_5475768188966799967_n.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Just as I suspected...",
-                                    "fr": "C'est bien ce que je pensais...",
-                                    "es": "Exactamente como sospechaba..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "LandscapePrefer3",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🏞",
-                                "fr": "🏞",
-                                "es": "🏞"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/148384_336937636417513_1644915437_n.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Just as I suspected...",
-                                    "fr": "C'est bien ce que je pensais...",
-                                    "es": "Exactamente como sospechaba..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "LandscapePrefer4",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🏞",
-                                "fr": "🏞",
-                                "es": "🏞"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/246693_487711634596718_1346930056_n.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Just as I suspected...",
-                                    "fr": "C'est bien ce que je pensais...",
-                                    "es": "Exactamente como sospechaba..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "LandscapePrefer5",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "This one",
-                            "fr": "Celui-ci",
-                            "es": "Este"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "🏞",
-                                "fr": "🏞",
-                                "es": "🏞"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/9682_346520508802338_271896173_n.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Just as I suspected...",
-                                    "fr": "C'est bien ce que je pensais...",
-                                    "es": "Exactamente como sospechaba..."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "LandscapeCarousel",
+        "ElementValue": "1",
+        "DisplayHint": "Carousel",
+        "Randomize": "true",
+        "Commands": [
+          {
             "Type": "Leaf",
-            "Id": "LandscapePreferLeave",
+            "Id": "LandscapePrefer1",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "I’ll take control!",
-                "fr": "Je me débrouille !",
-                "es": "¡Me los arreglo!"
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🏞",
+                "fr": "🏞",
+                "es": "🏞"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/10987377_662955520525947_5015081769844664549_n.jpg"
+              }
             },
             "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "RedirectTo",
-                    "Parameters": {
-                        "Type": "Tab",
-                        "Path": "Emojis"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Just as I suspected...",
+                  "fr": "C'est bien ce que je pensais...",
+                  "es": "Exactamente como sospechaba..."
                 }
+              }
             ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LandscapePrefer2",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🏞",
+                "fr": "🏞",
+                "es": "🏞"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/11145134_724912407663591_5475768188966799967_n.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Just as I suspected...",
+                  "fr": "C'est bien ce que je pensais...",
+                  "es": "Exactamente como sospechaba..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LandscapePrefer3",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🏞",
+                "fr": "🏞",
+                "es": "🏞"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/148384_336937636417513_1644915437_n.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Just as I suspected...",
+                  "fr": "C'est bien ce que je pensais...",
+                  "es": "Exactamente como sospechaba..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LandscapePrefer4",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🏞",
+                "fr": "🏞",
+                "es": "🏞"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/246693_487711634596718_1346930056_n.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Just as I suspected...",
+                  "fr": "C'est bien ce que je pensais...",
+                  "es": "Exactamente como sospechaba..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "LandscapePrefer5",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "This one",
+              "fr": "Celui-ci",
+              "es": "Este"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "🏞",
+                "fr": "🏞",
+                "es": "🏞"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/profileLandscapes/small/9682_346520508802338_271896173_n.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Just as I suspected...",
+                  "fr": "C'est bien ce que je pensais...",
+                  "es": "Exactamente como sospechaba..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LandscapePreferLeave",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I’ll take control!",
+        "fr": "Je me débrouille !",
+        "es": "¡Me los arreglo!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "Emojis"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
