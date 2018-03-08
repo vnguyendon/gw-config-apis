@@ -46,11 +46,11 @@
     },
     {
       "Name": "billyshotbot",
-      "File": "/data/bot/apps/experiments/Billy-Shotbot-master-experiments-1.json"
+      "File": "/data/bot/apps/experiments/BillyShotbotmasterexperiments1.json"
     },
     {
       "Name": "louisjshotbot",
-      "File": "/data/bot/apps/experiments/LouisJ-onboarding-master-experiment-1.json"
+      "File": "/data/bot/apps/experiments/LouisJonboardingmasterexperiment1.json"
     }
   ],
   "FragmentsFiles": [
