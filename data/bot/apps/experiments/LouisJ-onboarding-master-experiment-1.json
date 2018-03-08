@@ -5,7 +5,6 @@
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/FashionTest.json"]},
     { "order" : 100, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json"]}
   ]
 }
