@@ -16,7 +16,7 @@
             "Type": "Node",
             "Id": "ScreenshotSequence2",
             "ElementValue": "1",
-            "Commandlabel": {
+            "CommandLabel": {
                 "en": "I love to walk 🚶‍♀️",
                 "fr": "vive la resistance",
                 "es": "siesta por favor"
