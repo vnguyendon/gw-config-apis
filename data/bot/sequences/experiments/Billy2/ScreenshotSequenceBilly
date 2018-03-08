@@ -1,0 +1,133 @@
+{
+    "Type": "Node",
+    "Id": "ScreenshotSequence",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So what do you usually do on the weekend?",
+                "fr": "je vais en vacances avec ma famille",
+                "es": "juego al futbol con mis amigos"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "ScreenshotSequence2",
+            "ElementValue": "1",
+            "Commandlabel": {
+                "en": "I love to walk 🚶‍♀️",
+                "fr": "vive la resistance",
+                "es": "siesta por favor"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That sounds so peaceful 😌",
+                        "fr": "je vais en vacances avec ma famille",
+                        "es": "juego al futbol con mis amigos"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "ScreenshotSequence3",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "ScreenshotSequence3A",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It is!",
+                            "fr": "encore monsieur!",
+                            "es": "¡más preguntas senor!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And which of these do you think looks like a nicer place to walk?",
+                                    "fr": "je vais au marche",
+                                    "es": "colombia es mi hijo"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "ScreenshotSequence4",
+                            "ElementValue": "1",
+                            "DisplayHint": "Carousel",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "ScreenshotSequence4A",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "In these woods",
+                                        "fr": "combien?",
+                                        "es": "jajjaja"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "🌲",
+                                            "fr": "🌲",
+                                            "es": "🌲"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://gw-static.azurewebsites.net/specialoccasions/you-are-the-best/default/small/follow-the-rainbow-in-high-land-at-sunset-000040193262_Medium.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Hmm... I'd agree!",
+                                                "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+                                                "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "ScreenshotSequence4B",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "On this beach",
+                                        "fr": "combien?",
+                                        "es": "jajjaja"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "🏖",
+                                            "fr": "🏖",
+                                            "es": "🏖"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://gw-static.azurewebsites.net/themes/nature/small/Paradise-deserted-beach-at-sunset-in-Cancun-000044402434_Medium.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Hmm... I'd agree!",
+                                                "fr": "Wow, d'accord ! Ça m'en dit long sur toi 🤓",
+                                                "es": "¡Wow, vale! Dice mucho sobre ti 🤓"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
