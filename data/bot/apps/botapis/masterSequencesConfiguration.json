@@ -43,6 +43,10 @@
     {
       "Name": "unittestbot",
       "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
+    },
+    {
+      "Name": "billyshotbot",
+      "File": "/data/bot/sequences/experiments/Billy2/Billy-Shotbot-master-experiments-1.json"
     }
   ],
   "FragmentsFiles": [
