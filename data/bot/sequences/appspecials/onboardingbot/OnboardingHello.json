@@ -17,6 +17,14 @@
         "fr": "Bonjoooooooooour",
         "es": "Holaaaaaaaaaaaaa"
       }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Please click on the button 'Hi!' ⬇ below ⬇ to talk to me!",
+        "fr": "Cliquez le bouton 'Salut !' ⬇ ci-dessous ⬇ pour me parler !",
+        "es": "Por favor haga clic en el botón '¡Hola!' ⬇ de abajo ⬇ para hablar conmigo"
+      }
     }
   ],
   "Commands": [
