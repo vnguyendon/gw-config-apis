@@ -42,7 +42,7 @@
           "Name": "RedirectTo",
           "Parameters": {
             "Type": "Tab",
-            "Path": "Dailyideas"
+            "Path": "DailyIdeas"
           }
         }
       ]
