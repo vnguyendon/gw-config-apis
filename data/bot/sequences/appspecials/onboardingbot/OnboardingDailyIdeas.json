@@ -1,0 +1,82 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingDailyIdeas",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hi there 😊 I hope you’ve been enjoying the app recently! ",
+        "fr": "Salut toi 😊 J'espère que tu profites de l'app !",
+        "es": "Hola 😊 ¡Espero que disfrutas usando el app!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emojiFish/small/shutterstock_1016524270.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "If you want some inspiration, you can have a look at my daily suggestions, just for you!",
+        "fr": "Si tu veux des sources d'inspirations, tu peux jeter un oeil aux idées du jour, juste pour toi !",
+        "es": "Si quieres alguna inspiración, puedes mirar las ideas del día, solo para ti!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingDailyIdeasYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "Dailyideas"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingDailyIdeasNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no, thanks",
+        "fr": "non merci",
+        "es": "no, gracias"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+            "Label": {
+              "en": "Alright, see you then...",
+              "fr": "Ça marche, à plus alors...",
+              "es": "Vale, pues nos vemos..."
+           }
+        },
+        {
+          "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+           }
+        },
+        {
+           "Type": "Action",
+             "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
