@@ -1,0 +1,106 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingSurveyPony",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello 😊",
+        "fr": "Salut 😊",
+        "es": "Hola 😊"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "There’s a whole lot of stuff to do in this app, I can guide you around…",
+        "fr": "Il y a tout un tas de choses à faire dans cette appli, je peux te guider...",
+        "es": "Hay un montón de cosas que hacer en este app, te puedo guiar..."
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emojiFish/small/shutterstock_1016524288.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How about talking to my best friend SurveyPony 🐴?",
+        "fr": "Que dirais-tu de parler à mon meilleur ami, SurveyPony 🐴?",
+        "es": "¿Te gustaría hablar con mi mejor amigo, SurveyPony 🐴?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "He loves asking you questions and talking nonsense!",
+        "fr": "Il adore poser des questions et dire des bêtises !",
+        "es": "¡Le encanta poner preguntas y decir tonterías!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Wanna go say hi to him?",
+        "fr": "Tu veux aller lui dire bonjour ?",
+        "es": "¿Quieres ir a saludar?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingSPYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "SurveyPony"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingSPNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+            "Label": {
+              "en": "Alright, see you then...",
+              "fr": "Ça marche, à plus alors...",
+              "es": "Vale, pues nos vemos..."
+           }
+        },
+        {
+          "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+           }
+        },
+        {
+           "Type": "Action",
+             "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
