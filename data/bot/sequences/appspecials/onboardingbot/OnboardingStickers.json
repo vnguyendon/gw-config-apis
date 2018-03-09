@@ -1,0 +1,90 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingStickers",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We’ve got a lot of content in this app, I’ll try help you find all the best stuff!",
+        "fr": "On a beaucoup de contenu dans cette application, je vais essayer de t'aider à en trouver le meilleur !",
+        "es": "Tenemos mucho contento en esta app, ¡voy a intentar ayudarte para encontrar lo mejor!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emojiFish/small/shutterstock_1016524270.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’ve sorted my message ideas into categories for who you might wanna send them to...",
+        "fr": "J'ai réparti mes idées de messages en catégories de personnes à qui tu pourrais avoir envie de les envoyer...",
+        "es": "He repartido mis ideas de mensages en categorías a quienes querrías enviarlos..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I can show you if you like…",
+        "fr": "Je peux te montrer si tu veux...",
+        "es": "Puedo mostrarte si quieres..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingStickersYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "StickersEmoji"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingStickersNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+            "Label": {
+              "en": "Alright, see you around then...",
+              "fr": "Ça marche, à plus alors...",
+              "es": "Vale, pues nos vemos..."
+           }
+        },
+        {
+          "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+           }
+        },
+        {
+           "Type": "Action",
+             "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
