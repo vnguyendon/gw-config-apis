@@ -1,0 +1,98 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingPopular",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I live in this app and I’m here to make sure you’re having as much fun as you can!",
+        "fr": "Je vis dans cette appli et suis là pour m'assurer que tu t'amuses autant que possible !",
+        "es": "¡Vivo en este app y estoy aquí para asegurarme que tienes toda la diversión que puedes!"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emojiFish/small/shutterstock_1016524288.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We’ve got tons of messages for you to send to your friends and family…",
+        "fr": "Nous avons des tonnes de messages que tu peux envoyer à tes amis et à ta famille...",
+        "es": "Tenemos montones de mensajes que puedes mandar a tus amigos y tu familia..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "and pretty pictures to go along with them!",
+        "fr": "et de jolies images pour aller avec !",
+        "es": "¡y hermosas imágenes para ir junto con estos!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Wanna see some of other people’s favourites?",
+        "fr": "Tu veux voir les plus populaires ?",
+        "es": "¿Quieres ver a los más populares?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingPopularYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "Vote"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingPopularNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+      "Steps": [
+        {
+          "Type": "Text",
+            "Label": {
+              "en": "Alright, catch you later...",
+              "fr": "Ça marche, à plus alors...",
+              "es": "Vale, pues nos vemos..."
+           }
+        },
+        {
+          "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+           }
+        },
+        {
+           "Type": "Action",
+             "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
