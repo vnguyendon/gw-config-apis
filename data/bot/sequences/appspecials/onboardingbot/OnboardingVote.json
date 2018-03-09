@@ -1,0 +1,106 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingVote",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey 😄",
+        "fr": "Hey 😄",
+        "es": "Oye 😄"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I hope you’re well today",
+        "fr": "J'espère que tu vas bien aujourd'hui",
+        "es": "Espero que estes bien hoy"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I just have a really cool thing to show you…",
+        "fr": "J'ai juste une chose vraiment cool à te montrer",
+        "es": "Tengo algo genial que mostrarte"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "/themes/emojiFish/small/shutterstock_1016524288.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Come check out and rate other people’s cards!",
+        "fr": "Viens voir et noter les cartes des autres gens !",
+        "es": "¡Ven a ver y a notar las cartas de la gente!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You might even find one you like…",
+        "fr": "Tu pourrais même en trouver une qui te plaît...",
+        "es": "Incluso podrías encontrar una que te gusta..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingVoteYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "OK!",
+        "fr": "D'accord !",
+        "es": "¡Vale!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "Tab",
+            "Path": "Vote"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "OnboardingVoteNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No thanks",
+        "fr": "Non merci",
+        "es": "No gracias"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+            "Label": {
+              "en": "Alright, see you then...",
+              "fr": "Ça marche, à plus alors...",
+              "es": "Vale, pues nos vemos..."
+           }
+        },
+        {
+          "Type": "Pause",
+            "Parameters": {
+              "Mode": "Wait",
+              "ms": 3000
+           }
+        },
+        {
+           "Type": "Action",
+             "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
