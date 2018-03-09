@@ -1,0 +1,296 @@
+{
+  "Type": "Node",
+  "Id": "OnboardingManager",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey you! Do we already know each other? 🤔",
+        "fr": "Hey toi ! On se connaît déjà non ? 🤔",
+        "es": "¡Eh, tú! Ya nos conocemos, ¿no? 🤔"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "OnboardingManagerKnowYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Booya, I knew it! 🤙 I’m the manager of the app, and I never forget a user",
+            "fr": "Allez j'en étais sûr ! 🤙 Je suis le manager de cette app et je n'oublie jamais un utilisateur",
+            "es": "¡Venga lo sabía! 🤙 Soy el gerente del app y nunca olvido a un usuario"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "OnboardingManagerYesHi",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "OnboardingManagerYesHiBoss",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "hi boss!",
+              "fr": "hey boss !",
+              "es": "¡eh boss!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I don’t know if you’ve noticed yet, but I’m not alone in this app...",
+                  "fr": "Je ne sais pas si tu as déjà remarqué, mais je ne suis pas tout seul dans cette app...",
+                  "es": "No sé si ya lo has notado, pero no estoy solo en esta app..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Let me introduce my employees.",
+                  "fr": "Laisse-moi te présenter mes employés",
+                  "es": "Déjame presentarte mis empleos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The first one is Huggy, a cute huggy bear companion 🐻",
+                  "fr": "Le premier s'appelle Huggy, un nounours tout mignon et un très bon compagnon 🐻",
+                  "es": "El primero se llama Huggy, un lindo osito y un verdadero compañero 🐻"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The second one is Survey Pony, a crazy curious pony 🐴",
+                  "fr": "Le second s'appelle Survey Pony, un drôle de poney très curieux 🐴",
+                  "es": "El segundo se llama Survey Pony, un curioso y loco pony 🐴"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Why not go have a chat with one of them?",
+                  "fr": "Pourquoi ne pas aller discuter avec l'un d'eux ?",
+                  "es": "¿Por qué no ir charlar con uno de ellos?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "OnboardingManagerYesFriends",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "OnboardingManagerYesHuggy",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Huggy",
+                    "fr": "Huggy",
+                    "es": "Huggy"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "Huggy"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnboardingManagerYesPony",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Survey Pony",
+                    "fr": "Survey Pony",
+                    "es": "Survey Pony"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "SurveyPony"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnboardingManagerYesCloseBot",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Maybe later 😊",
+                    "fr": "Plus tard 😊",
+                    "es": "Más tarde 😊"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "ExitOnboardingBot"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "OnboardingManagerKnowNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Oh, well then, hi! I am the manager of the app… I run things around here",
+            "fr": "Ah d'accord et bien enchanté ! Je suis le manager de cette app... Je gère un peu tout ici",
+            "es": "Ay, bueno, ¡Hola! Soy el gerente de esta app... Manejo las cosas aquí"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "OnboardingManagerNoHi",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "OnboardingManagerNoHiBoss",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "hi boss!",
+              "fr": "hey boss !",
+              "es": "¡eh boss!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I don’t know if you’ve noticed yet, but I’m not alone in this app...",
+                  "fr": "Je ne sais pas si tu as déjà remarqué, mais je ne suis pas tout seul dans cette app...",
+                  "es": "No sé si ya lo has notado, pero no estoy solo en esta app..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Let me introduce my employees.",
+                  "fr": "Laisse-moi te présenter mes employés",
+                  "es": "Déjame presentarte mis empleos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The first one is Huggy, a cute huggy bear companion 🐻",
+                  "fr": "Le premier s'appelle Huggy, un nounours tout mignon et un très bon compagnon 🐻",
+                  "es": "El primero se llama Huggy, un lindo osito y un verdadero compañero 🐻"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The second one is Survey Pony, a crazy curious pony 🐴",
+                  "fr": "Le second s'appelle Survey Pony, un drôle de poney très curieux 🐴",
+                  "es": "El segundo se llama Survey Pony, un curioso y loco pony 🐴"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Why not go have a chat with one of them?",
+                  "fr": "Pourquoi ne pas aller discuter avec l'un d'eux ?",
+                  "es": "¿Por qué no ir charlar con uno de ellos?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "OnboardingManagerNoHuggy",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "YesRedirectDailyIdeas",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Huggy",
+                    "fr": "Huggy",
+                    "es": "Huggy"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "Huggy"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnboardingManagerNoPony",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Survey Pony",
+                    "fr": "Survey Pony",
+                    "es": "Survey Pony"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "SurveyPony"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnboardingManagerNoCloseBot",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Maybe later 😊",
+                    "fr": "Plus tard 😊",
+                    "es": "Más tarde 😊"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "ExitOnboardingBot"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+      ]
+    }
