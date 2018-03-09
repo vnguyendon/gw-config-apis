@@ -13,6 +13,10 @@
       "File": "/data/bot/apps/emoji-hero/emojiheroMasterSequence.json"
     },
     {
+      "Name": "newhero",
+      "File": "/data/bot/apps/emoji-hero/emojiheroMasterSequence.json"
+    },
+    {
       "Name": "huggy",
       "File": "/data/bot/apps/app-stickers/appshuggyMasterSequence.json"
     },
