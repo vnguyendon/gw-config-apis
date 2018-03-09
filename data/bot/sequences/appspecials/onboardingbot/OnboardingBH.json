@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "OnBoardingBH",
+  "Id": "OnboardingBH",
   "Steps": [
     {
       "Type": "Text",
@@ -22,7 +22,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "OnBoardingBHGoodOne",
+      "Id": "OnboardingBHGoodOne",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "🤣 good one!",
@@ -64,12 +64,12 @@
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "OnBoardingBHMoreJokes",
+        "Id": "OnboardingBHMoreJokes",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Leaf",
-            "Id": "OnBoardingBHMoreJokesYes",
+            "Id": "OnboardingBHMoreJokesYes",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "sure!",
@@ -97,7 +97,7 @@
           },
           {
             "Type": "Node",
-            "Id": "OnBoardingBHMoreJokesNo",
+            "Id": "OnboardingBHMoreJokesNo",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "I'm fine, thanks",
@@ -124,12 +124,12 @@
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "OnBoardingBHColleague",
+              "Id": "OnboardingBHColleague",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Node",
-                  "Id": "OnBoardingBHColleagueYes",
+                  "Id": "OnboardingBHColleagueYes",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "let’s go!",
@@ -148,12 +148,12 @@
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "OnBoardingBHPonyOrHuggy",
+                    "Id": "OnboardingBHPonyOrHuggy",
                     "ElementValue": "1",
                     "Commands": [
                       {
                         "Type": "Leaf",
-                        "Id": "OnBoardingBHPony",
+                        "Id": "OnboardingBHPony",
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "🐴",
@@ -173,7 +173,7 @@
                       },
                       {
                         "Type": "Leaf",
-                        "Id": "OnBoardingBHHuggy",
+                        "Id": "OnboardingBHHuggy",
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "🐻",
@@ -196,7 +196,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "OnBoardingBHColleagueNo",
+                  "Id": "OnboardingBHColleagueNo",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "no",
@@ -233,7 +233,7 @@
     },
     {
       "Type": "Node",
-      "Id": "OnBoardingBHComeOn",
+      "Id": "OnboardingBHComeOn",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Oh come on...",
@@ -260,12 +260,12 @@
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "OnBoardingBHNotLikeJoke",
+        "Id": "OnboardingBHNotLikeJoke",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Node",
-            "Id": "OnBoardingBHNotSoMuch",
+            "Id": "OnboardingBHNotSoMuch",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Not so much…",
@@ -284,12 +284,12 @@
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "OnBoardingBHShowOthers",
+              "Id": "OnboardingBHShowOthers",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Leaf",
-                  "Id": "OnBoardingBHShowOthersYes",
+                  "Id": "OnboardingBHShowOthersYes",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Why not?",
@@ -317,7 +317,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "OnBoardingBHShowOthersNo",
+                  "Id": "OnboardingBHShowOthersNo",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "I'm fine, thanks",
@@ -351,7 +351,7 @@
           },
           {
             "Type": "Node",
-            "Id": "OnBoardingBHNotAtAll",
+            "Id": "OnboardingBHNotAtAll",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Not at all!",
@@ -385,12 +385,12 @@
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "OnBoardingBHColleague2",
+              "Id": "OnboardingBHColleague2",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Node",
-                  "Id": "OnBoardingBHColleague2Yes",
+                  "Id": "OnboardingBHColleague2Yes",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "let’s go!",
@@ -409,12 +409,12 @@
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "OnBoardingBHPonyOrHuggy2",
+                    "Id": "OnboardingBHPonyOrHuggy2",
                     "ElementValue": "1",
                     "Commands": [
                       {
                         "Type": "Leaf",
-                        "Id": "OnBoardingBHPony2",
+                        "Id": "OnboardingBHPony2",
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "🐴",
@@ -434,7 +434,7 @@
                       },
                       {
                         "Type": "Leaf",
-                        "Id": "OnBoardingBHHuggy2",
+                        "Id": "OnboardingBHHuggy2",
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "🐻",
@@ -457,7 +457,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "OnBoardingBHColleague2No",
+                  "Id": "OnboardingBHColleague2No",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "No",
