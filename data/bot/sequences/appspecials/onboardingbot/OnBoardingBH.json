@@ -1,0 +1,496 @@
+{
+  "Type": "Node",
+  "Id": "OnBoardingBH",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello, beautiful human!",
+        "fr": "Salut, bel humain !",
+        "es": "¡Hola, lindo humano!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Did you know that dolphins are so smart that within a few weeks of captivity, they can train people to stand on the very edge of the pool and throw them fish!",
+        "fr": "Savais-tu que les dophins sont tellement malins qu'après quelques semaines de captivité, ils peuvent dresser les gens à leur jeter du poisson depuis le bord de la piscine !",
+        "es": "Sabias que los delfinos son tan inteligentes que después de unas semanas en cautiverio, ¡pueden entrenar la gente para que les lanza peces desde el borde de la piscina!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "OnBoardingBHGoodOne",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "🤣 good one!",
+        "fr": "🤣 elle est bonne !",
+        "es": "🤣 ¡es buena!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m glad you liked it 😀!",
+            "fr": "Content qu'elle te plaise 😀 !",
+            "es": "¡Me alegra que te haya gustado 😀!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I hope I don’t end up as dolphin food though…",
+            "fr": "Mais j'espère ne pas finir en nourriture pour dauphin...",
+            "es": "Pero espero que no voy a finir en comida para delfín..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/emojiFish/small/shutterstock_1016524285.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Wanna hear some more jokes?",
+            "fr": "Tu veux d'autres blagues ?",
+            "es": "¿Quieres más bromas?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "OnBoardingBHMoreJokes",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "OnBoardingBHMoreJokesYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "sure!",
+              "fr": "bien sûr!",
+              "es": "¡seguro!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "There you go!",
+                  "fr": "Par ici !",
+                  "es": "¡Por aquí!"
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "RedirectTo",
+                "Parameters": {
+                  "Type": "Tab",
+                  "Path": "UsefulMessages"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Node",
+            "Id": "OnBoardingBHMoreJokesNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I'm fine, thanks",
+              "fr": "Ça va, merci",
+              "es": "Está bien, gracias"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Alright...",
+                  "fr": "Ça marche...",
+                  "es": "Vale..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well maybe you would rather talk with one of my colleagues then?",
+                  "fr": "Peut-être préfères-tu plutôt parler avec un de mes collègues alors ?",
+                  "es": "¿Pues tal vez prefieras hablar con uno de mis colegas?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "OnBoardingBHColleague",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "OnBoardingBHColleagueYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "let’s go!",
+                    "fr": "allez !",
+                    "es": "¡vamos!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Pick your favorite then",
+                        "fr": "Choisis ton préféré alors",
+                        "es": "Elige tu preferido entonces"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "OnBoardingBHPonyOrHuggy",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "OnBoardingBHPony",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "🐴",
+                          "fr": "🐴",
+                          "es": "🐴"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "SurveyPony"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "OnBoardingBHHuggy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "🐻",
+                          "fr": "🐻",
+                          "es": "🐻"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "Huggy"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnBoardingBHColleagueNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "no",
+                    "fr": "non",
+                    "es": "no"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright, see you then...",
+                        "fr": "Ça marche, à plus alors...",
+                        "es": "Vale, pues nos vemos..."
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ExitOnboardingBot"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "OnBoardingBHComeOn",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Oh come on...",
+        "fr": "Ohlala...",
+        "es": "Oh por favor..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I thought this was a funny one…",
+            "fr": "Je pensais qu'elle était drôle...",
+            "es": "Pensaba que esta era divertida..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You didn’t like it?",
+            "fr": "Tu n'as pas aimé ?",
+            "es": "¿No te gustó?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "OnBoardingBHNotLikeJoke",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "OnBoardingBHNotSoMuch",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Not so much…",
+              "fr": "Pas trop...",
+              "es": "No mucho..."
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I can find others if you want!",
+                  "fr": "Je peux en trouver d'autres si tu veux !",
+                  "es": "¡Puedo encontrar otras si quieres!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "OnBoardingBHShowOthers",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "OnBoardingBHShowOthersYes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Why not?",
+                    "fr": "Pourquoi pas?",
+                    "es": "¿Por qué no?"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "There you go!",
+                        "fr": "Allez !",
+                        "es": "¡Vamos!"
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "RedirectTo",
+                      "Parameters": {
+                        "Type": "Tab",
+                        "Path": "UsefulMessages"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnBoardingBHShowOthersNo",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "I'm fine, thanks",
+                    "fr": "Ça va, merci",
+                    "es": "Estoy bien, gracias"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright, see you then...",
+                        "fr": "Ça marche, à plus alors...",
+                        "es": "Vale, pues nos vemos..."
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ExitOnboardingBot"
+                    }
+                  ]
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "OnBoardingBHNotAtAll",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Not at all!",
+              "fr": "Pas du tout !",
+              "es": "¡Para nada!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "OK...",
+                  "fr": "OK...",
+                  "es": "Vale..."
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Internal",
+                  "Path": "/themes/emojiFish/small/shutterstock_1016524285.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well maybe you would rather talk with one of my colleagues then?",
+                  "fr": "Peut-être préfères-tu plutôt parler avec un de mes collègues alors ?",
+                  "es": "¿Pues tal vez prefieras hablar con uno de mis colegas?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "OnBoardingBHColleague2",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "OnBoardingBHColleague2Yes",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "let’s go!",
+                    "fr": "allez !",
+                    "es": "¡vamos!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Pick your favorite then",
+                        "fr": "Choisis ton préféré alors",
+                        "es": "Elige tu preferido entonces"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "OnBoardingBHPonyOrHuggy2",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "OnBoardingBHPony2",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "🐴",
+                          "fr": "🐴",
+                          "es": "🐴"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "SurveyPony"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "OnBoardingBHHuggy2",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "🐻",
+                          "fr": "🐻",
+                          "es": "🐻"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Action",
+                            "Name": "RedirectTo",
+                            "Parameters": {
+                              "Type": "Tab",
+                              "Path": "Huggy"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "OnBoardingBHColleague2No",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "No",
+                    "fr": "Non",
+                    "es": "No"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Alright, see you then...",
+                        "fr": "Ça marche, à plus alors...",
+                        "es": "Vale, pues nos vemos..."
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ExitOnboardingBot"
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
