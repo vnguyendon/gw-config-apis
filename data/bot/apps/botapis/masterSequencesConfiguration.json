@@ -33,10 +33,6 @@
       "File": "/data/bot/apps/app-stickers/appstestMasterSequence.json"
     },
     {
-      "Name": "onboarding",
-      "File": "/data/bot/apps/extension-bot/onboardingbotMasterfile.json"
-    },
-    {
       "Name": "onboardingandroid",
       "File": "/data/bot/apps/onboarding/onboardingbotAndroidMasterfile.json"
     },
