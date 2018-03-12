@@ -7,7 +7,6 @@
     { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingDailyIdeas.json"]},
     { "order" : 35, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingManager.json"]},
     { "order" : 43, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingPopular.json"]},
-    { "order" : 52, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingPopular.json"]},
     { "order" : 64, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingSurveyPony.json"]},
     { "order" : 75, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingVote.json"]},
     { "order" : 78, "file":["/data/bot/sequences/appspecials/emojihero/MessageRecipient.json"]},
