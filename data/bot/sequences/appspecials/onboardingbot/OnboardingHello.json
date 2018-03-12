@@ -3,11 +3,10 @@
   "Id": "OnboardingHello",
   "Steps": [
     {
-      "Type": "Action",
-      "Name": "ShowCards",
+      "Type": "AnimatedGif",
       "Parameters": {
-        "Type": "Gif",
-        "Path": "/data/common/giphycontent/morning.json"
+        "Source": "Giphy",
+        "Path": "NCh5G1KuRsXPa"
       }
     },
     {
