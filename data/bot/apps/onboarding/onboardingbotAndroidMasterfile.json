@@ -1,7 +1,13 @@
 {
-  "GroupName": "onBoarding",
+  "GroupName": "onboarding",
   "SequenceFiles": [
     { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingHello.json"]},
-    { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/MoreAboutAppRedirect.json"]}
+    { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/MoreAboutAppRedirect.json"]},
+    { "order" : 30, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingBH.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingDailyIdeas.json"]},
+    { "order" : 50, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingManager.json"]},
+    { "order" : 60, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingPopular.json"]},
+    { "order" : 70, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingSurveyPony.json"]},
+    { "order" : 80, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingVote.json"]}
   ]
 }
