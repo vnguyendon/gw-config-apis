@@ -154,8 +154,8 @@
 }
 ,
 { 
-"Path" : "themes/emomjiAstro",
-"DefaultImage" : "themes/emomjiAstro/small/shutterstock_554561449.jpg",
+"Path" : "themes/emojiAstro",
+"DefaultImage" : "themes/emojiAstro/small/shutterstock_554561449.jpg",
 "SearchText" : "astro", 
 "Labels":
   [
