@@ -1,17 +1,48 @@
 [
   {
-    "GroupName":"Test",
+    "GroupName":"WorkWithFragments",
     "SequenceFiles" : [
         { "order": 10, "file":[
+            "/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]}
+      ]
+  },
+  {
+    "GroupName":"Basic",
+    "SequenceFiles" : [
+        { "order": 110, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep2.json"]},
+        { "order": 120, "file":[
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json",
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
+        { "order": 130, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest2.json"]},
+        { "order": 140, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]},
+        { "order": 150, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
+        { "order": 150, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
+      
+      ]
+  },
+  {
+    "GroupName":"VerifyConditions",
+    "SequenceFiles" : [
+       { "order": 210, "file":[
             "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
-        { "order": 20, "file":[
+        { "order": 220, "file":[
             "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
-        { "order": 20, "file":[
+        { "order": 220, "file":[
             "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
-        { "order": 100, "file":[
+        { "order": 230, "file":[
             "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+         
+        
       ]
   }
 ]
-
-  
