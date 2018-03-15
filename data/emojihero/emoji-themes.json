@@ -45,7 +45,7 @@
       "Labels": {
         "fr": "Emoji chat",
         "en": "Cat Emoji",
-        "es": "TBD"
+        "es": "Emoji gato"
       }
     },
     {
@@ -109,7 +109,7 @@
       "Labels": {
         "fr": "Emoji poisson",
         "en": "Emoji fish",
-        "es": "TBD"
+        "es": "Emoji pez"
       }
     },
     {
@@ -157,7 +157,7 @@
       "Labels": {
         "fr": "Je suis la pour toi",
         "en": "I am here for you",
-        "es": "TBD"
+        "es": "Estoy aquí por ti"
       },
       "IntentionId": "03B6E4"
     },
@@ -174,7 +174,7 @@
       "Labels": {
         "fr": "Emoji drapeau",
         "en": "Flag Emoji",
-        "es": "TBD"
+        "es": "Emoji bandera"
       }
     },
     {
@@ -190,7 +190,7 @@
       "Labels": {
         "fr": "Joyeux anniversaire",
         "en": "Happy birthday",
-        "es": "TBD"
+        "es": "Feliz cumpleaños"
       },
       "IntentionId": "A730B4"
     },
@@ -207,7 +207,7 @@
       "Labels": {
         "fr": "Emoji Carnaval",
         "en": "Carnival Emoji",
-        "es": "TBD"
+        "es": "Emoji Carnaval"
       }
     },
     {
@@ -240,7 +240,7 @@
       "Labels": {
         "en": "Emoji Astro",
         "fr": "Astro emoji",
-        "es": "TBD"
+        "es": "Emoji Astro"
       }
     }
   ]
