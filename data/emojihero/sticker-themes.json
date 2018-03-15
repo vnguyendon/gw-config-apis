@@ -3,7 +3,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/nature"
+        "Link": "themes/nature/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -19,7 +19,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/kittens"
+        "Link": "themes/kittens/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -35,7 +35,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/flowers"
+        "Link": "themes/flowers/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -51,7 +51,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/puppies"
+        "Link": "themes/puppies/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -67,7 +67,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/strange"
+        "Link": "themes/strange/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -83,7 +83,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/animals"
+        "Link": "themes/animals/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -99,7 +99,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/pairs"
+        "Link": "themes/pairs/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -131,7 +131,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/holidays"
+        "Link": "themes/holidays/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -147,7 +147,7 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/horses"
+        "Link": "themes/horses/small"
       },
       "DefaultImage": {
         "Type": "Image",
