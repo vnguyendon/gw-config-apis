@@ -119,7 +119,7 @@
 ,
 { 
 "Path" : "themes/emojiFish",
-"DefaultImage" : "themes/pairs/small/shutterstock_1012605490.jpg",
+"DefaultImage" : "themes/emojiFish/small/shutterstock_1012605490.jpg",
 "SearchText" : "fish", 
 "Labels":
   [
@@ -131,7 +131,7 @@
 ,
 { 
 "Path" : "themes/emomjiCatNew",
-"DefaultImage" : "themes/pairs/small/shutterstock_504324118.jpg",
+"DefaultImage" : "themes/emomjiCatNew/small/shutterstock_504324118.jpg",
 "SearchText" : "catsnew", 
 "Labels":
   [
@@ -155,7 +155,7 @@
 ,
 { 
 "Path" : "themes/emomjiAstro",
-"DefaultImage" : "themes/pairs/small/shutterstock_554561449.jpg",
+"DefaultImage" : "themes/emomjiAstro/small/shutterstock_554561449.jpg",
 "SearchText" : "astro", 
 "Labels":
   [
