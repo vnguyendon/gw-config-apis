@@ -69,18 +69,6 @@
 }
 ,
 { 
-"Path" : "themes/strange",
-"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
-"SearchText" : "strange fun", 
-"Labels":
-  [
-  {"Language":"fr-FR","Label":"Etrange"},
-  {"Language":"en-EN","Label":"Weird"},
-  {"Language":"es-ES","Label":"Extraño"}
-  ]
-}
-,
-{ 
 "Path" : "themes/emoticons3",
 "DefaultImage" : "themes/emoticons3/small/shutterstock_294472505_3.jpg",
 "SearchText" : "emoji happy", 
@@ -91,6 +79,19 @@
   {"Language":"es-ES","Label":"Emoji II"}
   ]
 } 
+  
+,
+{ 
+"Path" : "themes/strange",
+"DefaultImage" : "themes/strange/small/310928_10150295389296564_166896605_n.jpg",
+"SearchText" : "strange fun", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Etrange"},
+  {"Language":"en-EN","Label":"Weird"},
+  {"Language":"es-ES","Label":"Extraño"}
+  ]
+}
 ,
 { 
 "Path" : "themes/emojiNonsense",
@@ -117,6 +118,30 @@
 }
 ,
 { 
+"Path" : "themes/emojiFish",
+"DefaultImage" : "themes/pairs/small/shutterstock_1012605490.jpg",
+"SearchText" : "fish", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji poisson"},
+  {"Language":"en-EN","Label":"Emoji fish"},
+  {"Language":"es-ES","Label":"Emoji pez"}
+  ]
+}   
+,
+{ 
+"Path" : "themes/emomjiCatNew",
+"DefaultImage" : "themes/pairs/small/shutterstock_504324118.jpg",
+"SearchText" : "catsnew", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji chat"},
+  {"Language":"en-EN","Label":"Emoji cat"},
+  {"Language":"es-ES","Label":"Emoji gato"}
+  ]
+}   
+,
+{ 
 "Path" : "themes/pairs",
 "DefaultImage" : "themes/pairs/small/shutterstock_139733785.jpg",
 "SearchText" : "twins", 
@@ -126,6 +151,18 @@
   {"Language":"en-EN","Label":"Pairs"},
   {"Language":"es-ES","Label":"Pares"}
   ]
-}  
+}
+,
+{ 
+"Path" : "themes/emomjiAstro",
+"DefaultImage" : "themes/pairs/small/shutterstock_554561449.jpg",
+"SearchText" : "astro", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Astrologie"},
+  {"Language":"en-EN","Label":"Astrology"},
+  {"Language":"es-ES","Label":"Astrologia"}
+  ]
+}    
 ]
 }
