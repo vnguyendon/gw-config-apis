@@ -5,35 +5,34 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "You!",
-        "fr": "Toi !",
-        "es": "¡Ti!"
+        "en": "Hey! 👋 I'm hero, the champion of emojis...",
+        "fr": "Salut ! 👋 Je suis Hero, le champions des emoji... !",
+        "es": "¡Hola! 👋 Soy Hero, el campéon de los emoji..."
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
       }
     },
     {
       "Type": "Text",
       "Label": {
-        "en": "Over there!",
-        "fr": "Par ici !",
-        "es": "¡Por aquí!"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Hello! 👋",
-        "fr": "Salut ! 👋",
-        "es": "¡Hola! 👋"
+        "en": "Use the buttons like the one below ⬇ to talk to me",
+        "fr": "",
+        "es": ""
       }
     }
   ],
   "Commands": [
     {
       "Type": "Node",
-      "Id": "HeroIntroHi",
+      "Id": "HeroIntroSTART",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Hi 😃",
+        "en": "TAP TO START",
         "fr": "Salut 😃",
         "es": "Hola 😃"
       },
@@ -46,33 +45,18 @@
             "es": "¡Encantado de conocerte!"
           }
         },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "I'm Hero, the champion of emoji...",
-            "fr": "Je suis Hero, le champions des emoji...",
-            "es": "Soy Hero, el campeón de los emoji..."
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1519036759/super-hero-smiley_1.png"
-          }
-        }
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "HeroHey",
+        "Id": "HeroAndYou",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Node",
-            "Id": "HeyHero",
+            "Id": "HeroAndYouReply",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Hey Hero!",
+              "en": "And you!",
               "fr": "Hey Hero !",
               "es": "¡Oye Hero!"
             },
@@ -96,12 +80,12 @@
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "HowAreYou",
+              "Id": "HeroHowAreYou",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Leaf",
-                  "Id": "Awesome",
+                  "Id": "HeroHowAreYouAwesome",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "awesome",
@@ -121,7 +105,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "Fine",
+                  "Id": "HeroHowAreYouFine",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "fine",
@@ -141,7 +125,7 @@
                 },
                 {
                   "Type": "Leaf",
-                  "Id": "NotGreat",
+                  "Id": "HeroHowAreYouNotGreat",
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "not great",
