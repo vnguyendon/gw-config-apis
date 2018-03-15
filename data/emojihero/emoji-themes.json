@@ -131,17 +131,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/emojiVanilla/small"
+        "Link": "themes/emojiNonsense"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/emojiVanilla/small/shutterstock_407338447_12.jpg"
+        "Path": "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg"
         },
       "Labels": {
-        "fr": "Emoji Vanille",
-        "en": "Emoji Vanilla",
-        "es": "Emoji Vainilla"
+        "fr": "Emoji Non-sens",
+        "en": "Emoji Nonsense",
+        "es": "Emoji Disparates"
       }
     },
     {
