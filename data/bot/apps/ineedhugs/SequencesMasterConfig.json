@@ -1,14 +1,14 @@
 {
   "MasterFiles": [
     {
-      "Name": "INeedHugsNow",
+      "Name": "ineedhugs",
       "Source": "github",
-      "File": "/data/bot/apps/ineedhugs/ineedhugshMaster.json"
+      "File": "/data/bot/apps/ineedhugs/ineedhugsMaster.json"
     },
     {
       "Name": "rcdevbot",
       "Source": "github",
-      "File": "/data/bot/apps/ineedhugs/ineedhugshMaster.json"
+      "File": "/data/bot/apps/ineedhugs/ineedhugsMaster.json"
     }
   ],
   "FragmentsFiles": [
