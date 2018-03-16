@@ -3,12 +3,12 @@
     {
       "Name": "ineedhugs",
       "Source": "github",
-      "File": "/data/bot/apps/swagfish/ineedhugshMaster.json"
+      "File": "/data/bot/apps/ineedhugs/ineedhugshMaster.json"
     },
     {
       "Name": "rcdevbot",
       "Source": "github",
-      "File": "/data/bot/apps/swagfish/ineedhugshMaster.json"
+      "File": "/data/bot/apps/ineedhugs/ineedhugshMaster.json"
     }
   ],
   "FragmentsFiles": [
