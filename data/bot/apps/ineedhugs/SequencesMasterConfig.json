@@ -1,0 +1,20 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "ineedhugs",
+      "Source": "github",
+      "File": "/data/bot/apps/swagfish/ineedhugshMaster.json"
+    },
+    {
+      "Name": "rcdevbot",
+      "Source": "github",
+      "File": "/data/bot/apps/swagfish/ineedhugshMaster.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/sequences/masterfiles/fragmentfiles.json"
+    }
+  ]
+}
