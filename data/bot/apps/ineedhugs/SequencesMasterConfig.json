@@ -1,7 +1,7 @@
 {
   "MasterFiles": [
     {
-      "Name": "ineedhugs",
+      "Name": "INeedHugsNow",
       "Source": "github",
       "File": "/data/bot/apps/ineedhugs/ineedhugshMaster.json"
     },
