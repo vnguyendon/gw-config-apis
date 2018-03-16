@@ -211,22 +211,6 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/emomjiCatNew/small"
-      },
-      "DefaultImage": {
-        "Type": "Image",
-        "Source": "Internal",
-        "Path": "themes/emomjiCatNew/small/shutterstock_504324118.jpg"
-        },
-      "Labels": {
-        "fr": "Emoji chat",
-        "en": "Emoji cat",
-        "es": "Emoji gato"
-      }
-    },
-    {
-      "Path": {
-        "Source": "Internal",
         "Link": "themes/pairs/small"
       },
       "DefaultImage": {
@@ -238,6 +222,22 @@
         "fr": "Paires",
         "en": "Pairs",
         "es": "Pares"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emomjiCatNew/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emomjiCatNew/small/shutterstock_504324118.jpg"
+        },
+      "Labels": {
+        "fr": "Emoji chat",
+        "en": "Emoji cat",
+        "es": "Emoji gato"
       }
     },
     {
