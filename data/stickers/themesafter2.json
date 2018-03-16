@@ -195,7 +195,39 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/pairs"
+        "Link": "themes/emojiFish/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiFish/small/shutterstock_1016524282.jpg"
+        },
+      "Labels": {
+        "fr": "Emoji poisson",
+        "en": "Emoji fish",
+        "es": "Emoji pez"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emomjiCatNew/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emomjiCatNew/small/shutterstock_504324118.jpg"
+        },
+      "Labels": {
+        "fr": "Emoji chat",
+        "en": "Emoji cat",
+        "es": "Emoji gato"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/pairs/small"
       },
       "DefaultImage": {
         "Type": "Image",
@@ -206,6 +238,22 @@
         "fr": "Paires",
         "en": "Pairs",
         "es": "Pares"
+      }
+    },
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emomjiCatNew/small"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiAstro/small/shutterstock_554561449.jpg"
+        },
+      "Labels": {
+        "fr": "Astrologie",
+        "en": "Astrology",
+        "es": "Astrologia"
       }
     }
   ]
