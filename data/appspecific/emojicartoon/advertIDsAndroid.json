@@ -12,7 +12,7 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/6776711598"
   },
-  "AfterSending": {
+  "AfterSendingDisabled": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/3572344272"
   },
