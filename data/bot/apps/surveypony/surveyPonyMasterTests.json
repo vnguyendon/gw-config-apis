@@ -2,8 +2,9 @@
   {
     "GroupName":"WorkWithFragments",
     "SequenceFiles" : [
-        { "order": 10, "file":[
-            "/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]}
+         { "order" : 10, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
+         { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
+         { "order" : 30, "file": ["/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]}
       ]
   },
   {
