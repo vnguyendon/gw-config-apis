@@ -26,6 +26,7 @@
       }
     }
   ],
+  "Skippable": false,
   "Commands": [
     {
       "Type": "Node",
@@ -50,6 +51,7 @@
         "Type": "Node",
         "Id": "HeroAndYou",
         "ElementValue": "1",
+        "Skippable": false,
         "Commands": [
           {
             "Type": "Node",
@@ -82,6 +84,7 @@
               "Type": "Node",
               "Id": "HeroHowAreYou",
               "ElementValue": "1",
+              "Skippable": false,
               "Commands": [
                 {
                   "Type": "Leaf",
