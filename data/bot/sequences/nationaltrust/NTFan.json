@@ -1,0 +1,87 @@
+{
+  "Type": "Node",
+  "Id": "NTFan",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Anyway… I’m the Trust’s number 1 fan...",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "all I want is for as many people to enjoy them as possible",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "gqh8uVtwvemTm"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’ll tell you stories, facts and quizzes and about my favourite places",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NTFanSoundsGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Sounds good!",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Let's get started then 😄",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NTFanKnowAll",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "I know everything",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, you still might enjoy the pretty pictures 😄",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Let's get started!",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}
