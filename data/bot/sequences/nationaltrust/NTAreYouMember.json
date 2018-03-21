@@ -1,0 +1,151 @@
+{
+    "Type": "Node",
+    "Id": "NTAreYouMember",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "They had a massive 5.1 million members in 2017...",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "that’s over 7% of the UK’s population!",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Are you a member?",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Node",
+        "Id": "NTAreYouMemberYes",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "yes",
+          "fr": "oui",
+          "es": "sí"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "You made the right choice!",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Do you think you get the most out of it?",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          }
+        ],
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "NTMemberYesMost",
+          "ElementValue": "1",
+          "Commands": [
+            {
+              "Type": "Leaf",
+              "Id": "NTMemberYesMostYes",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "yes",
+                "fr": "oui",
+                "es": "sí"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Hey, that’s great!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  }
+                },
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Let’s see if you know as much about it as I do…",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  }
+                }
+              ]
+            },
+            {
+              "Type": "Leaf",
+              "Id": "NTMemberYesMostNo",
+              "ElementValue": "1",
+              "CommandLabel": {
+                "en": "no",
+                "fr": "non",
+                "es": "no"
+              },
+              "Steps": [
+                {
+                  "Type": "Text",
+                  "Label": {
+                    "en": "Let me see if I can help you discover some new stuff!",
+                    "fr": "TBD",
+                    "es": "TBD"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Type": "Leaf",
+        "Id": "NTAreYouMemberNo",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "no",
+          "fr": "non",
+          "es": "no"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "Well…",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "let me see if I can tempt you...",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "or at least show you some cool places!",
+              "fr": "TBD",
+              "es": "TBD"
+            }
+          }
+        ]
+      }
+    ]
+  }
