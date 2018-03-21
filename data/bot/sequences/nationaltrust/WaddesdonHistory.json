@@ -1,0 +1,111 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonHistory",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The land was bought by this man in 1877, and it took 6 years to build!",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521633266/ferdinand_de_rothschild.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He hosted many guests for crazy parties... including two monarchs of England!",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to have a party in a room like this?",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonHistoryPartyYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Me too... but they'd never invite a squirrel anyway",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The house passed to his sister, and then to his great-nephew",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Who donated it to the Trust in 1957!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonHistoryPartyNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Oh wow! Well I would... but they'd never invite a squirrel anyway",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The house passed to his sister, and then to his great-nephew",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Who donated it to the Trust in 1957!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        }
+    ]
+}
