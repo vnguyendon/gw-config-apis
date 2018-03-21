@@ -55,6 +55,10 @@
     {
       "Name": "louisgscreenshot",
       "File": "/data/bot/apps/experiments/LouisGmasterexperiments1.json"
+    },
+    {
+      "Name": "nuttybot",
+      "File": "/data/bot/apps/nuttynow/nuttyMaster.json"
     }
   ],
   "FragmentsFiles": [
