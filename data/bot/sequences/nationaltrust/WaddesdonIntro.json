@@ -1,0 +1,91 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonIntro",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Next is one of my favourites... Waddesdon Manor!",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      },
+      {
+        "Type": "Image",
+        "Parameters": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635654/Waddesdon_Architecture.jpg"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Isn’t it gorgeous...",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      },
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "I know a lot about it... what do you want to know most?",
+          "fr": "TBD",
+          "es": "TBD"
+        }
+      }
+    ],
+    "Commands": [
+      {
+        "Type": "Node",
+        "Id": "WaddesdonKnowHistory",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Its history",
+          "fr": "TBD",
+          "es": "TBD"
+        },
+        "LinksToFragment": {
+          "FragmentPath": "TBD"
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "WaddesdonKnowUse",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Modern use",
+          "fr": "TBD",
+          "es": "TBD"
+        },
+        "LinksToFragment": {
+          "FragmentPath": "TBD"
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "WaddesdonKnowAttractions",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Attractions",
+          "fr": "TBD",
+          "es": "TBD"
+        },
+        "LinksToFragment": {
+          "FragmentPath": "TBD"
+        }
+      },
+      {
+        "Type": "Node",
+        "Id": "WaddesdonKnowPictures",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Show me pictures!",
+          "fr": "TBD",
+          "es": "TBD"
+        },
+        "LinksToFragment": {
+          "FragmentPath": "TBD"
+        }
+      }
+    ]
+  }
