@@ -1,0 +1,115 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonAttractions",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The house and grounds are gorgeous places to walk around and explore...",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "there’s even an aviary!",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635663/Waddesdon_Aviary_Modern.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It also has a store of over 15,000 bottles of wine…",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "some are over 150 years old!",
+                "fr": "TBD",
+                "es": "TBD"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WaddesdonWineNoWay",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way",
+                "fr": "TBD",
+                "es": "TBD"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Squirrels never lie!",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonWineMore",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I have more",
+                "fr": "TBD",
+                "es": "TBD"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Can I come to your house then?",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonWineWant",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I would like some",
+                "fr": "TBD",
+                "es": "TBD"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So come visit!",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’ll find you the tastiest",
+                        "fr": "TBD",
+                        "es": "TBD"
+                    }
+                }
+            ]
+        }
+    ]
+}
