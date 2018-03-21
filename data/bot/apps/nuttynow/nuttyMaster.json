@@ -1,15 +1,17 @@
-{
-  "Version": 5,
-  "GroupName": "Hero",
-  "SequenceFiles": [
-    { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
-    { "order" : 10, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
-    { "order" : 20, "file":["/data/bot/sequences/nationaltrust/NTFan.json"]},
-    { "order" : 30, "file":["/data/bot/sequences/nationaltrust/WaddesdonIntro.json"]},
-    { "order" : 46, "file":["/data/bot/sequences/nationaltrust/AliceInWonderland.json"]},
-    { "order" : 46, "file":["/data/bot/sequences/nationaltrust/GiantsCauseway.json"]},
-    { "order" : 46, "file":["/data/bot/sequences/nationaltrust/Stourhead.json"]},
-    { "order" : 46, "file":["/data/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"]},
-    { "order" : 46, "file":["/data/bot/sequences/nationaltrust/IsaacNewton.json"]}
-    ]
-}
+[
+  {
+    "Version": 5,
+    "GroupName": "Hero",
+    "SequenceFiles": [
+      { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
+      { "order" : 10, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
+      { "order" : 20, "file":["/data/bot/sequences/nationaltrust/NTFan.json"]},
+      { "order" : 30, "file":["/data/bot/sequences/nationaltrust/WaddesdonIntro.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/AliceInWonderland.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/GiantsCauseway.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/Stourhead.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/IsaacNewton.json"]}
+      ]
+  }
+]
