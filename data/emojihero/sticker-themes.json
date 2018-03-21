@@ -214,6 +214,40 @@
           "es": "Buenas noches"
         },
         "IntentionId": "D392C1"
+      },
+      {
+        "Path": {
+          "Source": "Internal",
+          "Link": "/specialoccasions/happy-birthday/default/small"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Source": "Internal",
+          "Path": "specialoccasions/happy-birthday/default/small/576921_242838995827378_1389051446_n.jpg"
+          },
+        "Labels": {
+          "en": "Happy birthday",
+          "fr": "Joyeux anniversaire",
+          "es": "Feliz cumpleaños"
+        },
+        "IntentionId": "A730B4"
+      },
+      {
+        "Path": {
+          "Source": "Internal",
+          "Link": "/specialoccasions/you-are-the-best/default/small"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Source": "Internal",
+          "Path": "specialoccasions/you-are-the-best/default/small/shutterstock_655313284.jpg"
+          },
+        "Labels": {
+          "en": "You are the best",
+          "fr": "Tu es le meilleur",
+          "es": "Eres el mejor"
+        },
+        "IntentionId": "8FB4AF"
       }
     ]
-}
+  }
