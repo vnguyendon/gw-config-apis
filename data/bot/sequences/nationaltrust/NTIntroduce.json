@@ -1,0 +1,95 @@
+{
+  "Type": "Node",
+  "Id": "NTIntroduce",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Wow… I totally forgot to introduce myself!",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I’m Nutty",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630650/shutterstock_570009961.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "here’s a recent selfie I took",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "NTIntroduceSurprised",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "A talking squirrel?",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Why so surprised?",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Technology has come a long way...",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NTIntroduceNice",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Nice to meet you",
+        "fr": "TBD",
+        "es": "TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "And you!",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’m glad it doesn’t bother you that I’m a talking squirrel...",
+            "fr": "TBD",
+            "es": "TBD"
+          }
+        }
+      ]
+    }
+  ]
+}
