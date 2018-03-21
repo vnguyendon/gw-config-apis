@@ -45,7 +45,7 @@
           "es": "TBD"
         },
         "LinksToFragment": {
-          "FragmentPath": "TBD"
+          "FragmentPath": "WaddesdonHistory"
         }
       },
       {
@@ -58,7 +58,7 @@
           "es": "TBD"
         },
         "LinksToFragment": {
-          "FragmentPath": "TBD"
+          "FragmentPath": "WaddesdonUse"
         }
       },
       {
@@ -71,7 +71,7 @@
           "es": "TBD"
         },
         "LinksToFragment": {
-          "FragmentPath": "TBD"
+          "FragmentPath": "WaddesdonAttractions"
         }
       },
       {
@@ -84,7 +84,7 @@
           "es": "TBD"
         },
         "LinksToFragment": {
-          "FragmentPath": "TBD"
+          "FragmentPath": "WaddesdonPictures"
         }
       }
     ]
