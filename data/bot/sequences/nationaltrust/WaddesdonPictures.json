@@ -1,0 +1,174 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonPictures",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I can definitely do that!",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonPicsGrounds",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "tbd",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "The Gardens",
+                    "fr": "tbd",
+                    "es": "tbd"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635665/Waddesdon_Grounds.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's such a gorgeous place...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonPicsSculpture",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "tbd",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "The Sculpture",
+                    "fr": "tbd",
+                    "es": "tbd"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635662/Waddesdon_Art.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's such a gorgeous place...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonPicsManor",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "tbd",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "The Manor",
+                    "fr": "tbd",
+                    "es": "tbd"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635654/Waddesdon_Architecture.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's such a gorgeous place...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonPicsInside",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "tbd",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Inside the manor",
+                    "fr": "tbd",
+                    "es": "tbd"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521634044/Waddesdon_Smoking_Room.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's such a gorgeous place...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonPicsAviary",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "tbd",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "The Aviary",
+                    "fr": "tbd",
+                    "es": "tbd"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521635663/Waddesdon_Aviary_Modern.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's such a gorgeous place...",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        }
+    ]
+}
+
