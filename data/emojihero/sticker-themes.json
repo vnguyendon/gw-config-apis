@@ -1,3 +1,4 @@
+
 {
     "Themes": [
       {
@@ -84,6 +85,23 @@
       {
         "Path": {
           "Source": "Internal",
+          "Link": "/specialoccasions/thank-you/default/small"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Source": "Internal",
+          "Path": "specialoccasions/thank-you/default/small/shutterstock_326065538_2.jpg"
+          },
+        "Labels": {
+          "en": "Thank you",
+          "fr": "Merci",
+          "es": "Gracias"
+        },
+        "IntentionId": "1778B7"
+      },
+      {
+        "Path": {
+          "Source": "Internal",
           "Link": "themes/pairs/small"
         },
         "DefaultImage": {
@@ -116,22 +134,6 @@
       {
         "Path": {
           "Source": "Internal",
-          "Link": "themes/holidays/small"
-        },
-        "DefaultImage": {
-          "Type": "Image",
-          "Source": "Internal",
-          "Path": "themes/holidays/small/shutterstock_258312176_10.jpg"
-          },
-        "Labels": {
-          "fr": "Vacances",
-          "en": "Holidays",
-          "es": "Vacaciones"
-        }
-      },
-      {
-        "Path": {
-          "Source": "Internal",
           "Link": "/specialoccasions/positive-thoughts/default/small"
         },
         "DefaultImage": {
@@ -145,6 +147,22 @@
           "es": "Pensamientos Positivos"
         },
         "IntentionId": "67CC40"
+      },
+      {
+        "Path": {
+          "Source": "Internal",
+          "Link": "themes/holidays/small"
+        },
+        "DefaultImage": {
+          "Type": "Image",
+          "Source": "Internal",
+          "Path": "themes/holidays/small/shutterstock_258312176_10.jpg"
+          },
+        "Labels": {
+          "fr": "Vacances",
+          "en": "Holidays",
+          "es": "Vacaciones"
+        }
       },
       {
         "Path": {
@@ -196,23 +214,6 @@
           "es": "Buenas noches"
         },
         "IntentionId": "D392C1"
-      },
-      {
-        "Path": {
-          "Source": "Internal",
-          "Link": "/specialoccasions/thank-you/default/small"
-        },
-        "DefaultImage": {
-          "Type": "Image",
-          "Source": "Internal",
-          "Path": "specialoccasions/thank-you/default/small/shutterstock_326065538_2.jpg"
-          },
-        "Labels": {
-          "en": "Thank you",
-          "fr": "Merci",
-          "es": "Gracias"
-        },
-        "IntentionId": "1778B7"
       }
     ]
-  }
+}
