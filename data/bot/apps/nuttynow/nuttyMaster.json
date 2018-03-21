@@ -1,6 +1,5 @@
 [
   {
-    "Version": 5,
     "GroupName": "Hero",
     "SequenceFiles": [
       { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
