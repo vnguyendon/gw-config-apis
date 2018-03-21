@@ -22,5 +22,9 @@
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1790577811253970"
+  },
+   "GalleryDailyNative": {
+    "Provider": "Facebook",
+    "ID": "1594200494225037_1790577811253970"
   }
 }
