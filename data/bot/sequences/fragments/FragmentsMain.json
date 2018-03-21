@@ -27,5 +27,8 @@
   "LKUUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestILikeYou.json",
   "ITYUltimateMessage": "/data/bot/sequences/experiments/Billy2/SuggestIThinkOfYou.json",
   "RuiExperiment1": "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json",
-  "WaddesdonHistory": "/data/bot/sequences/nationaltrust/WaddesdonHistory.json"
+  "WaddesdonHistory": "/data/bot/sequences/nationaltrust/WaddesdonHistory.json",
+  "WaddesdonUse": "/data/bot/sequences/nationaltrust/WaddesdonUse.json",
+  "WaddesdonPictures": "/data/bot/sequences/nationaltrust/WaddesdonPictures.json",
+  "WaddesdonAttractions": "/data/bot/sequences/nationaltrust/WaddesdonAttractions.json"
 }
