@@ -1,0 +1,134 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonUse",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Waddesdon is now a super popular attraction for visitors... and for weddings and other events",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521643850/Waddesdon_Market.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's also often used for movies and TV shows",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Know any of these?",
+                "fr": "tbd",
+                "es": "tbd"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonUseBond",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "James Bond - Never Say Never Again",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521643665/NT_James_Bond.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... Waddesdon was hired to shoot scenes from that film!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonUseDownton",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Downton Abbey",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521643680/NT_Downton.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... Waddesdon was hired to shoot scenes from the show!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonUseSherlock",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "tbd",
+                "es": "tbd"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "Sherlock Holmes - Game of Shadows",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521643676/NT_Sherlock_Holmes.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well... Waddesdon was hired to shoot scenes from that film!",
+                        "fr": "tbd",
+                        "es": "tbd"
+                    }
+                }
+            ]
+        }
+    ]
+}
