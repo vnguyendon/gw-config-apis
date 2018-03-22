@@ -4,6 +4,14 @@
   "Id": "SoupStopsHungerAndThirst",
   "Steps": [
     {
+      "Type": "Action",
+      "Name": "SetUserProperty",
+      "Parameters": {
+        "property": "ppAcceptNotification",
+        "value": "true"
+      }
+    },
+    {
       "Type": "Text",
       "Label": {
         "en": "I've decided...",
