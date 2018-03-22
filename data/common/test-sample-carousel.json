@@ -1,25 +1,33 @@
-[
-   {
-        "Title": {
-          "en": "👨🏼",
-          "fr": "👨🏼",
-          "es": "👨🏼"
+{
+   "id":"sampleCarousel",
+   "Title" : {
+          "en": "super carousel",
+          "fr": "super carousel",
+          "es": "super carousel"
         },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
-        }
-   },
-   
-   {
-        "Title": {
-          "en": "👨🏻",
-          "fr": "👨🏻",
-          "es": "👨🏻"
-        },
-        "Picture": {
-          "Source": "Web",
-          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613933/09c15f1af2cf2869_georgeclooney.jpg"
-        }
-      }
-]
+   "Elements": [
+         {
+              "Title": {
+                "en": "👨🏼",
+                "fr": "👨🏼",
+                "es": "👨🏼"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+              }
+         },
+
+         {
+              "Title": {
+                "en": "👨🏻",
+                "fr": "👨🏻",
+                "es": "👨🏻"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613933/09c15f1af2cf2869_georgeclooney.jpg"
+              }
+            }
+      ]
+}
