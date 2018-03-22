@@ -1,10 +1,8 @@
 {
   "GroupName": "onBoarding",
   "SequenceFiles": [
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoHumansHaveBatteries.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
-    { "order" : 100, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json"]}
+    { "order" : 20, "file":["/data/bot/sequences/smalltalk/DoHumansHaveBatteries.json","/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json","/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
+    { "order" : 60, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json","/data/bot/sequences/smalltalk/BaseballMovie.json"]}
   ]
 }
