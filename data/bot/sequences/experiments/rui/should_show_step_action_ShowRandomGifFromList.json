@@ -1,0 +1,22 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowRandomGifFromList",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowRandomGifFromList:it should show one ShowRandomGifFromList and then continue",
+        "fr": "ShowStepActionShowRandomGifFromList:it should show one ShowRandomGifFromList and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowRandomGifFromList",
+      "Parameters": {
+        "Path": "/data/common/giphycontent/hugs.json"
+      }
+    }
+    
+  ]
+}
