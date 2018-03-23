@@ -1,0 +1,22 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowCardFromIntention",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowCardFromIntention:it should show one ShowCardFromIntention and then continue",
+        "fr": "ShowStepActionShowCardFromIntention:it should show one ShowCardFromIntention and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCardFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296"
+      }
+    }
+    
+  ]
+}
