@@ -24,6 +24,10 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2071767060"
   },  
+  "DailyIdeasPullToRefresh": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4960579968"
+  }, 
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1425405144163525"
