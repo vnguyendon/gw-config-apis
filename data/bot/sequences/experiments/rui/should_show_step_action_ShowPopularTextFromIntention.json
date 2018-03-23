@@ -1,0 +1,22 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowPopularTextFromIntention",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowPopularTextFromIntention:it should show one ShowPopularTextFromIntention and then continue",
+        "fr": "ShowStepActionShowPopularTextFromIntention:it should show one ShowPopularTextFromIntention and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowPopularTextFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296"
+      }
+    }
+    
+  ]
+}
