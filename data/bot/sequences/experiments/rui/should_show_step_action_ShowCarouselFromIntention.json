@@ -1,0 +1,23 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowCarouselFromIntention",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowCarouselFromIntention:it should show one ShowCarouselFromIntention and then continue",
+        "fr": "ShowStepActionShowCarouselFromIntention:it should show one ShowCarouselFromIntention and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296",
+        "NumberOfCards": "3"
+      }
+    }
+    
+  ]
+}
