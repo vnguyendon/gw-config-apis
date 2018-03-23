@@ -1,0 +1,21 @@
+{
+  "Type": "Leaf",
+  "Comments":"it should show the text step and then continue",
+  "Id": "ShowStepActionShowPopularImageFromTheme",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "ShowStepActionShowPopularImageFromTheme:it should show one ShowPopularImageFromTheme and then continue",
+        "fr": "ShowStepActionShowPopularImageFromTheme:it should show one ShowPopularImageFromTheme and then continue"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowPopularImageFromTheme",
+      "Parameters": {
+        "Path": "/themes/emojiCats"
+      }
+    }
+  ]
+}
