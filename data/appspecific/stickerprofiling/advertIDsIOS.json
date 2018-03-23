@@ -18,7 +18,11 @@
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/7339681866"
     }
-  },  
+  },
+  "DailyIdeasPullToRefresh": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2175043648"
+  },
   "GalleryNative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1790577811253970"
