@@ -3,9 +3,22 @@
   {
     "GroupName":"TestShowCardSteps",
     "SequenceFiles" : [
-         { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+        { "order" : 407, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
+        { "order" : 408, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
+        { "order" : 409, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
+        { "order" : 410, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
+        { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
+        { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+      
+      
+      
          { "order": 1230, "file":[
             "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
       ]
   }
 ]
+
+
+
+
+
