@@ -18,7 +18,11 @@
   "AfterSharing": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/9034770936"
-  },  
+  },
+  "DailyIdeasPullToRefresh": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/5263886198"
+  }, 
   "GalleryNative": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/1086709400"
