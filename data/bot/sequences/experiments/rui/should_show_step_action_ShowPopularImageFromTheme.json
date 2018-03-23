@@ -14,7 +14,7 @@
       "Type": "Action",
       "Name": "ShowPopularImageFromTheme",
       "Parameters": {
-        "Path": "/themes/emojiCats"
+        "Path": "themes/emojicats"
       }
     }
   ]
