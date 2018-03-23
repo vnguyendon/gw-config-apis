@@ -1,0 +1,56 @@
+[
+  
+  {
+    "GroupName":"TestShowCardSteps",
+    "SequenceFiles" : [
+         { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ ShowCarouselFromList.json"]}
+      ]
+  },
+ {
+    "GroupName":"WorkWithFragments",
+    "SequenceFiles" : [
+         { "order" : 1010, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
+         { "order" : 1020, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
+         { "order" : 1030, "file": ["/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]}
+      ]
+  },
+  {
+    "GroupName":"Basic",
+    "SequenceFiles" : [
+        { "order": 1110, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep2.json"]},
+        { "order": 1120, "file":[
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json",
+            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
+        { "order": 1130, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest2.json"]},
+        { "order": 1140, "file":[
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
+            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]},
+        { "order": 1150, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
+        { "order": 1150, "file":[
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
+            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
+      
+      ]
+  },
+  {
+    "GroupName":"VerifyConditions",
+    "SequenceFiles" : [
+       { "order": 1210, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
+        { "order": 1220, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
+        { "order": 1220, "file":[
+            "/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+        { "order": 1230, "file":[
+            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+         
+        
+      ]
+  }
+]
