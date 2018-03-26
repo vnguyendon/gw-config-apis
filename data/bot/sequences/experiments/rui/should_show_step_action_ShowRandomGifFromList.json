@@ -14,7 +14,7 @@
       "Type": "Action",
       "Name": "ShowRandomGifFromList",
       "Parameters": {
-        "Path": "/data/common/giphycontent/hugs.json"
+        "Path": "/data/common/AnimatedEmojisNew.json"
       }
     }
     
