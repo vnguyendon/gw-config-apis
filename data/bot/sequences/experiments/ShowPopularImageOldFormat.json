@@ -1,0 +1,55 @@
+{
+  "Type": "Node",
+  "Id": "TestNewBotAction",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The first action performed is to show a Popular image from a specific category"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ShowPopularImageOldFormat",
+      "CommandLabel": {
+        "en": "Show Popular Image Old Format"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Image",
+            "Path": "themes/emojiCats"
+          }
+        }
+      ],
+      "LinksTo": [
+        {
+          "Type": "Node",
+          "Id": "ShowPopularImageTransition",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "ShowPopularImageNewFormat",
+              "CommandLabel": {
+                "en": "Show Popular Image New Format"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "ShowPopularImageFromTheme",
+                  "Parameters": {
+                    "Path": "/themes/emojiCats"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
