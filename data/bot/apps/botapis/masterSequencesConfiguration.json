@@ -59,6 +59,10 @@
     {
       "Name": "nuttynow",
       "File": "/data/bot/apps/nuttynow/nuttyMaster.json"
+    },
+    {
+      "Name": "ineedhugsandroid",
+      "File": "/data/bot/apps/ineedhugs/ineedhugsAndroidMaster.json"
     }
   ],
   "FragmentsFiles": [
