@@ -30,6 +30,14 @@
         {
           "Type": "Node",
           "Id": "ShowPopularImageTransition",
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "The second  action performed is to show a Popular image from a specific category - with the new format"
+              }
+            }
+          ],
           "Commands": [
             {
               "Type": "Node",
