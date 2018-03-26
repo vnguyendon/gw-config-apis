@@ -1,0 +1,22 @@
+[
+  {
+    "GroupName": "Hugs",
+    "SequenceFiles": [
+      { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
+      { "order" : 10, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
+      { "order" : 20, "file":["/data/bot/sequences/nationaltrust/NTFan.json"]},
+      { "order" : 30, "file":["/data/bot/sequences/nationaltrust/WaddesdonIntro.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/AliceInWonderland.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/GiantsCauseway.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/Stourhead.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/WhiteCliffsOfDover.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/BeatrixPotter.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/FarneIslands.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/JohnLennon.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/JudeLaw.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/PrideAndPrejudice.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/NymansGardens.json"]},
+      { "order" : 46, "file":["/data/bot/sequences/nationaltrust/NationalTrustIsAlso.json"]},
+    ]
+  }
+]
