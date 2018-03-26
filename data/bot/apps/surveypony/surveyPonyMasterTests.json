@@ -10,7 +10,7 @@
         { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
         { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
       
-      
+        { "order": 501, "file": ["/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]},
       
          { "order": 1230, "file":[
             "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
