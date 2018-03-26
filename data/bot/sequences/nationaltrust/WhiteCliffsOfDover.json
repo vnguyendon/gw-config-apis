@@ -12,9 +12,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Where would you go to see those impressive White Cliffs?",
-        "fr": "Where would you go to see those impressive White Cliffs?",
-        "es": "Where would you go to see those impressive White Cliffs?"
+        "en": "Where would you go to see those impressive white cliffs?",
+        "fr": "Where would you go to see those impressive white cliffs?",
+        "es": "Where would you go to see those impressive white cliffs?"
       }
     }
   ],
@@ -32,9 +32,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊",
-            "fr": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊",
-            "es": "That's it! And those cliffs face the exact narrowest part of the Channel 🌊"
+            "en": "Correct!",
+            "fr": "Correct!",
+            "es": "Correct!"
           }
         },
         {
@@ -42,6 +42,14 @@
           "Parameters": {
             "Mode": "Wait",
             "ms": 4000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "the cliffs face the exact narrowest part of the Channel 🌊",
+            "fr": "the cliffs face the exact narrowest part of the Channel 🌊",
+            "es": "the cliffs face the exact narrowest part of the Channel 🌊"
           }
         },
         {
@@ -101,9 +109,9 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "And those cliffs face the exact narrowest part of the Channel 🌊",
-            "fr": "And those cliffs face the exact narrowest part of the Channel 🌊",
-            "es": "And those cliffs face the exact narrowest part of the Channel 🌊"
+            "en": "the cliffs face the exact narrowest part of the Channel 🌊",
+            "fr": "the cliffs face the exact narrowest part of the Channel 🌊",
+            "es": "the cliffs face the exact narrowest part of the Channel 🌊"
           }
         },
         {
