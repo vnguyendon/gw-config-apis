@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "WhatKindOfStory",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you prefer reading or listening to stories?",
+        "fr": "Tu préfères lire ou écouter une histoire ?",
+        "es": "¿Prefieres leer o oír una historia?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "ReadingStories",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Reading stories",
+        "fr": "Lire une histoire",
+        "es": "Leer una historia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "SCnmKSVG4zdQc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "ListeningStories",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Listening to stories",
+        "fr": "Ecouter une histoire",
+        "es": "Oír una historia"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xT0GqFbzOCXeXoqc24"
+          }
+        }
+      ]
+    }
+  ]
+}
