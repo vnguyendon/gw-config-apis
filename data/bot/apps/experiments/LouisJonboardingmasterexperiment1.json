@@ -1,6 +1,7 @@
 {
   "GroupName": "onBoarding",
   "SequenceFiles": [
+    { "order" : 10, "file":["/data/bot/sequences/experiments/oldvsnewactions.json"]},
     { "order" : 20, "file":["/data/bot/sequences/smalltalk/DoHumansHaveBatteries.json","/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
     { "order" : 40, "file":["/data/bot/sequences/smalltalk/DoYouWantAKittenGif.json","/data/bot/sequences/smalltalk/DoYouWantAPenguinGif.json"]},
     { "order" : 60, "file":["/data/bot/sequences/smalltalk/FirstTimeBot.json","/data/bot/sequences/smalltalk/BaseballMovie.json"]}
