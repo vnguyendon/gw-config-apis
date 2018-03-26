@@ -1,0 +1,165 @@
+{
+  "Type": "Node",
+  "Id": "TestNewBotAction",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "The first action performed is to show a Popular image from a specific category"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ShowPopularImageOldFormat",
+      "CommandLabel": {
+        "en": "Show Popular Image Old Format"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Image",
+            "Path": "themes/emojiCats"
+          }
+        }
+      ],
+      "LinksTo": [
+        {
+          "Type": "Node",
+          "Id": "ShowPopularImageTransition",
+          "Commands": [
+            {
+              "Type": "Node",
+              "Id": "ShowPopularImageNewFormat",
+              "CommandLabel": {
+                "en": "Show Popular Image New Format"
+              },
+              "Steps": [
+                {
+                  "Type": "Action",
+                  "Name": "ShowPopularImageFromTheme",
+                  "Parameters": {
+                    "Path": "/themes/emojiCats"
+                  }
+                }
+              ],
+              "LinksTo": [
+                {
+                  "Type": "Node",
+                  "Id": "OtherTransisition1",
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second action performed is to show a Popular text from a specific category"
+                      }
+                    }
+                  ],
+                  "Commands": [
+                    {
+                      "Type": "Node",
+                      "Id": "ShowRPopularTextOldFormat",
+                      "CommandLabel": {
+                        "en": "Show Popular Text Old Format"
+                      },
+                      "Steps": [
+                        {
+                          "Type": "Action",
+                          "Name": "ShowCards",
+                          "Parameters": {
+                            "Type": "Text",
+                            "Id": "43B296"
+                          }
+                        }
+                      ],
+                      "LinksTo": {
+                        "Type": "Leaf",
+                        "Id": "ShowRPopularTextTransition",
+                        "Commands": [
+                          {
+                            "Type": "Node",
+                            "Id": "ShowPopularTextNewFormat",
+                            "CommandLabel": {
+                              "en": "Show Popular Text New Format"
+                            },
+                            "Steps": [
+                              {
+                                "Type": "Action",
+                                "Name": "ShowPopularTextFromIntention",
+                                "Parameters": {
+                                  "IntentionId": "43B296"
+                                }
+                              }
+                            ],
+                            "LinksTo": [
+                              {
+                                "Type": "Node",
+                                "Id": "OtherTransisition",
+                                "Steps": [
+                                  {
+                                    "Type": "Text",
+                                    "Label": {
+                                      "en": "The third action performed is to show a Popular card (= text+image association) for an intention"
+                                    }
+                                  }
+                                ],
+                                "Commands": [
+                                  {
+                                    "Type": "Node",
+                                    "Id": "ShowPopularCardOldFormat",
+                                    "CommandLabel": {
+                                      "en": "Show Popular Card Old Format"
+                                    },
+                                    "Steps": [
+                                      {
+                                        "Type": "Action",
+                                        "Name": "ShowCards",
+                                        "Parameters": {
+                                          "Type": "TextImage",
+                                          "Id": "43B296"
+                                        }
+                                      }
+                                    ],
+                                    "LinksTo": {
+                                      "Type": "Leaf",
+                                      "Id": "ShowPopularCardTransition",
+                                      "Commands": [
+                                        {
+                                          "Type": "Node",
+                                          "Id": "ShowPopularCardNewFormat",
+                                          "CommandLabel": {
+                                            "en": "Show Popular Card New Format"
+                                          },
+                                          "Steps": [
+                                            {
+                                              "Type": "Action",
+                                              "Name": "ShowCardFromIntention",
+                                              "Parameters": {
+                                                "IntentionId": "43B296"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
