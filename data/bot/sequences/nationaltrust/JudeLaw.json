@@ -47,9 +47,17 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "But it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵.",
-            "fr": "But it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵.",
-            "es": "But it is definitely Jude Law’s favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵."
+            "en": "But it is definitely Jude Law’s favourite!",
+            "fr": "But it is definitely Jude Law’s favourite!",
+            "es": "But it is definitely Jude Law’s favourite!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
+            "fr": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
+            "es": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           }
         },
         {
@@ -87,9 +95,17 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "Exactly! It is definitely his favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
-            "fr": "Exactly! It is definitely his favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
-            "es": "Exactly! It is definitely his favourite since one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
+            "en": "Exactly!",
+            "fr": "Exactly!",
+            "es": "Exactly!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
+            "fr": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵",
+            "es": "one of the greatest scenes of Sherlock Holmes was shot in there! 🕵"
           }
         },
         {
