@@ -1,9 +1,9 @@
 {
-  "user-comment": [
-      {
-          "You should push your content and pull links from this Google Sheets": "https://docs.google.com/spreadsheets/d/1s2cQUklGZ3Y_giB4HtdE3z25qmvxX9I4HETedqtD6Es/edit#gid=952716136"
-      }
-  ],
+  "Comments": 
+      [
+          "You should push your content and pull links from this Google Sheets",
+          "https://docs.google.com/spreadsheets/d/1s2cQUklGZ3Y_giB4HtdE3z25qmvxX9I4HETedqtD6Es/edit#gid=952716136"
+      ],
   "Images": [
      { "Source":"Giphy", "Path": "l0Iy8HGaStkUloVoY"},
      { "Source":"Giphy", "Path": "3o7buil9QoX91N17Ow"},
