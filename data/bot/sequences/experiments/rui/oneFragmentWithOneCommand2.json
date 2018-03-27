@@ -16,8 +16,8 @@
       "Type": "Node",
       "Id": "leafFragment2ReturnTo1",
       "CommandLabel": {
-        "en": "return to fragment 1",
-        "fr": "return to fragment 1"
+        "en": "back2 fragment1",
+        "fr": "back2 fragment1"
       },
       "Steps": [
         {
