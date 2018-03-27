@@ -1,0 +1,53 @@
+{
+  "Type": "Node",
+  "Comments": "it should show directly the button then the text step and continue to next step",
+  "Id": "oneFragmentWithOneCommand1",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "oneFragmentWithOneCommand1: inside fragment 1",
+            "fr": "oneFragmentWithOneCommand1: inside fragment 1"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "CommandLabel": {
+        "en": "continue with fragment 2",
+        "fr": "continue with fragment 2"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with fragment2",
+            "fr": "continuing with fragment2"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath":"oneFragmentWithOneCommand2"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "CommandLabel": {
+        "en": "Stop here",
+        "fr": "Stop here"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "stop fragments and continue with next sequence",
+            "fr": "stop fragments and continue with next sequence"
+          }
+        }
+      ]
+    }
+  ]
+}
