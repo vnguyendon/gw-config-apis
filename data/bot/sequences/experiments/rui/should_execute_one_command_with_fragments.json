@@ -16,8 +16,8 @@
       "Type": "Node",
       "Id": "leafNoStepWithOneLeafCommandContinue",
       "CommandLabel": {
-        "en": "continue with fragment",
-        "fr": "continue with fragment"
+        "en": "show fragment1",
+        "fr": "show fragment1"
       },
       "Steps": [
         {
