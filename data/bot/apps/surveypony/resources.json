@@ -322,6 +322,24 @@
           "value": "mayores de 40 años: {percentValue}%"
         }
       ]
+    },
+    
+    {
+      "key": "endOfConversationMessage",
+      "labels": [
+        {
+          "culture": "fr-FR",
+          "value": "That's all we have for now! Send us a message anytime!"
+        },
+        {
+          "culture": "en-EN",
+          "value": "C'est tout ce que nous avons pour le moment! n'hésite pas à nous envoyer un message!"
+        },
+        {
+          "culture": "es-ES",
+          "value": "¡Eso es todo lo que tenemos por el momento! no dudes en enviarnos un mensaje!"
+        }
+      ]
     }
     
   ],
