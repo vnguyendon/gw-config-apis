@@ -1,0 +1,53 @@
+{
+  "Type": "Node",
+  "Comments": "it shows the fragment 2, breaks with menu and continue execution",
+  "Id": "oneFragmentWithOneCommand2",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "oneFragmentWithOneCommand2: inside fragment 2",
+            "fr": "oneFragmentWithOneCommand2: inside fragment 2"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "leafFragment2ReturnTo1",
+      "CommandLabel": {
+        "en": "return to fragment 1",
+        "fr": "return to fragment 1"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with fragment1",
+            "fr": "continuing with fragment1"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath":"oneFragmentWithOneCommand1"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "leafFragment2stop",
+      "CommandLabel": {
+        "en": "Stop here",
+        "fr": "Stop here"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "stop fragments and continue with next sequence",
+            "fr": "stop fragments and continue with next sequence"
+          }
+        }
+      ]
+    }
+  ]
+}
