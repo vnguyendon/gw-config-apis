@@ -16,8 +16,8 @@
       "Type": "Node",
       "Id": "fragment1ContinueWithFragment2",
       "CommandLabel": {
-        "en": "continue with fragment 2",
-        "fr": "continue with fragment 2"
+        "en": "show fragment2",
+        "fr": "show fragment2"
       },
       "Steps": [
         {
