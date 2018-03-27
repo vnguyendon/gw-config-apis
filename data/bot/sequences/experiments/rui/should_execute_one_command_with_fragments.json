@@ -13,7 +13,7 @@
       ],
   "Commands": [
     {
-      "Type": "Leaf",
+      "Type": "Node",
       "Id": "leafNoStepWithOneLeafCommandContinue",
       "CommandLabel": {
         "en": "continue with fragment",
