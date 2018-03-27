@@ -6,8 +6,8 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "contains1CommandsWithFragments1: should show a command then continue with fragment",
-            "fr": "contains1CommandsWithFragments1: should show a command then continue with fragment"
+            "en": "contains1CommandsWithFragments1: should show a command then continue with fragment1",
+            "fr": "contains1CommandsWithFragments1: should show a command then continue with fragment1"
           }
         }
       ],
@@ -23,8 +23,8 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "leafNoStepWithOneLeafCommandContinue: text in Node/commands/step/text",
-            "fr": "leafNoStepWithOneLeafCommandContinue: text in Node/commands/step/text"
+            "en": "continuing with fragment 1",
+            "fr": "continuing with fragment 1"
           }
         }
       ],
