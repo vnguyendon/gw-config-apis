@@ -1,5 +1,11 @@
 [
-  
+  {
+    "GroupName":"TestFragments",
+    "SequenceFiles" : [
+        { "order" : 101, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
+        { "order": 1230, "file":["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+    ]
+  },
   {
     "GroupName":"TestShowCardSteps",
     "SequenceFiles" : [
@@ -9,17 +15,9 @@
         { "order" : 410, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
         { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
         { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
-        
-        { "order": 1230, "file":[
-            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
       ]
-  },
-  {
-    "GroupName":"TestFragments",
-    "SequenceFiles" : [
-        { "order" : 501, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]}
-       
   }
+  
 ]
 
 
