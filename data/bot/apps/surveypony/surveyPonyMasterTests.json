@@ -17,7 +17,7 @@
   {
     "GroupName":"TestFragments",
     "SequenceFiles" : [
-        { "order" : 501, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
+        { "order" : 501, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]}
        
   }
 ]
