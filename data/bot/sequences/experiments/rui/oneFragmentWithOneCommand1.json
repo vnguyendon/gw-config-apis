@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Comments": "it should show directly the button then the text step and continue to next step",
+  "Comments": "show fragment 1, breaks with menu, and then continue",
   "Id": "oneFragmentWithOneCommand1",
   "Steps": [
         {
@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "Id": "fragment1ContinueWithFragment2",
       "CommandLabel": {
         "en": "continue with fragment 2",
         "fr": "continue with fragment 2"
@@ -34,7 +34,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "Id": "fragment1StopHere",
       "CommandLabel": {
         "en": "Stop here",
         "fr": "Stop here"
