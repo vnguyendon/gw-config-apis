@@ -1,0 +1,50 @@
+{
+    "Id": "NuttyIntroPlaces",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Cliveden House",
+                "fr": "Cliveden House",
+                "es": "Cliveden House"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630659/shutterstock_29492137.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Bodiam Castle",
+                "fr": "Bodiam Castle",
+                "es": "Bodiam Castle"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630660/shutterstock_490784191.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Anne Hathaway's House",
+                "fr": "Anne Hathaway's House",
+                "es": "Anne Hathaway's House"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1521630658/shutterstock_121825960.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Attingham Park",
+                "fr": "Attingham Park",
+                "es": "Attingham Park"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1522231715/Attingham_Bridge.jpg"
+            }
+        }
+    ]
+}
