@@ -1,0 +1,97 @@
+{
+  "Type": "Node",
+  "Comments": "it shows the fragment, breaks with menu and continue execution",
+  "Id": "firstFragmentForTag3",
+  "Tags":["testtag2"],
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "firstFragmentForTag2: inside fragment 1 for tag3",
+            "fr": "firstFragmentForTag2: inside fragment 1 for tag3"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "nodeCommandContinueWithTag23",
+      "CommandLabel": {
+        "en": "tag2&3",
+        "fr": "tag2&3"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with one fragment for tag2 or tag3",
+            "fr": "continuing with one fragment for tag2 or tag3"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["testtag2","testtag3"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "nodeCommandContinueWithTag3",
+      "CommandLabel": {
+        "en": "tag3",
+        "fr": "tag3"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with one fragment for tag3",
+            "fr": "continuing with one fragment for tag3"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["testtag3"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "nodeCommandContinueWithTag2",
+      "CommandLabel": {
+        "en": "tag2",
+        "fr": "tag2"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with one fragment for tag2",
+            "fr": "continuing with one fragment for tag2"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["testtag2"]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "nodeCommandContinueWithTag1",
+      "CommandLabel": {
+        "en": "back to 1",
+        "fr": "back to 1"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with one fragment for tag1",
+            "fr": "continuing with one fragment for tag1"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath":["testtag1"]
+      }
+    }
+  ]
+}
