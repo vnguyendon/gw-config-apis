@@ -17,8 +17,8 @@
       "Type": "Node",
       "Id": "nodeCommandContinueWithTag23",
       "CommandLabel": {
-        "en": "tag2&3",
-        "fr": "tag2&3"
+        "en": "tag2+3",
+        "fr": "tag2+3"
       },
       "Steps": [
         {
