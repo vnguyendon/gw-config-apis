@@ -6,7 +6,7 @@
             "Type":"Action",
             "Name":"ShowCarouselFromList",
             "Parameters":{
-                "Path": "/data/common/carousels/nutty/IntroPlaces.json"
+                "Path": "/data/common/carousel/nutty/IntroPlaces.json"
             }
         },
         {
