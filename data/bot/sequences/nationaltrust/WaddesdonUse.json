@@ -38,7 +38,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonUseBond",
             "ElementValue": "1",
             "CommandLabel": {
@@ -72,7 +72,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonUseDownton",
             "ElementValue": "1",
             "CommandLabel": {
@@ -106,7 +106,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonUseSherlock",
             "ElementValue": "1",
             "CommandLabel": {
