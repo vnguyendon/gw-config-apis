@@ -1,6 +1,6 @@
 [
   {
-    "GroupName": "Hero",
+    "GroupName": "Nutty",
     "SequenceFiles": [
       { "order" : 3, "file":["/data/bot/sequences/nationaltrust/NuttyIntro.json"]},
       { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
