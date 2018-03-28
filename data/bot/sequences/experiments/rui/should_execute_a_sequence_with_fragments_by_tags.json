@@ -1,0 +1,36 @@
+{
+  "Type": "Node",
+  "Comments": "it should show directly the button then the text step and continue to next step",
+  "Id": "contains1CommandsWithTaggedFragments1",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "contains1CommandsWithTaggedFragments1: should show a command then continue with a random fragment for tag1",
+            "fr": "contains1CommandsWithTaggedFragments1: should show a command then continue with a random fragment for tag1"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "commandWithATagInside",
+      "CommandLabel": {
+        "en": "tag1",
+        "fr": "tag1"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "continuing with fragment for tag1",
+            "fr": "continuing with fragment for tag1"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "Tags":["testtag1"]
+      }
+    }
+  ]
+}
