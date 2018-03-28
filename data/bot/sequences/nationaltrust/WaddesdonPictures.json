@@ -15,7 +15,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonPicsGrounds",
             "ElementValue": "1",
             "CommandLabel": {
@@ -49,7 +49,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonPicsSculpture",
             "ElementValue": "1",
             "CommandLabel": {
@@ -83,7 +83,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonPicsManor",
             "ElementValue": "1",
             "CommandLabel": {
@@ -117,7 +117,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonPicsInside",
             "ElementValue": "1",
             "CommandLabel": {
@@ -151,7 +151,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonPicsAviary",
             "ElementValue": "1",
             "CommandLabel": {
