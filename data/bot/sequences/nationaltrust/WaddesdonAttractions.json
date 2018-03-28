@@ -44,7 +44,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonWineNoWay",
             "ElementValue": "1",
             "CommandLabel": {
@@ -61,10 +61,13 @@
                         "es": "TBD"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonNext"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonWineMore",
             "ElementValue": "1",
             "CommandLabel": {
@@ -81,10 +84,13 @@
                         "es": "TBD"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonNext"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonWineWant",
             "ElementValue": "1",
             "CommandLabel": {
@@ -109,7 +115,10 @@
                         "es": "TBD"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonNext"
+            }
         }
     ]
 }
