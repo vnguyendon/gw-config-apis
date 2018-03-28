@@ -7,8 +7,8 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "firstFragmentForTag2: inside fragment 1 for tag2 or tag3",
-            "fr": "firstFragmentForTag2: inside fragment 1 for tag2 or tag3"
+            "en": "firstFragmentForTag2And3: inside fragment 1 for tag2 and tag3",
+            "fr": "firstFragmentForTag2And3: inside fragment 1 for tag2 and tag3"
           }
         }
       ],
