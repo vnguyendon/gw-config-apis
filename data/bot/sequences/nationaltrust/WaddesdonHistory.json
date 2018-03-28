@@ -71,7 +71,7 @@
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "WaddesdonHistory"
+                "FragmentPath": "WaddesdonNext"
             }
         },
         {
@@ -110,7 +110,7 @@
                 }
             ],
             "LinksToFragment": {
-                "FragmentPath": "WaddesdonHistory"
+                "FragmentPath": "WaddesdonNext"
             }
         }
     ]
