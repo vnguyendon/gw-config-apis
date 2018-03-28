@@ -1,0 +1,135 @@
+{
+    "Type": "Node",
+    "Id": "NuttyIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello! Could you please tell me who owns these four places?",
+                "fr": "Hello! Could you please tell me who owns these four places?",
+                "es": "Hello! Could you please tell me who owns these four places?"
+            }
+        },
+        {
+            "Type":"Action",
+            "Name":"ShowCarouselFromList",
+            "Parameters":{
+                "Path": "/data/common/carousels/nutty/introplaces"
+            }
+        }
+    ],
+    "Commands":[
+        {
+            "Type": "Leaf",
+            "Id": "NuttyIntroNT",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "The National Trust",
+              "fr": "The National Trust",
+              "es": "The National Trust"
+            },
+            "Steps":[
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"You're correct, it's the National Trust!",
+                        "fr":"You're correct, it's the National Trust!",
+                        "es":"You're correct, it's the National Trust!"
+                    }
+                },
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"They're noble protectors of historical sites and natural areas in the UK",
+                        "fr":"They're noble protectors of historical sites and natural areas in the UK",
+                        "es":"They're noble protectors of historical sites and natural areas in the UK"
+                    }
+                }      
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "NuttyIntroLeBron",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "LeBron James",
+              "fr": "LeBron James",
+              "es": "LeBron James"
+            },
+            "Steps":[
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"Not quite... it's the National Trust!",
+                        "fr":"Not quite... it's the National Trust!",
+                        "es":"Not quite... it's the National Trust!"
+                    }
+                },
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"They're noble protectors of historical sites and natural areas in the UK",
+                        "fr":"They're noble protectors of historical sites and natural areas in the UK",
+                        "es":"They're noble protectors of historical sites and natural areas in the UK"
+                    }
+                }      
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "NuttyIntroMIB",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "The Men in Black",
+              "fr": "The Men in Black",
+              "es": "The Men in Black"
+            },
+            "Steps":[
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"Not quite... it's the National Trust!",
+                        "fr":"Not quite... it's the National Trust!",
+                        "es":"Not quite... it's the National Trust!"
+                    }
+                },
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"They're noble protectors of historical sites and natural areas in the UK",
+                        "fr":"They're noble protectors of historical sites and natural areas in the UK",
+                        "es":"They're noble protectors of historical sites and natural areas in the UK"
+                    }
+                }      
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "NuttyIntroNASA",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "NASA",
+              "fr": "NASA",
+              "es": "NASA"
+            },
+            "Steps":[
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"Not quite... it's the National Trust!",
+                        "fr":"Not quite... it's the National Trust!",
+                        "es":"Not quite... it's the National Trust!"
+                    }
+                },
+                {
+                    "Type":"Leaf",
+                    "Label":{
+                        "en":"They're noble protectors of historical sites and natural areas in the UK",
+                        "fr":"They're noble protectors of historical sites and natural areas in the UK",
+                        "es":"They're noble protectors of historical sites and natural areas in the UK"
+                    }
+                }      
+            ]
+        },
+    ]
+}
