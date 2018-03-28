@@ -3,6 +3,7 @@
     "GroupName":"TestFragments",
     "SequenceFiles" : [
         { "order" : 101, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
+        { "order" : 102, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
         { "order": 1230, "file":["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
     ]
   },
