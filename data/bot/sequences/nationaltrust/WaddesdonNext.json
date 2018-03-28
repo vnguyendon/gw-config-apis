@@ -1,0 +1,97 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonStep2",
+    "Condition": "ppWaddesdonNext == 'false'",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna stick with Waddesdon, or move on?",
+                "fr": "Wanna stick with Waddesdon, or move on?",
+                "es": "Wanna stick with Waddesdon, or move on?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "WaddesdonKnowHistory",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Its history",
+                "fr": "Its history",
+                "es": "Its history"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonHistory"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonKnowUse",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Modern use",
+                "fr": "Modern use",
+                "es": "Modern use"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonUse"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonKnowAttractions",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Attractions",
+                "fr": "Attractions",
+                "es": "Attractions"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonAttractions"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonKnowPictures",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me pictures!",
+                "fr": "Show me pictures!",
+                "es": "Show me pictures!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonPictures"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WaddesdonNext",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Next place!",
+                "fr": "Next place!",
+                "es": "Next place!",
+            },
+            "Steps": [
+                {
+                    "Type":"Action",
+                    "Name":"SetUserProperty",
+                    "Parameters": {
+                        "property":"ppWaddesdonNext",
+                        "value": "true"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Moving on...",
+                        "fr": "Alright! Moving on...",
+                        "es": "Alright! Moving on..."
+                    }
+                }
+            ]
+        }
+    ]
+}
