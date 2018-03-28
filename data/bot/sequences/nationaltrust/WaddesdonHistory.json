@@ -36,13 +36,13 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonHistoryPartyYes",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes",
-                "fr": "tbd",
-                "es": "tbd"
+                "fr": "Yes",
+                "es": "Yes"
             },
             "Steps": [
                 {
@@ -69,10 +69,13 @@
                         "es": "tbd"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonHistory"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonHistoryPartyNo",
             "ElementValue": "1",
             "CommandLabel": {
@@ -105,7 +108,10 @@
                         "es": "tbd"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonHistory"
+            }
         }
     ]
 }
