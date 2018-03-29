@@ -4,6 +4,11 @@
       "Name": "ineedhugs",
       "Source": "github",
       "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+    },
+    {
+      "Name": "rcbotdev",
+      "Source": "github",
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
   ],
   "FragmentsFiles": [
