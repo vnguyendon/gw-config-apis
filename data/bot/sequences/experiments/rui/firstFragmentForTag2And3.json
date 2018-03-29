@@ -90,7 +90,7 @@
         }
       ],
       "LinksToFragment": {
-        "FragmentPath":"testtag1"
+        "Tags":["testtag1"]
       }
     }
   ]
