@@ -3,18 +3,13 @@
     {
       "Name": "nuttynow",
       "Source": "github",
-      "File": "/data/bot/apps/nuttynow/nuttyMaster.json"
-    },
-    {
-      "Name": "rcdevbot",
-      "Source": "github",
-      "File": "/data/bot/apps/nuttynow/nuttyMaster.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
   ],
   "FragmentsFiles": [
     {
       "Topic": "main",
-      "File": "/data/bot/sequences/masterfiles/fragmentfiles.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
     }
   ]
 }
