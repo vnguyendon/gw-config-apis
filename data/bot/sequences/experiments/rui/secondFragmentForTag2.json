@@ -72,6 +72,23 @@
       "LinksToFragment": {
         "Tags":["testtag2"]
       }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "leafCommandStopHere",
+      "CommandLabel": {
+        "en": "stop",
+        "fr": "stop"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "stop fragment, continue with next seq",
+            "fr": "stop fragment, continue with next seq"
+          }
+        }
+      ]
     }
   ]
 }
