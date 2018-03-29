@@ -1,0 +1,15 @@
+{
+  "MasterFiles": [
+    {
+      "Name": "ineedhugs",
+      "Source": "github",
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
+    }
+  ],
+  "FragmentsFiles": [
+    {
+      "Topic": "main",
+      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
+    }
+  ]
+}
