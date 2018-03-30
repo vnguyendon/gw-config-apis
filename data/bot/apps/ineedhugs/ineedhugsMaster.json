@@ -10,10 +10,11 @@
         { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
         { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
       
+       { "order" : 1451, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
+        { "order" : 1452, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel2.json"]},
+        { "order" : 1453, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel3.json"]}
       
-      
-         { "order": 1230, "file":[
-            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+        
       ]
   }
 ]
