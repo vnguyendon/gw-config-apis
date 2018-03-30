@@ -71,13 +71,8 @@
           }
         }
       ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "LandscapeCarousel",
-        "ElementValue": "1",
-        "DisplayHint": "Carousel",
-        "Randomize": "true",
-        "Commands": [
+      "Randomize": "true",
+      "Commands": [
           {
             "Type": "Leaf",
             "Id": "LandscapePrefer1",
@@ -108,8 +103,9 @@
                 }
               }
             ]
-          },
-          {
+          }
+          ,
+        {
             "Type": "Leaf",
             "Id": "LandscapePrefer2",
             "ElementValue": "1",
@@ -234,7 +230,6 @@
             ]
           }
         ]
-      }
     },
     {
       "Type": "Leaf",
