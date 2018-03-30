@@ -1,19 +1,6 @@
 [
   
-  {
-    "GroupName":"TestShowCardSteps",
-    "SequenceFiles" : [
-         { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ ShowCarouselFromList.json"]}
-      ]
-  },
- {
-    "GroupName":"WorkWithFragments",
-    "SequenceFiles" : [
-         { "order" : 1010, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
-         { "order" : 1020, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
-         { "order" : 1030, "file": ["/data/bot/sequences/appspecials/emojihero/SuggestIntro.json"]}
-      ]
-  },
+  
   {
     "GroupName":"Basic",
     "SequenceFiles" : [
@@ -52,5 +39,32 @@
          
         
       ]
+  },
+  {
+    "GroupName":"TestFragments",
+    "SequenceFiles" : [
+        { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
+        { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
+    ]
+  },
+  {
+    "GroupName":"TestShowCardSteps",
+    "SequenceFiles" : [
+        { "order" : 1407, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
+        { "order" : 1408, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
+        { "order" : 1409, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
+        { "order" : 1410, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
+        { "order" : 1411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
+        { "order" : 1412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+      ]
+  },
+  {
+    "GroupName":"ClickableCarousel",
+    "SequenceFiles" : [
+        { "order" : 1451, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
+        { "order" : 1452, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
+        { "order" : 1453, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]}
+      ]
   }
+ 
 ]
