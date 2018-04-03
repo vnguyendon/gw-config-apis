@@ -1,0 +1,15 @@
+{
+  "Type": "Leaf",
+  "Comments":"show text as template with variable if variable is not null",
+  "Condition": "u.Country != null",
+  "Id": "paramtrizedTextWithCountry",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "paramtrizedTextWithCountry: hello, it's great to know that you live in {{Country}}. I have a lot of bot friends there!",
+        "fr": "paramtrizedTextWithCountry: hello, it's great to know that you live in {{Country}}. I have a lot of bot friends there!"
+      }
+    }
+  ]
+}
