@@ -3,6 +3,8 @@
     "GroupName":"ClickableCarousel",
     "SequenceFiles" : [
         { "order" : 10, "file":["/data/bot/sequences/settings/SetLocation.json"]},
+        { "order" : 20, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
+        { "order" : 30, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]},
         { "order" : 1450, "file":["/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
         { "order" : 1451, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
         { "order" : 1452, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel2.json"]},
