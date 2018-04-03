@@ -1,0 +1,15 @@
+{
+  "Type": "Leaf",
+  "Comments":"show text as template with variable if variable is not null",
+  "Condition": "u.FirstName != null",
+  "Id": "paramtrizedTextWithName",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "paramtrizedTextWithName: hello, your name is {{FirstName}}",
+        "fr": "paramtrizedTextWithName: hello, your name is {{FirstName}}"
+      }
+    }
+  ]
+}
