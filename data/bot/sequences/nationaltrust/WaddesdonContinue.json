@@ -60,7 +60,17 @@
                 "en": "Next place!",
                 "fr": "Next place!",
                 "es": "Next place!"
-            }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright! Moving on...",
+                        "fr": "Alright! Moving on...",
+                        "es": "Alright! Moving on..."
+                    }
+                }
+            ]
         }
     ]
 }
