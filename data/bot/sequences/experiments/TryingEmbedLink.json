@@ -1,0 +1,48 @@
+{
+  "Type": "Node",
+  "Id": "TryingEmbedLink",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you looking for...",
+        "fr": "Es-tu en quête...",
+        "es": "Tu gustaría encontrar..."
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LookingForLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "love",
+        "fr": "de l'amour",
+        "es": "el amor"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "DtJw1cqMCHSvu"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "EmbedLink",
+          "Parameters": {
+            "Path": "http://www.celinedion.com/",
+            "Label": {
+              "en": "Here you go 🙂",
+              "fr": "Très bien ! C'est par ici 🙂",
+              "es": "¡Muy bueno! Está por aquí 🙂"
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
