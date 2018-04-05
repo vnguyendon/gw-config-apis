@@ -13,7 +13,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonKnowHistory",
             "ElementValue": "1",
             "CommandLabel": {
@@ -23,7 +23,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonKnowUse",
             "ElementValue": "1",
             "CommandLabel": {
@@ -33,7 +33,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonKnowAttractions",
             "ElementValue": "1",
             "CommandLabel": {
@@ -43,7 +43,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonKnowPictures",
             "ElementValue": "1",
             "CommandLabel": {
@@ -53,13 +53,13 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonNext",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Next place!",
                 "fr": "Next place!",
-                "es": "Next place!",
+                "es": "Next place!"
             },
             "Steps": [
                 {
