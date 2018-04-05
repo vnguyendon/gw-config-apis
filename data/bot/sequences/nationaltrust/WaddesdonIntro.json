@@ -3,17 +3,9 @@
   "Id": "WaddesdonIntro",
   "Steps": [
     {
-      "Type": "Action",
-      "Name": "SetUserProperty",
-      "Parameters": {
-        "property": "ppWaddesdonNext",
-        "value": "false"
-      }
-    },
-    {
       "Type": "Text",
       "Label": {
-        "en": "Vext is one of my favourites... Waddesdon Manor!",
+        "en": "Next is one of my favourites... Waddesdon Manor!",
         "fr": "TBD",
         "es": "TBD"
       }
