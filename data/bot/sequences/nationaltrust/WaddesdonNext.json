@@ -20,9 +20,6 @@
                 "en": "Its history",
                 "fr": "Its history",
                 "es": "Its history"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WaddesdonHistory"
             }
         },
         {
@@ -33,9 +30,6 @@
                 "en": "Modern use",
                 "fr": "Modern use",
                 "es": "Modern use"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WaddesdonUse"
             }
         },
         {
@@ -46,9 +40,6 @@
                 "en": "Attractions",
                 "fr": "Attractions",
                 "es": "Attractions"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WaddesdonAttractions"
             }
         },
         {
@@ -59,13 +50,10 @@
                 "en": "Show me pictures!",
                 "fr": "Show me pictures!",
                 "es": "Show me pictures!"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "WaddesdonPictures"
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonNext",
             "ElementValue": "1",
             "CommandLabel": {
