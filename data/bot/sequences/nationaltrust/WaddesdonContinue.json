@@ -13,7 +13,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonKnowHistory",
             "ElementValue": "1",
             "CommandLabel": {
@@ -39,7 +39,7 @@
             }
         },        
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonKnowAttractions",
             "ElementValue": "1",
             "CommandLabel": {
@@ -52,7 +52,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonKnowPictures",
             "ElementValue": "1",
             "CommandLabel": {
