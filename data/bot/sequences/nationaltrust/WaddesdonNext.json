@@ -65,7 +65,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "WaddesdonNext",
             "ElementValue": "1",
             "CommandLabel": {
