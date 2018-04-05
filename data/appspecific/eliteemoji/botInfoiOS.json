@@ -1,8 +1,8 @@
 {
-  "botName":"foo",
+  "botName":"surveypony",
   "botIconName":"pony",
   "botTitle": {
-    "en":"Pony",
+    "en":"Survey Pony",
     "fr":"Poney",
     "es":"Poni"
   }
