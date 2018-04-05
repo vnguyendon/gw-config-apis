@@ -67,4 +67,13 @@
       ]
   }
  
+   {
+    "GroupName":"SpecialSteps",
+    "SequenceFiles" : [
+        { "order" : 1510, "file":["/data/bot/sequences/settings/SetLocation.json"]},
+        { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
+        { "order" : 1530, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]}
+      ]
+  }
+  
 ]
