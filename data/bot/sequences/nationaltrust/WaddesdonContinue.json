@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Id": "WaddesdonContinue",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Wanna stick with Waddesdon, or move on?",
+                "fr": "Wanna stick with Waddesdon, or move on?",
+                "es": "Wanna stick with Waddesdon, or move on?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonKnowHistory",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Its history",
+                "fr": "Its history",
+                "es": "Its history"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonKnowUse",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Modern use",
+                "fr": "Modern use",
+                "es": "Modern use"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonKnowAttractions",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Attractions",
+                "fr": "Attractions",
+                "es": "Attractions"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonKnowPictures",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Show me pictures!",
+                "fr": "Show me pictures!",
+                "es": "Show me pictures!"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WaddesdonNext",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Next place!",
+                "fr": "Next place!",
+                "es": "Next place!"
+            }
+        }
+    ]
+}
