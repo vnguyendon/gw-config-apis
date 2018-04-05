@@ -20,6 +20,9 @@
                 "en": "Its history",
                 "fr": "Its history",
                 "es": "Its history"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonHistory"
             }
         },
         {
@@ -43,6 +46,9 @@
                 "en": "Attractions",
                 "fr": "Attractions",
                 "es": "Attractions"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonAttractions"
             }
         },
         {
@@ -53,11 +59,14 @@
                 "en": "Show me pictures!",
                 "fr": "Show me pictures!",
                 "es": "Show me pictures!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonPictures"
             }
         },
         {
             "Type": "Leaf",
-            "Id": "WaddesdonWTF",
+            "Id": "WaddesdonNextPlace",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Next place!",
