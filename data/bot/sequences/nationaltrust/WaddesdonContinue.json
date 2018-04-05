@@ -23,15 +23,18 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonKnowUse",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Modern use",
                 "fr": "Modern use",
                 "es": "Modern use"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonUse"
             }
-        },
+        },        
         {
             "Type": "Leaf",
             "Id": "WaddesdonKnowAttractions",
