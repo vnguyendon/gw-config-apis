@@ -30,6 +30,6 @@
   "WaddesdonHistory": "/data/bot/sequences/nationaltrust/WaddesdonHistory.json",
   "WaddesdonUse": "/data/bot/sequences/nationaltrust/WaddesdonUse.json",
   "WaddesdonPictures": "/data/bot/sequences/nationaltrust/WaddesdonPictures.json",
-  "WaddesdonAttractions": "/data/bot/sequences/nationaltrust/WaddesdonAttractions.json",
-  "WaddesdonNext": "/data/bot/sequences/nationaltrust/WaddesdonNext.json"
+  "WaddesdonNext": "/data/bot/sequences/nationaltrust/WaddesdonNext.json",
+  "WaddesdonAttractions": "/data/bot/sequences/nationaltrust/WaddesdonAttractions.json"
 }
