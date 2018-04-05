@@ -1,7 +1,6 @@
 {
     "Type": "Node",
     "Id": "WaddesdonNext",
-    "Condition": "ppWaddesdonNext == 'false'",
     "Steps": [
         {
             "Type": "Text",
@@ -66,7 +65,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "WaddesdonNext",
             "ElementValue": "1",
             "CommandLabel": {
