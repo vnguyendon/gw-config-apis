@@ -1,5 +1,11 @@
 [
   {
+    "GroupName":"TestEmbedLink",
+    "SequenceFiles" : [
+        { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]}
+      ]
+  },
+  {
     "GroupName":"TestFragments",
     "SequenceFiles" : [
         { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
