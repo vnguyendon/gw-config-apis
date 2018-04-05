@@ -1,0 +1,96 @@
+{
+    "Type": "Node",
+    "Id": "SPNotification",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Oh, one thing...",
+                "fr": "Ah et j'ai une question...",
+                "es": "Oh, una cosa..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to receive notifications from me?",
+                "fr": "Aimerais-tu recevoir des notifications de ma part ?",
+                "es": "¿Te gustaría recibir notificaciones de mi parte?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "SPNotificationYES",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sure!",
+                "fr": "Bien sûr !",
+                "es": "¡Claro!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great!",
+                        "fr": "Super !",
+                        "es": "¡Genial!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppAcceptNotification",
+                        "value": "true"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Now lets continue...",
+                        "fr": "Continuons maintenant...",
+                        "es": "Ahora sigamos..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SPNotificationNO",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No thanks",
+                "fr": "Non merci",
+                "es": "No gracias"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Alright, no problem!",
+                        "fr": "Okay, pas de soucis",
+                        "es": "Bien, no problema"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "SetUserProperty",
+                    "Parameters": {
+                        "property": "ppAcceptNotification",
+                        "value": "false"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let's continue...",
+                        "fr": "Continuons...",
+                        "es": "Sigamos..."
+                    }
+                }
+            ]
+        }
+    ]
+}
