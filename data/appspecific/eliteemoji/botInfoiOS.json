@@ -1,0 +1,9 @@
+{
+  "botName":"foo",
+  "botIconName":"pony",
+  "botTitle": {
+    "en":"Pony",
+    "fr":"Poney",
+    "es":"Poni"
+  }
+}
