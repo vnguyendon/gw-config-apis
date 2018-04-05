@@ -1,0 +1,39 @@
+{
+    "Type":"Node",
+    "Id":"WFT",
+    "Steps":[
+        {
+            "Type":"Text",
+            "Label":{
+                "en":"Pick an option",
+                "fr":"TBD",
+                "es":"TBD"
+            }
+        },
+    ],
+    "Commands":[
+        {
+            "Type": "Node",
+            "Id": "WFT2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Find waddesdonnext",
+                "fr": "Its history",
+                "es": "Its history"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "WaddesdonNext"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "WFT3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "go to wadintro",
+                "fr": "Its history",
+                "es": "Its history"
+            }
+        }
+    ]
+}
