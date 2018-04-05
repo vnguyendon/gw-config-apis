@@ -9,7 +9,8 @@
   "FragmentsFiles": [
     {
       "Topic": "main",
-      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
+      "File":"/data/bot/sequences/fragments/FragmentsMain.json",
+      "Normal": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
     }
   ]
 }
