@@ -1,0 +1,73 @@
+{
+    "Type": "Node",
+    "Id": "WhichSideHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So... which side do you naturally lean to when hugging?",
+                "fr": "So... which side do you naturally lean to when hugging?",
+                "es": "So... which side do you naturally lean to when hugging?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "WhichSideHugLeft",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "⬅ Left",
+                "fr": "⬅ Left",
+                "es": "⬅ Left"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Some scientists say that most people lean to the left, since our emotional brain is on the right...",
+                        "fr": "Some scientists say that most people lean to the left, since our emotional brain is on the right...",
+                        "es": "Some scientists say that most people lean to the left, since our emotional brain is on the right..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "WhichSideHugRight",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Right ➡",
+                "fr": "Right ➡",
+                "es": "Right ➡"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Some scientists say that most people lean to the left, since our emotional brain is on the right...",
+                        "fr": "Some scientists say that most people lean to the left, since our emotional brain is on the right...",
+                        "es": "Some scientists say that most people lean to the left, since our emotional brain is on the right..."
+                    }
+                }
+            ]
+        }
+    ]
+}
