@@ -1,4 +1,9 @@
 {
+  "OneFragmentForKeywordCat":"/data/bot/sequences/experiments/rui/OneFragmentForKeywordCat.json",
+  "OneFragmentForKeywordDog":"/data/bot/sequences/experiments/rui/OneFragmentForKeywordDog.json",
+  "OneFragmentForKeywordLove":"/data/bot/sequences/experiments/rui/OneFragmentForKeywordLove.json",
+  
+  
   "oneFragmentWithOneCommand1":"/data/bot/sequences/experiments/rui/oneFragmentWithOneCommand1.json",
   "oneFragmentWithOneCommand2":"/data/bot/sequences/experiments/rui/oneFragmentWithOneCommand2.json",
   
