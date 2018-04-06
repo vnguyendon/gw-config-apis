@@ -51,9 +51,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "I'm afraid you are Hug-deficient, but I can fix that easily",
-                                    "fr": "I'm afraid you are Hug-deficient, but I can fix that easily",
-                                    "es": "I'm afraid you are Hug-deficient, but I can fix that easily"
+                                    "en": "I'm afraid you are hug-deficient, but I can fix that easily",
+                                    "fr": "I'm afraid you are hug-deficient, but I can fix that easily",
+                                    "es": "I'm afraid you are hug-deficient, but I can fix that easily"
                                 }
                             }
                         ],
