@@ -215,6 +215,60 @@
         "fr": "Je suis en retard",
         "es": "Voy tarde"
       }
+    },
+    {
+      "Path": "/common/giphycontent/AnimalHugs.json",
+      "DefaultImage": "/themes/animals/small/0013729e42d21462877306.jpg",
+      "Labels": {
+        "en": "Animal hugs",
+        "fr": "Animal hugs",
+        "es": "Animal hugs"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/CartoonHugs.json",
+      "DefaultImage": "/themes/hugs2/small/iStock_000041699648_Medium.jpg",
+      "Labels": {
+        "en": "Cartoon hugs",
+        "fr": "Cartoon hugs",
+        "es": "Cartoon hugs"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/CatHugs.json",
+      "DefaultImage": "/themes/hugs2/small/iStock_000003442414_Medium.jpg",
+      "Labels": {
+        "en": "Cat hugs",
+        "fr": "Cat hugs",
+        "es": "Cat hugs"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/DogHugs.json",
+      "DefaultImage": "/themes/hugs2/small/shutterstock_111134696.jpg",
+      "Labels": {
+        "en": "Dog hugs",
+        "fr": "Dog hugs",
+        "es": "Dog hugs"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/LoveHugs.json",
+      "DefaultImage": "/themes/hugs2/small/shutterstock_645382021.jpg",
+      "Labels": {
+        "en": "Love hugs",
+        "fr": "Love hugs",
+        "es": "Love hugs"
+      }
+    },
+    {
+      "Path": "/common/giphycontent/View1Hugs.json",
+      "DefaultImage": "/themes/hugs2/small/shutterstock_180388256.jpg",
+      "Labels": {
+        "en": "Special hugs",
+        "fr": "Special hugs",
+        "es": "Special hugs"
+      }
     }
   ]
 }
