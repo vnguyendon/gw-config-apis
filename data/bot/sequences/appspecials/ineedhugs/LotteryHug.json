@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Comments": "Bot asks if user has won the lottery, and offers a hug if he hasn't",
+    "Id": "LotteryHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "May I ask, have you won the lottery recently?",
+                "fr": "May I ask, have you won the lottery recently?",
+                "es": "May I ask, have you won the lottery recently?"
+            }
+        }
+    ],
+    "Commands":[
+        {
+            "Type": "Node",
+            "Id": "LotteryHugNo",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I believe I know why: hug-deficiency is to blame...",
+                        "fr": "I believe I know why: hug-deficiency is to blame...",
+                        "es": "I believe I know why: hug-deficiency is to blame..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Have one!",
+                        "fr": "Have one!",
+                        "es": "Have one!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "LotteryHugYes",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's excellent. I can think of no-one who deserves it more...",
+                        "fr": "That's excellent. I can think of no-one who deserves it more...",
+                        "es": "That's excellent. I can think of no-one who deserves it more..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You are most welcome to share with the Hug Consultant (me) if you feel generous",
+                        "fr": "You are most welcome to share with the Hug Consultant (me) if you feel generous",
+                        "es": "You are most welcome to share with the Hug Consultant (me) if you feel generous"
+                    }
+                }
+            ]
+        }
+    ]
+}
