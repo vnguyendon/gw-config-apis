@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Comments": "Chemicals are released from hugs by the way",
+    "Id": "ChemicalsHug",
+    "Steps":[
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Did you know that hugs release chemicals that improve your mood?",
+                "fr": "Did you know that hugs release chemicals that improve your mood?",
+                "es": "Did you know that hugs release chemicals that improve your mood?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ChemicalsHugYes",
+            "CommandLabel": {
+                "en": "Yes I did",
+                "fr": "Yes I did",
+                "es": "Yes I did"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I see you're a hug scientist too... perhaps we studied at the same lab 👩‍🔬",
+                        "fr": "I see you're a hug scientist too... perhaps we studied at the same lab 👩‍🔬",
+                        "es": "I see you're a hug scientist too... perhaps we studied at the same lab 👩‍🔬"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "ChemicalsHugNo",
+            "CommandLabel": {
+                "en": "No I didn't",
+                "fr": "No I didn't",
+                "es": "No I didn't"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's true! I have a PhD in Hugology, and I was born at Hug Point, Oregon, so I know",
+                        "fr": "It's true! I have a PhD in Hugology, and I was born at Hug Point, Oregon, so I know",
+                        "es": "It's true! I have a PhD in Hugology, and I was born at Hug Point, Oregon, so I know"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll prove it...",
+                        "fr": "I'll prove it...",
+                        "es": "I'll prove it..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        }
+    ]
+}
