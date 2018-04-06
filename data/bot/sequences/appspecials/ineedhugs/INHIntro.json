@@ -12,6 +12,7 @@
             }
         }
     ],
+    "Skippable": false,
     "Commands": [
         {
             "Type": "Node",
