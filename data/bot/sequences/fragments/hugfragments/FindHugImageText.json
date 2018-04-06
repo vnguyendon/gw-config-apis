@@ -1,5 +1,5 @@
 {
-    "Type": "Node",
+    "Type": "Leaf",
     "Comments": "Finds a random hug image and hug text",
     "Id": "HugTagImageText",
     "Tags":["Hug"],
