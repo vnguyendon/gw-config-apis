@@ -5,7 +5,8 @@
             { "order": 5, "file":["/data/bot/sequences/appspecials/emojihero/HowAboutSending.json"]},
             { "order": 10, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
             { "order": 15, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
-            { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]}
+            { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
+            { "order" : 610, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]}
         ]
     }
 ]
