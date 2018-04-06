@@ -1,0 +1,74 @@
+{
+    "Type": "Node",
+    "Comments": "Bot asks if it is raining and offers a hug if it is",
+    "Id": "RainingHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Is it raining where you are right now?",
+                "fr": "Is it raining where you are right now?",
+                "es": "Is it raining where you are right now?"
+            }
+        }
+    ],
+    "Commands":[
+        {
+            "Type": "Node",
+            "Id": "RainingHugYes",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I thought so... I detected a lack of hugs in your area",
+                        "fr": "I thought so... I detected a lack of hugs in your area",
+                        "es": "I thought so... I detected a lack of hugs in your area"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I have just the fix, however...",
+                        "fr": "I have just the fix, however...",
+                        "es": "I have just the fix, however..."
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugImageText"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "RainingHugNo",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's good. The area must be full of hugs...",
+                        "fr": "That's good. The area must be full of hugs...",
+                        "es": "That's good. The area must be full of hugs..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hugs cause good weather, you know",
+                        "fr": "Hugs cause good weather, you know",
+                        "es": "Hugs cause good weather, you know"
+                    }
+                }
+            ]
+        }
+    ]
+}
