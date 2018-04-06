@@ -17,6 +17,7 @@
         {
             "Type": "Node",
             "Id": "INHIntroGetStarted",
+            "ElementValue":"1",
             "CommandLabel": {
                 "en": "GET STARTED",
                 "fr": "GET STARTED",
@@ -25,6 +26,7 @@
             "LinksTo": {
                 "Type": "Node",
                 "Id": "INHIntroHowMany",
+                "ElementValue":"1",
                 "Steps": [
                     {
                         "Type": "Text",
@@ -39,6 +41,7 @@
                     {
                         "Type": "Leaf",
                         "Id": "INHIntroHowUnder3",
+                        "ElementValue":"1",
                         "CommandLabel": {
                             "en": "Less than three",
                             "fr": "Less than three",
@@ -61,6 +64,7 @@
                     {
                         "Type": "Leaf",
                         "Id": "INHIntroHowOver3",
+                        "ElementValue":"1",
                         "CommandLabel": {
                             "en": "Three or more",
                             "fr": "Three or more",
