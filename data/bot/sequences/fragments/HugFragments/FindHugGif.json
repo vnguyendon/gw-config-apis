@@ -1,0 +1,16 @@
+{
+    "Type": "Node",
+    "Comments": "Finds a random hug gif",
+    "Id": "HugTagFindGif",
+    "Tags":["Hug"],
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name":"ShowCards",
+            "Parameters":{
+                "Type":"Gif",
+                "Path":"/data/common/giphycontent/hugs.json"
+            }
+        }
+    ]
+}
