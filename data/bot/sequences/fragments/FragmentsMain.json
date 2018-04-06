@@ -38,5 +38,7 @@
   "firstFragmentForTag2And3": "/data/bot/sequences/experiments/rui/firstFragmentForTag2And3.json",
   "firstFragmentForTag3": "/data/bot/sequences/experiments/rui/firstFragmentForTag3.json",
   "secondFragmentForTag2": "/data/bot/sequences/experiments/rui/secondFragmentForTag2.json",
-  "secondFragmentForTag3": "/data/bot/sequences/experiments/rui/secondFragmentForTag3.json"
+  "secondFragmentForTag3": "/data/bot/sequences/experiments/rui/secondFragmentForTag3.json",
+  "FindHugGif": "/data/bot/sequences/fragments/hugfragments/FindHugGif.json",
+  "FindHugImageText": "/data/bot/sequences/fragments/hugfragments/FindImageText.json"
 }
