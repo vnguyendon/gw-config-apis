@@ -1,0 +1,66 @@
+{
+    "Type": "Node",
+    "Comments": "Bot asks if they enjoyed their last meal, then recommends a hug if they didn't",
+    "Id": "RecentMealHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I'm curious, how did your most recent meal taste?",
+                "fr": "I'm curious, how did your most recent meal taste?",
+                "es": "I'm curious, how did your most recent meal taste?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "RecentMealHugGood",
+            "CommandLabel": {
+                "en": "Delicious",
+                "fr": "Delicious",
+                "es": "Delicious"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "That's great! You deserve great food for being so awesome 👌",
+                        "fr": "That's great! You deserve great food for being so awesome 👌",
+                        "es": "That's great! You deserve great food for being so awesome 👌"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "RecentMealHugBad",
+            "CommandLabel": {
+                "en": "Not so tasty",
+                "fr": "Not so tasty",
+                "es": "Not so tasty"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As usual, a lack of hugs is probably to blame...",
+                        "fr": "As usual, a lack of hugs is probably to blame...",
+                        "es": "As usual, a lack of hugs is probably to blame..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Let's change that!",
+                        "fr": "Let's change that!",
+                        "es": "Let's change that!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugImageText"
+            }
+        }
+    ]
+}
