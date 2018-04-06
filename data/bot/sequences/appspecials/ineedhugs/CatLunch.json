@@ -1,0 +1,151 @@
+{
+    "Type": "Node",
+    "Comments": "Bot asks user which cat he would like to have lunch with",
+    "Id": "CatLunch",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I have an important question...",
+                "fr": "I have an important question...",
+                "es": "I have an important question..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Which of these cats would you most like to have lunch with?",
+                "fr": "Which of these cats would you most like to have lunch with?",
+                "es": "Which of these cats would you most like to have lunch with?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "CatLunch1",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/animals/small/iStock_000037784564_Large.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank you, it helps my research in hugology",
+                        "fr": "Thank you, it helps my research in hugology",
+                        "es": "Thank you, it helps my research in hugology"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "CatLunch2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/animals/small/Animals-with-different-colored-eyes-02.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank you, it helps my research in hugology",
+                        "fr": "Thank you, it helps my research in hugology",
+                        "es": "Thank you, it helps my research in hugology"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "CatLunch3",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/animals/small/251963_394581080604935_1885965519_n.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank you, it helps my research in hugology",
+                        "fr": "Thank you, it helps my research in hugology",
+                        "es": "Thank you, it helps my research in hugology"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "CatLunch4",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "This one",
+                "fr": "Celui-ci",
+                "es": "Este"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/animals/small/395259_10150469414737606_189882407605_8936371_674748903_n.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank you, it helps my research in hugology",
+                        "fr": "Thank you, it helps my research in hugology",
+                        "es": "Thank you, it helps my research in hugology"
+                    }
+                }
+            ]
+        }
+    ]
+}
