@@ -29,7 +29,18 @@
             "Source": "Giphy",
             "Path": "DtJw1cqMCHSvu"
           }
-        }
+        },	
+        {	
+          "Type": "Action",	
+          "Name": "EmbedLink",	
+          "Parameters": {	
+            "Path": "http://www.celinedion.com/",	
+            "Label": {	
+              "en": "Here you go 🙂",	
+              "fr": "Très bien ! C'est par ici 🙂",	
+              "es": "¡Muy bueno! Está por aquí 🙂"	
+            }	
+          }
       ]
     }
   ]
