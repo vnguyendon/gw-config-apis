@@ -1,0 +1,22 @@
+{
+  "Type": "Leaf",
+  "Comments":"you should see this fragment after typing one of the associated keywords",
+  "Tags":["love","like"],
+  "Id": "OneFragmentForKeywordLove",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCardFromIntention",
+      "Parameters": {
+        "IntentionId": "5CDCF2"
+      }
+    },
+     {
+      "Type": "Text",
+      "Label": {
+        "en": "Then it should continue with next sequence after that",
+        "fr": "Then it should continue with next sequence after that"
+      }
+    }
+  ]
+}
