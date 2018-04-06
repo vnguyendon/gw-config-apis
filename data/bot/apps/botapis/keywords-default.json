@@ -1,5 +1,6 @@
 {
   "id":"default",
+  "matchingType":"exact",
   "keywords": [
     {
         "words" : ["cat","chat","gato"],
