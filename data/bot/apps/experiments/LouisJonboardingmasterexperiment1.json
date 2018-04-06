@@ -2,11 +2,6 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 408, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
-          { "order" : 409, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
-          { "order" : 410, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
-          { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
-          { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
           { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
           { "order" : 600, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
           { "order" : 610, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
