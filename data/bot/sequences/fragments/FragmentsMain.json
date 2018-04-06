@@ -32,5 +32,11 @@
   "WaddesdonPictures": "/data/bot/sequences/nationaltrust/WaddesdonPictures.json",
   "WaddesdonNext": "/data/bot/sequences/nationaltrust/WaddesdonNext.json",
   "WaddesdonContinue": "/data/bot/sequences/nationaltrust/WaddesdonContinue.json",
-  "WaddesdonAttractions": "/data/bot/sequences/nationaltrust/WaddesdonAttractions.json"
+  "WaddesdonAttractions": "/data/bot/sequences/nationaltrust/WaddesdonAttractions.json",
+  "oneFragmentForTag1": "/data/bot/sequences/experiments/rui/oneFragmentForTag1.json",
+  "firstFragmentForTag2": "/data/bot/sequences/experiments/rui/firstFragmentForTag2.json",
+  "firstFragmentForTag2And3": "/data/bot/sequences/experiments/rui/firstFragmentForTag2And3.json",
+  "firstFragmentForTag3": "/data/bot/sequences/experiments/rui/firstFragmentForTag3.json",
+  "secondFragmentForTag2": "/data/bot/sequences/experiments/rui/secondFragmentForTag2.json",
+  "secondFragmentForTag3": "/data/bot/sequences/experiments/rui/secondFragmentForTag3.json"
 }
