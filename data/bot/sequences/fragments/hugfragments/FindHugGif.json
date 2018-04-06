@@ -1,7 +1,7 @@
 {
     "Type": "Leaf",
     "Comments": "Finds a random hug gif",
-    "Id": "HugTagFindGif",
+    "Id": "FindHugGif",
     "Tags":["Hug"],
     "Steps": [
         {
