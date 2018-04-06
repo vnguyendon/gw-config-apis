@@ -6,12 +6,16 @@
         "words" : ["cat","chat","gato"],
         "fragment" : {
             "tags" : ["cats"]
-        },
-        "words" : ["dog","chien","perro"],
+        }
+    },
+    {
+      "words" : ["dog","chien","perro"],
         "fragment" : {
           "path" : "OneFragmentForKeywordDog"
-        },
-        "words" : ["love","amour","aime","like"],
+        }
+    },
+    {
+      "words" : ["love","amour","aime","like"],
         "fragment" : {
           "path" : "OneFragmentForKeywordLove"
         }
