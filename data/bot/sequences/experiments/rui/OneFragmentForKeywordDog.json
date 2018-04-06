@@ -1,0 +1,29 @@
+{
+  "Type": "Leaf",
+  "Comments":"you should see this fragment after typing one of the associated keywords",
+  "Tags":["dogs"],
+  "Id": "OneFragmentForKeywordDog",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey, I love dogs too!",
+        "fr": "Hey, I love dogs too!"
+      }
+    },
+    {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "1xOOQSMJ9X4UykElSk"
+          }
+     },
+     {
+      "Type": "Text",
+      "Label": {
+        "en": "Then it should continue with next sequence after that",
+        "fr": "Then it should continue with next sequence after that"
+      }
+    }
+  ]
+}
