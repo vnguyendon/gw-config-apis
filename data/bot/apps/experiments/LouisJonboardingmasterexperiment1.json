@@ -1,5 +1,5 @@
 {
-  "GroupName":"TestShowCardSteps",
+  "GroupName":"TestTags",
     "SequenceFiles" : [
         { "order" : 407, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
         { "order" : 408, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
@@ -7,7 +7,15 @@
         { "order" : 410, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
         { "order" : 411, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
         { "order" : 412, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
-        { "order": 1230, "file":[
-            "/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+        { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
+        { "order" : 600, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
+        { "order" : 610, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
+        { "order" : 1450, "file":["/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
+        { "order" : 1451, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
+        { "order" : 1452, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel2.json"]},
+        { "order" : 1453, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel3.json"]},
+        { "order" : 1500, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]},
+        { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
+        { "order" : 1530, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]}
       ]
 }
