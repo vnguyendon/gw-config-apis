@@ -1,5 +1,5 @@
 {
-    "Type": "Node",
+    "Type": "Leaf",
     "Comments": "Finds a random hug gif",
     "Id": "HugTagFindGif",
     "Tags":["Hug"],
