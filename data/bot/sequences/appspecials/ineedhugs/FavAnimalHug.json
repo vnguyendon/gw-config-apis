@@ -1,0 +1,343 @@
+{
+    "Type": "Node",
+    "Comments": "Is the users house filled with their favourite animal?",
+    "Id": "FavAnimalHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Um... what's your favourite of these animals?",
+                "fr": "Um... what's your favourite of these animals?",
+                "es": "Um... what's your favourite of these animals?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FavAnimalHugCat",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cats!",
+                "fr": "Cats!",
+                "es": "Cats!"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_147967574.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A wise choice... Now please tell me... is your house filled with them?",
+                        "fr": "A wise choice... Now please tell me... is your house filled with them?",
+                        "es": "A wise choice... Now please tell me... is your house filled with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FavAnimalHugCatFilled",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FavAnimalHugCatFilledYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes of course",
+                            "fr": "Yes of course",
+                            "es": "Yes of course"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How strange. I hope I can visit some time...",
+                                    "fr": "How strange. I hope I can visit some time...",
+                                    "es": "How strange. I hope I can visit some time..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FavAnimalHugCatFilledNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course not",
+                            "fr": "Of course not",
+                            "es": "Of course not"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How unfortunate... in that case, a hug is in order!",
+                                    "fr": "How unfortunate... in that case, a hug is in order!",
+                                    "es": "How unfortunate... in that case, a hug is in order!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugImageText"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FavAnimalHugPanda",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Pandas",
+                "fr": "Pandas",
+                "es": "Pandas"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐼",
+                    "fr": "🐼",
+                    "es": "🐼"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/animals/small/44632587522.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A wise choice... Now please tell me... is your house filled with them?",
+                        "fr": "A wise choice... Now please tell me... is your house filled with them?",
+                        "es": "A wise choice... Now please tell me... is your house filled with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FavAnimalHugPandaFilled",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FavAnimalHugPandaFilledYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes of course",
+                            "fr": "Yes of course",
+                            "es": "Yes of course"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How strange. I hope I can visit some time...",
+                                    "fr": "How strange. I hope I can visit some time...",
+                                    "es": "How strange. I hope I can visit some time..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FavAnimalHugPandaFilledNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course not",
+                            "fr": "Of course not",
+                            "es": "Of course not"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How unfortunate... in that case, a hug is in order!",
+                                    "fr": "How unfortunate... in that case, a hug is in order!",
+                                    "es": "How unfortunate... in that case, a hug is in order!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugImageText"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FavAnimalHugDog",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Dogs",
+                "fr": "Dogs",
+                "es": "Dogs"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐶",
+                    "fr": "🐶",
+                    "es": "🐶"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/istockpuppies/small/iStock_000020106152_Medium.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A wise choice... Now please tell me... is your house filled with them?",
+                        "fr": "A wise choice... Now please tell me... is your house filled with them?",
+                        "es": "A wise choice... Now please tell me... is your house filled with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FavAnimalHugDogFilled",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FavAnimalHugDogFilledYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes of course",
+                            "fr": "Yes of course",
+                            "es": "Yes of course"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How strange. I hope I can visit some time...",
+                                    "fr": "How strange. I hope I can visit some time...",
+                                    "es": "How strange. I hope I can visit some time..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FavAnimalHugDogFilledNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course not",
+                            "fr": "Of course not",
+                            "es": "Of course not"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How unfortunate... in that case, a hug is in order!",
+                                    "fr": "How unfortunate... in that case, a hug is in order!",
+                                    "es": "How unfortunate... in that case, a hug is in order!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugImageText"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FavAnimalHugMonkey",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Monkeys",
+                "fr": "Monkeys",
+                "es": "Monkeys"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🐵",
+                    "fr": "🐵",
+                    "es": "🐵"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/fbfriend/stockanimals/small/shutterstock_110270648.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A wise choice... Now please tell me... is your house filled with them?",
+                        "fr": "A wise choice... Now please tell me... is your house filled with them?",
+                        "es": "A wise choice... Now please tell me... is your house filled with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FavAnimalHugMonkeyFilled",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FavAnimalHugMonkeyFilledYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes of course",
+                            "fr": "Yes of course",
+                            "es": "Yes of course"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How strange. I hope I can visit some time...",
+                                    "fr": "How strange. I hope I can visit some time...",
+                                    "es": "How strange. I hope I can visit some time..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "FavAnimalHugMonkeyFilledNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Of course not",
+                            "fr": "Of course not",
+                            "es": "Of course not"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How unfortunate... in that case, a hug is in order!",
+                                    "fr": "How unfortunate... in that case, a hug is in order!",
+                                    "es": "How unfortunate... in that case, a hug is in order!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugImageText"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
