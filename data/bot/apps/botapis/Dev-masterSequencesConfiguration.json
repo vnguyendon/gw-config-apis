@@ -3,12 +3,12 @@
     {
       "Name": "unittestbot",
       "Source": "github",
-      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     },
     {
-      "Name": "unittestbot2",
+      "Name": "rcdevbot",
       "Source": "github",
-      "File": "/data/bot/apps/botapis/unit-test-sequences-behaviors.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
   ],
   "FragmentsFiles": [
