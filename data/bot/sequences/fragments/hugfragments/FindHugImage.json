@@ -9,7 +9,7 @@
           "Label": {
             "en": "Trying to display a cat emoji"
           }
-        }
+        },
         {
           "Type": "Action",
           "Name": "ShowCards",
