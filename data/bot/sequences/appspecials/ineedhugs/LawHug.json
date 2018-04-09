@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "LawHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "In my hometown, Hug Point, the law says that you need to hug at least one total stranger everyday",
+                "fr": "In my hometown, Hug Point, the law says that you need to hug at least one total stranger everyday",
+                "es": "In my hometown, Hug Point, the law says that you need to hug at least one total stranger everyday"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LawHugWeird",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds weird…",
+                "fr": "Sounds weird…",
+                "es": "Sounds weird…"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s not!",
+                        "fr": "It’s not!",
+                        "es": "It’s not!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s a matter of public health!",
+                        "fr": "It’s a matter of public health!",
+                        "es": "It’s a matter of public health!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugImageText"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LawHugUseful",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Useful law!",
+                "fr": "Useful law!",
+                "es": "Useful law!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Of course it is!",
+                        "fr": "Of course it is!",
+                        "es": "Of course it is!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Now... here’s a hug to make sure you don’t break that law!",
+                        "fr": "Now... here’s a hug to make sure you don’t break that law!",
+                        "es": "Now... here’s a hug to make sure you don’t break that law!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        }
+    ]
+}
