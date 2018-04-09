@@ -1,0 +1,16 @@
+{
+    "Type": "Leaf",
+    "Comments": "Finds a random hug image and hug text",
+    "Id": "FindHugImageText",
+    "Tags":["Hug"],
+    "Steps": [
+        {
+            "Type": "Action",
+            "Name":"ShowCards",
+            "Parameters":{
+                "Type":"Image",
+                "Path":"themes/hugs2"
+            }
+        }
+    ]
+}
