@@ -1,0 +1,310 @@
+{
+    "Type": "Node",
+    "Comments": "Carousel of favourite dishes",
+    "Id": "FavDishHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Which dish do you prefer?",
+                "fr": "Which dish do you prefer?",
+                "es": "Which dish do you prefer?"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "DishBurger",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "A burger",
+                "fr": "A burger",
+                "es": "A burger"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🍔",
+                    "fr": "🍔",
+                    "es": "🍔"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1523273323/burger.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And did you have one in the last few days?",
+                        "fr": "And did you have one in the last few days?",
+                        "es": "And did you have one in the last few days?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DishBurgerHad",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DishBurgerHadYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "yes",
+                            "es": "yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That's great news!",
+                                    "fr": "That's great news!",
+                                    "es": "That's great news!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You deserve the best food, round the clock!",
+                                    "fr": "You deserve the best food, round the clock!",
+                                    "es": "You deserve the best food, round the clock!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "DishBurgerHadNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "no",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How terrible!",
+                                    "fr": "How terrible!",
+                                    "es": "How terrible!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you might need a hug!",
+                                    "fr": "I think you might need a hug!",
+                                    "es": "I think you might need a hug!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugGif"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DishSushi",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sushi",
+                "fr": "Sushi",
+                "es": "Sushi"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🍣",
+                    "fr": "🍣",
+                    "es": "🍣"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1523273311/sushis.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And did you have some in the last few days?",
+                        "fr": "And did you have some in the last few days?",
+                        "es": "And did you have some in the last few days?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DishSushiHad",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DishSushiHadYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "yes",
+                            "es": "yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That's great news!",
+                                    "fr": "That's great news!",
+                                    "es": "That's great news!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You deserve the best food, round the clock!",
+                                    "fr": "You deserve the best food, round the clock!",
+                                    "es": "You deserve the best food, round the clock!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "DishSushiHadNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "no",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How terrible!",
+                                    "fr": "How terrible!",
+                                    "es": "How terrible!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you might need a hug!",
+                                    "fr": "I think you might need a hug!",
+                                    "es": "I think you might need a hug!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugGif"
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "DishPizza",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Pizza",
+                "fr": "Pizza",
+                "es": "Pizza"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🍕",
+                    "fr": "🍕",
+                    "es": "🍕"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1523273302/pizza.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And did you have any in the last few days?",
+                        "fr": "And did you have any in the last few days?",
+                        "es": "And did you have any in the last few days?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "DishPizzaHad",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "DishPizzaHadYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "yes",
+                            "fr": "yes",
+                            "es": "yes"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "That's great news!",
+                                    "fr": "That's great news!",
+                                    "es": "That's great news!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You deserve the best food, round the clock!",
+                                    "fr": "You deserve the best food, round the clock!",
+                                    "es": "You deserve the best food, round the clock!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "DishPizzaHadNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "no",
+                            "fr": "no",
+                            "es": "no"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "How terrible!",
+                                    "fr": "How terrible!",
+                                    "es": "How terrible!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I think you might need a hug!",
+                                    "fr": "I think you might need a hug!",
+                                    "es": "I think you might need a hug!"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugGif"
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
