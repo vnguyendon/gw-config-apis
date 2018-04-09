@@ -2,7 +2,8 @@
   {
     "GroupName":"TestEmbedLink",
     "SequenceFiles" : [
-        { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
+        { "order" : 10, "file": ["/data/bot/sequences/fragments/hugfragments/FindHugImageText.json"]},
+      { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
       ]
   },
   {
