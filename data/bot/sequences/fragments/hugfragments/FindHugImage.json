@@ -5,12 +5,12 @@
     "Tags":["Hug"],
     "Steps": [
         {
-            "Type": "Action",
-            "Name":"ShowCards",
-            "Parameters":{
-                "Type":"Image",
-                "Path":"themes/hugs2"
-            }
+          "Type": "Action",
+          "Name": "ShowCards",
+          "Parameters": {
+            "Type": "Image",
+            "Path": "themes/emojiCats"
+          }
         }
     ]
 }
