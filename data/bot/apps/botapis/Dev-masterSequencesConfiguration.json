@@ -16,5 +16,11 @@
       "Topic": "main",
       "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
     }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
+    }
   ]
 }
