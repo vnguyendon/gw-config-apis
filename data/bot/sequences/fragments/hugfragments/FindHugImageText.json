@@ -9,7 +9,7 @@
             "Name":"ShowCards",
             "Parameters":{
                 "Type":"Image",
-                "Path":"themes/hugs2"
+                "Id":"themes/hugs2"
             }
         },
         {
