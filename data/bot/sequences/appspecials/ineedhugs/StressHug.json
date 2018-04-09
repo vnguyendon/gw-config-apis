@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "StressHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you stressed right now?",
+                "fr": "Are you stressed right now?",
+                "es": "Are you stressed right now?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "StressHugYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m sorry to hear it",
+                        "fr": "I’m sorry to hear it",
+                        "es": "I’m sorry to hear it"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But hugs have been proven to reduce stress levels, so have one!",
+                        "fr": "But hugs have been proven to reduce stress levels, so have one!",
+                        "es": "But hugs have been proven to reduce stress levels, so have one!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "StressHugNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I’m not stressed",
+                "fr": "I’m not stressed",
+                "es": "I’m not stressed"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well that’s some great news…",
+                        "fr": "Well that’s some great news…",
+                        "es": "Well that’s some great news…"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "you really are awesome!",
+                        "fr": "you really are awesome!",
+                        "es": "you really are awesome!"
+                    }
+                }
+            ]
+        }
+    ]
+}
