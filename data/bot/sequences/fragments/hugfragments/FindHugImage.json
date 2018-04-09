@@ -15,7 +15,7 @@
           "Name": "ShowCards",
           "Parameters": {
             "Type": "Image",
-            "Path": "/themes/emojiCats/small"
+            "Path": "themes/emojiCats/small"
           }
         }
     ]
