@@ -5,6 +5,12 @@
     "Tags":["Hug"],
     "Steps": [
         {
+          "Type": "Text",
+          "Label": {
+            "en": "Trying to display a text"
+          }
+        },
+        {
             "Type": "Action",
             "Name":"ShowCards",
             "Parameters":{
