@@ -2,12 +2,11 @@
   {
     "GroupName": "Nutty",
     "SequenceFiles": [
-      { "order" : 1, "file":["/data/bot/sequences/experiments/Billy2/WFT.json"]},
       { "order" : 3, "file":["/data/bot/sequences/nationaltrust/NuttyIntro.json"]},
       { "order" : 6, "file":["/data/bot/sequences/nationaltrust/NTAreYouMember.json"]},
       { "order" : 10, "file":["/data/bot/sequences/nationaltrust/NTIntroduce.json"]},
       { "order" : 20, "file":["/data/bot/sequences/nationaltrust/NTFan.json"]},
-      { "order" : 2, "file":["/data/bot/sequences/nationaltrust/WaddesdonIntro.json"]},
+      { "order" : 30, "file":["/data/bot/sequences/nationaltrust/WaddesdonIntro.json"]},
       { "order" : 46, "file":["/data/bot/sequences/nationaltrust/AliceInWonderland.json"]},
       { "order" : 46, "file":["/data/bot/sequences/nationaltrust/GiantsCauseway.json"]},
       { "order" : 46, "file":["/data/bot/sequences/nationaltrust/Stourhead.json"]},
