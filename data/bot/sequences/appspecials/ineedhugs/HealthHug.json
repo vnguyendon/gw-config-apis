@@ -1,0 +1,75 @@
+{
+    "Type": "Node",
+    "Id": "HealthHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I’ll let you in on a secret now…",
+                "fr": "I’ll let you in on a secret now…",
+                "es": "I’ll let you in on a secret now…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "hugs can boost your immune system!",
+                "fr": "hugs can boost your immune system!",
+                "es": "hugs can boost your immune system!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HealthHugYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Let’s hug then!",
+                "fr": "Let’s hug then!",
+                "es": "Let’s hug then!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You don’t need to ask twice!",
+                        "fr": "You don’t need to ask twice!",
+                        "es": "You don’t need to ask twice!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugImageText"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "HealthHugNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I’m healthy already!",
+                "fr": "I’m healthy already!",
+                "es": "I’m healthy already!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I’m not surprised!",
+                        "fr": "I’m not surprised!",
+                        "es": "I’m not surprised!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Germs would never harm someone as cool as you 😉",
+                        "fr": "Germs would never harm someone as cool as you 😉",
+                        "es": "Germs would never harm someone as cool as you 😉"
+                    }
+                }
+            ]
+        }
+    ]
+}
