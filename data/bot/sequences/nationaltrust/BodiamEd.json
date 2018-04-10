@@ -1,0 +1,143 @@
+{
+    "Type": "Node",
+    "Id": "BodiamEd",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "One Englishman faced this exact problem many years ago!",
+                "fr": "One Englishman faced this exact problem many years ago!",
+                "es": "One Englishman faced this exact problem many years ago!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A fearsome knight… Edward Dalyngrigge…",
+                "fr": "A fearsome knight… Edward Dalyngrigge…",
+                "es": "A fearsome knight… Edward Dalyngrigge…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "fresh from his travels and battles in France…",
+                "fr": "fresh from his travels and battles in France…",
+                "es": "fresh from his travels and battles in France…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He built this to defend himself!",
+                "fr": "He built this to defend himself!",
+                "es": "He built this to defend himself!"
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "https://cloudinary.com/console/media_library#/dialog/image/upload/shutterstock_490784191"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to live there?",
+                "fr": "Would you like to live there?",
+                "es": "Would you like to live there?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "BodiamEdYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes it looks cosy",
+                "fr": "Yes it looks cosy",
+                "es": "Yes it looks cosy"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Perhaps not now…!",
+                        "fr": "Perhaps not now…!",
+                        "es": "Perhaps not now…!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It’s in ruins!",
+                        "fr": "It’s in ruins!",
+                        "es": "It’s in ruins!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But it’s a popular destination, owned by the National Trust",
+                        "fr": "But it’s a popular destination, owned by the National Trust",
+                        "es": "But it’s a popular destination, owned by the National Trust"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Link here to learn more 😄",
+                        "fr": "Link here to learn more 😄",
+                        "es": "Link here to learn more 😄"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "BodiamEdNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way",
+                "fr": "No way",
+                "es": "No way"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Good choice!",
+                        "fr": "Good choice!",
+                        "es": "Good choice!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It would be a bit chilly… it’s in ruins!",
+                        "fr": "It would be a bit chilly… it’s in ruins!",
+                        "es": "It would be a bit chilly… it’s in ruins!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But it’s a popular place to visit, owned by the National Trust",
+                        "fr": "But it’s a popular place to visit, owned by the National Trust",
+                        "es": "But it’s a popular place to visit, owned by the National Trust"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Link here to learn more 😄",
+                        "fr": "Link here to learn more 😄",
+                        "es": "Link here to learn more 😄"
+                    }
+                }
+            ]
+        }
+    ]
+}
