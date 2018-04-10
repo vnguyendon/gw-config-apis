@@ -2,9 +2,8 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order": 4, "file":["/data/bot/sequences/experiments/rui/ShouldSetAUserPropertyCorrectly1.json"]},
-            { "order": 5, "file":["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToYes.json"]},
-            { "order": 5, "file":["/data/bot/sequences/experiments/rui/ShouldExecuteThisIfPropertyWasSetToNo.json"]},
+            { "order": 5, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
+            { "order": 5, "file":["/data/bot/sequences/nationaltrust/BodiamEd.json"]},
             { "order": 10, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
             { "order": 15, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
             { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
