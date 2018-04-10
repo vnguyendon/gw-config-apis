@@ -1,0 +1,261 @@
+{
+    "Type": "Node",
+    "Comments": "Bodiam Castle Sequences",
+    "Id": "BodiamIntro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello. Do you live in constant fear of a French invasion? ⚔🇫🇷",
+                "fr": "Hello. Do you live in constant fear of a French invasion? ⚔🇫🇷",
+                "es": "Hello. Do you live in constant fear of a French invasion? ⚔🇫🇷"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "BodiamIntroYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes",
+                "fr": "Yes",
+                "es": "Yes"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "How awful! What are you going to do about it?",
+                        "fr": "How awful! What are you going to do about it?",
+                        "es": "How awful! What are you going to do about it?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BodiamIntroYesDo",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroYesDoCastle",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Build a castle",
+                            "fr": "Build a castle",
+                            "es": "Build a castle"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏰",
+                                "fr": "🏰",
+                                "es": "🏰"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359458/Castle_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Smart! I know someone who did just that...",
+                                    "fr": "Smart! I know someone who did just that...",
+                                    "es": "Smart! I know someone who did just that..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroYesDoRun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Run away",
+                            "fr": "Run away",
+                            "es": "Run away"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏃",
+                                "fr": "🏃",
+                                "es": "🏃"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359529/Running_Away_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But where will you hide? You need a castle!",
+                                    "fr": "But where will you hide? You need a castle!",
+                                    "es": "But where will you hide? You need a castle!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroYesDoAttack",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Attack them",
+                            "fr": "Attack them",
+                            "es": "Attack them"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "⚔🏹",
+                                "fr": "⚔🏹",
+                                "es": "⚔🏹"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359598/Attack_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With what army? You need a castle!",
+                                    "fr": "With what army? You need a castle!",
+                                    "es": "With what army? You need a castle!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "BodiamIntroNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No",
+                "fr": "No",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Thank goodness! May I ask what you would do if you did?",
+                        "fr": "Thank goodness! May I ask what you would do if you did?",
+                        "es": "Thank goodness! May I ask what you would do if you did?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "BodiamIntroNoDo",
+                "ElementValue": "1",
+                "DisplayHint": "Carousel",
+                "Randomize": "true",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroNoDoCastle",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Build a castle",
+                            "fr": "Build a castle",
+                            "es": "Build a castle"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏰",
+                                "fr": "🏰",
+                                "es": "🏰"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359458/Castle_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Smart! I know someone who did just that...",
+                                    "fr": "Smart! I know someone who did just that...",
+                                    "es": "Smart! I know someone who did just that..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroNoDoRun",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Run away",
+                            "fr": "Run away",
+                            "es": "Run away"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "🏃",
+                                "fr": "🏃",
+                                "es": "🏃"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359529/Running_Away_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "But where would you hide? You need a castle!",
+                                    "fr": "But where would you hide? You need a castle!",
+                                    "es": "But where would you hide? You need a castle!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "BodiamIntroNoDoAttack",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Attack them",
+                            "fr": "Attack them",
+                            "es": "Attack them"
+                        },
+                        "CarouselElements": {
+                            "Title": {
+                                "en": "⚔🏹",
+                                "fr": "⚔🏹",
+                                "es": "⚔🏹"
+                            },
+                            "Picture": {
+                                "Source": "Web",
+                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523359598/Attack_for_NT.jpg"
+                            }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With what army? You need a castle!",
+                                    "fr": "With what army? You need a castle!",
+                                    "es": "With what army? You need a castle!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
