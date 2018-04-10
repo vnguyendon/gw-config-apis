@@ -14,7 +14,7 @@
   "FragmentsFiles": [
     {
       "Topic": "main",
-      "File": "/data/bot/sequences/fragments/fragmentsmain.json"
+      "File": "/data/bot/sequences/fragments/FragmentsMain.json"
     }
   ]
 }
