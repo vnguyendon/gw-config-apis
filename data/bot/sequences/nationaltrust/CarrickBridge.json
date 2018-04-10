@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "CarrickBridge",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It's a popular tourist activity to cross that bridge, now the National Trust owns the venue...",
+                "fr": "It's a popular tourist activity to cross that bridge, now the National Trust owns the venue...",
+                "es": "It's a popular tourist activity to cross that bridge, now the National Trust owns the venue..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you have the guts?",
+                "fr": "Would you have the guts?",
+                "es": "Would you have the guts?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "CarrickBridgeYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Of course!",
+                "fr": "Of course!",
+                "es": "Of course!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Very brave... not everyone does!",
+                        "fr": "Very brave... not everyone does!",
+                        "es": "Very brave... not everyone does!"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "CarrickBridgeNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "No way",
+                "fr": "No way",
+                "es": "No way"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, you wouldn't be alone... plenty don't!",
+                        "fr": "Well, you wouldn't be alone... plenty don't!",
+                        "es": "Well, you wouldn't be alone... plenty don't!"
+                    }
+                }
+            ]
+        }
+    ]
+}
