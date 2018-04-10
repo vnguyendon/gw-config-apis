@@ -2,10 +2,8 @@
   {
     "GroupName": "Hugs",
     "SequenceFiles": [
-      { "order" : 2, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json"]},
-      { "order" : 5, "file":["/data/bot/sequences/fragments/hugfragments/FindHugText.json"]},
+      { "order" : 6, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json"]},
       { "order" : 10, "file":["/data/bot/sequences/appspecials/ineedhugs/LotteryHug.json"]},
-      { "order" : 12, "file":["/data/bot/sequences/fragments/hugfragments/FindHugImage.json"]},
       { "order" : 30, "file":["/data/bot/sequences/appspecials/ineedhugs/CatLunch.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/RainingHug.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/WhichSideHug.json"]},
@@ -15,8 +13,7 @@
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/LawHug.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/StressHug.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/FavDishHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]},
-      { "order" : 50, "file":["/data/bot/sequences/fragments/hugfragments/FindHugImageText.json"]}
+      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]}
     ]
   }
 ]
