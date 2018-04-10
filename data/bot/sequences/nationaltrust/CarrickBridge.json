@@ -21,7 +21,7 @@
     ],
     "Commands": [
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "CarrickBridgeYes",
             "ElementValue": "1",
             "CommandLabel": {
@@ -41,7 +41,7 @@
             ]
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "CarrickBridgeNo",
             "ElementValue": "1",
             "CommandLabel": {
