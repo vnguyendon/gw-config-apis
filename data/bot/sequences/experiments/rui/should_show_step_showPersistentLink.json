@@ -17,7 +17,7 @@
             "en": "link label 🗺",
             "fr": "label du lien 🗺"
           },
-          "url" : "www.apple.com",
+          "url" : "http://www.apple.com",
           "Image" : {
             "Source": "Web",
             "Path": "https://media.wired.com/photos/5932724258b0d64bb35d1be9/191:100/pass/applesimpsons-ft.jpg"
@@ -50,7 +50,7 @@
             "en": "link label",
             "fr": "label du lien"
           },
-          "url" : "www.apple.com"
+          "url" : "http://www.apple.com"
         }     
       ],
       "Commands": [
