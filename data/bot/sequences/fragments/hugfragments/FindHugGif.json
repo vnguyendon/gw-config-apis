@@ -9,7 +9,7 @@
             "Name":"ShowCards",
             "Parameters":{
                 "Type":"Gif",
-                "Path":"/data/common/giphycontent/hugs.json"
+                "Path":"/data/common/gifsnewformat/hugs.json"
             }
         }
     ]
