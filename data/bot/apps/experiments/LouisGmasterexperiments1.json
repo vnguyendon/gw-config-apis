@@ -2,12 +2,14 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order": 5, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
-            { "order": 5, "file":["/data/bot/sequences/nationaltrust/BodiamEd.json"]},
-            { "order": 3, "file":["/data/bot/sequences/nationaltrust/CarrickVolc.json"]},
-            { "order": 4, "file":["/data/bot/sequences/nationaltrust/CarrickBridge.json"]},
-            { "order": 10, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
-            { "order": 15, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
+            { "order": 10, "file":["/data/bot/sequences/nationaltrust/FountainsAbbey.json"]},
+            { "order": 14, "file":["/data/bot/sequences/nationaltrust/Fountains2.json"]},
+            { "order": 19, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
+            { "order": 24, "file":["/data/bot/sequences/nationaltrust/BodiamEd.json"]},
+            { "order": 30, "file":["/data/bot/sequences/nationaltrust/CarrickVolc.json"]},
+            { "order": 40, "file":["/data/bot/sequences/nationaltrust/CarrickBridge.json"]},
+            { "order": 100, "file":["/data/bot/sequences/appspecials/emojihero/EmojiHeroFirstTime.json"]},
+            { "order": 150, "file":["/data/bot/sequences/experiments/FragmentTest1c.json"]},
             { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
             { "order" : 610, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]}
         ]
