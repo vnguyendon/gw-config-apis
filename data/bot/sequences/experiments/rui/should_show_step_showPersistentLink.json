@@ -6,12 +6,16 @@
       {
           "Type": "ShowPersistentLink",
           "Title": {
-            "en": "link title",
-            "fr": "titre du lien"
+            "en": "Full-link title 🍔",
+            "fr": "Full-titre du lien 🍔"
+          },
+          "SubTitle": {
+            "en": "it contains a sub 🙃",
+            "fr": "avec sous titre 🙃"
           },
           "LinkLabel" : {
-            "en": "link label",
-            "fr": "label du lien"
+            "en": "link label 🗺",
+            "fr": "label du lien 🗺"
           },
           "url" : "www.apple.com",
           "Image" : {
@@ -32,11 +36,40 @@
         {
           "Type": "Text",
           "Label": {
-            "en": "shouldShowStepShowPersistentLink: continue to next",
-            "fr": "shouldShowStepShowPersistentLink: continue to next"
+            "en": "now show a simplified link",
+            "fr": "affiche un step simplifié"
           }
-        }
-      ]
+        },
+        {
+          "Type": "ShowPersistentLink",
+          "Title": {
+            "en": "link title",
+            "fr": "titre du lien"
+          },
+          "LinkLabel" : {
+            "en": "link label",
+            "fr": "label du lien"
+          },
+          "url" : "www.apple.com"
+        }     
+      ],
+      "Commands": [
+      {
+        "Type": "Leaf",
+        "Id": "leafNoStepWithOneLeafCommandContinue",
+        "CommandLabel": {
+          "en": "next",
+          "fr": "next"
+        },
+        "Steps": [
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "continue with next sequence",
+              "fr": "continue with next sequence"
+            }
+          }
+       ]
     }
   ]
 }
