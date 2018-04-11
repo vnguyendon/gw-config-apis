@@ -1,0 +1,42 @@
+{
+  "Type": "Node",
+  "Comments": "it should show directly the button then the text step and continue to next step",
+  "Id": "shouldShowStepShowPersistentLink",
+  "Steps": [
+      {
+          "Type": "ShowPersistentLink",
+          "Title": {
+            "en": "link title",
+            "fr": "titre du lien"
+          },
+          "LinkLabel {
+            "en": "link label",
+            "fr": "label du lien"
+          },
+          "url" : "www.apple.com",
+          "Image" : {
+            "Source": "Web",
+            "Path": "https://media.wired.com/photos/5932724258b0d64bb35d1be9/191:100/pass/applesimpsons-ft.jpg"
+          }
+      }      
+  ]
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "leafNoStepWithOneLeafCommandContinue",
+      "CommandLabel": {
+        "en": "next",
+        "fr": "next"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "shouldShowStepShowPersistentLink: continue to next",
+            "fr": "shouldShowStepShowPersistentLink: continue to next"
+          }
+        }
+      ]
+    }
+  ]
+}
