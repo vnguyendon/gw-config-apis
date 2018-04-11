@@ -1,0 +1,78 @@
+{
+    "Type": "Node",
+    "Id": "FountainsAbbey",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Around 900 years ago, me and a bunch of other monks from Yorkshire got kicked out of our abbey",
+                "fr": "Around 900 years ago, me and a bunch of other monks from Yorkshire got kicked out of our abbey",
+                "es": "Around 900 years ago, me and a bunch of other monks from Yorkshire got kicked out of our abbey"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Our friend Thurstan, the Archbishop of York at the time, gave us some land to build a new one",
+                "fr": "Our friend Thurstan, the Archbishop of York at the time, gave us some land to build a new one",
+                "es": "Our friend Thurstan, the Archbishop of York at the time, gave us some land to build a new one"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "FountainsMonk",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "You were a monk?",
+                "fr": "You were a monk?",
+                "es": "You were a monk?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Of course, for many years... here's me building the second abbey!",
+                        "fr": "Of course, for many years... here's me building the second abbey!",
+                        "es": "Of course, for many years... here's me building the second abbey!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523455981/NuttyMonk_Abbey.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "FountainsThen",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "And then?",
+                "fr": "And then?",
+                "es": "And then?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, we made a new one! Here's me building it",
+                        "fr": "Well, we made a new one! Here's me building it",
+                        "es": "Well, we made a new one! Here's me building it"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523455981/NuttyMonk_Abbey.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
