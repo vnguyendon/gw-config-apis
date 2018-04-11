@@ -54,22 +54,24 @@
         }     
       ],
       "Commands": [
-      {
-        "Type": "Leaf",
-        "Id": "leafNoStepWithOneLeafCommandContinue",
-        "CommandLabel": {
-          "en": "next",
-          "fr": "next"
-        },
-        "Steps": [
-          {
-            "Type": "Text",
-            "Label": {
-              "en": "continue with next sequence",
-              "fr": "continue with next sequence"
+        {
+          "Type": "Leaf",
+          "Id": "leafNoStepWithOneLeafCommandContinue",
+          "CommandLabel": {
+            "en": "next",
+            "fr": "next"
+          },
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "continue with next sequence",
+                "fr": "continue with next sequence"
+              }
             }
-          }
-       ]
+         ]
+        }
+      ]
     }
   ]
 }
