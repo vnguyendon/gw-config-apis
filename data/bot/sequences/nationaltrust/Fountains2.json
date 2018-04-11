@@ -1,0 +1,131 @@
+{
+    "Type": "Node",
+    "Id": "Fountains2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway... we ran into some issues",
+                "fr": "Anyway... we ran into some issues",
+                "es": "Anyway... we ran into some issues"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "First... the Scots invaded",
+                "fr": "First... the Scots invaded",
+                "es": "First... the Scots invaded"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Then... the Black Death happened",
+                "fr": "Then... the Black Death happened",
+                "es": "Then... the Black Death happened"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And then King Henry ordered all the monasteries to close...",
+                "fr": "And then King Henry ordered all the monasteries to close...",
+                "es": "And then King Henry ordered all the monasteries to close..."
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "Fountains2Rough",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Sounds rough!",
+                "fr": "Sounds rough!",
+                "es": "Sounds rough!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It sure was!",
+                        "fr": "It sure was!",
+                        "es": "It sure was!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, the building survived! It's still in great condition!",
+                        "fr": "Regardless, the building survived! It's still in great condition!",
+                        "es": "Regardless, the building survived! It's still in great condition!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523456532/FountainsAbbey.jpg"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Fountains2Easy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I deal with worse",
+                "fr": "I deal with worse",
+                "es": "I deal with worse"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'm sorry for you, in that case!",
+                        "fr": "I'm sorry for you, in that case!",
+                        "es": "I'm sorry for you, in that case!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Regardless, the building survived! It's still in great condition!",
+                        "fr": "Regardless, the building survived! It's still in great condition!",
+                        "es": "Regardless, the building survived! It's still in great condition!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523456532/FountainsAbbey.jpg"
+                    }
+                }
+            ]
+        }
+    ]
+}
