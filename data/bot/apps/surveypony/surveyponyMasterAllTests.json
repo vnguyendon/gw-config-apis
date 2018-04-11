@@ -2,7 +2,7 @@
   
   
   {
-    "GroupName":"Basic",
+    "GroupName":"WorkflowAndConditions",
     "SequenceFiles" : [
         { "order": 1110, "file":[
             "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json",
@@ -74,6 +74,13 @@
         { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
         { "order" : 1530, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]}
       ]
-  }
+   },
+   {
+    "GroupName":"TestPersistentLinks",
+    "SequenceFiles" : [
+        { "order" : 1610, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]}
+      ]
+   }
+  
   
 ]
