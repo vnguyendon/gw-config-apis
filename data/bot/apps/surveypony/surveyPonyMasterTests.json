@@ -1,31 +1,10 @@
 [
   {
-    "GroupName":"TestEmbedLink",
+    "GroupName":"TestPersistentLinks",
     "SequenceFiles" : [
-        { "order" : 10, "file": ["/data/bot/sequences/fragments/hugfragments/FindHugImageText.json"]},
-      { "order" : 500, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
+        { "order" : 1610, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]}
       ]
-  },
-  {
-    "GroupName":"TestFragments",
-    "SequenceFiles" : [
-        { "order" : 1301, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
-        { "order" : 1302, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
-    ]
-  },
-  {
-    "GroupName":"ClickableCarousel",
-    "SequenceFiles" : [
-      
-        { "order" : 1510, "file":["/data/bot/sequences/settings/SetLocation.json"]},
-        { "order" : 1520, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withName.json"]},
-        { "order" : 1530, "file":["/data/bot/sequences/experiments/rui/should_show_parametrizedText_withCountry.json"]},
-        { "order" : 1450, "file":["/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
-        { "order" : 1451, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-        { "order" : 1452, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel2.json"]},
-        { "order" : 1453, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel3.json"]}
-      ]
-  }
+   }
 ]
 
 
