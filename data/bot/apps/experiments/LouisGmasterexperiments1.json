@@ -2,8 +2,8 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order": 10, "file":["/data/bot/sequences/nationaltrust/FountainsAbbey.json"]},
-            { "order": 14, "file":["/data/bot/sequences/nationaltrust/Fountains2.json"]},
+            { "order": 27, "file":["/data/bot/sequences/nationaltrust/FountainsAbbey.json"]},
+            { "order": 29, "file":["/data/bot/sequences/nationaltrust/Fountains2.json"]},
             { "order": 19, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
             { "order": 24, "file":["/data/bot/sequences/nationaltrust/BodiamEd.json"]},
             { "order": 30, "file":["/data/bot/sequences/nationaltrust/CarrickVolc.json"]},
