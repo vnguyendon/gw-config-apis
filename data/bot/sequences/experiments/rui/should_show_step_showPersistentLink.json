@@ -9,7 +9,7 @@
             "en": "link title",
             "fr": "titre du lien"
           },
-          "LinkLabel {
+          "LinkLabel" : {
             "en": "link label",
             "fr": "label du lien"
           },
@@ -19,7 +19,7 @@
             "Path": "https://media.wired.com/photos/5932724258b0d64bb35d1be9/191:100/pass/applesimpsons-ft.jpg"
           }
       }      
-  ]
+  ],
   "Commands": [
     {
       "Type": "Leaf",
