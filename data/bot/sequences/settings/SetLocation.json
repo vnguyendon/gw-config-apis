@@ -24,11 +24,7 @@
       "Steps": [
         {
           "Type": "Action",
-          "Name": "SetLocation",
-          "Parameters": {
-            "property": "Location",
-            "value": "UserLocation"
-          }
+          "Name": "SetLocation"
         }
       ]
     },
