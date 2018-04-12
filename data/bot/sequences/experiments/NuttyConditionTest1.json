@@ -25,7 +25,6 @@
         {
           "Type": "Action",
           "Name": "SetLocation"
-          }
         }
       ]
     },
