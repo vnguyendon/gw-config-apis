@@ -8,11 +8,8 @@
     "ID": "ca-app-pub-7822741681642396/1855211468"
   },
   "OtherResumeActivity": {
-    "Provider": "MoPub",
-    "ID": "723cea04432c4753b7298558ccd7b7be",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/4077307864"
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4077307864"
     }
   },
   "GalleryNative": {
