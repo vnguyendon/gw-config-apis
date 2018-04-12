@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Condition": "u.Country=='United Kingdom || u.Country == 'United states'",
+  "Condition": "u.Country=='United Kingdom' || u.Country == 'United states'",
   "Id": "NuttyConditionTest2",
   "Steps": [
       {
