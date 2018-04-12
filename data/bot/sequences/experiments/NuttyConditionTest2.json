@@ -1,6 +1,6 @@
 {
   "Type": "Leaf",
-  "Condition": "u.Country=='United Kingdom' || u.Country == 'United states'",
+  "Condition": "u.Country=='United Kingdom' || u.Country == 'United states' || u.Country == 'France'",
   "Id": "NuttyConditionTest2",
   "Steps": [
       {
