@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Condition": "Country=='United-States'",
+  "Condition": "ppCountry=='United-States'",
   "Id": "NuttyConditionTest2",
   "Steps": [
       {
