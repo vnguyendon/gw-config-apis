@@ -24,10 +24,7 @@
       "Steps": [
         {
           "Type": "Action",
-          "Name": "SetUserProperty",
-          "Parameters": {
-            "property": "u.Country",
-            "value": "United-States"
+          "Name": "SetLocation"
           }
         }
       ]
