@@ -26,7 +26,7 @@
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
-            "property": "Country",
+            "property": "ppCountry",
             "value": "United-States"
           }
         }
