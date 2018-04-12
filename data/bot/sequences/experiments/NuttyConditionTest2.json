@@ -1,5 +1,5 @@
 {
-  "Type": "Node",
+  "Type": "Leaf",
   "Condition": "u.Country=='United Kingdom' || u.Country == 'United states'",
   "Id": "NuttyConditionTest2",
   "Steps": [
