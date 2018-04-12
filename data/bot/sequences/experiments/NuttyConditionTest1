@@ -1,0 +1,46 @@
+{
+  "Type": "Node",
+  "Id": "NuttyConditionTest2",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you American",
+        "fr": "Set user property?",
+        "es": "Set user property?..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "CondNutty1",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "u.Country",
+            "value": "United-States"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CondNutty2",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      }
+    }
+  ]
+}
