@@ -2,8 +2,8 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-        { "order" : 5, "file": ["/data/bot/sequences/savethekitten/ChooseKittenStory.json"]},
-        { "order" : 8, "file": ["/data/bot/sequences/savethekitten/Orion.json"]},
+        { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
+        { "order" : 8, "file": ["/data/bot/sequences/appspecials/savethekitten/Orion.json"]},
           { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
           { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
           { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
