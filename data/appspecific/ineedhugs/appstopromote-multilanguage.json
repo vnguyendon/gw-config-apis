@@ -1,0 +1,22 @@
+{
+  "apps": [
+    {
+      "title": { 
+        "en": "Elite Emoji",
+        "fr": "Elite Emoji",
+        "es": "Elite Emoji"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/EliteEmoji/small/EliteEmoji250x250.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
+    },
+    {
+      "title": {
+        "en": "Popular Stickers",
+        "fr": "Popular Stickers",
+        "es": "Popular Stickers"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Stickers/small/Stickers256x256.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers"
+    }
+  ]
+}
