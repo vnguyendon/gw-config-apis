@@ -15,7 +15,7 @@
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "cl1IYQsRsA8cT1HF2V"
+                "Path": "wJfLekkEI0hH1FJvqV"
             }
         },
         {
@@ -45,6 +45,14 @@
                 "es": "Save him!"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
@@ -79,6 +87,14 @@
                 "es": "Doom him!"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
