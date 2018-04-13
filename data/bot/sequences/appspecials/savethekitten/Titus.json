@@ -1,7 +1,7 @@
 {
     "Type": "Node",
     "Comments": "The story of Titus the Clever (reduce size of gif)",
-    "Id": "Orion",
+    "Id": "Titus",
     "Steps": [
         {
             "Type": "Text",
@@ -38,7 +38,7 @@
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "OrionSave",
+            "Id": "TitusSave",
             "CommandLabel": {
                 "en": "Save him!",
                 "fr": "Save him!",
@@ -72,7 +72,7 @@
         },
         {
             "Type": "Leaf",
-            "Id": "OrionDoom",
+            "Id": "TitusDoom",
             "CommandLabel": {
                 "en": "Doom him!",
                 "fr": "Doom him!",
