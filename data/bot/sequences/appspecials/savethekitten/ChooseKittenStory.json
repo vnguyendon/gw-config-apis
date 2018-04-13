@@ -1,0 +1,143 @@
+{
+    "Type": "Node",
+    "Comments": "The introduction for choosing which kitten story to hear",
+    "Id": "ChooseKittenStory",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "CHOOSE YOUR KITTEN HERO",
+                "fr": "CHOOSE YOUR KITTEN HERO",
+                "es": "CHOOSE YOUR KITTEN HERO"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "ChooseKittenMisty",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Misty",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/iStock_000019465856_Medium.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You have selected 'Misty the Thoughtful'",
+                        "fr": "You have selected 'Misty the thoughtful'",
+                        "es": "You have selected 'Misty the thoughtful'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseKittenTitus",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Titus",
+                "fr": "Titus",
+                "es": "Titus"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_197635112.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You have selected 'Titus the Inquisitive'",
+                        "fr": "You have selected 'Titus the Inquisitive'",
+                        "es": "You have selected 'Titus the Inquisitive'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseKittenOrion",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Orion",
+                "fr": "Orion",
+                "es": "Orion"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_98263802.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You have selected 'Orion the Wealthy'",
+                        "fr": "You have selected 'Orion the Wealthy'",
+                        "es": "You have selected 'Orion the Wealthy'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "ChooseKittenVictoria",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Victoria",
+                "fr": "Victoria",
+                "es": "Victoria"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "😺",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You have selected 'Victoria the Regal'",
+                        "fr": "You have selected 'Victoria the Regal'",
+                        "es": "You have selected 'Victoria the Regal'"
+                    }
+                }
+            ]
+        }
+    ]
+}
