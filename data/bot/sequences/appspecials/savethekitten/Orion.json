@@ -10,7 +10,7 @@
                 "fr": "Orion was born to a prosperous family, and as such his early years were very privileged",
                 "es": "Orion was born to a prosperous family, and as such his early years were very privileged"
             }
-        },
+        }
         {
             "Type": "Text",
             "Label": {
@@ -30,6 +30,14 @@
                 "es": "Save him!"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "Text",
                     "Label": {
@@ -71,6 +79,14 @@
                 "es": "Doom him!"
             },
             "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
