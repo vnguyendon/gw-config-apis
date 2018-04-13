@@ -2,6 +2,20 @@
   "apps": [
     {
       "header": {
+        "en": "Free hugs!",
+        "fr": "Calins gratuits!",
+        "es": "¡Abrazos gratis!"
+      },
+      "iconUrl": "http://gw-static.azurewebsites.net/themes/emojiBears/small/shutterstock_417336076_6.jpg",
+      "button": {
+        "en": "I need a hug",
+        "fr": "I need a hug",
+        "es": "I need a hug"
+      },
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.hugs"
+    },
+    {
+      "header": {
         "en": "Say what you think to a Pony bot!",
         "fr": "Dis ce que tu penses à un robot-poney !",
         "es": "¡Dígale lo que piensas a un poni-bot!"
