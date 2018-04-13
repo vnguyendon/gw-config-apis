@@ -1,20 +1,22 @@
 {
   "MasterFiles": [
     {
-      "Name": "swagfish",
+      "Name": "rcbotdev",
       "Source": "github",
-      "File": "/data/bot/apps/swagfish/swagfishMaster.json"
-    },
-    {
-      "Name": "rcdevbot",
-      "Source": "github",
-      "File": "/data/bot/apps/swagfish/swagfishMasterDev.json"
+      "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
   ],
   "FragmentsFiles": [
     {
       "Topic": "main",
-      "File": "/data/bot/sequences/masterfiles/fragmentfiles.json"
+      "Other":"/data/bot/sequences/fragments/FragmentsMain.json",
+      "File": "/data/bot/apps/surveypony/surveyPonyFragmentsTests.json"
+    }
+  ],
+  "FragmentsForKeywords" : [
+    {
+       "Name" : "default",
+       "File" : "/data/bot/apps/botapis/keywords-default.json"
     }
   ]
 }
