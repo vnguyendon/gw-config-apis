@@ -1,0 +1,108 @@
+{
+    "Type": "Node",
+    "Comments": "The story of Titus the Clever (reduce size of gif)",
+    "Id": "Orion",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
+                "fr": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
+                "es": "Titus is a genius - blessed with razor sharp intellect and a photographic memory"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "wJfLekkEI0hH1FJvqV"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here he is uploading a bug to the enemy servers while working for the CIA",
+                "fr": "Here he is uploading a bug to the enemy servers while working for the CIA",
+                "es": "Here he is uploading a bug to the enemy servers while working for the CIA"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Many were jealous of his mind, though, and sought to destroy him",
+                "fr": "Many were jealous of his mind, though, and sought to destroy him",
+                "es": "Many were jealous of his mind, though, and sought to destroy him"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "OrionSave",
+            "CommandLabel": {
+                "en": "Save him!",
+                "fr": "Save him!",
+                "es": "Save him!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But Titus outsmarted them all with stealth and disguise",
+                        "fr": "But Titus outsmarted them all with stealth and disguise",
+                        "es": "But Titus outsmarted them all with stealth and disguise"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "wyoUdfhunrDZ6"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He plans to run for president in 2024",
+                        "fr": "He plans to run for president in 2024",
+                        "es": "He plans to run for president in 2024"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "OrionDoom",
+            "CommandLabel": {
+                "en": "Doom him!",
+                "fr": "Doom him!",
+                "es": "Doom him!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His enemies poisoned his mind, causing him to lose his senses...",
+                        "fr": "His enemies poisoned his mind, causing him to lose his senses...",
+                        "es": "His enemies poisoned his mind, causing him to lose his senses..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "6S1k7SLbAH4f6"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A truly terrible tale about jealousy and lost potential",
+                        "fr": "A truly terrible tale about jealousy and lost potential",
+                        "es": "A truly terrible tale about jealousy and lost potential"
+                    }
+                }
+            ]
+        }
+    ]
+}
