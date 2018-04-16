@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ppJusticeOverPity",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "themes/emoticons/small/000016009511.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"You primarily value",
+        "fr":"Vous donnez plus d'importance à",
+        "es":"Valora principalmente"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Justice",
+      "CommandLabel": {
+        "en":"justice",
+        "fr":"la justice",
+        "es":"la justicia"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppJusticeOverPity",
+            "value": "Justice"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Pity",
+      "CommandLabel": {
+        "en":"mercy",
+        "fr":"la pitié",
+        "es":"la compasión"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppJusticeOverPity",
+            "value": "Pity"
+          }
+        }
+      ]
+    }
+  ]
+}
