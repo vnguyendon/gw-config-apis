@@ -2,8 +2,6 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-        { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
-        { "order" : 8, "file": ["/data/bot/sequences/appspecials/savethekitten/Orion.json"]},
           { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
           { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
           { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
@@ -11,7 +9,6 @@
           { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
           { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
           { "order" : 70, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-          { "order" : 80, "file": ["/data/bot/sequences/experiments/TryingEmbedLink.json"]},
           { "order" : 1500, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
         ]
   }
