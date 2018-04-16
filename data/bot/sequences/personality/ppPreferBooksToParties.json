@@ -1,0 +1,80 @@
+{
+  "Type": "Node",
+  "Id": "ppPreferBooksToParties",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "canonical/11703101_735140276597245_1438742967970096196_n.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"You often prefer books to parties",
+        "fr":"Vous préférez souvent les livres aux fêtes",
+        "es":"A menudo prefiere los libros a las fiestas"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Books",
+      "CommandLabel": {
+        "en":"yes",
+        "fr":"oui",
+        "es":"sí"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppPreferBooksToParties",
+            "value": "Books"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Parties",
+      "CommandLabel": {
+        "en":"no",
+        "fr":"non",
+        "es":"no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppPreferBooksToParties",
+            "value": "Parties"
+          }
+        }
+      ]
+    }
+  ]
+}
