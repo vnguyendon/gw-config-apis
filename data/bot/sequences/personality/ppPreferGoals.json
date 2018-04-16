@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ppPreferGoals",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"You prefer goals that are",
+        "fr":"Vous préférez les objectifs",
+        "es":"Prefiere objetivos que sean"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Flexible",
+      "CommandLabel": {
+        "en":"flexible, evolving",
+        "fr":"flexibles, évolutifs",
+        "es":"flexibles"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppPreferGoals",
+            "value": "Flexible"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Structured",
+      "CommandLabel": {
+        "en":"structured, well defined",
+        "fr":"structurés, bien définis",
+        "es":"bien organizados"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppPreferGoals",
+            "value": "Structured"
+          }
+        }
+      ]
+    }
+  ]
+}
