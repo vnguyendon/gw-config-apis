@@ -12,7 +12,7 @@
         "fr": "1993",
         "es": "1993"
       },
-      "Picture": {
+      "Image": {
         "Source": "Web",
         "Path": "http://www.filmmattersmagazine.com/wp-content/uploads/2017/11/batten-1.jpg"
       }
@@ -44,7 +44,7 @@
         "fr": "1984",
         "es": "1984"
       },
-      "Picture": {
+      "Image": {
         "Source": "Web",
         "Path": "http://metrograph.com/uploads/films/Ghostbusters_FOR_BOOK-1486579951-726x388.jpg"
       }
@@ -60,7 +60,7 @@
         "fr": "2004",
         "es": "2004"
       },
-      "Picture": {
+      "Image": {
         "Source": "Web",
         "Path": "http://ourgoldenage.com.au/wp-content/uploads/2014/12/GAC_LifeAquatic.jpg"
       }
