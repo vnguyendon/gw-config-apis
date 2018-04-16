@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ppImportantQuality",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "themes/emoticons/small/000022011350.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"The most important quality of friends",
+        "fr":"La qualité la plus importante d'un ami",
+        "es":"La cualidad más importante de un amigo"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Curious",
+      "CommandLabel": {
+        "en":"being curious",
+        "fr":"être curieux",
+        "es":"curiosidad"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppImportantQuality",
+            "value": "Curious"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Positive",
+      "CommandLabel": {
+        "en":"being positive",
+        "fr":"être positif",
+        "es":"optimismo"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppImportantQuality",
+            "value": "Positive"
+          }
+        }
+      ]
+    }
+  ]
+}
