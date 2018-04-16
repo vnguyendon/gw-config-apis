@@ -39,13 +39,6 @@
             "Name": "ShowSurveyResults"
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "TBD"
-          }
-        },
-        {
           "Type": "Action",
           "Name": "SetUserProperty",
           "Parameters": {
@@ -72,13 +65,6 @@
         {
             "Type": "Action",
             "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "TBD"
-          }
         },
         {
           "Type": "Action",
