@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ppSocialInteraction",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"Social interaction comes to you",
+        "fr":"Les contacts sociaux vous viennent",
+        "es":"La interacción social ocurre"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Naturally",
+      "CommandLabel": {
+        "en":"naturally",
+        "fr":"naturellement",
+        "es":"naturalmente"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TuQUMaAji7pkY"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppSocialInteraction",
+            "value": "Naturally"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "WithEffort",
+      "CommandLabel": {
+        "en":"with effort",
+        "fr":"avec effort",
+        "es":"cuándo me esfuerzo"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "YLHwkqayc1j7a"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppSocialInteraction",
+            "value": "WithEffort"
+          }
+        }
+      ]
+    }
+  ]
+}
