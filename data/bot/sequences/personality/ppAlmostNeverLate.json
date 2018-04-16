@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ppAlmostNeverLate",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "themes/emoticons/small/000025388355.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"You are almost never late for appointments",
+        "fr":"Vous n'êtes presque jamais en retard aux rendez-vous",
+        "es":"Casi nunca llega tarde a sus citas"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "NeverLate",
+      "CommandLabel": {
+        "en":"yes",
+        "fr":"oui",
+        "es":"sí"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAlmostNeverLate",
+            "value": "NeverLate"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "Late",
+      "CommandLabel": {
+        "en":"no",
+        "fr":"non",
+        "es":"no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "TBD"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "SetUserProperty",
+          "Parameters": {
+            "property": "ppAlmostNeverLate",
+            "value": "Late"
+          }
+        }
+      ]
+    }
+  ]
+}
