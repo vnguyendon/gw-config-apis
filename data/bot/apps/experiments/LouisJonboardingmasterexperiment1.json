@@ -9,7 +9,7 @@
           { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
           { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
           { "order" : 70, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-          { "order" : 1500, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+          { "order" : 150, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
         ]
   }
 ]
