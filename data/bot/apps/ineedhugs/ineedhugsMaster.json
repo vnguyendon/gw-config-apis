@@ -2,18 +2,26 @@
   {
     "GroupName": "Hugs",
     "SequenceFiles": [
-      { "order" : 6, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json"]},
-      { "order" : 10, "file":["/data/bot/sequences/appspecials/ineedhugs/LotteryHug.json"]},
-      { "order" : 30, "file":["/data/bot/sequences/appspecials/ineedhugs/CatLunch.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/RainingHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/WhichSideHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/FavAnimalHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/ChemicalsHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/RecentMealHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/LawHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/StressHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/FavDishHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]}
+      { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
+      { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
+      { "order" : 40, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
+      { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+      { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
+      { "order" : 70, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]},
+      { "order" : 116, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json"]},
+      { "order" : 110, "file":["/data/bot/sequences/appspecials/ineedhugs/LotteryHug.json"]},
+      { "order" : 130, "file":["/data/bot/sequences/appspecials/ineedhugs/CatLunch.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/RainingHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/WhichSideHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/FavAnimalHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/ChemicalsHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/RecentMealHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/LawHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/StressHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/FavDishHug.json"]},
+      { "order" : 146, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]}
     ]
   }
 ]
