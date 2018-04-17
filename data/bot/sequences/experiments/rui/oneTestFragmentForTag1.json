@@ -1,0 +1,25 @@
+{
+  "Type": "Node",
+  "Comments": "trying to show a Tag1 sequence",
+  "Id": "oneTestFragmentForTag1",
+  "Tags":["testtag1"],
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "oneTestFragmentForTag1: inside new fragment for tag1",
+            "fr": "oneTestFragmentForTag1: inside new fragment for tag1"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "leafTag1TestSuccess",
+      "CommandLabel": {
+        "en": "Continue",
+        "fr": "Continue"
+      }
+    }
+  ]
+}
