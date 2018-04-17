@@ -63,6 +63,10 @@
     {
       "Name": "ineedhugsandroid",
       "File": "/data/bot/apps/ineedhugs/ineedhugsAndroidMaster.json"
+    },
+    {
+      "Name": "savethekitten",
+      "File": "/data/bot/apps/kitten/savethekittenMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
