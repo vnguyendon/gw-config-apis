@@ -2,20 +2,10 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
+          { "order" : 10, "file": ["/data/bot/sequences/experiments/rui/should_execute_a_sequence_with_fragments_by_tags.json"]},
           { "order" : 15, "file": ["/data/bot/sequences/smalltalk/AddictedBot.json"]},
           { "order" : 20, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowRandomGifFromList.json"]},
-          { "order" : 25, "file": ["/data/bot/sequences/smalltalk/AreYouReal.json"]},
-          { "order" : 30, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularTextFromIntention.json"]},
-          { "order" : 35, "file": ["/data/bot/sequences/smalltalk/AreYouHuman.json"]},
-          { "order" : 40, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowPopularImageFromTheme.json"]},
-          { "order" : 45, "file": ["/data/bot/sequences/smalltalk/BaseballMovie.json"]},
-          { "order" : 50, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
-          { "order" : 55, "file": ["/data/bot/sequences/smalltalk/CantSleepWork.json"]},
-          { "order" : 60, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
-          { "order" : 65, "file": ["/data/bot/sequences/smalltalk/DoYouLikePoems.json"]},
-          { "order" : 70, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
-          { "order" : 150, "file": ["/data/bot/sequences/experiments/rui/ThisIsTheLastSequenceOfTheConversation.json"]}
+          { "order" : 25, "file": ["/data/bot/sequences/smalltalk/AreYouReal.json"]}
         ]
   }
 ]
