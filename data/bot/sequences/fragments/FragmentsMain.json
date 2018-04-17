@@ -40,5 +40,6 @@
   "secondFragmentForTag2": "/data/bot/sequences/experiments/rui/secondFragmentForTag2.json",
   "secondFragmentForTag3": "/data/bot/sequences/experiments/rui/secondFragmentForTag3.json",
   "FindHugGif": "/data/bot/sequences/fragments/hugfragments/FindHugGif.json",
-  "FindHugImageText": "/data/bot/sequences/fragments/hugfragments/FindHugImageText.json"
+  "FindHugImageText": "/data/bot/sequences/fragments/hugfragments/FindHugImageText.json",
+  "oneTestFragmentForTag1":"/data/bot/sequences/experiments/rui/oneTestFragmentForTag1.json"
 }
