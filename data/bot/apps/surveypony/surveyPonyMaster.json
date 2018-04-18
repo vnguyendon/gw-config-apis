@@ -6,7 +6,6 @@
       { "order" : 20, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/surveys/LikeAstrology.json"]},
-      { "order" : 42, "file": ["/data/bot/sequences/experiments/SPforScreenshot.json"]},
       { "order" : 45, "file": ["/data/bot/sequences/settings/SPNotification.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/smalltalk/SoupStopsHungerAndThirst.json"]},
