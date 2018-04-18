@@ -1,0 +1,152 @@
+{
+  "Type": "Node",
+  "Id": "LearnMakeJokesQuickbreak",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+          "Path": "http://res.cloudinary.com/wavemining/image/upload/v1524047884/image.png"
+        }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "We need a quick break from surveys I think…",
+        "fr": "Je pense qu'une petite pause sur les sondages s'impose...",
+        "es": "Creo que necesitamos una pequeña pausa con las encuestas..."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Today, I learned about jokes. Want to hear one I made?",
+        "fr": "Aujourd'hui, j'ai appris à faire des blagues. Tu en veux une?",
+        "es": "Hoy aprendí hacer bromas. ¿Quieres una?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WantOneJoke",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Go for it!",
+        "fr": "Vas y Billy !",
+        "es": "¡adelante!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ok so a human 👱, a mouse 🐁, and a chatbot 🤖 walk into a bar…",
+            "fr": "Ok donc un humain 👱, une souris 🐁 et un chatbot 🤖 rentrent dans un bar…",
+            "es": "Vale pues un humano 👱, un ratón 🐁 y un chatbot 🤖 entran en un bar…"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "WantOneJokeStepOne",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "MidJokeComment",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Ok…",
+              "fr": "Ok…",
+              "es": "Ok…"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The human asks for a drink, the mouse asks for some cheese, and the chatbot asks ‘Hi there, what can I do for you?’",
+                  "fr": "L'humain commande à boire, la souris prend du fromage, et le chatbot demande 'Bonjour, que puis-je faire pour vous ?'",
+                  "es": "El humano pide para beber, el ratón pide queso, y el chatbot pregunta 'Hola, ¿qué puedo hacer por usted?"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "MidJokeAnswer",
+              "Steps": [
+                {
+                  "Type": "AnimatedGif",
+                  "Parameters": {
+                    "Source": "Giphy",
+                    "Path": "O5NyCibf93upy"
+                  }
+                }
+              ],
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "AnswerJokeVeryFunny",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "very funny 😂",
+                    "fr": "haha très drôle 😂",
+                    "es": "jaja muy divertido 😂"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "yoJC2El7xJkYCadlWE"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "AnswerJokeErm",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Erm…😒",
+                    "fr": "Hmm…😒",
+                    "es": "Bueno…😒"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess I need practice…",
+                        "fr": "J'imagine que je dois encore un peu m'entraîner…",
+                        "es": "Imagino que necesito practicar un poco más…"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "AnswerJokeChatbotsCant",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Chatbots can’t walk! 😛",
+                    "fr": "Tu as déjà vu un chatbot dans un bar toi ? 😛",
+                    "es": "¿Ya viste un chatbot en un bar? 😛"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess I missed that part…",
+                        "fr": "J'imagine que j'avais oublié ce petit détail…",
+                        "es": "Parece que había olvidado este detalle…"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
