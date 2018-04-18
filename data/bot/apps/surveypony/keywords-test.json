@@ -1,0 +1,24 @@
+{
+  "id":"default",
+  "matchingType":"exact",
+  "keywords": [
+    {
+        "words" : ["cat","chat","gato"],
+        "fragment" : {
+            "tags" : ["cats"]
+        }
+    },
+    {
+      "words" : ["dog","chien","perro"],
+        "fragment" : {
+          "path" : "OneFragmentForKeywordDog"
+        }
+    },
+    {
+      "words" : ["love","amour","aime","like"],
+        "fragment" : {
+          "path" : "OneFragmentForKeywordLove"
+        }
+    }
+  ]
+}
