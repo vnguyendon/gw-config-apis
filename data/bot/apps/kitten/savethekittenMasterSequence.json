@@ -1,7 +1,6 @@
 
 [
   {
-  "Version": 5,
   "GroupName": "Kitten",
   "SequenceFiles": [
     { "order" : 30, "file":["/data/bot/sequences/smalltalk/AddictedBot.json"]},
