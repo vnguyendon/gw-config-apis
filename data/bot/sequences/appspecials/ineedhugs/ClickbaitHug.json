@@ -1,0 +1,94 @@
+{
+  "Type": "Node",
+  "Id": "ClickbaitHug",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You WON’T believe this one thing that hugs are proven to do!",
+        "fr": "You WON’T believe this one thing that hugs are proven to do!",
+        "es": "You WON’T believe this one thing that hugs are proven to do!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "CLICK to find out!",
+        "fr": "CLICK to find out!",
+        "es": "CLICK to find out!"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "ClickbaitHugDont",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Don’t clickbait me",
+        "fr": "Don’t clickbait me",
+        "es": "Don’t clickbait me"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s not clickbait if it’s true!",
+            "fr": "It’s not clickbait if it’s true!",
+            "es": "It’s not clickbait if it’s true!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hugs prevent traffic jams…",
+            "fr": "Hugs prevent traffic jams…",
+            "es": "Hugs prevent traffic jams…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "have one and have a speedy journey wherever you go…",
+            "fr": "have one and have a speedy journey wherever you go…",
+            "es": "have one and have a speedy journey wherever you go…"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "FindHugImageText"
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "ClickbaitHugWhat",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "What is it?",
+        "fr": "What is it?",
+        "es": "What is it?"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Hugs are proven to prevent traffic jams!",
+            "fr": "Hugs are proven to prevent traffic jams!",
+            "es": "Hugs are proven to prevent traffic jams!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Have one, and have a speedy journey wherever you go!",
+            "fr": "Have one, and have a speedy journey wherever you go!",
+            "es": "Have one, and have a speedy journey wherever you go!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "FindHugGif"
+      }
+    }
+  ]
+}
