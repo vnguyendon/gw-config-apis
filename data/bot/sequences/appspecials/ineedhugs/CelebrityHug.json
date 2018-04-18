@@ -1,0 +1,152 @@
+{
+    "Type": "Node",
+    "Id": "CelebrityHug",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "A quiz!",
+                "fr": "A quiz!",
+                "es": "A quiz!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Which famous person said ‘Hugs are the best thing ever’?",
+                "fr": "Which famous person said ‘Hugs are the best thing ever’?",
+                "es": "Which famous person said ‘Hugs are the best thing ever’?"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "If you answer right, you can have a hug!",
+                "fr": "If you answer right, you can have a hug!",
+                "es": "If you answer right, you can have a hug!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "CelebrityHugShakespeare",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Shakespeare",
+                "fr": "Shakespeare",
+                "es": "Shakespeare"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "👨‍🎨",
+                    "fr": "👨‍🎨",
+                    "es": "👨‍🎨"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1524043591/william-shakespeare-194895-1-402.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Correct… it was his favourite phrase… here’s your prize!",
+                        "fr": "Correct… it was his favourite phrase… here’s your prize!",
+                        "es": "Correct… it was his favourite phrase… here’s your prize!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "CelebrityHugCleopatra",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Cleopatra",
+                "fr": "Cleopatra",
+                "es": "Cleopatra"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "👸",
+                    "fr": "👸",
+                    "es": "👸"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1524044091/cleopatra1.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes indeed! In fact, she loved hugs so much, she died hugging a snake",
+                        "fr": "Yes indeed! In fact, she loved hugs so much, she died hugging a snake",
+                        "es": "Yes indeed! In fact, she loved hugs so much, she died hugging a snake"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here’s your prize!",
+                        "fr": "Here’s your prize!",
+                        "es": "Here’s your prize!"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "CelebrityHugElvis",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Elvis Presley",
+                "fr": "Elvis Presley",
+                "es": "Elvis Presley"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🎤",
+                    "fr": "🎤",
+                    "es": "🎤"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://res.cloudinary.com/wavemining/image/upload/v1524044754/elvis-presley-9446466-1-402.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You’re correct! Some say he is still alive today, hugging and singing",
+                        "fr": "You’re correct! Some say he is still alive today, hugging and singing",
+                        "es": "You’re correct! Some say he is still alive today, hugging and singing"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here’s your prize",
+                        "fr": "Here’s your prize",
+                        "es": "Here’s your prize"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "FindHugGif"
+            }
+        }
+    ]
+}
