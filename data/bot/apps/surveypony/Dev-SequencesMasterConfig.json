@@ -16,7 +16,7 @@
   "FragmentsForKeywords" : [
     {
        "Name" : "default",
-       "File" : "/data/bot/apps/botapis/keywords-default.json"
+       "File" : "/data/bot/apps/surveypony/keywords-test.json"
     }
   ]
 }
