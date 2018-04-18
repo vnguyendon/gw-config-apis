@@ -1,0 +1,91 @@
+{
+  "Type": "Node",
+  "Id": "DesertHug",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Did you know one man survived for four years in the desert with no food?",
+        "fr": "Did you know one man survived for four years in the desert with no food?",
+        "es": "Did you know one man survived for four years in the desert with no food?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "His only sustenance was hugs",
+        "fr": "His only sustenance was hugs",
+        "es": "His only sustenance was hugs"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "DesertHugUntrue",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That’s not true",
+        "fr": "That’s not true",
+        "es": "That’s not true"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Perhaps not.",
+            "fr": "Perhaps not.",
+            "es": "Perhaps not."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "But hugs are great anyway.",
+            "fr": "But hugs are great anyway.",
+            "es": "But hugs are great anyway."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Have one!",
+            "fr": "Have one!",
+            "es": "Have one!"
+          }
+        }
+      ],
+      "LinksToFragment": {
+        "FragmentPath": "FindHugGif"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "DesertHugAmazing",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Amazing",
+        "fr": "Amazing",
+        "es": "Amazing"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Indeed!",
+            "fr": "Indeed!",
+            "es": "Indeed!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "At Hug Point, my hometown, no-one eats food, we just hug each other",
+            "fr": "At Hug Point, my hometown, no-one eats food, we just hug each other",
+            "es": "At Hug Point, my hometown, no-one eats food, we just hug each other"
+          }
+        }
+      ]
+    }
+  ]
+}
