@@ -21,6 +21,12 @@
         "fragment" : {
           "path" : "OneFragmentForKeywordDog"
         }
-    }
+    },
+    {
+        "words" : ["dogs"],
+        "fragment" : {
+            "tags" : ["cats"]
+        }
+    },
   ]
 }
