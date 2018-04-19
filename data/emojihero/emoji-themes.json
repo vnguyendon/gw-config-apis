@@ -115,17 +115,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/nature/small"
+        "Link": "themes/emoticons8/small"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg"
+        "Path": "themes/emoticons8/small/shutterstock_28414891.jpg"
         },
       "Labels": {
-        "fr": "Nature",
-        "en": "Nature",
-        "es": "Naturaleza"
+        "fr": "Emoji+",
+        "en": "Emoji+",
+        "es": "Emoji+"
       }
     },
     {
