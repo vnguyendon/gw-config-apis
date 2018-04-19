@@ -3,6 +3,7 @@
   {
   "GroupName": "Kitten",
   "SequenceFiles": [
+      { "order" : 20, "file": ["/data/bot/sequences/appspecials/savethekitten/STKintro.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/savethekitten/AnotherKittenStory.json"]}
     ]
