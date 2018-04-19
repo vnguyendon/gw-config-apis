@@ -14,7 +14,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousels/kitten/FirstKittenCarousel"
+                "Path": "/data/common/carousels/kitten/FirstKittenCarousel.json"
             }
         },
         {
