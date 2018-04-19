@@ -68,10 +68,7 @@
                                     "es": "You have selected 'Misty the Thoughtful'"
                                 }
                             }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Misty"
-                        }
+                        ]
                     },
                     {
                         "Type": "Leaf",
@@ -170,10 +167,7 @@
                                     "es": "You have selected 'Victoria the Regal'"
                                 }
                             }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Victoria"
-                        }
+                        ]
                     }
                 ]
             }
