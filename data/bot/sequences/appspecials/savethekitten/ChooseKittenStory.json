@@ -6,9 +6,9 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "CHOOSE YOUR KITTEN HERO",
-                "fr": "CHOOSE YOUR KITTEN HERO",
-                "es": "CHOOSE YOUR KITTEN HERO"
+                "en": "Alright... choose who you want to hear about!",
+                "fr": "Alright... choose who you want to hear about!",
+                "es": "Alright... choose who you want to hear about!"
             }
         }
     ],
@@ -40,8 +40,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "You have selected 'Misty the Thoughtful'",
-                        "fr": "You have selected 'Misty the thoughtful'",
-                        "es": "You have selected 'Misty the thoughtful'"
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
                     }
                 }
             ]
