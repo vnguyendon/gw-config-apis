@@ -2,7 +2,7 @@
   {
     "GroupName": "Hero",
     "SequenceFiles": [
-      { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
+      { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/STKready.json"]},
       { "order" : 8, "file": ["/data/bot/sequences/appspecials/savethekitten/Orion.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/savethekitten/Titus.json"]}
     ]
