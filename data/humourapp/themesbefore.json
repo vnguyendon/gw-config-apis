@@ -119,14 +119,14 @@
 }
 ,  
 { 
-"Path" : "themes/emojiFlag",
-"DefaultImage" : "themes/emojiFlag/small/shutterstock_425336680.jpg",
+"Path" : "themes/emojiNewOther",
+"DefaultImage" : "themes/emojiNewOther/small/shutterstock_529122715.jpg",
 "SearchText" : "flag", 
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji drapeau"},
-  {"Language":"en-EN","Label":"flag emoji"},
-  {"Language":"es-ES","Label":"Emoji bandera"}
+  {"Language":"fr-FR","Label":"Emoji bonus"},
+  {"Language":"en-EN","Label":"Bonus emoji"},
+  {"Language":"es-ES","Label":"Emoji extra"}
   ]
 }     
 ,  
