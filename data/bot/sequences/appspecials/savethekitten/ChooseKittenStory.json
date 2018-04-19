@@ -16,7 +16,7 @@
     "Randomize": "true",
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "ChooseKittenMisty",
             "ElementValue": "1",
             "CommandLabel": {
@@ -44,10 +44,13 @@
                         "es": "You have selected 'Misty the Thoughtful'"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Misty"
+            }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "ChooseKittenTitus",
             "ElementValue": "1",
             "CommandLabel": {
@@ -81,7 +84,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "ChooseKittenOrion",
             "ElementValue": "1",
             "CommandLabel": {
@@ -115,7 +118,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "ChooseKittenVictoria",
             "ElementValue": "1",
             "CommandLabel": {
@@ -143,7 +146,10 @@
                         "es": "You have selected 'Victoria the Regal'"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Victoria"
+            }
         }
     ]
 }
