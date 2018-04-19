@@ -1,0 +1,215 @@
+{
+    "Type": "Node",
+    "Id": "STKintro",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello!",
+                "fr": "Hello!",
+                "es": "Hello!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "STKintroStart",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "GET STARTED",
+                "fr": "GET STARTED",
+                "es": "GET STARTED"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Would you agree that cats do some very silly things?",
+                        "fr": "Would you agree that cats do some very silly things?",
+                        "es": "Would you agree that cats do some very silly things?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "STKintroSilly",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "STKintroSillyYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes!",
+                            "fr": "Yes!",
+                            "es": "Yes!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right??",
+                                    "fr": "Right??",
+                                    "es": "Right??"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They mess up jumps…",
+                                    "fr": "They mess up jumps…",
+                                    "es": "They mess up jumps…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "JfLdIahamXQI0"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Pick fights they can’t win…",
+                                    "fr": "Pick fights they can’t win…",
+                                    "es": "Pick fights they can’t win…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "ouqjitaKr2Ja"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And get scared easily…",
+                                    "fr": "And get scared easily…",
+                                    "es": "And get scared easily…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "rcjl7ufZzCxuo"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "STKintroSillyNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "No",
+                            "fr": "No",
+                            "es": "No"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Are you serious??",
+                                    "fr": "Are you serious??",
+                                    "es": "Are you serious??"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They mess up jumps…",
+                                    "fr": "They mess up jumps…",
+                                    "es": "They mess up jumps…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "JfLdIahamXQI0"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Pick fights they can’t win…",
+                                    "fr": "Pick fights they can’t win…",
+                                    "es": "Pick fights they can’t win…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "ouqjitaKr2Ja"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "And get scared easily…",
+                                    "fr": "And get scared easily…",
+                                    "es": "And get scared easily…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "rcjl7ufZzCxuo"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
