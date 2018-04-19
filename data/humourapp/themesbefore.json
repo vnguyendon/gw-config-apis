@@ -37,13 +37,13 @@
 }   
 ,
 { 
-"Path" : "themes/puppies",
-"DefaultImage" : "themes/puppies/small/iStock_000038381312_Medium.jpg",
+"Path" : "themes/emomjiCatNew",
+"DefaultImage" : "themes/emomjiCatNew/small/shutterstock_504324118.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Chiens"},
-  {"Language":"en-EN","Label":"Puppies"},
-  {"Language":"es-ES","Label":"Cachorros"}
+  {"Language":"fr-FR","Label":"Chat"},
+  {"Language":"en-EN","Label":"Cat"},
+  {"Language":"es-ES","Label":"Gato"}
   ]
 }
 ,
