@@ -41,5 +41,7 @@
   "secondFragmentForTag3": "/data/bot/sequences/experiments/rui/secondFragmentForTag3.json",
   "FindHugGif": "/data/bot/sequences/fragments/hugfragments/FindHugGif.json",
   "FindHugImageText": "/data/bot/sequences/fragments/hugfragments/FindHugImageText.json",
-  "oneTestFragmentForTag1":"/data/bot/sequences/experiments/rui/oneTestFragmentForTag1.json"
+  "oneTestFragmentForTag1":"/data/bot/sequences/experiments/rui/oneTestFragmentForTag1.json",
+  "Orion":"/data/bot/sequences/appspecials/savethekitten/fragments/Orion.json",
+  "Titus":"/data/bot/sequences/appspecials/savethekitten/fragments/Titus.json"
 }
