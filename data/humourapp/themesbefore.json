@@ -60,13 +60,13 @@
 }
 ,
 { 
-"Path" : "themes/flowers",
-"DefaultImage" : "themes/flowers/small/shutterstock_127822121.jpg",
+"Path" : "themes/emojiAstro",
+"DefaultImage" : "themes/emojiAstro/small/shutterstock_554561449.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Fleurs"},
-  {"Language":"en-EN","Label":"Flowers"},
-  {"Language":"es-ES","Label":"Flores"}
+  {"Language":"fr-FR","Label":"Astrologie"},
+  {"Language":"en-EN","Label":"Astrology"},
+  {"Language":"es-ES","Label":"Astrologia"}
   ]
 }
 ,
