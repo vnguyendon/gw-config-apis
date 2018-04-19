@@ -4,6 +4,7 @@
   "GroupName": "Kitten",
   "SequenceFiles": [
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/savethekitten/STKintro.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/savethekitten/STKready.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/savethekitten/AnotherKittenStory.json"]}
     ]
