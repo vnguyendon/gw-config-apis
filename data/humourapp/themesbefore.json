@@ -71,14 +71,14 @@
 }
 ,
 { 
-"Path" : "themes/emojiSun",
-"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"Path" : "themes/emojiFish",
+"DefaultImage" : "themes/emojiFish/small/shutterstock_1016524282.jpg",
 "SearchText" : "smiley sun", 
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji Soleil"},
-  {"Language":"en-EN","Label":"Emoji Sun"},
-  {"Language":"es-ES","Label":"Emoji Sol"}
+  {"Language":"fr-FR","Label":"Swag fish"},
+  {"Language":"en-EN","Label":"Swag fish"},
+  {"Language":"es-ES","Label":"Pez Emoji"}
   ]
 }  
 ,
@@ -92,6 +92,30 @@
   {"Language":"es-ES","Label":"Emoji+"}
   ]
 }
+,  
+{ 
+"Path" : "themes/emojiCarnival",
+"DefaultImage" : "themes/emojiCarnival/small/shutterstock_429559042.jpg",
+"SearchText" : "Carnival", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Carnaval"},
+  {"Language":"en-EN","Label":"Carnival"},
+  {"Language":"es-ES","Label":"Carnaval"}
+  ]
+}   
+,
+{ 
+"Path" : "themes/emojiSun",
+"DefaultImage" : "themes/emojiSun/small/shutterstock_422197138_3.jpg",
+"SearchText" : "smiley sun", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji Soleil"},
+  {"Language":"en-EN","Label":"Emoji Sun"},
+  {"Language":"es-ES","Label":"Emoji Sol"}
+  ]
+}   
 ,  
 { 
 "Path" : "themes/emojiVanilla",
