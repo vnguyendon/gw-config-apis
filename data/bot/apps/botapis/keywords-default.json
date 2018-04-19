@@ -9,17 +9,17 @@
         }
     },
     {
-      "words" : ["dog","chien","perro"],
-      "matchingType":"partial",
-        "fragment" : {
-          "path" : "OneFragmentForKeywordDog"
-        }
-    },
-    {
       "words" : ["love","amour","aime","like"],
       "matchingType":"partial",
         "fragment" : {
           "path" : "OneFragmentForKeywordLove"
+        }
+    },
+    {
+      "words" : ["dog","chien","perro"],
+      "matchingType":"partial",
+        "fragment" : {
+          "path" : "OneFragmentForKeywordDog"
         }
     }
   ]
