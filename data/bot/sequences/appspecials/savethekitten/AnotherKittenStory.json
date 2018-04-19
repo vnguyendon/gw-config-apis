@@ -14,8 +14,8 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
-            "Id": "ChooseKittenMisty",
+            "Type": "Node",
+            "Id": "AnotherKittenYes",
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Yes!",
@@ -34,13 +34,13 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "AnotherKittenStoryYes",
+                "Id": "AnotherChooseKitten",
                 "ElementValue": "1",
                 "DisplayHint": "Carousel",
                 "Randomize": "true",
                 "Commands": [
                     {
-                        "Type": "Leaf",
+                        "Type": "Node",
                         "Id": "AnotherChooseKittenMisty",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -68,11 +68,14 @@
                                     "es": "You have selected 'Misty the Thoughtful'"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Misty"
+                        }
                     },
                     {
-                        "Type": "Leaf",
-                        "Id": "ChooseKittenTitus",
+                        "Type": "Node",
+                        "Id": "AnotherChooseKittenTitus",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Titus",
@@ -105,8 +108,8 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
-                        "Id": "ChooseKittenOrion",
+                        "Type": "Node",
+                        "Id": "AnotherChooseKittenOrion",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Orion",
@@ -139,8 +142,8 @@
                         }
                     },
                     {
-                        "Type": "Leaf",
-                        "Id": "ChooseKittenVictoria",
+                        "Type": "Node",
+                        "Id": "AnotherChooseKittenVictoria",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Victoria",
@@ -167,7 +170,10 @@
                                     "es": "You have selected 'Victoria the Regal'"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "Victoria"
+                        }
                     }
                 ]
             }
