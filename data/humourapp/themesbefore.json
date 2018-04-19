@@ -85,7 +85,8 @@
 { 
 "Path" : "themes/emoticons8",
 "DefaultImage" : "themes/emoticons8/small/shutterstock_28414891.jpg",
-"Labels":
+"SearchText" : "EmojiPlus", 
+  "Labels":
   [
   {"Language":"fr-FR","Label":"Emoji+"},
   {"Language":"en-EN","Label":"Emoji+"},
@@ -115,7 +116,19 @@
   {"Language":"en-EN","Label":"Emoji Sun"},
   {"Language":"es-ES","Label":"Emoji Sol"}
   ]
-}   
+}
+,  
+{ 
+"Path" : "themes/emojiFlag",
+"DefaultImage" : "themes/emojiFlag/small/shutterstock_425336680.jpg",
+"SearchText" : "flag", 
+"Labels":
+  [
+  {"Language":"fr-FR","Label":"Emoji drapeau"},
+  {"Language":"en-EN","Label":"flag emoji"},
+  {"Language":"es-ES","Label":"Emoji bandera"}
+  ]
+}     
 ,  
 { 
 "Path" : "themes/emojiVanilla",
