@@ -16,13 +16,6 @@
         }
     },
     {
-      "words" : ["dog","chien","perro"],
-      "matchingType":"partial",
-        "fragment" : {
-          "path" : "OneFragmentForKeywordDog"
-        }
-    },
-    {
         "words" : ["dogs"],
         "matchingType":"exact",
         "fragment" : {
