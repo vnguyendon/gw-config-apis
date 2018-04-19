@@ -75,7 +75,10 @@
                         "es": "You have selected 'Titus the Clever'"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Titus"
+            }
         },
         {
             "Type": "Leaf",
@@ -106,7 +109,10 @@
                         "es": "You have selected 'Orion the Wealthy'"
                     }
                 }
-            ]
+            ],
+            "LinksToFragment": {
+                "FragmentPath": "Orion"
+            }
         },
         {
             "Type": "Leaf",
