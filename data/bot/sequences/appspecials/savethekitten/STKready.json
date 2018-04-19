@@ -42,21 +42,16 @@
             }
         }
     ],
-    "LinksTo": {
-        "Type": "Leaf",
-        "Id": "STKyouReady",
-        "ElementValue": "1",
-        "Commands": [
-            {
-                "Type": "Leaf",
-                "Id": "STKyouReadyYes",
-                "ElementValue": "1",
-                "CommandLabel": {
-                    "en": "Let’s go!",
-                    "fr": "Let’s go!",
-                    "es": "Let’s go!"
-                }
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "STKreadyYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Let’s go!",
+                "fr": "Let’s go!",
+                "es": "Let’s go!"
             }
-        ]
-    }
+        }
+    ]
 }
