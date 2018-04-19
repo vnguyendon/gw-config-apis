@@ -1,0 +1,50 @@
+{
+    "Id": "FirstKittenCarousel",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_59153266.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_58120231.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_70773556.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_170544854.jpg"
+            }
+        }
+    ]
+}
