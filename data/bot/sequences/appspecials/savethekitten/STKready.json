@@ -1,0 +1,62 @@
+{
+    "Type": "Node",
+    "Id": "STKready",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Anyway, I know a whole bunch of different kittens",
+                "fr": "Anyway, I know a whole bunch of different kittens",
+                "es": "Anyway, I know a whole bunch of different kittens"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousels/kitten/FirstKittenCarousel"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "They’re all getting up to no good…",
+                "fr": "They’re all getting up to no good…",
+                "es": "They’re all getting up to no good…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It’s up to you whether they’re saved or doomed...",
+                "fr": "It’s up to you whether they’re saved or doomed...",
+                "es": "It’s up to you whether they’re saved or doomed..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Are you ready?!",
+                "fr": "Are you ready?!",
+                "es": "Are you ready?!"
+            }
+        }
+    ],
+    "LinksTo": {
+        "Type": "Leaf",
+        "Id": "STKyouReady",
+        "ElementValue": "1",
+        "Commands": [
+            {
+                "Type": "Leaf",
+                "Id": "STKyouReadyYes",
+                "ElementValue": "1",
+                "CommandLabel": {
+                    "en": "Let’s go!",
+                    "fr": "Let’s go!",
+                    "es": "Let’s go!"
+                }
+            }
+        ]
+    }
+}
