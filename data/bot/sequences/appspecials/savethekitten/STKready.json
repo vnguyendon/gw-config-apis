@@ -1,6 +1,6 @@
 {
     "Type": "Node",
-    "Id": "STKready",
+    "Id": "SpecialKitten",
     "Steps": [
         {
             "Type": "Text",
@@ -14,44 +14,74 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousel/kitten/FirstKittenCarousel.json"
+                "Path": "/data/common/carousels/kitten/FirstKittenCarousel.json"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "They’re all getting up to no good…",
-                "fr": "They’re all getting up to no good…",
-                "es": "They’re all getting up to no good…"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It’s up to you whether they’re saved or doomed...",
-                "fr": "It’s up to you whether they’re saved or doomed...",
-                "es": "It’s up to you whether they’re saved or doomed..."
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Are you ready?!",
-                "fr": "Are you ready?!",
-                "es": "Are you ready?!"
+                "en": "What do you make of them?",
+                "fr": "What do you make of them?",
+                "es": "What do you make of them?"
             }
         }
     ],
     "Commands": [
         {
             "Type": "Leaf",
-            "Id": "STKreadyYes",
+            "Id": "SpecialKittenCute",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Let’s go!",
-                "fr": "Let’s go!",
-                "es": "Let’s go!"
-            }
+                "en": "So cute!",
+                "fr": "So cute!",
+                "es": "So cute!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I wouldn't be so sure...",
+                        "fr": "I wouldn't be so sure...",
+                        "es": "I wouldn't be so sure..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I'll tell you a story about one particular kitten...",
+                        "fr": "I'll tell you a story about one particular kitten...",
+                        "es": "I'll tell you a story about one particular kitten..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "SpecialKittenEvil",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I don't trust them",
+                "fr": "I don't trust them",
+                "es": "I don't trust them"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I appreciate your mistrust",
+                        "fr": "I appreciate your mistrust",
+                        "es": "I appreciate your mistrust"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here's a story about one particular kitten...",
+                        "fr": "Here's a story about one particular kitten...",
+                        "es": "Here's a story about one particular kitten..."
+                    }
+                }
+            ]
         }
     ]
 }
