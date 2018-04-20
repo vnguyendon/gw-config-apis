@@ -14,7 +14,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousel/kitten/PtolemyCard.json"
+                "Path": "/data/common/carousels/kitten/PtolemyCard.json"
             }
         },
         {
@@ -106,7 +106,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyCuteCrimeOKPunish",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -133,7 +133,7 @@
                                     ]
                                 },
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyCuteCrimeOKSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -202,7 +202,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyCuteCrimeBadPunish",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -229,7 +229,7 @@
                                     ]
                                 },
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyCuteCrimeBadSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -340,7 +340,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyEvilCrimeOKPunish",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -367,7 +367,7 @@
                                     ]
                                 },
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyEvilCrimeOKSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -436,7 +436,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyEvilCrimeBadPunish",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -463,7 +463,7 @@
                                     ]
                                 },
                                 {
-                                    "Type": "Node",
+                                    "Type": "Leaf",
                                     "Id": "PtolemyEvilCrimeBadSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
