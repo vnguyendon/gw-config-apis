@@ -1,0 +1,499 @@
+{
+    "Type": "Node",
+    "Id": "Ptolemy",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is his ID card...",
+                "fr": "Here is his ID card...",
+                "es": "Here is his ID card..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousels/kitten/PtolemyCard.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Cute or evil?",
+                "fr": "Cute or evil?",
+                "es": "Cute or evil?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "PtolemyCute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's cute!",
+                "fr": "He's cute!",
+                "es": "He's cute!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, he is a cute criminal...",
+                        "fr": "Well, he is a cute criminal...",
+                        "es": "Well, he is a cute criminal..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "C23cMUqoZdqMg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you see, he attempted to steal valuable fabrics from his king",
+                        "fr": "As you see, he attempted to steal valuable fabrics from his king",
+                        "es": "As you see, he attempted to steal valuable fabrics from his king"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PtolemyCuteCrime",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PtolemyCuteCrimeOK",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "it's toilet roll...",
+                            "fr": "it's toilet roll...",
+                            "es": "it's toilet roll..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, his mother turned him in anyway",
+                                    "fr": "Well, his mother turned him in anyway",
+                                    "es": "Well, his mother turned him in anyway"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "fr": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "es": "Here is the twist... YOU can decide if he is punished or not!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PtolemyCuteCrimeOKFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyCuteCrimeOKPunish",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Punish him!",
+                                        "fr": "Punish him!",
+                                        "es": "Punish him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "fr": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "es": "You have chosen well... he now faces 20 years hard labour in a factory..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "O8kds7nL7FaSY"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyCuteCrimeOKSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "fr": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "es": "Your choice has been honoured... but now I fear he will continue his thieving ways..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "TPXDdboFckd9u"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PtolemyCuteCrimeBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil thief!",
+                            "fr": "Evil thief!",
+                            "es": "Evil thief!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "well, his mother thought the same... she turned him in",
+                                    "fr": "well, his mother thought the same... she turned him in",
+                                    "es": "well, his mother thought the same... she turned him in"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "fr": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "es": "Here is the twist... YOU can decide if he is punished or not!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PtolemyCuteCrimeBadFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyCuteCrimeBadPunish",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Punish him!",
+                                        "fr": "Punish him!",
+                                        "es": "Punish him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "fr": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "es": "You have chosen well... he now faces 20 years hard labour in a factory..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "O8kds7nL7FaSY"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyCuteCrimeBadSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "fr": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "es": "Your choice has been honoured... but now I fear he will continue his thieving ways..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "TPXDdboFckd9u"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "PtolemyEvil",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's evil!",
+                "fr": "He's evil!",
+                "es": "He's evil!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He has certainly committed some crimes in his time...",
+                        "fr": "He has certainly committed some crimes in his time...",
+                        "es": "He has certainly committed some crimes in his time..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "C23cMUqoZdqMg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "As you see, he attempted to steal valuable fabrics from his king",
+                        "fr": "As you see, he attempted to steal valuable fabrics from his king",
+                        "es": "As you see, he attempted to steal valuable fabrics from his king"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "PtolemyEvilCrime",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "PtolemyEvilCrimeOK",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "it's toilet roll...",
+                            "fr": "it's toilet roll...",
+                            "es": "it's toilet roll..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, his mother turned him in anyway",
+                                    "fr": "Well, his mother turned him in anyway",
+                                    "es": "Well, his mother turned him in anyway"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "fr": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "es": "Here is the twist... YOU can decide if he is punished or not!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PtolemyEvilCrimeOKFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyEvilCrimeOKPunish",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Punish him!",
+                                        "fr": "Punish him!",
+                                        "es": "Punish him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "fr": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "es": "You have chosen well... he now faces 20 years hard labour in a factory..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "O8kds7nL7FaSY"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyEvilCrimeOKSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "fr": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "es": "Your choice has been honoured... but now I fear he will continue his thieving ways..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "TPXDdboFckd9u"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "PtolemyEvilCrimeBad",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil thief!",
+                            "fr": "Evil thief!",
+                            "es": "Evil thief!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "well, his mother thought the same... she turned him in",
+                                    "fr": "well, his mother thought the same... she turned him in",
+                                    "es": "well, his mother thought the same... she turned him in"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kPtVKasrCXP8TrGJKD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "fr": "Here is the twist... YOU can decide if he is punished or not!",
+                                    "es": "Here is the twist... YOU can decide if he is punished or not!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "PtolemyEvilCrimeBadFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyEvilCrimeBadPunish",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Punish him!",
+                                        "fr": "Punish him!",
+                                        "es": "Punish him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "fr": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                                                "es": "You have chosen well... he now faces 20 years hard labour in a factory..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "O8kds7nL7FaSY"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "PtolemyEvilCrimeBadSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "fr": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                                                "es": "Your choice has been honoured... but now I fear he will continue his thieving ways..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "TPXDdboFckd9u"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
