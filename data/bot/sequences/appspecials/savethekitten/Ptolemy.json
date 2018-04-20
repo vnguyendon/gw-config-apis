@@ -14,7 +14,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousels/kitten/PtolemyCard.json"
+                "Path": "/data/common/carousel/kitten/PtolemyCard.json"
             }
         },
         {
