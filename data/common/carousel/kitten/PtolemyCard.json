@@ -1,0 +1,16 @@
+{
+    "Id": "PtolemyCard",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Ptolemy the Thief",
+                "fr": "Ptolemy the Thief",
+                "es": "Ptolemy the Thief"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524220734/Ptolemy_the_Thief.png"
+            }
+        }
+    ]
+}
