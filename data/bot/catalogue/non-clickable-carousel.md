@@ -6,7 +6,7 @@ In our JSON format, the non-clickable carousel will be called as an action in a 
 1. Non-clickable carousels made of cards coming from the server
 2. Non-clickable carousels made of cards pre-defined in the JSON (or in Github)
 
-## 1. Non-clickable carousels with content from the server
+### 1. Non-clickable carousels with content from the server
 
 In the JSON code, it will look as follows (inside a Step):
  
@@ -32,7 +32,7 @@ When we receive this card (text + image) from the server, we should:
 - fill the "Title" field with the text that we receive. We usually limit the title to 80 characters. If the text you receive is longer than 80 characters, then we should show 77 characters and 3 dots (...)
 
 
-## 2. Non-clickable carousels with cards defined Githubd
+### 2. Non-clickable carousels with cards defined Githubd
 
 In the JSON code, it will look as follows (inside a Step):
  
