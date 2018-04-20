@@ -33,7 +33,7 @@ When we receive this card (text + image) from the server, we should:
 - fill the "Title" field with the text that we receive. We usually limit the title to 80 characters. If the text you receive is longer than 80 characters, then we should show 77 characters and 3 dots (...)
 
 
-## 2. Non-clickable carousels with cards defined Githubd
+## 2. Non-clickable carousels with cards defined Github
 
 In the JSON code, it will look as follows (inside a Step):
  
@@ -42,7 +42,7 @@ In the JSON code, it will look as follows (inside a Step):
 "Type": "Action",
  "Name": "ShowCarouselFromList", 
 "Parameters": { 
-    "Path": "/data/common/carousels/nutty/parcs.json"} 
+    "Path": "/data/common/carousel/nutty/parcs.json"} 
 }
 ```
 When we see this action, we should go on GitHub and look in the "/data/common/carousel/" folder and pick the file "BillMurrayMovies.json"
