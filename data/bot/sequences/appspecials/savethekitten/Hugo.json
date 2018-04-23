@@ -1,0 +1,505 @@
+{
+    "Type": "Node",
+    "Id": "Hugo",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Well then, here he is...",
+                "fr": "Well then, here he is...",
+                "es": "Well then, here he is..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/HugoCard.json"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HugoCute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "So cute!",
+                "fr": "So cute!",
+                "es": "So cute!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cute maybe, but Hugo was always a bit of a scaredy-cat...",
+                        "fr": "Cute maybe, but Hugo was always a bit of a scaredy-cat...",
+                        "es": "Cute maybe, but Hugo was always a bit of a scaredy-cat..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "Puc4FZWExJc0E"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He also fell for tricks easily...",
+                        "fr": "He also fell for tricks easily...",
+                        "es": "He also fell for tricks easily..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "W5D9oEAJvOHaE"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HugoCuteLike",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HugoCuteLikeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I like him!",
+                            "fr": "I like him!",
+                            "es": "I like him!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, he began to learn all about war and combat...",
+                                    "fr": "Well, he began to learn all about war and combat...",
+                                    "es": "Well, he began to learn all about war and combat..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "He has left for battle, and his fate lies with you...",
+                                    "es": "He has left for battle, and his fate lies with you..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HugoCuteLikeYesFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeYesDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "fr": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "es": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "taB9jDGxhxpny"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeYesSave",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Save him!",
+                                        "fr": "Save him!",
+                                        "es": "Save him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "fr": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "es": "You chose to save Hugo, and he is now a fearsome weapon of war..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "bZ1MqM6GLZmKY"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HugoCuteLikeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "He's useless!",
+                            "fr": "He's useless!",
+                            "es": "He's useless!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, that's why he began to learn all about war and combat...",
+                                    "fr": "Well, that's why he began to learn all about war and combat...",
+                                    "es": "Well, that's why he began to learn all about war and combat..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "He has left for battle, and his fate lies with you...",
+                                    "es": "He has left for battle, and his fate lies with you..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HugoCuteLikeNoFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeNoDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "fr": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "es": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "taB9jDGxhxpny"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeNoSave",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Save him!",
+                                        "fr": "Save him!",
+                                        "es": "Save him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "fr": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "es": "You chose to save Hugo, and he is now a fearsome weapon of war..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "bZ1MqM6GLZmKY"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HugoCoward",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "What a coward!",
+                "fr": "What a coward!",
+                "es": "What a coward!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes, he was always a bit of a scaredy-cat...",
+                        "fr": "Yes, he was always a bit of a scaredy-cat...",
+                        "es": "Yes, he was always a bit of a scaredy-cat..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "Puc4FZWExJc0E"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "And fell for tricks easily...",
+                        "fr": "And fell for tricks easily...",
+                        "es": "And fell for tricks easily..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "W5D9oEAJvOHaE"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HugoCowardLike",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HugoCowardLikeYes",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I like him!",
+                            "fr": "I like him!",
+                            "es": "I like him!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, he began to learn all about war and combat...",
+                                    "fr": "Well, he began to learn all about war and combat...",
+                                    "es": "Well, he began to learn all about war and combat..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "He has left for battle, and his fate lies with you...",
+                                    "es": "He has left for battle, and his fate lies with you..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HugoCowardLikeYesFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCowardLikeYesDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "fr": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "es": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "taB9jDGxhxpny"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCowardLikeYesSave",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Save him!",
+                                        "fr": "Save him!",
+                                        "es": "Save him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "fr": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "es": "You chose to save Hugo, and he is now a fearsome weapon of war..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "bZ1MqM6GLZmKY"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HugoCowardLikeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "He's useless!",
+                            "fr": "He's useless!",
+                            "es": "He's useless!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, that's why he began to learn all about war and combat...",
+                                    "fr": "Well, that's why he began to learn all about war and combat...",
+                                    "es": "Well, that's why he began to learn all about war and combat..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has now left for battle, and his fate lies with you...",
+                                    "fr": "He has now left for battle, and his fate lies with you...",
+                                    "es": "He has now left for battle, and his fate lies with you..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HugoCowardLikeNoFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCowardLikeNoDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "fr": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
+                                                "es": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "taB9jDGxhxpny"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCowardLikeNoSave",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Save him!",
+                                        "fr": "Save him!",
+                                        "es": "Save him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "fr": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "es": "You chose to save Hugo, and he is now a fearsome weapon of war..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "bZ1MqM6GLZmKY"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
