@@ -1,0 +1,57 @@
+{
+    "Type": "Node",
+    "Id": "HugoTeaser",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I have another story for you... about a cat who joined the military",
+                "fr": "I have another story for you... about a cat who joined the military",
+                "es": "I have another story for you... about a cat who joined the military"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Would you like to hear it?",
+                "fr": "Would you like to hear it?",
+                "es": "Would you like to hear it?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HugoTeaserYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes of course!",
+                "fr": "Yes of course!",
+                "es": "Yes of course!"
+            },
+            "LinksToFragment": {
+                "FragmentPath": "Hugo"
+            }
+        },
+        {
+            "Type": "Leaf",
+            "Id": "HugoTeaserNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not right now",
+                "fr": "Not right now",
+                "es": "Not right now"
+            },
+            "Steps":[
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "OK, lets move on...",
+                        "fr": "OK, lets move on...",
+                        "es": "OK, lets move on..."
+                    }
+                }
+            ]
+        }
+    ]
+}
