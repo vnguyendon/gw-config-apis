@@ -7,7 +7,7 @@
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/savethekitten/STKready.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/savethekitten/Ptolemy.json"]},
       { "order" : 45, "file": ["/data/bot/sequences/appspecials/savethekitten/HugoTeaser.json"]},
-      { "order" : 46, "file": ["/data/bot/sequences/appspecials/savethekitten/HugoTest.json"]},
+      { "order" : 46, "file": ["/data/bot/sequences/experiments/Billy2/HugoTest.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/savethekitten/AnotherKittenStory.json"]}
     ]
