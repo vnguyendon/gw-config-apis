@@ -1,0 +1,9 @@
+{
+  "botName":"savethekitten",
+  "botIconName":"OnboardingWhite",
+  "botTitle": {
+    "en":"Save the kitten",
+    "fr":"Sauvez le chaton",
+    "es":"Salva al gatito"
+  }
+}
