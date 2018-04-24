@@ -1,0 +1,16 @@
+{
+    "Id": "VictoriaCard",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Victoria the Ambitious",
+                "fr": "Victoria the Ambitious",
+                "es": "Victoria the Ambitious"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/mum/kittens/small/shutterstock_124480816.jpg"
+            }
+        }
+    ]
+}
