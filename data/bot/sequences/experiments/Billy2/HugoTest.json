@@ -32,9 +32,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Cute maybe, but Hugo was always a bit of a scaredy-cat...",
-                        "fr": "Cute maybe, but Hugo was always a bit of a scaredy-cat...",
-                        "es": "Cute maybe, but Hugo was always a bit of a scaredy-cat..."
+                        "en": "Cute maybe, but Hugo was always a bit of a scaredy-cat, even from a young age",
+                        "fr": "Cute maybe, but Hugo was always a bit of a scaredy-cat, even from a young age",
+                        "es": "Cute maybe, but Hugo was always a bit of a scaredy-cat, even from a young age"
                     }
                 },
                 {
@@ -47,9 +47,9 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "He also fell for tricks easily...",
-                        "fr": "He also fell for tricks easily...",
-                        "es": "He also fell for tricks easily..."
+                        "en": "And he was not exactly leading a productive life...",
+                        "fr": "And he was not exactly leading a productive life...",
+                        "es": "And he was not exactly leading a productive life..."
                     }
                 },
                 {
@@ -78,9 +78,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Well, he began to learn all about war and combat...",
-                                    "fr": "Well, he began to learn all about war and combat...",
-                                    "es": "Well, he began to learn all about war and combat..."
+                                    "en": "Well, he decided to get his act together, and joined the military",
+                                    "fr": "Well, he decided to get his act together, and joined the military",
+                                    "es": "Well, he decided to get his act together, and joined the military"
                                 }
                             },
                             {
@@ -93,9 +93,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "He has left for battle, and his fate lies with you...",
-                                    "es": "He has left for battle, and his fate lies with you..."
+                                    "en": "Whether or not he succeeds there is in your hands...",
+                                    "fr": "Whether or not he succeeds there is in your hands...",
+                                    "es": "Whether or not he succeeds there is in your hands..."
                                 }
                             }
                         ],
@@ -117,9 +117,9 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
-                                                "fr": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat...",
-                                                "es": "You chose to doom Hugo... his first battle with the rat army was a humiliating defeat..."
+                                                "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
+                                                "fr": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
+                                                "es": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat..."
                                             }
                                         },
                                         {
