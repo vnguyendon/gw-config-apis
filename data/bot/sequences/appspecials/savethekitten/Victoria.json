@@ -97,7 +97,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "VictoriaImpossibleSilly",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -117,7 +117,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "VictoriaImpossibleFearless",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -202,7 +202,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "VictoriaAdorableSilly",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -222,7 +222,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "VictoriaAdorableFearless",
                         "ElementValue": "1",
                         "CommandLabel": {
