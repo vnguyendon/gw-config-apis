@@ -1,0 +1,279 @@
+{
+    "Type": "Node",
+    "Id": "Victoria2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "After defeating Antioch, she was crowned...",
+                "fr": "After defeating Antioch, she was crowned...",
+                "es": "After defeating Antioch, she was crowned..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
+            }
+        }
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There she is preparing to give laws and organise the queendom",
+                "fr": "There she is preparing to give laws and organise the queendom",
+                "es": "There she is preparing to give laws and organise the queendom"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victoria2Cute",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Very cute!",
+                "fr": "Very cute!",
+                "es": "Very cute!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cute? She is a fearsome leader... just look how she defeated this challenger",
+                        "fr": "Cute? She is a fearsome leader... just look how she defeated this challenger",
+                        "es": "Cute? She is a fearsome leader... just look how she defeated this challenger"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5W6HMvrJSn6rm"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many more challengers exist, however, and she is struggling...",
+                        "fr": "Many more challengers exist, however, and she is struggling...",
+                        "es": "Many more challengers exist, however, and she is struggling..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You must decide how her reign ends",
+                        "fr": "You must decide how her reign ends",
+                        "es": "You must decide how her reign ends"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victoria2CuteFate",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victoria2CuteDoom",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "End her reign!",
+                            "fr": "End her reign!",
+                            "es": "End her reign!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Her enemies chased her to the edge of a great cliff...",
+                                    "fr": "Her enemies chased her to the edge of a great cliff...",
+                                    "es": "Her enemies chased her to the edge of a great cliff..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She lost her footing, and fell into nothingness",
+                                    "fr": "She lost her footing, and fell into nothingness",
+                                    "es": "She lost her footing, and fell into nothingness"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "EaufJGoYKWtkA"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She has not been sighted since...",
+                                    "fr": "She has not been sighted since...",
+                                    "es": "She has not been sighted since..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Victoria2CuteSpare",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let her stay queen!",
+                            "fr": "Let her stay queen!",
+                            "es": "Let her stay queen!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "fr": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "es": "With your support, she fought off all her enemies, even defeating Orion the Wealthy..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Nj44tzG16JfsA"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Victoria2Scary",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "She looks scary!",
+                "fr": "She looks scary!",
+                "es": "She looks scary!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Indeed... Victoria certainly has been a fearsome ruler",
+                        "fr": "Indeed... Victoria certainly has been a fearsome ruler",
+                        "es": "Indeed... Victoria certainly has been a fearsome ruler"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Just look how she defeated this challenger...",
+                        "fr": "Just look how she defeated this challenger...",
+                        "es": "Just look how she defeated this challenger..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5W6HMvrJSn6rm"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many more challengers exist, however, and she is struggling...",
+                        "fr": "Many more challengers exist, however, and she is struggling...",
+                        "es": "Many more challengers exist, however, and she is struggling..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You must decide how her reign ends",
+                        "fr": "You must decide how her reign ends",
+                        "es": "You must decide how her reign ends"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victoria2ScaryFate",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Victoria2ScaryDoom",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "End her reign!",
+                            "fr": "End her reign!",
+                            "es": "End her reign!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Her enemies chased her to the edge of a great cliff...",
+                                    "fr": "Her enemies chased her to the edge of a great cliff...",
+                                    "es": "Her enemies chased her to the edge of a great cliff..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She lost her footing, and fell into nothingness",
+                                    "fr": "She lost her footing, and fell into nothingness",
+                                    "es": "She lost her footing, and fell into nothingness"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "EaufJGoYKWtkA"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She has not been sighted since...",
+                                    "fr": "She has not been sighted since...",
+                                    "es": "She has not been sighted since..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Victoria2ScarySpare",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let her stay queen!",
+                            "fr": "Let her stay queen!",
+                            "es": "Let her stay queen!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "fr": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "es": "With your support, she fought off all her enemies, even defeating Orion the Wealthy..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Nj44tzG16JfsA"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
