@@ -66,75 +66,94 @@
                         "fr": "They survived, but Victoria had greater ambitions...",
                         "es": "They survived, but Victoria had greater ambitions..."
                     }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "She challenged the king, Antioch the Canine",
-                        "fr": "She challenged the king, Antioch the Canine",
-                        "es": "She challenged the king, Antioch the Canine"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "551ZQgkiytZsDfVH1N"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "And defeated him after a vicious fight!",
-                        "fr": "And defeated him after a vicious fight!",
-                        "es": "And defeated him after a vicious fight!"
-                    }
                 }
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "VictoriaImpossibleFight",
+                "Id": "VictoriaImpossibleNext",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
-                        "Id": "VictoriaImpossibleSilly",
+                        "Type": "Node",
+                        "Id": "VictoriaImpossibleContinue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "This is silly...",
-                            "fr": "This is silly...",
-                            "es": "This is silly..."
+                            "en": "Continue",
+                            "fr": "Continue",
+                            "es": "Continue"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "I assure you, that is what happened",
-                                    "fr": "I assure you, that is what happened",
-                                    "es": "I assure you, that is what happened"
+                                    "en": "She challenged the king, Antioch the Canine",
+                                    "fr": "She challenged the king, Antioch the Canine",
+                                    "es": "She challenged the king, Antioch the Canine"
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "VictoriaImpossibleFearless",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "She's fearless!",
-                            "fr": "She's fearless!",
-                            "es": "She's fearless!"
-                        },
-                        "Steps": [
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "551ZQgkiytZsDfVH1N"
+                                }
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Yes, ambition drove her to great heights...",
-                                    "fr": "Yes, ambition drove her to great heights...",
-                                    "es": "Yes, ambition drove her to great heights..."
+                                    "en": "And defeated him after a vicious fight!",
+                                    "fr": "And defeated him after a vicious fight!",
+                                    "es": "And defeated him after a vicious fight!"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "VictoriaImpossibleFight",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "VictoriaImpossibleSilly",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "This is silly...",
+                                        "fr": "This is silly...",
+                                        "es": "This is silly..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I assure you, that is what happened",
+                                                "fr": "I assure you, that is what happened",
+                                                "es": "I assure you, that is what happened"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "VictoriaImpossibleFearless",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "She's fearless!",
+                                        "fr": "She's fearless!",
+                                        "es": "She's fearless!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Yes, ambition drove her to great heights...",
+                                                "fr": "Yes, ambition drove her to great heights...",
+                                                "es": "Yes, ambition drove her to great heights..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             }
@@ -171,75 +190,94 @@
                         "Source": "Web",
                         "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
                     }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Not content with this life, she challenged the king, Antioch the Canine",
-                        "fr": "Not content with this life, she challenged the king, Antioch the Canine",
-                        "es": "Not content with this life, she challenged the king, Antioch the Canine"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "551ZQgkiytZsDfVH1N"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "And defeated him after a vicious fight!",
-                        "fr": "And defeated him after a vicious fight!",
-                        "es": "And defeated him after a vicious fight!"
-                    }
                 }
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "VictoriaAdorableFight",
+                "Id": "VictoriaAdorableNext",
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Leaf",
-                        "Id": "VictoriaAdorableSilly",
+                        "Type": "Node",
+                        "Id": "VictoriaAdorableContinue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "This is silly...",
-                            "fr": "This is silly...",
-                            "es": "This is silly..."
+                            "en": "Continue",
+                            "fr": "Continue",
+                            "es": "Continue"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "I assure you, that is what happened",
-                                    "fr": "I assure you, that is what happened",
-                                    "es": "I assure you, that is what happened"
+                                    "en": "Not content with this life, she challenged the king, Antioch the Canine",
+                                    "fr": "Not content with this life, she challenged the king, Antioch the Canine",
+                                    "es": "Not content with this life, she challenged the king, Antioch the Canine"
                                 }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "VictoriaAdorableFearless",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "She's fearless!",
-                            "fr": "She's fearless!",
-                            "es": "She's fearless!"
-                        },
-                        "Steps": [
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "551ZQgkiytZsDfVH1N"
+                                }
+                            },
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Yes, ambition drove her to great heights...",
-                                    "fr": "Yes, ambition drove her to great heights...",
-                                    "es": "Yes, ambition drove her to great heights..."
+                                    "en": "And defeated him after a vicious fight!",
+                                    "fr": "And defeated him after a vicious fight!",
+                                    "es": "And defeated him after a vicious fight!"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "VictoriaAdorableFight",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "VictoriaAdorableSilly",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "This is silly...",
+                                        "fr": "This is silly...",
+                                        "es": "This is silly..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I assure you, that is what happened",
+                                                "fr": "I assure you, that is what happened",
+                                                "es": "I assure you, that is what happened"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "VictoriaAdorableFearless",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "She's fearless!",
+                                        "fr": "She's fearless!",
+                                        "es": "She's fearless!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Yes, ambition drove her to great heights...",
+                                                "fr": "Yes, ambition drove her to great heights...",
+                                                "es": "Yes, ambition drove her to great heights..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
                     }
                 ]
             }
