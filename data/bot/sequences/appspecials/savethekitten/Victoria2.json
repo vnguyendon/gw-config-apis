@@ -75,7 +75,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "Victoria2CuteDoom",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -118,7 +118,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "Victoria2CuteSpare",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -203,7 +203,7 @@
                 "ElementValue": "1",
                 "Commands": [
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "Victoria2ScaryDoom",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -246,7 +246,7 @@
                         ]
                     },
                     {
-                        "Type": "Node",
+                        "Type": "Leaf",
                         "Id": "Victoria2ScarySpare",
                         "ElementValue": "1",
                         "CommandLabel": {
