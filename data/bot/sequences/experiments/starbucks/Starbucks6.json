@@ -1,0 +1,80 @@
+{
+    "Type": "Node",
+    "Id": "Starbucks6",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Can I ask a super quick question?",
+                "fr": "Alright... choose who you want to hear about!",
+                "es": "Alright... choose who you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "Starbucks5Staff",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Friendly staff",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🙋💁‍♂️",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://cdn-starbucks.netdna-ssl.com/uploads/images/_framed/scATRPFr-967-742.JPG"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great choice!",
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Starbucks5Coffee",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Coffee quality",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "☕",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "http://www.innovativepeople.com/wp-content/uploads/2017/04/Starbucks-Molten-Chocolate-meta.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great choice!",
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
+                    }
+                }
+            ]
+        }
+    ]
+}
