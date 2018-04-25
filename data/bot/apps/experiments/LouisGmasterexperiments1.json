@@ -2,6 +2,8 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order": 10, "file":["/data/bot/sequences/experiments/starbucks/Starbucks4.json"]},
+            { "order": 11, "file":["/data/bot/sequences/experiments/starbucks/Starbucks5.json"]},
             { "order": 27, "file":["/data/bot/sequences/nationaltrust/FountainsAbbey.json"]},
             { "order": 29, "file":["/data/bot/sequences/nationaltrust/Fountains2.json"]},
             { "order": 19, "file":["/data/bot/sequences/nationaltrust/BodiamIntro.json"]},
