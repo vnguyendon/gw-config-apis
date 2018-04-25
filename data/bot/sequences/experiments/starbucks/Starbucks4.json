@@ -1,0 +1,64 @@
+{
+    "Type": "Node",
+    "Id": "Starbucks4",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "💤... Oh, hi! Sorry, I haven't had my afternoon frappuccino",
+                "fr": "💤... Oh, hi! Sorry, I haven't had my afternoon frappuccino",
+                "es": "💤... Oh, hi! Sorry, I haven't had my afternoon frappuccino"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "How are you today? ☀",
+                "fr": "How are you today?",
+                "es": "How are you today?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Starbucks4Great",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I'm great 😃",
+                "fr": "That's impossible...",
+                "es": "That's impossible..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, you just saw the evidence...",
+                        "fr": "Well, you just saw the evidence...",
+                        "es": "Well, you just saw the evidence..."
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Node",
+            "Id": "Starbucks4Coffee",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I need a coffee ☕",
+                "fr": "That's impossible...",
+                "es": "That's impossible..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I can definitely help you with that!",
+                        "fr": "Well, you just saw the evidence...",
+                        "es": "Well, you just saw the evidence..."
+                    }
+                }
+            ]
+        }
+    ]
+}
