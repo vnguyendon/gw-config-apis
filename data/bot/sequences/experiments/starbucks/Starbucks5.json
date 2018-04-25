@@ -1,0 +1,111 @@
+{
+    "Type": "Node",
+    "Id": "Starbucks5Story",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I think I can help with that! Take a look at these...",
+                "fr": "Alright... choose who you want to hear about!",
+                "es": "Alright... choose who you want to hear about!"
+            }
+        }
+    ],
+    "DisplayHint": "Carousel",
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "Starbucks5Brew",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Fresh brewed coffee",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "☕",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://globalassets.starbucks.com/assets/1b68ff25144844af8cee77c0de7f2c63.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great choice!",
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Starbucks5Caramel",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Caramel Frappuccino",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🥤",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://globalassets.starbucks.com/assets/3f9218d160914242925e87069c399af3.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great choice!",
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "Starbucks5Latte",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Iced latte",
+                "fr": "Misty",
+                "es": "Misty"
+            },
+            "CarouselElements": {
+                "Title": {
+                    "en": "🥤",
+                    "fr": "😺",
+                    "es": "😺"
+                },
+                "Picture": {
+                    "Source": "Web",
+                    "Path": "https://assets.mystarbucks.com.au/imagecache/bestfit/620x634/_files/Beverages/processed-2013/icedlatte.jpg"
+                }
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Great choice!",
+                        "fr": "You have selected 'Misty the Thoughtful'",
+                        "es": "You have selected 'Misty the Thoughtful'"
+                    }
+                }
+            ]
+        }
+    ]
+}
