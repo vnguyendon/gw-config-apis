@@ -8,7 +8,7 @@
         "es": "GroundHog Day"
       },
       "Subtitle": {
-        "en": "1993",
+        "en": "1993 and a bit more text just test that we can fit 80 characters in here",
         "fr": "1993",
         "es": "1993"
       },
@@ -19,7 +19,7 @@
     },
     {
       "Title": {
-        "en": "Lost in translation",
+        "en": "Lost in translation and a bit more text just test that we can fit 80 characters in here",
         "fr": "Lost in translation",
         "es": "Lost in translation"
       },
@@ -35,7 +35,7 @@
     },
     {
       "Title": {
-        "en": "Ghostbusters",
+        "en": "Ghostbusters and a bit more text just test that we can fit 80 characters in here",
         "fr": "SOS Fantomes",
         "es": "Ghostbusters"
       },
@@ -56,7 +56,7 @@
         "es": "Life acquatics with Steve Zissou"
       },
       "Subtitle": {
-        "en": "2004",
+        "en": "2004 and a bit more text just test that we can fit 80 characters in here",
         "fr": "2004",
         "es": "2004"
       },
