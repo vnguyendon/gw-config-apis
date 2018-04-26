@@ -1,0 +1,182 @@
+{
+  "Type": "Node",
+  "Id": "GiacomoIntro",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do humans explore the natural world?",
+        "fr": "Est-ce que les humains explorent le milieu naturel ?",
+        "es": "¿Los humanos exploran el mundo natural?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "YesExplore",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Just like kittens, then!",
+            "fr": "Tout comme les chatons alors !",
+            "es": "¡Como los gatitos pues!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s a popular profession...",
+            "fr": "C'est un métier populaire...",
+            "es": "Es una profesión popular..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’ll tell you a story about one of our most famous and successful explorers if you wish",
+            "fr": "Si tu veux, je vais te raconter une histoire sur un de nos plus grands et célèbres explorateurs",
+            "es": "Si quieres, voy a contarte una historia sobre uno de los mas grandes y mas famosos exploradores"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HearStory",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "HearStoryYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let’s hear it!",
+              "fr": "C'est parti !",
+              "es": "¡Aquí vamos!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "OK, here goes!",
+                  "fr": "OK, ça arrive !",
+                  "es": "Vale, ¡ocurre!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HearStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Another time",
+              "fr": "Une autre fois",
+              "es": "Otra ocasión"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Understood!",
+                  "fr": "Compris !",
+                  "es": "¡Entendido!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "NoExplore",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Ah. Well, kittens do!",
+            "fr": "Ah. Eh bien, les chatons le font !",
+            "es": "Ah. ¡Bueno, los gatitos lo hacen!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It’s a popular profession...",
+            "fr": "C'est un métier populaire...",
+            "es": "Es una profesión popular..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I’ll tell you a story about one of our most famous and successful explorers if you wish",
+            "fr": "Si tu veux, je vais te raconter une histoire sur un de nos plus grands et célèbres explorateurs",
+            "es": "Si quieres, voy a contarte una historia sobre uno de los mas grandes y mas famosos exploradores"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "HearStory1",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "HearStoryYes1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let’s hear it!",
+              "fr": "C'est parti !",
+              "es": "¡Aquí vamos!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "OK, here goes!",
+                  "fr": "OK, ça arrive !",
+                  "es": "Vale, ¡ocurre!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "HearStoryNo1",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Another time",
+              "fr": "Une autre fois",
+              "es": "Otra ocasión"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Understood!",
+                  "fr": "Compris !",
+                  "es": "¡Entendido!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
