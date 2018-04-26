@@ -1,0 +1,598 @@
+{
+    "Type": "Node",
+    "Id": "Giacomo2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "One day, he set off with his wagon to explore the world",
+                "fr": "One day, he set off with his wagon to explore the world",
+                "es": "One day, he set off with his wagon to explore the world"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "kVqp6R7ihdRew"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here are some of his travels...",
+                "fr": "Here are some of his travels...",
+                "es": "Here are some of his travels..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/GiacomoPlaces.json"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Giacomo2Fake",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Those are fake!",
+                "fr": "Those are fake!",
+                "es": "Those are fake!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Possibly... but the world believes they are real",
+                        "fr": "Possibly... but the world believes they are real",
+                        "es": "Possibly... but the world believes they are real"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He loves to research certain species...",
+                        "fr": "He loves to research certain species...",
+                        "es": "He loves to research certain species..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "11vI1NTn09kkqQ"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But others, he is hostile to...",
+                        "fr": "But others, he is hostile to...",
+                        "es": "But others, he is hostile to..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here he is trying to capture my brother",
+                        "fr": "Here he is trying to capture my brother",
+                        "es": "Here he is trying to capture my brother"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "JUAJ4RGgryKru"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Giacomo2FakeChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Giacomo2FakeEvil",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil cat!",
+                            "fr": "Evil cat!",
+                            "es": "Evil cat!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes, he is my mortal enemy now",
+                                    "fr": "Yes, he is my mortal enemy now",
+                                    "es": "Yes, he is my mortal enemy now"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Did he succeed?",
+                                    "fr": "Did he succeed?",
+                                    "es": "Did he succeed?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Giacomo2FakeEvilFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2FakeEvilDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "JUAJ4RGgryKru"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2FakeEvilSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "Q85ABl47vOtLG"
+                                            }
+                                        },
+                                        {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Giacomo2FakeFish",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Fish are rubbish",
+                            "fr": "Fish are rubbish",
+                            "es": "Fish are rubbish"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I am very offended",
+                                    "fr": "I am very offended",
+                                    "es": "I am very offended"
+                                }
+                            },
+                            {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332551.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Did he succeed?",
+                                    "fr": "Did he succeed?",
+                                    "es": "Did he succeed?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Giacomo2FakeFishFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2FakeFishDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "JUAJ4RGgryKru"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2FakeFishSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "Q85ABl47vOtLG"
+                                            }
+                                        },
+                                        {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Giacomo2Talented",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's so talented!",
+                "fr": "He's so talented!",
+                "es": "He's so talented!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes, he is very famous and a renowned celebrity",
+                        "fr": "Yes, he is very famous and a renowned celebrity",
+                        "es": "Yes, he is very famous and a renowned celebrity"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He loves to research certain species...",
+                        "fr": "He loves to research certain species...",
+                        "es": "He loves to research certain species..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "11vI1NTn09kkqQ"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But others, he is hostile to...",
+                        "fr": "But others, he is hostile to...",
+                        "es": "But others, he is hostile to..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here he is trying to capture my brother",
+                        "fr": "Here he is trying to capture my brother",
+                        "es": "Here he is trying to capture my brother"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "JUAJ4RGgryKru"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Giacomo2TalentedChoice",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Giacomo2TalentedEvil",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Evil cat!",
+                            "fr": "Evil cat!",
+                            "es": "Evil cat!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes, he is my mortal enemy now",
+                                    "fr": "Yes, he is my mortal enemy now",
+                                    "es": "Yes, he is my mortal enemy now"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Did he succeed?",
+                                    "fr": "Did he succeed?",
+                                    "es": "Did he succeed?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Giacomo2TalentedEvilFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2TalentedEvilDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "JUAJ4RGgryKru"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2TalentedEvilSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "Q85ABl47vOtLG"
+                                            }
+                                        },
+                                        {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Giacomo2TalentedFish",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Fish are rubbish",
+                            "fr": "Fish are rubbish",
+                            "es": "Fish are rubbish"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I am very offended",
+                                    "fr": "I am very offended",
+                                    "es": "I am very offended"
+                                }
+                            },
+                            {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332551.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
+                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Did he succeed?",
+                                    "fr": "Did he succeed?",
+                                    "es": "Did he succeed?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Giacomo2TalentedFishFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2TalentedFishDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Doom him!",
+                                        "es": "Doom him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
+                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "JUAJ4RGgryKru"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Giacomo2TalentedFishSpare",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Spare him!",
+                                        "fr": "Spare him!",
+                                        "es": "Spare him!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
+                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "Q85ABl47vOtLG"
+                                            }
+                                        },
+                                        {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
