@@ -2,6 +2,7 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
+          { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy/2E-CanDogsSwim.json"]},
           { "order" : 5, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
           { "order" : 10, "file": ["/data/bot/sequences/experiments/VisitNext.json"]},
           { "order" : 13, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
