@@ -14,7 +14,7 @@
   "Commands": [
     {
       "Type": "Node",
-      "Id": "YesExplore",
+      "Id": "GiacomoIntroYes",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "yes",
@@ -49,12 +49,12 @@
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "HearStory",
+        "Id": "GiacomoIntroYesStory",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Leaf",
-            "Id": "HearStoryYes",
+            "Id": "GiacomoIntroYesStoryYes",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Let’s hear it!",
@@ -74,7 +74,7 @@
           },
           {
             "Type": "Leaf",
-            "Id": "HearStoryNo",
+            "Id": "GiacomoIntroYesStoryNo",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Another time",
@@ -97,7 +97,7 @@
     },
     {
       "Type": "Node",
-      "Id": "NoExplore",
+      "Id": "GiacomoIntroNo",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "no",
@@ -132,12 +132,12 @@
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "HearStory1",
+        "Id": "GiacomoIntroNoStory",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Leaf",
-            "Id": "HearStoryYes1",
+            "Id": "GiacomoIntroNoStoryYes",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Let’s hear it!",
@@ -157,7 +157,7 @@
           },
           {
             "Type": "Leaf",
-            "Id": "HearStoryNo1",
+            "Id": "GiacomoIntroNoStoryNo",
             "ElementValue": "1",
             "CommandLabel": {
               "en": "Another time",
