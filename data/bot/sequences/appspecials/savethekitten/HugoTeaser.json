@@ -1,57 +1,57 @@
 {
-    "Type": "Node",
-    "Id": "HugoTeaser",
-    "Steps": [
+  "Type": "Node",
+  "Id": "HugoTeaser",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I have another story for you... about a cat who joined the military",
+        "fr": "J'ai une autre histoire pour toi... sur un chat qui a rejoint l'armée",
+        "es": "Tengo una otra historia para ti... sobre un gato que se alistó al ejército"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you like to hear it?",
+        "fr": "Tu veux l'entendre ?",
+        "es": "¿Quieres oírla?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "HugoTeaserYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes of course!",
+        "fr": "Oui bien sûr !",
+        "es": "¡Si por supuesto!"
+      },
+      "LinksToFragment": {
+        "FragmentPath": "Hugo"
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "HugoTeaserNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not right now",
+        "fr": "Pas maintenant",
+        "es": "Ahora no"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "I have another story for you... about a cat who joined the military",
-                "fr": "I have another story for you... about a cat who joined the military",
-                "es": "I have another story for you... about a cat who joined the military"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Would you like to hear it?",
-                "fr": "Would you like to hear it?",
-                "es": "Would you like to hear it?"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "OK, lets move on...",
+            "fr": "OK, passons à autre chose...",
+            "es": "Vale, sigamos adelante..."
+          }
         }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "HugoTeaserYes",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Yes of course!",
-                "fr": "Yes of course!",
-                "es": "Yes of course!"
-            },
-            "LinksToFragment": {
-                "FragmentPath": "Hugo"
-            }
-        },
-        {
-            "Type": "Leaf",
-            "Id": "HugoTeaserNo",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Not right now",
-                "fr": "Not right now",
-                "es": "Not right now"
-            },
-            "Steps":[
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "OK, lets move on...",
-                        "fr": "OK, lets move on...",
-                        "es": "OK, lets move on..."
-                    }
-                }
-            ]
-        }
-    ]
+      ]
+    }
+  ]
 }
