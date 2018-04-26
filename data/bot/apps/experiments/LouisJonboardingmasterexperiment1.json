@@ -2,7 +2,8 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 3, "file": ["/data/bot/sequences/experiments/Billy/2E-CanDogsSwim.json"]},
+          { "order" : 2, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
+          { "order" : 3, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromIntention.json"]},
           { "order" : 4, "file": ["/data/bot/sequences/experiments/rui/should_show_a_clickableCarousel.json"]},
           { "order" : 5, "file": ["/data/bot/sequences/experiments/rui/should_execute_one_command_with_fragments.json"]},
           { "order" : 9, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowStepActionShowCardFromIntention.json"]},
