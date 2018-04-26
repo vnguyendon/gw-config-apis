@@ -1,0 +1,92 @@
+{
+    "Type": "Node",
+    "Comments": "The story of Orion the Wealthy",
+    "Id": "Orion",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Orion was born to a prosperous family, and as such his early years were very privileged",
+                "fr": "Orion was born to a prosperous family, and as such his early years were very privileged",
+                "es": "Orion was born to a prosperous family, and as such his early years were very privileged"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "His great wealth drew envy, and humankind set a trap for him...",
+                "fr": "His great wealth drew envy, and humankind set a trap for him...",
+                "es": "His great wealth drew envy, and humankind set a trap for him..."
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "OrionSave",
+            "CommandLabel": {
+                "en": "Save him!",
+                "fr": "Save him!",
+                "es": "Save him!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But he escaped the trap, and lived another day",
+                        "fr": "But he escaped the trap, and lived another day",
+                        "es": "But he escaped the trap, and lived another day"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "wJfLekkEI0hH1FJvqV"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
+                        "fr": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
+                        "es": "He staged his own stealth attack, getting revenge on the human who had betrayed him"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "mE5AQ8dqoH4Z2"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "OrionDoom",
+            "CommandLabel": {
+                "en": "Doom him!",
+                "fr": "Doom him!",
+                "es": "Doom him!"
+            },
+            "Steps": [
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "fbSn5sBfaoiTC"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Orion was crushed, a tragic victim of his own greed",
+                        "fr": "Orion was crushed, a tragic victim of his own greed",
+                        "es": "Orion was crushed, a tragic victim of his own greed"
+                    }
+                }
+            ]
+        }
+    ]
+}
