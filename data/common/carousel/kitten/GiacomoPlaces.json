@@ -1,0 +1,39 @@
+{
+    "Id": "GiacomoPlaces",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "🌊",
+                "fr": "🌊",
+                "es": "🌊"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524743271/GiacomoTsunami.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "🌋",
+                "fr": "🌋",
+                "es": "🌋"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524743255/VolcanoGiacomo.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "🏔",
+                "fr": "🏔",
+                "es": "🏔"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524743266/Avalanche.jpg"
+            }
+        }
+    ]
+}
