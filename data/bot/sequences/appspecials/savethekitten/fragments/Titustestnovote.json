@@ -46,14 +46,6 @@
             },
             "Steps": [
                 {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
-                {
                     "Type": "Text",
                     "Label": {
                         "en": "But Titus outsmarted them all with stealth and disguise",
@@ -87,14 +79,6 @@
                 "es": "Doom him!"
             },
             "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
                 {
                     "Type": "Text",
                     "Label": {
