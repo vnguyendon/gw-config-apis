@@ -141,9 +141,9 @@
                                     "Id": "Giacomo2FakeEvilDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Doom him!",
-                                        "fr": "Doom him!",
-                                        "es": "Doom him!"
+                                        "en": "No",
+                                        "fr": "No",
+                                        "es": "No"
                                     },
                                     "Steps": [
                                         {
@@ -168,17 +168,17 @@
                                     "Id": "Giacomo2FakeEvilSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Spare him!",
-                                        "es": "Spare him!"
+                                        "en": "Yes",
+                                        "fr": "Yes",
+                                        "es": "Yes"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                                "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
                                             }
                                         },
                                         {
@@ -252,9 +252,9 @@
                                     "Id": "Giacomo2FakeFishDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Doom him!",
-                                        "fr": "Doom him!",
-                                        "es": "Doom him!"
+                                        "en": "No",
+                                        "fr": "No",
+                                        "es": "No"
                                     },
                                     "Steps": [
                                         {
@@ -279,17 +279,17 @@
                                     "Id": "Giacomo2FakeFishSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Spare him!",
-                                        "es": "Spare him!"
+                                        "en": "Yes",
+                                        "fr": "Yes",
+                                        "es": "Yes"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                                "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
                                             }
                                         },
                                         {
@@ -421,9 +421,9 @@
                                     "Id": "Giacomo2TalentedEvilDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Doom him!",
-                                        "fr": "Doom him!",
-                                        "es": "Doom him!"
+                                        "en": "No",
+                                        "fr": "No",
+                                        "es": "No"
                                     },
                                     "Steps": [
                                         {
@@ -448,17 +448,17 @@
                                     "Id": "Giacomo2TalentedEvilSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Spare him!",
-                                        "es": "Spare him!"
+                                        "en": "Yes",
+                                        "fr": "Yes",
+                                        "es": "Yes"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "fr": "I'm so sad you chose this option... his exploration led him to my sister's home...",
-                                                "es": "I'm so sad you chose this option... his exploration led him to my sister's home..."
+                                                "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
+                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
                                             }
                                         },
                                         {
@@ -532,9 +532,9 @@
                                     "Id": "Giacomo2TalentedFishDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Doom him!",
-                                        "fr": "Doom him!",
-                                        "es": "Doom him!"
+                                        "en": "No",
+                                        "fr": "No",
+                                        "es": "No"
                                     },
                                     "Steps": [
                                         {
@@ -559,9 +559,9 @@
                                     "Id": "Giacomo2TalentedFishSpare",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Spare him!",
-                                        "es": "Spare him!"
+                                        "en": "Yes",
+                                        "fr": "Yes",
+                                        "es": "Yes"
                                     },
                                     "Steps": [
                                         {
