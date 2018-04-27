@@ -3,6 +3,14 @@
   "Id": "Victoria",
   "Steps": [
     {
+      "Type": "Text",
+      "Label": {
+        "en": "I've got another story... about a very important lady kitten",
+        "fr": "J'ai une autre histoire... à propos d'une demoiselle chaton",
+        "es": "Tengo otra historia... a proposito de una gatita muy importante"
+      }
+    },
+    {
       "Type": "Action",
       "Name": "ShowCarouselFromList",
       "Parameters": {
