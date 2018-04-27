@@ -93,9 +93,24 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Whether or not he succeeds there is in your hands...",
-                                    "fr": "Whether or not he succeeds there is in your hands...",
-                                    "es": "Whether or not he succeeds there is in your hands..."
+                                    "en": "He trained hard, and became highly skilled",
+                                    "fr": "He trained hard, and became highly skilled",
+                                    "es": "He trained hard, and became highly skilled"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "He has left for battle, and his fate lies with you...",
+                                    "es": "He has left for battle, and his fate lies with you..."
                                 }
                             }
                         ],
@@ -174,9 +189,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Well, that's why he began to learn all about war and combat...",
-                                    "fr": "Well, that's why he began to learn all about war and combat...",
-                                    "es": "Well, that's why he began to learn all about war and combat..."
+                                    "en": "Well, he decided to get his act together, and joined the military",
+                                    "fr": "Well, he decided to get his act together, and joined the military",
+                                    "es": "Well, he decided to get his act together, and joined the military"
                                 }
                             },
                             {
@@ -184,6 +199,21 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He trained hard, and became highly skilled",
+                                    "fr": "He trained hard, and became highly skilled",
+                                    "es": "He trained hard, and became highly skilled"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
                                 }
                             },
                             {
@@ -288,16 +318,16 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "And fell for tricks easily...",
-                        "fr": "And fell for tricks easily...",
-                        "es": "And fell for tricks easily..."
+                        "en": "And he was not exactly leading a productive life...",
+                        "fr": "And he was not exactly leading a productive life...",
+                        "es": "And he was not exactly leading a productive life..."
                     }
                 },
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "W5D9oEAJvOHaE"
+                        "Path": "e3NinswgSNdRu"
                     }
                 }
             ],
@@ -319,9 +349,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Well, he began to learn all about war and combat...",
-                                    "fr": "Well, he began to learn all about war and combat...",
-                                    "es": "Well, he began to learn all about war and combat..."
+                                    "en": "Well, he decided to get his act together, and joined the military",
+                                    "fr": "Well, he decided to get his act together, and joined the military",
+                                    "es": "Well, he decided to get his act together, and joined the military"
                                 }
                             },
                             {
@@ -329,6 +359,21 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He trained hard, and became highly skilled",
+                                    "fr": "He trained hard, and became highly skilled",
+                                    "es": "He trained hard, and became highly skilled"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
                                 }
                             },
                             {
@@ -415,9 +460,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Well, that's why he began to learn all about war and combat...",
-                                    "fr": "Well, that's why he began to learn all about war and combat...",
-                                    "es": "Well, that's why he began to learn all about war and combat..."
+                                    "en": "Well, he decided to get his act together, and joined the military",
+                                    "fr": "Well, he decided to get his act together, and joined the military",
+                                    "es": "Well, he decided to get his act together, and joined the military"
                                 }
                             },
                             {
@@ -430,9 +475,24 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "He has now left for battle, and his fate lies with you...",
-                                    "fr": "He has now left for battle, and his fate lies with you...",
-                                    "es": "He has now left for battle, and his fate lies with you..."
+                                    "en": "He trained hard, and became highly skilled",
+                                    "fr": "He trained hard, and became highly skilled",
+                                    "es": "He trained hard, and became highly skilled"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "He has left for battle, and his fate lies with you...",
+                                    "es": "He has left for battle, and his fate lies with you..."
                                 }
                             }
                         ],
