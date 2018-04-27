@@ -41,40 +41,6 @@
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "AnotherChooseKittenMisty",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Misty",
-                            "fr": "Misty",
-                            "es": "Misty"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "😺",
-                                "fr": "😺",
-                                "es": "😺"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/iStock_000019465856_Medium.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You have selected 'Misty the Thoughtful'",
-                                    "fr": "You have selected 'Misty the Thoughtful'",
-                                    "es": "You have selected 'Misty the Thoughtful'"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Orion"
-                        }
-                    },
-                    {
-                        "Type": "Node",
                         "Id": "AnotherChooseKittenTitus",
                         "ElementValue": "1",
                         "CommandLabel": {
@@ -139,40 +105,6 @@
                         ],
                         "LinksToFragment": {
                             "FragmentPath": "Orion"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "AnotherChooseKittenVictoria",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Victoria",
-                            "fr": "Victoria",
-                            "es": "Victoria"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "😺",
-                                "fr": "😺",
-                                "es": "😺"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You have selected 'Victoria the Regal'",
-                                    "fr": "You have selected 'Victoria the Regal'",
-                                    "es": "You have selected 'Victoria the Regal'"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Titus"
                         }
                     }
                 ]
