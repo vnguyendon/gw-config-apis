@@ -1,286 +1,286 @@
 {
-    "Type": "Node",
-    "Id": "Victoria",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Victoria",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "/data/common/carousel/kitten/VictoriaCard.json"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Victoria was born from a packet of biscuits, along with several brothers and sisters...",
+        "fr": "Victora est née dans un paquet de biscuit avec plusieurs frères et soeurs...",
+        "es": "Victoria nació en un paquete de galletas con varios hermanos y hermanas..."
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "cEYFeDD5aaCpr1YO6n6"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "VictoriaImpossible",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "That's impossible...",
+        "fr": "C'est impossible...",
+        "es": "Es imposible..."
+      },
+      "Steps": [
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/kitten/VictoriaCard.json"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Well, you just saw the evidence...",
+            "fr": "Ben, tu viens de voir la preuve...",
+            "es": "Bueno, acabas de ver la prueba..."
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Victoria was born from a packet of biscuits, along with several brothers and sisters...",
-                "fr": "Victoria was born from a packet of biscuits, along with several brothers and sisters...",
-                "es": "Victoria was born from a packet of biscuits, along with several brothers and sisters..."
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "For many years, she lived with her siblings in a basket",
+            "fr": "Durant beaucoup d'années, elle vécu dans un panier avec ses frères et soeurs",
+            "es": "Durante muchos años, vivió en una cesta con sus hermanos"
+          }
         },
         {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "cEYFeDD5aaCpr1YO6n6"
-            }
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "They survived, but Victoria had greater ambitions...",
+            "fr": "Ils survécurent, mais Victoria avait de plus grandes ambitions...",
+            "es": "Sobrevivieron, pero Victoria tenía ambiciones más grandes..."
+          }
         }
-    ],
-    "Commands": [
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "VictoriaImpossibleNext",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "VictoriaImpossible",
+            "Id": "VictoriaImpossibleContinue",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "That's impossible...",
-                "fr": "That's impossible...",
-                "es": "That's impossible..."
+              "en": "Continue",
+              "fr": "Continue",
+              "es": "Continúa"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, you just saw the evidence...",
-                        "fr": "Well, you just saw the evidence...",
-                        "es": "Well, you just saw the evidence..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "For many years, she lived with her siblings in a basket",
-                        "fr": "For many years, she lived with her siblings in a basket",
-                        "es": "For many years, she lived with her siblings in a basket"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "They survived, but Victoria had greater ambitions...",
-                        "fr": "They survived, but Victoria had greater ambitions...",
-                        "es": "They survived, but Victoria had greater ambitions..."
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "She challenged the king, Antioch the Canine",
+                  "fr": "Elle défia le roi, Antioche le Canin",
+                  "es": "Retó al rey, Antioquía el Canino"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "551ZQgkiytZsDfVH1N"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And defeated him after a vicious fight!",
+                  "fr": "Et le battit après un combat brutal !",
+                  "es": "¡Y lo derrotó después de una lucha feroz!"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "VictoriaImpossibleNext",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "VictoriaImpossibleFight",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "VictoriaImpossibleSilly",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "This is silly...",
+                    "fr": "C'est stupide...",
+                    "es": "Es tonto..."
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "VictoriaImpossibleContinue",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Continue",
-                            "fr": "Continue",
-                            "es": "Continue"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She challenged the king, Antioch the Canine",
-                                    "fr": "She challenged the king, Antioch the Canine",
-                                    "es": "She challenged the king, Antioch the Canine"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "551ZQgkiytZsDfVH1N"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "And defeated him after a vicious fight!",
-                                    "fr": "And defeated him after a vicious fight!",
-                                    "es": "And defeated him after a vicious fight!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "VictoriaImpossibleFight",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "VictoriaImpossibleSilly",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "This is silly...",
-                                        "fr": "This is silly...",
-                                        "es": "This is silly..."
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "I assure you, that is what happened",
-                                                "fr": "I assure you, that is what happened",
-                                                "es": "I assure you, that is what happened"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "VictoriaImpossibleFearless",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "She's fearless!",
-                                        "fr": "She's fearless!",
-                                        "es": "She's fearless!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Yes, ambition drove her to great heights...",
-                                                "fr": "Yes, ambition drove her to great heights...",
-                                                "es": "Yes, ambition drove her to great heights..."
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I assure you, that is what happened",
+                        "fr": "Je t'assure, ça s'est passé comme ça",
+                        "es": "Te aseguro, ocurrió así"
+                      }
                     }
-                ]
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "VictoriaImpossibleFearless",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "She's fearless!",
+                    "fr": "Elle est téméraire!",
+                    "es": "¡Es intrépida!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Yes, ambition drove her to great heights...",
+                        "fr": "Oui, l'ambition l'a menée au sommet...",
+                        "es": "Si, la ambición la condujo hasta la cumbre..."
+                      }
+                    }
+                  ]
+                }
+              ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "VictoriaAdorable",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "So adorable!",
+        "fr": "Tellement mignon!",
+        "es": "¡Tan adorable!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Do not be fooled, Victoria was extremely ambitious, even at that age...",
+            "fr": "Ne te laisse pas avoir, Victoria était extrêmement ambitieuse, même à cet âge...",
+            "es": "No se deje engañar, Victoria era extremamente ambiciosa, incluso a esta edad..."
+          }
         },
         {
+          "Type": "Text",
+          "Label": {
+            "en": "For many years, she lived with her siblings in a basket",
+            "fr": "Durant beaucoup d'années, elle vécu dans un panier avec ses frères et soeurs",
+            "es": "Durante muchos años, vivió en una cesta con sus hermanos"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "VictoriaAdorableNext",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "VictoriaAdorable",
+            "Id": "VictoriaAdorableContinue",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "So adorable!",
-                "fr": "So adorable!",
-                "es": "So adorable!"
+              "en": "Continue",
+              "fr": "Continue",
+              "es": "Continúa"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Do not be fooled, Victoria was extremely ambitious, even at that age...",
-                        "fr": "Do not be fooled, Victoria was extremely ambitious, even at that age...",
-                        "es": "Do not be fooled, Victoria was extremely ambitious, even at that age..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "For many years, she lived with her siblings in a basket",
-                        "fr": "For many years, she lived with her siblings in a basket",
-                        "es": "For many years, she lived with her siblings in a basket"
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_102921107.jpg"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Not content with this life, she challenged the king, Antioch the Canine",
+                  "fr": "Mécontente de cette vie, elle défia le roi, Antioche le Canin",
+                  "es": "No contenta con esta vida, retó al rey, Antioquía el Canino"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "551ZQgkiytZsDfVH1N"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And defeated him after a vicious fight!",
+                  "fr": "Et le battit après un combat brutal !",
+                  "es": "¡Y lo derrotó después de una lucha feroz!"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "VictoriaAdorableNext",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "VictoriaAdorableFight",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Leaf",
+                  "Id": "VictoriaAdorableSilly",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "This is silly...",
+                    "fr": "C'est stupide...",
+                    "es": "Es tonto..."
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "VictoriaAdorableContinue",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Continue",
-                            "fr": "Continue",
-                            "es": "Continue"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Not content with this life, she challenged the king, Antioch the Canine",
-                                    "fr": "Not content with this life, she challenged the king, Antioch the Canine",
-                                    "es": "Not content with this life, she challenged the king, Antioch the Canine"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "551ZQgkiytZsDfVH1N"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "And defeated him after a vicious fight!",
-                                    "fr": "And defeated him after a vicious fight!",
-                                    "es": "And defeated him after a vicious fight!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "VictoriaAdorableFight",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "VictoriaAdorableSilly",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "This is silly...",
-                                        "fr": "This is silly...",
-                                        "es": "This is silly..."
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "I assure you, that is what happened",
-                                                "fr": "I assure you, that is what happened",
-                                                "es": "I assure you, that is what happened"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "VictoriaAdorableFearless",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "She's fearless!",
-                                        "fr": "She's fearless!",
-                                        "es": "She's fearless!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Yes, ambition drove her to great heights...",
-                                                "fr": "Yes, ambition drove her to great heights...",
-                                                "es": "Yes, ambition drove her to great heights..."
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I assure you, that is what happened",
+                        "fr": "Je t'assure, ça s'est passé comme ça",
+                        "es": "Te aseguro, ocurrió así"
+                      }
                     }
-                ]
+                  ]
+                },
+                {
+                  "Type": "Leaf",
+                  "Id": "VictoriaAdorableFearless",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "She's fearless!",
+                    "fr": "Elle est téméraire!",
+                    "es": "¡Es intrépida!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Yes, ambition drove her to great heights...",
+                        "fr": "Oui, l'ambition l'a menée au sommet...",
+                        "es": "Si, la ambición la condujo hasta la cumbre..."
+                      }
+                    }
+                  ]
+                }
+              ]
             }
-        }
-    ]
+          }
+        ]
+      }
+    }
+  ]
 }
