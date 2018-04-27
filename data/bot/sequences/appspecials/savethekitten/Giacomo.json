@@ -13,16 +13,16 @@
             "Type": "Text",
             "Label": {
                 "en": "This little guy was an inquisitive kitten from the moment he was born",
-                "fr": "This little guy was an inquisitive kitten from the moment he was born",
-                "es": "This little guy was an inquisitive kitten from the moment he was born"
+                "fr": "Ce petit gars est un chaton curieux depuis le jour où il est né",
+                "es": "Este pequeño tío es un gatito curioso desde que nació"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "His parents always had to keep an eye on him",
-                "fr": "His parents always had to keep an eye on him",
-                "es": "His parents always had to keep an eye on him"
+                "fr": "Ses parents ont toujours dû gardé un oeil sur lui",
+                "es": "Sus padres siempre tenían que mantener un ojo sobre él"
             }
         },
         {
@@ -36,8 +36,8 @@
             "Type": "Text",
             "Label": {
                 "en": "His uncle Hugo found him particularly irritating...",
-                "fr": "His uncle Hugo found him particularly irritating...",
-                "es": "His uncle Hugo found him particularly irritating..."
+                "fr": "Son oncle Hugo le trouvait particulièrement fatiguant...",
+                "es": "Su tío Hugo le encontraba particularmente irritante..."
             }
         },
         {
@@ -55,24 +55,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Adorable!",
-                "fr": "Adorable!",
-                "es": "Adorable!"
+                "fr": "Trop mignon !",
+                "es": "¡Adorable!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
-                        "fr": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
-                        "es": "Aside from his love for exploring, Giacomo also befriended other animals easily..."
+                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
-                        "fr": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
-                        "es": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father..."
+                        "fr": "Son amitié avec Alfred le Joufflu paya quand il eût besoin de se cacher de son père en colère...",
+                        "es": "Su amistad con Alfred el Esponjoso pagaba cuando necesitaba esconger de su padre enojado..."
                     }
                 },
                 {
@@ -94,8 +94,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "He's a genius",
-                            "fr": "He's a genius",
-                            "es": "He's a genius"
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
                         }
                     },
                     {
@@ -104,8 +104,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "He's a menace",
-                            "fr": "He's a menace",
-                            "es": "He's a menace"
+                            "fr": "C'est une menace",
+                            "es": "Es una amenaza"
                         }
                     }
                 ]
@@ -117,24 +117,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "What a nuisance",
-                "fr": "What a nuisance",
-                "es": "What a nuisance"
+                "fr": "Quelle plaie",
+                "es": "Qué molestia"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
-                        "fr": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
-                        "es": "Aside from his love for exploring, Giacomo also befriended other animals easily..."
+                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                        "es": "Además de su amor por la aventura, Giacomo se hacia amigos facilmente con los otros animales..."
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
-                        "fr": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
-                        "es": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father..."
+                       "en": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
+                        "fr": "Son amitié avec Alfred le Joufflu paya quand il eût besoin de se cacher de son père en colère...",
+                        "es": "Su amistad con Alfred el Esponjoso pagaba cuando necesitaba esconger de su padre enojado..."
                     }
                 },
                 {
@@ -155,19 +155,19 @@
                         "Id": "GiacomoNuisanceGenius",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "He's a genius",
-                            "fr": "He's a genius",
-                            "es": "He's a genius"
+                               "en": "He's a genius",
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
                         }
                     },
                     {
                         "Type": "Leaf",
-                        "Id": "GiacomoNuisanceMenace",
+                        "Id": "GiacomoAdorableMenace",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "He's a menace",
-                            "fr": "He's a menace",
-                            "es": "He's a menace"
+                            "fr": "C'est une menace",
+                            "es": "Es una amenaza"
                         }
                     }
                 ]
