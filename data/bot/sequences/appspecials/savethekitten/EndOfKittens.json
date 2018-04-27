@@ -1,0 +1,22 @@
+{
+    "Type": "Leaf",
+    "Id": "EndOfKittens",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Those are all the kittens I know about for now... but I'll learn about new ones soon",
+                "fr": "Those are all the kittens I know about for now... but I'll learn about new ones soon",
+                "es": "Those are all the kittens I know about for now... but I'll learn about new ones soon"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let's talk about other stuff!",
+                "fr": "Let's talk about other stuff!",
+                "es": "Let's talk about other stuff!"
+            }
+        }
+    ]
+}
