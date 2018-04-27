@@ -13,7 +13,19 @@
       { "order" : 90, "file": ["/data/bot/sequences/appspecials/savethekitten/Giacomo2.json"]},
       { "order" : 100, "file": ["/data/bot/sequences/appspecials/savethekitten/HugoTeaser.json"]},
       { "order" : 110, "file": ["/data/bot/sequences/appspecials/savethekitten/ChooseKittenStory.json"]},
-      { "order" : 120, "file": ["/data/bot/sequences/appspecials/savethekitten/AnotherKittenStory.json"]}
+      { "order" : 120, "file": ["/data/bot/sequences/appspecials/savethekitten/AnotherKittenStory.json"]},
+      { "order" : 130, "file": ["/data/bot/sequences/appspecials/savethekitten/EndOfKittens.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/experiments/Billy/1P-WhatBringsYouUp.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/HoursWatchingTV.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/experiments/Billy/2E-CanDogsSwim.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/NewspapersAccuratePicture.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/WCatsOrDogs.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/PoliticiansLawyersOrEngineers.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/FindLoveNeighbourhoodOrOnline.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/WhatEnjoyMost.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/HoursWatchingTV.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/PartnerOrRevenues.json"]},
+      { "order" : 950, "file": ["/data/bot/sequences/surveys/PeopleHappierInYourCountry.json"]}
     ]
   }
 ]
