@@ -35,17 +35,18 @@
   {"Language":"es-ES","Label":"Emoji Disparates"}
   ]
 }   
-,
+,  
 { 
-"Path" : "themes/emomjiCatNew",
-"DefaultImage" : "themes/emomjiCatNew/small/shutterstock_504324118.jpg",
+"Path" : "themes/emojiCarnival",
+"DefaultImage" : "themes/emojiCarnival/small/shutterstock_424654051.jpg",
+"SearchText" : "Carnival", 
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Chat"},
-  {"Language":"en-EN","Label":"Cat"},
-  {"Language":"es-ES","Label":"Gato"}
+  {"Language":"fr-FR","Label":"Carnaval"},
+  {"Language":"en-EN","Label":"Carnival"},
+  {"Language":"es-ES","Label":"Carnaval"}
   ]
-}
+}   
 ,
 { 
 "Path" : "themes/emoticons2",
@@ -93,18 +94,17 @@
   {"Language":"es-ES","Label":"Emoji+"}
   ]
 }
-,  
+,
 { 
-"Path" : "themes/emojiCarnival",
-"DefaultImage" : "themes/emojiCarnival/small/shutterstock_429559042.jpg",
-"SearchText" : "Carnival", 
+"Path" : "themes/emomjiCatNew",
+"DefaultImage" : "themes/emomjiCatNew/small/shutterstock_505901188.jpg",
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Carnaval"},
-  {"Language":"en-EN","Label":"Carnival"},
-  {"Language":"es-ES","Label":"Carnaval"}
+  {"Language":"fr-FR","Label":"Chat"},
+  {"Language":"en-EN","Label":"Cat"},
+  {"Language":"es-ES","Label":"Gato"}
   ]
-}   
+}
 ,
 { 
 "Path" : "themes/emojiSun",
