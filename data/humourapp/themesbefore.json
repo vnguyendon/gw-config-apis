@@ -30,9 +30,9 @@
 "SearchText" : "emoji cute", 
 "Labels":
   [
-  {"Language":"fr-FR","Label":"Emoji Non-sens"},
-  {"Language":"en-EN","Label":"Emoji Nonsense"},
-  {"Language":"es-ES","Label":"Emoji Disparates"}
+  {"Language":"fr-FR","Label":"Emoji non-sens"},
+  {"Language":"en-EN","Label":"Emoji nonsense"},
+  {"Language":"es-ES","Label":"Emoji disparates"}
   ]
 }   
 ,  
