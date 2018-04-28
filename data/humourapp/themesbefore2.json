@@ -52,17 +52,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/puppies"
+        "Link": "themes/emojiCarnival"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/puppies/small/iStock_000038381312_Medium.jpg"
+        "Path": "themes/emojiCarnival/small/shutterstock_434231428.jpg"
         },
       "Labels": {
-        "fr": "Chiens",
-        "en": "Puppies",
-        "es": "Cachorros"
+        "fr": "Carnaval",
+        "en": "Carnival",
+        "es": "Carnaval"
       }
     },
     {
@@ -145,5 +145,22 @@
         "es": "Emoji Vainilla"
       }
     }
+    ,
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/puppies"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/puppies/small/iStock_000038381312_Medium.jpg"
+        },
+      "Labels": {
+        "fr": "Chiens",
+        "en": "Puppies",
+        "es": "Cachorros"
+      }
+    }    
   ]
 }
