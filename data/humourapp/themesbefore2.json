@@ -41,12 +41,12 @@
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "cvd/intentions/default/xsmall/shutterstock_437914531_19.jpg"
+        "Path": "themes/emojiNonsense/small/shutterstock_437914531_12.jpg"
         },
       "Labels": {
-        "fr": "Emoji Non-sens",
-        "en": "Emoji Nonsense",
-        "es": "Emoji Disparates"
+        "fr": "Emoji fun",
+        "en": "Emoji funny",
+        "es": "Emoji diversión"
       }
     },
     {
