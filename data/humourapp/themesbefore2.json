@@ -84,17 +84,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/flowers"
+        "Link": "themes/emojiAstro"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/flowers/small/shutterstock_127822121.jpg"
+        "Path": "themes/emojiAstro/small/shutterstock_554561449.jpg"
         },
       "Labels": {
-        "fr": "Fleurs",
-        "en": "Flowers",
-        "es": "Flores"
+        "fr": "Astrologie",
+        "en": "Astrology",
+        "es": "Astrologia"
       }
     },
     {
@@ -143,6 +143,23 @@
         "fr": "Emoji Vanille",
         "en": "Emoji Vanilla",
         "es": "Emoji Vainilla"
+      }
+    }
+    ,
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/flowers"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/flowers/small/shutterstock_127822121.jpg"
+        },
+      "Labels": {
+        "fr": "Fleurs",
+        "en": "Flowers",
+        "es": "Flores"
       }
     }
     ,
