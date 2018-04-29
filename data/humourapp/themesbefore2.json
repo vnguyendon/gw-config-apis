@@ -100,17 +100,17 @@
     {
       "Path": {
         "Source": "Internal",
-        "Link": "themes/emojiSun"
+        "Link": "themes/emojiFish"
       },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
-        "Path": "themes/emojiSun/small/shutterstock_422197138_3.jpg"
+        "Path": "themes/emojiFish/small/shutterstock_1016524282.jpg"
         },
       "Labels": {
-        "fr": "Emoji Soleil",
-        "en": "Emoji Sun",
-        "es": "Emoji Sol"
+        "fr": "Swag fish",
+        "en": "Swag fish",
+        "es": "Pez emoji"
       }
     },
     {
@@ -132,6 +132,57 @@
     {
       "Path": {
         "Source": "Internal",
+        "Link": "themes/emomjiCatNew"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emomjiCatNew/small/shutterstock_505901188.jpg"
+        },
+      "Labels": {
+        "fr": "Chat",
+        "en": "Cat",
+        "es": "Gato"
+      }
+    }
+    ,
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiSun"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiSun/small/shutterstock_422197138_3.jpg"
+        },
+      "Labels": {
+        "fr": "Emoji Soleil",
+        "en": "Emoji Sun",
+        "es": "Emoji Sol"
+      }
+    }
+    ,
+    {
+      "Path": {
+        "Source": "Internal",
+        "Link": "themes/emojiNewOther"
+      },
+      "DefaultImage": {
+        "Type": "Image",
+        "Source": "Internal",
+        "Path": "themes/emojiNewOther/small/shutterstock_529122715.jpg"
+        },
+      "Labels": {
+        "fr": "Emoji bonus",
+        "en": "Bonus emoji",
+        "es": "Emoji extra"
+      }
+    }       
+    ,
+    {
+      "Path": {
+        "Source": "Internal",
         "Link": "themes/emojiVanilla"
       },
       "DefaultImage": {
@@ -144,7 +195,7 @@
         "en": "Emoji Vanilla",
         "es": "Emoji Vainilla"
       }
-    }
+    }   
     ,
     {
       "Path": {
