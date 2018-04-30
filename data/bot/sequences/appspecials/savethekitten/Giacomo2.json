@@ -3,6 +3,13 @@
     "Id": "Giacomo2",
     "Steps": [
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "One day, he set off with his wagon to explore the world",
@@ -15,6 +22,13 @@
             "Parameters": {
                 "Source": "Giphy",
                 "Path": "kVqp6R7ihdRew"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
             }
         },
         {
@@ -53,6 +67,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "He loves to research certain species...",
@@ -65,6 +86,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "11vI1NTn09kkqQ"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -115,11 +143,32 @@
                                 }
                             },
                             {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
                                     "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
                                     "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -189,6 +238,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type":"Image",
                                             "Parameters":{
                                                 "Source":"Web",
@@ -226,11 +282,25 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
                                     "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
                                     "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -333,6 +403,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                       "en": "He loves to research certain species...",
@@ -345,6 +422,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "11vI1NTn09kkqQ"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -395,11 +479,32 @@
                                 }
                             },
                             {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
                                     "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
                                     "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -469,6 +574,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type":"Image",
                                             "Parameters":{
                                                 "Source":"Web",
@@ -506,11 +618,25 @@
                                 }
                             },
                             {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
                                     "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
                                     "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -577,6 +703,13 @@
                                             "Parameters": {
                                                 "Source": "Giphy",
                                                 "Path": "Q85ABl47vOtLG"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
                                             }
                                         },
                                         {
