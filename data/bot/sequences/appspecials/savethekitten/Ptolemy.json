@@ -123,6 +123,21 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
@@ -149,6 +164,36 @@
                                         "es": "¡Perdónalo!"
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
@@ -226,6 +271,21 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
@@ -252,6 +312,21 @@
                                         "es": "¡Perdónalo!"
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
@@ -371,6 +446,21 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
@@ -397,6 +487,21 @@
                                         "es": "¡Perdónalo!"
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
@@ -474,6 +579,21 @@
                                     },
                                     "Steps": [
                                         {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
@@ -500,6 +620,21 @@
                                         "es": "¡Perdónalo!"
                                     },
                                     "Steps": [
+                                        {
+                                            "Type": "Action",
+                                            "Name": "DoVote"
+                                        },
+                                        {
+                                            "Type": "Action",
+                                            "Name": "ShowSurveyResults"
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 2000
+                                            }
+                                        },
                                         {
                                             "Type": "Text",
                                             "Label": {
