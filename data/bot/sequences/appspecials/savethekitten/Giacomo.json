@@ -18,6 +18,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "His parents always had to keep an eye on him",
@@ -30,6 +37,13 @@
             "Parameters": {
                 "Source": "Giphy",
                 "Path": "14l9SPRBFf2wx2"
+            }
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
             }
         },
         {
@@ -65,6 +79,13 @@
                         "en": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
                         "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -127,6 +148,13 @@
                         "en": "Aside from his love for exploring, Giacomo also befriended other animals easily...",
                         "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                         "es": "Además de su amor por la aventura, Giacomo se hacia amigos facilmente con los otros animales..."
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
