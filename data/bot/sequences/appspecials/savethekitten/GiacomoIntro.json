@@ -39,6 +39,13 @@
           }
         },
         {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 2000
+          }
+        },
+        {
           "Type": "Text",
           "Label": {
             "en": "I’ll tell you a story about one of our most famous and successful explorers if you wish",
@@ -68,6 +75,26 @@
                   "en": "OK, here goes!",
                   "fr": "OK, ça arrive !",
                   "es": "Vale, ¡ocurre!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "GiacomoIntroYesStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Another time",
+              "fr": "Une autre fois",
+              "es": "Otra ocasión"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Understood!",
+                  "fr": "Compris !",
+                  "es": "¡Entendido!"
                 }
               }
             ]
@@ -131,6 +158,26 @@
                   "en": "OK, here goes!",
                   "fr": "OK, ça arrive !",
                   "es": "Vale, ¡ocurre!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "GiacomoIntroNoStoryNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Another time",
+              "fr": "Une autre fois",
+              "es": "Otra ocasión"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Understood!",
+                  "fr": "Compris !",
+                  "es": "¡Entendido!"
                 }
               }
             ]
