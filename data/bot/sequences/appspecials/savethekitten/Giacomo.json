@@ -117,7 +117,24 @@
                             "en": "He's a genius",
                             "fr": "C'est un génie",
                             "es": "Es un genio"
-                        }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ]
                     },
                     {
                         "Type": "Leaf",
@@ -127,7 +144,24 @@
                             "en": "He's a menace",
                             "fr": "C'est une menace",
                             "es": "Es una amenaza"
-                        }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ]
                     }
                 ]
             }
@@ -160,7 +194,7 @@
                 {
                     "Type": "Text",
                     "Label": {
-                       "en": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
+                        "en": "His friendship with Alfred the Fuzzy paid off when he needed to hide from his angry father...",
                         "fr": "Son amitié avec Alfred le Joufflu paya quand il eût besoin de se cacher de son père en colère...",
                         "es": "Su amistad con Alfred el Esponjoso pagaba cuando necesitaba esconger de su padre enojado..."
                     }
@@ -183,10 +217,27 @@
                         "Id": "GiacomoNuisanceGenius",
                         "ElementValue": "1",
                         "CommandLabel": {
-                               "en": "He's a genius",
+                            "en": "He's a genius",
                             "fr": "C'est un génie",
                             "es": "Es un genio"
-                        }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ]
                     },
                     {
                         "Type": "Leaf",
@@ -196,7 +247,24 @@
                             "en": "He's a menace",
                             "fr": "C'est une menace",
                             "es": "Es una amenaza"
-                        }
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Action",
+                                "Name": "DoVote"
+                            },
+                            {
+                                "Type": "Action",
+                                "Name": "ShowSurveyResults"
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            }
+                        ]
                     }
                 ]
             }
