@@ -1,124 +1,124 @@
 {
-    "Type": "Node",
-    "Comments": "The story of Titus the Clever (reduce size of gif)",
-    "Id": "Titus",
-    "Steps": [
+  "Type": "Node",
+  "Comments": "The story of Titus the Clever (reduce size of gif)",
+  "Id": "Titus",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
+        "fr": "Titus est un génie - il a la chance d'avoir une intelligence très affutée ainsi qu'une mémoire photographique",
+        "es": "Titus es un genio - es bendecido con un intelecto agudo y una memoria fotográfica"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "3oKIPnAiaMCws8nOsE"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here he is uploading a bug to the enemy servers while working for the CIA",
+        "fr": "Ici, il envoie un virus aux serveurs ennemis tout en travaillant pour la CIA",
+        "es": "Aqui esta eviando un virus a los servidores enemigos mientras trabaja por la CIA"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Many were jealous of his mind, though, and sought to destroy him",
+        "fr": "Toutefois, beaucoup étaient jaloux de son esprit et cherchèrent à le détruire",
+        "es": "Sin embargo, muchas personas estaban celosas de su mente y trataron de destruirlo"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TitusSave",
+      "CommandLabel": {
+        "en": "Save him!",
+        "fr": "Sauve-le !",
+        "es": "¡Salvalo!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
-                "fr": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
-                "es": "Titus is a genius - blessed with razor sharp intellect and a photographic memory"
-            }
+          "Type": "Action",
+          "Name": "DoVote"
         },
         {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "3oKIPnAiaMCws8nOsE"
-            }
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Here he is uploading a bug to the enemy servers while working for the CIA",
-                "fr": "Here he is uploading a bug to the enemy servers while working for the CIA",
-                "es": "Here he is uploading a bug to the enemy servers while working for the CIA"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "But Titus outsmarted them all with stealth and disguise",
+            "fr": "Mais Titus déjoua leurs plans avec discrétion et dissimulation",
+            "es": "Pero Titus los engañó con sigilo y camuflaje"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Many were jealous of his mind, though, and sought to destroy him",
-                "fr": "Many were jealous of his mind, though, and sought to destroy him",
-                "es": "Many were jealous of his mind, though, and sought to destroy him"
-            }
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "wyoUdfhunrDZ6"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He plans to run for president in 2024",
+            "fr": "Il prévoir de se présenter aux présidentielles en 2024",
+            "es": "Planea postularse para presidente en 2024"
+          }
         }
-    ],
-    "Commands": [
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "TitusDoom",
+      "CommandLabel": {
+        "en": "Doom him!",
+        "fr": "Condamne le !",
+        "es": "¡Condénalo!"
+      },
+      "Steps": [
         {
-            "Type": "Leaf",
-            "Id": "TitusSave",
-            "CommandLabel": {
-                "en": "Save him!",
-                "fr": "Save him!",
-                "es": "Save him!"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "But Titus outsmarted them all with stealth and disguise",
-                        "fr": "But Titus outsmarted them all with stealth and disguise",
-                        "es": "But Titus outsmarted them all with stealth and disguise"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "wyoUdfhunrDZ6"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "He plans to run for president in 2024",
-                        "fr": "He plans to run for president in 2024",
-                        "es": "He plans to run for president in 2024"
-                    }
-                }
-            ]
+          "Type": "Action",
+          "Name": "DoVote"
         },
         {
-            "Type": "Leaf",
-            "Id": "TitusDoom",
-            "CommandLabel": {
-                "en": "Doom him!",
-                "fr": "Doom him!",
-                "es": "Doom him!"
-            },
-            "Steps": [
-                {
-                    "Type": "Action",
-                    "Name": "DoVote"
-                },
-                {
-                    "Type": "Action",
-                    "Name": "ShowSurveyResults"
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "His enemies poisoned his mind, causing him to lose his senses...",
-                        "fr": "His enemies poisoned his mind, causing him to lose his senses...",
-                        "es": "His enemies poisoned his mind, causing him to lose his senses..."
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "6S1k7SLbAH4f6"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "A truly terrible tale about jealousy and lost potential",
-                        "fr": "A truly terrible tale about jealousy and lost potential",
-                        "es": "A truly terrible tale about jealousy and lost potential"
-                    }
-                }
-            ]
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "His enemies poisoned his mind, causing him to lose his senses...",
+            "fr": "Ses ennemis ont empoisonné son esprit, et il en a perdu ses sens...",
+            "es": "Sus enemigos envenenaron su mente, lo que le hizo perder sus sentidos..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "6S1k7SLbAH4f6"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "A truly terrible tale about jealousy and lost potential",
+            "fr": "Un conte vraiment terrible sur la jalousie et le potentiel gâché",
+            "es": "Un cuento realmente terrible sobre envidia y potencial perdido"
+          }
         }
-    ]
+      ]
+    }
+  ]
 }
