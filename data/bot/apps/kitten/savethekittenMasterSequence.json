@@ -4,7 +4,7 @@
   "GroupName": "Kitten",
   "SequenceFiles": [
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/savethekitten/STKintro.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/savethekitten/STKready.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/appspecials/savethekitten/KittenBunch.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/savethekitten/Ptolemy.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/Victoria.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/appspecials/savethekitten/Victoria2.json"]},
