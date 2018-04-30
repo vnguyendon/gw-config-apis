@@ -6,8 +6,8 @@
             "Type": "Text",
             "Label": {
                 "en": "One day, he set off with his wagon to explore the world",
-                "fr": "One day, he set off with his wagon to explore the world",
-                "es": "One day, he set off with his wagon to explore the world"
+                "fr": "Un jour, il est parti avec son wagon à la découverte du monde",
+                "es": "Un día, se fue con su vagón a explorar el mundo"
             }
         },
         {
@@ -21,8 +21,8 @@
             "Type": "Text",
             "Label": {
                 "en": "Here are some of his travels...",
-                "fr": "Here are some of his travels...",
-                "es": "Here are some of his travels..."
+                "fr": "Voici certains de ses voyages...",
+                "es": "Aquí están algunos de sus viajes..."
             }
         },
         {
@@ -40,24 +40,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Those are fake!",
-                "fr": "Those are fake!",
-                "es": "Those are fake!"
+                "fr": "Ce sont des fake !",
+                "es": "¡Esos son falsos!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Possibly... but the world believes they are real",
-                        "fr": "Possibly... but the world believes they are real",
-                        "es": "Possibly... but the world believes they are real"
+                        "fr": "Peut-être... mais le monde croit qu'ils sont vrais",
+                        "es": "A lo mejor... pero el mundo cree que son reales"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "He loves to research certain species...",
-                        "fr": "He loves to research certain species...",
-                        "es": "He loves to research certain species..."
+                        "fr": "Il adore rechercher certaines espèces...",
+                        "es": "Le encanta buscar a ciertas especies..."
                     }
                 },
                 {
@@ -71,16 +71,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "But others, he is hostile to...",
-                        "es": "But others, he is hostile to..."
+                        "fr": "Mais les autres, il leur est hostile...",
+                        "es": "Pero con los otros, es hostile..."
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Here he is trying to capture my brother",
-                        "fr": "Here he is trying to capture my brother",
-                        "es": "Here he is trying to capture my brother"
+                        "fr": "Ici il essaye de capturer mon frère",
+                        "es": "Aquí intenta capturar a mi hermano"
                     }
                 },
                 {
@@ -102,32 +102,32 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Evil cat!",
-                            "es": "Evil cat!"
+                            "fr": "Méchant le chat !",
+                            "es": "¡Malo gato!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yes, he is my mortal enemy now",
-                                    "fr": "Yes, he is my mortal enemy now",
-                                    "es": "Yes, he is my mortal enemy now"
+                                    "fr": "Oui, c'est mon ennemi juré maintenant",
+                                    "es": "Si, ahora es mi enemigo mortal"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                    "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
+                                    "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Did he succeed?",
-                                    "fr": "Did he succeed?",
-                                    "es": "Did he succeed?"
+                                    "fr": "A-t-il réussi ?",
+                                    "es": "¿Consiguió?"
                                 }
                             }
                         ],
@@ -142,7 +142,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No",
-                                        "fr": "No",
+                                        "fr": "Non",
                                         "es": "No"
                                     },
                                     "Steps": [
@@ -150,8 +150,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                                "fr": "Tu as fait le bon choix... Il a été trahi par son ami, Médor le Douteux",
+                                                "es": "Tomaste la decisión correcta... Fue traicionado por su amigo Max el Poco Fiable"
                                             }
                                         },
                                         {
@@ -169,16 +169,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Yes",
-                                        "fr": "Yes",
-                                        "es": "Yes"
+                                        "fr": "Oui",
+                                        "es": "Si"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
+                                                "fr": "Je suis très attristé par ton choix... il vient de prendre ma soeur en otage...",
+                                                "es": "Estoy muy triste elegiste esta opción... viene de tomar mi hermana come rehén..."
                                             }
                                         },
                                         {
@@ -206,16 +206,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fish are rubbish",
-                            "fr": "Fish are rubbish",
-                            "es": "Fish are rubbish"
+                            "fr": "Les poissons, ça craint !",
+                            "es": "¡Peces apestan! "
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I am very offended",
-                                    "fr": "I am very offended",
-                                    "es": "I am very offended"
+                                    "fr": "Je suis très vexé",
+                                    "es": "Estoy muy ofendido"
                                 }
                             },
                             {
@@ -229,16 +229,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                    "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
+                                    "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Did he succeed?",
-                                    "fr": "Did he succeed?",
-                                    "es": "Did he succeed?"
+                                    "fr": "A-t-il réussi ?",
+                                    "es": "¿Consiguió?"
                                 }
                             }
                         ],
@@ -253,7 +253,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No",
-                                        "fr": "No",
+                                        "fr": "Non",
                                         "es": "No"
                                     },
                                     "Steps": [
@@ -261,8 +261,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                                "fr": "Tu as fait le bon choix... Il a été trahi par son ami, Médor le Douteux",
+                                                "es": "Tomaste la decisión correcta... Fue traicionado por su amigo Max el Poco Fiable"
                                             }
                                         },
                                         {
@@ -280,7 +280,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Yes",
-                                        "fr": "Yes",
+                                        "fr": "Oui",
                                         "es": "Yes"
                                     },
                                     "Steps": [
@@ -288,8 +288,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
+                                                "fr": "Je suis très attristé par ton choix... il vient de prendre ma soeur en otage...",
+                                                "es": "Estoy muy triste elegiste esta opción... viene de tomar mi hermana come rehén..."
                                             }
                                         },
                                         {
@@ -320,24 +320,24 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "He's so talented!",
-                "fr": "He's so talented!",
-                "es": "He's so talented!"
+                "fr": "Il est si talentueux !",
+                "es": "Es tal talentuoso!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Yes, he is very famous and a renowned celebrity",
-                        "fr": "Yes, he is very famous and a renowned celebrity",
-                        "es": "Yes, he is very famous and a renowned celebrity"
+                        "fr": "Oui, il est très connu, c'est un chaton de renom",
+                        "es": "Si, es muy famoso, es un gato renombrado"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "He loves to research certain species...",
-                        "fr": "He loves to research certain species...",
-                        "es": "He loves to research certain species..."
+                      "en": "He loves to research certain species...",
+                      "fr": "Il adore rechercher certaines espèces...",
+                      "es": "Le encanta buscar a ciertas especies..."
                     }
                 },
                 {
@@ -351,16 +351,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "But others, he is hostile to...",
-                        "es": "But others, he is hostile to..."
+                        "fr": "Mais les autres, il leur est hostile...",
+                        "es": "Pero con los otros, es hostile..."
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Here he is trying to capture my brother",
-                        "fr": "Here he is trying to capture my brother",
-                        "es": "Here he is trying to capture my brother"
+                        "fr": "Ici il essaye de capturer mon frère",
+                        "es": "Aquí intenta capturar a mi hermano"
                     }
                 },
                 {
@@ -382,32 +382,32 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Evil cat!",
-                            "es": "Evil cat!"
+                            "fr": "Méchant le chat!",
+                            "es": "¡Malo gato!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yes, he is my mortal enemy now",
-                                    "fr": "Yes, he is my mortal enemy now",
-                                    "es": "Yes, he is my mortal enemy now"
+                                    "fr": "Oui, c'est mon ennemi juré maintenant",
+                                    "es": "Si, ahora es mi enemigo mortal"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                    "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
+                                    "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Did he succeed?",
-                                    "fr": "Did he succeed?",
-                                    "es": "Did he succeed?"
+                                    "fr": "A-t-il réussi ?",
+                                    "es": "¿Consiguió?"
                                 }
                             }
                         ],
@@ -422,7 +422,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No",
-                                        "fr": "No",
+                                        "fr": "Non",
                                         "es": "No"
                                     },
                                     "Steps": [
@@ -430,8 +430,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                                "fr": "Tu as fait le bon choix... Il a été trahi par son ami, Médor le Douteux",
+                                                "es": "Tomaste la decisión correcta... Fue traicionado por su amigo Max el Poco Fiable"
                                             }
                                         },
                                         {
@@ -449,16 +449,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Yes",
-                                        "fr": "Yes",
-                                        "es": "Yes"
+                                        "fr": "Oui",
+                                        "es": "Si"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
+                                                "fr": "Je suis très attristé par ton choix... il vient de prendre ma soeur en otage...",
+                                                "es": "Estoy muy triste elegiste esta opción... viene de tomar mi hermana come rehén..."
                                             }
                                         },
                                         {
@@ -494,7 +494,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "I am very offended",
-                                    "fr": "I am very offended",
+                                    "fr": "Je suis très vexé",
                                     "es": "I am very offended"
                                 }
                             },
@@ -509,16 +509,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "fr": "Regardless, one day Giacomo decided to venture onto the seas",
-                                    "es": "Regardless, one day Giacomo decided to venture onto the seas"
+                                    "fr": "Néanmoins, un jour Giacomo décida de s'en aller prendre la mer",
+                                    "es": "Pese a todo, un día Giacomo decidío irse aventurarse por el mar"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Did he succeed?",
-                                    "fr": "Did he succeed?",
-                                    "es": "Did he succeed?"
+                                    "fr": "A-t-il réussi ?",
+                                    "es": "Consiguio?"
                                 }
                             }
                         ],
@@ -533,7 +533,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No",
-                                        "fr": "No",
+                                        "fr": "Non",
                                         "es": "No"
                                     },
                                     "Steps": [
@@ -541,8 +541,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "fr": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy",
-                                                "es": "You made the right choice... he was betrayed by his friend, Patches the Untrustworthy"
+                                                "fr": "Tu as fait le bon choix... Il a été trahi par son ami, Médor le Douteux",
+                                                "es": "Tomaste la decisión correcta... Fue traicionado por su amigo Max el Poco Fiable"
                                             }
                                         },
                                         {
@@ -560,16 +560,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Yes",
-                                        "fr": "Yes",
-                                        "es": "Yes"
+                                        "fr": "Oui",
+                                        "es": "Si"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "fr": "I'm so sad you chose this option... he has now taken my sister hostage...",
-                                                "es": "I'm so sad you chose this option... he has now taken my sister hostage..."
+                                                "fr": "Je suis très attristé par ton choix... il vient de prendre ma soeur en otage...",
+                                                "es": "Estoy muy triste elegiste esta opción... viene de tomar mi hermana come rehén..."
                                             }
                                         },
                                         {
