@@ -1,114 +1,114 @@
 {
-    "Type": "Node",
-    "Comments": "User can choose another story",
-    "Id": "AnotherKittenStory",
-    "Steps": [
+  "Type": "Node",
+  "Comments": "User can choose another story",
+  "Id": "AnotherKittenStory",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Ready for another story?",
+        "fr": "Prêt pour une autre histoire ?",
+        "es": "¿Listo para una otra historia?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "AnotherKittenYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes!",
+        "fr": "Oui !",
+        "es": "¡Sí!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Ready for another story?",
-                "fr": "Ready for another story?",
-                "es": "Ready for another story?"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "OK... who do you wanna hear about now?",
+            "fr": "OK... de qui veux-tu entendre parler maintenant ?",
+            "es": "Vale... ¿ahora de quién quieres oír?"
+          }
         }
-    ],
-    "Commands": [
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "AnotherChooseKitten",
+        "ElementValue": "1",
+        "DisplayHint": "Carousel",
+        "Randomize": "true",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "AnotherKittenYes",
+            "Id": "AnotherChooseKittenTitus",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Yes!",
-                "fr": "Yes!",
-                "es": "Yes!"
+              "en": "Titus",
+              "fr": "Titus",
+              "es": "Titus"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_197635112.jpg"
+              }
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "OK... who do you wanna hear about now?",
-                        "fr": "OK... who do you wanna hear about now?",
-                        "es": "OK... who do you wanna hear about now?"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You have selected 'Titus the Clever'",
+                  "fr": "Tu as choisi 'Titus l'Intelligent'",
+                  "es": "Elegiste 'Titus el Inteligente'"
                 }
+              }
             ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "AnotherChooseKitten",
-                "ElementValue": "1",
-                "DisplayHint": "Carousel",
-                "Randomize": "true",
-                "Commands": [
-                    {
-                        "Type": "Node",
-                        "Id": "AnotherChooseKittenTitus",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Titus",
-                            "fr": "Titus",
-                            "es": "Titus"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "😺",
-                                "fr": "😺",
-                                "es": "😺"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_197635112.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You have selected 'Titus the Clever'",
-                                    "fr": "You have selected 'Titus the Clever'",
-                                    "es": "You have selected 'Titus the Clever'"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Titus"
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "AnotherChooseKittenOrion",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Orion",
-                            "fr": "Orion",
-                            "es": "Orion"
-                        },
-                        "CarouselElements": {
-                            "Title": {
-                                "en": "😺",
-                                "fr": "😺",
-                                "es": "😺"
-                            },
-                            "Picture": {
-                                "Source": "Web",
-                                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_98263802.jpg"
-                            }
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You have selected 'Orion the Wealthy'",
-                                    "fr": "You have selected 'Orion the Wealthy'",
-                                    "es": "You have selected 'Orion the Wealthy'"
-                                }
-                            }
-                        ],
-                        "LinksToFragment": {
-                            "FragmentPath": "Orion"
-                        }
-                    }
-                ]
+            "LinksToFragment": {
+              "FragmentPath": "Titus"
             }
-        }
-    ]
+          },
+          {
+            "Type": "Node",
+            "Id": "AnotherChooseKittenOrion",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Orion",
+              "fr": "Orion",
+              "es": "Orion"
+            },
+            "CarouselElements": {
+              "Title": {
+                "en": "😺",
+                "fr": "😺",
+                "es": "😺"
+              },
+              "Picture": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_98263802.jpg"
+              }
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You have selected 'Orion the Wealthy'",
+                  "fr": "Tu as choisi 'Orion le Riche'",
+                  "es": "Elegiste 'Orion el Rico'"
+                }
+              }
+            ],
+            "LinksToFragment": {
+              "FragmentPath": "Orion"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
