@@ -1,279 +1,321 @@
 {
-  "Type": "Node",
-  "Id": "Victoria2",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "After defeating Antioch, she was crowned...",
-        "fr": "Après avoir vaincu Antioche, elle fut couronnée",
-        "es": "Después de haber derrotado a Antioquía, fue coronada..."
-      }
-    },
-    {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524752246/Victoria_on_Throne.jpg"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "There she is preparing to give laws and organise the queendom",
-        "fr": "La voici se préparant à créer des lois et à organiser le reinaume",
-        "es": "Aquí está preparando a crear leyes y a organizar el reinado"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Victoria2Cute",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Very cute!",
-        "fr": "Très mignon !",
-        "es": "¡Muy bonito!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Id": "Victoria2",
+    "Steps": [
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Cute? She is a fearsome leader... just look how she defeated this challenger",
-            "fr": "Mignon ? C'est un dirigeant redoutable... regarde la façon dont elle a terrassé cet adversaire",
-            "es": "¿Bonito? Es una líder temible... mira como derrotó a este retador"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "After defeating Antioch, she was crowned...",
+                "fr": "Après avoir vaincu Antioche, elle fut couronnée",
+                "es": "Después de haber derrotado a Antioquía, fue coronada..."
+            }
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "5W6HMvrJSn6rm"
-          }
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524752246/Victoria_on_Throne.jpg"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "Many more challengers exist, however, and she is struggling...",
-            "fr": "Toutefois, il y a beaucoup d'autres prétendants et elle est en difficulté...",
-            "es": "Sin embargo, hay muchos otros aspirantes y está batallando..."
-          }
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "You must decide how her reign ends",
-            "fr": "Tu dois décider de comment son règne se termine",
-            "es": "Tienes que decidir como su reinado se acaba"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "There she is preparing to give laws and organise the queendom",
+                "fr": "La voici se préparant à créer des lois et à organiser le reinaume",
+                "es": "Aquí está preparando a crear leyes y a organizar el reinado"
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Victoria2CuteFate",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "Victoria2CuteDoom",
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Victoria2Cute",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "End her reign!",
-              "fr": "Mets fin au règne !",
-              "es": "¡Acaba su reinado!"
+                "en": "Very cute!",
+                "fr": "Très mignon !",
+                "es": "¡Muy bonito!"
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Her enemies chased her to the edge of a great cliff...",
-                  "fr": "Ses ennemis la pourchassèrent jusqu'au bout d'une grande falaise",
-                  "es": "Sus enemigos la persiguieron hasta el borde de un precipicio"
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Cute? She is a fearsome leader... just look how she defeated this challenger",
+                        "fr": "Mignon ? C'est un dirigeant redoutable... regarde la façon dont elle a terrassé cet adversaire",
+                        "es": "¿Bonito? Es una líder temible... mira como derrotó a este retador"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5W6HMvrJSn6rm"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many more challengers exist, however, and she is struggling...",
+                        "fr": "Toutefois, il y a beaucoup d'autres prétendants et elle est en difficulté...",
+                        "es": "Sin embargo, hay muchos otros aspirantes y está batallando..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You must decide how her reign ends",
+                        "fr": "Tu dois décider de comment son règne se termine",
+                        "es": "Tienes que decidir como su reinado se acaba"
+                    }
                 }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She lost her footing, and fell into nothingness",
-                  "fr": "Elle perdit pied, et tomba dans le néant",
-                  "es": "Perdió el equilibrio, y cayó en la nada"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "EaufJGoYKWtkA"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She has not been sighted since...",
-                  "fr": "Elle n'a plus été aperçue depuis...",
-                  "es": "No fue avistada desde entonces..."
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "Victoria2CuteSpare",
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victoria2CuteFate",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Victoria2CuteDoom",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "End her reign!",
+                            "fr": "Mets fin au règne !",
+                            "es": "¡Acaba su reinado!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Her enemies chased her to the edge of a great cliff...",
+                                    "fr": "Ses ennemis la pourchassèrent jusqu'au bout d'une grande falaise",
+                                    "es": "Sus enemigos la persiguieron hasta el borde de un precipicio"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She lost her footing, and fell into nothingness",
+                                    "fr": "Elle perdit pied, et tomba dans le néant",
+                                    "es": "Perdió el equilibrio, y cayó en la nada"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "EaufJGoYKWtkA"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She has not been sighted since...",
+                                    "fr": "Elle n'a plus été aperçue depuis...",
+                                    "es": "No fue avistada desde entonces..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Victoria2CuteSpare",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let her stay queen!",
+                            "fr": "Qu'elle reste reine!",
+                            "es": "¡Que se queda reina!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "fr": "Avec ton soutien, elle vainquit tous ses ennemis, se défaisant même d'Orion le Nanti...",
+                                    "es": "Con tu apoyo, peleó con todos sus enemigos, derrotando incluso Orión el Rico..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Nj44tzG16JfsA"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Victoria2Scary",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Let her stay queen!",
-              "fr": "Qu'elle reste reine!",
-              "es": "¡Que se queda reina!"
+                "en": "She looks scary!",
+                "fr": "Elle est effrayante!",
+                "es": "¡Parece aterradora!"
             },
             "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
-                  "fr": "Avec ton soutien, elle vainquit tous ses ennemis, se défaisant même d'Orion le Nanti...",
-                  "es": "Con tu apoyo, peleó con todos sus enemigos, derrotando incluso Orión el Rico..."
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Indeed... Victoria certainly has been a fearsome ruler",
+                        "fr": "En effet... Victoria a été un dirigeant redoutable",
+                        "es": "En efecto... Victoria fue una líder temible"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Just look how she defeated this challenger...",
+                        "fr": "Regarde la façon dont elle a terrassé cet adversaire...",
+                        "es": "Mira como derrotó a este retador..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5W6HMvrJSn6rm"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Many more challengers exist, however, and she is struggling...",
+                        "fr": "Toutefois, il y a beaucoup d'autres prétendants et elle est en difficulté...",
+                        "es": "Sin embargo, hay muchos otros aspirantes y está batallando..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You must decide how her reign ends",
+                        "fr": "Tu dois décider de comment son règne se termine",
+                        "es": "Tienes que decidir como su reinado se acaba"
+                    }
                 }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "Nj44tzG16JfsA"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Victoria2Scary",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "She looks scary!",
-        "fr": "Elle est effrayante!",
-        "es": "¡Parece aterradora!"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Indeed... Victoria certainly has been a fearsome ruler",
-            "fr": "En effet... Victoria a été un dirigeant redoutable",
-            "es": "En efecto... Victoria fue una líder temible"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Just look how she defeated this challenger...",
-            "fr": "Regarde la façon dont elle a terrassé cet adversaire...",
-            "es": "Mira como derrotó a este retador..."
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "5W6HMvrJSn6rm"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Many more challengers exist, however, and she is struggling...",
-            "fr": "Toutefois, il y a beaucoup d'autres prétendants et elle est en difficulté...",
-            "es": "Sin embargo, hay muchos otros aspirantes y está batallando..."
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You must decide how her reign ends",
-            "fr": "Tu dois décider de comment son règne se termine",
-            "es": "Tienes que decidir como su reinado se acaba"
-          }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Victoria2ScaryFate",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Victoria2ScaryDoom",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "End her reign!",
+                            "fr": "Mets fin au règne !",
+                            "es": "¡Acaba su reinado!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Her enemies chased her to the edge of a great cliff...",
+                                    "fr": "Ses ennemis la pourchassèrent jusqu'au bout d'une grande falaise",
+                                    "es": "Sus enemigos la persiguieron hasta el borde de un precipicio"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She lost her footing, and fell into nothingness",
+                                    "fr": "Elle perdit pied, et tomba dans le néant",
+                                    "es": "Perdió el equilibrio, y cayó en la nada"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "EaufJGoYKWtkA"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She has not been sighted since...",
+                                    "fr": "Elle n'a plus été aperçue depuis...",
+                                    "es": "No fue avistada desde entonces..."
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Victoria2ScarySpare",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Let her stay queen!",
+                            "fr": "Qu'elle reste reine!",
+                            "es": "¡Que se queda reina!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
+                                    "fr": "Avec ton soutien, elle vainquit tous ses ennemis, se défaisant même d'Orion le Nanti...",
+                                    "es": "Con tu apoyo, peleó con todos sus enemigos, derrotando incluso Orión el Rico..."
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Nj44tzG16JfsA"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
         }
-      ],
-      "LinksTo": {
-        "Type": "Node",
-        "Id": "Victoria2ScaryFate",
-        "ElementValue": "1",
-        "Commands": [
-          {
-            "Type": "Leaf",
-            "Id": "Victoria2ScaryDoom",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "End her reign!",
-              "fr": "Mets fin au règne !",
-              "es": "¡Acaba su reinado!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Her enemies chased her to the edge of a great cliff...",
-                  "fr": "Ses ennemis la pourchassèrent jusqu'au bout d'une grande falaise",
-                  "es": "Sus enemigos la persiguieron hasta el borde de un precipicio"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She lost her footing, and fell into nothingness",
-                  "fr": "Elle perdit pied, et tomba dans le néant",
-                  "es": "Perdió el equilibrio, y cayó en la nada"
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "EaufJGoYKWtkA"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She has not been sighted since...",
-                  "fr": "Elle n'a plus été aperçue depuis...",
-                  "es": "No fue avistada desde entonces..."
-                }
-              }
-            ]
-          },
-          {
-            "Type": "Leaf",
-            "Id": "Victoria2ScarySpare",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Let her stay queen!",
-              "fr": "Qu'elle reste reine!",
-              "es": "¡Que se queda reina!"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "With your support, she fought off all her enemies, even defeating Orion the Wealthy...",
-                  "fr": "Avec ton soutien, elle vainquit tous ses ennemis, se défaisant même d'Orion le Nanti...",
-                  "es": "Con tu apoyo, peleó con todos sus enemigos, derrotando incluso Orión el Rico..."
-                }
-              },
-              {
-                "Type": "AnimatedGif",
-                "Parameters": {
-                  "Source": "Giphy",
-                  "Path": "Nj44tzG16JfsA"
-                }
-              }
-            ]
-          }
-        ]
-      }
-    }
-  ]
+    ]
 }
