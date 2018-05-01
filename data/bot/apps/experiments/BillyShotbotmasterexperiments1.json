@@ -2,7 +2,7 @@
   {
     "GroupName": "Hero",
     "SequenceFiles": [
-      { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/TestComic.json"]},
+      { "order" : 30, "file": ["/data/bot/sequences/experiments/Billy2/TestComic2.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/savethekitten/Giacomo.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/appspecials/savethekitten/Giacomo2.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy2/HugoTest.json"]},
