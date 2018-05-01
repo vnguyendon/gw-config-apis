@@ -1,0 +1,27 @@
+{
+    "Id": "TestComic",
+    "Elements": [
+        {
+            "Title": {
+                "en": "He went to the obstacle course",
+                "fr": "Giacomo the Adventurous",
+                "es": "Giacomo the Adventurous"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "He was very confused",
+                "fr": "Giacomo the Adventurous",
+                "es": "Giacomo the Adventurous"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525180124/Obstacle_Course2.jpg"
+            }
+        }
+    ]
+}
