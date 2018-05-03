@@ -2,6 +2,7 @@
   {
   "GroupName": "Kitten",
   "SequenceFiles": [
+      { "order" : 10, "file": ["/data/bot/sequences/appspecials/savethekitten/KittenStoriesOrStickers.json"]},
       { "order" : 20, "file": ["/data/bot/sequences/appspecials/savethekitten/STKintro.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/savethekitten/KittenBunch.json"]},
       { "order" : 40, "file": ["/data/bot/sequences/appspecials/savethekitten/Ptolemy.json"]},
