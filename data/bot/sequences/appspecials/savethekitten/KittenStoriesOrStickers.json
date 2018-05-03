@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "KittenStoriesOrStickers",
+  "Steps": [
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Internal",
+        "Path": "themes/kittens/small/shutterstock_131534888.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en":"What would you like to see?",
+        "fr":"TBD",
+        "es":"TBD"
+      }
+    }
+  ],
+  "Randomize": "True",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "KittenStickers",
+      "CommandLabel": {
+        "en":"Kitten stickers",
+        "fr":"TBD",
+        "es":"TBD"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"🚀🚀🚀",
+            "fr":"🚀🚀🚀",
+            "es":"🚀🚀🚀"
+          }
+        },
+        {
+          "Type": "Action",
+          "Name": "RedirectTo",
+          "Parameters": {
+            "Type": "ImageCategory",
+            "Path": "/themes/kittens/small"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "ElementValue": "1",
+      "Id": "KittenStories",
+      "CommandLabel": {
+        "en":"Kitten stories",
+        "fr":"non",
+        "es":"no"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en":"Great choice",
+            "fr":"TBD",
+            "es":"TBD"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "maJc7RZlCIjzq"
+          }
+        }
+      ]
+    }
+  ]
+}
