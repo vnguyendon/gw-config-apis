@@ -1,4 +1,3 @@
-
 {
   "Themes": [
     {
@@ -10,7 +9,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emoticons/small/000075070105.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji",
         "en": "Emoji",
@@ -22,11 +21,15 @@
         "Source": "Internal",
         "Link": "themes/kittens"
       },
+      "ExtraPath": {
+        "Source": "Bot",
+        "Link": "kittentile"
+      },
       "DefaultImage": {
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/kittens/small/shutterstock_101654053.jpg"
-        },
+      },
       "Labels": {
         "fr": "Chatons",
         "en": "Kittens",
@@ -42,7 +45,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiNonsense/small/shutterstock_437914531_12.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji fun",
         "en": "Emoji funny",
@@ -58,7 +61,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiCarnival/small/shutterstock_434231428.jpg"
-        },
+      },
       "Labels": {
         "fr": "Carnaval",
         "en": "Carnival",
@@ -74,7 +77,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emoticons2/small/shutterstock_231122902_10.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji 3D",
         "en": "Emoji 3D",
@@ -90,7 +93,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiAstro/small/shutterstock_554561449.jpg"
-        },
+      },
       "Labels": {
         "fr": "Astrologie",
         "en": "Astrology",
@@ -106,7 +109,7 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiFish/small/shutterstock_1016524282.jpg"
-        },
+      },
       "Labels": {
         "fr": "Swag fish",
         "en": "Swag fish",
@@ -122,13 +125,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emoticons8/small/shutterstock_28414891.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji+",
         "en": "Emoji+",
         "es": "Emoji+"
       }
-    },    
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -138,14 +141,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emomjiCatNew/small/shutterstock_505901188.jpg"
-        },
+      },
       "Labels": {
         "fr": "Chat",
         "en": "Cat",
         "es": "Gato"
       }
-    }
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -155,14 +157,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiSun/small/shutterstock_422197138_3.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji Soleil",
         "en": "Emoji Sun",
         "es": "Emoji Sol"
       }
-    }
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -172,14 +173,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiNewOther/small/shutterstock_529122715.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji bonus",
         "en": "Bonus emoji",
         "es": "Emoji extra"
       }
-    }       
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -189,14 +189,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/emojiVanilla/small/shutterstock_407338447_12.jpg"
-        },
+      },
       "Labels": {
         "fr": "Emoji Vanille",
         "en": "Emoji Vanilla",
         "es": "Emoji Vainilla"
       }
-    }   
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -206,14 +205,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/flowers/small/shutterstock_127822121.jpg"
-        },
+      },
       "Labels": {
         "fr": "Fleurs",
         "en": "Flowers",
         "es": "Flores"
       }
-    }
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -223,14 +221,13 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/nature/small/11145134_724912407663591_5475768188966799967_n.jpg"
-        },
+      },
       "Labels": {
         "fr": "Nature",
         "en": "Nature",
         "es": "Naturaleza"
       }
-    }
-    ,
+    },
     {
       "Path": {
         "Source": "Internal",
@@ -240,12 +237,12 @@
         "Type": "Image",
         "Source": "Internal",
         "Path": "themes/puppies/small/iStock_000038381312_Medium.jpg"
-        },
+      },
       "Labels": {
         "fr": "Chiens",
         "en": "Puppies",
         "es": "Cachorros"
       }
-    }    
+    }
   ]
 }
