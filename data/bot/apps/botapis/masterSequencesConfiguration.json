@@ -67,6 +67,10 @@
     {
       "Name": "savethekitten",
       "File": "/data/bot/apps/kitten/savethekittenMasterSequence.json"
+    },
+    {
+      "Name": "kittentile",
+      "File": "/data/bot/apps/kitten/kittentileMasterSequence.json"
     }
   ],
   "FragmentsFiles": [
