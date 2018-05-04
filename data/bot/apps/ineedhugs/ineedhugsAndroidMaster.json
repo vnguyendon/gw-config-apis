@@ -16,7 +16,7 @@
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/LawHug.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/StressHug.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/FavDishHug.json"]},
-      { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]}
+      { "order" : 48, "file":["/data/bot/sequences/appspecials/ineedhugs/HealthHug.json"]}
     ]
   }
 ]
