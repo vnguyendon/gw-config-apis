@@ -1,0 +1,260 @@
+{
+    "Type": "Node",
+    "Id": "Raymond3",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Does politics interest you much, by the way?",
+                "fr": "Does politics interest you much, by the way?",
+                "es": "Does politics interest you much, by the way?"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Raymond3No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really",
+                "fr": "Not really",
+                "es": "Not really"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, I think kitten politics will...",
+                        "fr": "Well, I think kitten politics will...",
+                        "es": "Well, I think kitten politics will..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+                        "fr": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+                        "es": "Raymond had many kitten enemies imprisoned, and they are awaiting trial..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What would you do with them?",
+                        "fr": "What would you do with them?",
+                        "es": "What would you do with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Raymond3NoVerdict",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond3NoExecute",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Execute them!",
+                            "fr": "Execute them!",
+                            "es": "Execute them!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                                    "fr": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                                    "es": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond3NoSave",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Save them!",
+                            "fr": "Save them!",
+                            "es": "Save them!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We will see if Raymond will be as merciful as you...",
+                                    "fr": "We will see if Raymond will be as merciful as you...",
+                                    "es": "We will see if Raymond will be as merciful as you..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Raymond3Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes, very much",
+                "fr": "Yes, very much",
+                "es": "Yes, very much"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "You'll love this then...",
+                        "fr": "You'll love this then...",
+                        "es": "You'll love this then..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+                        "fr": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+                        "es": "Raymond had many kitten enemies imprisoned, and they are awaiting trial..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "What would you do with them?",
+                        "fr": "What would you do with them?",
+                        "es": "What would you do with them?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Raymond3YesVerdict",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond3YesExecute",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Execute them!",
+                            "fr": "Execute them!",
+                            "es": "Execute them!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                                    "fr": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                                    "es": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond3YesSave",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Save them!",
+                            "fr": "Save them!",
+                            "es": "Save them!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "We will see if Raymond will be as merciful as you...",
+                                    "fr": "We will see if Raymond will be as merciful as you...",
+                                    "es": "We will see if Raymond will be as merciful as you..."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
+                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
