@@ -1,0 +1,49 @@
+{
+    "Id": "TestComic3",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Swipe right-->",
+                "fr": "Swipe right-->",
+                "es": "Swipe right-->"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525261561/Brainwash1.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Swipe right-->",
+                "fr": "Swipe right-->",
+                "es": "Swipe right-->"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525261560/Brainwash2.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Swipe right-->",
+                "fr": "Swipe right-->",
+                "es": "Swipe right-->"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525261560/Brainwash3.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "End of comic!",
+                "fr": "End of comic!",
+                "es": "End of comic!"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525261560/Brainwash4.png"
+            }
+        }
+    ]
+}
