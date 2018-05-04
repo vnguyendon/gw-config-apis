@@ -1,0 +1,201 @@
+{
+    "Type": "Node",
+    "Id": "Raymond2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was captured in puppy territory in Manchuria",
+                "fr": "He was captured in puppy territory in Manchuria",
+                "es": "He was captured in puppy territory in Manchuria"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "and subjected to ruthless brainwashing...",
+                "fr": "and subjected to ruthless brainwashing...",
+                "es": "and subjected to ruthless brainwashing..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/RaymondBrainwash.json"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He became a sleeper agent for the puppies, which was bad news for all kittens",
+                "fr": "He became a sleeper agent for the puppies, which was bad news for all kittens",
+                "es": "He became a sleeper agent for the puppies, which was bad news for all kittens"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Raymond2Good",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Good, I hate kittens",
+                "fr": "Good, I hate kittens",
+                "es": "Good, I hate kittens"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He returned home and began working in kitten politics...",
+                        "fr": "He returned home and began working in kitten politics...",
+                        "es": "He returned home and began working in kitten politics..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525432546/RaymondPoster1.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525432546/RaymondPoster2.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Raymond2GoodSlogans",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond2GoodFamiliar",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Those seem familiar...",
+                            "fr": "Those seem familiar...",
+                            "es": "Those seem familiar..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nope they are original slogans made by Raymond Paw",
+                                    "fr": "Nope they are original slogans made by Raymond Paw",
+                                    "es": "Nope they are original slogans made by Raymond Paw"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond2GoodVote",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'd vote for him",
+                            "fr": "I'd vote for him",
+                            "es": "I'd vote for him"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You sound like you're in league with the puppies...",
+                                    "fr": "You sound like you're in league with the puppies...",
+                                    "es": "You sound like you're in league with the puppies..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Raymond2Darn",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Those darn puppies...",
+                "fr": "Those darn puppies...",
+                "es": "Those darn puppies..."
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He returned home and began working in kitten politics...",
+                        "fr": "He returned home and began working in kitten politics...",
+                        "es": "He returned home and began working in kitten politics..."
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525432546/RaymondPoster1.jpg"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525432546/RaymondPoster2.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Raymond2DarnSlogans",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond2DarnFamiliar",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Those seem familiar...",
+                            "fr": "Those seem familiar...",
+                            "es": "Those seem familiar..."
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Nope they are original slogans made by Raymond Paw",
+                                    "fr": "Nope they are original slogans made by Raymond Paw",
+                                    "es": "Nope they are original slogans made by Raymond Paw"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Raymond2DarnVote",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I'd vote for him",
+                            "fr": "I'd vote for him",
+                            "es": "I'd vote for him"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You sound like you're in league with the puppies...",
+                                    "fr": "You sound like you're in league with the puppies...",
+                                    "es": "You sound like you're in league with the puppies..."
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
