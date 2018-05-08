@@ -1,0 +1,223 @@
+{
+  "Type": "Node",
+  "Id": "STKintroKttenTile",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "How bold!",
+        "fr": "Quel courage !",
+        "es": "¡Qué valiente!"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "They are a bit scary...",
+        "fr": "Elles font un peu peur...",
+        "es": "Asustan un poco..."
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "STKintroStart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "GET STARTED",
+        "fr": "COMMENCER",
+        "es": "EMPEZAR"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Would you agree that cats do some very silly things?",
+            "fr": "Es-tu d'accord pour dire que les chats font parfois des choses très stupides ?",
+            "es": "¿Está de acuerdo en que los gatos hacen algunas cosas muy tontas?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "STKintroSilly",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "STKintroSillyYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes!",
+              "fr": "Oui !",
+              "es": "¡Si!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Right??",
+                  "fr": "Pas vrai??",
+                  "es": "¿¿Verdad??"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "They mess up jumps…",
+                  "fr": "Ils foirent des sauts…",
+                  "es": "Fallan saltos…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "JfLdIahamXQI0"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Pick fights they can’t win…",
+                  "fr": "Déclenchent des combats qu'ils ne peuvent pas gagner…",
+                  "es": "Buscan peleas que no pueden ganar…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ouqjitaKr2Ja"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And get scared easily…",
+                  "fr": "Et prennent peur facilement…",
+                  "es": "Y se asustan fácilmente…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "rcjl7ufZzCxuo"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "STKintroSillyNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Are you serious??",
+                  "fr": "Tu es sérieux ??",
+                  "es": "¿¿Estás serioso??"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "They mess up jumps…",
+                  "fr": "Ils foirent des sauts…",
+                  "es": "Fallan saltos…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "JfLdIahamXQI0"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Pick fights they can’t win…",
+                  "fr": "Déclenchent des combats qu'ils ne peuvent pas gagner…",
+                  "es": "Buscan peleas que no pueden ganar…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "ouqjitaKr2Ja"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "And get scared easily…",
+                  "fr": "Et prennent peur facilement…",
+                  "es": "Y se asustan fácilmente…"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "rcjl7ufZzCxuo"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
