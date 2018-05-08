@@ -2,7 +2,8 @@
   {
     "GroupName": "Hugs",
     "SequenceFiles": [
-      { "order" : 6, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json", "/data/bot/sequences/appspecials/ineedhugs/INHIntroB.json"]},
+      { "order" : 6, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntro.json"]},
+      { "order" : 8, "file":["/data/bot/sequences/appspecials/ineedhugs/INHIntroB.json"]},
       { "order" : 10, "file":["/data/bot/sequences/appspecials/ineedhugs/LotteryHug.json"]},
       { "order" : 30, "file":["/data/bot/sequences/appspecials/ineedhugs/CatLunch.json"]},
       { "order" : 46, "file":["/data/bot/sequences/appspecials/ineedhugs/RainingHug.json"]},
