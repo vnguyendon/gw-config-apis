@@ -6,18 +6,9 @@
     "Steps": [
         {
             "Type": "Action",
-            "Name":"ShowCards",
+            "Name":"ShowCardFromIntention",
             "Parameters":{
-                "Type":"Image",
-                "Id":"themes/hugs2"
-            }
-        },
-        {
-            "Type": "Action",
-            "Name":"ShowCards",
-            "Parameters":{
-                "Type":"Text",
-                "Id":"C6E5B15FAE"
+                "IntentionId":"themes/hugs2"
             }
         }
     ]
