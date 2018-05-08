@@ -6,9 +6,8 @@
     "Steps": [
         {
             "Type": "Action",
-            "Name":"ShowCards",
+            "Name":"ShowRandomGifFromList",
             "Parameters":{
-                "Type":"Gif",
                 "Path":"/data/common/gifsnewformat/hugs.json"
             }
         }
