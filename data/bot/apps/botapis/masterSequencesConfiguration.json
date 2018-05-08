@@ -73,8 +73,8 @@
       "File": "/data/bot/apps/kitten/kittentileMasterSequence.json"
     },
     {
-      "Name": "onboardingrocess",
-      "File": "/data/bot/apps/kitten/kittentileMasterSequence.json"
+      "Name": "onboardingprocess",
+      "File": "/data/bot/apps/onboarding/onboardingprocess.json"
     }
   ],
   "FragmentsFiles": [
