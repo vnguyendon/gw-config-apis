@@ -44,7 +44,7 @@
             }
         },
         {
-            "Type": "Node",
+            "Type": "Leaf",
             "Id": "StressHugNo",
             "ElementValue": "1",
             "CommandLabel": {
