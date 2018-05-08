@@ -6,9 +6,16 @@
     "Steps": [
         {
             "Type": "Action",
-            "Name":"ShowCardFromIntention",
+            "Name":"ShowPopularImageFromTheme",
             "Parameters":{
-                "IntentionId":"themes/hugs2"
+                "Path":"/themes/hugs2"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name":"ShowPopularTextFromIntention",
+            "Parameters":{
+                "IntentionId":"C6E5B15FAE"
             }
         }
     ]
