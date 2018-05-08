@@ -1,0 +1,87 @@
+{
+    "Type": "Node",
+    "Comments": "This is the first sequence for I Need Hugs Bot",
+    "Id": "INHIntroB",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hello! I am Huggy, the Hug Consultant",
+                "fr": "Hello! I am Huggy, the Hug Consultant",
+                "es": "Hello! I am Huggy, the Hug Consultant"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "INHIntroBGetStarted",
+            "ElementValue":"1",
+            "CommandLabel": {
+                "en": "GET STARTED",
+                "fr": "GET STARTED",
+                "es": "GET STARTED"
+            },
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "INHIntroBHowMany",
+                "ElementValue":"1",
+                "Steps": [
+                    {
+                        "Type": "Text",
+                        "Label": {
+                            "en": "Could you please tell me how many hugs you have received today from any source...",
+                            "fr": "Could you please tell me how many hugs you have received today from any source...",
+                            "es": "Could you please tell me how many hugs you have received today from any source..."
+                        }
+                    }
+                ],
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "INHIntroBHowUnder3",
+                        "ElementValue":"1",
+                        "CommandLabel": {
+                            "en": "Less than three",
+                            "fr": "Less than three",
+                            "es": "Less than three"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I'm afraid you are hug-deficient, but I can fix that easily",
+                                    "fr": "I'm afraid you are hug-deficient, but I can fix that easily",
+                                    "es": "I'm afraid you are hug-deficient, but I can fix that easily"
+                                }
+                            }
+                        ],
+                        "LinksToFragment": {
+                            "FragmentPath": "FindHugImageText"
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "INHIntroBHowOver3",
+                        "ElementValue":"1",
+                        "CommandLabel": {
+                            "en": "Three or more",
+                            "fr": "Three or more",
+                            "es": "Three or more"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Fantastic. You are officially Hug-Healthy!",
+                                    "fr": "Fantastic. You are officially Hug-Healthy!",
+                                    "es": "Fantastic. You are officially Hug-Healthy!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
