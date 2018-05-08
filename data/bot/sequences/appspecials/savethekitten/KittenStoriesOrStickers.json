@@ -3,18 +3,19 @@
   "Id": "KittenStoriesOrStickers",
   "Steps": [
     {
-      "Type": "Image",
-      "Parameters": {
-        "Source": "Internal",
-        "Path": "themes/kittens/small/shutterstock_131534888.jpg"
+      "Type": "Text",
+      "Label": {
+        "en":"Hey cat lover!",
+        "fr":"Hey l'amoureux des chats !",
+        "es":"¡Hola el amante de los gatos!"
       }
     },
     {
       "Type": "Text",
       "Label": {
         "en":"What would you like to see?",
-        "fr":"TBD",
-        "es":"TBD"
+        "fr":"Qu'est-ce que tu aimerais voir ?",
+        "es":"¿Qué te gustaría ver?"
       }
     }
   ],
@@ -26,8 +27,8 @@
       "Id": "KittenStickers",
       "CommandLabel": {
         "en":"Kitten stickers",
-        "fr":"TBD",
-        "es":"TBD"
+        "fr":"Des stickers de chatons",
+        "es":"Stickers de gatitos"
       },
       "Steps": [
         {
@@ -54,26 +55,9 @@
       "Id": "KittenStories",
       "CommandLabel": {
         "en":"Kitten stories",
-        "fr":"non",
-        "es":"no"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en":"Great choice",
-            "fr":"TBD",
-            "es":"TBD"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "maJc7RZlCIjzq"
-          }
-        }
-      ]
+        "fr":"Des histoires de chatons",
+        "es":"Historias de gatitos"
+      }
     }
   ]
 }
