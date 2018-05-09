@@ -7,7 +7,7 @@
       "Type": "Text",
       "Label": {
         "en": "Orion was born to a prosperous family, and as such his early years were very privileged",
-        "fr": "Orion est né dans une famille aisée, ses jeunes années furent donc très privilégiées",
+        "fr": "Orion vient d'une famille aisée, et sa petite enfance fut ainsi très privilégiée",
         "es": "Orion nació en una familia próspera, entonces sus primeros años fueron muy privilegiados"
       }
     },
@@ -42,7 +42,7 @@
           "Type": "Text",
           "Label": {
             "en": "But he escaped the trap, and lived another day",
-            "fr": "Mais il échappa au piège, et continua sa vie",
+            "fr": "Mais il échappa au piège et survécut",
             "es": "Pero escapóde la trampa y vivió otro día"
           }
         },
@@ -57,7 +57,7 @@
           "Type": "Text",
           "Label": {
             "en": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
-            "fr": "Il prépara sa propre attaque furtive, prenant sa revanche sur l'humain qui l'avait trahi",
+            "fr": "Puis il prépara sa propre revanche, une attaque furtive contre l'humain qui l'avait trahi",
             "es": "Planeó su propio ataque sigiloso, consiguiendo venganza del humano que lo había traicionado"
           }
         },
@@ -75,7 +75,7 @@
       "Id": "OrionDoom",
       "CommandLabel": {
         "en": "Doom him!",
-        "fr": "Condamne le !",
+        "fr": "Condamne-le !",
         "es": "¡Condénalo!"
       },
       "Steps": [
@@ -98,7 +98,7 @@
           "Type": "Text",
           "Label": {
             "en": "Orion was crushed, a tragic victim of his own greed",
-            "fr": "Orion fut écrasé, tragique victime de sa propre cupidité",
+            "fr": "Orion fut écrasé, victime tragique de sa propre cupidité",
             "es": "Orion fue aplastado, trágica víctima de su propia codicia"
           }
         }
