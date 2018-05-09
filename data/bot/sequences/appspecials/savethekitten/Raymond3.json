@@ -139,9 +139,9 @@
             "Id": "Raymond3Yes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Yes, very much",
-                "fr": "Yes, very much",
-                "es": "Yes, very much"
+                "en": "Yes it does",
+                "fr": "Yes it does",
+                "es": "Yes it does"
             },
             "Steps": [
                 {
