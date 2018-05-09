@@ -86,8 +86,8 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
-                                    "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
+                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
+                                    "es": "Bueno, decidió de arreglárselas y se unió al ejercito"
                                 }
                             },
                             {
@@ -108,7 +108,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
+                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -130,7 +130,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
+                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -146,7 +146,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne le !",
+                                        "fr": "Condamne-le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -154,7 +154,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
+                                                "fr": "Tu as choisi de condamner Hugo... et sa première bataille contre un rat-mercenaire fut une humiliante défaite...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -181,7 +181,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra"
                                             }
                                         },
@@ -211,7 +211,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
+                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -233,7 +233,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
+                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -255,7 +255,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
+                                    "fr": "Puis il partit à la guerre, et son destin est entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -271,7 +271,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne le !",
+                                        "fr": "Condamne-le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -279,7 +279,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
+                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -306,7 +306,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
@@ -392,7 +392,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
+                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -414,7 +414,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
+                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -436,7 +436,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
+                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -452,7 +452,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne le !",
+                                        "fr": "Condamne-le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -460,7 +460,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
+                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -487,7 +487,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
@@ -517,7 +517,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
+                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -539,7 +539,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
+                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -561,7 +561,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
+                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -577,7 +577,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne le !",
+                                        "fr": "Condamne-le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -585,7 +585,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
+                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -612,7 +612,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
