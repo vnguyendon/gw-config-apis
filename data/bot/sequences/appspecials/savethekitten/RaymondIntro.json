@@ -1,140 +1,140 @@
 {
-    "Type": "Node",
-    "Id": "RaymondIntro",
-    "Steps": [
+  "Type": "Node",
+  "Id": "RaymondIntro",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like spy stories?",
+        "fr": "Tu aimes les histoires d'espions ?",
+        "es": "¿Te gustan las historias de espías?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "RaymondIntroLove",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Love them!",
+        "fr": "J'adore !",
+        "es": "¡Me encantan!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Do you like spy stories?",
-                "fr": "Do you like spy stories?",
-                "es": "Do you like spy stories?"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "RaymondIntroLove",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Love them!",
-                "fr": "Love them!",
-                "es": "Love them!"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, then you'll love this next story about spies, secrecy and corruption!",
-                        "fr": "Well, then you'll love this next story about spies, secrecy and corruption!",
-                        "es": "Well, then you'll love this next story about spies, secrecy and corruption!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Now, we all know puppies and kittens are mortal enemies",
-                        "fr": "Now, we all know puppies and kittens are mortal enemies",
-                        "es": "Now, we all know puppies and kittens are mortal enemies"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "5SAEMo07UV0ha"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RaymondIntroLoveEnemies",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondIntroLoveYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Absolutely!",
-                            "fr": "Absolutely!",
-                            "es": "Absolutely!"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondIntroLoveNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I did not know that",
-                            "fr": "I did not know that",
-                            "es": "I did not know that"
-                        }
-                    }
-                ]
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Well, then you'll love this next story about spies, secrecy and corruption!",
+            "fr": "Eh bien dans ce cas tu vas adorer la prochaine histoire, sur fond d'espionnage, de secret et de corruption !",
+            "es": "¡Entonces la próxima historia, sobre espías, secretos y corrupción va a encantarte!"
+          }
         },
         {
-            "Type": "Node",
-            "Id": "RaymondIntroNo",
+          "Type": "Text",
+          "Label": {
+            "en": "Now, we all know puppies and kittens are mortal enemies",
+            "fr": "Bon, on sait tous que chiots et chatons sont des ennemis mortels",
+            "es": "Bueno, todos sabemos que cachorros y gatitos son enemigos mortales"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5SAEMo07UV0ha"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RaymondIntroLoveEnemies",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RaymondIntroLoveYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Not so much...",
-                "fr": "Not so much...",
-                "es": "Not so much..."
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "I think you'll still love this next story about secrecy and corruption!",
-                        "fr": "I think you'll still love this next story about secrecy and corruption!",
-                        "es": "I think you'll still love this next story about secrecy and corruption!"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Now, we all know puppies and kittens are mortal enemies",
-                        "fr": "Now, we all know puppies and kittens are mortal enemies",
-                        "es": "Now, we all know puppies and kittens are mortal enemies"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "5SAEMo07UV0ha"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RaymondIntroNoEnemies",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondIntroNoYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Absolutely!",
-                            "fr": "Absolutely!",
-                            "es": "Absolutely!"
-                        }
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondIntroNoNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "I did not know that",
-                            "fr": "I did not know that",
-                            "es": "I did not know that"
-                        }
-                    }
-                ]
+              "en": "Absolutely!",
+              "fr": "Absolument !",
+              "es": "¡Absolutamente!"
             }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "RaymondIntroLoveNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I did not know that",
+              "fr": "Je ne savais pas",
+              "es": "No lo sabía"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "RaymondIntroNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not so much...",
+        "fr": "Pas tellement...",
+        "es": "No tanto..."
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I think you'll still love this next story about secrecy and corruption!",
+            "fr": "Je pense que tu vas quand même adorer la prochaine histoire, sur fond de secrets et de corruption !",
+            "es": "¡Pienso que la próxima historia, sobre secretos y corrupción, va a encantarte todavía!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Now, we all know puppies and kittens are mortal enemies",
+            "fr": "Bon, on sait tous que chiots et chatons sont des ennemis mortels",
+            "es": "Bueno, todos sabemos que cachorros y gatitos son enemigos mortales"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "5SAEMo07UV0ha"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RaymondIntroNoEnemies",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RaymondIntroNoYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Absolutely!",
+              "fr": "Absolument !",
+              "es": "¡Absolutamente!"
+            }
+          },
+          {
+            "Type": "Leaf",
+            "Id": "RaymondIntroNoNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "I did not know that",
+              "fr": "Je ne savais pas",
+              "es": "No lo sabía"
+            }
+          }
+        ]
+      }
+    }
+  ]
 }
