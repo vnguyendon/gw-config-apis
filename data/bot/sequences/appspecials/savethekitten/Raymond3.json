@@ -42,7 +42,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
-            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+            "Path": ""
           }
         },
         {
@@ -164,7 +164,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
-            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525948259/Imprisoned_Kittens.jpg"
           }
         },
         {
