@@ -1,16 +1,15 @@
 {
   "fr-FR":
   [
-    "Les méchants chatons attendent votre jugement",
+    "Ces chatons diaboliques attendent votre jugement",
     "Ces chatons ne vont pas se sauver tous seuls...",
     "Viens découvrir nos nouvelles histoires de 😺",
      "FLASH INFO: les chatons sont toujours maléfiques",
     "ATTENTION : chatons mignons attendent d'être sauvés",
     "Tu t'ennuies ? Voici une histoire de chatons !",
-    "Clique-ici pour découvrir d'adorable chatons",
-     "Viens décider du sort de ces petites canailles toutes poilues",
+    "Clique-ici pour découvrir d'adorable chatons ➡",
+     "Viens décider du sort de ces petites canailles poilues",
     
-  
   ],
   "en-EN":
   [
@@ -25,6 +24,14 @@
   ],
   "es-ES":
   [
-    "soy el leon"
+  "¡Gatitos diabólicos esperan a tu juicio!",
+    "Esos gatitos no van a salvarse a sus mismos...",
+    "Ven a ver nuestras nuevas historias de 😺",
+    "ÚLTIMAS NOTICIAS: gatitos aún son malignos",
+    "CUIDADO: lindos gatitos esperando que los salvan",
+    "¿Aburrido? ¡Escucha esta historia de gatito!",
+    "¡Haz clic para adorables gatitos! ➡",
+    "¡Ven a decidir la suerte de canallas peludas!"
+
   ]
 }
