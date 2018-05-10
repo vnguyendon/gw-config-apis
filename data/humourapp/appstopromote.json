@@ -3,6 +3,12 @@
 "apps": 
   [
     {
+      "title": "Save The Kitten",
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/emomjiCatNew/small/shutterstock_506621554.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
+    }
+    ,
+    {
       "title": "Popular Stickers",
       "iconUrl": "http://az767698.vo.msecnd.net/cvd/icons/Stickers/small/Stickers256x256.jpg",
       "storeUrl": "https://play.google.com/store/apps/details?id=com.ghostwording.stickers"
