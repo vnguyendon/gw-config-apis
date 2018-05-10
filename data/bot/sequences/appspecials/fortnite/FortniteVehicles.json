@@ -1,0 +1,72 @@
+{
+  "Type": "Node",
+  "Id": "FortniteVehicles",
+  "Condition": "ppPlayFortnite == 'true'",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Should driveable vehicles be added to the game?",
+        "fr": "Allez vous souvent au cinéma ?",
+        "es": "¿Vas al cine a menudo?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FortniteVehiclesYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525942387/Fortnite_Vehicle.jpg"
+            }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FortniteVehiclesNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "KFG1jrEQjiE7e"
+          }
+        }
+      ]
+    }
+  ]
+}
