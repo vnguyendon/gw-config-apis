@@ -1,260 +1,260 @@
 {
-    "Type": "Node",
-    "Id": "Raymond3",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Raymond3",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Does politics interest you much, by the way?",
+        "fr": "Au fait, est-ce que tu t'intéresses à la politique ?",
+        "es": "A propósito, ¿te interesa la política?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Raymond3No",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Not really",
+        "fr": "Pas vraiment",
+        "es": "Realmente no"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Does politics interest you much, by the way?",
-                "fr": "Does politics interest you much, by the way?",
-                "es": "Does politics interest you much, by the way?"
-            }
-        }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "Raymond3No",
-            "ElementValue": "1",
-            "CommandLabel": {
-                "en": "Not really",
-                "fr": "Not really",
-                "es": "Not really"
-            },
-            "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, I think kitten politics will...",
-                        "fr": "Well, I think kitten politics will...",
-                        "es": "Well, I think kitten politics will..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
-                        "fr": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
-                        "es": "Raymond had many kitten enemies imprisoned, and they are awaiting trial..."
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "What would you do with them?",
-                        "fr": "What would you do with them?",
-                        "es": "What would you do with them?"
-                    }
-                }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "Raymond3NoVerdict",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "Raymond3NoExecute",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Execute them!",
-                            "fr": "Execute them!",
-                            "es": "Execute them!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
-                                    "fr": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
-                                    "es": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "Raymond3NoSave",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Save them!",
-                            "fr": "Save them!",
-                            "es": "Save them!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "We will see if Raymond will be as merciful as you...",
-                                    "fr": "We will see if Raymond will be as merciful as you...",
-                                    "es": "We will see if Raymond will be as merciful as you..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Well, I think kitten politics will...",
+            "fr": "Eh bien je pense que la politique chatonne va t'intéresser",
+            "es": "Pues pienso que la política gatita va a interesarte"
+          }
         },
         {
-            "Type": "Node",
-            "Id": "Raymond3Yes",
+          "Type": "Text",
+          "Label": {
+            "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+            "fr": "Raymond a mis beaucoup d'ennemis chatons en prison, et ils attendent leur procès...",
+            "es": "Raymond metió muchos gatitos enemigos en la cárcel, y esperan juicio..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "What would you do with them?",
+            "fr": "Que ferais-tu avec eux ?",
+            "es": "¿Qué harías con ellos?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Raymond3NoVerdict",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Raymond3NoExecute",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Yes it does",
-                "fr": "Yes it does",
-                "es": "Yes it does"
+              "en": "Execute them!",
+              "fr": "Les exécuter!",
+              "es": "Ejecutalos!"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "You'll love this then...",
-                        "fr": "You'll love this then...",
-                        "es": "You'll love this then..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
-                        "fr": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
-                        "es": "Raymond had many kitten enemies imprisoned, and they are awaiting trial..."
-                    }
-                },
-                {
-                    "Type": "Image",
-                    "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "What would you do with them?",
-                        "fr": "What would you do with them?",
-                        "es": "What would you do with them?"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                  "fr": "Waou... même moi, Swagfish le pourfendeur de chatons, je ne serais pas aussi dur !",
+                  "es": "Guau... incluso yo, Swagfish el matador de gatitos, no sería tan duro!"
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "Raymond3YesVerdict",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "Raymond3YesExecute",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Execute them!",
-                            "fr": "Execute them!",
-                            "es": "Execute them!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
-                                    "fr": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
-                                    "es": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "Raymond3YesSave",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Save them!",
-                            "fr": "Save them!",
-                            "es": "Save them!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "We will see if Raymond will be as merciful as you...",
-                                    "fr": "We will see if Raymond will be as merciful as you...",
-                                    "es": "We will see if Raymond will be as merciful as you..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "fr": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
-                                    "es": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "fr": "Be sure to catch episode two, where the kittens get their revenge!",
-                                    "es": "Be sure to catch episode two, where the kittens get their revenge!"
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                  "fr": "De toute façon, après une longue campagne, Raymond Patte est devenu président des Territoires Chatons",
+                  "es": "De todas formas, después de una gran campaña, Raymond Pata se convirtió en presidente de los Territorios Gatitos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                  "fr": "Assure toi de suivre l'épisode deux, où les chatons prennent leur revanche !",
+                  "es": "Asegurate de seguir el episodio dos, cuando los gatitos se vengan!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Raymond3NoSave",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Save him!",
+              "fr": "Sauve-le !",
+              "es": "¡Salvalo!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We will see if Raymond will be as merciful as you...",
+                  "fr": "On verra si Raymond sera aussi clément que toi...",
+                  "es": "Vamos a ver si Raymond será tan clemente como tú..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                  "fr": "De toute façon, après une longue campagne, Raymond Patte est devenu président des Territoires Chatons",
+                  "es": "De todas formas, después de una gran campaña, Raymond Pata se convirtió en presidente de los Territorios Gatitos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                  "fr": "Assure toi de suivre l'épisode deux, où les chatons prennent leur revanche !",
+                  "es": "Asegurate de seguir el episodio dos, cuando los gatitos se vengan!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Raymond3Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes it does",
+        "fr": "Oui !",
+        "es": "¡Sí!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You'll love this then...",
+            "fr": "Tu vas adorer dans ce cas...",
+            "es": "Pues eso va a encantarte..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Raymond had many kitten enemies imprisoned, and they are awaiting trial...",
+            "fr": "Raymond a mis beaucoup d'ennemis chatons en prison, et ils attendent leur procès...",
+            "es": "Raymond metió muchos gatitos enemigos en la cárcel, y esperan juicio..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "What would you do with them?",
+            "fr": "Que ferais-tu avec eux ?",
+            "es": "¿Qué harías con ellos?"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "Raymond3YesVerdict",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Raymond3YesExecute",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Execute them!",
+              "fr": "Les exécuter!",
+              "es": "Ejecutalos!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Wow... not even I, Swagfish the kitten-hater, would be as harsh!",
+                  "fr": "Waou... même moi, Swagfish le pourfendeur de chatons, je ne serais pas aussi dur !",
+                  "es": "Guau... incluso yo, Swagfish el matador de gatitos, no sería tan duro!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                  "fr": "De toute façon, après une longue campagne, Raymond Patte est devenu président des Territoires Chatons",
+                  "es": "De todas formas, después de una gran campaña, Raymond Pata se convirtió en presidente de los Territorios Gatitos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                  "fr": "Assure toi de suivre l'épisode deux, où les chatons prennent leur revanche !",
+                  "es": "Asegurate de seguir el episodio dos, cuando los gatitos se vengan!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "Raymond3YesSave",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Save him!",
+              "fr": "Sauve-le !",
+              "es": "¡Salvalo!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "We will see if Raymond will be as merciful as you...",
+                  "fr": "On verra si Raymond sera aussi clément que toi...",
+                  "es": "Vamos a ver si Raymond será tan clemente como tú..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Either way, after a long campaign, Raymond Paw has become the president of the Kitten Territories",
+                  "fr": "De toute façon, après une longue campagne, Raymond Patte est devenu président des Territoires Chatons",
+                  "es": "De todas formas, después de una gran campaña, Raymond Pata se convirtió en presidente de los Territorios Gatitos"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Be sure to catch episode two, where the kittens get their revenge!",
+                  "fr": "Assure toi de suivre l'épisode deux, où les chatons prennent leur revanche !",
+                  "es": "Asegurate de seguir el episodio dos, cuando los gatitos se vengan!"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
