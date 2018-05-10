@@ -1,0 +1,178 @@
+{
+  "Type": "Node",
+  "Id": "FortniteHeard",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you heard of Fortnite: Battle Royale?",
+        "fr": "Tu as entendu parler de Fortnite : Battle Royale ?",
+        "es": "¿Has oído hablar de Fortnite: Battle Royale?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "FortniteHeardYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "1xo9AsK7FIqdIIlZJF"
+          }
+        },
+        {
+          "Type": "Pause",
+          "Parameters": {
+            "Mode": "Wait",
+            "ms": 3000
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Do you play it?",
+            "fr": "Tu y joues ?",
+            "es": "¿Juegas?"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "FortniteHeardPlay",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "FortniteHeardPlayYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes",
+              "fr": "Oui",
+              "es": "Sí"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Action",
+                "Name": "SetUserProperty",
+                "Parameters": {
+                  "property": "ppPlayFortnite",
+                  "value": "true"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "FortniteHeardPlayNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "No",
+              "fr": "Non",
+              "es": "No"
+            },
+            "Steps": [
+              {
+                "Type": "Action",
+                "Name": "DoVote"
+              },
+              {
+                "Type": "Action",
+                "Name": "ShowSurveyResults"
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You're missing out! I'm the #1 pony player...",
+                  "fr": "Tu rates quelque chose ! Je suis #1 au classement des poneys...",
+                  "es": "Estás perdiendo algo! Soy #1 en la clasificación de los ponis..."
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "htiA0M7qB63yo"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FortniteHeardNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non‍",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Do you live under a rock? 😂",
+            "fr": "Tu vis dans une grotte ? 😂",
+            "es": "¿Vives en una cueva? 😂"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "yW19CclEuGFva"
+          }
+        }
+      ]
+    }
+  ]
+}
