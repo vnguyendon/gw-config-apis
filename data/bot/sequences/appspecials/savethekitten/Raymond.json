@@ -1,173 +1,173 @@
 {
-    "Type": "Node",
-    "Id": "Raymond",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Raymond",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Well, this story is mainly about one kitten soldier, Raymond Paw",
+        "fr": "Bon, cette histoire traite principalement d'un chaton soldat, Raymond Patte",
+        "es": "Bueno, esta historia trata principalmente de un gatito soldado, Raymond Pata"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Raymond was a very friendly cat, always willing to listen to his friends' deepest concerns",
+        "fr": "Raymond était un chat très amical, toujours disposé à écouter les profondes inquiétudes de ses amis",
+        "es": "Raymond era un gato muy amistoso, siempre dispuesto a escuchar las más profunda preocupaciones de sus amigos"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "But he was gullible, and often others took advantage of him",
+        "fr": "Mais il était crédule, et les autres en profitaients souvent",
+        "es": "Pero era crédulo, y a menudo los otros se lo aprovechaban"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "RaymondSad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Poor Raymond!",
+        "fr": "Pauvre Raymond!",
+        "es": "¡Pobre Raymond!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Well, this story is mainly about one kitten soldier, Raymond Paw",
-                "fr": "Well, this story is mainly about one kitten soldier, Raymond Paw",
-                "es": "Well, this story is mainly about one kitten soldier, Raymond Paw"
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_154610105.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Raymond was a very friendly cat, always willing to listen to his friends' deepest concerns",
-                "fr": "Raymond was a very friendly cat, always willing to listen to his friends' deepest concerns",
-                "es": "Raymond was a very friendly cat, always willing to listen to his friends' deepest concerns"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "But he was gullible, and often others took advantage of him",
-                "fr": "But he was gullible, and often others took advantage of him",
-                "es": "But he was gullible, and often others took advantage of him"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Agreed... do you see yourself in Raymond at all?",
+            "fr": "Je suis d'accord... te reconnais-tu en Raymond, d'une certaine manière ?",
+            "es": "Estoy de acuerdo... ¿te reconoces en Raymond, en alguna vez?"
+          }
         }
-    ],
-    "Commands": [
-        {
-            "Type": "Node",
-            "Id": "RaymondSad",
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RaymondSadSimilar",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RaymondSadNo",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Poor Raymond!",
-                "fr": "Poor Raymond!",
-                "es": "Poor Raymond!"
+              "en": "Not really",
+              "fr": "Pas vraiment",
+              "es": "Realmente no"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Agreed... do you see yourself in Raymond at all?",
-                        "fr": "Agreed... do you see yourself in Raymond at all?",
-                        "es": "Agreed... do you see yourself in Raymond at all?"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I think you'll still be able to relate to his story...",
+                  "fr": "Je pense que tu pourras quand même te sentir touché par son histoire...",
+                  "es": "Pienso que todavía podrás sentirte afectado por su historia..."
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RaymondSadSimilar",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondSadNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Not really",
-                            "fr": "Not really",
-                            "es": "Not really"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I think you'll still be able to relate to his story...",
-                                    "fr": "I think you'll still be able to relate to his story...",
-                                    "es": "I think you'll still be able to relate to his story..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondSadYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Yes he's like me",
-                            "fr": "Yes he's like me",
-                            "es": "Yes he's like me"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You'll really relate to this story then...",
-                                    "fr": "You'll really relate to this story then...",
-                                    "es": "You'll really relate to this story then..."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
-        },
-        {
-            "Type": "Node",
-            "Id": "RaymondSilly",
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "RaymondSadYes",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Silly cat",
-                "fr": "Silly cat",
-                "es": "Silly cat"
+              "en": "Yes he's like me",
+              "fr": "Oui il est comme moi",
+              "es": "Si, él es como yo"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Do you see yourself in Raymond at all?",
-                        "fr": "Do you see yourself in Raymond at all?",
-                        "es": "Do you see yourself in Raymond at all?"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You'll really relate to this story then...",
+                  "fr": "Tu vas vraiment être touché par cette histoire, alors...",
+                  "es": "Pues vas realmente a ser afectado por ese historia..."
                 }
-            ],
-            "LinksTo": {
-                "Type": "Node",
-                "Id": "RaymondSillySimilar",
-                "ElementValue": "1",
-                "Commands": [
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondSillyNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Not really",
-                            "fr": "Not really",
-                            "es": "Not really"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "I think you'll still be able to relate to his story...",
-                                    "fr": "I think you'll still be able to relate to his story...",
-                                    "es": "I think you'll still be able to relate to his story..."
-                                }
-                            }
-                        ]
-                    },
-                    {
-                        "Type": "Leaf",
-                        "Id": "RaymondSillyYes",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Yes he's like me",
-                            "fr": "Yes he's like me",
-                            "es": "Yes he's like me"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "You'll really relate to this story then...",
-                                    "fr": "You'll really relate to this story then...",
-                                    "es": "You'll really relate to this story then..."
-                                }
-                            }
-                        ]
-                    }
-                ]
-            }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "RaymondSilly",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Silly cat",
+        "fr": "Stupide cat",
+        "es": "Gato tonto"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Do you see yourself in Raymond at all?",
+            "fr": "Te reconnais-tu en Raymond, d'une certaine manière ?",
+            "es": "¿Te reconoces en Raymond, en alguna vez?"
+          }
         }
-    ]
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "RaymondSillySimilar",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "RaymondSillyNo",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Not really",
+              "fr": "Pas vraiment",
+              "es": "Realmente no"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I think you'll still be able to relate to his story...",
+                  "fr": "Je pense que tu pourras quand même te sentir touché par son histoire...",
+                  "es": "Pienso que todavía podrás sentirte afectado por su historia..."
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "RaymondSillyYes",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Yes he's like me",
+              "fr": "Oui il est comme moi",
+              "es": "Si, él es como yo"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "You'll really relate to this story then...",
+                  "fr": "Tu vas vraiment être touché par cette histoire, alors...",
+                  "es": "Pues vas realmente a ser afectado por ese historia..."
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
 }
