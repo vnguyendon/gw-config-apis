@@ -1,5 +1,14 @@
 {
-  "apps": [
+  "apps": [ 
+    {
+      "title": {
+        "en": "Save The Kitten!",
+        "fr": "Sauvez Le Chaton !",
+        "es": "¡Salva al gatito!"
+      },
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/emomjiCatNew/small/shutterstock_506621554.jpg",
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.elite"
+    },    
     {
       "title": {
         "en": "I need hugs!",
