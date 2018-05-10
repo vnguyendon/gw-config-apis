@@ -1,0 +1,95 @@
+{
+  "Type": "Node",
+  "Id": "FortniteBuff",
+  "Condition": "ppPlayFortnite == 'true'",
+  "Steps": [
+    {
+        "Type": "Text",
+        "Label": {
+          "en": "Which weapon needs a buff?",
+          "fr": "Quelle arme a besoin d'être améliorée ?",
+          "es": "¿Cual arma necesita amelioraciones?"
+        }
+      }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "FortniteBuffSMG",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "The silenced SMG",
+        "fr": "Le SMG silencieux",
+        "es": "El SMG silencioso"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "🔫",
+          "fr": "🔫",
+          "es": "🔫"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525944123/Fortnite_Silenced_SMG.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "FortniteBuffHC",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "The hand cannon",
+        "fr": "Le hand cannon",
+        "es": "El hand cannon"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "🔫",
+          "fr": "🔫",
+          "es": "🔫"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1525944123/Fortnite_HC.png"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        }
+      ]
+    }
+  ]
+}
