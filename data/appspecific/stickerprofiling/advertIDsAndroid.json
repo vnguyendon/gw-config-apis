@@ -14,10 +14,10 @@
   "FirstResumeActivityAlternative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1953005118344571",
-    "Countries": "US, Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
+    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/7972137060"
+      "ID": "ca-app-pub-7822741681642396/2911637056"
     }
   },
   "OtherResumeActivity": {
@@ -31,15 +31,19 @@
   "OtherResumeActivityAlternative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1953005118344571",
-    "Countries": "US, Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
+    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
     "Fallback": {
       "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/7972137060"
+      "ID": "ca-app-pub-7822741681642396/2911637056"
     }
   },
   "AfterSending": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/3017385473"
+  },
+  "GalleryNative": {
+    "Provider": "Facebook",
+    "ID": "1594200494225037_1953179331660483"
   },
   "GalleryDailyNative": {
     "Provider": "Facebook",
