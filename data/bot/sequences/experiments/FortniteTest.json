@@ -1,0 +1,205 @@
+{
+    "Type": "Node",
+    "Id": "FortniteTest",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I'll start by showing a clip of how Useless Ulrich plays 1v1s (HINT: Not Well)",
+                "fr": "Allez vous souvent au cinéma ?",
+                "es": "¿Vas al cine a menudo?"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "mXVwy3HkZHDgWLBo4m"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "FortniteTest2",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He's terrible",
+                "fr": "Oui",
+                "es": "Sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes. Ulrich is bad. Don't be like Ulrich",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I bet you're asking. What SHOULD I do?",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FortniteTest3",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FortniteTest4",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I wasn't",
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, I'll tell you anyway!",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let's watch how Competent Carol takes a 1v1",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "FortniteTest5",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes, coach",
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right!",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let's watch how Competent Carol takes a 1v1",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "FortniteTestYes6",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Poor Ulrich",
+                "fr": "Oui",
+                "es": "Sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Ulrich is bad. Don't be like Ulrich",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I bet you're asking. What SHOULD I do?",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "FortniteTest7",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "FortniteTest8",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I wasn't",
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, I'll tell you anyway!",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let's watch how Competent Carol takes a 1v1",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "FortniteTest9",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Yes, coach",
+                            "fr": "C'est un génie",
+                            "es": "Es un genio"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right!",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Let's watch how Competent Carol takes a 1v1",
+                                    "fr": "Allez vous souvent au cinéma ?",
+                                    "es": "¿Vas al cine a menudo?"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
