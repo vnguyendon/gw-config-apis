@@ -70,14 +70,6 @@
             },
             "Steps": [
               {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
-              {
                 "Type": "Pause",
                 "Parameters": {
                   "Mode": "Wait",
@@ -104,14 +96,6 @@
               "es": "No"
             },
             "Steps": [
-              {
-                "Type": "Action",
-                "Name": "DoVote"
-              },
-              {
-                "Type": "Action",
-                "Name": "ShowSurveyResults"
-              },
               {
                 "Type": "Pause",
                 "Parameters": {
