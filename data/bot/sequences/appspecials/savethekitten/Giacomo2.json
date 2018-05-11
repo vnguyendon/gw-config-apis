@@ -54,7 +54,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Those are fake!",
-                "fr": "Ce sont des fake !",
+                "fr": "Ce sont des fakes !",
                 "es": "¡Esos son falsos!"
             },
             "Steps": [
@@ -99,7 +99,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "Mais les autres, il leur est hostile...",
+                        "fr": "Mais il est hostile aux autres...",
                         "es": "Pero con los otros, es hostile..."
                     }
                 },
@@ -130,7 +130,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Méchant le chat !",
+                            "fr": "Méchant chat !",
                             "es": "¡Malo gato!"
                         },
                         "Steps": [
@@ -262,8 +262,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fish are rubbish",
-                            "fr": "Les poissons, ça craint !",
-                            "es": "¡Peces apestan! "
+                            "fr": "Un poisson? Cest nul",
+                            "es": "¡Peces apestan!"
                         },
                         "Steps": [
                             {
@@ -397,8 +397,8 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "He's so talented!",
-                "fr": "Il est si talentueux !",
-                "es": "Es tal talentuoso!"
+                "fr": "Quel talent !",
+                "es": "¡Es tal talentuoso!"
             },
             "Steps": [
                 {
@@ -442,7 +442,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "Mais les autres, il leur est hostile...",
+                        "fr": "Mais il est hostile aux autres...",
                         "es": "Pero con los otros, es hostile..."
                     }
                 },
@@ -473,7 +473,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Méchant le chat!",
+                            "fr": "Méchant chat!",
                             "es": "¡Malo gato!"
                         },
                         "Steps": [
@@ -605,8 +605,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fish are rubbish",
-                            "fr": "Fish are rubbish",
-                            "es": "Fish are rubbish"
+                            "fr": "Un poisson? Cest nul",
+                            "es": "¡Peces apestan!"
                         },
                         "Steps": [
                             {
