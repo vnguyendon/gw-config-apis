@@ -14,7 +14,7 @@
   "FirstResumeActivityAlternative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1953005118344571",
-    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
+    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom, United States, Singapore, Mexico, Spain",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/2911637056"
@@ -31,7 +31,7 @@
   "OtherResumeActivityAlternative": {
     "Provider": "Facebook",
     "ID": "1594200494225037_1953005118344571",
-    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom",
+    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom, United States, Singapore, Mexico, Spain",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/2911637056"
