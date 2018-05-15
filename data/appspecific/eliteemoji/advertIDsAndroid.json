@@ -12,15 +12,6 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4077307864"
   },
-  "OtherResumeActivityAlternative": {
-    "Provider": "Facebook",
-    "ID": "1727516507493157_2120966944814776",
-    "Countries": "United States",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/7678045862"
-    }
-  },
   "AfterSending": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4418097055"
