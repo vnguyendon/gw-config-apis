@@ -15,7 +15,7 @@
   "OtherResumeActivityAlternative": {
     "Provider": "Facebook",
     "ID": "1727516507493157_2120966944814776",
-    "Countries": "United Kingdom, United States",
+    "Countries": "United States",
     "Fallback": {
       "Provider": "AdMob",
       "ID": "ca-app-pub-7822741681642396/7678045862"
