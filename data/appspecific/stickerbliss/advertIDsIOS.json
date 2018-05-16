@@ -12,7 +12,7 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/5484940176"
   },
-  "AfterSharing": {
+  "AfterSharingIsRemoved": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2239205016"
   },
