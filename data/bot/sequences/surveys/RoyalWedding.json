@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "RoyalWedding",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are you going to watch the English royal wedding?",
+        "fr": "Allez-vous regarder le mariage princier anglais?",
+        "es": "¿Vas a mirar la boda real Inglesa?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesWatch",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ohjVaV9eEW9vGNWvu"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NotWatch",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "PYEGoZXABBMuk"
+          }
+        }
+      ]
+    }
+  ]
+}
