@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TrumpNorthKorea",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "For you, Trump meeting the North Korean leader is...",
+        "fr": "Selon toi, Trump qui rencontre le président nord-coréen, c'est plutôt une",
+        "es": "Según tú, el hecho que Trump encontre al líder Norcoreano es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "MeetingGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good news",
+        "fr": "bonne nouvelle",
+        "es": "buenas noticias"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "oqChzpVzEpXck"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "MeetingBad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "bad news",
+        "fr": "mauvaise nouvelle",
+        "es": "malas noticias"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "bZvCs7CK4rDG3CFcd2"
+          }
+        }
+      ]
+    }
+  ]
+}
