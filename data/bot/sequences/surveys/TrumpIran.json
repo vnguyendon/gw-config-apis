@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "TrumpIran",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "According to you, Trump leaving the Iran deal is rather",
+        "fr": "Selon toi, Trump qui quitte l'accord sur le nucléaire iranien, c'est plutôt une",
+        "es": "Según tú, el hecho que Trump deje el acuerdo sobre el nuclear iraní es"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LeavingGood",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "good news",
+        "fr": "bonne nouvelle",
+        "es": "buenas noticias"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "jSB2l4zJ82Rvq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "LeavingBad",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "bad news",
+        "fr": "mauvaise nouvelle",
+        "es": "malas noticias"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "iBcLqvp8FMwy3AiPGY"
+          }
+        }
+      ]
+    }
+  ]
+}
