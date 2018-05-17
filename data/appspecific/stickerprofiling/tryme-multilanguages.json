@@ -1,32 +1,33 @@
+
 {
   "apps": [
     {
       "header": {
-        "en": "Say what you think to a Pony bot!",
-        "fr": "Dis ce que tu penses à un robot-poney !",
-        "es": "¡Dígale lo que piensas a un poni-bot!"
+        "en": "The best kitten stories!",
+        "fr": "Les meilleures histoires de chatons!",
+        "es": "¡Las mejoras historias de gatitos!"
       },
-      "iconUrl": "https://img4.hostingpics.net/pics/340766IconSurveyPonyMessenger2.png",
+      "iconUrl": "http://az767698.vo.msecnd.net/themes/emomjiCatNew/small/shutterstock_506621554.jpg",
       "button": {
-        "en": "Try me!",
-        "fr": "Essaie-moi !",
-        "es": "¡Pruébame!"
+        "en": "Save The Kitten!",
+        "fr": "Sauvez Le Chaton !",
+        "es": "¡Salva al gatito!"
       },
-      "storeUrl": "https://www.messenger.com/t/SurveyPonyy"
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.kittens"
     },
     {
       "header": {
-        "en": "Hero, the Bot that recommends the best Emoji",
-        "fr": "Hero, le bot qui te recommande les meilleurs Emoji",
-        "es": "Hero, el Bot que recomienda los mejores Emoji"
+        "en": "Free hugs!",
+        "fr": "Calins gratuits!",
+        "es": "¡Abrazos gratis!"
       },
+      "iconUrl": "http://gw-static.azurewebsites.net/themes/emojiBears/small/shutterstock_417336076_6.jpg",
       "button": {
-        "en": "Let's go!",
-        "fr": "Allons-y!",
-        "es": "¡Vamos!"
+        "en": "I need a hug",
+        "fr": "I need a hug",
+        "es": "I need a hug"
       },
-      "iconUrl": "http://res.cloudinary.com/wavemining-ltd/image/upload/c_scale,w_183/v1515003361/Emoji_Hero_Icon_wq5mbg.png",
-      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.emoji.cartoon"
+      "storeUrl": "https://play.google.com/store/apps/details?id=com.wavemining.hugs"
     }
   ]
 }
