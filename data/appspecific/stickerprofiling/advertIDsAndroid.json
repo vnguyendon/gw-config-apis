@@ -12,12 +12,12 @@
     }
   },
   "FirstResumeActivityAlternative": {
-    "Provider": "Facebook",
-    "ID": "1594200494225037_1953005118344571",
-    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom, Singapore, Mexico, Spain",
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2911637056",
+    "Countries": "Germany, United Kingdom, Mexico",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/2911637056"
+      "Provider": "Facebook",
+      "ID": "c1594200494225037_1953005118344571"
     }
   },
   "OtherResumeActivity": {
@@ -29,12 +29,12 @@
     }
   },
   "OtherResumeActivityAlternative": {
-    "Provider": "Facebook",
-    "ID": "1594200494225037_1953005118344571",
-    "Countries": "Japan, Australia, Netherlands, Germany, Russia, Poland, United Kingdom, Singapore, Mexico, Spain",
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2911637056",
+    "Countries": "Germany, United Kingdom, Mexico",
     "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/2911637056"
+      "Provider": "Facebook",
+      "ID": "c1594200494225037_1953005118344571"
     }
   },
   "AfterSending": {
