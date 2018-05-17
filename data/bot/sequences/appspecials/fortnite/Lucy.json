@@ -1,0 +1,2139 @@
+{
+    "Type": "Node",
+    "Id": "Lucy",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here’s a really interesting one… a story about Loud Lucy",
+                "fr": "Here’s a really interesting one… a story about Loud Lucy",
+                "es": "Here’s a really interesting one… a story about Loud Lucy"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours",
+                "fr": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours",
+                "es": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Firstly, she shot at everything she saw",
+                "fr": "Firstly, she shot at everything she saw",
+                "es": "Firstly, she shot at everything she saw"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "TBD"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "LucyIdea",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Bad idea",
+                "fr": "Bad idea",
+                "es": "Bad idea"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "exactly...",
+                        "fr": "exactly...",
+                        "es": "exactly..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Exactly... she gave away her position all the time",
+                        "fr": "Exactly... she gave away her position all the time",
+                        "es": "Exactly... she gave away her position all the time"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and took fights she couldn’t win",
+                        "fr": "and took fights she couldn’t win",
+                        "es": "and took fights she couldn’t win"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If she just waited... other people could have come and finished off the people she saw!",
+                        "fr": "If she just waited... other people could have come and finished off the people she saw!",
+                        "es": "If she just waited... other people could have come and finished off the people she saw!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyIdeaFinish",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LucyIdeaSmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s smart!",
+                            "fr": "That’s smart!",
+                            "es": "That’s smart!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "sure is!",
+                                    "fr": "sure is!",
+                                    "es": "sure is!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She needed to be reacting to everything she heard!",
+                                    "fr": "She needed to be reacting to everything she heard!",
+                                    "es": "She needed to be reacting to everything she heard!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaSmartWill",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "IWill",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I will!",
+                                        "fr": "I will!",
+                                        "es": "I will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Great plan!",
+                                                "fr": "Great plan!",
+                                                "es": "Great plan!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyIdeaSmartWillSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaSmartWillLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaSmartWillLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartWillLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartWillLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaSmartWillDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaSmartWillDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartWillDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartWillDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyIdeaSmartDo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I do!",
+                                        "fr": "I do!",
+                                        "es": "I do!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyIdeaSmartDoSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaSmartDoLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaSmartDoLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartDoLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartDoLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaSmartDoDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaSmartDoDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartDoDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaSmartDoDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LucyIdeaKnew",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I knew that",
+                            "fr": "I knew that",
+                            "es": "I knew that"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I’ve got a feeling you’ll do well here",
+                                    "fr": "I’ve got a feeling you’ll do well here",
+                                    "es": "I’ve got a feeling you’ll do well here"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She needed to be reacting to everything she heard!",
+                                    "fr": "She needed to be reacting to everything she heard!",
+                                    "es": "She needed to be reacting to everything she heard!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyIdeaKnewHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyIdeaKnewWill",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I will!",
+                                        "fr": "I will!",
+                                        "es": "I will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Great plan!",
+                                                "fr": "Great plan!",
+                                                "es": "Great plan!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyIdeaKnewWillSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaKnewWillLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaKnewWillLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewWillLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewWillLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaKnewWillDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaKnewWillDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewWillDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewWillDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyIdeaKnewDo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I do!",
+                                        "fr": "I do!",
+                                        "es": "I do!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyIdeaKnewDoSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaKnewDoLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaKnewDoLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewDoLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewDoLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyIdeaKnewDoDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyIdeaKnewDoDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewDoDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyIdeaKnewDoDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "LucyWhy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Why not?",
+                "fr": "Why not?",
+                "es": "Why not?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Well, she gave away her position all the time",
+                        "fr": "Well, she gave away her position all the time",
+                        "es": "Well, she gave away her position all the time"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "and took fights she couldn’t win",
+                        "fr": "and took fights she couldn’t win",
+                        "es": "and took fights she couldn’t win"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "If she just waited... other people could have come and finished off the people she saw!",
+                        "fr": "If she just waited... other people could have come and finished off the people she saw!",
+                        "es": "If she just waited... other people could have come and finished off the people she saw!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TBD"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "LucyWhyPeople",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "LucyWhySmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s smart!",
+                            "fr": "That’s smart!",
+                            "es": "That’s smart!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "sure is!",
+                                    "fr": "sure is!",
+                                    "es": "sure is!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She needed to be reacting to everything she heard!",
+                                    "fr": "She needed to be reacting to everything she heard!",
+                                    "es": "She needed to be reacting to everything she heard!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhySmartHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyWhySmartWill",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I will!",
+                                        "fr": "I will!",
+                                        "es": "I will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Great plan!",
+                                                "fr": "Great plan!",
+                                                "es": "Great plan!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyWhySmartWillSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhySmartWillLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhySmartWillLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartWillLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartWillLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhySmartWillDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhySmartWillDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartWillDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartWillDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyWhySmartDo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I do!",
+                                        "fr": "I do!",
+                                        "es": "I do!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyWhySmartDoSherlocks",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhySmartDoLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhySmartDoLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartDoLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartDoLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhySmartDoDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhySmartDoDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartDoDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhySmartDoDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "LucyWhyKnew",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I knew that",
+                            "fr": "I knew that",
+                            "es": "I knew that"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I’ve got a feeling you’ll do well here",
+                                    "fr": "I’ve got a feeling you’ll do well here",
+                                    "es": "I’ve got a feeling you’ll do well here"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "fr": "Also look how deaf she is in this clip, she wasn’t listening out for anything!",
+                                    "es": "Also look how deaf she is in this clip, she wasn’t listening out for anything!"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "She needed to be reacting to everything she heard!",
+                                    "fr": "She needed to be reacting to everything she heard!",
+                                    "es": "She needed to be reacting to everything she heard!"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "LucyWhyKnewHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyWhyKnewWill",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I will!",
+                                        "fr": "I will!",
+                                        "es": "I will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Great plan!",
+                                                "fr": "Great plan!",
+                                                "es": "Great plan!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyWhyKnewWillSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhyKnewWillLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhyKnewWillLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewWillLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewWillLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhyKnewWillDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhyKnewWillDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewWillDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewWillDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "LucyWhyKnewDo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "I do!",
+                                        "fr": "I do!",
+                                        "es": "I do!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
+                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Look at her, oblivious to all this evidence!",
+                                                "fr": "Look at her, oblivious to all this evidence!",
+                                                "es": "Look at her, oblivious to all this evidence!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Lucy was certainly no Sherlock Holmes...",
+                                                "fr": "Lucy was certainly no Sherlock Holmes...",
+                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "LucyWhyKnewDoSherlock",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhyKnewDoLearn",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I can learn from that",
+                                                    "fr": "I can learn from that",
+                                                    "es": "I can learn from that"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhyKnewDoLearnMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewDoLearnNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewDoLearnYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Node",
+                                                "Id": "LucyWhyKnewDoDetective",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "I’m a detective",
+                                                    "fr": "I’m a detective",
+                                                    "es": "I’m a detective"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "fr": "On the other hand… she always left a trail behind her… not at all stealthy!",
+                                                            "es": "On the other hand… she always left a trail behind her… not at all stealthy!"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Even the worst hunters could find her…",
+                                                            "fr": "Even the worst hunters could find her…",
+                                                            "es": "Even the worst hunters could find her…"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "And… well… it all added up to a grisly end for Lucy",
+                                                            "fr": "And… well… it all added up to a grisly end for Lucy",
+                                                            "es": "And… well… it all added up to a grisly end for Lucy"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "AnimatedGif",
+                                                        "Parameters": {
+                                                            "Source": "Giphy",
+                                                            "Path": "TBD"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Will you repeat her mistakes?!",
+                                                            "fr": "Will you repeat her mistakes?!",
+                                                            "es": "Will you repeat her mistakes?!"
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "LucyWhyKnewDoDetectiveMistakes",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewDoDetectiveNo",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "No way!",
+                                                                "fr": "No way!",
+                                                                "es": "No way!"
+                                                            }
+                                                        },
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "LucyWhyKnewDoDetectiveYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Yes 😃",
+                                                                "fr": "Yes 😃",
+                                                                "es": "Yes 😃"
+                                                            }
+                                                        }
+                                                    ]
+                                                }
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
