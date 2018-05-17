@@ -1,0 +1,567 @@
+{
+    "Type": "Node",
+    "Id": "Ulysses2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Also, he should have deployed over lowland areas, or over the sea…",
+                "fr": "Also, he should have deployed over lowland areas, or over the sea…",
+                "es": "Also, he should have deployed over lowland areas, or over the sea…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "By not doing that, his chute popped out super early, and he was always last to the good stuff…",
+                "fr": "By not doing that, his chute popped out super early, and he was always last to the good stuff…",
+                "es": "By not doing that, his chute popped out super early, and he was always last to the good stuff…"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "mXVwy3HkZHDgWLBo4m"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Ulysses2Imbecile",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Imbecile",
+                "fr": "Imbecile",
+                "es": "Imbecile"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "fr": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "es": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "mXVwy3HkZHDgWLBo4m"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!",
+                        "fr": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!",
+                        "es": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Ulysses2ImbecileIgnore",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Ulysses2ImbecileNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I won’t ignore you",
+                            "fr": "I won’t ignore you",
+                            "es": "I won’t ignore you"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well... his luck ran out, and the end was painful to watch…",
+                                    "fr": "Well... his luck ran out, and the end was painful to watch…",
+                                    "es": "Well... his luck ran out, and the end was painful to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I hope his gruesome death helps you in your time on the island",
+                                    "fr": "I hope his gruesome death helps you in your time on the island",
+                                    "es": "I hope his gruesome death helps you in your time on the island"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ulysses2ImbecileNoHelp",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2ImbecileNoYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It will!",
+                                        "fr": "It will!",
+                                        "es": "It will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Good to hear it",
+                                                "fr": "Good to hear it",
+                                                "es": "Good to hear it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2ImbecileNoMaybe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It might!",
+                                        "fr": "It might!",
+                                        "es": "It might!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I guess you are a skilled survivor after all...",
+                                                "fr": "I guess you are a skilled survivor after all...",
+                                                "es": "I guess you are a skilled survivor after all..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Ulysses2ImbecileDie",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "He deserved to die",
+                            "fr": "He deserved to die",
+                            "es": "He deserved to die"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well... his luck ran out, and the end was painful to watch…",
+                                    "fr": "Well... his luck ran out, and the end was painful to watch…",
+                                    "es": "Well... his luck ran out, and the end was painful to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I hope his gruesome death helps you in your time on the island",
+                                    "fr": "I hope his gruesome death helps you in your time on the island",
+                                    "es": "I hope his gruesome death helps you in your time on the island"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ulysses2ImbecileDieHelp",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2ImbecileDieYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It will!",
+                                        "fr": "It will!",
+                                        "es": "It will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Good to hear it",
+                                                "fr": "Good to hear it",
+                                                "es": "Good to hear it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2ImbecileDieMaybe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It might!",
+                                        "fr": "It might!",
+                                        "es": "It might!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I guess you are a skilled survivor after all...",
+                                                "fr": "I guess you are a skilled survivor after all...",
+                                                "es": "I guess you are a skilled survivor after all..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Ulysses2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I didn’t know that",
+                "fr": "I didn’t know that",
+                "es": "I didn’t know that"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "fr": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "es": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "kRoDIvG3Yez28"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!",
+                        "fr": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!",
+                        "es": "I tried to tell him that shotguns spawn on the ground floors, and chests on the roof, but boy did he ignore me!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Ulysses2NoIgnore",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Ulysses2NoNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I won’t ignore you",
+                            "fr": "I won’t ignore you",
+                            "es": "I won’t ignore you"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well... his luck ran out, and the end was painful to watch…",
+                                    "fr": "Well... his luck ran out, and the end was painful to watch…",
+                                    "es": "Well... his luck ran out, and the end was painful to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I hope his gruesome death helps you in your time on the island",
+                                    "fr": "I hope his gruesome death helps you in your time on the island",
+                                    "es": "I hope his gruesome death helps you in your time on the island"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ulysses2NoNoHelp",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2NoNoYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It will!",
+                                        "fr": "It will!",
+                                        "es": "It will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Good to hear it",
+                                                "fr": "Good to hear it",
+                                                "es": "Good to hear it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2NoNoMaybe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It might!",
+                                        "fr": "It might!",
+                                        "es": "It might!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I guess you are a skilled survivor after all...",
+                                                "fr": "I guess you are a skilled survivor after all...",
+                                                "es": "I guess you are a skilled survivor after all..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Ulysses2NoDie",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "He deserved to die",
+                            "fr": "He deserved to die",
+                            "es": "He deserved to die"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well... his luck ran out, and the end was painful to watch…",
+                                    "fr": "Well... his luck ran out, and the end was painful to watch…",
+                                    "es": "Well... his luck ran out, and the end was painful to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
+                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "kRoDIvG3Yez28"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I hope his gruesome death helps you in your time on the island",
+                                    "fr": "I hope his gruesome death helps you in your time on the island",
+                                    "es": "I hope his gruesome death helps you in your time on the island"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Ulysses2NoDieHelp",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2NoDieYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It will!",
+                                        "fr": "It will!",
+                                        "es": "It will!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Good to hear it",
+                                                "fr": "Good to hear it",
+                                                "es": "Good to hear it"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Ulysses2NoDieMaybe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "It might!",
+                                        "fr": "It might!",
+                                        "es": "It might!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I guess you are a skilled survivor after all...",
+                                                "fr": "I guess you are a skilled survivor after all...",
+                                                "es": "I guess you are a skilled survivor after all..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Now on with the next story 😄",
+                                                "fr": "Now on with the next story 😄",
+                                                "es": "Now on with the next story 😄"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
