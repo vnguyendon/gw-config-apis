@@ -1,0 +1,938 @@
+{
+    "Type": "Node",
+    "Id": "Harvey2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Not only that, but Harvey was so slow at gathering the materials…",
+                "fr": "Not only that, but Harvey was so slow at gathering the materials…",
+                "es": "Not only that, but Harvey was so slow at gathering the materials…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He should have just axe-switched!",
+                "fr": "He should have just axe-switched!",
+                "es": "He should have just axe-switched!"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "And I really don’t know why he didn’t swing while jumping to save his momentum...",
+                "fr": "And I really don’t know why he didn’t swing while jumping to save his momentum...",
+                "es": "And I really don’t know why he didn’t swing while jumping to save his momentum..."
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "TBD"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…",
+                "fr": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…",
+                "es": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "It can’t be a coincidence 🤔",
+                "fr": "It can’t be a coincidence 🤔",
+                "es": "It can’t be a coincidence 🤔"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Harvey2Should",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I should do that",
+                "fr": "I should do that",
+                "es": "I should do that"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Good idea!",
+                        "fr": "Good idea!",
+                        "es": "Good idea!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Those aren’t even the last of his mistakes…",
+                        "fr": "Those aren’t even the last of his mistakes…",
+                        "es": "Those aren’t even the last of his mistakes…"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!",
+                        "fr": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!",
+                        "es": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Harvey2ShouldTree",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Harvey2ShouldSilly",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How silly!",
+                            "fr": "How silly!",
+                            "es": "How silly!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I know!",
+                                    "fr": "I know!",
+                                    "es": "I know!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Enemies followed his trail, and quickly dispatched him.",
+                                    "fr": "Enemies followed his trail, and quickly dispatched him.",
+                                    "es": "Enemies followed his trail, and quickly dispatched him."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was horrible to watch…",
+                                    "fr": "It was horrible to watch…",
+                                    "es": "It was horrible to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Harvey2ShouldSillyDeath",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2ShouldSillyPoor",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Poor Harvey",
+                                        "fr": "Poor Harvey",
+                                        "es": "Poor Harvey"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2ShouldSillyPoorHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldSillyPoorNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldSillyPoorYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2ShouldSillyDeserved",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "He deserved it",
+                                        "fr": "He deserved it",
+                                        "es": "He deserved it"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2ShouldSillyDeservedHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldSillyDeservedNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldSillyDeservedYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Harvey2ShouldWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why’s that bad?",
+                            "fr": "Why’s that bad?",
+                            "es": "Why’s that bad?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Enemies followed his trail, and quickly dispatched him.",
+                                    "fr": "Enemies followed his trail, and quickly dispatched him.",
+                                    "es": "Enemies followed his trail, and quickly dispatched him."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was horrible to watch…",
+                                    "fr": "It was horrible to watch…",
+                                    "es": "It was horrible to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Harvey2ShouldWhyDeath",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2ShouldWhyPoor",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Poor Harvey",
+                                        "fr": "Poor Harvey",
+                                        "es": "Poor Harvey"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2ShouldWhyPoorHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldWhyPoorNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldWhyPoorYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2ShouldWhyDeserved",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "He deserved it",
+                                        "fr": "He deserved it",
+                                        "es": "He deserved it"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2ShouldWhyDeservedHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldWhyDeservedNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2ShouldWhyDeservedYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Harvey2Terrible",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Harvey is terrible",
+                "fr": "Harvey is terrible",
+                "es": "Harvey is terrible"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Those aren’t even the last of his mistakes…",
+                        "fr": "Those aren’t even the last of his mistakes…",
+                        "es": "Those aren’t even the last of his mistakes…"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!",
+                        "fr": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!",
+                        "es": "The poor guy also kept killing every tree he harvested, instead of leaving them with a small bit left!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Harvey2TerribleTree",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Harvey2TerribleSilly",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "How silly!",
+                            "fr": "How silly!",
+                            "es": "How silly!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "I know!",
+                                    "fr": "I know!",
+                                    "es": "I know!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Enemies followed his trail, and quickly dispatched him.",
+                                    "fr": "Enemies followed his trail, and quickly dispatched him.",
+                                    "es": "Enemies followed his trail, and quickly dispatched him."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was horrible to watch…",
+                                    "fr": "It was horrible to watch…",
+                                    "es": "It was horrible to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Harvey2TerribleSillyDeath",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2TerribleSillyPoor",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Poor Harvey",
+                                        "fr": "Poor Harvey",
+                                        "es": "Poor Harvey"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2TerribleSillyPoorHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleSillyPoorNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleSillyPoorYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2TerribleSillyDeserved",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "He deserved it",
+                                        "fr": "He deserved it",
+                                        "es": "He deserved it"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2TerribleSillyDeservedHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleSillyDeservedNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleSillyDeservedYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Harvey2TerribleWhy",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Why’s that bad?",
+                            "fr": "Why’s that bad?",
+                            "es": "Why’s that bad?"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Enemies followed his trail, and quickly dispatched him.",
+                                    "fr": "Enemies followed his trail, and quickly dispatched him.",
+                                    "es": "Enemies followed his trail, and quickly dispatched him."
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It was horrible to watch…",
+                                    "fr": "It was horrible to watch…",
+                                    "es": "It was horrible to watch…"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "TBD"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Harvey2TerribleWhyDeath",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2TerribleWhyPoor",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Poor Harvey",
+                                        "fr": "Poor Harvey",
+                                        "es": "Poor Harvey"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2TerribleWhyPoorHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleWhyPoorNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleWhyPoorYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Node",
+                                    "Id": "Harvey2TerribleWhyDeserved",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "He deserved it",
+                                        "fr": "He deserved it",
+                                        "es": "He deserved it"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Indeed…",
+                                                "fr": "Indeed…",
+                                                "es": "Indeed…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So, did that story help you out?",
+                                                "fr": "So, did that story help you out?",
+                                                "es": "So, did that story help you out?"
+                                            }
+                                        }
+                                    ],
+                                    "LinksTo": {
+                                        "Type": "Node",
+                                        "Id": "Harvey2TerribleWhyDeservedHelp",
+                                        "ElementValue": "1",
+                                        "Commands": [
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleWhyDeservedNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Not so much",
+                                                    "fr": "Not so much",
+                                                    "es": "Not so much"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "Harvey2TerribleWhyDeservedYes",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "Yes",
+                                                    "fr": "Yes",
+                                                    "es": "Yes"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Let’s continue to the next!",
+                                                            "fr": "Let’s continue to the next!",
+                                                            "es": "Let’s continue to the next!"
+                                                        }
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
