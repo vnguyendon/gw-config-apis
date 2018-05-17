@@ -1,0 +1,222 @@
+{
+    "Type": "Node",
+    "Id": "Harvey",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Let me tell you a story about Hopeless Harvey...",
+                "fr": "Let me tell you a story about Hopeless Harvey...",
+                "es": "Let me tell you a story about Hopeless Harvey..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He was a stand up guy, but our friendship was cut short far too early…",
+                "fr": "He was a stand up guy, but our friendship was cut short far too early…",
+                "es": "He was a stand up guy, but our friendship was cut short far too early…"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible",
+                "fr": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible",
+                "es": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "But he was terrible at doing that!",
+                "fr": "But he was terrible at doing that!",
+                "es": "But he was terrible at doing that!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HarveyHow",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "How so?",
+                "fr": "How so?",
+                "es": "How so?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "For some reason he kept bashing away at junk!",
+                        "fr": "For some reason he kept bashing away at junk!",
+                        "es": "For some reason he kept bashing away at junk!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Look at the poor guy…",
+                        "fr": "Look at the poor guy…",
+                        "es": "Look at the poor guy…"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TBD"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!",
+                        "fr": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!",
+                        "es": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/kitten/GiacomoCard.json"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HarveyHowBest",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "HarveyHowSmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s smart!",
+                            "fr": "That’s smart!",
+                            "es": "That’s smart!"
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "HarveyHowKnew",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I knew that!",
+                            "fr": "I knew that!",
+                            "es": "I knew that!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You’re already doing better than Harvey, then!",
+                                    "fr": "You’re already doing better than Harvey, then!",
+                                    "es": "You’re already doing better than Harvey, then!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HarveyNoob",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Noob",
+                "fr": "Noob",
+                "es": "Noob"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Right?!",
+                        "fr": "Right?!",
+                        "es": "Right?!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "For some reason he kept bashing away at junk!",
+                        "fr": "For some reason he kept bashing away at junk!",
+                        "es": "For some reason he kept bashing away at junk!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Look at the poor guy…",
+                        "fr": "Look at the poor guy…",
+                        "es": "Look at the poor guy…"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TBD"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!",
+                        "fr": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!",
+                        "es": "I don’t understand why he didn’t just go for this stuff, as it would’ve given him much more!"
+                    }
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowCarouselFromList",
+                    "Parameters": {
+                        "Path": "/data/common/carousel/kitten/GiacomoCard.json"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HarveyNoobBest",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "HarveyNoobSmart",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That’s smart!",
+                            "fr": "That’s smart!",
+                            "es": "That’s smart!"
+                        }
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "HarveyNoobKnew",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "I knew that!",
+                            "fr": "I knew that!",
+                            "es": "I knew that!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You’re already doing better than Harvey, then!",
+                                    "fr": "You’re already doing better than Harvey, then!",
+                                    "es": "You’re already doing better than Harvey, then!"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
