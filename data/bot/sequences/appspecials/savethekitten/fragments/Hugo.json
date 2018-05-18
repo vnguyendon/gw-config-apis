@@ -3,18 +3,18 @@
     "Id": "Hugo",
     "Steps": [
         {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/HugoCard.json"
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Well then, here he is...",
                 "fr": "Ah tiens, le voici...",
                 "es": "Ah bueno, aquí está..."
-            }
-        },
-        {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/kitten/HugoCard.json"
             }
         }
     ],
