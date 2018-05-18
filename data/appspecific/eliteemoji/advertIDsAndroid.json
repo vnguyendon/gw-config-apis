@@ -1,4 +1,3 @@
-
 {
   "FirstLaunch": {
     "Provider": "AdMob",
@@ -11,6 +10,15 @@
   "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4077307864"
+  },
+  "OtherResumeActivityAlternative": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4009261578",
+    "Countries": "United States",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/6224361378"
+    }
   },
   "AfterSending": {
     "Provider": "AdMob",
@@ -25,4 +33,5 @@
     "ID": "1727516507493157_2117754858469318"
   }
 }
+
 
