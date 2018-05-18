@@ -11,6 +11,15 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2575065062"
   },
+  "OtherResumeActivityAlternative": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/4747913580",
+    "Countries": "Japan, Netherlands",
+    "Fallback": {
+      "Provider": "Facebook",
+      "ID": "1001221899915187_1512278412142864"
+    }
+  },
   "AfterSending": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/7563242945"
