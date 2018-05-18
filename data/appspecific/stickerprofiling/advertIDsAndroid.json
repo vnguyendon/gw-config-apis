@@ -17,7 +17,7 @@
     "Countries": "Germany, United Kingdom, Mexico",
     "Fallback": {
       "Provider": "Facebook",
-      "ID": "c1594200494225037_1953005118344571"
+      "ID": "1594200494225037_1953005118344571"
     }
   },
   "OtherResumeActivity": {
@@ -34,7 +34,7 @@
     "Countries": "Germany, United Kingdom, Mexico",
     "Fallback": {
       "Provider": "Facebook",
-      "ID": "c1594200494225037_1953005118344571"
+      "ID": "1594200494225037_1953005118344571"
     }
   },
   "AfterSending": {
