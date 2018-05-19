@@ -4,12 +4,8 @@
     "ID": "ca-app-pub-7822741681642396/9034770936"
   },
  "FirstResumeActivity": {
-    "Provider": "Facebook",
-    "ID": "1727516507493157_1886351148276358",
-    "Fallback": {
-      "Provider": "AdMob",
-      "ID": "ca-app-pub-7822741681642396/9034770936"
-    }   
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9034770936" 
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
