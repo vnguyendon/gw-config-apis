@@ -1,19 +1,31 @@
 {
-  "FirstLaunch": {
+ "FirstLaunch": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/9034770936"
-  },
+    "ID": "ca-app-pub-7822741681642396/8040253347",
+    "Fallback": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/9034770936"
+     } 
+  }, 
  "FirstResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/9034770936" 
+    "ID": "ca-app-pub-7822741681642396/8040253347",
+    "Fallback": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/9034770936"
+     } 
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/9034770936"
+    "ID": "ca-app-pub-7822741681642396/8040253347",
+    "Fallback": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/9034770936"
+     } 
   },
   "AfterSharing": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/9034770936"
+    "ID": "ca-app-pub-7822741681642396/8810533242"
   },
   "DailyIdeasPullToRefresh": {
     "Provider": "AdMob",
