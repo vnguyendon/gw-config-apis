@@ -3,13 +3,13 @@
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/5291866734",
     "Fallback": {
-     "Provider": "AdMob",
-     "ID": "ca-app-pub-7822741681642396/9911261466"
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/9911261466"
      } 
   },   
   "FirstLaunchPrevious": {
-    "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/2071767060"
+     "Provider": "AdMob",
+     "ID": "ca-app-pub-7822741681642396/2071767060"
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
@@ -18,17 +18,17 @@
  "OtherResumeActivity": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/7045476690",
-    "Fallback": {
-     "Provider": "AdMob",
-     "ID": "ca-app-pub-7822741681642396/2071767060"
-     } 
+       "Fallback": {
+       "Provider": "AdMob",
+       "ID": "ca-app-pub-7822741681642396/2071767060"
+    } 
  },  
  "OtherResumeActivityWithFb": {
    "Provider": "Facebook",
    "ID": "1001221899915187_1500926526611386",
    "Fallback": {
-     "Provider": "AdMob",
-     "ID": "ca-app-pub-7822741681642396/2071767060"
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/2071767060"
    }
  },  
   "AfterSharing": {
