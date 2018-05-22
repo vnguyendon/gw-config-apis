@@ -31,7 +31,7 @@
   "OtherResumeActivityAlternative": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2911637056",
-    "Countries": "Germany, United Kingdom, Mexico",
+    "Countries": "Germany, United Kingdom, Mexico, Argentina, Chile",
     "Fallback": {
       "Provider": "Facebook",
       "ID": "1594200494225037_1953005118344571"
