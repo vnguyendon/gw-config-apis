@@ -1,0 +1,35 @@
+{
+  "Type": "Question",
+  "Id": "TrumpNorthKorea",
+  "Label":
+    {
+      "en": "For you, Trump meeting the North Korean leader is...",
+      "fr": "Selon toi, Trump qui rencontre le président nord-coréen, c'est plutôt une",
+      "es": "Según tú, el hecho que Trump encontre al líder Norcoreano es"
+    },
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "MeetingGood",
+          "StepValue" : "1",
+          "Label": {
+            "en": "good news",
+            "fr": "bonne nouvelle",
+            "es": "buenas noticias"
+          }
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "MeetingBad",
+          "StepValue" : "1",
+          "Label":{
+            "en": "bad news",
+            "fr": "mauvaise nouvelle",
+            "es": "malas noticias"
+          }
+        }
+      ]
+}
