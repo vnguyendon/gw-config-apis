@@ -7,7 +7,6 @@
       "fr": "Selon toi, Trump qui rencontre le président nord-coréen, c'est plutôt une",
       "es": "Según tú, el hecho que Trump encontre al líder Norcoreano es"
     },
-  "Randomize": "true",
   "Commands":
       [
         {
@@ -24,7 +23,6 @@
         {
           "Type": "Survey",
           "Id": "MeetingBad",
-          "StepValue" : "1",
           "Label":{
             "en": "bad news",
             "fr": "mauvaise nouvelle",
