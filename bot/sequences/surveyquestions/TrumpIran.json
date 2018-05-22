@@ -1,0 +1,35 @@
+{
+  "Type": "Question",
+  "Id": "TrumpIran",
+  "Label":
+    {
+      "en": "According to you, Trump leaving the Iran deal is rather",
+      "fr": "Selon toi, Trump qui quitte l'accord sur le nucléaire iranien, c'est plutôt une",
+      "es": "Según tú, el hecho que Trump deje el acuerdo sobre el nuclear iraní es"
+    },
+  "Randomize": "true",
+  "Commands":
+      [
+        {
+          "Type": "Survey",
+          "Id": "LeavingGood",
+          "StepValue" : "1",
+          "Label": {
+            "en": "good news",
+            "fr": "bonne nouvelle",
+            "es": "buenas noticias"
+          },
+        }
+        ,
+        {
+          "Type": "Survey",
+          "Id": "LeavingBad",
+          "StepValue" : "1",
+          "Label":{
+            "en": "bad news",
+            "fr": "mauvaise nouvelle",
+            "es": "malas noticias"
+          }
+        }
+      ]
+}
