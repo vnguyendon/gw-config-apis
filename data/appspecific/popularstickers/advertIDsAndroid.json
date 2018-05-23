@@ -32,7 +32,7 @@
     "Provider": "Facebook",
     "ID": "1001221899915187_1738939572810079"
   },
-  "GalleryDailyNative": {
+  "GalleryDailyNativeDisabled": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1730388846998485"
   }
