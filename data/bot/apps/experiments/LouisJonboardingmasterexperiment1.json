@@ -5,7 +5,7 @@
           { "order" : 10, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist.json"]},
           { "order" : 12, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist2.json"]},
           { "order" : 13, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist3.json"]},
-          { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist4.json"]},
+          { "order" : 15, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist4.json"]},
           { "order" : 83, "file": ["/data/bot/sequences/experiments/Billy/2E-CanDogsSwim.json"]},
           { "order" : 85, "file": ["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
           { "order" : 86, "file": ["/data/bot/sequences/experiments/VisitNext.json"]},
