@@ -2,6 +2,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order": 2, "file":["/data/bot/sequences/experiments/Heist4Test.json"]},
             { "order": 3, "file":["/data/bot/sequences/experiments/Heist4Traitor2.json"]},
             { "order": 4, "file":["/data/bot/sequences/experiments/Heist4Traitor.json"]},
             { "order": 6, "file":["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
