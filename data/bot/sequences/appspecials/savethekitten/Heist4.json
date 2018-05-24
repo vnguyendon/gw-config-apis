@@ -82,7 +82,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
                         }
                     },
                     "Steps": [
@@ -344,7 +344,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                         }
                     },
                     "Steps": [
@@ -475,7 +475,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
                         }
                     },
                     "Steps": [
@@ -661,7 +661,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
                         }
                     },
                     "Steps": [
@@ -923,7 +923,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                         }
                     },
                     "Steps": [
@@ -1054,7 +1054,7 @@
                         },
                         "Picture": {
                             "Source": "Web",
-                            "Path": "http://gw-static.azurewebsites.nethttp://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                            "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
                         }
                     },
                     "Steps": [
