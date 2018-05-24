@@ -1,0 +1,300 @@
+{
+    "Type": "Node",
+    "Id": "Heist2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "He has put together the finest team of thieves you have ever seen:",
+                "fr": "He has put together the finest team of thieves you have ever seen:",
+                "es": "He has put together the finest team of thieves you have ever seen:"
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousels/nutty/parcs.json"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Heist2Heroes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Heroes!",
+                "fr": "Heroes!",
+                "es": "Heroes!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I am disappointed that you support this criminal activity",
+                        "fr": "I am disappointed that you support this criminal activity",
+                        "es": "I am disappointed that you support this criminal activity"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here is a plan of the house they will be raiding:",
+                        "fr": "Here is a plan of the house they will be raiding:",
+                        "es": "Here is a plan of the house they will be raiding:"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Look how heavily guarded it is!",
+                        "fr": "Look how heavily guarded it is!",
+                        "es": "Look how heavily guarded it is!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist2HeroesGuard",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2HeroesWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What on earth",
+                            "fr": "What on earth",
+                            "es": "What on earth"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Kittens do not mess around",
+                                    "fr": "Kittens do not mess around",
+                                    "es": "Kittens do not mess around"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2HeroesTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tough conditions!",
+                            "fr": "Tough conditions!",
+                            "es": "Tough conditions!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes indeed, but Catrick and his team are very skilled",
+                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
+                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Heist2Villains",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Villains!",
+                "fr": "Villains!",
+                "es": "Villains!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Yes. As all kittens are",
+                        "fr": "Yes. As all kittens are",
+                        "es": "Yes. As all kittens are"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/themes/emojiFish/small/shutterstock_1015143868.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here is a plan of the house they will be raiding:",
+                        "fr": "Here is a plan of the house they will be raiding:",
+                        "es": "Here is a plan of the house they will be raiding:"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Look how heavily guarded it is!",
+                        "fr": "Look how heavily guarded it is!",
+                        "es": "Look how heavily guarded it is!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist2VillainsGuard",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2VillainsWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What on earth",
+                            "fr": "What on earth",
+                            "es": "What on earth"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Kittens do not mess around",
+                                    "fr": "Kittens do not mess around",
+                                    "es": "Kittens do not mess around"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2VillainsTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tough conditions!",
+                            "fr": "Tough conditions!",
+                            "es": "Tough conditions!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes indeed, but Catrick and his team are very skilled",
+                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
+                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Heist2Ptolemy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Where is Ptolemy?",
+                "fr": "Where is Ptolemy?",
+                "es": "Where is Ptolemy?"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He works alone, not in a squad",
+                        "fr": "He works alone, not in a squad",
+                        "es": "He works alone, not in a squad"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Here is a plan of the house they will be raiding:",
+                        "fr": "Here is a plan of the house they will be raiding:",
+                        "es": "Here is a plan of the house they will be raiding:"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Look how heavily guarded it is!",
+                        "fr": "Look how heavily guarded it is!",
+                        "es": "Look how heavily guarded it is!"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist2PtolemyGuard",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2PtolemyWhat",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "What on earth",
+                            "fr": "What on earth",
+                            "es": "What on earth"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Kittens do not mess around",
+                                    "fr": "Kittens do not mess around",
+                                    "es": "Kittens do not mess around"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "Type": "Leaf",
+                        "Id": "Heist2PtolemyTough",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Tough conditions!",
+                            "fr": "Tough conditions!",
+                            "es": "Tough conditions!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yes indeed, but Catrick and his team are very skilled",
+                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
+                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    ]
+}
