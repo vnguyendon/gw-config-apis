@@ -2,8 +2,8 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
-            { "order": 1, "file":["/data/bot/sequences/experiments/Heist4Traitor2.json"]},
-            { "order": 2, "file":["/data/bot/sequences/experiments/Heist4Traitor.json"]},
+            { "order": 3, "file":["/data/bot/sequences/experiments/Heist4Traitor2.json"]},
+            { "order": 4, "file":["/data/bot/sequences/experiments/Heist4Traitor.json"]},
             { "order": 6, "file":["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
             { "order": 7, "file":["/data/bot/sequences/experiments/rui/TestiOSCarouselImages.json"]},
             { "order": 8, "file":["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
