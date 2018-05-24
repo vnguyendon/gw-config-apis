@@ -120,8 +120,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -147,8 +147,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -209,8 +209,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -236,8 +236,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -269,7 +269,7 @@
                 {
                     "Type": "Image",
                     "Parameters": {
-                        "Source": "Internal",
+                        "Source": "Web",
                         "Path": "/themes/emojiFish/small/shutterstock_1015898524.jpg"
                     }
                 },
@@ -355,8 +355,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -382,8 +382,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -444,8 +444,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
@@ -471,8 +471,8 @@
                                         {
                                             "Type": "Image",
                                             "Parameters": {
-                                                "Source": "Internal",
-                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                                "Source": "Web",
+                                                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
                                             }
                                         }
                                     ]
