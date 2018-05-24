@@ -2,6 +2,7 @@
     {
         "GroupName":"Test",
         "SequenceFiles":[
+            { "order": 2, "file":["//data/bot/sequences/appspecials/savethekitten/Heist4.json"]},
             { "order": 2, "file":["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
             { "order": 5, "file":["/data/bot/sequences/experiments/rui/TestiOSCarouselImages.json"]},
             { "order": 8, "file":["/data/bot/sequences/experiments/rui/should_show_step_action_ShowCarouselFromList.json"]},
