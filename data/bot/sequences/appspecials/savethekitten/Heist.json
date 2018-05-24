@@ -1,0 +1,487 @@
+{
+    "Type": "Node",
+    "Id": "Heist",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Oh, this is really important!",
+                "fr": "Oh, this is really important!",
+                "es": "Oh, this is really important!"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Some kittens I know are about to pull off a heist!",
+                "fr": "Some kittens I know are about to pull off a heist!",
+                "es": "Some kittens I know are about to pull off a heist!"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HeistRidic",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Ridiculous",
+                "fr": "Ridiculous",
+                "es": "Ridiculous"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I swear it’s true!",
+                        "fr": "I swear it’s true!",
+                        "es": "I swear it’s true!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
+                        "fr": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
+                        "es": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HeistRidicIntel",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HeistRidicKid",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You’re kidding",
+                            "fr": "You’re kidding",
+                            "es": "You’re kidding"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not at all!",
+                                    "fr": "Not at all!",
+                                    "es": "Not at all!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This is live and happening right now!",
+                                    "fr": "This is live and happening right now!",
+                                    "es": "This is live and happening right now!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HeistRidicKidHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistRidicKidYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Of course!",
+                                        "fr": "Of course!",
+                                        "es": "Of course!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Just look at this villain",
+                                                "fr": "Just look at this villain",
+                                                "es": "Just look at this villain"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistRidicKidNoNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No...",
+                                        "fr": "No...",
+                                        "es": "No..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Here he is…",
+                                                "fr": "Here he is…",
+                                                "es": "Here he is…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HeistRidicExciting",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exciting!",
+                            "fr": "Exciting!",
+                            "es": "Exciting!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Crime is not exciting, it’s immoral!",
+                                    "fr": "Crime is not exciting, it’s immoral!",
+                                    "es": "Crime is not exciting, it’s immoral!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HeistRidicExcitingHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistRidicExcitingYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Of course!",
+                                        "fr": "Of course!",
+                                        "es": "Of course!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Just look at this villain",
+                                                "fr": "Just look at this villain",
+                                                "es": "Just look at this villain"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistRidicExcitingNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No...",
+                                        "fr": "No...",
+                                        "es": "No..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Here he is…",
+                                                "fr": "Here he is…",
+                                                "es": "Here he is…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HeistThieves",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Thieves!",
+                "fr": "Thieves!",
+                "es": "Thieves!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I agree, nasty kittens!",
+                        "fr": "I agree, nasty kittens!",
+                        "es": "I agree, nasty kittens!"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
+                        "fr": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
+                        "es": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HeistThievesIntel",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HeistThievesKid",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "You’re kidding",
+                            "fr": "You’re kidding",
+                            "es": "You’re kidding"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Not at all!",
+                                    "fr": "Not at all!",
+                                    "es": "Not at all!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "This is live and happening right now!",
+                                    "fr": "This is live and happening right now!",
+                                    "es": "This is live and happening right now!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HeistThievesKidHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistThievesKidYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Of course!",
+                                        "fr": "Of course!",
+                                        "es": "Of course!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Just look at this villain",
+                                                "fr": "Just look at this villain",
+                                                "es": "Just look at this villain"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistThievesKidNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No...",
+                                        "fr": "No...",
+                                        "es": "No..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Here he is…",
+                                                "fr": "Here he is…",
+                                                "es": "Here he is…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HeistThievesExciting",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Exciting!",
+                            "fr": "Exciting!",
+                            "es": "Exciting!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Crime is not exciting, it’s immoral!",
+                                    "fr": "Crime is not exciting, it’s immoral!",
+                                    "es": "Crime is not exciting, it’s immoral!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
+                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HeistThievesExcitingHeard",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistThievesExcitingYes",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Of course!",
+                                        "fr": "Of course!",
+                                        "es": "Of course!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Just look at this villain",
+                                                "fr": "Just look at this villain",
+                                                "es": "Just look at this villain"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HeistThievesExcitingNo",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "No...",
+                                        "fr": "No...",
+                                        "es": "No..."
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Here he is…",
+                                                "fr": "Here he is…",
+                                                "es": "Here he is…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/kittens/small/shutterstock_84418426.jpg"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
