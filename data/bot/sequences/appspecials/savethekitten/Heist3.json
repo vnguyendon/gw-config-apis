@@ -1,0 +1,313 @@
+{
+  "Type": "Node",
+  "Id": "KittenHeist3",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Demolitions expert Cat Damon wants to go underground",
+        "fr": "Demolitions expert Cat Damon wants to go underground",
+        "es": "Demolitions expert Cat Damon wants to go underground"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Inside woman Puma Thurman says she can open the house from within",
+        "fr": "Inside woman Puma Thurman says she can open the house from within",
+        "es": "Inside woman Puma Thurman says she can open the house from within"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Titus the Clever says he can hack the security system and unlock it remotely",
+        "fr": "Titus the Clever says he can hack the security system and unlock it remotely",
+        "es": "Titus the Clever says he can hack the security system and unlock it remotely"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Whose plan should they take?",
+        "fr": "Whose plan should they take?",
+        "es": "Whose plan should they take?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "CatDamon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Cat Damon",
+        "fr": "Cat Damon",
+        "es": "Cat Damon"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, it looks like the plan worked…",
+            "fr": "Well, it looks like the plan worked…",
+            "es": "Well, it looks like the plan worked…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The team is in the building!",
+            "fr": "The team is in the building!",
+            "es": "The team is in the building!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK, bad news!",
+            "fr": "OK, bad news!",
+            "es": "OK, bad news!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "fr": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "es": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PanicOrNot",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Panic",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Panic!",
+              "fr": "Panic!",
+              "es": "Panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "No, the team must stay calm!",
+                  "fr": "No, the team must stay calm!",
+                  "es": "No, the team must stay calm!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DontPanic",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Don’t panic!",
+              "fr": "Don’t panic!",
+              "es": "Don’t panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good call, let’s see if they keep it together",
+                  "fr": "Good call, let’s see if they keep it together",
+                  "es": "Good call, let’s see if they keep it together"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PumaThurman",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Puma Thurman",
+        "fr": "Puma Thurman",
+        "es": "Puma Thurman"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, it looks like the plan worked…",
+            "fr": "Well, it looks like the plan worked…",
+            "es": "Well, it looks like the plan worked…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The team is in the building!",
+            "fr": "The team is in the building!",
+            "es": "The team is in the building!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK, bad news!",
+            "fr": "OK, bad news!",
+            "es": "OK, bad news!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "fr": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "es": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PanicOrNot2",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Panic2",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Panic!",
+              "fr": "Panic!",
+              "es": "Panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "No, the team must stay calm!",
+                  "fr": "No, the team must stay calm!",
+                  "es": "No, the team must stay calm!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DontPanic2",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Don’t panic!",
+              "fr": "Don’t panic!",
+              "es": "Don’t panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good call, let’s see if they keep it together",
+                  "fr": "Good call, let’s see if they keep it together",
+                  "es": "Good call, let’s see if they keep it together"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "Titus",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Titus",
+        "fr": "Titus",
+        "es": "Titus"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, it looks like the plan worked…",
+            "fr": "Well, it looks like the plan worked…",
+            "es": "Well, it looks like the plan worked…"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The team is in the building!",
+            "fr": "The team is in the building!",
+            "es": "The team is in the building!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "OK, bad news!",
+            "fr": "OK, bad news!",
+            "es": "OK, bad news!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "fr": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap",
+            "es": "Apparently Titus’ sources say that C.A.T. is on his way home early for his catnap"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PanicOrNot3",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "Panic3",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Panic!",
+              "fr": "Panic!",
+              "es": "Panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "No, the team must stay calm!",
+                  "fr": "No, the team must stay calm!",
+                  "es": "No, the team must stay calm!"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "DontPanic3",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Don’t panic!",
+              "fr": "Don’t panic!",
+              "es": "Don’t panic!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Good call, let’s see if they keep it together",
+                  "fr": "Good call, let’s see if they keep it together",
+                  "es": "Good call, let’s see if they keep it together"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
