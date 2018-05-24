@@ -1,12 +1,6 @@
 {
   "Type": "Node",
   "Id": "Heist4Traitor",
-  "ElementValue": "1",
-  "CommandLabel": {
-    "en": "Traitor!",
-    "fr": "Traitor!",
-    "es": "Traitor!"
-  },
   "Steps": [
     {
       "Type": "Text",
