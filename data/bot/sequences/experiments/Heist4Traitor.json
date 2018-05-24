@@ -1,0 +1,207 @@
+{
+  "Type": "Node",
+  "Id": "Heist4Traitor",
+  "ElementValue": "1",
+  "CommandLabel": {
+    "en": "Traitor!",
+    "fr": "Traitor!",
+    "es": "Traitor!"
+  },
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Yes, he seems even more despicable than most kittens",
+        "fr": "Yes, he seems even more despicable than most kittens",
+        "es": "Yes, he seems even more despicable than most kittens"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "But wait, the paw-lice are here!!",
+        "fr": "But wait, the paw-lice are here!!",
+        "es": "But wait, the paw-lice are here!!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "1K2giDnsAu2Vq"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+        "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+        "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Did you see who?",
+        "fr": "Did you see who?",
+        "es": "Did you see who?"
+      }
+    }
+  ],
+  "DisplayHint": "Carousel",
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "Heist4TraitorTitus",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Titus",
+        "fr": "Titus",
+        "es": "Titus"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "😼",
+          "fr": "😼",
+          "es": "😼"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He’s gonna be rich!",
+            "fr": "He’s gonna be rich!",
+            "es": "He’s gonna be rich!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "Heist4TraitorPuma",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Puma Thurman",
+        "fr": "Puma Thurman",
+        "es": "Puma Thurman"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "😽",
+          "fr": "😽",
+          "es": "😽"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "She’s gonna be rich!",
+            "fr": "She’s gonna be rich!",
+            "es": "She’s gonna be rich!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "Heist4TraitorCatrick",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Catrick Swayze",
+        "fr": "Catrick Swayze",
+        "es": "Catrick Swayze"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "😺",
+          "fr": "😺",
+          "es": "😺"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He’s gonna be rich!",
+            "fr": "He’s gonna be rich!",
+            "es": "He’s gonna be rich!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Node",
+      "Id": "Heist4TraitorDamon",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Cat Damon",
+        "fr": "Cat Damon",
+        "es": "Cat Damon"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "😸",
+          "fr": "😸",
+          "es": "😸"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He’s gonna be rich!",
+            "fr": "He’s gonna be rich!",
+            "es": "He’s gonna be rich!"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+          }
+        }
+      ]
+    }
+  ]
+}
