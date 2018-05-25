@@ -11,7 +11,7 @@
       "ID": "ca-app-pub-7822741681642396/7972137060"
     }
   },
-  "FirstResumeActivityAlternative": {
+  "FirstResumeActivityAlterDisabled": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2911637056",
     "Countries": "Germany, United Kingdom, Mexico",
@@ -28,7 +28,7 @@
       "ID": "ca-app-pub-7822741681642396/7972137060"
     }
   },
-  "OtherResumeActivityAlternative": {
+  "OtherResumeAlterDisabled": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/2911637056",
     "Countries": "Germany, United Kingdom, Mexico, Argentina, Chile",
