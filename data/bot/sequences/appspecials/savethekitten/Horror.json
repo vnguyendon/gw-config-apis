@@ -1,0 +1,567 @@
+{
+    "Type": "Node",
+    "Id": "Horror",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "There's a mystery going around in a small kitten town:",
+                "fr": "There's a mystery going around in a small kitten town:",
+                "es": "There's a mystery going around in a small kitten town:"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "strange sightings of a scary kitten in a mask have been reported",
+                "fr": "strange sightings of a scary kitten in a mask have been reported",
+                "es": "strange sightings of a scary kitten in a mask have been reported"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "The police have put out this poster in response...",
+                "fr": "The police have put out this poster in response...",
+                "es": "The police have put out this poster in response..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "HorrorScary",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Terrifying!",
+                "fr": "Terrifying!",
+                "es": "Terrifying!"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Some kittens think it may be related to a young kitten who recently went missing",
+                        "fr": "Some kittens think it may be related to a young kitten who recently went missing",
+                        "es": "Some kittens think it may be related to a young kitten who recently went missing"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HorrorScaryPic",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HorrorScaryHim",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's obviously him",
+                            "fr": "That's obviously him",
+                            "es": "That's obviously him"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's possible, but we cant be sure. He is wearing a mask as you can see",
+                                    "fr": "It's possible, but we cant be sure. He is wearing a mask as you can see",
+                                    "es": "It's possible, but we cant be sure. He is wearing a mask as you can see"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "fr": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "es": "Anyway, a bunch of highschool kittens have set out to solve the mystery!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They're on their way to where the mysterious figure was last sighted",
+                                    "fr": "They're on their way to where the mysterious figure was last sighted",
+                                    "es": "They're on their way to where the mysterious figure was last sighted"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HorrorScaryHimHouse",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorScaryHimInsane",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Are they insane?!",
+                                        "fr": "Are they insane?!",
+                                        "es": "Are they insane?!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Never underestimate the foolishness of teenagers",
+                                                "fr": "Never underestimate the foolishness of teenagers",
+                                                "es": "Never underestimate the foolishness of teenagers"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorScaryHimSafe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks safe",
+                                        "fr": "Looks safe",
+                                        "es": "Looks safe"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "fr": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "es": "... right, just as safe as a smoker in a gunpowder factory!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HorrorScaryAnyone",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Could be anyone",
+                            "fr": "Could be anyone",
+                            "es": "Could be anyone"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're right, we mustn't make hasty judgements",
+                                    "fr": "You're right, we mustn't make hasty judgements",
+                                    "es": "You're right, we mustn't make hasty judgements"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "fr": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "es": "Anyway, a bunch of highschool kittens have set out to solve the mystery!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They're on their way to where the mysterious figure was last sighted",
+                                    "fr": "They're on their way to where the mysterious figure was last sighted",
+                                    "es": "They're on their way to where the mysterious figure was last sighted"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HorrorScaryAnyoneHouse",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorScaryAnyoneInsane",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Are they insane?!",
+                                        "fr": "Are they insane?!",
+                                        "es": "Are they insane?!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Never underestimate the foolishness of teenagers",
+                                                "fr": "Never underestimate the foolishness of teenagers",
+                                                "es": "Never underestimate the foolishness of teenagers"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorScaryAnyoneSafe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks safe",
+                                        "fr": "Looks safe",
+                                        "es": "Looks safe"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "fr": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "es": "... right, just as safe as a smoker in a gunpowder factory!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "HorrorNot",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "I'm not scared",
+                "fr": "I'm not scared",
+                "es": "I'm not scared"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Brave of you! He's super scary to me...",
+                        "fr": "Brave of you! He's super scary to me...",
+                        "es": "Brave of you! He's super scary to me..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Some kittens think it may be related to a young kitten who recently went missing",
+                        "fr": "Some kittens think it may be related to a young kitten who recently went missing",
+                        "es": "Some kittens think it may be related to a young kitten who recently went missing"
+                    }
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "HorrorNotPic",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "HorrorNotHim",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's obviously him",
+                            "fr": "That's obviously him",
+                            "es": "That's obviously him"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "It's possible, but we cant be sure. He is wearing a mask as you can see",
+                                    "fr": "It's possible, but we cant be sure. He is wearing a mask as you can see",
+                                    "es": "It's possible, but we cant be sure. He is wearing a mask as you can see"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "fr": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "es": "Anyway, a bunch of highschool kittens have set out to solve the mystery!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They're on their way to where the mysterious figure was last sighted",
+                                    "fr": "They're on their way to where the mysterious figure was last sighted",
+                                    "es": "They're on their way to where the mysterious figure was last sighted"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HorrorNotHimHouse",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorNotHimInsane",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Are they insane?!",
+                                        "fr": "Are they insane?!",
+                                        "es": "Are they insane?!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Never underestimate the foolishness of teenagers",
+                                                "fr": "Never underestimate the foolishness of teenagers",
+                                                "es": "Never underestimate the foolishness of teenagers"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorNotHimSafe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks safe",
+                                        "fr": "Looks safe",
+                                        "es": "Looks safe"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "fr": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "es": "... right, just as safe as a smoker in a gunpowder factory!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HorrorNotAnyone",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "Could be anyone",
+                            "fr": "Could be anyone",
+                            "es": "Could be anyone"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "You're right, we mustn't make hasty judgements",
+                                    "fr": "You're right, we mustn't make hasty judgements",
+                                    "es": "You're right, we mustn't make hasty judgements"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "fr": "Anyway, a bunch of highschool kittens have set out to solve the mystery!",
+                                    "es": "Anyway, a bunch of highschool kittens have set out to solve the mystery!"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "They're on their way to where the mysterious figure was last sighted",
+                                    "fr": "They're on their way to where the mysterious figure was last sighted",
+                                    "es": "They're on their way to where the mysterious figure was last sighted"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HorrorNotAnyoneHouse",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorNotAnyoneInsane",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Are they insane?!",
+                                        "fr": "Are they insane?!",
+                                        "es": "Are they insane?!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Never underestimate the foolishness of teenagers",
+                                                "fr": "Never underestimate the foolishness of teenagers",
+                                                "es": "Never underestimate the foolishness of teenagers"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HorrorNotAnyoneSafe",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Looks safe",
+                                        "fr": "Looks safe",
+                                        "es": "Looks safe"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "fr": "... right, just as safe as a smoker in a gunpowder factory!",
+                                                "es": "... right, just as safe as a smoker in a gunpowder factory!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "While they travel, here's a quick story",
+                                                "fr": "While they travel, here's a quick story",
+                                                "es": "While they travel, here's a quick story"
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }            
+        }
+    ]
+}
