@@ -49,9 +49,25 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "The human asks for a drink, the mouse asks for some cheese, and the chatbot asks ‘Hi there, what can I do for you?’",
-                  "fr": "L'humain commande à boire, la souris prend du fromage, et le chatbot demande 'Bonjour, que puis-je faire pour vous ?'",
-                  "es": "El humano pide para beber, el ratón pide queso, y el chatbot pregunta 'Hola, ¿qué puedo hacer por usted?"
+                  "en": "The human asks for a drink...",
+                  "fr": "L'humain commande à boire...",
+                  "es": "El humano pide para beber..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "the mouse asks for some cheese...",
+                  "fr": "la souris prend du fromage...",
+                  "es": "el ratón pide queso..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "and the chatbot asks ‘Hi there, what can I do for you?’",
+                  "fr": "et le chatbot demande 'Bonjour, que puis-je faire pour vous ?'",
+                  "es": "y el chatbot pregunta 'Hola, ¿qué puedo hacer por usted?"
                 }
               }
             ],
