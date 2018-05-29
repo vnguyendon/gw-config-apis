@@ -11,7 +11,6 @@
       { "order" : 44, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteBuff.json"]},
       { "order" : 46, "file": ["/data/bot/sequences/surveys/TrumpIran.json"]},
       { "order" : 47, "file": ["/data/bot/sequences/surveys/TrumpNorthKorea.json"]},
-      { "order" : 48, "file": ["/data/bot/sequences/surveys/RoyalWedding.json"]},
       { "order" : 50, "file": ["/data/bot/sequences/connectors/ConnectSpecial02.json"]},
       { "order" : 60, "file": ["/data/bot/sequences/experiments/Billy/1G-LearnMakeJokes.json"]},
       { "order" : 70, "file": ["/data/bot/sequences/connectors/ConnectSpecial03.json"]},
