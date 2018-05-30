@@ -22,5 +22,12 @@
             "tags" : ["cats"]
         }
     },
+    {
+      "words" : ["hi","hola","bonjour","hello","salut"],
+      "matchingType":"partial",
+        "fragment" : {
+          "path" : "HiResponse"
+        }
+    }
   ]
 }
