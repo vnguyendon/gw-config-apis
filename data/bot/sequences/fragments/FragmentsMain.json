@@ -44,5 +44,6 @@
   "oneTestFragmentForTag1":"/data/bot/sequences/experiments/rui/oneTestFragmentForTag1.json",
   "Orion":"/data/bot/sequences/appspecials/savethekitten/fragments/Orion.json",
   "Hugo":"/data/bot/sequences/appspecials/savethekitten/fragments/Hugo.json",
-  "Titus":"/data/bot/sequences/appspecials/savethekitten/fragments/Titus.json"
+  "Titus":"/data/bot/sequences/appspecials/savethekitten/fragments/Titus.json",
+  "HiResponse":"/data/bot/sequences/fragments/keywords/common/HiResponse.json"
 }
