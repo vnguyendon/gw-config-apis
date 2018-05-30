@@ -1,1186 +1,1186 @@
 {
-  "Type": "Node",
-  "Id": "Heist4",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Cat Damon has grabbed the cat food and has betrayed the team!",
-        "fr": "Cat Damon has grabbed the cat food and has betrayed the team!",
-        "es": "Cat Damon has grabbed the cat food and has betrayed the team!"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Node",
-      "Id": "Heist4Knew",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "I knew he would",
-        "fr": "I knew he would",
-        "es": "I knew he would"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You’re smart, I did not spot his treachery",
-            "fr": "You’re smart, I did not spot his treachery",
-            "es": "You’re smart, I did not spot his treachery"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But wait, the paw-lice are here!!",
-            "fr": "But wait, the paw-lice are here!!",
-            "es": "But wait, the paw-lice are here!!"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "1K2giDnsAu2Vq"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
-          }
+    "Type": "Node",
+    "Id": "Heist4",
+    "Steps": [
+      {
+        "Type": "Text",
+        "Label": {
+          "en": "Cat Damon has grabbed the cat food and has betrayed the team!",
+          "fr": "Cat Damon has grabbed the cat food and has betrayed the team!",
+          "es": "Cat Damon has grabbed the cat food and has betrayed the team!"
         }
-      ],
-      "LinksTo": {
+      }
+    ],
+    "Commands": [
+      {
         "Type": "Node",
-        "Id": "DidYouSeeWho1",
+        "Id": "Heist4Knew",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "I knew he would",
+          "fr": "I knew he would",
+          "es": "I knew he would"
+        },
         "Steps": [
           {
             "Type": "Text",
             "Label": {
-              "en": "Did you see who?",
-              "fr": "Did you see who?",
-              "es": "Did you see who?"
+              "en": "You’re smart, I did not spot his treachery",
+              "fr": "You’re smart, I did not spot his treachery",
+              "es": "You’re smart, I did not spot his treachery"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "But wait, the paw-lice are here!!",
+              "fr": "But wait, the paw-lice are here!!",
+              "es": "But wait, the paw-lice are here!!"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "1K2giDnsAu2Vq"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+              "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+              "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
             }
           }
         ],
-        "DisplayHint": "Carousel",
-        "Randomize": "true",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "Heist4KnewTitus",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Titus",
-              "fr": "Titus",
-              "es": "Titus"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😼",
-                "fr": "😼",
-                "es": "😼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "Heist4KnewWho",
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Did you see who?",
+                "fr": "Did you see who?",
+                "es": "Did you see who?"
               }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            }
+          ],
+          "DisplayHint": "Carousel",
+          "Randomize": "true",
+          "Commands": [
+            {
               "Type": "Node",
-              "Id": "Heist4KnewTitusSuccess",
+              "Id": "Heist4KnewTitus",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Titus",
+                "fr": "Titus",
+                "es": "Titus"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😼",
+                  "fr": "😼",
+                  "es": "😼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewTitusBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewTitusGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4KnewTitusSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewTitusBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewTitusGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4KnewPuma",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Puma Thurman",
-              "fr": "Puma Thurman",
-              "es": "Puma Thurman"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😽",
-                "fr": "😽",
-                "es": "😽"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She’s gonna be rich!",
-                  "fr": "She’s gonna be rich!",
-                  "es": "She’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4KnewPumaSuccess",
+              "Id": "Heist4KnewPuma",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Puma Thurman",
+                "fr": "Puma Thurman",
+                "es": "Puma Thurman"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😽",
+                  "fr": "😽",
+                  "es": "😽"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewPumaBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "She’s gonna be rich!",
+                    "fr": "She’s gonna be rich!",
+                    "es": "She’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewPumaBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4KnewPumaSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewPumaBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewPumaBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4KnewCatrick",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Catrick Swayze",
-              "fr": "Catrick Swayze",
-              "es": "Catrick Swayze"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😺",
-                "fr": "😺",
-                "es": "😺"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4KnewCatrickSuccess",
+              "Id": "Heist4KnewCatrick",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Catrick Swayze",
+                "fr": "Catrick Swayze",
+                "es": "Catrick Swayze"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😺",
+                  "fr": "😺",
+                  "es": "😺"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewCatrickBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewCatrickGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4KnewCatrickSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewCatrickBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewCatrickGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4KnewDamon",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Cat Damon",
-              "fr": "Cat Damon",
-              "es": "Cat Damon"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😸",
-                "fr": "😸",
-                "es": "😸"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4KnewDamonSuccess",
+              "Id": "Heist4KnewDamon",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Cat Damon",
+                "fr": "Cat Damon",
+                "es": "Cat Damon"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😸",
+                  "fr": "😸",
+                  "es": "😸"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewDamonBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4KnewDamonGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
                 }
-              ]
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4KnewDamonSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewDamonBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4KnewDamonGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
             }
-          }
-        ]
-      }
-    },
-    {
-      "Type": "Node",
-      "Id": "Heist4Traitor",
-      "ElementValue": "1",
-      "CommandLabel": {
-        "en": "Traitor!",
-        "fr": "Traitor!",
-        "es": "Traitor!"
-      },
-      "Steps": [
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Yes, he seems even more despicable than most kittens",
-            "fr": "Yes, he seems even more despicable than most kittens",
-            "es": "Yes, he seems even more despicable than most kittens"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But wait, the paw-lice are here!!",
-            "fr": "But wait, the paw-lice are here!!",
-            "es": "But wait, the paw-lice are here!!"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "1K2giDnsAu2Vq"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
-          }
+          ]
         }
-      ],
-      "LinksTo": {
+      },
+      {
         "Type": "Node",
-        "Id": "DidYouSeeWho2",
+        "Id": "Heist4Traitor",
+        "ElementValue": "1",
+        "CommandLabel": {
+          "en": "Traitor!",
+          "fr": "Traitor!",
+          "es": "Traitor!"
+        },
         "Steps": [
           {
             "Type": "Text",
             "Label": {
-              "en": "Did you see who?",
-              "fr": "Did you see who?",
-              "es": "Did you see who?"
+              "en": "Yes, he seems even more despicable than most kittens",
+              "fr": "Yes, he seems even more despicable than most kittens",
+              "es": "Yes, he seems even more despicable than most kittens"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "But wait, the paw-lice are here!!",
+              "fr": "But wait, the paw-lice are here!!",
+              "es": "But wait, the paw-lice are here!!"
+            }
+          },
+          {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "1K2giDnsAu2Vq"
+            }
+          },
+          {
+            "Type": "Text",
+            "Label": {
+              "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+              "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
+              "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
             }
           }
         ],
-        "DisplayHint": "Carousel",
-        "Randomize": "true",
-        "Commands": [
-          {
-            "Type": "Node",
-            "Id": "Heist4TraitorTitus",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Titus",
-              "fr": "Titus",
-              "es": "Titus"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😼",
-                "fr": "😼",
-                "es": "😼"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+        "LinksTo": {
+          "Type": "Node",
+          "Id": "Heist4TraitorWho",
+          "Steps": [
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "Did you see who?",
+                "fr": "Did you see who?",
+                "es": "Did you see who?"
               }
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            }
+          ],
+          "DisplayHint": "Carousel",
+          "Randomize": "true",
+          "Commands": [
+            {
               "Type": "Node",
-              "Id": "Heist4TraitorTitusSuccess",
+              "Id": "Heist4TraitorTitus",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Titus",
+                "fr": "Titus",
+                "es": "Titus"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😼",
+                  "fr": "😼",
+                  "es": "😼"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorTitusBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorTitusGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4TraitorTitusSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorTitusBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorTitusGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4TraitorPuma",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Puma Thurman",
-              "fr": "Puma Thurman",
-              "es": "Puma Thurman"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😽",
-                "fr": "😽",
-                "es": "😽"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "She’s gonna be rich!",
-                  "fr": "She’s gonna be rich!",
-                  "es": "She’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4TraitorPumaSuccess",
+              "Id": "Heist4TraitorPuma",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Puma Thurman",
+                "fr": "Puma Thurman",
+                "es": "Puma Thurman"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😽",
+                  "fr": "😽",
+                  "es": "😽"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorPumaBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "She’s gonna be rich!",
+                    "fr": "She’s gonna be rich!",
+                    "es": "She’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorPumaGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4TraitorPumaSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorPumaBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorPumaGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4TraitorCatrick",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Catrick Swayze",
-              "fr": "Catrick Swayze",
-              "es": "Catrick Swayze"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😺",
-                "fr": "😺",
-                "es": "😺"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4TraitorCatrickSuccess",
+              "Id": "Heist4TraitorCatrick",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Catrick Swayze",
+                "fr": "Catrick Swayze",
+                "es": "Catrick Swayze"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😺",
+                  "fr": "😺",
+                  "es": "😺"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_84418426.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorCatrickBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorCatrickGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
+                }
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4TraitorCatrickSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorCatrickBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
                   },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorCatrickGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
                     },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
                       }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "Heist4TraitorDamon",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "Cat Damon",
-              "fr": "Cat Damon",
-              "es": "Cat Damon"
-            },
-            "CarouselElements": {
-              "Title": {
-                "en": "😸",
-                "fr": "😸",
-                "es": "😸"
-              },
-              "Picture": {
-                "Source": "Web",
-                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                    ]
+                  }
+                ]
               }
             },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
-                }
-              }
-            ],
-            "LinksTo": {
+            {
               "Type": "Node",
-              "Id": "Heist4TraitorDamonSuccess",
+              "Id": "Heist4TraitorDamon",
               "ElementValue": "1",
-              "Commands": [
+              "CommandLabel": {
+                "en": "Cat Damon",
+                "fr": "Cat Damon",
+                "es": "Cat Damon"
+              },
+              "CarouselElements": {
+                "Title": {
+                  "en": "😸",
+                  "fr": "😸",
+                  "es": "😸"
+                },
+                "Picture": {
+                  "Source": "Web",
+                  "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+                }
+              },
+              "Steps": [
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorDamonBad",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Text",
+                  "Label": {
+                    "en": "He’s gonna be rich!",
+                    "fr": "He’s gonna be rich!",
+                    "es": "He’s gonna be rich!"
+                  }
                 },
                 {
-                  "Type": "Leaf",
-                  "Id": "Heist4TraitorDamonGood",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
-                      }
-                    },
-                    {
-                      "Type": "Image",
-                      "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
-                      }
-                    }
-                  ]
+                  "Type": "Image",
+                  "Parameters": {
+                    "Source": "Web",
+                    "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014332563.jpg"
+                  }
                 }
-              ]
+              ],
+              "LinksTo": {
+                "Type": "Node",
+                "Id": "Heist4TraitorDamonSuccess",
+                "ElementValue": "1",
+                "Commands": [
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorDamonBad",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "Terrible heist!",
+                      "fr": "Terrible heist!",
+                      "es": "Terrible heist!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
+                  },
+                  {
+                    "Type": "Leaf",
+                    "Id": "Heist4TraitorDamonGood",
+                    "ElementValue": "1",
+                    "CommandLabel": {
+                      "en": "A heist well done!",
+                      "fr": "A heist well done!",
+                      "es": "A heist well done!"
+                    },
+                    "Steps": [
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Well, yes, most of them ended up in jail.",
+                          "fr": "Well, yes, most of them ended up in jail.",
+                          "es": "Well, yes, most of them ended up in jail."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Where they should be.",
+                          "fr": "Where they should be.",
+                          "es": "Where they should be."
+                        }
+                      },
+                      {
+                        "Type": "Text",
+                        "Label": {
+                          "en": "Horrible kittens.",
+                          "fr": "Horrible kittens.",
+                          "es": "Horrible kittens."
+                        }
+                      },
+                      {
+                        "Type": "Image",
+                        "Parameters": {
+                          "Source": "Web",
+                          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
+                        }
+                      }
+                    ]
+                  }
+                ]
+              }
             }
-          }
-        ]
+          ]
+        }
       }
-    }
-  ]
-}
+    ]
+  }
