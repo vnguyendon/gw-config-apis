@@ -603,17 +603,17 @@
       "Id": "JuryYes",
       "ElementValue": "1",
       "CommandLabel": {
-        "en": "Of course not",
-        "fr": "Of course not",
-        "es": "Of course not"
+        "en": "Yes I have",
+        "fr": "Yes I have",
+        "es": "Yes I have"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
-            "en": "Well, you’re needed!",
-            "fr": "Well, you’re needed!",
-            "es": "Well, you’re needed!"
+            "en": "Well, you’re needed again!",
+            "fr": "Well, you’re needed again!",
+            "es": "Well, you’re needed again!"
           }
         },
         {
