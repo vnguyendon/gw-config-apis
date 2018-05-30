@@ -1,0 +1,37 @@
+{
+    "Type": "Leaf",
+    "Id": "HiResponse",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Hi to you too!",
+                "fr": "Hi to you too!",
+                "es": "Hi to you too!"
+            }
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "SKPa3md5JZnevG59jm"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "By the way, I can understand some humanspeak, but not all...",
+                "fr": "By the way, I can understand some humanspeak, but not all...",
+                "es": "By the way, I can understand some humanspeak, but not all..."
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Try using the quick replies to respond instead!",
+                "fr": "Try using the quick replies to respond instead!",
+                "es": "Try using the quick replies to respond instead!"
+            }
+        }
+    ]
+}
