@@ -50,7 +50,7 @@
                     "Type": "Image",
                     "Parameters": {
                         "Source": "Web",
-                        "Path": "/themes/emojiFish/small/shutterstock_1015898524.jpg"
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527678961/C.A.T..jpg"
                     }
                 }
             ],
