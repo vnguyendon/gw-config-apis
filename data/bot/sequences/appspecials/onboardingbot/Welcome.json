@@ -1,0 +1,63 @@
+{
+  "Type": "Node",
+  "Id": "Welcome",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Welcome !",
+        "fr": "Bienvenue !",
+        "es": "Bienvenido !"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let's configure together your main screen",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1527689660/Screenshot_20180530-144404_c6xtzx.jpg"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+  },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Ready to chose your favourite Emoji category?",
+        "fr": "TBD",
+        "es": "TBD"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "WelcomeConfigure",
+      "CommandLabel": {
+        "en": "YES!",
+        "fr": "OUI !",
+        "es": "¡SI!"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "UserPickATheme"
+        }
+      ]
+    }
+  ]
+}
+
+
