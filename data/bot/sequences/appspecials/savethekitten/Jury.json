@@ -1,0 +1,1188 @@
+{
+  "Type": "Node",
+  "Id": "Jury",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever served on a jury of kittens?",
+        "fr": "Have you ever served on a jury of kittens?",
+        "es": "Have you ever served on a jury of kittens?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "JuryNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Of course not",
+        "fr": "Of course not",
+        "es": "Of course not"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, you’re needed!",
+            "fr": "Well, you’re needed!",
+            "es": "Well, you’re needed!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
+            "fr": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
+            "es": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You are the last on a jury of thirteen kittens!",
+            "fr": "You are the last on a jury of thirteen kittens!",
+            "es": "You are the last on a jury of thirteen kittens!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish...",
+            "fr": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish...",
+            "es": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Let me remind you of the evidence that was brought up in the trial",
+            "fr": "Let me remind you of the evidence that was brought up in the trial",
+            "es": "Let me remind you of the evidence that was brought up in the trial"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "JuryNoEvidence",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "JuryNoHear",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let’s hear it",
+              "fr": "Let’s hear it",
+              "es": "Let’s hear it"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "First, some of Louis’ hairs were discovered in the room",
+                  "fr": "First, some of Louis’ hairs were discovered in the room",
+                  "es": "First, some of Louis’ hairs were discovered in the room"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "This mean kitten is Juror 3",
+                  "fr": "This mean kitten is Juror 3",
+                  "es": "This mean kitten is Juror 3"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "He had this to say:",
+                  "fr": "He had this to say:",
+                  "es": "He had this to say:"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "fr": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "es": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "JuryNoHearHairs",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "JuryNoHearFalse",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s not proof!",
+                    "fr": "That’s not proof!",
+                    "es": "That’s not proof!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Right! He could have been there at any time…",
+                        "fr": "Right! He could have been there at any time…",
+                        "es": "Right! He could have been there at any time…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryNoHearFalseJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoHearFalseFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoHearFalseSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "JuryNoHearTrue",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s incriminating",
+                    "fr": "That’s incriminating",
+                    "es": "That’s incriminating"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess so…",
+                        "fr": "I guess so…",
+                        "es": "I guess so…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryNoHearTrueJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoHearTrueFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoHearTrueSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "JuryNoThere",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "You were there?",
+              "fr": "You were there?",
+              "es": "You were there?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yes, fish are allowed in the courtroom!",
+                  "fr": "Yes, fish are allowed in the courtroom!",
+                  "es": "Yes, fish are allowed in the courtroom!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "First, some of Louis’ hairs were discovered in the room",
+                  "fr": "First, some of Louis’ hairs were discovered in the room",
+                  "es": "First, some of Louis’ hairs were discovered in the room"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "This mean kitten is Juror 3",
+                  "fr": "This mean kitten is Juror 3",
+                  "es": "This mean kitten is Juror 3"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "He had this to say:",
+                  "fr": "He had this to say:",
+                  "es": "He had this to say:"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "fr": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "es": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "JuryNoThereHairs",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "JuryNoThereFalse",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s not proof!",
+                    "fr": "That’s not proof!",
+                    "es": "That’s not proof!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Right! He could have been there at any time…",
+                        "fr": "Right! He could have been there at any time…",
+                        "es": "Right! He could have been there at any time…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryNoThereFalseJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoThereFalseFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoThereFalseSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "JuryNoThereTrue",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s incriminating",
+                    "fr": "That’s incriminating",
+                    "es": "That’s incriminating"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess so…",
+                        "fr": "I guess so…",
+                        "es": "I guess so…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryNoThereTrueJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoThereTrueFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryNoThereTrueSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "JuryYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Of course not",
+        "fr": "Of course not",
+        "es": "Of course not"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Well, you’re needed!",
+            "fr": "Well, you’re needed!",
+            "es": "Well, you’re needed!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
+            "fr": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
+            "es": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y"
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "You are the last on a jury of thirteen kittens!",
+            "fr": "You are the last on a jury of thirteen kittens!",
+            "es": "You are the last on a jury of thirteen kittens!"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish...",
+            "fr": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish...",
+            "es": "The other twelve are looking a for a guilty verdict, but you have the power to save Louis, if you wish..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Let me remind you of the evidence that was brought up in the trial",
+            "fr": "Let me remind you of the evidence that was brought up in the trial",
+            "es": "Let me remind you of the evidence that was brought up in the trial"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "JuryYesEvidence",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "JuryYesHear",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Let’s hear it",
+              "fr": "Let’s hear it",
+              "es": "Let’s hear it"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "First, some of Louis’ hairs were discovered in the room",
+                  "fr": "First, some of Louis’ hairs were discovered in the room",
+                  "es": "First, some of Louis’ hairs were discovered in the room"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "This mean kitten is Juror 3",
+                  "fr": "This mean kitten is Juror 3",
+                  "es": "This mean kitten is Juror 3"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "He had this to say:",
+                  "fr": "He had this to say:",
+                  "es": "He had this to say:"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "fr": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "es": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "JuryYesHearHairs",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "JuryYesHearFalse",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s not proof!",
+                    "fr": "That’s not proof!",
+                    "es": "That’s not proof!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Right! He could have been there at any time…",
+                        "fr": "Right! He could have been there at any time…",
+                        "es": "Right! He could have been there at any time…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryYesHearFalseJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesHearFalseFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesHearFalseSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "JuryYesHearTrue",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s incriminating",
+                    "fr": "That’s incriminating",
+                    "es": "That’s incriminating"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess so…",
+                        "fr": "I guess so…",
+                        "es": "I guess so…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryYesHearTrueJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesHearTrueFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesHearTrueSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "JuryYesThere",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "You were there?",
+              "fr": "You were there?",
+              "es": "You were there?"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Yes, fish are allowed in the courtroom!",
+                  "fr": "Yes, fish are allowed in the courtroom!",
+                  "es": "Yes, fish are allowed in the courtroom!"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "First, some of Louis’ hairs were discovered in the room",
+                  "fr": "First, some of Louis’ hairs were discovered in the room",
+                  "es": "First, some of Louis’ hairs were discovered in the room"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "This mean kitten is Juror 3",
+                  "fr": "This mean kitten is Juror 3",
+                  "es": "This mean kitten is Juror 3"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "He had this to say:",
+                  "fr": "He had this to say:",
+                  "es": "He had this to say:"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "fr": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                  "es": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "JuryYesThereHairs",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "JuryYesThereFalse",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s not proof!",
+                    "fr": "That’s not proof!",
+                    "es": "That’s not proof!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Right! He could have been there at any time…",
+                        "fr": "Right! He could have been there at any time…",
+                        "es": "Right! He could have been there at any time…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryYesThereFalseJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesThereFalseFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesThereFalseSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "JuryYesThereTrue",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "That’s incriminating",
+                    "fr": "That’s incriminating",
+                    "es": "That’s incriminating"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "I guess so…",
+                        "fr": "I guess so…",
+                        "es": "I guess so…"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "fr": "The second piece of evidence is that he was seen talking to the victim the night before",
+                        "es": "The second piece of evidence is that he was seen talking to the victim the night before"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Juror 3 said this:",
+                        "fr": "Juror 3 said this:",
+                        "es": "Juror 3 said this:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "fr": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                        "es": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”"
+                      }
+                    }
+                  ],
+                  "LinksTo": {
+                    "Type": "Node",
+                    "Id": "JuryYesThereTrueJail",
+                    "ElementValue": "1",
+                    "Commands": [
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesThereTrueFalse",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Not valid evidence",
+                          "fr": "Not valid evidence",
+                          "es": "Not valid evidence"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Hmm, you may be right.",
+                              "fr": "Hmm, you may be right.",
+                              "es": "Hmm, you may be right."
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "He is not necessarily guilty just because he talked to the victim…",
+                              "fr": "He is not necessarily guilty just because he talked to the victim…",
+                              "es": "He is not necessarily guilty just because he talked to the victim…"
+                            }
+                          }
+                        ]
+                      },
+                      {
+                        "Type": "Leaf",
+                        "Id": "JuryYesThereTrueSwing",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                          "en": "Louis must swing!",
+                          "fr": "Louis must swing!",
+                          "es": "Louis must swing!"
+                        },
+                        "Steps": [
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Wow, you seem as angry as the other 12 kittens!",
+                              "fr": "Wow, you seem as angry as the other 12 kittens!",
+                              "es": "Wow, you seem as angry as the other 12 kittens!"
+                            }
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
