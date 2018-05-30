@@ -1,0 +1,897 @@
+{
+    "Type": "Node",
+    "Id": "Jury2",
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution.",
+                "fr": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution.",
+                "es": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675635/Polaroid_Frame.jpg"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "Here is what Juror 3 said:",
+                "fr": "Here is what Juror 3 said:",
+                "es": "Here is what Juror 3 said:"
+            }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”",
+                "fr": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”",
+                "es": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”"
+            }
+        }
+    ],
+    "Commands": [
+        {
+            "Type": "Node",
+            "Id": "Jury2Biased",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He’s biased",
+                "fr": "He’s biased",
+                "es": "He’s biased"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "It's possible... he is known to dislike sandy-coloured kittens!",
+                        "fr": "It's possible... he is known to dislike sandy-coloured kittens!",
+                        "es": "It's possible... he is known to dislike sandy-coloured kittens!"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, the rest of the jurors seem to agree with him",
+                        "fr": "Anyway, the rest of the jurors seem to agree with him",
+                        "es": "Anyway, the rest of the jurors seem to agree with him"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I think it’s because they were asleep during the trial",
+                        "fr": "But I think it’s because they were asleep during the trial",
+                        "es": "But I think it’s because they were asleep during the trial"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Jury2BiasedSleep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Jury2BiasedBoring",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It was very boring",
+                            "fr": "It was very boring",
+                            "es": "It was very boring"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Hey! A kitten’s life is in balance here!",
+                                    "fr": "Hey! A kitten’s life is in balance here!",
+                                    "es": "Hey! A kitten’s life is in balance here!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… what do you think?",
+                                    "fr": "So… what do you think?",
+                                    "es": "So… what do you think?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Take some time and consider the evidence…",
+                                    "fr": "Take some time and consider the evidence…",
+                                    "es": "Take some time and consider the evidence…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Jury2BiasedBoringEvidence",
+                            "ElementValue": "1",
+                            "DisplayHint": "Carousel",
+                            "Randomize": "true",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedBoringJail",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Louis needs jail",
+                                        "fr": "Louis needs jail",
+                                        "es": "Louis needs jail"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "⛔",
+                                            "fr": "⛔",
+                                            "es": "⛔"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedBoringHang",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Hang him!",
+                                        "fr": "Hang him!",
+                                        "es": "Hang him!"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "☠",
+                                            "fr": "☠",
+                                            "es": "☠"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedBoringFree",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Let him go free",
+                                        "fr": "Let him go free",
+                                        "es": "Let him go free"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "😸",
+                                            "fr": "😸",
+                                            "es": "😸"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How noble of you!",
+                                                "fr": "How noble of you!",
+                                                "es": "How noble of you!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Jury2BiasedImmoral",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's immoral!",
+                            "fr": "That's immoral!",
+                            "es": "That's immoral!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! Jury service is serious business!",
+                                    "fr": "Right! Jury service is serious business!",
+                                    "es": "Right! Jury service is serious business!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… what do you think?",
+                                    "fr": "So… what do you think?",
+                                    "es": "So… what do you think?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Take some time and consider the evidence…",
+                                    "fr": "Take some time and consider the evidence…",
+                                    "es": "Take some time and consider the evidence…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Jury2BiasedImmoralEvidence",
+                            "ElementValue": "1",
+                            "DisplayHint": "Carousel",
+                            "Randomize": "true",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedImmoralJail",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Louis needs jail",
+                                        "fr": "Louis needs jail",
+                                        "es": "Louis needs jail"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "⛔",
+                                            "fr": "⛔",
+                                            "es": "⛔"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedImmoralHang",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Hang him!",
+                                        "fr": "Hang him!",
+                                        "es": "Hang him!"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "☠",
+                                            "fr": "☠",
+                                            "es": "☠"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2BiasedImmoralFree",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Let him go free",
+                                        "fr": "Let him go free",
+                                        "es": "Let him go free"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "😸",
+                                            "fr": "😸",
+                                            "es": "😸"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How noble of you!",
+                                                "fr": "How noble of you!",
+                                                "es": "How noble of you!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        },
+        {
+            "Type": "Node",
+            "Id": "Jury2Point",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "He has a point",
+                "fr": "He has a point",
+                "es": "He has a point"
+            },
+            "Steps": [
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "The picture does seem rather incriminating...",
+                        "fr": "The picture does seem rather incriminating...",
+                        "es": "The picture does seem rather incriminating..."
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Anyway, the rest of the jurors seem to agree with him",
+                        "fr": "Anyway, the rest of the jurors seem to agree with him",
+                        "es": "Anyway, the rest of the jurors seem to agree with him"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But I think it’s because they were asleep during the trial",
+                        "fr": "But I think it’s because they were asleep during the trial",
+                        "es": "But I think it’s because they were asleep during the trial"
+                    }
+                }
+            ],
+            "LinksTo": {
+                "Type": "Node",
+                "Id": "Jury2PointSleep",
+                "ElementValue": "1",
+                "Commands": [
+                    {
+                        "Type": "Node",
+                        "Id": "Jury2PointBoring",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "It was very boring",
+                            "fr": "It was very boring",
+                            "es": "It was very boring"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Hey! A kitten’s life is in balance here!",
+                                    "fr": "Hey! A kitten’s life is in balance here!",
+                                    "es": "Hey! A kitten’s life is in balance here!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… what do you think?",
+                                    "fr": "So… what do you think?",
+                                    "es": "So… what do you think?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Take some time and consider the evidence…",
+                                    "fr": "Take some time and consider the evidence…",
+                                    "es": "Take some time and consider the evidence…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Jury2PointBoringEvidence",
+                            "ElementValue": "1",
+                            "DisplayHint": "Carousel",
+                            "Randomize": "true",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointBoringJail",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Louis needs jail",
+                                        "fr": "Louis needs jail",
+                                        "es": "Louis needs jail"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "⛔",
+                                            "fr": "⛔",
+                                            "es": "⛔"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointBoringHang",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Hang him!",
+                                        "fr": "Hang him!",
+                                        "es": "Hang him!"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "☠",
+                                            "fr": "☠",
+                                            "es": "☠"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointBoringFree",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Let him go free",
+                                        "fr": "Let him go free",
+                                        "es": "Let him go free"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "😸",
+                                            "fr": "😸",
+                                            "es": "😸"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How noble of you!",
+                                                "fr": "How noble of you!",
+                                                "es": "How noble of you!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "Jury2PointImmoral",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "That's immoral!",
+                            "fr": "That's immoral!",
+                            "es": "That's immoral!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Right! Jury service is serious business!",
+                                    "fr": "Right! Jury service is serious business!",
+                                    "es": "Right! Jury service is serious business!"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "So… what do you think?",
+                                    "fr": "So… what do you think?",
+                                    "es": "So… what do you think?"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Take some time and consider the evidence…",
+                                    "fr": "Take some time and consider the evidence…",
+                                    "es": "Take some time and consider the evidence…"
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "Jury2PointImmoralEvidence",
+                            "ElementValue": "1",
+                            "DisplayHint": "Carousel",
+                            "Randomize": "true",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointImmoralJail",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Louis needs jail",
+                                        "fr": "Louis needs jail",
+                                        "es": "Louis needs jail"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "⛔",
+                                            "fr": "⛔",
+                                            "es": "⛔"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
+                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointImmoralHang",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Hang him!",
+                                        "fr": "Hang him!",
+                                        "es": "Hang him!"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "☠",
+                                            "fr": "☠",
+                                            "es": "☠"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
+                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Internal",
+                                                "Path": "/themes/emojiFish/small/shutterstock_1015898518.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "Jury2PointImmoralFree",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Let him go free",
+                                        "fr": "Let him go free",
+                                        "es": "Let him go free"
+                                    },
+                                    "CarouselElements": {
+                                        "Title": {
+                                            "en": "😸",
+                                            "fr": "😸",
+                                            "es": "😸"
+                                        },
+                                        "Picture": {
+                                            "Source": "Web",
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                        }
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "How noble of you!",
+                                                "fr": "How noble of you!",
+                                                "es": "How noble of you!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
+                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "I wonder if we will ever see him again...",
+                                                "fr": "I wonder if we will ever see him again...",
+                                                "es": "I wonder if we will ever see him again..."
+                                            }
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    }
+                ]
+            }
+        }
+    ]
+}
