@@ -1,6 +1,6 @@
 {
   "GroupName": "onboardingprocess",
   "SequenceFiles": [
-    { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/OnboardingHello.json"]}
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/Welcome.json"]}
   ]
 }
