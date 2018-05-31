@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "You have selected",
-        "fr": "Vous avez sélectionné",
-        "es": "XXX"
+        "en": "You have selected...",
+        "fr": "Vous avez sélectionné...",
+        "es": "Seleccionaste..."
       }
     },
     {
@@ -24,9 +24,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "What a great choice ☺",
-        "fr": "Excellent choix ☺",
-        "es": "TBD"
+        "en": "What a great choice! 😋",
+        "fr": "Excellent choix ! 😋",
+        "es": "¡Gran elección! 😋"
       }
     },
     {
@@ -34,7 +34,7 @@
       "Label": {
         "en": "Let's launch the app and send messages!",
         "fr": "On peut maintenant lancer l'application et envoyer des messages!",
-        "es": "TBD"
+        "es": "¡Ahora podemos iniciar la app y mandar mensajes!"
       }
     },
     {
@@ -50,9 +50,9 @@
       "Type": "Leaf",
       "Id": "LetsLaunchAppOk",
       "CommandLabel": {
-        "en": "Ok!",
-        "fr": "D'accord !",
-        "es": "¡ !"
+        "en": "Ok! 😎",
+        "fr": "D'accord ! 😎",
+        "es": "¡Vale! 😎"
       },
       "Steps": [
         {
