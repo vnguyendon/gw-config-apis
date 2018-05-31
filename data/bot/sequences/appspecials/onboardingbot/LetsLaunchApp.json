@@ -1,0 +1,67 @@
+{
+  "Type": "Node",
+  "Id": "LetsLaunchApp",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You have selected",
+        "fr": "Vous avez sélectionné",
+        "es": "XXX"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowSelectedIntentionThumbnailAndLabel"
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "What a great choice ☺",
+        "fr": "Excellent choix ☺",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let's launch the app and send messages!",
+        "fr": "On peut maintenant lancer l'application et envoyer des messages!",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "LetsLaunchAppOk",
+      "CommandLabel": {
+        "en": "Ok!",
+        "fr": "D'accord !",
+        "es": "¡ !"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "ExitOnboardingBot"
+        }
+      ]
+    }
+  ]
+}
+
+
