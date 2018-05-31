@@ -39,6 +39,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
@@ -83,6 +90,13 @@
                                     "en": "This is live and happening right now!",
                                     "fr": "This is live and happening right now!",
                                     "es": "This is live and happening right now!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -172,6 +186,13 @@
                                     "en": "Crime is not exciting, it’s immoral!",
                                     "fr": "Crime is not exciting, it’s immoral!",
                                     "es": "Crime is not exciting, it’s immoral!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
@@ -274,6 +295,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
@@ -318,6 +346,13 @@
                                     "en": "This is live and happening right now!",
                                     "fr": "This is live and happening right now!",
                                     "es": "This is live and happening right now!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
                                 }
                             },
                             {
