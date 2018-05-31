@@ -6,8 +6,8 @@
             "Type": "Text",
             "Label": {
                 "en": "Hi to you too!",
-                "fr": "Hi to you too!",
-                "es": "Hi to you too!"
+                "fr": "Salut à toi aussi !",
+                "es": "¡Hola a ti también!"
             }
         },
         {
@@ -21,16 +21,16 @@
             "Type": "Text",
             "Label": {
                 "en": "By the way, I can understand some humanspeak, but not all...",
-                "fr": "By the way, I can understand some humanspeak, but not all...",
-                "es": "By the way, I can understand some humanspeak, but not all..."
+                "fr": "Au fait, je comprends le langage humain, mais je ne maîtrise pas tout...",
+                "es": "A propósito, entiendo el lenguaje humano, pero no domino lo todo..."
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Try using the quick replies to respond instead!",
-                "fr": "Try using the quick replies to respond instead!",
-                "es": "Try using the quick replies to respond instead!"
+                "fr": "Essaie plutôt d'utiliser les réponses rapides !",
+                "es": "¡Más bien pruebas utlizar las respuestas rápidas!"
             }
         }
     ]
