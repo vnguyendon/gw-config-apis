@@ -18,6 +18,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Here is what Juror 3 said:",
@@ -51,6 +58,13 @@
                         "en": "It's possible... he is known to dislike sandy-coloured kittens!",
                         "fr": "It's possible... he is known to dislike sandy-coloured kittens!",
                         "es": "It's possible... he is known to dislike sandy-coloured kittens!"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                      "Mode": "Wait",
+                      "ms": 2000
                     }
                 },
                 {
@@ -91,6 +105,13 @@
                                     "en": "Hey! A kitten’s life is in balance here!",
                                     "fr": "Hey! A kitten’s life is in balance here!",
                                     "es": "Hey! A kitten’s life is in balance here!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                  "Mode": "Wait",
+                                  "ms": 2000
                                 }
                             },
                             {
@@ -144,6 +165,13 @@
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 5000
                                             }
                                         },
                                         {
@@ -201,6 +229,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -248,6 +283,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -284,6 +326,13 @@
                                     "en": "Right! Jury service is serious business!",
                                     "fr": "Right! Jury service is serious business!",
                                     "es": "Right! Jury service is serious business!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                  "Mode": "Wait",
+                                  "ms": 2000
                                 }
                             },
                             {
@@ -337,6 +386,13 @@
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 5000
                                             }
                                         },
                                         {
@@ -394,6 +450,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -441,6 +504,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 3000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -483,6 +553,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                      "Mode": "Wait",
+                      "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Anyway, the rest of the jurors seem to agree with him",
@@ -520,6 +597,13 @@
                                     "en": "Hey! A kitten’s life is in balance here!",
                                     "fr": "Hey! A kitten’s life is in balance here!",
                                     "es": "Hey! A kitten’s life is in balance here!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                  "Mode": "Wait",
+                                  "ms": 2000
                                 }
                             },
                             {
@@ -573,6 +657,13 @@
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
                                                 "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 5000
                                             }
                                         },
                                         {
@@ -630,6 +721,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -677,6 +775,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 3000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -713,6 +818,13 @@
                                     "en": "Right! Jury service is serious business!",
                                     "fr": "Right! Jury service is serious business!",
                                     "es": "Right! Jury service is serious business!"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                  "Mode": "Wait",
+                                  "ms": 2000
                                 }
                             },
                             {
@@ -769,6 +881,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 5000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
@@ -813,6 +932,13 @@
                                                 "en": "Wow… I usually don’t feel sorry for kittens… but…",
                                                 "fr": "Wow… I usually don’t feel sorry for kittens… but…",
                                                 "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 4000
                                             }
                                         },
                                         {
@@ -867,6 +993,13 @@
                                                 "en": "How noble of you!",
                                                 "fr": "How noble of you!",
                                                 "es": "How noble of you!"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                              "Mode": "Wait",
+                                              "ms": 3000
                                             }
                                         },
                                         {
