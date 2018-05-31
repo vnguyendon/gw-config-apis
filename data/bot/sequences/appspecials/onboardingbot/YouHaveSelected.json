@@ -1,0 +1,50 @@
+{
+  "Type": "Leaf",
+  "Id": "YouHaveSelected",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You have selected",
+        "fr": "Vous avez sélectionné",
+        "es": "XXX"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowSelectedImageAndThemeName"
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am now configuring your main screen",
+        "fr": "Je configure votre écran principale",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here's an advert while you wait",
+        "fr": "Voici une publicité pendant que vous attendez",
+        "es": "TBD"
+      }
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    }
+  ]
+}
+
+
