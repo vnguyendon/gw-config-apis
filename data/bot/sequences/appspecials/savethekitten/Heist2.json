@@ -14,7 +14,7 @@
             "Type": "Action",
             "Name": "ShowCarouselFromList",
             "Parameters": {
-                "Path": "/data/common/carousels/nutty/parcs.json"
+                "Path": "/data/common/carousels/kitten/HeistTeam.json"
             }
         }
     ],
