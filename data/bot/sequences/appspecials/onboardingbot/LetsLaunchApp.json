@@ -12,7 +12,7 @@
     },
     {
       "Type": "Action",
-      "Name": "ShowSelectedIntentionThumbnailAndLabel"
+      "Name": "ShowFavoriteIntention"
     },
     {
       "Type": "Pause",
@@ -57,7 +57,7 @@
       "Steps": [
         {
           "Type": "Action",
-          "Name": "ExitOnboardingBot"
+          "Name": "ShowMainScreen "
         }
       ]
     }
