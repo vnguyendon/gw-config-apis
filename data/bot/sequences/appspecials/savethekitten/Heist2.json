@@ -38,6 +38,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
@@ -50,6 +57,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -135,6 +149,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
@@ -147,6 +168,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
@@ -225,6 +253,13 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
@@ -237,6 +272,13 @@
                     "Parameters": {
                         "Source": "Giphy",
                         "Path": "XKi1HStszu1bYArFtT"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
