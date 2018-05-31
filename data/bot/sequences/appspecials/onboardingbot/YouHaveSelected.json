@@ -5,9 +5,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "You have selected",
-        "fr": "Vous avez sélectionné",
-        "es": "XXX"
+        "en": "You have selected...",
+        "fr": "Vous avez sélectionné...",
+        "es": "Seleccionaste..."
       }
     },
     {
@@ -26,15 +26,15 @@
       "Label": {
         "en": "I am now configuring your main screen",
         "fr": "Je configure votre écran principale",
-        "es": "TBD"
+        "es": "Estoy configurando tu pantalla principal"
       }
     },
     {
       "Type": "Text",
       "Label": {
-        "en": "Here's an advert while you wait",
-        "fr": "Voici une publicité pendant que vous attendez",
-        "es": "TBD"
+        "en": "Here's an advert while you wait 😁",
+        "fr": "Voici une publicité pendant que vous attendez 😁",
+        "es": "Aqui esta un anuncio mientras esperas 😁"
       }
     },
     {
