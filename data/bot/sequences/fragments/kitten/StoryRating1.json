@@ -1,0 +1,90 @@
+{
+    "Type": "Node",
+    "Id": "StoryRating1",
+    "Tags": [
+        "stkrating"
+    ],
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "So, did you like the story?",
+                "fr": "Allez vous souvent au cinéma ?",
+                "es": "¿Vas al cine a menudo?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "StoryRating1Yes",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Yes!",
+                "fr": "Oui !",
+                "es": "Sí"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "J65pdOUXTyG1q"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "So glad to hear it! 😄",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "StoryRating1No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not really",
+                "fr": "Non‍",
+                "es": "No"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "10tIjpzIu8fe0"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "No problem, you'll love the next!",
+                        "fr": "Allez vous souvent au cinéma ?",
+                        "es": "¿Vas al cine a menudo?"
+                    }
+                }
+            ]
+        }
+    ]
+}
