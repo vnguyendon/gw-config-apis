@@ -9,8 +9,8 @@
             "Type": "Text",
             "Label": {
                 "en": "So, did you like the story?",
-                "fr": "Allez vous souvent au cinéma ?",
-                "es": "¿Vas al cine a menudo?"
+                "fr": "Alors, tu as aimé cette histoire ?",
+                "es": "Entonces, ¿te gustó esa historia?"
             }
         }
     ],
@@ -23,7 +23,7 @@
             "CommandLabel": {
                 "en": "Yes!",
                 "fr": "Oui !",
-                "es": "Sí"
+                "es": "¡Sí!"
             },
             "Steps": [
                 {
@@ -45,8 +45,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "So glad to hear it! 😄",
-                        "fr": "Allez vous souvent au cinéma ?",
-                        "es": "¿Vas al cine a menudo?"
+                        "fr": "Ravi de l'apprendre ! 😄",
+                        "es": "¡Muy contento de oírlo! 😄"
                     }
                 }
             ]
@@ -57,8 +57,8 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not really",
-                "fr": "Non‍",
-                "es": "No"
+                "fr": "Pas vraiment",
+                "es": "Realmente no"
             },
             "Steps": [
                 {
@@ -80,8 +80,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "No problem, you'll love the next!",
-                        "fr": "Allez vous souvent au cinéma ?",
-                        "es": "¿Vas al cine a menudo?"
+                        "fr": "Pas de soucis, tu vas adorer la prochaine !",
+                        "es": "Ningún problema, ¡la próxima va a encantarte!"
                     }
                 }
             ]
