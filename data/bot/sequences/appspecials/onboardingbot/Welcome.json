@@ -5,17 +5,17 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Welcome !",
+        "en": "Welcome!",
         "fr": "Bienvenue !",
-        "es": "Bienvenido !"
+        "es": "¡Bienvenido!"
       }
     },
     {
       "Type": "Text",
       "Label": {
-        "en": "Let's configure together your main screen",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "Let's configure together your main screen 😊",
+        "fr": "Configurons ton écran d'accueil ensemble 😊",
+        "es": "Vamos a configurar tu pantalla principal 😊"
       }
     },
     {
@@ -35,9 +35,9 @@
     {
       "Type": "Text",
       "Label": {
-        "en": "Ready to chose your favourite Emoji category?",
-        "fr": "TBD",
-        "es": "TBD"
+        "en": "Ready to choose your favourite emoji category?",
+        "fr": "Prêt à choisir ta catégorie d'emoji préférée ?",
+        "es": "¿Listo para elegir tu categoría de emoji preferida?"
       }
     }
   ],
