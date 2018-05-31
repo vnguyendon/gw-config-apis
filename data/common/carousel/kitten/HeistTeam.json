@@ -1,0 +1,70 @@
+{
+    "Id": "HeistTeam",
+    "Randomize": "true",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Catrick Swayze",
+                "fr": "Catrick Swayze",
+                "es": "Catrick Swayze"
+            },
+            "Subtitle": {
+                "en": "Team Leader 🕶",
+                "fr": "Team Leader 🕶",
+                "es": "Team Leader 🕶"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterkittens/small/shutterstock_84418426.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Puma Thurman",
+                "fr": "Puma Thurman",
+                "es": "Puma Thurman"
+            },
+            "Subtitle": {
+                "en": "Inside Woman 🕵️‍♀️",
+                "fr": "Inside Woman 🕵️‍♀️",
+                "es": "Inside Woman 🕵️‍♀️"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1527083139/shutterstock_541809361.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Cat Damon",
+                "fr": "Cat Damon",
+                "es": "Cat Damon"
+            },
+            "Subtitle": {
+                "en": "Demolitions 💣",
+                "fr": "Demolitions 💣",
+                "es": "Demolitions 💣"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_144332296.jpg"
+            }
+        },
+        {
+            "Title": {
+                "en": "Titus the Clever",
+                "fr": "Titus the Clever",
+                "es": "Titus the Clever"
+            },
+            "Subtitle": {
+                "en": "Hacker 💻",
+                "fr": "Hacker 💻",
+                "es": "Hacker 💻"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://gw-static.azurewebsites.net/themes/kittens/small/shutterstock_197635112.jpg"
+            }
+        },
+    ]
+}
