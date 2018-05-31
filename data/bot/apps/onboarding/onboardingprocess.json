@@ -1,6 +1,9 @@
 {
   "GroupName": "onboardingprocess",
   "SequenceFiles": [
-    { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/Welcome.json"]}
+    { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/Welcome.json"]},
+    { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/YouHaveSelected.json"]},
+    { "order" : 30, "file":["/data/bot/sequences/appspecials/onboardingbot/YouCanNowSelect.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/appspecials/onboardingbot/LetsLaunchApp.json"]}
   ]
 }
