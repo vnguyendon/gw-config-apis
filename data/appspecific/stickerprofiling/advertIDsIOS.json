@@ -17,7 +17,11 @@
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/7339681866"
+    "ID": "ca-app-pub-7822741681642396/3625452887",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/7339681866"
+    }  
   },
   "AfterSharing": {
     "Provider": "Facebook",
