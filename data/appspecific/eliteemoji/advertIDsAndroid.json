@@ -17,9 +17,13 @@
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/4077307864"
+    "ID": "ca-app-pub-7822741681642396/7689426217",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/4077307864"
+    }   
   },
-  "OtherResumeActivityAlternative": {
+  "OtherResumeActivityAlternativeOld": {
     "Provider": "AdMob",
     "ID": "ca-app-pub-7822741681642396/4009261578",
     "Countries": "United States",
@@ -41,5 +45,4 @@
     "ID": "1727516507493157_2117754858469318"
   }
 }
-
 
