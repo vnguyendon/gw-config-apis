@@ -136,7 +136,12 @@
                                     "es": "No fue avistada desde entonces..."
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     },
                     {
                         "Type": "Leaf",
@@ -163,7 +168,12 @@
                                     "Path": "Nj44tzG16JfsA"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     }
                 ]
             }
@@ -285,7 +295,12 @@
                                     "es": "No fue avistada desde entonces..."
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     },
                     {
                         "Type": "Leaf",
@@ -312,7 +327,12 @@
                                     "Path": "Nj44tzG16JfsA"
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     }
                 ]
             }
