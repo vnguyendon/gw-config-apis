@@ -69,6 +69,13 @@
                     }
                 },
         {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "PPEDj1M9tbtwhTBqxQ"
+                    }
+                },
+        {
             "Type": "Text",
             "Label": {
                 "en": "I thought everyone knew that wood is the fastest, then stone, then metal!",
