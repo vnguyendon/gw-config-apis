@@ -1,0 +1,22 @@
+{
+  "Type": "Leaf",
+  "Id": "IWantedToTestThisSequence",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "This is the sequence you wanted to test",
+        "fr": "FR - This is the sequence you wanted to test",
+        "es": "ES - This is the sequence you wanted to test"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Congrats, it's working !",
+        "fr": "FR - Congrats, it's working !",
+        "es": "ES - Congrats, it's working !"
+      }
+    }
+  ]
+}
