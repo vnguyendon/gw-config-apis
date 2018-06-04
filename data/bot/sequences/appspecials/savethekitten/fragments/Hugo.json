@@ -3,18 +3,18 @@
     "Id": "Hugo",
     "Steps": [
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/kitten/HugoCard.json"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "Well then, here he is...",
                 "fr": "Ah tiens, le voici...",
                 "es": "Ah bueno, aquí está..."
+            }
+        },
+        {
+            "Type": "Action",
+            "Name": "ShowCarouselFromList",
+            "Parameters": {
+                "Path": "/data/common/carousel/kitten/HugoCard.json"
             }
         }
     ],
@@ -86,132 +86,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
-                                    "es": "Bueno, decidió de arreglárselas y se unió al ejercito"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "Ol2yHMEFJdYEo"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
-                                    "es": "Se entrenó muy duro y se volvió muy cualificado"
-                                }
-                            },
-                            {
-                                "Type": "Image",
-                                "Parameters": {
-                                    "Source": "Web",
-                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
-                                    "es": "Se fue para la batalla, y su destino recae en ti..."
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "HugoCuteLikeYesFate",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "HugoCuteLikeYesDoom",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Doom him!",
-                                        "fr": "Condamne-le !",
-                                        "es": "¡Condénalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu as choisi de condamner Hugo... et sa première bataille contre un rat-mercenaire fut une humiliante défaite...",
-                                                "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "taB9jDGxhxpny"
-                                            }
-                                        }
-                                    ]
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "HugoCuteLikeYesSave",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Save him!",
-                                        "fr": "Sauve-le !",
-                                        "es": "¡Salvalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
-                                                "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra"
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "bZ1MqM6GLZmKY"
-                                            }
-                                        }
-                                    ]
-                                }
-                            ]
-                        }
-                    },
-                    {
-                        "Type": "Node",
-                        "Id": "HugoCuteLikeNo",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "He's useless!",
-                            "fr": "Il est inutile !",
-                            "es": "¡Es inútil!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
+                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -233,7 +108,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
+                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -255,7 +130,142 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Puis il partit à la guerre, et son destin est entre tes mains...",
+                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
+                                    "es": "Se fue para la batalla, y su destino recae en ti..."
+                                }
+                            }
+                        ],
+                        "LinksTo": {
+                            "Type": "Node",
+                            "Id": "HugoCuteLikeYesFate",
+                            "ElementValue": "1",
+                            "Commands": [
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeYesDoom",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Doom him!",
+                                        "fr": "Condamne le !",
+                                        "es": "¡Condénalo!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
+                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
+                                                "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "taB9jDGxhxpny"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
+                                },
+                                {
+                                    "Type": "Leaf",
+                                    "Id": "HugoCuteLikeYesSave",
+                                    "ElementValue": "1",
+                                    "CommandLabel": {
+                                        "en": "Save him!",
+                                        "fr": "Sauve-le !",
+                                        "es": "¡Salvalo!"
+                                    },
+                                    "Steps": [
+                                        {
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
+                                                "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra"
+                                            }
+                                        },
+                                        {
+                                            "Type": "AnimatedGif",
+                                            "Parameters": {
+                                                "Source": "Giphy",
+                                                "Path": "bZ1MqM6GLZmKY"
+                                            }
+                                        }
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "Type": "Node",
+                        "Id": "HugoCuteLikeNo",
+                        "ElementValue": "1",
+                        "CommandLabel": {
+                            "en": "He's useless!",
+                            "fr": "Il est inutile !",
+                            "es": "¡Es inútil!"
+                        },
+                        "Steps": [
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Well, he decided to get his act together, and joined the military",
+                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
+                                    "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
+                                }
+                            },
+                            {
+                                "Type": "AnimatedGif",
+                                "Parameters": {
+                                    "Source": "Giphy",
+                                    "Path": "Ol2yHMEFJdYEo"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He trained hard, and became highly skilled",
+                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
+                                    "es": "Se entrenó muy duro y se volvió muy cualificado"
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1524825365/Obstacle_Course.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "He has left for battle, and his fate lies with you...",
+                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -271,7 +281,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne-le !",
+                                        "fr": "Condamne le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -279,7 +289,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
+                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -290,7 +300,12 @@
                                                 "Path": "taB9jDGxhxpny"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -306,7 +321,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
@@ -317,7 +332,12 @@
                                                 "Path": "bZ1MqM6GLZmKY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -392,7 +412,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
+                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -414,7 +434,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
+                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -436,7 +456,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
+                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -452,7 +472,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne-le !",
+                                        "fr": "Condamne le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -460,7 +480,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
+                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -471,7 +491,12 @@
                                                 "Path": "taB9jDGxhxpny"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -487,7 +512,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
@@ -498,7 +523,12 @@
                                                 "Path": "bZ1MqM6GLZmKY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -517,7 +547,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Well, he decided to get his act together, and joined the military",
-                                    "fr": "Eh bien, il décida de se ressaisir et de rejoindre l'armée",
+                                    "fr": "Eh bien, il a décidé de se ressaisir et a rejoint l'armée",
                                     "es": "Bueno, decidió de arreglarselas y se unió al ejercito"
                                 }
                             },
@@ -539,7 +569,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He trained hard, and became highly skilled",
-                                    "fr": "Il s'entraîna dur et devint hautement qualifié",
+                                    "fr": "Il s'est entraîné dur et est devenu hautement qualifié",
                                     "es": "Se entrenó muy duro y se volvió muy cualificado"
                                 }
                             },
@@ -561,7 +591,7 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "He has left for battle, and his fate lies with you...",
-                                    "fr": "Puis il partit à la guerre, et son destin est désormais entre tes mains...",
+                                    "fr": "Il est parti à la guerre, et son destin est entre tes mains...",
                                     "es": "Se fue para la batalla, y su destino recae en ti..."
                                 }
                             }
@@ -577,7 +607,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Doom him!",
-                                        "fr": "Condamne-le !",
+                                        "fr": "Condamne le !",
                                         "es": "¡Condénalo!"
                                     },
                                     "Steps": [
@@ -585,7 +615,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to doom Hugo... his first battle with a rat soldier was a humiliating defeat...",
-                                                "fr": "Tu as choisi de condamner Hugo... sa première bataille contre un rat-mercenaire fut une défaite humiliante...",
+                                                "fr": "Tu choisis de condamner Hugo... sa première bataille contre un soldat rat fut une défaite humiliante...",
                                                 "es": "Eliges de condenar a Hugo... su primera batalla contra una soldada rata fue un derrota humillante..."
                                             }
                                         },
@@ -596,7 +626,12 @@
                                                 "Path": "taB9jDGxhxpny"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -612,7 +647,7 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "You chose to save Hugo, and he is now a fearsome weapon of war...",
-                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une arme de guerre redoutable...",
+                                                "fr": "Tu as choisi de sauver Hugo, et il est désormais une redoutable arme de guerre...",
                                                 "es": "Eligiste de salvar Hugo, y ahora es una temible arma de guerra..."
                                             }
                                         },
@@ -623,7 +658,12 @@
                                                 "Path": "bZ1MqM6GLZmKY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
