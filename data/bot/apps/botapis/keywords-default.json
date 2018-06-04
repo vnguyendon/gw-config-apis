@@ -28,6 +28,12 @@
         "fragment" : {
           "path" : "HiResponse"
         }
+    },
+    {
+      "words" : ["swag", "swaag"],
+        "fragment" : {
+          "tags" : ["Swag"]
+        }
     }
   ]
 }
