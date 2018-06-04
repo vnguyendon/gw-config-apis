@@ -26,11 +26,9 @@
                 "es": "Just look at him struggle…"
             }
         },
-        {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "9M1C6ysPKiRYyWzEC0"
+         "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872106/BenBuildMetal.gif"
             }
         },
         {
