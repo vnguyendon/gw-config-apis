@@ -54,7 +54,7 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Those are fake!",
-                "fr": "Ce sont des fakes !",
+                "fr": "Ce sont des fake !",
                 "es": "¡Esos son falsos!"
             },
             "Steps": [
@@ -99,7 +99,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "Mais il est hostile aux autres...",
+                        "fr": "Mais les autres, il leur est hostile...",
                         "es": "Pero con los otros, es hostile..."
                     }
                 },
@@ -130,7 +130,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Méchant chat !",
+                            "fr": "Méchant le chat !",
                             "es": "¡Malo gato!"
                         },
                         "Steps": [
@@ -210,7 +210,12 @@
                                                 "Path": "JUAJ4RGgryKru"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -251,7 +256,12 @@
                                                 "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -262,8 +272,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fish are rubbish",
-                            "fr": "Un poisson? Cest nul",
-                            "es": "¡Peces apestan!"
+                            "fr": "Les poissons, ça craint !",
+                            "es": "¡Peces apestan! "
                         },
                         "Steps": [
                             {
@@ -342,7 +352,12 @@
                                                 "Path": "JUAJ4RGgryKru"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -383,7 +398,12 @@
                                                 "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -397,8 +417,8 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "He's so talented!",
-                "fr": "Quel talent !",
-                "es": "¡Es tal talentuoso!"
+                "fr": "Il est si talentueux !",
+                "es": "Es tal talentuoso!"
             },
             "Steps": [
                 {
@@ -442,7 +462,7 @@
                     "Type": "Text",
                     "Label": {
                         "en": "But others, he is hostile to...",
-                        "fr": "Mais il est hostile aux autres...",
+                        "fr": "Mais les autres, il leur est hostile...",
                         "es": "Pero con los otros, es hostile..."
                     }
                 },
@@ -473,7 +493,7 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Evil cat!",
-                            "fr": "Méchant chat!",
+                            "fr": "Méchant le chat!",
                             "es": "¡Malo gato!"
                         },
                         "Steps": [
@@ -553,7 +573,12 @@
                                                 "Path": "JUAJ4RGgryKru"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -594,7 +619,12 @@
                                                 "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -605,8 +635,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Fish are rubbish",
-                            "fr": "Un poisson? Cest nul",
-                            "es": "¡Peces apestan!"
+                            "fr": "Fish are rubbish",
+                            "es": "Fish are rubbish"
                         },
                         "Steps": [
                             {
@@ -685,7 +715,12 @@
                                                 "Path": "JUAJ4RGgryKru"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -726,7 +761,12 @@
                                                 "Path":"http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015898518.jpg"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
