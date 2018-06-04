@@ -1,108 +1,118 @@
 {
-  "Type": "Node",
-  "Comments": "The story of Orion the Wealthy",
-  "Id": "Orion",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Orion was born to a prosperous family, and as such his early years were very privileged",
-        "fr": "Orion vient d'une famille aisée, et sa petite enfance fut ainsi très privilégiée",
-        "es": "Orion nació en una familia próspera, entonces sus primeros años fueron muy privilegiados"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "His great wealth drew envy, and humankind set a trap for him...",
-        "fr": "Sa grande richesse généra de l'envie, et l'humanité lui tendit un piège...",
-        "es": "Su gran riqueza generó ansia, y la humanidad le tendió una trampa..."
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "OrionSave",
-      "CommandLabel": {
-        "en": "Save him!",
-        "fr": "Sauve-le !",
-        "es": "¡Salvalo!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Comments": "The story of Orion the Wealthy",
+    "Id": "Orion",
+    "Steps": [
         {
-          "Type": "Action",
-          "Name": "DoVote"
+            "Type": "Text",
+            "Label": {
+                "en": "Orion was born to a prosperous family, and as such his early years were very privileged",
+                "fr": "Orion was born to a prosperous family, and as such his early years were very privileged",
+                "es": "Orion was born to a prosperous family, and as such his early years were very privileged"
+            }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "But he escaped the trap, and lived another day",
-            "fr": "Mais il échappa au piège et survécut",
-            "es": "Pero escapóde la trampa y vivió otro día"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "wJfLekkEI0hH1FJvqV"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
-            "fr": "Puis il prépara sa propre revanche, une attaque furtive contre l'humain qui l'avait trahi",
-            "es": "Planeó su propio ataque sigiloso, consiguiendo venganza del humano que lo había traicionado"
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "mE5AQ8dqoH4Z2"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "His great wealth drew envy, and humankind set a trap for him...",
+                "fr": "His great wealth drew envy, and humankind set a trap for him...",
+                "es": "His great wealth drew envy, and humankind set a trap for him..."
+            }
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "OrionDoom",
-      "CommandLabel": {
-        "en": "Doom him!",
-        "fr": "Condamne-le !",
-        "es": "¡Condénalo!"
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Action",
-          "Name": "DoVote"
+            "Type": "Leaf",
+            "Id": "OrionSave",
+            "CommandLabel": {
+                "en": "Save him!",
+                "fr": "Save him!",
+                "es": "Save him!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But he escaped the trap, and lived another day",
+                        "fr": "But he escaped the trap, and lived another day",
+                        "es": "But he escaped the trap, and lived another day"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "wJfLekkEI0hH1FJvqV"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
+                        "fr": "He staged his own stealth attack, getting revenge on the human who had betrayed him",
+                        "es": "He staged his own stealth attack, getting revenge on the human who had betrayed him"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "mE5AQ8dqoH4Z2"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "Tags": [
+                    "stkrating"
+                ]
+            }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "fbSn5sBfaoiTC"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Orion was crushed, a tragic victim of his own greed",
-            "fr": "Orion fut écrasé, victime tragique de sa propre cupidité",
-            "es": "Orion fue aplastado, trágica víctima de su propia codicia"
-          }
+            "Type": "Leaf",
+            "Id": "OrionDoom",
+            "CommandLabel": {
+                "en": "Doom him!",
+                "fr": "Doom him!",
+                "es": "Doom him!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "fbSn5sBfaoiTC"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Orion was crushed, a tragic victim of his own greed",
+                        "fr": "Orion was crushed, a tragic victim of his own greed",
+                        "es": "Orion was crushed, a tragic victim of his own greed"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "Tags": [
+                    "stkrating"
+                ]
+            }
         }
-      ]
-    }
-  ]
+    ]
 }
