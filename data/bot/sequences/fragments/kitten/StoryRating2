@@ -1,0 +1,90 @@
+{
+    "Type": "Node",
+    "Id": "StoryRating2",
+    "Tags": [
+        "stkrating"
+    ],
+    "Steps": [
+        {
+            "Type": "Text",
+            "Label": {
+                "en": "What did you think of that story? 😄",
+                "fr": "Alors, tu as aimé cette histoire ?",
+                "es": "Entonces, ¿te gustó esa historia?"
+            }
+        }
+    ],
+    "Randomize": "true",
+    "Commands": [
+        {
+            "Type": "Leaf",
+            "Id": "StoryRating2Enjoy",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Enjoyed it!",
+                "fr": "Oui !",
+                "es": "¡Sí!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/themes/emojiFish/small/shutterstock_1016524288.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Hooray 😄",
+                        "fr": "Ravi de l'apprendre ! 😄",
+                        "es": "¡Muy contento de oírlo! 😄"
+                    }
+                }
+            ]
+        },
+        {
+            "Type": "Leaf",
+            "Id": "StoryRating2No",
+            "ElementValue": "1",
+            "CommandLabel": {
+                "en": "Not the best",
+                "fr": "Pas vraiment",
+                "es": "Realmente no"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Internal",
+                        "Path": "/themes/emojiFish/small/shutterstock_1014419272.jpg"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "I promise the next will be up to scratch",
+                        "fr": "Pas de soucis, tu vas adorer la prochaine !",
+                        "es": "Ningún problema, ¡la próxima va a encantarte!"
+                    }
+                }
+            ]
+        }
+    ]
+}
