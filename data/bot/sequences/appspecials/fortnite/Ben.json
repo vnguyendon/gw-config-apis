@@ -47,6 +47,27 @@
                         "Path": "5bvDWx2Nj3Tya8Eh7J"
                     }
                 },
+            {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "deendmUbmJrq9CCzof"
+                    }
+                },
+            {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3kIHWa8ZzTjKKbKNi2"
+                    }
+                },
+            {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "fHoCnLwthZsQlA4dlA"
+                    }
+                },
         {
             "Type": "Text",
             "Label": {
