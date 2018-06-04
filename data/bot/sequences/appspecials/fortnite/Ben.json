@@ -103,6 +103,13 @@
                         "Path": "7NOHmCm2HNWh3n85uj"
                     }
                 },
+         {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "WgQqATdemZD9j5AbJJ"
+                    }
+                },
         {
             "Type": "Text",
             "Label": {
