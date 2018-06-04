@@ -22,7 +22,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "OrionSave",
             "CommandLabel": {
                 "en": "Save him!",
@@ -76,7 +76,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "OrionDoom",
             "CommandLabel": {
                 "en": "Doom him!",
