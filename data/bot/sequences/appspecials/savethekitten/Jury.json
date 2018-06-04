@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Have you ever served on a jury of kittens?",
-        "fr": "As-tu déjà été juré pour chatons ?",
+        "fr": "As-tu déjà été convoqué pour être juré lors d'un procès de chatons ?",
         "es": "¿Ya formaste parte de un jurado de gatitos?"
       }
     }
@@ -34,7 +34,7 @@
           "Type": "Text",
           "Label": {
             "en": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
-            "fr": "Un jeune chaton, William the Kitten, est poursuivi pour délit grave",
+            "fr": "Un jeune chaton, Louis Le Chaton, est poursuivi pour délit grave",
             "es": "A un joven gatito, Louis Le Chaton, se lo juzgan por un delito grave"
           }
         },
@@ -187,7 +187,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                        "fr": "La deuxième preuve est qu'il a été vu en train de parler à la victime la veille",
                         "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                       }
                     },
