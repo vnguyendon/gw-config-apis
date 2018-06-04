@@ -9,8 +9,8 @@
             "Type": "Text",
             "Label": {
                 "en": "What did you think of that story? 😄",
-                "fr": "Alors, tu as aimé cette histoire ?",
-                "es": "Entonces, ¿te gustó esa historia?"
+                "fr": "Qu'as-tu pensé de cette histoire ? 😄",
+                "es": "¿Que pensaste de esa historia? 😄"
             }
         }
     ],
@@ -22,8 +22,8 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Enjoyed it!",
-                "fr": "Oui !",
-                "es": "¡Sí!"
+                "fr": "J'ai bien aimé !",
+                "es": "¡Me gustó!"
             },
             "Steps": [
                 {
@@ -45,8 +45,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Hooray 😄",
-                        "fr": "Ravi de l'apprendre ! 😄",
-                        "es": "¡Muy contento de oírlo! 😄"
+                        "fr": "Hourra 😄",
+                        "es": "Viva 😄"
                     }
                 }
             ]
@@ -57,8 +57,8 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Not the best",
-                "fr": "Pas vraiment",
-                "es": "Realmente no"
+                "fr": "Il y a mieux",
+                "es": "No es la mejor"
             },
             "Steps": [
                 {
@@ -80,8 +80,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "I promise the next will be up to scratch",
-                        "fr": "Pas de soucis, tu vas adorer la prochaine !",
-                        "es": "Ningún problema, ¡la próxima va a encantarte!"
+                        "fr": "La prochaine sera à la hauteur, c'est promis",
+                        "es": "La próxima estará a la alture, te lo prometo"
                     }
                 }
             ]
