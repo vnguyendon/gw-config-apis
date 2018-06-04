@@ -46,5 +46,6 @@
   "Hugo":"/data/bot/sequences/appspecials/savethekitten/fragments/Hugo.json",
   "Titus":"/data/bot/sequences/appspecials/savethekitten/fragments/Titus.json",
   "HiResponse":"/data/bot/sequences/fragments/keywords/common/HiResponse.json",
-  "Swaggest": "/data/bot/sequences/fragments/keywords/uncommon/Swaggest.json"
+  "Swaggest": "/data/bot/sequences/fragments/keywords/uncommon/Swaggest.json",
+  "IWantedToTestThisSequence": "/data/bot/sequences/fragments/keywords/uncommon/IWantedToTestThisSequence.json",
 }
