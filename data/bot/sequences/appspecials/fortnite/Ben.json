@@ -26,12 +26,13 @@
                 "es": "Just look at him struggle…"
             }
         },
-        {
-         "Image": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872106/BenBuildMetal.gif"
-            }
-        },
+       {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "https://tenor.com/view/gif-11941663"
+                    }
+                },
         {
             "Type": "Text",
             "Label": {
