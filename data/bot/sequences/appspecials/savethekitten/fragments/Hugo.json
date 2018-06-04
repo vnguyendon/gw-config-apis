@@ -141,7 +141,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCuteLikeYesDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -173,7 +173,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCuteLikeYesSave",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -276,7 +276,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCuteLikeNoDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -308,7 +308,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCuteLikeNoSave",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -467,7 +467,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCowardLikeYesDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -499,7 +499,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCowardLikeYesSave",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -602,7 +602,7 @@
                             "ElementValue": "1",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCowardLikeNoDoom",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -634,7 +634,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "HugoCowardLikeNoSave",
                                     "ElementValue": "1",
                                     "CommandLabel": {
