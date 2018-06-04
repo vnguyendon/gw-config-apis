@@ -31,8 +31,16 @@
     },
     {
       "words" : ["swag", "swaag"],
+        "matchingType":"partial",
         "fragment" : {
           "tags" : ["Swag"]
+        }
+    },
+    {
+      "words" : ["Test", "test"],
+      "matchingType":"exact",
+        "fragment" : {
+          "path" : "IWantedToTestThisSequence"
         }
     }
   ]
