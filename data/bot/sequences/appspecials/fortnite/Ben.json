@@ -26,12 +26,27 @@
                 "es": "Just look at him struggle…"
             }
         },
-        {
-       "Image": {
-                "Source": "Web",
-                "Path": "https://tenor.com/view/gif-11941663"
-            }
-        },
+         {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "3oaij2DzPipDuAy4SY"
+                    }
+                },
+         {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "fMAKz5sSHv4ax2XR42"
+                    }
+                },
+         {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "5bvDWx2Nj3Tya8Eh7J"
+                    }
+                },
         {
             "Type": "Text",
             "Label": {
