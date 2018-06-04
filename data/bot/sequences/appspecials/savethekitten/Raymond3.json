@@ -114,7 +114,12 @@
                                     "ms": 2000
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     },
                     {
                         "Type": "Leaf",
@@ -164,7 +169,12 @@
                                     "ms": 2000
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     }
                 ]
             }
@@ -271,7 +281,12 @@
                                     "ms": 2000
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     },
                     {
                         "Type": "Leaf",
@@ -321,7 +336,12 @@
                                     "ms": 2000
                                 }
                             }
-                        ]
+                        ],
+                        "LinksToFragment": {
+                            "Tags": [
+                                "stkrating"
+                            ]
+                        }
                     }
                 ]
             }
