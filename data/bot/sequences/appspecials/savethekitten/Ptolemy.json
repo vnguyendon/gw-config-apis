@@ -152,7 +152,12 @@
                                                 "Path": "O8kds7nL7FaSY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -209,7 +214,12 @@
                                                 "Path": "TPXDdboFckd9u"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -300,7 +310,12 @@
                                                 "Path": "O8kds7nL7FaSY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -342,7 +357,12 @@
                                                 "Path": "TPXDdboFckd9u"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -475,7 +495,12 @@
                                                 "Path": "O8kds7nL7FaSY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -517,7 +542,12 @@
                                                 "Path": "TPXDdboFckd9u"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -608,7 +638,12 @@
                                                 "Path": "O8kds7nL7FaSY"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -650,7 +685,12 @@
                                                 "Path": "TPXDdboFckd9u"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
