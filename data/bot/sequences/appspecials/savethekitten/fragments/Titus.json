@@ -1,124 +1,134 @@
 {
-  "Type": "Node",
-  "Comments": "The story of Titus the Clever (reduce size of gif)",
-  "Id": "Titus",
-  "Steps": [
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
-        "fr": "Titus est un génie - doté d'une mémoire eidétique ainsi que d'une grande vivacité d'esprit",
-        "es": "Titus es un genio - es bendecido con un intelecto agudo y una memoria fotográfica"
-      }
-    },
-    {
-      "Type": "AnimatedGif",
-      "Parameters": {
-        "Source": "Giphy",
-        "Path": "3oKIPnAiaMCws8nOsE"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Here he is uploading a bug to the enemy servers while working for the CIA",
-        "fr": "Ici, il implante un virus dans les serveurs ennemis pour le compte de la CIA",
-        "es": "Aqui esta eviando un virus a los servidores enemigos mientras trabaja por la CIA"
-      }
-    },
-    {
-      "Type": "Text",
-      "Label": {
-        "en": "Many were jealous of his mind, though, and sought to destroy him",
-        "fr": "Toutefois, beaucoup étaient jaloux de son cerveau et cherchèrent à l'anéantir",
-        "es": "Sin embargo, muchas personas estaban celosas de su mente y trataron de destruirlo"
-      }
-    }
-  ],
-  "Commands": [
-    {
-      "Type": "Leaf",
-      "Id": "TitusSave",
-      "CommandLabel": {
-        "en": "Save him!",
-        "fr": "Sauve-le !",
-        "es": "¡Sálvalo!"
-      },
-      "Steps": [
+    "Type": "Node",
+    "Comments": "The story of Titus the Clever (reduce size of gif)",
+    "Id": "Titus",
+    "Steps": [
         {
-          "Type": "Action",
-          "Name": "DoVote"
+            "Type": "Text",
+            "Label": {
+                "en": "Titus is a genius - blessed with razor sharp intellect and a photographic memory",
+                "fr": "Titus est un génie - doté d'une mémoire eidétique ainsi que d'une grande vivacité d'esprit",
+                "es": "Titus es un genio - es bendecido con un intelecto agudo y una memoria fotográfica"
+            }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
+            "Type": "AnimatedGif",
+            "Parameters": {
+                "Source": "Giphy",
+                "Path": "3oKIPnAiaMCws8nOsE"
+            }
         },
         {
-          "Type": "Text",
-          "Label": {
-            "en": "But Titus outsmarted them all with stealth and disguise",
-            "fr": "Mais Titus déjoua tous leurs plans avec ruse et discrétion",
-            "es": "Pero Titus los engañó con sigilo y camuflaje"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Here he is uploading a bug to the enemy servers while working for the CIA",
+                "fr": "Ici, il implante un virus dans les serveurs ennemis pour le compte de la CIA",
+                "es": "Aqui esta eviando un virus a los servidores enemigos mientras trabaja por la CIA"
+            }
         },
         {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "wyoUdfhunrDZ6"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "He plans to run for president in 2024",
-            "fr": "Il prévoit de se présenter aux présidentielles en 2024",
-            "es": "Planea postularse para presidente en 2024"
-          }
+            "Type": "Text",
+            "Label": {
+                "en": "Many were jealous of his mind, though, and sought to destroy him",
+                "fr": "Toutefois, beaucoup étaient jaloux de son cerveau et cherchèrent à l'anéantir",
+                "es": "Sin embargo, muchas personas estaban celosas de su mente y trataron de destruirlo"
+            }
         }
-      ]
-    },
-    {
-      "Type": "Leaf",
-      "Id": "TitusDoom",
-      "CommandLabel": {
-        "en": "Doom him!",
-        "fr": "Condamne-le !",
-        "es": "¡Condénalo!"
-      },
-      "Steps": [
+    ],
+    "Commands": [
         {
-          "Type": "Action",
-          "Name": "DoVote"
+            "Type": "Leaf",
+            "Id": "TitusSave",
+            "CommandLabel": {
+                "en": "Save him!",
+                "fr": "Sauve-le !",
+                "es": "¡Sálvalo!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "But Titus outsmarted them all with stealth and disguise",
+                        "fr": "Mais Titus déjoua tous leurs plans avec ruse et discrétion",
+                        "es": "Pero Titus los engañó con sigilo y camuflaje"
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "wyoUdfhunrDZ6"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "He plans to run for president in 2024",
+                        "fr": "Il prévoit de se présenter aux présidentielles en 2024",
+                        "es": "Planea postularse para presidente en 2024"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "Tags": [
+                    "stkrating"
+                ]
+            }
         },
         {
-          "Type": "Action",
-          "Name": "ShowSurveyResults"
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "His enemies poisoned his mind, causing him to lose his senses...",
-            "fr": "Ses ennemis lui ont empoisonné l'esprit, ce qui troubla ses sens...",
-            "es": "Sus enemigos envenenaron su mente, lo que le hizo perder sus sentidos..."
-          }
-        },
-        {
-          "Type": "AnimatedGif",
-          "Parameters": {
-            "Source": "Giphy",
-            "Path": "6S1k7SLbAH4f6"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "A truly terrible tale about jealousy and lost potential",
-            "fr": "Un terrible conte entre jalousie et potentiel gâché",
-            "es": "Un cuento realmente terrible sobre envidia y potencial perdido"
-          }
+            "Type": "Leaf",
+            "Id": "TitusDoom",
+            "CommandLabel": {
+                "en": "Doom him!",
+                "fr": "Condamne-le !",
+                "es": "¡Condénalo!"
+            },
+            "Steps": [
+                {
+                    "Type": "Action",
+                    "Name": "DoVote"
+                },
+                {
+                    "Type": "Action",
+                    "Name": "ShowSurveyResults"
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "His enemies poisoned his mind, causing him to lose his senses...",
+                        "fr": "Ses ennemis lui ont empoisonné l'esprit, ce qui troubla ses sens...",
+                        "es": "Sus enemigos envenenaron su mente, lo que le hizo perder sus sentidos..."
+                    }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "6S1k7SLbAH4f6"
+                    }
+                },
+                {
+                    "Type": "Text",
+                    "Label": {
+                        "en": "A truly terrible tale about jealousy and lost potential",
+                        "fr": "Un terrible conte entre jalousie et potentiel gâché",
+                        "es": "Un cuento realmente terrible sobre envidia y potencial perdido"
+                    }
+                }
+            ],
+            "LinksToFragment": {
+                "Tags": [
+                    "stkrating"
+                ]
+            }
         }
-      ]
-    }
-  ]
+    ]
 }
