@@ -1,0 +1,85 @@
+{
+  "Type": "Node",
+  "Id": "Swaggest",
+  "Tag": ["Swag", "Swaag", "Swagfish"],
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "In your humble opinion, who do you think has the most swag?",
+        "fr": "FR - In your humble opinion, who do you think has the most swag?",
+        "es": "ES- In your humble opinion, who do you think has the most swag?"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "SwagFish or SwagPitt?",
+        "fr": "FR - SwagFish or SwagPitt?",
+        "es": "ES- SwagFish or SwagPitt?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "DisplayHint": "Carousel",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "SwagFish",
+      "CommandLabel": {
+        "en": "SwagFish",
+        "fr": "SwagFish",
+        "es": "SwagFish"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "🐠",
+          "fr": "🐠",
+          "es": "🐠"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1015143874.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Internal",
+            "Path": "/themes/emojiFish/small/shutterstock_1014419284.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "SwagPitt",
+      "CommandLabel": {
+        "en": "SwagPitt",
+        "fr": "FR - SwagPitt",
+        "es": "ES - SwagPitt"
+      },
+      "CarouselElements": {
+        "Title": {
+          "en": "👨🏼",
+          "fr": "👨🏼",
+          "es": "👨🏼"
+        },
+        "Picture": {
+          "Source": "Web",
+          "Path": "http://res.cloudinary.com/dto1zpi0d/image/upload/v1518613828/brad-pitt-1.jpg"
+        }
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "PzQvWAhgfUipW"
+          }
+        }
+      ]
+    }
+  ]
+}
