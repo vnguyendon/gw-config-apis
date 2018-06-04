@@ -37,7 +37,7 @@
     ],
     "Commands": [
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "TitusSave",
             "CommandLabel": {
                 "en": "Save him!",
@@ -84,7 +84,7 @@
             }
         },
         {
-            "Type": "Leaf",
+            "Type": "Node",
             "Id": "TitusDoom",
             "CommandLabel": {
                 "en": "Doom him!",
