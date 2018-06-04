@@ -48,4 +48,6 @@
   "HiResponse":"/data/bot/sequences/fragments/keywords/common/HiResponse.json",
   "Swaggest": "/data/bot/sequences/fragments/keywords/uncommon/Swaggest.json",
   "IWantedToTestThisSequence": "/data/bot/sequences/fragments/keywords/uncommon/IWantedToTestThisSequence.json",
+  "StoryRating1": "/data/bot/sequences/fragments/kitten/StoryRating1.json",
+  "StoryRating2": "/data/bot/sequences/fragments/kitten/StoryRating2.json"
 }
