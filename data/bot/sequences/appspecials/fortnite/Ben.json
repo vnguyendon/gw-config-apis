@@ -29,8 +29,8 @@
          {
                     "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "3oaij2DzPipDuAy4SY"
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872106/BenBuildMetal.gif"
                     }
                 },
          {
