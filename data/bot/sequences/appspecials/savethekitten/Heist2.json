@@ -6,8 +6,8 @@
             "Type": "Text",
             "Label": {
                 "en": "He has put together the finest team of thieves you have ever seen:",
-                "fr": "He has put together the finest team of thieves you have ever seen:",
-                "es": "He has put together the finest team of thieves you have ever seen:"
+                "fr": "Il a rassemblé la meilleure équipe de voleurs que tu aies jamais vu :",
+                "es": "Reunió el mejor equipo de ladrones que nunca hayas visto:"
             }
         },
         {
@@ -25,16 +25,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Heroes!",
-                "fr": "Heroes!",
-                "es": "Heroes!"
+                "fr": "Des héros!",
+                "es": "Héroes!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "I am disappointed that you support this criminal activity",
-                        "fr": "I am disappointed that you support this criminal activity",
-                        "es": "I am disappointed that you support this criminal activity"
+                        "fr": "Je suis déçu que tu soutiennes ces activités criminelles",
+                        "es": "Me decepciona ver que apoyas a estas actividades criminales"
                     }
                 },
                 {
@@ -48,8 +48,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
-                        "fr": "Here is a plan of the house they will be raiding:",
-                        "es": "Here is a plan of the house they will be raiding:"
+                        "fr": "Voici un plan de la maison qu'ils vont attaquer :",
+                        "es": "Aquí está un plano de la casa que van a asaltar:"
                     }
                 },
                 {
@@ -70,8 +70,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Look how heavily guarded it is!",
-                        "fr": "Look how heavily guarded it is!",
-                        "es": "Look how heavily guarded it is!"
+                        "fr": "Regarde comme c'est bien gardé !",
+                        "es": "¡Mira como es fuertemente custodiado!"
                     }
                 }
             ],
@@ -86,16 +86,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "What on earth",
-                            "fr": "What on earth",
-                            "es": "What on earth"
+                            "fr": "Qu'est-ce que...",
+                            "es": "Qué diablos..."
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Kittens do not mess around",
-                                    "fr": "Kittens do not mess around",
-                                    "es": "Kittens do not mess around"
+                                    "fr": "Les chatons ne plaisantent pas",
+                                    "es": "Gatitos no se andan con juegos"
                                 }
                             }
                         ]
@@ -106,16 +106,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tough conditions!",
-                            "fr": "Tough conditions!",
-                            "es": "Tough conditions!"
+                            "fr": "Compliqué !",
+                            "es": "¡Parece complicado!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yes indeed, but Catrick and his team are very skilled",
-                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
-                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                    "fr": "En effet, mais Catrick et son équipe sont hautement qualifiés",
+                                    "es": "En efecto, pero Catrick y su equipo son altamente cualificados"
                                 }
                             }
                         ]
@@ -129,16 +129,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Villains!",
-                "fr": "Villains!",
-                "es": "Villains!"
+                "fr": "Scélérats !",
+                "es": "¡Villanos!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "Yes. As all kittens are",
-                        "fr": "Yes. As all kittens are",
-                        "es": "Yes. As all kittens are"
+                        "fr": "Oui. Comme tous les chatons",
+                        "es": "Sí. Como todos los gatitos"
                     }
                 },
                 {
@@ -159,8 +159,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
-                        "fr": "Here is a plan of the house they will be raiding:",
-                        "es": "Here is a plan of the house they will be raiding:"
+                        "fr": "Voici un plan de la maison qu'ils vont attaquer :",
+                        "es": "Aquí está un plano de la casa que van a asaltar:"
                     }
                 },
                 {
@@ -181,8 +181,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Look how heavily guarded it is!",
-                        "fr": "Look how heavily guarded it is!",
-                        "es": "Look how heavily guarded it is!"
+                        "fr": "Regarde comme c'est bien gardé !",
+                        "es": "¡Mira como es fuertemente custodiado!"
                     }
                 }
             ],
@@ -197,16 +197,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "What on earth",
-                            "fr": "What on earth",
-                            "es": "What on earth"
+                            "fr": "Qu'est-ce que...",
+                            "es": "Qué diablos..."
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Kittens do not mess around",
-                                    "fr": "Kittens do not mess around",
-                                    "es": "Kittens do not mess around"
+                                    "fr": "Les chatons ne plaisantent pas",
+                                    "es": "Gatitos no se andan con juegos"
                                 }
                             }
                         ]
@@ -217,16 +217,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tough conditions!",
-                            "fr": "Tough conditions!",
-                            "es": "Tough conditions!"
+                            "fr": "Compliqué !",
+                            "es": "¡Parece complicado!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yes indeed, but Catrick and his team are very skilled",
-                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
-                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                    "fr": "En effet, mais Catrick et son équipe sont hautement qualifiés",
+                                    "es": "En efecto, pero Catrick y su equipo son altamente cualificados"
                                 }
                             }
                         ]
@@ -240,16 +240,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Where is Ptolemy?",
-                "fr": "Where is Ptolemy?",
-                "es": "Where is Ptolemy?"
+                "fr": "Où est Ptolemy?",
+                "es": "Donde está Ptolemy?"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "He works alone, not in a squad",
-                        "fr": "He works alone, not in a squad",
-                        "es": "He works alone, not in a squad"
+                        "fr": "Il travaille seul, pas en équipe",
+                        "es": "Trabajo solo, no en equipo"
                     }
                 },
                 {
@@ -263,8 +263,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Here is a plan of the house they will be raiding:",
-                        "fr": "Here is a plan of the house they will be raiding:",
-                        "es": "Here is a plan of the house they will be raiding:"
+                        "fr": "Voici un plan de la maison qu'ils vont attaquer :",
+                        "es": "Aquí está un plano de la casa que van a asaltar:"
                     }
                 },
                 {
@@ -285,8 +285,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Look how heavily guarded it is!",
-                        "fr": "Look how heavily guarded it is!",
-                        "es": "Look how heavily guarded it is!"
+                        "fr": "Regarde comme c'est bien gardé !",
+                        "es": "¡Mira como es fuertemente custodiado!"
                     }
                 }
             ],
@@ -301,16 +301,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "What on earth",
-                            "fr": "What on earth",
-                            "es": "What on earth"
+                            "fr": "Qu'est-ce que...",
+                            "es": "Qué diablos..."
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Kittens do not mess around",
-                                    "fr": "Kittens do not mess around",
-                                    "es": "Kittens do not mess around"
+                                    "fr": "Les chatons ne plaisantent pas",
+                                    "es": "Gatitos no se andan con juegos"
                                 }
                             }
                         ]
@@ -321,16 +321,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Tough conditions!",
-                            "fr": "Tough conditions!",
-                            "es": "Tough conditions!"
+                            "fr": "Compliqué !",
+                            "es": "¡Parece complicado!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Yes indeed, but Catrick and his team are very skilled",
-                                    "fr": "Yes indeed, but Catrick and his team are very skilled",
-                                    "es": "Yes indeed, but Catrick and his team are very skilled"
+                                    "fr": "En effet, mais Catrick et son équipe sont hautement qualifiés",
+                                    "es": "En efecto, pero Catrick y su equipo son altamente cualificados"
                                 }
                             }
                         ]
