@@ -139,7 +139,7 @@
                             "Randomize": "true",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedBoringJail",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -198,7 +198,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedBoringHang",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -264,7 +264,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedBoringFree",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -375,7 +375,7 @@
                             "Randomize": "true",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedImmoralJail",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -434,7 +434,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedImmoralHang",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -500,7 +500,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2BiasedImmoralFree",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -661,7 +661,7 @@
                             "Randomize": "true",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointBoringJail",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -720,7 +720,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointBoringHang",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -786,7 +786,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointBoringFree",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -897,7 +897,7 @@
                             "Randomize": "true",
                             "Commands": [
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointImmoralJail",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -956,7 +956,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointImmoralHang",
                                     "ElementValue": "1",
                                     "CommandLabel": {
@@ -1022,7 +1022,7 @@
                                     }
                                 },
                                 {
-                                    "Type": "Leaf",
+                                    "Type": "Node",
                                     "Id": "Jury2PointImmoralFree",
                                     "ElementValue": "1",
                                     "CommandLabel": {
