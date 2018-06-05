@@ -1,45 +1,45 @@
 {
-    "Type": "Leaf",
-    "Id": "HiResponse2",
-    "Tags":["hi"],
-    "Steps": [
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "Hello there!",
-                "fr": "Hi to you too!",
-                "es": "Hi to you too!"
-            }
-        },
-        {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "3o7TKMt1VVNkHV2PaE"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It's cool that you found the typing bar, but if you want, you can use the quick replies",
-                "fr": "By the way, I can understand some humanspeak, but not all...",
-                "es": "By the way, I can understand some humanspeak, but not all..."
-            }
-        },
-        {
-            "Type": "Image",
-            "Parameters": {
-                "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528192279/Quick_reply_indicator.jpg"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "It's faster, and I'll understand you much better!",
-                "fr": "Try using the quick replies to respond instead!",
-                "es": "Try using the quick replies to respond instead!"
-            }
-        }
-    ]
+  "Type": "Leaf",
+  "Id": "HiResponse2",
+  "Tags": ["hi"],
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hello there!",
+        "fr": "Salut toi !",
+        "es": "¡Hola!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "3o7TKMt1VVNkHV2PaE"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It's cool that you found the typing bar, but if you want, you can use the quick replies",
+        "fr": "C'est bien que tu aies trouvé la barre de saisie, mais si tu veux, tu peux utiliser les réponses rapides",
+        "es": "Está bién que encontraras como escribir, pero si quieres, puedes utilizar las respuestas rápidas"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528192279/Quick_reply_indicator.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "It's faster, and I'll understand you much better!",
+        "fr": "C'est plus facile, et je te comprendrai bien mieux !",
+        "es": "¡Es más fácil, y te entenderé mucho mejor!"
+      }
+    }
+  ]
 }
