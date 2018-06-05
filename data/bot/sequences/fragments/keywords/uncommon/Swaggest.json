@@ -1,7 +1,7 @@
 {
   "Type": "Node",
   "Id": "Swaggest",
-  "Tag": ["Swag", "Swaag", "Swagfish"],
+  "Tags": ["Swag", "Swaag", "Swagfish"],
   "Steps": [
     {
       "Type": "Text",
