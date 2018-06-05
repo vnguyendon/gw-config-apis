@@ -40,13 +40,6 @@
         "fr": "I thought everyone knew that wood is the fastest, then stone, then metal!",
         "es": "I thought everyone knew that wood is the fastest, then stone, then metal!"
       }
-    },
-    {
-      "Type": "Action",
-      "Name": "ShowCarouselFromList",
-      "Parameters": {
-        "Path": "TBD"
-      }
     }
   ],
   "Commands": [
