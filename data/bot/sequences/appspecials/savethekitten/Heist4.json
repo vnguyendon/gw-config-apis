@@ -174,7 +174,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -224,7 +229,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -319,7 +329,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -369,7 +384,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -464,7 +484,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -514,7 +539,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -609,7 +639,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -659,7 +694,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -829,7 +869,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -879,7 +924,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -974,7 +1024,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -1024,7 +1079,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -1119,7 +1179,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -1169,7 +1234,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 }
               ]
             }
@@ -1264,7 +1334,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                        "stkrating"
+                    ]
+                }
                 },
                 {
                   "Type": "Leaf",
@@ -1314,7 +1389,12 @@
                         "Path": "http://gw-static.azurewebsites.net/themes/emojiFish/small/shutterstock_1014419284.jpg"
                       }
                     }
-                  ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
                 }
               ]
             }
