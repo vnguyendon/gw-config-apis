@@ -6,15 +6,15 @@
             "Type": "Text",
             "Label": {
                 "en": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution.",
-                "fr": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution.",
-                "es": "Lastly, a photograph placing Louis Le Chaton at the crime scene 1 hour beforehand was produced by the prosecution."
+                "fr": "Enfin, une photo a été fournie par l'accusation montrant William the Kitten sur la scène de crime une heure plus tôt.",
+                "es": "Por fín, una foto de Louis Le Chaton fue traída por la acusación mostrando que estaba en la escena del crimen una hora antes."
             }
         },
         {
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528124546/Polaroid_Frame.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675635/Polaroid_Frame.jpg"
             }
         },
         {
@@ -28,16 +28,16 @@
             "Type": "Text",
             "Label": {
                 "en": "Here is what Juror 3 said:",
-                "fr": "Here is what Juror 3 said:",
-                "es": "Here is what Juror 3 said:"
+                "fr": "Voici ce que le juré 3 a dit :",
+                "es": "Aquí está lo que dijo el Jurado 3: "
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”",
-                "fr": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”",
-                "es": "“This is clear proof! That horrible kitten was clearly in the area in a similar timeframe. Why are we still discussing this?!”"
+                "fr": "“C'est une preuve évidente ! Cet horrible chaton était clairement dans le coin au même moment. Pourquoi sommes-nous encore en train d'en discuter ?!“",
+                "es": "“¡Es una prueba clara! Este horible gatito estaba claramente en la zona al mismo momento. ¡¿Porqué todavía estamos hablando de eso?!“"
             }
         }
     ],
@@ -48,16 +48,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "He’s biased",
-                "fr": "He’s biased",
-                "es": "He’s biased"
+                "fr": "Son jugement est biaisé",
+                "es": "Es parcial"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "It's possible... he is known to dislike sandy-coloured kittens!",
-                        "fr": "It's possible... he is known to dislike sandy-coloured kittens!",
-                        "es": "It's possible... he is known to dislike sandy-coloured kittens!"
+                        "fr": "C'est possible... il est connu pour ne pas aimer les chatons couleur sable !",
+                        "es": "Es posible... ¡Es famoso por disgustar a los gatitos de color arenoso!"
                     }
                 },
                 {
@@ -71,16 +71,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Anyway, the rest of the jurors seem to agree with him",
-                        "fr": "Anyway, the rest of the jurors seem to agree with him",
-                        "es": "Anyway, the rest of the jurors seem to agree with him"
+                        "fr": "De toute façon, le reste des jurés semblent être d'accord avec lui",
+                        "es": "De todos modos, el resto de los jurados parecen estar de acuerdo con él"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "But I think it’s because they were asleep during the trial",
-                        "fr": "But I think it’s because they were asleep during the trial",
-                        "es": "But I think it’s because they were asleep during the trial"
+                        "fr": "Mais cela je pense que c'est surtout parce qu'ils dormaient pendant le procès",
+                        "es": "Pero pienso que eso es porque estaban durmiendo durante el juicio"
                     }
                 }
             ],
@@ -95,16 +95,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "It was very boring",
-                            "fr": "It was very boring",
-                            "es": "It was very boring"
+                            "fr": "C'était très ennuyeux",
+                            "es": "Estaba muy aburrido"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Hey! A kitten’s life is in balance here!",
-                                    "fr": "Hey! A kitten’s life is in balance here!",
-                                    "es": "Hey! A kitten’s life is in balance here!"
+                                    "fr": "Eh ! La vie d'un chaton est en jeu là !",
+                                    "es": "¡Oye! La vida de un gatito está en juego aquí"
                                 }
                             },
                             {
@@ -118,16 +118,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So… what do you think?",
-                                    "fr": "So… what do you think?",
-                                    "es": "So… what do you think?"
+                                    "fr": "Donc... Qu'en penses-tu ?",
+                                    "es": "Pues... ¿Qué piensas?"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Take some time and consider the evidence…",
-                                    "fr": "Take some time and consider the evidence…",
-                                    "es": "Take some time and consider the evidence…"
+                                    "fr": "Prends ton temps et examine les preuves...",
+                                    "es": " Tómate tu tiempo y examina las pruebas..."
                                 }
                             }
                         ],
@@ -144,8 +144,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Louis needs jail",
-                                        "fr": "Louis needs jail",
-                                        "es": "Louis needs jail"
+                                        "fr": "Louis mérite la prison",
+                                        "es": "La cárcel para Louis"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -155,7 +155,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -163,8 +163,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                                "fr": "Les jurés poussent pour la pendaison mais j'ai l'impression que le verdict final s'oriente plutôt vers une peine de prison comme tu le suggères",
+                                                "es": "Los jurados están presionando para colgarle pero siento que el veredicto será tiempo en la cárcel como lo sugieres"
                                             }
                                         },
                                         {
@@ -178,24 +178,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -203,8 +198,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Hang him!",
-                                        "fr": "Hang him!",
-                                        "es": "Hang him!"
+                                        "fr": "Pendez-le !",
+                                        "es": "¡Que lo cuelguen!"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -214,7 +209,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -222,8 +217,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                                "fr": "Ouah... D'habitude je ne ressens pas de peine pour les chatons... mais là...",
+                                                "es": "Wow... Normalmente no siento culpa por gatitos... pero..."
                                             }
                                         },
                                         {
@@ -244,24 +239,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -269,8 +259,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Let him go free",
-                                        "fr": "Let him go free",
-                                        "es": "Let him go free"
+                                        "fr": "Libérez-le ",
+                                        "es": "Suéltelo"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -280,7 +270,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -288,8 +278,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How noble of you!",
-                                                "fr": "How noble of you!",
-                                                "es": "How noble of you!"
+                                                "fr": "Que tu es noble !",
+                                                "es": "¡Qué noble de tu parte!"
                                             }
                                         },
                                         {
@@ -303,24 +293,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 }
                             ]
                         }
@@ -331,16 +316,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "That's immoral!",
-                            "fr": "That's immoral!",
-                            "es": "That's immoral!"
+                            "fr": "C'est immoral !",
+                            "es": "¡Es inmoral!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! Jury service is serious business!",
-                                    "fr": "Right! Jury service is serious business!",
-                                    "es": "Right! Jury service is serious business!"
+                                    "fr": "C'est vrai ! Être juré est quelque chose de sérieux !",
+                                    "es": "¡Verdad! ¡Estar jurado es algo importante!"
                                 }
                             },
                             {
@@ -354,16 +339,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So… what do you think?",
-                                    "fr": "So… what do you think?",
-                                    "es": "So… what do you think?"
+                                    "fr": "Donc... Qu'en penses-tu ?",
+                                    "es": "Pues... ¿Qué piensas?"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Take some time and consider the evidence…",
-                                    "fr": "Take some time and consider the evidence…",
-                                    "es": "Take some time and consider the evidence…"
+                                    "fr": "Prends ton temps et examine les preuves...",
+                                    "es": " Tómate tu tiempo y examina las pruebas..."
                                 }
                             }
                         ],
@@ -380,8 +365,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Louis needs jail",
-                                        "fr": "Louis needs jail",
-                                        "es": "Louis needs jail"
+                                        "fr": "Louis mérite la prison",
+                                        "es": "La cárcel para Louis"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -391,7 +376,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -399,8 +384,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                                "fr": "Les jurés poussent pour la pendaison mais j'ai l'impression que le verdict final s'oriente plutôt vers une peine de prison comme tu le suggères",
+                                                "es": "Los jurados están presionando para colgarle pero siento que el veredicto será tiempo en la cárcel como lo sugieres"
                                             }
                                         },
                                         {
@@ -414,24 +399,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -439,8 +419,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Hang him!",
-                                        "fr": "Hang him!",
-                                        "es": "Hang him!"
+                                        "fr": "Pendez-le !",
+                                        "es": "¡Que lo cuelguen!"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -450,7 +430,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -458,8 +438,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                                "fr": "Ouah... D'habitude je ne ressens pas de peine pour les chatons... mais là...",
+                                                "es": "Wow... Normalmente no siento culpa por gatitos... pero..."
                                             }
                                         },
                                         {
@@ -480,24 +460,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -505,8 +480,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Let him go free",
-                                        "fr": "Let him go free",
-                                        "es": "Let him go free"
+                                        "fr": "Libérez-le ",
+                                        "es": "Suéltelo"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -516,7 +491,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -524,8 +499,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How noble of you!",
-                                                "fr": "How noble of you!",
-                                                "es": "How noble of you!"
+                                                "fr": "Que tu es noble !",
+                                                "es": "¡Qué noble de tu parte!"
                                             }
                                         },
                                         {
@@ -539,24 +514,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 }
                             ]
                         }
@@ -570,16 +540,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "He has a point",
-                "fr": "He has a point",
-                "es": "He has a point"
+                "fr": "Il a raison",
+                "es": "Tiene razón"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "The picture does seem rather incriminating...",
-                        "fr": "The picture does seem rather incriminating...",
-                        "es": "The picture does seem rather incriminating..."
+                        "fr": "La photo a l'air plutôt compromettante...",
+                        "es": "La foto parece bastante incriminatoria"
                     }
                 },
                 {
@@ -593,16 +563,16 @@
                     "Type": "Text",
                     "Label": {
                         "en": "Anyway, the rest of the jurors seem to agree with him",
-                        "fr": "Anyway, the rest of the jurors seem to agree with him",
-                        "es": "Anyway, the rest of the jurors seem to agree with him"
+                        "fr": "De toute façon, le reste des jurés semblent être d'accord avec lui",
+                        "es": "De todos modos, el resto de los jurados parecen estar de acuerdo con él"
                     }
                 },
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "But I think it’s because they were asleep during the trial",
-                        "fr": "But I think it’s because they were asleep during the trial",
-                        "es": "But I think it’s because they were asleep during the trial"
+                        "fr": "Mais cela je pense que c'est surtout parce qu'ils dormaient pendant le procès",
+                        "es": "Pero pienso que eso es porque estaban durmiendo durante el juicio"
                     }
                 }
             ],
@@ -617,16 +587,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "It was very boring",
-                            "fr": "It was very boring",
-                            "es": "It was very boring"
+                            "fr": "C'était très ennuyeux",
+                            "es": "Estaba muy aburrido"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Hey! A kitten’s life is in balance here!",
-                                    "fr": "Hey! A kitten’s life is in balance here!",
-                                    "es": "Hey! A kitten’s life is in balance here!"
+                                    "fr": "Eh ! La vie d'un chaton est en jeu là !",
+                                    "es": "¡Oye! La vida de un gatito está en juego aquí"
                                 }
                             },
                             {
@@ -640,16 +610,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So… what do you think?",
-                                    "fr": "So… what do you think?",
-                                    "es": "So… what do you think?"
+                                    "fr": "Donc... Qu'en penses-tu ?",
+                                    "es": "Pues... ¿Qué piensas?"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Take some time and consider the evidence…",
-                                    "fr": "Take some time and consider the evidence…",
-                                    "es": "Take some time and consider the evidence…"
+                                    "fr": "Prends ton temps et examine les preuves...",
+                                    "es": " Tómate tu tiempo y examina las pruebas..."
                                 }
                             }
                         ],
@@ -666,8 +636,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Louis needs jail",
-                                        "fr": "Louis needs jail",
-                                        "es": "Louis needs jail"
+                                        "fr": "Louis mérite la prison",
+                                        "es": "La cárcel para Louis"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -677,7 +647,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -685,8 +655,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                                "fr": "Les jurés poussent pour la pendaison mais j'ai l'impression que le verdict final s'oriente plutôt vers une peine de prison comme tu le suggères",
+                                                "es": "Los jurados están presionando para colgarle pero siento que el veredicto será tiempo en la cárcel como lo sugieres"
                                             }
                                         },
                                         {
@@ -700,24 +670,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -725,8 +690,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Hang him!",
-                                        "fr": "Hang him!",
-                                        "es": "Hang him!"
+                                        "fr": "Pendez-le !",
+                                        "es": "¡Que lo cuelguen!"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -736,7 +701,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -744,8 +709,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                                "fr": "Ouah... D'habitude je ne ressens pas de peine pour les chatons... mais là...",
+                                                "es": "Wow... Normalmente no siento culpa por gatitos... pero..."
                                             }
                                         },
                                         {
@@ -766,24 +731,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -791,8 +751,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Let him go free",
-                                        "fr": "Let him go free",
-                                        "es": "Let him go free"
+                                        "fr": "Libérez-le",
+                                        "es": "Suéltelo"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -802,7 +762,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -810,8 +770,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How noble of you!",
-                                                "fr": "How noble of you!",
-                                                "es": "How noble of you!"
+                                                "fr": "Que tu es noble !",
+                                                "es": "¡Qué noble de tu parte!"
                                             }
                                         },
                                         {
@@ -825,24 +785,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 }
                             ]
                         }
@@ -853,16 +808,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "That's immoral!",
-                            "fr": "That's immoral!",
-                            "es": "That's immoral!"
+                            "fr": "C'est immoral !",
+                            "es": "¡Es inmoral!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Right! Jury service is serious business!",
-                                    "fr": "Right! Jury service is serious business!",
-                                    "es": "Right! Jury service is serious business!"
+                                    "fr": "C'est vrai ! Être juré est quelque chose de sérieux !",
+                                    "es": "¡Verdad! ¡Estar jurado es algo importante!"
                                 }
                             },
                             {
@@ -876,16 +831,16 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "So… what do you think?",
-                                    "fr": "So… what do you think?",
-                                    "es": "So… what do you think?"
+                                    "fr": "Donc... Qu'en penses-tu ?",
+                                    "es": "Pues... ¿Qué piensas?"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Take some time and consider the evidence…",
-                                    "fr": "Take some time and consider the evidence…",
-                                    "es": "Take some time and consider the evidence…"
+                                    "fr": "Prends ton temps et examine les preuves...",
+                                    "es": " Tómate tu tiempo y examina las pruebas..."
                                 }
                             }
                         ],
@@ -902,8 +857,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Louis needs jail",
-                                        "fr": "Louis needs jail",
-                                        "es": "Louis needs jail"
+                                        "fr": "Louis mérite la prison",
+                                        "es": "La cárcel para Louis"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -913,7 +868,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -921,8 +876,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "fr": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest",
-                                                "es": "The jurors are pushing for a hanging, but I feel the verdict may be jail time as you suggest"
+                                                "fr": "Les jurés poussent pour la pendaison mais j'ai l'impression que le verdict final s'oriente plutôt vers une peine de prison comme tu le suggères",
+                                                "es": "Los jurados están presionando para colgarle pero siento que el veredicto será tiempo en la cárcel como lo sugieres"
                                             }
                                         },
                                         {
@@ -936,24 +891,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -961,8 +911,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Hang him!",
-                                        "fr": "Hang him!",
-                                        "es": "Hang him!"
+                                        "fr": "Pendez-le !",
+                                        "es": "¡Que lo cuelguen!"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -972,7 +922,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -980,8 +930,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "fr": "Wow… I usually don’t feel sorry for kittens… but…",
-                                                "es": "Wow… I usually don’t feel sorry for kittens… but…"
+                                                "fr": "Ouah... D'habitude je ne ressens pas de peine pour les chatons... mais là...",
+                                                "es": "Wow... Normalmente no siento culpa por gatitos... pero..."
                                             }
                                         },
                                         {
@@ -1002,24 +952,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 },
                                 {
                                     "Type": "Leaf",
@@ -1027,8 +972,8 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Let him go free",
-                                        "fr": "Let him go free",
-                                        "es": "Let him go free"
+                                        "fr": "Libérez-le",
+                                        "es": "Suéltelo"
                                     },
                                     "CarouselElements": {
                                         "Title": {
@@ -1038,7 +983,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -1046,8 +991,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "How noble of you!",
-                                                "fr": "How noble of you!",
-                                                "es": "How noble of you!"
+                                                "fr": "Que tu es noble !",
+                                                "es": "¡Qué noble de tu parte!"
                                             }
                                         },
                                         {
@@ -1061,24 +1006,19 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "fr": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!",
-                                                "es": "Wow, it looks like it doesn’t even matter, Louis Le Chaton has escaped custody!"
+                                                "fr": "Ouah, on dirait que ça n'a même plus d'importance, Louis Le Chaton s'est enfui de garde à vue !",
+                                                "es": "¡Wow, parece que eso ni siquiera importa, Louis Le Chaton ha escapado de su custodia!"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "I wonder if we will ever see him again...",
-                                                "fr": "I wonder if we will ever see him again...",
-                                                "es": "I wonder if we will ever see him again..."
+                                                "fr": "Je me demande si je le reverrai un jour...",
+                                                "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
+                                    ]
                                 }
                             ]
                         }
