@@ -14,7 +14,7 @@
             "Type": "Image",
             "Parameters": {
                 "Source": "Web",
-                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675635/Polaroid_Frame.jpg"
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528124546/Polaroid_Frame.jpg"
             }
         },
         {
@@ -155,7 +155,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -190,7 +190,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -209,7 +214,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -251,7 +256,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -270,7 +280,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -305,7 +315,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -376,7 +391,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -411,7 +426,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -430,7 +450,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -472,7 +492,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -491,7 +516,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -526,7 +551,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -647,7 +677,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -682,7 +712,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -701,7 +736,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -743,7 +778,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -762,7 +802,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -797,7 +837,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
@@ -868,7 +913,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675584/Louis_Le_Chaton_In_Jail.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122883/Louis_Le_Chaton_In_Jail.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -903,7 +948,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -922,7 +972,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527675582/Louis_Le_Chaton_Hanging.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528123909/Louis_Le_Chaton_Hanging.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -964,7 +1014,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 },
                                 {
                                     "Type": "Leaf",
@@ -983,7 +1038,7 @@
                                         },
                                         "Picture": {
                                             "Source": "Web",
-                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                                         }
                                     },
                                     "Steps": [
@@ -1018,7 +1073,12 @@
                                                 "es": "Me pregunto si volveré a verlo alguna vez"
                                             }
                                         }
-                                    ]
+                                    ],
+                                    "LinksToFragment": {
+                                        "Tags": [
+                                            "stkrating"
+                                        ]
+                                    }
                                 }
                             ]
                         }
