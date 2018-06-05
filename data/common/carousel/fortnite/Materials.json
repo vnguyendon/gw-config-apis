@@ -1,0 +1,38 @@
+{
+    "Id": "HugoCard",
+    "Elements": [
+        {
+            "Title": {
+                "en": "Wood ",
+                "fr": "Bois",
+                "es": "Madera"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528214561/wood.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Brick",
+                "fr": "Brique",
+                "es": "Ladrillo"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528214561/brick.png"
+            }
+        },
+        {
+            "Title": {
+                "en": "Metal",
+                "fr": "Métal",
+                "es": "Metal"
+            },
+            "Image": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528214561/metal.png"
+            }
+        }
+    ]
+}
