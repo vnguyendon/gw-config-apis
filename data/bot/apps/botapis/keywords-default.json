@@ -26,7 +26,7 @@
       "words" : ["hi","hola","bonjour","hello","salut"],
       "matchingType":"exact",
         "fragment" : {
-          "path" : "HiResponse"
+          "tags" : ["Hi"]
         }
     },
     {
