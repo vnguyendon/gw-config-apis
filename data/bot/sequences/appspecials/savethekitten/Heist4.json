@@ -6,8 +6,8 @@
       "Type": "Text",
       "Label": {
         "en": "Cat Damon has grabbed the cat food and has betrayed the team!",
-        "fr": "Cat Damon has grabbed the cat food and has betrayed the team!",
-        "es": "Cat Damon has grabbed the cat food and has betrayed the team!"
+        "fr": "Cat Damon a pris la nourriture pour chat et a trahi l'équipe !",
+        "es": "¡Cat Damon tomó la comida para gatos y traicionó al equipo!"
       }
     }
   ],
@@ -18,16 +18,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "I knew he would",
-        "fr": "I knew he would",
-        "es": "I knew he would"
+        "fr": "Ça ne m'étonne pas",
+        "es": "No me sorprende"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "You’re smart, I did not spot his treachery",
-            "fr": "You’re smart, I did not spot his treachery",
-            "es": "You’re smart, I did not spot his treachery"
+            "fr": "Tu es intelligent, je n'avais pas repéré sa traîtrise",
+            "es": "Eres inteligente, no había detectado su traición"
           }
         },
         {
@@ -41,8 +41,8 @@
           "Type": "Text",
           "Label": {
             "en": "But wait, the paw-lice are here!!",
-            "fr": "But wait, the paw-lice are here!!",
-            "es": "But wait, the paw-lice are here!!"
+            "fr": "Mais attends, la chapolice est là !!",
+            "es": "Per espera, la gatolicia está aquí"
           }
         },
         {
@@ -63,8 +63,8 @@
           "Type": "Text",
           "Label": {
             "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
+            "fr": "C'est le chaos, je ne vois rien, mais je pense qu'un chaton s'est échappé avec la nourriture pour chat.",
+            "es": "Es el caos, no veo nada, pero pienso que un gatito escapó con la comida para gatos"
           }
         }
       ],
@@ -76,8 +76,8 @@
             "Type": "Text",
             "Label": {
               "en": "Did you see who?",
-              "fr": "Did you see who?",
-              "es": "Did you see who?"
+              "fr": "As-tu vu qui c'était ?",
+              "es": "¿Viste quién era?"
             }
           }
         ],
@@ -109,8 +109,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -132,16 +132,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -155,16 +155,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -182,16 +182,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -205,16 +205,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -254,8 +254,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "She’s gonna be rich!",
-                  "fr": "She’s gonna be rich!",
-                  "es": "She’s gonna be rich!"
+                  "fr": "Elle va devenir riche !",
+                  "es": "¡Va a volverse rica!"
                 }
               },
               {
@@ -277,16 +277,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -300,16 +300,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -327,16 +327,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -350,16 +350,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -399,8 +399,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -422,16 +422,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -445,16 +445,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -472,16 +472,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -495,16 +495,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -544,8 +544,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -567,16 +567,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -590,16 +590,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -617,16 +617,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -640,16 +640,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -673,16 +673,16 @@
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Traitor!",
-        "fr": "Traitor!",
-        "es": "Traitor!"
+        "fr": "Traître!",
+        "es": "¡Traidor!"
       },
       "Steps": [
         {
           "Type": "Text",
           "Label": {
             "en": "Yes, he seems even more despicable than most kittens",
-            "fr": "Yes, he seems even more despicable than most kittens",
-            "es": "Yes, he seems even more despicable than most kittens"
+            "fr": "Oui, il a l'air encore plus méprisable que la plupart des chatons",
+            "es": "Sí, parece aún más despreciable que la mayoría de los gatitos"
           }
         },
         {
@@ -696,8 +696,8 @@
           "Type": "Text",
           "Label": {
             "en": "But wait, the paw-lice are here!!",
-            "fr": "But wait, the paw-lice are here!!",
-            "es": "But wait, the paw-lice are here!!"
+            "fr": "Mais attends, la chapolice est là !!",
+            "es": "Per espera, la gatolicia está aquí"
           }
         },
         {
@@ -718,8 +718,8 @@
           "Type": "Text",
           "Label": {
             "en": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "fr": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food.",
-            "es": "It’s mayhem, I can’t see anything, but I think one kitten escaped with the cat food."
+            "fr": "C'est le chaos, je ne vois rien, mais je pense qu'un chaton s'est échappé avec la nourriture pour chat.",
+            "es": "Es el caos, no veo nada, pero pienso que un gatito escapó con la comida para gatos"
           }
         }
       ],
@@ -731,8 +731,8 @@
             "Type": "Text",
             "Label": {
               "en": "Did you see who?",
-              "fr": "Did you see who?",
-              "es": "Did you see who?"
+              "fr": "As-tu vu qui c'était ?",
+              "es": "¿Viste quién era?"
             }
           }
         ],
@@ -764,8 +764,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -787,16 +787,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -810,16 +810,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -837,16 +837,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -860,16 +860,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -909,8 +909,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "She’s gonna be rich!",
-                  "fr": "She’s gonna be rich!",
-                  "es": "She’s gonna be rich!"
+                  "fr": "Elle va devenir riche !",
+                  "es": "¡Va a volverse rica!"
                 }
               },
               {
@@ -932,16 +932,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -955,16 +955,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -982,16 +982,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -1005,16 +1005,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -1054,8 +1054,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -1077,16 +1077,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -1100,16 +1100,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -1127,16 +1127,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -1150,16 +1150,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -1199,8 +1199,8 @@
                 "Type": "Text",
                 "Label": {
                   "en": "He’s gonna be rich!",
-                  "fr": "He’s gonna be rich!",
-                  "es": "He’s gonna be rich!"
+                  "fr": "Il va devenir riche !",
+                  "es": "¡Va a volverse rico!"
                 }
               },
               {
@@ -1222,16 +1222,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "Terrible heist!",
-                    "fr": "Terrible heist!",
-                    "es": "Terrible heist!"
+                    "fr": "Lamentable casse !",
+                    "es": "¡Terrible golpe!"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -1245,16 +1245,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
@@ -1272,16 +1272,16 @@
                   "ElementValue": "1",
                   "CommandLabel": {
                     "en": "A heist well done!",
-                    "fr": "A heist well done!",
-                    "es": "A heist well done!"
+                    "fr": "Un casse réussi !",
+                    "es": "Un golpe bien hecho"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Well, yes, most of them ended up in jail.",
-                        "fr": "Well, yes, most of them ended up in jail.",
-                        "es": "Well, yes, most of them ended up in jail."
+                        "fr": "Ben, oui, la plupart ont fini en prison.",
+                        "es": "Claro, sí, la mayoría terminó en la cárcel"
                       }
                     },
                     {
@@ -1295,16 +1295,16 @@
                       "Type": "Text",
                       "Label": {
                         "en": "Where they should be.",
-                        "fr": "Where they should be.",
-                        "es": "Where they should be."
+                        "fr": "Où ils sont censés être.,
+                        "es": "Donde deberían estar."
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
                         "en": "Horrible kittens.",
-                        "fr": "Horrible kittens.",
-                        "es": "Horrible kittens."
+                        "fr": "Horribles chatons.",
+                        "es": "Horribles gatitos."
                       }
                     },
                     {
