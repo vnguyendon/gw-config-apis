@@ -9,6 +9,10 @@
         "fr": "Vous pouvez maintenant sélectionner votre catégorie de message préférée",
         "es": "Ahora puedes seleccionar tu categoría de mensaje preferida"
       }
+    },
+    {
+      "Type": "Action",
+      "Name": "UserPickIntention"
     }
   ]
 }
