@@ -1,0 +1,52 @@
+{
+  "Type": "Leaf",
+  "Id": "YouHaveSelectedImage",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Your favourite image is...",
+        "fr": "Votre image préférée est...",
+        "es": "TBD..."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowFavoriteImage"
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I am now configuring your main screen",
+        "fr": "Je configure votre écran principale",
+        "es": "Estoy configurando tu pantalla principal"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here's an advert while you wait 😁",
+        "fr": "Voici une publicité pendant que vous attendez 😁",
+        "es": "Aqui esta un anuncio mientras esperas 😁"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowAdvert"
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    }
+  ]
+}
