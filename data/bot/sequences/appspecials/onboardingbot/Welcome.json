@@ -54,6 +54,10 @@
         {
           "Type": "Action",
           "Name": "UserPickATheme"
+        },
+        {
+          "Type": "Action",
+          "Name": "UserPickImage"
         }
       ]
     }
