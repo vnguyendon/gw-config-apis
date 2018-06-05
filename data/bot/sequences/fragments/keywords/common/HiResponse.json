@@ -1,6 +1,7 @@
 {
     "Type": "Leaf",
     "Id": "HiResponse",
+    "Tags":["hi"],
     "Steps": [
         {
             "Type": "Text",
