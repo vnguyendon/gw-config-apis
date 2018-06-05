@@ -6,16 +6,16 @@
             "Type": "Text",
             "Label": {
                 "en": "Oh, this is really important!",
-                "fr": "Oh, this is really important!",
-                "es": "Oh, this is really important!"
+                "fr": "Oh, ça c'est très important !",
+                "es": "Oh, ¡eso es muy importante!"
             }
         },
         {
             "Type": "Text",
             "Label": {
                 "en": "Some kittens I know are about to pull off a heist!",
-                "fr": "Some kittens I know are about to pull off a heist!",
-                "es": "Some kittens I know are about to pull off a heist!"
+                "fr": "Des chatons que je connais sont sur le point de faire un casse !",
+                "es": "¡Gatitos que conozco estan a punto de hacer un robo!"
             }
         }
     ],
@@ -26,16 +26,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Ridiculous",
-                "fr": "Ridiculous",
-                "es": "Ridiculous"
+                "fr": "Ridicule",
+                "es": "Ridículo"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "I swear it’s true!",
-                        "fr": "I swear it’s true!",
-                        "es": "I swear it’s true!"
+                        "fr": "Je te jure que c'est vrai !",
+                        "es": "¡Es verdad, te lo juro!"
                     }
                 },
                 {
@@ -49,8 +49,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
-                        "fr": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
-                        "es": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’"
+                        "fr": "Ils ont eu une info sur une grosse planque de nourriture pour chat stockée dans la résidence du célèbre chaton musicien ‘Notorious C.A.T.’",
+                        "es": "Tuvieron información sobre un gran alijo de comida para gatos almacenado en la residencia del famoso gatito músico ‘Notorious C.A.T.’"
                     }
                 },
                 {
@@ -71,25 +71,25 @@
                         "Id": "HeistRidicKid",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "You’re kidding",
-                            "fr": "You’re kidding",
-                            "es": "You’re kidding"
+                            "en": "You’re kidding!",
+                            "fr": "Tu plaisantes !",
+                            "es": "¡Estás bromeando!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not at all!",
-                                    "fr": "Not at all!",
-                                    "es": "Not at all!"
+                                    "fr": "Pas du tout !",
+                                    "es": "¡En absoluto no!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "This is live and happening right now!",
-                                    "fr": "This is live and happening right now!",
-                                    "es": "This is live and happening right now!"
+                                    "fr": "C'est en train de se passer en ce moment même !",
+                                    "es": "¡Está ocurriendo ahora mismo!"
                                 }
                             },
                             {
@@ -103,8 +103,8 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                    "fr": "Le cerveau de l'équipe est tristement célèbre : tu as entendu parler de Catrick Swayze ?",
+                                    "es": "El líder del équipo es tristement célebre: ¿has oído hablar de Catrick Swayze?"
                                 }
                             }
                         ],
@@ -119,16 +119,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Of course!",
-                                        "fr": "Of course!",
-                                        "es": "Of course!"
+                                        "fr": "Bien sûr !",
+                                        "es": "¡Por supuesto!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Just look at this villain",
-                                                "fr": "Just look at this villain",
-                                                "es": "Just look at this villain"
+                                                "fr": "Regarde ce scélérat",
+                                                "es": "Mira este villano"
                                             }
                                         },
                                         {
@@ -146,7 +146,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No...",
-                                        "fr": "No...",
+                                        "fr": "Non...",
                                         "es": "No..."
                                     },
                                     "Steps": [
@@ -154,8 +154,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Here he is…",
-                                                "fr": "Here he is…",
-                                                "es": "Here he is…"
+                                                "fr": "Le voici…",
+                                                "es": "Aquí está…"
                                             }
                                         },
                                         {
@@ -176,16 +176,16 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Exciting!",
-                            "fr": "Exciting!",
-                            "es": "Exciting!"
+                            "fr": "Passionnant !",
+                            "es": "¡Apasionante!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Crime is not exciting, it’s immoral!",
-                                    "fr": "Crime is not exciting, it’s immoral!",
-                                    "es": "Crime is not exciting, it’s immoral!"
+                                    "fr": "Un crime n'est pas passionnant, c'est immoral !",
+                                    "es": "Un crimen no es apasionante, ¡es inmoral!"
                                 }
                             },
                             {
@@ -199,8 +199,8 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                    "fr": "Le cerveau de l'équipe est tristement célèbre : tu as entendu parler de Catrick Swayze ?",
+                                    "es": "El líder del équipo es tristement célebre: ¿has oído hablar de Catrick Swayze?"
                                 }
                             }
                         ],
@@ -215,16 +215,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Of course!",
-                                        "fr": "Of course!",
-                                        "es": "Of course!"
+                                        "fr": "Bien sûr !",
+                                        "es": "¡Por supuesto!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Just look at this villain",
-                                                "fr": "Just look at this villain",
-                                                "es": "Just look at this villain"
+                                                "fr": "Regarde ce scélérat",
+                                                "es": "Mira este villano"
                                             }
                                         },
                                         {
@@ -242,7 +242,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No...",
-                                        "fr": "No...",
+                                        "fr": "Non...",
                                         "es": "No..."
                                     },
                                     "Steps": [
@@ -250,8 +250,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Here he is…",
-                                                "fr": "Here he is…",
-                                                "es": "Here he is…"
+                                                "fr": "Le voici…",
+                                                "es": "Aquí está…"
                                             }
                                         },
                                         {
@@ -275,16 +275,16 @@
             "ElementValue": "1",
             "CommandLabel": {
                 "en": "Thieves!",
-                "fr": "Thieves!",
-                "es": "Thieves!"
+                "fr": "Voleurs !",
+                "es": "¡Ladrones!"
             },
             "Steps": [
                 {
                     "Type": "Text",
                     "Label": {
                         "en": "I agree, nasty kittens!",
-                        "fr": "I agree, nasty kittens!",
-                        "es": "I agree, nasty kittens!"
+                        "fr": "Je suis d'accord, méchants chatons !",
+                        "es": "Estoy de acuerdo, ¡feos gatitos!"
                     }
                 },
                 {
@@ -305,8 +305,8 @@
                     "Type": "Text",
                     "Label": {
                         "en": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
-                        "fr": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’",
-                        "es": "They’ve had intel about a large cache of cat-food stored in the residence of popular kitten musician ‘Notorious C.A.T.’"
+                        "fr": "Ils ont eu une info sur une grosse planque de nourriture pour chat stockée dans la résidence du célèbre chaton musicien ‘Notorious C.A.T.’",
+                        "es": "Tuvieron información sobre un gran alijo de comida para gatos almacenado en la residencia del famoso gatito músico ‘Notorious C.A.T.’"
                     }
                 },
                 {
@@ -327,25 +327,25 @@
                         "Id": "HeistThievesKid",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "You’re kidding",
-                            "fr": "You’re kidding",
-                            "es": "You’re kidding"
+                            "en": "You’re kidding!",
+                            "fr": "Tu plaisantes !",
+                            "es": "¡Estás bromeando!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Not at all!",
-                                    "fr": "Not at all!",
-                                    "es": "Not at all!"
+                                    "fr": "Pas du tout !",
+                                    "es": "¡En absoluto no!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "This is live and happening right now!",
-                                    "fr": "This is live and happening right now!",
-                                    "es": "This is live and happening right now!"
+                                    "fr": "C'est en train de se passer en ce moment même !",
+                                    "es": "¡Está ocurriendo ahora mismo!"
                                 }
                             },
                             {
@@ -359,8 +359,8 @@
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                    "fr": "Le cerveau de l'équipe est tristement célèbre : tu as entendu parler de Catrick Swayze ?",
+                                    "es": "El líder del équipo es tristement célebre: ¿has oído hablar de Catrick Swayze?"
                                 }
                             }
                         ],
@@ -375,16 +375,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Of course!",
-                                        "fr": "Of course!",
-                                        "es": "Of course!"
+                                        "fr": "Bien sûr !",
+                                        "es": "¡Por supuesto!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Just look at this villain",
-                                                "fr": "Just look at this villain",
-                                                "es": "Just look at this villain"
+                                                "fr": "Regarde ce scélérat",
+                                                "es": "Mira este villano"
                                             }
                                         },
                                         {
@@ -402,7 +402,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No...",
-                                        "fr": "No...",
+                                        "fr": "Non...",
                                         "es": "No..."
                                     },
                                     "Steps": [
@@ -410,8 +410,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Here he is…",
-                                                "fr": "Here he is…",
-                                                "es": "Here he is…"
+                                                "fr": "Le voici…",
+                                                "es": "Aquí está…"
                                             }
                                         },
                                         {
@@ -432,24 +432,24 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "Exciting!",
-                            "fr": "Exciting!",
-                            "es": "Exciting!"
+                            "fr": "Passionnant !",
+                            "es": "¡Apasionante!"
                         },
                         "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "Crime is not exciting, it’s immoral!",
-                                    "fr": "Crime is not exciting, it’s immoral!",
-                                    "es": "Crime is not exciting, it’s immoral!"
+                                    "fr": "Un crime n'est pas passionnant, c'est immoral !",
+                                    "es": "Un crimen no es apasionante, ¡es inmoral!"
                                 }
                             },
                             {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "fr": "The leader of the team is infamous: have you heard of Catrick Swayze?",
-                                    "es": "The leader of the team is infamous: have you heard of Catrick Swayze?"
+                                    "fr": "Le cerveau de l'équipe est tristement célèbre : tu as entendu parler de Catrick Swayze ?",
+                                    "es": "El líder del équipo es tristement célebre: ¿has oído hablar de Catrick Swayze?"
                                 }
                             }
                         ],
@@ -464,16 +464,16 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "Of course!",
-                                        "fr": "Of course!",
-                                        "es": "Of course!"
+                                        "fr": "Bien sûr !",
+                                        "es": "¡Por supuesto!"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Just look at this villain",
-                                                "fr": "Just look at this villain",
-                                                "es": "Just look at this villain"
+                                                "fr": "Regarde ce scélérat",
+                                                "es": "Mira este villano"
                                             }
                                         },
                                         {
@@ -491,7 +491,7 @@
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "No...",
-                                        "fr": "No...",
+                                        "fr": "Non...",
                                         "es": "No..."
                                     },
                                     "Steps": [
@@ -499,8 +499,8 @@
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "Here he is…",
-                                                "fr": "Here he is…",
-                                                "es": "Here he is…"
+                                                "fr": "Le voici…",
+                                                "es": "Aquí está…"
                                             }
                                         },
                                         {
