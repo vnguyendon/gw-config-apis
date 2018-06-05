@@ -23,7 +23,7 @@
         }
     },
     {
-      "words" : ["hi","hola","bonjour","hello","salut"],
+      "words" : ["hi","hola","bonjour","hello","salut","ola"],
       "matchingType":"exact",
         "fragment" : {
           "tags" : ["hi"]
