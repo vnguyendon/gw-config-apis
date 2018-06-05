@@ -6,7 +6,7 @@
       "Type": "Text",
       "Label": {
         "en": "Have you ever served on a jury of kittens?",
-        "fr": "As-tu déjà été convoqué pour être juré lors d'un procès de chatons ?",
+        "fr": "As-tu déjà été juré pour chatons ?",
         "es": "¿Ya formaste parte de un jurado de gatitos?"
       }
     }
@@ -34,7 +34,7 @@
           "Type": "Text",
           "Label": {
             "en": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
-            "fr": "Un jeune chaton, Louis Le Chaton, est poursuivi pour délit grave",
+            "fr": "Un jeune chaton, William the Kitten, est poursuivi pour délit grave",
             "es": "A un joven gatito, Louis Le Chaton, se lo juzgan por un delito grave"
           }
         },
@@ -49,7 +49,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
           }
         },
         {
@@ -64,7 +64,7 @@
           "Type": "Text",
           "Label": {
             "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
-            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
+            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver William, si tu en as l'envie...",
             "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
           }
         },
@@ -103,7 +103,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                  "fr": "Tout d'abord, des poils de William ont été retrouvés dans la pièce",
                   "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                 }
               },
@@ -187,7 +187,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il a été vu en train de parler à la victime la veille",
+                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
                         "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                       }
                     },
@@ -210,7 +210,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -261,8 +261,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -337,7 +337,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -388,8 +388,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -444,7 +444,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                  "fr": "Tout d'abord, des poils de William ont été retrouvés dans la pièce",
                   "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                 }
               },
@@ -551,7 +551,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -602,8 +602,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -678,7 +678,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -729,8 +729,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -781,7 +781,7 @@
           "Type": "Text",
           "Label": {
             "en": "A young kitten, Louis Le Chaton, is being tried for a serious felin-y",
-            "fr": "Un jeune chaton, Louis Le Chaton, est poursuivi pour délit grave",
+            "fr": "Un jeune chaton, William the Kitten, est poursuivi pour délit grave",
             "es": "A un joven gatito, Louis Le Chaton, se lo juzgan por un delito grave"
           }
         },
@@ -796,7 +796,7 @@
           "Type": "Image",
           "Parameters": {
             "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673637/Louis_Le_Chaton.jpg"
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
           }
         },
         {
@@ -818,7 +818,7 @@
           "Type": "Text",
           "Label": {
             "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
-            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
+            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver William, si tu en as l'envie...",
             "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
           }
         },
@@ -857,7 +857,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                  "fr": "Tout d'abord, des poils de William ont été retrouvés dans la pièce",
                   "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                 }
               },
@@ -964,7 +964,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -1015,8 +1015,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -1091,7 +1091,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -1142,8 +1142,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -1198,7 +1198,7 @@
                 "Type": "Text",
                 "Label": {
                   "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                  "fr": "Tout d'abord, des poils de William ont été retrouvés dans la pièce",
                   "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                 }
               },
@@ -1305,7 +1305,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -1356,8 +1356,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
@@ -1432,7 +1432,7 @@
                       "Type": "Text",
                       "Label": {
                         "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                        "fr": "“Clairement, William the Kitten connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
                         "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                       }
                     }
@@ -1483,8 +1483,8 @@
                         "ElementValue": "1",
                         "CommandLabel": {
                           "en": "Louis must swing!",
-                          "fr": "Louis doit être pendu !",
-                          "es": "¡Que cuelguen Louis!"
+                          "fr": "William doit mourir !",
+                          "es": "¡Louis debe morir!"
                         },
                         "Steps": [
                           {
