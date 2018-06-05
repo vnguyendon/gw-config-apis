@@ -57,7 +57,7 @@
       "Steps": [
         {
           "Type": "Action",
-          "Name": "ShowMainScreen "
+          "Name": "ShowMainScreen"
         }
       ]
     }
