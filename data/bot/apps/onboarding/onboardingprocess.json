@@ -2,8 +2,9 @@
   "GroupName": "onboardingprocess",
   "SequenceFiles": [
     { "order" : 10, "file":["/data/bot/sequences/appspecials/onboardingbot/Welcome.json"]},
-    { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/YouHaveSelected.json"]},
-    { "order" : 30, "file":["/data/bot/sequences/appspecials/onboardingbot/YouCanNowSelect.json"]},
-    { "order" : 40, "file":["/data/bot/sequences/appspecials/onboardingbot/LetsLaunchApp.json"]}
+    { "order" : 20, "file":["/data/bot/sequences/appspecials/onboardingbot/YouHaveSelectedTheme.json"]},
+    { "order" : 30, "file":["/data/bot/sequences/appspecials/onboardingbot/YouHaveSelectedImage.json"]},
+    { "order" : 40, "file":["/data/bot/sequences/appspecials/onboardingbot/YouCanNowSelect.json"]},
+    { "order" : 50, "file":["/data/bot/sequences/appspecials/onboardingbot/LetsLaunchApp.json"]}
   ]
 }
