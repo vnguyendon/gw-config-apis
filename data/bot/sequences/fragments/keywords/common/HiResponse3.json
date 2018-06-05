@@ -1,14 +1,16 @@
 {
   "Type": "Leaf",
   "Id": "HiResponse3",
-  "Tags": ["hi"],
+  "Tags": [
+    "hi"
+  ],
   "Steps": [
     {
       "Type": "Text",
       "Label": {
         "en": "Hey! 👋",
-        "fr": "Salut toi !",
-        "es": "¡Hola!"
+        "fr": "Salut ! 👋",
+        "es": "¡Hola! 👋"
       }
     },
     {
@@ -22,8 +24,8 @@
       "Type": "Text",
       "Label": {
         "en": "I love the way you type! But try using the quick reply buttons like these...",
-        "fr": "C'est bien que tu aies trouvé la barre de saisie, mais si tu veux, tu peux utiliser les réponses rapides",
-        "es": "Está bién que encontraras como escribir, pero si quieres, puedes utilizar las respuestas rápidas"
+        "fr": "J'adore ta façon d'écrire ! Mais essaie d'utiliser les boutons de réponse rapide, comme cela...",
+        "es": "¡Me encanta como escribes! Pero prueba utilizar los botones de respuesta rápida, como así..."
       }
     },
     {
@@ -37,8 +39,8 @@
       "Type": "Text",
       "Label": {
         "en": "I think it will work better for both of us 😃",
-        "fr": "C'est plus facile, et je te comprendrai bien mieux !",
-        "es": "¡Es más fácil, y te entenderé mucho mejor!"
+        "fr": "Je pense que ça fonctionnera mieux, pour toi comme pour moi 😃",
+        "es": "Pienso que va a funcionar mejor, para tu y para mi 😃"
       }
     }
   ]
