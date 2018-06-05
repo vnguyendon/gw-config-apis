@@ -1,0 +1,37 @@
+{
+  "Type": "Leaf",
+  "Id": "YouHaveSelectedTheme",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "You have selected...",
+        "fr": "Vous avez sélectionné...",
+        "es": "Seleccionaste..."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowFavoriteTheme"
+    },
+    {
+      "Type": "Pause",
+      "Parameters": {
+          "Mode": "Wait",
+          "ms": 2000
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Let's now pick your favourite image 😃",
+        "fr": "Choisissons maintenant votre image préférée 😃",
+        "es": "TBD 😃"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "UserPickImage"
+    }
+  ]
+}
