@@ -1,0 +1,45 @@
+{
+  "Type": "Leaf",
+  "Id": "HiResponse3",
+  "Tags": ["hi"],
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hey! 👋",
+        "fr": "Salut toi !",
+        "es": "¡Hola!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Giphy",
+        "Path": "DCOgUFTPoCWqGLoyc7"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I love the way you type! But try using the quick reply buttons like these...",
+        "fr": "C'est bien que tu aies trouvé la barre de saisie, mais si tu veux, tu peux utiliser les réponses rapides",
+        "es": "Está bién que encontraras como escribir, pero si quieres, puedes utilizar las respuestas rápidas"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528192279/Quick_reply_indicator.jpg"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "I think it will work better for both of us 😃",
+        "fr": "C'est plus facile, et je te comprendrai bien mieux !",
+        "es": "¡Es más fácil, y te entenderé mucho mejor!"
+      }
+    }
+  ]
+}
