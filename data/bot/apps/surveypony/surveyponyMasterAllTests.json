@@ -22,8 +22,9 @@
         { "order": 1150, "file":[
             "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
             "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
-      
-      ]
+        { "order": 1160, "file":[
+            "data/bot/sequences/experiments/rui/OneStepWithPredictProbability1.json"]},
+      ] 
   },
   {
     "GroupName":"VerifyConditions",
