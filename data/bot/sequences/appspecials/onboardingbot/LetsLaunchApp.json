@@ -1,5 +1,5 @@
 {
-  "Type": "Node",
+  "Type": "Leaf",
   "Id": "LetsLaunchApp",
   "Steps": [
     {
@@ -43,23 +43,10 @@
           "Mode": "Wait",
           "ms": 2000
       }
-    }
-  ],
-  "Commands": [
+    },
     {
-      "Type": "Leaf",
-      "Id": "LetsLaunchAppOk",
-      "CommandLabel": {
-        "en": "Ok! 😎",
-        "fr": "D'accord ! 😎",
-        "es": "¡Vale! 😎"
-      },
-      "Steps": [
-        {
-          "Type": "Action",
-          "Name": "ShowMainScreen"
-        }
-      ]
+      "Type": "Action",
+      "Name": "ShowMainScreen"
     }
   ]
 }
