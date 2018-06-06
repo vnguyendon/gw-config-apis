@@ -1,0 +1,18 @@
+{
+  "Type": "Leaf",
+  "Comments":"the mock service will return 90 for culture=EN, 70 for others",
+  “PredictProbability”: {
+   “testName” : “Mock-CanIGuessCountry”,
+   “threshold” : 80
+  },
+  "Id": "OneStepWithPredictProbability1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "if you're in EN, then you should see this message",
+        "fr": "if you're seeing this message, the test has failed"
+      }
+    }
+  ]
+}
