@@ -1,7 +1,8 @@
 [
   {
-    "GroupName":"TestPersistentLinks",
+    "GroupName":"Test",
     "SequenceFiles" : [
+        { "order": 1160, "file":["data/bot/sequences/experiments/rui/OneStepWithPredictProbability1.json"]},
         { "order" : 1610, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]}
       ]
    }
