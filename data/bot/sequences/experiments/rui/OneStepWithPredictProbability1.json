@@ -1,9 +1,9 @@
 {
   "Type": "Leaf",
   "Comments":"the mock service will return 90 for culture=EN, 70 for others",
-  “PredictProbability”: {
-   “testName” : “Mock-CanIGuessCountry”,
-   “threshold” : 80
+  "PredictProbability": {
+   "testName" : "Mock-CanIGuessCountry",
+   "threshold": 80
   },
   "Id": "OneStepWithPredictProbability1",
   "Steps": [
