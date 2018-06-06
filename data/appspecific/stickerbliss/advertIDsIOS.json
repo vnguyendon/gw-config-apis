@@ -6,11 +6,19 @@
   },
   "FirstResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/6044656455"
+    "ID": "ca-app-pub-7822741681642396/6044656455",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/3666681458"
+    }
   },
   "OtherResumeActivity": {
     "Provider": "AdMob",
-    "ID": "ca-app-pub-7822741681642396/5484940176"
+    "ID": "ca-app-pub-7822741681642396/5484940176",
+    "Fallback": {
+      "Provider": "AdMob",
+      "ID": "ca-app-pub-7822741681642396/3666681458"
+    }
   },
   "AfterSharingIsRemoved": {
     "Provider": "AdMob",
