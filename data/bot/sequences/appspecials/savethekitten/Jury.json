@@ -44,110 +44,36 @@
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528212074/courtroom.jpg"
           }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "ConfirmContinuation"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Here he is up close... looks guilty to me...",
-            "fr": "Le voici en photo... il m'a l'air coupable...",
-            "es": "Aquí está una foto de ello... me parece culpable..."
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You are the last on a jury of thirteen kittens!",
-            "fr": "Tu es le dernier membre d'un jury composé de treize chatons !",
-            "es": "¡Eres el último miembro de un jurado de trece gatitos!"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
-            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
-            "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 4000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Let me remind you of the evidence that was brought up in the trial",
-            "fr": "Laisse-moi te rappeler les preuves apportées lors du procès",
-            "es": "Déjame acordarte de las pruebas surgidas en el juicio"
-          }
         }
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "JuryNoEvidence",
+        "Id": "JuryNoContinue",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Node",
-            "Id": "JuryNoHear",
+            "Id": "JuryNoContinue2",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Let’s hear it",
-              "fr": "Je suis tout ouïe",
-              "es": "Soy todo oídos"
+              "en": "Tell me more!",
+              "fr": "Dit m'en plus !",
+              "es": "¡Cuéntame más!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
-                  "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This mean kitten is Juror 3",
-                  "fr": "Ce vilain chaton est le juré numéro 3",
-                  "es": "Este malo gatito es Jurado 3"
+                  "en": "Here he is up close... looks guilty to me...",
+                  "fr": "Le voici en photo... il m'a l'air coupable...",
+                  "es": "Aquí está una foto de ello... me parece culpable..."
                 }
               },
               {
                 "Type": "Image",
                 "Parameters": {
                   "Source": "Web",
-                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                 }
               },
               {
@@ -160,56 +86,56 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "He had this to say:",
-                  "fr": "Il avait cela à dire :",
-                  "es": "Dijo lo siguiente:"
+                  "en": "You are the last on a jury of thirteen kittens!",
+                  "fr": "Tu es le dernier membre d'un jury composé de treize chatons !",
+                  "es": "¡Eres el último miembro de un jurado de trece gatitos!"
                 }
               },
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
-                  "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
-                  "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
+                  "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
+                  "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
+                  "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Let me remind you of the evidence that was brought up in the trial",
+                  "fr": "Laisse-moi te rappeler les preuves apportées lors du procès",
+                  "es": "Déjame acordarte de las pruebas surgidas en el juicio"
                 }
               }
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "JuryNoHearHairs",
+              "Id": "JuryNoEvidence",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Node",
-                  "Id": "JuryNoHearFalse",
+                  "Id": "JuryNoHear",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s not proof!",
-                    "fr": "Ce n'est pas une preuve !",
-                    "es": "¡No es una prueba!"
+                    "en": "Let’s hear it",
+                    "fr": "Je suis tout ouïe",
+                    "es": "Soy todo oídos"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Right! He could have been there at any time…",
-                        "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
-                        "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 3000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                        "en": "First, some of Louis’ hairs were discovered in the room",
+                        "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                        "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                       }
                     },
                     {
@@ -222,49 +148,78 @@
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
+                        "en": "This mean kitten is Juror 3",
+                        "fr": "Ce vilain chaton est le juré numéro 3",
+                        "es": "Este malo gatito es Jurado 3"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                        "en": "He had this to say:",
+                        "fr": "Il avait cela à dire :",
+                        "es": "Dijo lo siguiente:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                        "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
+                        "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
                       }
                     }
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "JuryNoHearFalseJail",
+                    "Id": "JuryNoHearHairs",
                     "ElementValue": "1",
                     "Commands": [
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryNoHearFalseFalse",
+                        "Type": "Node",
+                        "Id": "JuryNoHearFalse",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
+                          "en": "That’s not proof!",
+                          "fr": "Ce n'est pas une preuve !",
+                          "es": "¡No es una prueba!"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
+                              "en": "Right! He could have been there at any time…",
+                              "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
+                              "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 3000
                             }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                             }
                           },
                           {
@@ -273,25 +228,110 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryNoHearFalseJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoHearFalseFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoHearFalseSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       },
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryNoHearFalseSwing",
+                        "Type": "Node",
+                        "Id": "JuryNoHearTrue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
+                          "en": "That’s incriminating",
+                          "fr": "C'est compromettant",
+                          "es": "Es incriminatorio"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                              "en": "I guess so…",
+                              "fr": "J'imagine...",
+                              "es": "Supongo que sí"
                             }
                           },
                           {
@@ -300,28 +340,128 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 2000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryNoHearTrueJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoHearTrueFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoHearTrueSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       }
                     ]
                   }
                 },
                 {
                   "Type": "Node",
-                  "Id": "JuryNoHearTrue",
+                  "Id": "JuryNoThere",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s incriminating",
-                    "fr": "C'est compromettant",
-                    "es": "Es incriminatorio"
+                    "en": "You were there?",
+                    "fr": "Tu y étais ?",
+                    "es": "¿Estabas allí?"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "I guess so…",
-                        "fr": "J'imagine...",
-                        "es": "Supongo que sí"
+                        "en": "Yes, fish are allowed in the courtroom!",
+                        "fr": "Oui, les poissons ont accès au tribunal !",
+                        "es": "Sí, ¡se permiten el acceso de peces en el tribunal!"
                       }
                     },
                     {
@@ -334,9 +474,9 @@
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                        "en": "First, some of Louis’ hairs were discovered in the room",
+                        "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                        "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                       }
                     },
                     {
@@ -349,49 +489,63 @@
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
+                        "en": "This mean kitten is Juror 3",
+                        "fr": "Ce vilain chaton est le juré numéro 3",
+                        "es": "Este malo gatito es Jurado 3"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                        "en": "He had this to say:",
+                        "fr": "Il avait cela à dire :",
+                        "es": "Dijo lo siguiente:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                        "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
+                        "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
                       }
                     }
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "JuryNoHearTrueJail",
+                    "Id": "JuryNoThereHairs",
                     "ElementValue": "1",
                     "Commands": [
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryNoHearTrueFalse",
+                        "Type": "Node",
+                        "Id": "JuryNoThereFalse",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
+                          "en": "That’s not proof!",
+                          "fr": "Ce n'est pas une preuve !",
+                          "es": "¡No es una prueba!"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "Right! He could have been there at any time…",
+                              "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
+                              "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
                             }
                           },
                           {
@@ -400,25 +554,125 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 4000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryNoThereFalseJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoThereFalseFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoThereFalseSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       },
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryNoHearTrueSwing",
+                        "Type": "Node",
+                        "Id": "JuryNoThereTrue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
+                          "en": "That’s incriminating",
+                          "fr": "C'est compromettant",
+                          "es": "Es incriminatorio"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                              "en": "I guess so…",
+                              "fr": "J'imagine...",
+                              "es": "Supongo que sí"
                             }
                           },
                           {
@@ -427,349 +681,108 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "JuryNoThere",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "You were there?",
-              "fr": "Tu y étais ?",
-              "es": "¿Estabas allí?"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Yes, fish are allowed in the courtroom!",
-                  "fr": "Oui, les poissons ont accès au tribunal !",
-                  "es": "Sí, ¡se permiten el acceso de peces en el tribunal!"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
-                  "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This mean kitten is Juror 3",
-                  "fr": "Ce vilain chaton est le juré numéro 3",
-                  "es": "Este malo gatito es Jurado 3"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He had this to say:",
-                  "fr": "Il avait cela à dire :",
-                  "es": "Dijo lo siguiente:"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
-                  "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
-                  "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "JuryNoThereHairs",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "JuryNoThereFalse",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "That’s not proof!",
-                    "fr": "Ce n'est pas une preuve !",
-                    "es": "¡No es una prueba!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Right! He could have been there at any time…",
-                        "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
-                        "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 4000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "JuryNoThereFalseJail",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryNoThereFalseFalse",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
-                            }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                             }
                           },
                           {
                             "Type": "Pause",
                             "Parameters": {
                               "Mode": "Wait",
-                              "ms": 2000
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryNoThereFalseSwing",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
-                            }
-                          },
-                          {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "JuryNoThereTrue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "That’s incriminating",
-                    "fr": "C'est compromettant",
-                    "es": "Es incriminatorio"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "I guess so…",
-                        "fr": "J'imagine...",
-                        "es": "Supongo que sí"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 3000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "JuryNoThereTrueJail",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryNoThereTrueFalse",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Hmm, you may be right",
-                              "fr": "Hmm, tu as peut-être raison",
-                              "es": "Hmm,  puede que tengas razón"
+                              "ms": 3000
                             }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
                             }
                           },
-                          {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
-                            }
-                          }
-                        ]
-                      },
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryNoThereTrueSwing",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
-                        },
-                        "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
-                            }
-                          },
-                          {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                             }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryNoThereTrueJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoThereTrueFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right",
+                                    "fr": "Hmm, tu as peut-être raison",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryNoThereTrueSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       }
                     ]
                   }
@@ -812,110 +825,36 @@
             "Source": "Web",
             "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528212074/courtroom.jpg"
           }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "ConfirmContinuation"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Here he is up close... looks guilty to me...",
-            "fr": "Le voici en photo... il m'a l'air coupable...",
-            "es": "Aquí está una foto de ello... me parece culpable..."
-          }
-        },
-        {
-          "Type": "Image",
-          "Parameters": {
-            "Source": "Web",
-            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 2000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "You are the last on a jury of thirteen kittens!",
-            "fr": "Tu es le dernier membre d'un jury composé de treize chatons !",
-            "es": "¡Eres el último miembro de un jurado de trece gatitos!"
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
-            "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
-            "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
-          }
-        },
-        {
-          "Type": "Pause",
-          "Parameters": {
-            "Mode": "Wait",
-            "ms": 4000
-          }
-        },
-        {
-          "Type": "Text",
-          "Label": {
-            "en": "Let me remind you of the evidence that was brought up in the trial",
-            "fr": "Laisse-moi te rappeler les preuves apportées lors du procès",
-            "es": "Déjame acordarte de las pruebas surgidas en el juicio"
-          }
         }
       ],
       "LinksTo": {
         "Type": "Node",
-        "Id": "JuryYesEvidence",
+        "Id": "JuryYesContinue",
         "ElementValue": "1",
         "Commands": [
           {
             "Type": "Node",
-            "Id": "JuryYesHear",
+            "Id": "JuryYesContinue2",
             "ElementValue": "1",
             "CommandLabel": {
-              "en": "Let’s hear it",
-              "fr": "Je suis tout ouïe",
-              "es": "Soy todo oídos"
+              "en": "Tell me more!",
+              "fr": "Dit m'en plus !",
+              "es": "¡Cuéntame más!"
             },
             "Steps": [
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
-                  "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This mean kitten is Juror 3",
-                  "fr": "Ce vilain chaton est le juré numéro 3",
-                  "es": "Este malo gatito es Jurado 3"
+                  "en": "Here he is up close... looks guilty to me...",
+                  "fr": "Le voici en photo... il m'a l'air coupable...",
+                  "es": "Aquí está una foto de ello... me parece culpable..."
                 }
               },
               {
                 "Type": "Image",
                 "Parameters": {
                   "Source": "Web",
-                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528122962/Louis_Le_Chaton.jpg"
                 }
               },
               {
@@ -928,56 +867,56 @@
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "He had this to say:",
-                  "fr": "Il avait cela à dire :",
-                  "es": "Dijo lo siguiente:"
+                  "en": "You are the last on a jury of thirteen kittens!",
+                  "fr": "Tu es le dernier membre d'un jury composé de treize chatons !",
+                  "es": "¡Eres el último miembro de un jurado de trece gatitos!"
                 }
               },
               {
                 "Type": "Text",
                 "Label": {
-                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
-                  "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
-                  "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
+                  "en": "The other twelve are looking for a guilty verdict, but you have the power to save Louis, if you wish...",
+                  "fr": "Les douze autres espèrent le voir déclaré coupable, mais tu as le pouvoir de sauver Louis, si tu en as l'envie...",
+                  "es": "Los otros doce esperan a un veredicto de culpabilidad, pero tienes el poder para salvar a Louis, si lo quieres..."
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 4000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Let me remind you of the evidence that was brought up in the trial",
+                  "fr": "Laisse-moi te rappeler les preuves apportées lors du procès",
+                  "es": "Déjame acordarte de las pruebas surgidas en el juicio"
                 }
               }
             ],
             "LinksTo": {
               "Type": "Node",
-              "Id": "JuryYesHearHairs",
+              "Id": "JuryYesEvidence",
               "ElementValue": "1",
               "Commands": [
                 {
                   "Type": "Node",
-                  "Id": "JuryYesHearFalse",
+                  "Id": "JuryYesHear",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s not proof!",
-                    "fr": "Ce n'est pas une preuve !",
-                    "es": "¡No es una prueba!"
+                    "en": "Let’s hear it",
+                    "fr": "Je suis tout ouïe",
+                    "es": "Soy todo oídos"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Right! He could have been there at any time…",
-                        "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
-                        "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 3000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                        "en": "First, some of Louis’ hairs were discovered in the room",
+                        "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                        "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                       }
                     },
                     {
@@ -990,49 +929,78 @@
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
+                        "en": "This mean kitten is Juror 3",
+                        "fr": "Ce vilain chaton est le juré numéro 3",
+                        "es": "Este malo gatito es Jurado 3"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                        "en": "He had this to say:",
+                        "fr": "Il avait cela à dire :",
+                        "es": "Dijo lo siguiente:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                        "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
+                        "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
                       }
                     }
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "JuryYesHearFalseJail",
+                    "Id": "JuryYesHearHairs",
                     "ElementValue": "1",
                     "Commands": [
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryYesHearFalseFalse",
+                        "Type": "Node",
+                        "Id": "JuryYesHearFalse",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
+                          "en": "That’s not proof!",
+                          "fr": "Ce n'est pas une preuve !",
+                          "es": "¡No es una prueba!"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
+                              "en": "Right! He could have been there at any time…",
+                              "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
+                              "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 3000
                             }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                             }
                           },
                           {
@@ -1041,25 +1009,110 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryYesHearFalseJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesHearFalseFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesHearFalseSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       },
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryYesHearFalseSwing",
+                        "Type": "Node",
+                        "Id": "JuryYesHearTrue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
+                          "en": "That’s incriminating",
+                          "fr": "C'est compromettant",
+                          "es": "Es incriminatorio"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                              "en": "I guess so…",
+                              "fr": "J'imagine...",
+                              "es": "Supongo que sí"
                             }
                           },
                           {
@@ -1068,28 +1121,128 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 3000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryYesHearTrueJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesHearTrueFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesHearTrueSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       }
                     ]
                   }
                 },
                 {
                   "Type": "Node",
-                  "Id": "JuryYesHearTrue",
+                  "Id": "JuryYesThere",
                   "ElementValue": "1",
                   "CommandLabel": {
-                    "en": "That’s incriminating",
-                    "fr": "C'est compromettant",
-                    "es": "Es incriminatorio"
+                    "en": "You were there?",
+                    "fr": "Tu y étais ?",
+                    "es": "¿Estabas allí?"
                   },
                   "Steps": [
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "I guess so…",
-                        "fr": "J'imagine...",
-                        "es": "Supongo que sí"
+                        "en": "Yes, fish are allowed in the courtroom!",
+                        "fr": "Oui, les poissons ont accès au tribunal !",
+                        "es": "Sí, ¡se permiten el acceso de peces en el tribunal!"
                       }
                     },
                     {
@@ -1102,64 +1255,78 @@
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                        "en": "First, some of Louis’ hairs were discovered in the room",
+                        "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
+                        "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
                       }
                     },
                     {
                       "Type": "Pause",
                       "Parameters": {
                         "Mode": "Wait",
-                        "ms": 3000
+                        "ms": 2000
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
+                        "en": "This mean kitten is Juror 3",
+                        "fr": "Ce vilain chaton est le juré numéro 3",
+                        "es": "Este malo gatito es Jurado 3"
+                      }
+                    },
+                    {
+                      "Type": "Image",
+                      "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
+                      }
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                       }
                     },
                     {
                       "Type": "Text",
                       "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                        "en": "He had this to say:",
+                        "fr": "Il avait cela à dire :",
+                        "es": "Dijo lo siguiente:"
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
+                        "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
+                        "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
                       }
                     }
                   ],
                   "LinksTo": {
                     "Type": "Node",
-                    "Id": "JuryYesHearTrueJail",
+                    "Id": "JuryYesThereHairs",
                     "ElementValue": "1",
                     "Commands": [
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryYesHearTrueFalse",
+                        "Type": "Node",
+                        "Id": "JuryYesThereFalse",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
+                          "en": "That’s not proof!",
+                          "fr": "Ce n'est pas une preuve !",
+                          "es": "¡No es una prueba!"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
-                            }
-                          },
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "Right! He could have been there at any time…",
+                              "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
+                              "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
                             }
                           },
                           {
@@ -1168,25 +1335,125 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
+                            }
+                          },
+                          {
+                            "Type": "Pause",
+                            "Parameters": {
+                              "Mode": "Wait",
+                              "ms": 3000
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
+                            }
+                          },
+                          {
+                            "Type": "Text",
+                            "Label": {
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
+                            }
                           }
-                        ]
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryYesThereFalseJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesThereFalseFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesThereFalseSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
                       },
                       {
-                        "Type": "Leaf",
-                        "Id": "JuryYesHearTrueSwing",
+                        "Type": "Node",
+                        "Id": "JuryYesThereTrue",
                         "ElementValue": "1",
                         "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
+                          "en": "That’s incriminating",
+                          "fr": "C'est compromettant",
+                          "es": "Es incriminatorio"
                         },
                         "Steps": [
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                              "en": "I guess so…",
+                              "fr": "J'imagine...",
+                              "es": "Supongo que sí"
                             }
                           },
                           {
@@ -1195,185 +1462,13 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                }
-              ]
-            }
-          },
-          {
-            "Type": "Node",
-            "Id": "JuryYesThere",
-            "ElementValue": "1",
-            "CommandLabel": {
-              "en": "You were there?",
-              "fr": "Tu y étais ?",
-              "es": "¿Estabas allí?"
-            },
-            "Steps": [
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "Yes, fish are allowed in the courtroom!",
-                  "fr": "Oui, les poissons ont accès au tribunal !",
-                  "es": "Sí, ¡se permiten el acceso de peces en el tribunal!"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "First, some of Louis’ hairs were discovered in the room",
-                  "fr": "Tout d'abord, des poils de Louis ont été retrouvés dans la pièce",
-                  "es": "Primero, pelos de Louis estuvieron encontrados en el cuarto"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "This mean kitten is Juror 3",
-                  "fr": "Ce vilain chaton est le juré numéro 3",
-                  "es": "Este malo gatito es Jurado 3"
-                }
-              },
-              {
-                "Type": "Image",
-                "Parameters": {
-                  "Source": "Web",
-                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1527673647/Juror3.jpg"
-                }
-              },
-              {
-                "Type": "Pause",
-                "Parameters": {
-                  "Mode": "Wait",
-                  "ms": 2000
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "He had this to say:",
-                  "fr": "Il avait cela à dire :",
-                  "es": "Dijo lo siguiente:"
-                }
-              },
-              {
-                "Type": "Text",
-                "Label": {
-                  "en": "“The hairs prove that this nasty little kitten was in the room where the crime was committed, he must be guilty!”",
-                  "fr": "“Les poils prouvent que ce vilain petit chaton était sur la scène du crime, il ne peut être que coupable !“",
-                  "es": "“Los pelos demuestran que este pequeño malo gatito estaba en la escena del crimen, ser culpable“"
-                }
-              }
-            ],
-            "LinksTo": {
-              "Type": "Node",
-              "Id": "JuryYesThereHairs",
-              "ElementValue": "1",
-              "Commands": [
-                {
-                  "Type": "Node",
-                  "Id": "JuryYesThereFalse",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "That’s not proof!",
-                    "fr": "Ce n'est pas une preuve !",
-                    "es": "¡No es una prueba!"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Right! He could have been there at any time…",
-                        "fr": "C'est vrai ! Il a pu y être n'importe quand... ",
-                        "es": "¡Verdad! Pudo haber estado ahí en cualquier momento..."
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 3000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "JuryYesThereFalseJail",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryYesThereFalseFalse",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
-                            }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                              "en": "The second piece of evidence is that he was seen talking to the victim the night before",
+                              "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
+                              "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
                             }
                           },
                           {
@@ -1382,162 +1477,93 @@
                               "Mode": "Wait",
                               "ms": 2000
                             }
-                          }
-                        ]
-                      },
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryYesThereFalseSwing",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
-                            }
                           },
                           {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
-                            }
-                          }
-                        ]
-                      }
-                    ]
-                  }
-                },
-                {
-                  "Type": "Node",
-                  "Id": "JuryYesThereTrue",
-                  "ElementValue": "1",
-                  "CommandLabel": {
-                    "en": "That’s incriminating",
-                    "fr": "C'est compromettant",
-                    "es": "Es incriminatorio"
-                  },
-                  "Steps": [
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "I guess so…",
-                        "fr": "J'imagine...",
-                        "es": "Supongo que sí"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "The second piece of evidence is that he was seen talking to the victim the night before",
-                        "fr": "La deuxième preuve est qu'il ait été vu en train de parler à la victime la veille",
-                        "es": "La segunda prueba es que él fue visto hablando a la víctima la noche anterior"
-                      }
-                    },
-                    {
-                      "Type": "Pause",
-                      "Parameters": {
-                        "Mode": "Wait",
-                        "ms": 2000
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "Juror 3 said this:",
-                        "fr": "Le juré 3 dit ceci :",
-                        "es": "El jurado 3 dijo eso:"
-                      }
-                    },
-                    {
-                      "Type": "Text",
-                      "Label": {
-                        "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
-                        "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
-                        "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
-                      }
-                    }
-                  ],
-                  "LinksTo": {
-                    "Type": "Node",
-                    "Id": "JuryYesThereTrueJail",
-                    "ElementValue": "1",
-                    "Commands": [
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryYesThereTrueFalse",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Not valid evidence",
-                          "fr": "Pas une preuve valide",
-                          "es": "No vale como prueba"
-                        },
-                        "Steps": [
-                          {
                             "Type": "Text",
                             "Label": {
-                              "en": "Hmm, you may be right.",
-                              "fr": "Hmm, tu as peut-être raison.",
-                              "es": "Hmm,  puede que tengas razón"
+                              "en": "Juror 3 said this:",
+                              "fr": "Le juré 3 dit ceci :",
+                              "es": "El jurado 3 dijo eso:"
                             }
                           },
                           {
                             "Type": "Text",
                             "Label": {
-                              "en": "He is not necessarily guilty just because he talked to the victim…",
-                              "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
-                              "es": "No es necesariamente culpable solo porque habló con la víctima..."
-                            }
-                          },
-                          {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
+                              "en": "“Clearly, Louis Le Chaton knew the victim, as he was seen talking beforehand. He should be in jail!”",
+                              "fr": "“Clairement, Louis Le Chaton connaissait la victime puisqu'il a été vu en train de lui parler au préalable. Il doit être emprisonné !”",
+                              "es": "“Claramente, Louis Le Chaton conocía a la víctima ya que fue visto hablando con ella antes. ¡Debería estar en cárcel!”"
                             }
                           }
-                        ]
-                      },
-                      {
-                        "Type": "Leaf",
-                        "Id": "JuryYesThereTrueSwing",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                          "en": "Louis must swing!",
-                          "fr": "Louis doit mourir !",
-                          "es": "¡Louis debe morir!"
-                        },
-                        "Steps": [
-                          {
-                            "Type": "Text",
-                            "Label": {
-                              "en": "Wow, you seem as angry as the other 12 kittens!",
-                              "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
-                              "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                        ],
+                        "LinksTo": {
+                          "Type": "Node",
+                          "Id": "JuryYesThereTrueJail",
+                          "ElementValue": "1",
+                          "Commands": [
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesThereTrueFalse",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Not valid evidence",
+                                "fr": "Pas une preuve valide",
+                                "es": "No vale como prueba"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Hmm, you may be right.",
+                                    "fr": "Hmm, tu as peut-être raison.",
+                                    "es": "Hmm,  puede que tengas razón"
+                                  }
+                                },
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "He is not necessarily guilty just because he talked to the victim…",
+                                    "fr": "Il n'est pas forcément coupable juste parce qu'il a parlé à la victime...",
+                                    "es": "No es necesariamente culpable solo porque habló con la víctima..."
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
+                            },
+                            {
+                              "Type": "Leaf",
+                              "Id": "JuryYesThereTrueSwing",
+                              "ElementValue": "1",
+                              "CommandLabel": {
+                                "en": "Louis must swing!",
+                                "fr": "Louis doit mourir !",
+                                "es": "¡Louis debe morir!"
+                              },
+                              "Steps": [
+                                {
+                                  "Type": "Text",
+                                  "Label": {
+                                    "en": "Wow, you seem as angry as the other 12 kittens!",
+                                    "fr": "Ouah, tu as l'air autant en colère que les 12 autres chatons !",
+                                    "es": " ¡Guau, pareces sin piedad como los otros doce gatitos! "
+                                  }
+                                },
+                                {
+                                  "Type": "Pause",
+                                  "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 2000
+                                  }
+                                }
+                              ]
                             }
-                          },
-                          {
-                            "Type": "Pause",
-                            "Parameters": {
-                              "Mode": "Wait",
-                              "ms": 2000
-                            }
-                          }
-                        ]
+                          ]
+                        }
                       }
                     ]
                   }
