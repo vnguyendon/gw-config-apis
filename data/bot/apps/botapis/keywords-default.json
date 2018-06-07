@@ -42,20 +42,6 @@
         "fragment" : {
           "path" : "IWantedToTestThisSequence"
         }
-    },
-    {
-      "words" : ["hiresponsetest"],
-      "matchingType":"exact",
-        "fragment" : {
-          "path" : "HiResponse2"
-        }
-    },
-    {
-      "words" : ["marsupilami"],
-      "matchingType":"exact",
-        "fragment" : {
-          "path" : "HiResponse3"
-        }
     }
   ]
 }
