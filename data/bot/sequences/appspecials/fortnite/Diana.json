@@ -50,7 +50,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
+                        "Path": "8cAVwqaL5SBEfRadLj"
                     }
                 },
                 {
@@ -97,7 +97,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "kSaSCynSU15TMCYtMS"
                                 }
                             }
                         ],
@@ -179,7 +179,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "kSaSCynSU15TMCYtMS"
                                 }
                             }
                         ],
@@ -272,7 +272,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
+                        "Path": "8cAVwqaL5SBEfRadLj"
                     }
                 },
                 {
@@ -319,7 +319,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "kSaSCynSU15TMCYtMS"
                                 }
                             }
                         ],
@@ -401,7 +401,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "kSaSCynSU15TMCYtMS"
                                 }
                             }
                         ],
@@ -458,4 +458,4 @@
         }
     ]
 }
-                            
+                        
