@@ -5,16 +5,16 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Just when I was planning on getting to know her more, I saw her do this",
-                "fr": "Just when I was planning on getting to know her more, I saw her do this",
-                "es": "Just when I was planning on getting to know her more, I saw her do this"
+                "en": "Just when I was planning on getting to know her more,  I saw her change a green weapon for a grey!",
+                "fr": "Just when I was planning on getting to know her more, I saw her change a green weapon for a grey!",
+                "es": "Just when I was planning on getting to know her more, I saw her change a green weapon for a grey!"
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "mXVwy3HkZHDgWLBo4m"
+                "Path": "sRKeMj8L5Pv8yLYM1k"
             }
         },
         {
@@ -119,7 +119,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "3nk3iarVrR4ST5Q2D8"
                                 }
                             },
                             {
@@ -209,7 +209,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "3nk3iarVrR4ST5Q2D8"
                                 }
                             },
                             {
@@ -357,7 +357,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "3nk3iarVrR4ST5Q2D8"
                                 }
                             },
                             {
@@ -447,7 +447,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "mXVwy3HkZHDgWLBo4m"
+                                    "Path": "3nk3iarVrR4ST5Q2D8"
                                 }
                             },
                             {
