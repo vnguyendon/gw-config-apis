@@ -3,7 +3,7 @@
   "Comments":"the mock service will return 90 for culture=EN, 70 for others",
   "PredictProbability": {
    "testName" : "Mock-CanIGuessCountry",
-   "additionalParameters":"culture={locale}"
+   "additionalParameters":"culture={locale}",
    "threshold": 80
   },
   "Id": "OneStepWithPredictProbability1",
