@@ -1,0 +1,318 @@
+{
+  "Type": "Node",
+  "Id": "CarrickVolc",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Have you ever seen a volcano erupt? 🌋",
+        "fr": "Have you ever seen a volcano erupt? 🌋",
+        "es": "Have you ever seen a volcano erupt? 🌋"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "CarrickVolcYes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes I have",
+        "fr": "Yes I have",
+        "es": "Yes I have"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Amazing! So have I, actually...",
+            "fr": "Amazing! So have I, actually...",
+            "es": "Amazing! So have I, actually..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was at Carrick A Rede, Northern Ireland. 60 million years ago",
+            "fr": "It was at Carrick A Rede, Northern Ireland. 60 million years ago",
+            "es": "It was at Carrick A Rede, Northern Ireland. 60 million years ago"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "My friend took a picture...",
+            "fr": "My friend took a picture...",
+            "es": "My friend took a picture..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364906/Carrickarede2.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CarrickVolcYesPic",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcYesPicFake",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "That's fake!",
+              "fr": "That's fake!",
+              "es": "That's fake!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I assure you, I was there, and it was very exciting...",
+                  "fr": "I assure you, I was there, and it was very exciting...",
+                  "es": "I assure you, I was there, and it was very exciting..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The sky turned dark, and it got very hot",
+                  "fr": "The sky turned dark, and it got very hot",
+                  "es": "The sky turned dark, and it got very hot"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "fr": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "es": "Then rocks started falling from the sky, forming this crazy scenery!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364913/Carrickarede1.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcYesPicReal",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "You look great!",
+              "fr": "You look great!",
+              "es": "You look great!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thanks! It was very exciting...",
+                  "fr": "Thanks! It was very exciting...",
+                  "es": "Thanks! It was very exciting..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The sky turned dark, and it got very hot",
+                  "fr": "The sky turned dark, and it got very hot",
+                  "es": "The sky turned dark, and it got very hot"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "fr": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "es": "Then rocks started falling from the sky, forming this crazy scenery!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364913/Carrickarede1.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcYesPicSkip",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Skip",
+              "fr": "Passer",
+              "es": "Saltar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "CarrickVolcNo",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No, never",
+        "fr": "No, never",
+        "es": "No, never"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "I'm not surprised! But I have, actually...",
+            "fr": "I'm not surprised! But I have, actually...",
+            "es": "I'm not surprised! But I have, actually..."
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "It was at Carrick A Rede, Northern Ireland. 60 million years ago",
+            "fr": "It was at Carrick A Rede, Northern Ireland. 60 million years ago",
+            "es": "It was at Carrick A Rede, Northern Ireland. 60 million years ago"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "My friend took a picture...",
+            "fr": "My friend took a picture...",
+            "es": "My friend took a picture..."
+          }
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364906/Carrickarede2.jpg"
+          }
+        }
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "CarrickVolcNoPic",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcNoPicFake",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "That's fake!",
+              "fr": "That's fake!",
+              "es": "That's fake!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "I assure you, I was there, and it was very exciting...",
+                  "fr": "I assure you, I was there, and it was very exciting...",
+                  "es": "I assure you, I was there, and it was very exciting..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The sky turned dark, and it got very hot",
+                  "fr": "The sky turned dark, and it got very hot",
+                  "es": "The sky turned dark, and it got very hot"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "fr": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "es": "Then rocks started falling from the sky, forming this crazy scenery!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364913/Carrickarede1.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcNoPicReal",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "You look great!",
+              "fr": "You look great!",
+              "es": "You look great!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Thanks! It was very exciting...",
+                  "fr": "Thanks! It was very exciting...",
+                  "es": "Thanks! It was very exciting..."
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "The sky turned dark, and it got very hot",
+                  "fr": "The sky turned dark, and it got very hot",
+                  "es": "The sky turned dark, and it got very hot"
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "fr": "Then rocks started falling from the sky, forming this crazy scenery!",
+                  "es": "Then rocks started falling from the sky, forming this crazy scenery!"
+                }
+              },
+              {
+                "Type": "Image",
+                "Parameters": {
+                  "Source": "Web",
+                  "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1523364913/Carrickarede1.jpg"
+                }
+              }
+            ]
+          },
+          {
+            "Type": "Leaf",
+            "Id": "CarrickVolcNoPicSkip",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Skip",
+              "fr": "Passer",
+              "es": "Saltar"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Leaf",
+      "Id": "CarrickVolcSkip",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Skip",
+        "fr": "Passer",
+        "es": "Saltar"
+      }
+    }
+  ]
+}
