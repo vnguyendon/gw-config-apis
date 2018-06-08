@@ -1,0 +1,21 @@
+{
+  "Type": "Leaf",
+  "Id": "GifTest1",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Welcome!",
+        "fr": "Bienvenue !",
+        "es": "¡Bienvenido!"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
+      }
+    }
+  ]
+}
