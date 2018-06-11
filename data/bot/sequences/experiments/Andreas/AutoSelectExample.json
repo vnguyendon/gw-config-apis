@@ -1,0 +1,58 @@
+{
+  "Type": "Node",
+  "Id": "AutoSelectExample",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you rather work for",
+        "fr": "Tu préférerais travailler pour",
+        "es": "Preferirías trabajar para"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Bank",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a bank",
+        "fr": "une banque",
+        "es": "un banco"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41lZccR1oUigYeNa"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "AutoSelect": {
+        "ms": 6000
+      },
+      "Id": "StartUp",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "a startup",
+        "fr": "une startup",
+        "es": "una start-up"
+      },
+      "Steps": [
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "VD9NtdBN9CwqQ"
+          }
+        }
+      ]
+    }
+  ]
+}
