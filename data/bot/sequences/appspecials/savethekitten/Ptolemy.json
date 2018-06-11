@@ -1,702 +1,701 @@
 {
-    "Type": "Node",
-    "Id": "Ptolemy",
-    "Steps": [
+  "Type": "Node",
+  "Id": "Ptolemy",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Here is his ID card...",
+        "fr": "Voici sa carte d'identité...",
+        "es": "Aquí esta su documento de identidad..."
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCarouselFromList",
+      "Parameters": {
+        "Path": "/data/common/carousel/kitten/PtolemyCard.json"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Cute or evil?",
+        "fr": "Mignon ou méchant ?",
+        "es": "¿Lindo o malo?"
+      }
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "PtolemyCute",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "He's cute!",
+        "fr": "Il est mignon !",
+        "es": "¡Es lindo!"
+      },
+      "Steps": [
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Here is his ID card...",
-                "fr": "Voici sa carte d'identité...",
-                "es": "Aquí esta su documento de identidad..."
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "Well, he is a cute criminal...",
+            "fr": "Eh bien, c'est un criminel mignon...",
+            "es": "Bueno, es un lindo criminal..."
+          }
         },
         {
-            "Type": "Action",
-            "Name": "ShowCarouselFromList",
-            "Parameters": {
-                "Path": "/data/common/carousel/kitten/PtolemyCard.json"
-            }
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "C23cMUqoZdqMg"
+          }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Cute or evil?",
-                "fr": "Mignon ou méchant ?",
-                "es": "¿Lindo o malo?"
-            }
+          "Type": "Text",
+          "Label": {
+            "en": "As you see, he attempted to steal valuable fabrics from his king",
+            "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
+            "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
+          }
         }
-    ],
-    "Commands": [
-        {
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PtolemyCuteCrime",
+        "ElementValue": "1",
+        "Commands": [
+          {
             "Type": "Node",
-            "Id": "PtolemyCute",
+            "Id": "PtolemyCuteCrimeOK",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "He's cute!",
-                "fr": "Il est mignon !",
-                "es": "¡Es lindo!"
+              "en": "it's toilet roll...",
+              "fr": "c'est du papier...",
+              "es": "es papel higiénico"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Well, he is a cute criminal...",
-                        "fr": "Eh bien, c'est un criminel mignon...",
-                        "es": "Bueno, es un lindo criminal..."
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "C23cMUqoZdqMg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "As you see, he attempted to steal valuable fabrics from his king",
-                        "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
-                        "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, his mother turned him in anyway",
+                  "fr": "De toute façon, sa mère l'a remis à la justice",
+                  "es": "De todos modos, su madre le denunció"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "kPtVKasrCXP8TrGJKD"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here is the twist... YOU can decide if he is punished or not!",
+                  "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
+                  "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "PtolemyCuteCrime",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "PtolemyCuteCrimeOKFate",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyCuteCrimeOKPunish",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Punish him!",
+                    "fr": "Punis le !",
+                    "es": "¡Castígalo!"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "PtolemyCuteCrimeOK",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "it's toilet roll...",
-                            "fr": "c'est du papier...",
-                            "es": "es papel higiénico"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, his mother turned him in anyway",
-                                    "fr": "De toute façon, sa mère l'a remis à la justice",
-                                    "es": "De todos modos, su madre le denunció"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kPtVKasrCXP8TrGJKD"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
-                                    "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
-                                    "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "PtolemyCuteCrimeOKFate",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyCuteCrimeOKPunish",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Punish him!",
-                                        "fr": "Punis le !",
-                                        "es": "¡Castígalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
-                                                "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
-                                                "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "O8kds7nL7FaSY"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyCuteCrimeOKSpare",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Epargne le !",
-                                        "es": "¡Perdónalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
-                                                "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
-                                                "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "TPXDdboFckd9u"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                      "Type": "Action",
+                      "Name": "DoVote"
                     },
                     {
-                        "Type": "Node",
-                        "Id": "PtolemyCuteCrimeBad",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Evil thief!",
-                            "fr": "Sale voleur !",
-                            "es": "¡Sucio ladrón!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "well, his mother thought the same... she turned him in",
-                                    "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
-                                    "es": "bueno, su madre piensa lo mismo... le denunció"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kPtVKasrCXP8TrGJKD"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
-                                    "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
-                                    "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "PtolemyCuteCrimeBadFate",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyCuteCrimeBadPunish",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Punish him!",
-                                        "fr": "Punis le !",
-                                        "es": "¡Castígalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
-                                                "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
-                                                "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "O8kds7nL7FaSY"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyCuteCrimeBadSpare",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Epargne le !",
-                                        "es": "¡Perdónalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
-                                                "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
-                                                "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "TPXDdboFckd9u"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                        "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
+                        "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "O8kds7nL7FaSY"
+                      }
                     }
-                ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyCuteCrimeOKSpare",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Spare him!",
+                    "fr": "Epargne le !",
+                    "es": "¡Perdónalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                        "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
+                        "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TPXDdboFckd9u"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                }
+              ]
             }
-        },
-        {
+          },
+          {
             "Type": "Node",
-            "Id": "PtolemyEvil",
+            "Id": "PtolemyCuteCrimeBad",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "He's evil!",
-                "fr": "Il est méchant !",
-                "es": "¡Es malo!"
+              "en": "Evil thief!",
+              "fr": "Sale voleur !",
+              "es": "¡Sucio ladrón!"
             },
             "Steps": [
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "He has certainly committed some crimes in his time...",
-                        "fr": "Il a sûrement commis des crimes, à l'époque...",
-                        "es": "Por supuesto cometió crímenes en ese momento..."
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "C23cMUqoZdqMg"
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "As you see, he attempted to steal valuable fabrics from his king",
-                        "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
-                        "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
-                    }
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "well, his mother thought the same... she turned him in",
+                  "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
+                  "es": "bueno, su madre piensa lo mismo... le denunció"
                 }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "kPtVKasrCXP8TrGJKD"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here is the twist... YOU can decide if he is punished or not!",
+                  "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
+                  "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
+                }
+              }
             ],
             "LinksTo": {
-                "Type": "Node",
-                "Id": "PtolemyEvilCrime",
-                "ElementValue": "1",
-                "Commands": [
+              "Type": "Node",
+              "Id": "PtolemyCuteCrimeBadFate",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyCuteCrimeBadPunish",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Punish him!",
+                    "fr": "Punis le !",
+                    "es": "¡Castígalo!"
+                  },
+                  "Steps": [
                     {
-                        "Type": "Node",
-                        "Id": "PtolemyEvilCrimeOK",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "it's toilet roll...",
-                            "fr": "c'est du papier...",
-                            "es": "es papel higiénico"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Well, his mother turned him in anyway",
-                                    "fr": "De toute façon, sa mère l'a remis à la justice",
-                                    "es": "De todos modos, su madre le denunció"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kPtVKasrCXP8TrGJKD"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
-                                    "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
-                                    "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "PtolemyEvilCrimeOKFate",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyEvilCrimeOKPunish",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Punish him!",
-                                        "fr": "Punis le !",
-                                        "es": "¡Castígalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
-                                                "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
-                                                "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "O8kds7nL7FaSY"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyEvilCrimeOKSpare",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Epargne le !",
-                                        "es": "¡Perdónalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
-                                                "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
-                                                "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "TPXDdboFckd9u"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                      "Type": "Action",
+                      "Name": "DoVote"
                     },
                     {
-                        "Type": "Node",
-                        "Id": "PtolemyEvilCrimeBad",
-                        "ElementValue": "1",
-                        "CommandLabel": {
-                            "en": "Evil thief!",
-                            "fr": "Sale voleur !",
-                            "es": "¡Sucio ladrón!"
-                        },
-                        "Steps": [
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "well, his mother thought the same... she turned him in",
-                                    "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
-                                    "es": "bueno, su madre piensa lo mismo... le denunció"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kPtVKasrCXP8TrGJKD"
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 2000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Here is the twist... YOU can decide if he is punished or not!",
-                                    "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
-                                    "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
-                                }
-                            }
-                        ],
-                        "LinksTo": {
-                            "Type": "Node",
-                            "Id": "PtolemyEvilCrimeBadFate",
-                            "ElementValue": "1",
-                            "Commands": [
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyEvilCrimeBadPunish",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Punish him!",
-                                        "fr": "Punis le !",
-                                        "es": "¡Castígalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
-                                                "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
-                                                "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "O8kds7nL7FaSY"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "PtolemyEvilCrimeBadSpare",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "Spare him!",
-                                        "fr": "Epargne le !",
-                                        "es": "¡Perdónalo!"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Action",
-                                            "Name": "DoVote"
-                                        },
-                                        {
-                                            "Type": "Action",
-                                            "Name": "ShowSurveyResults"
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 2000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
-                                                "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
-                                                "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "AnimatedGif",
-                                            "Parameters": {
-                                                "Source": "Giphy",
-                                                "Path": "TPXDdboFckd9u"
-                                            }
-                                        }
-                                    ],
-                                    "LinksToFragment": {
-                                        "Tags": [
-                                            "stkrating"
-                                        ]
-                                    }
-                                }
-                            ]
-                        }
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                        "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
+                        "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "O8kds7nL7FaSY"
+                      }
                     }
-                ]
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyCuteCrimeBadSpare",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Spare him!",
+                    "fr": "Epargne le !",
+                    "es": "¡Perdónalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                        "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
+                        "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TPXDdboFckd9u"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                }
+              ]
             }
+          }
+        ]
+      }
+    },
+    {
+      "Type": "Node",
+      "Id": "PtolemyEvil",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "He's evil!",
+        "fr": "Il est méchant !",
+        "es": "¡Es malo!"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "He has certainly committed some crimes in his time...",
+            "fr": "Il a sûrement commis des crimes, à l'époque...",
+            "es": "Por supuesto cometió crímenes en ese momento..."
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "C23cMUqoZdqMg"
+          }
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "As you see, he attempted to steal valuable fabrics from his king",
+            "fr": "Comme tu peux le voir, il a tenté de voler des tissus de valeur à son roi",
+            "es": "Como lo puedes ver, intentó robar valosos tejidos a su rey"
+          }
         }
-    ]
-}
+      ],
+      "LinksTo": {
+        "Type": "Node",
+        "Id": "PtolemyEvilCrime",
+        "ElementValue": "1",
+        "Commands": [
+          {
+            "Type": "Node",
+            "Id": "PtolemyEvilCrimeOK",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "it's toilet roll...",
+              "fr": "c'est du papier...",
+              "es": "es papel higiénico"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Well, his mother turned him in anyway",
+                  "fr": "De toute façon, sa mère l'a remis à la justice",
+                  "es": "De todos modos, su madre le denunció"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "kPtVKasrCXP8TrGJKD"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here is the twist... YOU can decide if he is punished or not!",
+                  "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
+                  "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "PtolemyEvilCrimeOKFate",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyEvilCrimeOKPunish",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Punish him!",
+                    "fr": "Punis le !",
+                    "es": "¡Castígalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                        "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
+                        "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "O8kds7nL7FaSY"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyEvilCrimeOKSpare",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Spare him!",
+                    "fr": "Epargne le !",
+                    "es": "¡Perdónalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                        "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
+                        "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TPXDdboFckd9u"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                }
+              ]
+            }
+          },
+          {
+            "Type": "Node",
+            "Id": "PtolemyEvilCrimeBad",
+            "ElementValue": "1",
+            "CommandLabel": {
+              "en": "Evil thief!",
+              "fr": "Sale voleur !",
+              "es": "¡Sucio ladrón!"
+            },
+            "Steps": [
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "well, his mother thought the same... she turned him in",
+                  "fr": "eh bien, sa mère pense la même chose... elle l'a remis à la justice",
+                  "es": "bueno, su madre piensa lo mismo... le denunció"
+                }
+              },
+              {
+                "Type": "AnimatedGif",
+                "Parameters": {
+                  "Source": "Giphy",
+                  "Path": "kPtVKasrCXP8TrGJKD"
+                }
+              },
+              {
+                "Type": "Pause",
+                "Parameters": {
+                  "Mode": "Wait",
+                  "ms": 2000
+                }
+              },
+              {
+                "Type": "Text",
+                "Label": {
+                  "en": "Here is the twist... YOU can decide if he is punished or not!",
+                  "fr": "Le tournant, c'est que... TU peux décider s'il sera puni ou pas !",
+                  "es": "Aquí esta el giro... ¡TU puedes decidir si va a ser castigado o no!"
+                }
+              }
+            ],
+            "LinksTo": {
+              "Type": "Node",
+              "Id": "PtolemyEvilCrimeBadFate",
+              "ElementValue": "1",
+              "Commands": [
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyEvilCrimeBadPunish",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Punish him!",
+                    "fr": "Punis le !",
+                    "es": "¡Castígalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "You have chosen well... he now faces 20 years hard labour in a factory...",
+                        "fr": "Tu as bien choisi... Il en a pour 20 ans de travaux forcés dans une usine...",
+                        "es": "Elegiste bien... Ahora va a enfrentar 20 años de trabajo duro en una fábrica..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "O8kds7nL7FaSY"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                },
+                {
+                  "Type": "Node",
+                  "Id": "PtolemyEvilCrimeBadSpare",
+                  "ElementValue": "1",
+                  "CommandLabel": {
+                    "en": "Spare him!",
+                    "fr": "Epargne le !",
+                    "es": "¡Perdónalo!"
+                  },
+                  "Steps": [
+                    {
+                      "Type": "Action",
+                      "Name": "DoVote"
+                    },
+                    {
+                      "Type": "Action",
+                      "Name": "ShowSurveyResults"
+                    },
+                    {
+                      "Type": "Pause",
+                      "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                      }
+                    },
+                    {
+                      "Type": "Text",
+                      "Label": {
+                        "en": "Your choice has been honoured... but now I fear he will continue his thieving ways...",
+                        "fr": "Ton choix a été respecté... mais j'ai peur qu'il poursuive ses activités de voleur... ",
+                        "es": "Tu elección fue respetada... pero ahora tengo miedo que continue sus actividades de ladrón..."
+                      }
+                    },
+                    {
+                      "Type": "AnimatedGif",
+                      "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "TPXDdboFckd9u"
+                      }
+                    }
+                  ],
+                  "LinksToFragment": {
+                    "Tags": [
+                      "stkrating"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ]
