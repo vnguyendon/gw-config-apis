@@ -1,0 +1,27 @@
+{
+  "Type": "Leaf",
+  "Id": "TestSequenceNewActions",
+  "Steps": [
+    {
+      "Type": "Action",
+      "Name": "ShowPopularImageFromTheme",
+      "Parameters": {
+        "Path": "/themes/emojiCats"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowPopularTextFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "ShowCardFromIntention",
+      "Parameters": {
+        "IntentionId": "43B296"
+      }
+    }
+  ]
+}
