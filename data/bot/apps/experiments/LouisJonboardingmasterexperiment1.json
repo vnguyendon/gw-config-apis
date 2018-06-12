@@ -2,7 +2,8 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
-          { "order" : 1, "file": ["/data/bot/sequences/appspecials/savethekitten/Jury.json"]},
+          { "order" : 1, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
+          { "order" : 2, "file": ["/data/bot/sequences/appspecials/savethekitten/Jury.json"]},
           { "order" : 3, "file": ["/data/bot/sequences/appspecials/savethekitten/Jury2.json"]},
           { "order" : 5, "file": ["/data/bot/sequences/appspecials/savethekitten/Horror.json"]},
           { "order" : 10, "file": ["/data/bot/sequences/appspecials/savethekitten/Heist.json"]},
