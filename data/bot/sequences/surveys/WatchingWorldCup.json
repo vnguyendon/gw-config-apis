@@ -1,0 +1,86 @@
+{
+  "Type": "Node",
+  "Id": "WatchingWorldCup",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Are going to watch the soccer World Cup? ⚽️",
+        "fr": "Est-ce que tu vas suivre la Coupe du Monde de football ? ⚽️",
+        "es": "¿Vas a mirar la Copa Mundial de fútbol? ⚽️"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesWatchingWorldCup",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l41lWlrK2E1YPeJQQ"
+          }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+              "en": "It's so exciting!",
+              "fr": "Ça va être passionnant !",
+              "es": "¡Va a ser apasionante!"
+            }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoWatchingWorldCup",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "iW8tsoJWcfPc4"
+          }
+        },
+        {
+            "Type": "Text",
+            "Label": {
+              "en": "Don't tell to me about it, I'm tired of soccer",
+              "fr": "Ne m'en parle pas, je n'en peux plus du football",
+              "es": "No me lo digas, estoy harto de fútbol"
+            }
+        }
+      ]
+    }
+  ]
+}
