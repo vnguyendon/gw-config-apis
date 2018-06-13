@@ -3,6 +3,7 @@
     "GroupName":"TestTags",
       "SequenceFiles" : [
           { "order" : 2, "file": ["/data/bot/sequences/surveys/WatchingWorldCup.json"]},
+          { "order" : 3, "file": ["/data/bot/sequences/surveys/BankOrStartup.json"]},
           { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
           { "order" : 7, "file": ["/data/bot/sequences/appspecials/savethekitten/Jury.json"]},
           { "order" : 8, "file": ["/data/bot/sequences/appspecials/savethekitten/Jury2.json"]},
