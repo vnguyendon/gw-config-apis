@@ -48,7 +48,7 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "As well as putting your face on every coin! Now people have a picture of you every time look in their pocket!",
+                        "en": "As well as putting your face on every coin! Now people have a picture of you every time they look in their pocket!",
                         "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                     }
@@ -118,7 +118,7 @@
                                 "Type": "Pause",
                                 "Parameters": {
                                     "Mode": "Wait",
-                                    "ms": 2000
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -133,7 +133,7 @@
                                 "Type": "Pause",
                                 "Parameters": {
                                     "Mode": "Wait",
-                                    "ms": 2000
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -187,7 +187,7 @@
                                             "Type": "Pause",
                                             "Parameters": {
                                                 "Mode": "Wait",
-                                                "ms": 2000
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -209,7 +209,7 @@
                                             "Type": "Pause",
                                             "Parameters": {
                                                 "Mode": "Wait",
-                                                "ms": 2000
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -245,6 +245,13 @@
                                                         }
                                                     },
                                                     {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
@@ -263,7 +270,7 @@
                                                         "Type": "Pause",
                                                         "Parameters": {
                                                             "Mode": "Wait",
-                                                            "ms": 2000
+                                                            "ms": 4000
                                                         }
                                                     },
                                                     {
