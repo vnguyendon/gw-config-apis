@@ -2,8 +2,8 @@
   {
     "GroupName": "Nutty",
     "SequenceFiles": [
-      { "order" : 3, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]},
-      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/HiThereSP.json"]},
+      { "order" : 3, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
+      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/Meroe.json"]},
       { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy2/HaveYouTriedAChatbotYesNo.json"]},
       { "order" : 7, "file": ["/data/bot/sequences/experiments/Billy2/SurveyExplain.json"]},
       { "order" : 8, "file": ["/data/bot/sequences/appspecials/fortnite/FortniteHeard.json"]},
