@@ -39,6 +39,20 @@
                     }
                 },
                 {
+                    "Type":"Image",
+                    "Parameters":{
+                        "Source":"Web",
+                        "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Strong wine was mixed with water inside, and servants would draw from it at the request of the party-goers",
@@ -79,6 +93,20 @@
                                 }
                             },
                             {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The idea is that this krater would sit in the middle of the room, and the paintings would spark conversation about the myths depicted!",
@@ -89,9 +117,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "For comparison... this is just like us talking about medieval kings!",
+                                    "en": "It's just like when we in the present make books and TV shows about medieval times!",
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -127,6 +162,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "This particular painter is famous for exactly that - leaving lots of space...",
@@ -135,11 +177,32 @@
                                             }
                                         },
                                         {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -183,6 +246,13 @@
                                                         }
                                                     },
                                                     {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
@@ -198,6 +268,13 @@
                                                         }
                                                     },
                                                     {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "And his guardian god, Apollo, is leaving him...",
@@ -210,6 +287,13 @@
                                                         "Parameters":{
                                                             "Source":"Web",
                                                             "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
                                                         }
                                                     },
                                                     {
@@ -306,6 +390,20 @@
                     }
                 },
                 {
+                    "Type":"Image",
+                    "Parameters":{
+                        "Source":"Web",
+                        "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 4000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
                         "en": "Strong wine was mixed with water inside, and servants would draw from it at the request of the party-goers",
@@ -346,6 +444,20 @@
                                 }
                             },
                             {
+                                "Type":"Image",
+                                "Parameters":{
+                                    "Source":"Web",
+                                    "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
+                                }
+                            },
+                            {
                                 "Type": "Text",
                                 "Label": {
                                     "en": "The idea is that this krater would sit in the middle of the room, and the paintings would spark conversation about the myths depicted!",
@@ -356,9 +468,16 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "For comparison... this is just like us talking about medieval kings!",
+                                    "en": "It's just like when we in the present make books and TV shows about medieval times!",
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -394,6 +513,13 @@
                                             }
                                         },
                                         {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "This particular painter is famous for exactly that - leaving lots of space...",
@@ -402,11 +528,32 @@
                                             }
                                         },
                                         {
+                                            "Type":"Image",
+                                            "Parameters":{
+                                                "Source":"Web",
+                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
+                                            }
+                                        },
+                                        {
                                             "Type": "Text",
                                             "Label": {
                                                 "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Pause",
+                                            "Parameters": {
+                                                "Mode": "Wait",
+                                                "ms": 4000
                                             }
                                         },
                                         {
@@ -450,6 +597,13 @@
                                                         }
                                                     },
                                                     {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
@@ -465,6 +619,13 @@
                                                         }
                                                     },
                                                     {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
+                                                        }
+                                                    },
+                                                    {
                                                         "Type": "Text",
                                                         "Label": {
                                                             "en": "And his guardian god, Apollo, is leaving him...",
@@ -477,6 +638,13 @@
                                                         "Parameters":{
                                                             "Source":"Web",
                                                             "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Pause",
+                                                        "Parameters": {
+                                                            "Mode": "Wait",
+                                                            "ms": 4000
                                                         }
                                                     },
                                                     {
