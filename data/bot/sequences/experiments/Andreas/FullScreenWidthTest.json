@@ -1,0 +1,38 @@
+{
+  "Type": "Leaf",
+  "Id": "FullScreenWidthTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Showing an image full size",
+        "fr": "FR - Showing an image full size!",
+        "es": "ES - Showing an image full size"
+      }
+    },
+    {
+      "Type": "Image",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
+      }
+    },
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Showing a GIF full size",
+        "fr": "FR - Showing a GIF full size!",
+        "es": "ES - Showing a GIF full size"
+      }
+    },
+    {
+      "Type": "AnimatedGif",
+      "Parameters": {
+        "Display": "FullScreenWidth",
+        "Source": "Web",
+        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
+      }
+    }
+  ]
+}
