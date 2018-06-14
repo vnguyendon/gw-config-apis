@@ -1,0 +1,79 @@
+{
+  "Type": "Node",
+  "Id": "IsOrganicFoodImportant",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is eating organic food important for you ?",
+        "fr": "Est-ce que c'est important pour toi de manger bio ?",
+        "es": "¿Es importante para ti comer alimentos orgánicos?"
+      }
+    }
+  ],
+  "Randomize": "true",
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "Yes",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "Yes",
+        "fr": "Oui",
+        "es": "Sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "Keep your ingredients healthy !",
+            "fr": "Pour des ingrédients en bonne santé !",
+            "es": "¡Para ingredientes saludables!"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o85xunRezGKPOkcG4"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "No",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "No",
+        "fr": "Non",
+        "es": "No"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "l3vQYwp6SXnoh4S40"
+          }
+        }
+      ]
+    }
+  ]
+}
