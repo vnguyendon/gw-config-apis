@@ -15,7 +15,7 @@
       "Parameters": {
         "Display": "FullScreenWidth",
         "Source": "Web",
-        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
+        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516288122/96e8742319b3f6b869c01e1937e3785f_zvurhd.jpg"
       }
     },
     {
@@ -30,8 +30,8 @@
       "Type": "AnimatedGif",
       "Parameters": {
         "Display": "FullScreenWidth",
-        "Source": "Web",
-        "Path": "http://res.cloudinary.com/wavemining/image/upload/v1527872104/BenFailingBuilding.gif"
+        "Source": "Giphy",
+        "Path": "yoJC2El7xJkYCadlWE"
       }
     }
   ]
