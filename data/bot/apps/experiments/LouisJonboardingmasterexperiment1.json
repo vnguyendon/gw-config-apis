@@ -2,6 +2,7 @@
   {
     "GroupName":"TestTags",
       "SequenceFiles" : [
+          { "order" : 1, "file": ["/data/bot/sequences/surveys/IsOrganicFoodImportant.json"]},
           { "order" : 2, "file": ["/data/bot/sequences/surveys/WatchingWorldCup.json"]},
           { "order" : 3, "file": ["/data/bot/sequences/surveys/BankOrStartup.json"]},
           { "order" : 6, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
