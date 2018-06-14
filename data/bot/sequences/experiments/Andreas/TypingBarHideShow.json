@@ -1,0 +1,31 @@
+{
+  "Type": "Node",
+  "Id": "TypingBarHideShow",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Showing the typing bar",
+        "fr": "FR - showing the typing bar",
+        "es": "ES - showing the typing bar"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "TypingBarShow"
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TypingBarHideShowTestNext",
+      "CommandLabel": [
+        {
+          "en": "Next",
+          "fr": "FR - Next",
+          "es": "ES - Next"
+        }
+      ]
+    }
+  ]
+}
