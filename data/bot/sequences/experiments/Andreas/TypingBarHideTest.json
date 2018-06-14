@@ -1,0 +1,31 @@
+{
+  "Type": "Node",
+  "Id": "TypingBarHideTest",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Hiding the typing bar",
+        "fr": "FR - hiding the typing bar",
+        "es": "ES - hiding the typing bar"
+      }
+    },
+    {
+      "Type": "Action",
+      "Name": "TypingBarHide"
+    }
+  ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "TypingBarHideTestNext",
+      "CommandLabel": [
+        {
+          "en": "Next",
+          "fr": "FR - Next",
+          "es": "ES - Next"
+        }
+      ]
+    }
+  ]
+}
