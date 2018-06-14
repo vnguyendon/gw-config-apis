@@ -15,7 +15,7 @@
   "Commands": [
     {
       "Type": "Leaf",
-      "Id": "Yes",
+      "Id": "IsOrganicFoodImportantYes",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "Yes",
@@ -50,7 +50,7 @@
     },
     {
       "Type": "Leaf",
-      "Id": "No",
+      "Id": "IsOrganicFoodImportantNo",
       "ElementValue": "1",
       "CommandLabel": {
         "en": "No",
