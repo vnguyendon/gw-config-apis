@@ -39,10 +39,10 @@
                     }
                 },
                 {
-                    "Type":"Image",
-                    "Parameters":{
-                        "Source":"Web",
-                        "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
                     }
                 },
                 {
@@ -93,10 +93,10 @@
                                 }
                             },
                             {
-                                "Type":"Image",
-                                "Parameters":{
-                                    "Source":"Web",
-                                    "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
                                 }
                             },
                             {
@@ -117,22 +117,7 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "It's just like when we in the present make books and TV shows about medieval times!",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Want to know more?",
+                                    "en": "It's just like when we in the present make books and films about medieval times!",
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                 }
@@ -140,25 +125,24 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "BMVoluteYesYesMore",
+                            "Id": "BMVoluteYesYesContinue",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "BMVoluteYesYesYes",
+                                    "Id": "BMVoluteYesYesContinue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Yes!",
+                                        "en": "Continue",
                                         "fr": "C'est un génie",
                                         "es": "Es un genio"
                                     },
                                     "Steps": [
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "You might be wondering why most of the pot is black! That's unusual...",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529060395/robin_hood.jpg"
                                             }
                                         },
                                         {
@@ -171,52 +155,7 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "This particular painter is famous for exactly that - leaving lots of space...",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type":"Image",
-                                            "Parameters":{
-                                                "Source":"Web",
-                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "In this case... two scenes of the famous hero Achilles fighting heroes in the Trojan army - Hector and Memnon",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Some painters show these scenes as triumphant moments... but this guy chooses to highlight the sadness of the event, too",
+                                                "en": "Want to know more?",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
@@ -224,15 +163,15 @@
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "BMVoluteYesYesYesMore",
+                                        "Id": "BMVoluteYesYesMore",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
-                                                "Type": "Leaf",
-                                                "Id": "BMVoluteYesYesYesSad",
+                                                "Type": "Node",
+                                                "Id": "BMVoluteYesYesYes",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "Why's it sad?",
+                                                    "en": "Yes!",
                                                     "fr": "C'est un génie",
                                                     "es": "Es un genio"
                                                 },
@@ -240,7 +179,7 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Well, it's partly due to how hopeless Hector is here...",
+                                                            "en": "You might be wondering why most of the pot is black! That's unusual...",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -255,16 +194,16 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
+                                                            "en": "This particular painter is famous for exactly that - leaving lots of space...",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
                                                     },
                                                     {
-                                                        "Type":"Image",
-                                                        "Parameters":{
-                                                            "Source":"Web",
-                                                            "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
                                                         }
                                                     },
                                                     {
@@ -277,16 +216,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "And his guardian god, Apollo, is leaving him...",
+                                                            "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type":"Image",
-                                                        "Parameters":{
-                                                            "Source":"Web",
-                                                            "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
                                                         }
                                                     },
                                                     {
@@ -299,7 +231,7 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
+                                                            "en": "In this case... two scenes of the famous hero Achilles fighting heroes in the Trojan army - Hector and Memnon",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -307,7 +239,121 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
+                                                            "en": "Some painters show these scenes as triumphant moments... but this guy chooses to highlight the sadness of the event, too",
+                                                            "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                            "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "BMVoluteYesYesYesMore",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "BMVoluteYesYesYesSad",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Why's it sad?",
+                                                                "fr": "C'est un génie",
+                                                                "es": "Es un genio"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Well, it's partly due to how hopeless Hector is here...",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "And his guardian god, Apollo, is leaving him...",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "BMVoluteYesYesNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "No thanks",
+                                                    "fr": "C'est un génie",
+                                                    "es": "Es un genio"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -316,26 +362,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "BMVoluteYesYesNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "No thanks",
-                                        "fr": "C'est un génie",
-                                        "es": "Es un genio"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        }
-                                    ]
                                 }
                             ]
                         }
@@ -390,10 +416,10 @@
                     }
                 },
                 {
-                    "Type":"Image",
-                    "Parameters":{
-                        "Source":"Web",
-                        "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888685/BP_Volute.jpg"
                     }
                 },
                 {
@@ -444,10 +470,10 @@
                                 }
                             },
                             {
-                                "Type":"Image",
-                                "Parameters":{
-                                    "Source":"Web",
-                                    "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528888783/BP_Achilles_Memnon.jpg"
                                 }
                             },
                             {
@@ -464,42 +490,19 @@
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "It's just like when we in the present make books and TV shows about medieval times!",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Want to know more?",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "BMVoluteNoYesMore",
+                            "Id": "BMVoluteNoYesContinue",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "BMVoluteNoYesYes",
+                                    "Id": "BMVoluteNoYesContinue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Yes!",
+                                        "en": "Continue",
                                         "fr": "C'est un génie",
                                         "es": "Es un genio"
                                     },
@@ -507,9 +510,16 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "You might be wondering why most of the pot is black! That's unusual...",
+                                                "en": "It's just like when we in the present make books and TV shows about medieval times!",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                            }
+                                        },
+                                        {
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529060395/robin_hood.jpg"
                                             }
                                         },
                                         {
@@ -522,52 +532,7 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "This particular painter is famous for exactly that - leaving lots of space...",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type":"Image",
-                                            "Parameters":{
-                                                "Source":"Web",
-                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Pause",
-                                            "Parameters": {
-                                                "Mode": "Wait",
-                                                "ms": 4000
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "In this case... two scenes of the famous hero Achilles fighting heroes in the Trojan army - Hector and Memnon",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Some painters show these scenes as triumphant moments... but this guy chooses to highlight the sadness of the event, too",
+                                                "en": "Want to know more?",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
@@ -575,15 +540,15 @@
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "BMVoluteNoYesYesMore",
+                                        "Id": "BMVoluteNoYesMore",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
-                                                "Type": "Leaf",
-                                                "Id": "BMVoluteNoYesYesSad",
+                                                "Type": "Node",
+                                                "Id": "BMVoluteNoYesYes",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "Why's it sad?",
+                                                    "en": "Yes!",
                                                     "fr": "C'est un génie",
                                                     "es": "Es un genio"
                                                 },
@@ -591,7 +556,7 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Well, it's partly due to how hopeless Hector is here...",
+                                                            "en": "You might be wondering why most of the pot is black! That's unusual...",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -606,16 +571,16 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
+                                                            "en": "This particular painter is famous for exactly that - leaving lots of space...",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
                                                     },
                                                     {
-                                                        "Type":"Image",
-                                                        "Parameters":{
-                                                            "Source":"Web",
-                                                            "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528889095/BP_Volute_Space.jpg"
                                                         }
                                                     },
                                                     {
@@ -628,16 +593,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "And his guardian god, Apollo, is leaving him...",
+                                                            "en": "By painting less, he asks the viewer to appreciate what he HAS drawn more closely!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                                        }
-                                                    },
-                                                    {
-                                                        "Type":"Image",
-                                                        "Parameters":{
-                                                            "Source":"Web",
-                                                            "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
                                                         }
                                                     },
                                                     {
@@ -650,7 +608,7 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
+                                                            "en": "In this case... two scenes of the famous hero Achilles fighting heroes in the Trojan army - Hector and Memnon",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -658,7 +616,121 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
+                                                            "en": "Some painters show these scenes as triumphant moments... but this guy chooses to highlight the sadness of the event, too",
+                                                            "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                            "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "BMVoluteNoYesYesMore",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "BMVoluteNoYesYesSad",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Why's it sad?",
+                                                                "fr": "C'est un génie",
+                                                                "es": "Es un genio"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Well, it's partly due to how hopeless Hector is here...",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "While Achilles is in a powerful pose, Hector is falling over, injured",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Achilles_Hector.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "And his guardian god, Apollo, is leaving him...",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528799075/BP_Apollo.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "He makes it sad to try and get the party-goers talking and debating (Greeks LOVED debating, especially when drunk)",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "If you want to know more, go check it out in the British Museum! It is GORGEOUS",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "BMVoluteNoYesNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "No thanks",
+                                                    "fr": "C'est un génie",
+                                                    "es": "Es un genio"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -667,26 +739,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "BMVoluteNoYesNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "No thanks",
-                                        "fr": "C'est un génie",
-                                        "es": "Es un genio"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Alright! Come see it in the British Museum, it's GORGEOUS!",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        }
-                                    ]
                                 }
                             ]
                         }
