@@ -19,6 +19,13 @@
             }
         },
         {
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 4000
+            }
+        },
+        {
             "Type": "Text",
             "Label": {
                 "en": "Well, you put up statues of yourself in as many towns as possible, of course!",
