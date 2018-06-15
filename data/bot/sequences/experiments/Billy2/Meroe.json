@@ -19,18 +19,18 @@
             }
         },
         {
-            "Type":"Image",
-            "Parameters":{
-                "Source":"Web",
-                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
-            }
-        },
-        {
             "Type": "Text",
             "Label": {
                 "en": "Well, you put up statues of yourself in as many towns as possible, of course!",
                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+            }
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+                "Source": "Web",
+                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead.jpg"
             }
         }
     ],
@@ -54,10 +54,10 @@
                     }
                 },
                 {
-                    "Type":"Image",
-                    "Parameters":{
-                        "Source":"Web",
-                        "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884780/AugCoin.jpg"
+                    "Type": "Image",
+                    "Parameters": {
+                        "Source": "Web",
+                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884780/AugCoin.jpg"
                     }
                 },
                 {
@@ -70,7 +70,7 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "This head was discovered in Meroe, in Sudan",
+                        "en": "This head was discovered in Meroe, in Modern Sudan",
                         "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                         "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                     }
@@ -97,13 +97,27 @@
                             "fr": "C'est un génie",
                             "es": "Es un genio"
                         },
-                        "Steps": [       
+                        "Steps": [
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "Not many original bronzes surive through history... since they often got melted down for the raw materials during conquests",
+                                    "en": "Not many original bronzes survive through history... since they often got melted down for the raw materials during conquests",
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                }
+                            },
+                            {
+                                "Type": "Image",
+                                "Parameters": {
+                                    "Source": "Web",
+                                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529059190/Bronze_Casting.jpg"
+                                }
+                            },
+                            {
+                                "Type": "Pause",
+                                "Parameters": {
+                                    "Mode": "Wait",
+                                    "ms": 4000
                                 }
                             },
                             {
@@ -113,57 +127,19 @@
                                     "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                     "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                 }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "The statue was looted by Kushite raiders, who hacked the head off and buried it deep under the steps to their temple in Meroe",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
-                            },
-                            {
-                                "Type": "Pause",
-                                "Parameters": {
-                                    "Mode": "Wait",
-                                    "ms": 4000
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "So that everyone who walked inside trampled all over the ruler's image!",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "Not exactly what Augustus planned when he commissioned the statues!",
-                                    "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                    "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "MeroeGoodYesMore",
+                            "Id": "MeroeGoodYesWhat",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "MeroeGoodYesYes",
+                                    "Id": "MeroeGoodYesWhat2",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "Tell me more!",
+                                        "en": "What was it?",
                                         "fr": "C'est un génie",
                                         "es": "Es un genio"
                                     },
@@ -171,16 +147,17 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "OK! The head (and statue) is slightly larger than life-size... an easy way to make yourself seem greater than the average man!",
+                                                "en": "The statue was looted by raiders, who hacked the head off and buried it deep under the steps to their temple in Meroe",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         },
                                         {
-                                            "Type":"Image",
-                                            "Parameters":{
-                                                "Source":"Web",
-                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead2.jpg"
+                                            "Type": "Text",
+                                            "Label": {
+                                                "en": "So that everyone who walked inside trampled all over the ruler's image!",
+                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         },
                                         {
@@ -193,16 +170,16 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Also, he's showing us the classic 'heroic gaze'... he turns his head slightly, and his eyes gaze over our heads",
+                                                "en": "The full version may have looked something like this...",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
                                         },
                                         {
-                                            "Type":"Image",
-                                            "Parameters":{
-                                                "Source":"Web",
-                                                "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead3.jpg"
+                                            "Type": "Image",
+                                            "Parameters": {
+                                                "Source": "Web",
+                                                "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529059781/AugustusPrima.jpg"
                                             }
                                         },
                                         {
@@ -215,7 +192,7 @@
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Rather than looking us in the eyes, he looks into the distance, surveying his kingdom and subjects",
+                                                "en": "But we may never know! We only have the head...",
                                                 "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                 "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                             }
@@ -223,15 +200,15 @@
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "MeroeGoodYesYesMore",
+                                        "Id": "MeroeGoodYesWhatMore",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
-                                                "Type": "Leaf",
-                                                "Id": "MeroeGoodYesYesYes",
+                                                "Type": "Node",
+                                                "Id": "MeroeGoodYesWhatYes",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "Anything else?",
+                                                    "en": "Tell me more!",
                                                     "fr": "C'est un génie",
                                                     "es": "Es un genio"
                                                 },
@@ -239,9 +216,16 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "He's also got perfectly idealised facial proportions... it's possible he looked like that... but perhaps unlikely",
+                                                            "en": "OK! The head (and statue) is slightly larger than life-size... an easy way to make yourself seem greater than the average man!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                        }
+                                                    },
+                                                    {
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead2.jpg"
                                                         }
                                                     },
                                                     {
@@ -254,16 +238,16 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
+                                                            "en": "Also, he's showing us the classic 'heroic gaze'... he turns his head slightly, and his eyes gaze over our heads",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
                                                     },
                                                     {
-                                                        "Type":"Image",
-                                                        "Parameters":{
-                                                            "Source":"Web",
-                                                            "Path":"http://res.cloudinary.com/dk7wh86v4/image/upload/v1528886353/MeroeHead4.jpg"
+                                                        "Type": "Image",
+                                                        "Parameters": {
+                                                            "Source": "Web",
+                                                            "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528884693/MeroeHead3.jpg"
                                                         }
                                                     },
                                                     {
@@ -276,7 +260,91 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "But of course, for people in the provinces, who would never see him in the flesh, this didn't matter so much",
+                                                            "en": "Rather than looking us in the eyes, he looks into the distance, surveying his kingdom and subjects",
+                                                            "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                            "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                        }
+                                                    }
+                                                ],
+                                                "LinksTo": {
+                                                    "Type": "Node",
+                                                    "Id": "MeroeGoodYesWhatYesMore",
+                                                    "ElementValue": "1",
+                                                    "Commands": [
+                                                        {
+                                                            "Type": "Leaf",
+                                                            "Id": "MeroeGoodYesWhatYesYes",
+                                                            "ElementValue": "1",
+                                                            "CommandLabel": {
+                                                                "en": "Anything else?",
+                                                                "fr": "C'est un génie",
+                                                                "es": "Es un genio"
+                                                            },
+                                                            "Steps": [
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "He's also got perfectly idealised facial proportions... it's possible he looked like that... but perhaps unlikely",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "Rather, he models himself as a youthful, handsome hero, with full, curly hair",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Image",
+                                                                    "Parameters": {
+                                                                        "Source": "Web",
+                                                                        "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1528886353/MeroeHead4.jpg"
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Pause",
+                                                                    "Parameters": {
+                                                                        "Mode": "Wait",
+                                                                        "ms": 4000
+                                                                    }
+                                                                },
+                                                                {
+                                                                    "Type": "Text",
+                                                                    "Label": {
+                                                                        "en": "But of course, for people in the provinces, who would never see him in the flesh, this didn't matter so much",
+                                                                        "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
+                                                                        "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
+                                                                    }
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            },
+                                            {
+                                                "Type": "Leaf",
+                                                "Id": "MeroeGoodYesWhatNo",
+                                                "ElementValue": "1",
+                                                "CommandLabel": {
+                                                    "en": "No thanks",
+                                                    "fr": "C'est un génie",
+                                                    "es": "Es un genio"
+                                                },
+                                                "Steps": [
+                                                    {
+                                                        "Type": "Text",
+                                                        "Label": {
+                                                            "en": "OK! Come see it in the British Museum some time!",
                                                             "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
                                                             "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
                                                         }
@@ -285,26 +353,6 @@
                                             }
                                         ]
                                     }
-                                },
-                                {
-                                    "Type": "Leaf",
-                                    "Id": "MeroeGoodYesNo",
-                                    "ElementValue": "1",
-                                    "CommandLabel": {
-                                        "en": "No thanks",
-                                        "fr": "C'est un génie",
-                                        "es": "Es un genio"
-                                    },
-                                    "Steps": [
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "OK! Come see it in the British Museum some time!",
-                                                "fr": "En plus de son goût pour l'aventure, Giacomo devenait facilement ami avec d'autres animaux...",
-                                                "es": "Además de su amor por la aventura, Giacomo se hacía amigos facilmente con los otros animales..."
-                                            }
-                                        }
-                                    ]
                                 }
                             ]
                         }
