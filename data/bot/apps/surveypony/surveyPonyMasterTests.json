@@ -2,8 +2,10 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-        { "order": 1160, "file":["data/bot/sequences/experiments/rui/OneStepWithPredictProbability1.json"]},
-        { "order" : 1610, "file": ["/data/bot/sequences/experiments/rui/should_show_step_showPersistentLink.json"]}
+      { "order": 1010, "file":[
+            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]},
+       { "order": 1240, "file":[
+            "data/bot/sequences/experiments/rui/OneStepWithPredictProbability1.json"]},
       ]
    }
 ]
