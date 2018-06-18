@@ -1,0 +1,95 @@
+{
+  "Type": "Node",
+  "Comments": "it should show the menue after the last image and not after the last text",
+  "Id": "shouldShowCommandsAfterLastImage",
+  "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show menu after last step of type image",
+            "fr": "should show menu after last step of type image"
+          }
+        },
+        {
+          "Type": "Image",
+          "Id": "10",
+          "Parameters": {
+              "Source": "Internal",
+              "Path": "themes/emojiPandas/small/shutterstock_431449828_2.jpg"
+          }
+        }
+      ],
+  "Commands": [
+    {
+      "Type": "Node",
+      "Id": "shouldShowCommandsAfterLastImage2",
+      "CommandLabel": {
+        "en": "continue",
+        "fr": "continue"
+      },
+      "Steps": [
+        {
+          "Type": "Text",
+          "Label": {
+            "en": "should show menu after last step of type gif",
+            "fr": "should show menu after last step of type gif"
+          }
+        },
+        {
+          "Type": "AnimatedGif",
+          "Id": "10",
+          "Parameters": {
+              "Source": "Giphy",
+              "Path": "zJNMxcHO7p3Ak"
+          }
+        }
+      ],
+      "Commands": [
+        {
+          "Type": "Node",
+          "Id": "shouldShowCommandsAfterLastImage3",
+          "CommandLabel": {
+            "en": "should show menu after last step of type textt",
+            "fr": "should show menu after last step of type text"
+          },
+          "Steps": [
+            {
+              "Type": "Image",
+              "Id": "10",
+              "Parameters": {
+                  "Source": "Internal",
+                  "Path": "themes/emojiPandas/small/shutterstock_431449828_2.jpg"
+              }
+            },
+            {
+              "Type": "Text",
+              "Label": {
+                "en": "continuing with 1 last menu to finish",
+                "fr": "continuing with 1 last menu to finish"
+              }
+            }
+          ],
+          "Commands": [
+              {
+                "Type": "Leaf",
+                "Id": "shouldShowCommandsAfterLastImage4",
+                "CommandLabel": {
+                  "en": "continue",
+                  "fr": "continue"
+                },
+                "Steps": [
+                  {
+                    "Type": "Text",
+                    "Label": {
+                      "en": ""we're done here",
+                      "fr": ""we're done here"
+                    }
+                  }
+                ]
+              }
+            ]
+        }
+      ]
+    }
+  ]
+}
