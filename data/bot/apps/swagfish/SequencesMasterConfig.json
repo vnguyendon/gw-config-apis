@@ -1,7 +1,7 @@
 {
   "MasterFiles": [
     {
-      "Name": "rcbotdev",
+      "Name": "swagfish",
       "Source": "github",
       "File": "/data/bot/apps/surveypony/surveyPonyMasterTests.json"
     }
