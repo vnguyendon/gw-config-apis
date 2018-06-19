@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "ConflictTeenager",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say that you still have some internal conflicts from your teenage years?",
+        "fr": "Est-ce que tu dirais que tu as encore des conflits internes qui remontent à ton adolescence ?",
+        "es": "¿Dirías que todavía tienes conflictos internos que datan de tu adolescencia?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesConflictTeenager",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3ov9k6aHFXQIo4PXLa"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoConflictTeenager",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6fJe2xmlKOi8Ed5m"
+          }
+        }
+      ]
+    }
+  ]
+}

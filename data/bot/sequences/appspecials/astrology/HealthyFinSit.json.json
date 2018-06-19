@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "HealthyFinSit",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say you need to always be in a healthy and ordered financial situation?",
+        "fr": "Est-ce que tu dirais que tu as besoin d'une situation financière saine et équilibrée ?",
+        "es": "¿Dirías que necesitas una situación financiera sana y equilibrada?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHealthyFinSit",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xTiTnqUxyWbsAXq7Ju"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHealthyFinSit",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "VTxmwaCEwSlZm"
+            }
+          }
+      ]
+    }
+  ]
+}

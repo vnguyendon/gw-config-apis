@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "CriticalThinking",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say that you have strong critical thinking skills?",
+        "fr": "Est-ce que tu dirais que tu as un sens critique très développé ?",
+        "es": "¿Dirías que tienes un pensamiento crítico muy desarrollado?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesCriticalThinking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oKIPyOcxrUUhyVkLm"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoCriticalThinking",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3oEdv9duTLhWoNhcGs"
+          }
+        }
+      ]
+    }
+  ]
+}

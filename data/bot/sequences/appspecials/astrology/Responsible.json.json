@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "Responsible",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you describe yourself as a responsible person?",
+        "fr": "Est-ce que tu te définirais comme une personne responsable ?",
+        "es": "¿Te describirías a ti mismo como una persona responsable?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesResponsible",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "ToMjGprg1o1nBQRBZrq"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoResponsible",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "kDAnbLuTUVjfW"
+            }
+          }
+      ]
+    }
+  ]
+}

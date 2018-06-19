@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "HonestyMatters",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Is honesty an important quality to you?",
+        "fr": "Est-ce que l'honnêteté est une qualité importante pour vous ?",
+        "es": "¿La honestidad es una cualidad importante para ti?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHonestyMatters",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "Image",
+          "Parameters": {
+            "Source": "Web",
+            "Path": "http://res.cloudinary.com/dgy6y4npc/image/upload/v1529344699/shutterstock_1069333784-min.jpg"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHonestyMatters",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "gK6eVhX16J63m"
+            }
+          }
+      ]
+    }
+  ]
+}

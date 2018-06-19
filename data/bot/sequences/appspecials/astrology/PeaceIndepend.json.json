@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "PeaceIndepend",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say that you love your peace and quiet, as well as your independence?",
+        "fr": "Est-ce que tu dirais que tu aimes ta tranquilité, ton indépendance ?",
+        "es": "¿Dirías que te gusta tu tranquilidad, tu independencia?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesPeaceIndepend",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "xGuvrPgq0rWQo"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoPeaceIndepend",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "26BRHXtHkOt3bp6JW"
+            }
+          }
+      ]
+    }
+  ]
+}

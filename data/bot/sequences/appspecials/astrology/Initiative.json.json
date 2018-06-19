@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "Initiative",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you like to take the initiative?",
+        "fr": "Est-ce que tu aimes prendre des initiatives ?",
+        "es": "Te gusta tomar iniciativas?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesInitiative",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "vIJaz7nMJhTUc"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoInitiative",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "3o6UBkjJGHqYDtvo6Q"
+          }
+        }
+      ]
+    }
+  ]
+}

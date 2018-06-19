@@ -1,0 +1,71 @@
+{
+  "Type": "Node",
+  "Id": "GreatHeart",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would people say that you have a good heart? 💖",
+        "fr": "Est-ce que les gens diraient que tu as un grand coeur ? 💖",
+        "es": "¿La gente diría que tienes un gran corazón? 💖"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesGreatHeart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "PFo2HrqCjC0bm"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoGreatHeart",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "Text",
+            "Label": {
+              "en": "I'm sure you have other qualities",
+              "fr": "Je suis sûr que tu as d'autres qualités",
+              "es": "Estoy seguro de que tienes otras cualidades"
+            }
+        }
+      ]
+    }
+  ]
+}

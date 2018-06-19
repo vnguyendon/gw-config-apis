@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "Innovator",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Would you say that you are an innovator? ",
+        "fr": "Est-ce que tu dirais que tu es un innovateur ?",
+        "es": "¿Dirías que eres un innovador?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesInnovator",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "HUplkVCPY7jTW"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoInnovator",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "AnimatedGif",
+            "Parameters": {
+              "Source": "Giphy",
+              "Path": "9ZOyRdXL7ZVKg"
+            }
+          }
+      ]
+    }
+  ]
+}

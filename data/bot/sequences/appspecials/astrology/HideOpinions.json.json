@@ -1,0 +1,70 @@
+{
+  "Type": "Node",
+  "Id": "HideOpinions",
+  "Steps": [
+    {
+      "Type": "Text",
+      "Label": {
+        "en": "Do you often feel like people are hiding their opinions?",
+        "fr": "Est-ce que tu considères que les gens ont souvent des arrières-pensées ?",
+        "es": "¿Crees que las personas a menudo tienen motivos ocultos?"
+        }
+      }
+    ],
+  "Commands": [
+    {
+      "Type": "Leaf",
+      "Id": "YesHideOpinions",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "yes",
+        "fr": "oui",
+        "es": "sí"
+      },
+      "Steps": [
+        {
+          "Type": "Action",
+          "Name": "DoVote"
+        },
+        {
+          "Type": "Action",
+          "Name": "ShowSurveyResults"
+        },
+        {
+          "Type": "AnimatedGif",
+          "Parameters": {
+            "Source": "Giphy",
+            "Path": "lKXEBR8m1jWso"
+          }
+        }
+      ]
+    },
+    {
+      "Type": "Leaf",
+      "Id": "NoHideOpinions",
+      "ElementValue": "1",
+      "CommandLabel": {
+        "en": "no",
+        "fr": "non",
+        "es": "no"
+      },
+      "Steps": [
+        {
+            "Type": "Action",
+            "Name": "DoVote"
+          },
+        {
+            "Type": "Action",
+            "Name": "ShowSurveyResults"
+        },
+        {
+            "Type": "Image",
+            "Parameters": {
+              "Source": "Web",
+              "Path": "https://res.cloudinary.com/dgy6y4npc/image/upload/v1529076930/shutterstock_637300582-min.jpg"
+            }
+        }
+      ]
+    }
+  ]
+}
