@@ -19,13 +19,13 @@
     {
       "Type": "Leaf",
       "Id": "TypingBarHideShowTestNext",
-      "CommandLabel": [
+      "CommandLabel": 
         {
           "en": "Next",
           "fr": "FR - Next",
           "es": "ES - Next"
         }
-      ]
+      
     }
   ]
 }
