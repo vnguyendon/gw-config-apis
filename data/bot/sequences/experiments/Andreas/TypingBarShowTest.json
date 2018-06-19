@@ -1,6 +1,6 @@
 {
   "Type": "Node",
-  "Id": "TypingBarHideShow",
+  "Id": "TypingBarShowTest",
   "Steps": [
     {
       "Type": "Text",
