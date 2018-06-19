@@ -2,16 +2,20 @@
   {
     "GroupName": "Hero",
     "SequenceFiles": [
-      { "order" : 5, "file": ["/data/bot/sequences/experiments/Billy2/Meroe.json"]},
-      { "order" : 8, "file": ["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]},
-      { "order" : 10, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
-      { "order" : 12, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
-      { "order" : 14, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
-      { "order" : 20, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey.json"]},
-      { "order" : 21, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey2.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Lucy.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses2.json"]}
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Responsible.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/AppearanceMatters.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/ConflictTeenager.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/CriticalThinking.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/GreatHeart.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HealthyFinSit.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HideOpinions.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Initiative.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Innovator.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/HonestyMatters.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/MindDesires.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/PeaceIndepend.json"]},
+      { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/PracticalBrain.json"]},
+      { "order" : 300, "file": ["/data/bot/sequences/appspecials/fortnite/Ulysses2.json"]}
     ]
   }
 ]
