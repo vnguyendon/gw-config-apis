@@ -2,32 +2,8 @@
   {
     "GroupName":"Test",
     "SequenceFiles" : [
-         { "order": 4, "file":[
-            "/data/bot/sequences/experiments/Billy2/FlowerPrefer.json"]},
-        { "order": 10, "file":[
-            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep.json",
-            "/data/bot/sequences/experiments/rui/OneLeafWithOneStep2.json"]},
-        { "order": 20, "file":[
-            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json",
-            "/data/bot/sequences/experiments/rui/leafNoStepWithOneLeafCommand.json"]},
-        { "order": 30, "file":[
-            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest.json",
-            "/data/bot/sequences/experiments/rui/OneLeafWithFailTest2.json"]},
-        { "order": 40, "file":[
-            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest.json",
-            "/data/bot/sequences/experiments/rui/OneLeafWithSuccessTest2.json"]},
-        
-        { "order": 50, "file":[
-            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
-            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
-        { "order": 50, "file":[
-            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder1.json",
-            "/data/bot/sequences/experiments/rui/ShowOnlyOnceForOrder2.json"]},
-      
-        { "order": 60, "file":[
-            "/data/bot/sequences/experiments/SetUserPropertyTest.json"]},
-       { "order": 61, "file":[
-            "/data/bot/sequences/experiments/SetUserPropertySuccess.json"]}
+      { "order": 1010, "file":[
+            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]}
       ]
-  }
+   }
 ]
