@@ -23,6 +23,12 @@
        "ID": "ca-app-pub-7822741681642396/2071767060"
     } 
  },  
+ "InsteadOfPaying": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/2471132786",
+    "Offset": "1",
+    "Frequency" : "4"
+ },  
  "OtherResumeActivityWithFb": {
    "Provider": "Facebook",
    "ID": "1001221899915187_1500926526611386",
