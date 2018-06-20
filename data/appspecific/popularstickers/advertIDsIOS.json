@@ -50,5 +50,9 @@
   "TestFacebookRewardedVideo": {
     "Provider": "Facebook",
     "ID": "1001221899915187_1792466454124057"
-  }  
+  },
+ "TestAdMobRewardedVideo": {
+    "Provider": "AdMob",
+    "ID": "ca-app-pub-7822741681642396/9225416854"
+  } 
 }
