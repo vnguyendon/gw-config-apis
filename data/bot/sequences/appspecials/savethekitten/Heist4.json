@@ -127,7 +127,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewTitusBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -182,7 +182,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewTitusGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -282,7 +282,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewPumaBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -337,7 +337,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewPumaBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -437,7 +437,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewCatrickBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -492,7 +492,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewCatrickGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -592,7 +592,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewDamonBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -647,7 +647,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4KnewDamonGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -822,7 +822,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorTitusBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -877,7 +877,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorTitusGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -977,7 +977,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorPumaBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -1032,7 +1032,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorPumaGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -1132,7 +1132,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorCatrickBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -1187,7 +1187,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorCatrickGood",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -1287,7 +1287,7 @@
               "ElementValue": "1",
               "Commands": [
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorDamonBad",
                   "ElementValue": "1",
                   "CommandLabel": {
@@ -1342,7 +1342,7 @@
                 }
                 },
                 {
-                  "Type": "Leaf",
+                  "Type": "node",
                   "Id": "Heist4TraitorDamonGood",
                   "ElementValue": "1",
                   "CommandLabel": {
