@@ -21,17 +21,9 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible",
-                "fr": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible",
-                "es": "He dropped at Salty Springs, and knew that he needed to get some resources as fast as possible"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "But he was terrible at doing that!",
-                "fr": "But he was terrible at doing that!",
-                "es": "But he was terrible at doing that!"
+                "en": "He knew he needed to get resources... but was pretty terrible at doing it",
+                "fr": "He knew he needed to get resources... but was pretty terrible at doing it",
+                "es": "He knew he needed to get resources... but was pretty terrible at doing it"
             }
         }
     ],
@@ -55,18 +47,10 @@
                     }
                 },
                 {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Look at the poor guy…",
-                        "fr": "Look at the poor guy…",
-                        "es": "Look at the poor guy…"
-                    }
-                },
-                {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "2kOdUJWm3DfKL2dpY8"
+                        "Path": "miningwrong"
                     }
                 },
                 {
@@ -92,12 +76,12 @@
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "HarveyHowSmart",
+                        "Id": "HarveyHowNice",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "That’s smart!",
-                            "fr": "That’s smart!",
-                            "es": "That’s smart!"
+                            "en": "Nice tip!",
+                            "fr": "Nice tip!",
+                            "es": "Nice tip!"
                         }
                     },
                     {
@@ -150,18 +134,10 @@
                     }
                 },
                 {
-                    "Type": "Text",
-                    "Label": {
-                        "en": "Look at the poor guy…",
-                        "fr": "Look at the poor guy…",
-                        "es": "Look at the poor guy…"
-                    }
-                },
-                {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "2kOdUJWm3DfKL2dpY8"
+                        "Path": "miningwrong"
                     }
                 },
                 {
@@ -187,12 +163,12 @@
                 "Commands": [
                     {
                         "Type": "Leaf",
-                        "Id": "HarveyNoobSmart",
+                        "Id": "HarveyNoobNice",
                         "ElementValue": "1",
                         "CommandLabel": {
-                            "en": "That’s smart!",
-                            "fr": "That’s smart!",
-                            "es": "That’s smart!"
+                            "en": "Nice tip!",
+                            "fr": "Nice tip!",
+                            "es": "Nice tip!"
                         }
                     },
                     {
