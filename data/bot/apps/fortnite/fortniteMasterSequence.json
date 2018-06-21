@@ -4,7 +4,7 @@
     "SequenceFiles": [
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Diana.json"]},
-      { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
+      { "order" : 35, "file": ["/data/bot/sequences/appspecials/fortnite/Diana2.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Harvey2.json"]},
       { "order" : 30, "file": ["/data/bot/sequences/appspecials/fortnite/Lucy.json"]},
