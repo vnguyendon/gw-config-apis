@@ -5,36 +5,36 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Also, he should have deployed over lowland areas, or over the sea…",
-                "fr": "Also, he should have deployed over lowland areas, or over the sea…",
-                "es": "Also, he should have deployed over lowland areas, or over the sea…"
+                "en": "Also, his chute always popped out super early, and he was last to the good stuff every time",
+                "fr": "Also, his chute always popped out super early, and he was last to the good stuff every time",
+                "es": "Also, his chute always popped out super early, and he was last to the good stuff every time"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "By not doing that, his chute popped out super early, and he was always last to the good stuff…",
-                "fr": "By not doing that, his chute popped out super early, and he was always last to the good stuff…",
-                "es": "By not doing that, his chute popped out super early, and he was always last to the good stuff…"
+                "en": "He should have deployed over lowland areas, or over the sea… like Sylvie here",
+                "fr": "He should have deployed over lowland areas, or over the sea… like Sylvie here",
+                "es": "He should have deployed over lowland areas, or over the sea… like Sylvie here"
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "mXVwy3HkZHDgWLBo4m"
+                "Path": "lowland"
             }
-        }
+        }        
     ],
     "Commands": [
         {
             "Type": "Node",
-            "Id": "Ulysses2Imbecile",
+            "Id": "Ulysses2Good",
             "ElementValue": "1",
             "CommandLabel": {
-                "en": "Imbecile",
-                "fr": "Imbecile",
-                "es": "Imbecile"
+                "en": "She's so good",
+                "fr": "She's so good",
+                "es": "She's so good"
             },
             "Steps": [
                 {
@@ -43,13 +43,6 @@
                         "en": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
                         "fr": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
                         "es": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!"
-                    }
-                },
-                {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "mXVwy3HkZHDgWLBo4m"
                     }
                 },
                 {
@@ -63,12 +56,12 @@
             ],
             "LinksTo": {
                 "Type": "Node",
-                "Id": "Ulysses2ImbecileIgnore",
+                "Id": "Ulysses2GoodIgnore",
                 "ElementValue": "1",
                 "Commands": [
                     {
                         "Type": "Node",
-                        "Id": "Ulysses2ImbecileNo",
+                        "Id": "Ulysses2GoodNo",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "I won’t ignore you",
@@ -94,21 +87,6 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kRoDIvG3Yez28"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
                                     "en": "I hope his gruesome death helps you in your time on the island",
                                     "fr": "I hope his gruesome death helps you in your time on the island",
                                     "es": "I hope his gruesome death helps you in your time on the island"
@@ -117,12 +95,12 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "Ulysses2ImbecileNoHelp",
+                            "Id": "Ulysses2GoodNoHelp",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Leaf",
-                                    "Id": "Ulysses2ImbecileNoYes",
+                                    "Id": "Ulysses2GoodNoYes",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "It will!",
@@ -150,7 +128,7 @@
                                 },
                                 {
                                     "Type": "Leaf",
-                                    "Id": "Ulysses2ImbecileNoMaybe",
+                                    "Id": "Ulysses2GoodNoMaybe",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "It might!",
@@ -181,7 +159,7 @@
                     },
                     {
                         "Type": "Node",
-                        "Id": "Ulysses2ImbecileDie",
+                        "Id": "Ulysses2GoodDie",
                         "ElementValue": "1",
                         "CommandLabel": {
                             "en": "He deserved to die",
@@ -207,21 +185,6 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kRoDIvG3Yez28"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
                                     "en": "I hope his gruesome death helps you in your time on the island",
                                     "fr": "I hope his gruesome death helps you in your time on the island",
                                     "es": "I hope his gruesome death helps you in your time on the island"
@@ -230,12 +193,12 @@
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "Ulysses2ImbecileDieHelp",
+                            "Id": "Ulysses2GoodDieHelp",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Leaf",
-                                    "Id": "Ulysses2ImbecileDieYes",
+                                    "Id": "Ulysses2GoodDieYes",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "It will!",
@@ -263,7 +226,7 @@
                                 },
                                 {
                                     "Type": "Leaf",
-                                    "Id": "Ulysses2ImbecileDieMaybe",
+                                    "Id": "Ulysses2GoodDieMaybe",
                                     "ElementValue": "1",
                                     "CommandLabel": {
                                         "en": "It might!",
@@ -308,16 +271,17 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
-                        "fr": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
-                        "es": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!"
+                        "en": "Try it next time you drop in!",
+                        "fr": "Try it next time you drop in!",
+                        "es": "Try it next time you drop in!"
                     }
                 },
                 {
-                    "Type": "AnimatedGif",
-                    "Parameters": {
-                        "Source": "Giphy",
-                        "Path": "kRoDIvG3Yez28"
+                    "Type": "Text",
+                    "Label": {
+                        "en": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "fr": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!",
+                        "es": "Next, he told me he loved shotguns, but then kept going in through the rooves of houses!"
                     }
                 },
                 {
@@ -350,21 +314,6 @@
                                     "en": "Well... his luck ran out, and the end was painful to watch…",
                                     "fr": "Well... his luck ran out, and the end was painful to watch…",
                                     "es": "Well... his luck ran out, and the end was painful to watch…"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kRoDIvG3Yez28"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
                                 }
                             },
                             {
@@ -463,21 +412,6 @@
                                     "en": "Well... his luck ran out, and the end was painful to watch…",
                                     "fr": "Well... his luck ran out, and the end was painful to watch…",
                                     "es": "Well... his luck ran out, and the end was painful to watch…"
-                                }
-                            },
-                            {
-                                "Type": "AnimatedGif",
-                                "Parameters": {
-                                    "Source": "Giphy",
-                                    "Path": "kRoDIvG3Yez28"
-                                }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "fr": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off",
-                                    "es": "For reference, I know for a fact that the legend Skilful Sylvie takes the same route every time, and it sure pays off"
                                 }
                             },
                             {
