@@ -53,6 +53,13 @@
                         "fr": "But every time he came, he landed in a different area!",
                         "es": "But every time he came, he landed in a different area!"
                     }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "montage"
+                    }
                 }
             ],
             "LinksTo": {
@@ -83,6 +90,14 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "mXVwy3HkZHDgWLBo4m"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... that's him running aimlessly around the football pitch",
+                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
+                                    "es": "Yeah... that's him running aimlessly around the football pitch"
                                 }
                             },
                             {
@@ -145,6 +160,14 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "mXVwy3HkZHDgWLBo4m"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... that's him running aimlessly around the football pitch",
+                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
+                                    "es": "Yeah... that's him running aimlessly around the football pitch"
                                 }
                             },
                             {
@@ -228,6 +251,13 @@
                         "fr": "But every time he came, he landed in a different area!",
                         "es": "But every time he came, he landed in a different area!"
                     }
+                },
+                {
+                    "Type": "AnimatedGif",
+                    "Parameters": {
+                        "Source": "Giphy",
+                        "Path": "montage"
+                    }
                 }
             ],
             "LinksTo": {
@@ -258,6 +288,14 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "mXVwy3HkZHDgWLBo4m"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... that's him running aimlessly around the football pitch",
+                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
+                                    "es": "Yeah... that's him running aimlessly around the football pitch"
                                 }
                             },
                             {
@@ -320,6 +358,14 @@
                                 "Parameters": {
                                     "Source": "Giphy",
                                     "Path": "mXVwy3HkZHDgWLBo4m"
+                                }
+                            },
+                            {
+                                "Type": "Text",
+                                "Label": {
+                                    "en": "Yeah... that's him running aimlessly around the football pitch",
+                                    "fr": "Yeah... that's him running aimlessly around the football pitch",
+                                    "es": "Yeah... that's him running aimlessly around the football pitch"
                                 }
                             },
                             {
