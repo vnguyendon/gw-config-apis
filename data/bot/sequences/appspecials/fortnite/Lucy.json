@@ -5,32 +5,31 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Here’s a really interesting one… a story about Loud Lucy",
-                "fr": "Here’s a really interesting one… a story about Loud Lucy",
-                "es": "Here’s a really interesting one… a story about Loud Lucy"
+                "en": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
+                "fr": "Next is a story about the least stealthy person I have ever met... Loud Lucy",
+                "es": "Next is a story about the least stealthy person I have ever met... Loud Lucy"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours",
-                "fr": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours",
-                "es": "She is possibly the least stealthy person I have ever met… and it really didn’t do her any favours"
+                "en": "She had a bad habit of shooting everywhere for no reason",
+                "fr": "She had a bad habit of shooting everywhere for no reason",
+                "es": "She had a bad habit of shooting everywhere for no reason"
             }
         },
         {
-            "Type": "Text",
-            "Label": {
-                "en": "Firstly, she shot at everything she saw",
-                "fr": "Firstly, she shot at everything she saw",
-                "es": "Firstly, she shot at everything she saw"
+            "Type": "Pause",
+            "Parameters": {
+                "Mode": "Wait",
+                "ms": 2000
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "TBD"
+                "Path": "shooting"
             }
         }
     ],
@@ -48,14 +47,6 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "exactly...",
-                        "fr": "exactly...",
-                        "es": "exactly..."
-                    }
-                },
-                {
-                    "Type": "Text",
-                    "Label": {
                         "en": "Exactly... she gave away her position all the time",
                         "fr": "Exactly... she gave away her position all the time",
                         "es": "Exactly... she gave away her position all the time"
@@ -70,18 +61,32 @@
                     }
                 },
                 {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
+                    }
+                },
+                {
                     "Type": "Text",
                     "Label": {
-                        "en": "If she just waited... other people could have come and finished off the people she saw!",
-                        "fr": "If she just waited... other people could have come and finished off the people she saw!",
-                        "es": "If she just waited... other people could have come and finished off the people she saw!"
+                        "en": "Sylvie loves to wait until people kill each other... and then clean up after",
+                        "fr": "Sylvie loves to wait until people kill each other... and then clean up after",
+                        "es": "Sylvie loves to wait until people kill each other... and then clean up after"
+                    }
+                },
+                {
+                    "Type": "Pause",
+                    "Parameters": {
+                        "Mode": "Wait",
+                        "ms": 2000
                     }
                 },
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "TBD"
+                        "Path": "waiting"
                     }
                 }
             ],
@@ -103,9 +108,9 @@
                             {
                                 "Type": "Text",
                                 "Label": {
-                                    "en": "sure is!",
-                                    "fr": "sure is!",
-                                    "es": "sure is!"
+                                    "en": "Sure is!",
+                                    "fr": "Sure is!",
+                                    "es": "Sure is!"
                                 }
                             },
                             {
@@ -122,79 +127,55 @@
                                     "Source": "Giphy",
                                     "Path": "TBD"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She needed to be reacting to everything she heard!",
-                                    "fr": "She needed to be reacting to everything she heard!",
-                                    "es": "She needed to be reacting to everything she heard!"
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "LucyIdeaSmartWill",
+                            "Id": "LucyIdeaSmartDeaf",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "IWill",
+                                    "Id": "LucyIdeaSmartIssue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I will!",
-                                        "fr": "I will!",
-                                        "es": "I will!"
+                                        "en": "What's the issue?",
+                                        "fr": "What's the issue?",
+                                        "es": "What's the issue?"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Great plan!",
-                                                "fr": "Great plan!",
-                                                "es": "Great plan!"
+                                                "en": "Well... here's Sylvie in the exact same spot...",
+                                                "fr": "Well... here's Sylvie in the exact same spot...",
+                                                "es": "Well... here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyIdeaSmartWillSherlock",
+                                        "Id": "LucyIdeaSmartIssueListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaSmartWillLearn",
+                                                "Id": "LucyIdeaSmartIssueLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -211,10 +192,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -251,12 +232,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaSmartWillLearnMistakes",
+                                                    "Id": "LucyIdeaSmartIssueLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartWillLearnNo",
+                                                            "Id": "LucyIdeaSmartIssueLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -266,7 +247,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartWillLearnYes",
+                                                            "Id": "LucyIdeaSmartIssueLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -279,12 +260,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaSmartWillDetective",
+                                                "Id": "LucyIdeaSmartIssueAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -296,10 +277,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -336,12 +317,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaSmartWillDetectiveMistakes",
+                                                    "Id": "LucyIdeaSmartIssueAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartWillDetectiveNo",
+                                                            "Id": "LucyIdeaSmartIssueAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -351,7 +332,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartWillDetectiveYes",
+                                                            "Id": "LucyIdeaSmartIssueAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -367,54 +348,54 @@
                                 },
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyIdeaSmartDo",
+                                    "Id": "LucyIdeaSmartMistake",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I do!",
-                                        "fr": "I do!",
-                                        "es": "I do!"
+                                        "en": "Big mistake",
+                                        "fr": "Big mistake",
+                                        "es": "Big mistake"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                                "en": "You're right...",
+                                                "fr": "You're right...",
+                                                "es": "You're right..."
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
+                                                "en": "Here's Sylvie in the exact same spot...",
+                                                "fr": "Here's Sylvie in the exact same spot...",
+                                                "es": "Here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyIdeaSmartDoSherlock",
+                                        "Id": "LucyIdeaSmartMistakeListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaSmartDoLearn",
+                                                "Id": "LucyIdeaSmartMistakeLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -431,10 +412,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -471,12 +452,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaSmartDoLearnMistakes",
+                                                    "Id": "LucyIdeaSmartMistakeLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartDoLearnNo",
+                                                            "Id": "LucyIdeaSmartMistakeLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -486,7 +467,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartDoLearnYes",
+                                                            "Id": "LucyIdeaSmartMistakeLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -499,12 +480,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaSmartDoDetective",
+                                                "Id": "LucyIdeaSmartMistakeAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -516,10 +497,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -556,12 +537,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaSmartDoDetectiveMistakes",
+                                                    "Id": "LucyIdeaSmartMistakeAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartDoDetectiveNo",
+                                                            "Id": "LucyIdeaSmartMistakeAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -571,7 +552,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaSmartDoDetectiveYes",
+                                                            "Id": "LucyIdeaSmartMistakeAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -620,79 +601,55 @@
                                     "Source": "Giphy",
                                     "Path": "TBD"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She needed to be reacting to everything she heard!",
-                                    "fr": "She needed to be reacting to everything she heard!",
-                                    "es": "She needed to be reacting to everything she heard!"
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "LucyIdeaKnewHeard",
+                            "Id": "LucyIdeaKnewDeaf",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyIdeaKnewWill",
+                                    "Id": "LucyIdeaKnewIssue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I will!",
-                                        "fr": "I will!",
-                                        "es": "I will!"
+                                        "en": "What's the issue?",
+                                        "fr": "What's the issue?",
+                                        "es": "What's the issue?"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Great plan!",
-                                                "fr": "Great plan!",
-                                                "es": "Great plan!"
+                                                "en": "Well... here's Sylvie in the exact same spot...",
+                                                "fr": "Well... here's Sylvie in the exact same spot...",
+                                                "es": "Well... here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyIdeaKnewWillSherlock",
+                                        "Id": "LucyIdeaKnewIssueListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaKnewWillLearn",
+                                                "Id": "LucyIdeaKnewIssueLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -709,10 +666,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -749,12 +706,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaKnewWillLearnMistakes",
+                                                    "Id": "LucyIdeaKnewIssueLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewWillLearnNo",
+                                                            "Id": "LucyIdeaKnewIssueLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -764,7 +721,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewWillLearnYes",
+                                                            "Id": "LucyIdeaKnewIssueLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -777,12 +734,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaKnewWillDetective",
+                                                "Id": "LucyIdeaKnewIssueAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -794,10 +751,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -834,12 +791,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaKnewWillDetectiveMistakes",
+                                                    "Id": "LucyIdeaKnewIssueAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewWillDetectiveNo",
+                                                            "Id": "LucyIdeaKnewIssueAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -849,7 +806,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewWillDetectiveYes",
+                                                            "Id": "LucyIdeaKnewIssueAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -865,54 +822,54 @@
                                 },
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyIdeaKnewDo",
+                                    "Id": "LucyIdeaKnewMistake",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I do!",
-                                        "fr": "I do!",
-                                        "es": "I do!"
+                                        "en": "Big mistake",
+                                        "fr": "Big mistake",
+                                        "es": "Big mistake"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                                "en": "You're right...",
+                                                "fr": "You're right...",
+                                                "es": "You're right..."
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
+                                                "en": "Here's Sylvie in the exact same spot...",
+                                                "fr": "Here's Sylvie in the exact same spot...",
+                                                "es": "Here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyIdeaKnewDoSherlock",
+                                        "Id": "LucyIdeaKnewMistakeListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaKnewDoLearn",
+                                                "Id": "LucyIdeaKnewMistakeLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -929,10 +886,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -969,12 +926,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaKnewDoLearnMistakes",
+                                                    "Id": "LucyIdeaKnewMistakeLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewDoLearnNo",
+                                                            "Id": "LucyIdeaKnewMistakeLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -984,7 +941,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewDoLearnYes",
+                                                            "Id": "LucyIdeaKnewMistakeLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -997,12 +954,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyIdeaKnewDoDetective",
+                                                "Id": "LucyIdeaKnewMistakeAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -1014,10 +971,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1054,12 +1011,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyIdeaKnewDoDetectiveMistakes",
+                                                    "Id": "LucyIdeaKnewMistakeAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewDoDetectiveNo",
+                                                            "Id": "LucyIdeaKnewMistakeAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1069,7 +1026,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyIdeaKnewDoDetectiveYes",
+                                                            "Id": "LucyIdeaKnewMistakeAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1118,16 +1075,16 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "If she just waited... other people could have come and finished off the people she saw!",
-                        "fr": "If she just waited... other people could have come and finished off the people she saw!",
-                        "es": "If she just waited... other people could have come and finished off the people she saw!"
+                        "en": "Sylvie loves to wait until people kill each other... and then clean up after",
+                        "fr": "Sylvie loves to wait until people kill each other... and then clean up after",
+                        "es": "Sylvie loves to wait until people kill each other... and then clean up after"
                     }
                 },
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "TBD"
+                        "Path": "waiting"
                     }
                 }
             ],
@@ -1168,79 +1125,55 @@
                                     "Source": "Giphy",
                                     "Path": "TBD"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She needed to be reacting to everything she heard!",
-                                    "fr": "She needed to be reacting to everything she heard!",
-                                    "es": "She needed to be reacting to everything she heard!"
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "LucyWhySmartHeard",
+                            "Id": "LucyWhySmartDeaf",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyWhySmartWill",
+                                    "Id": "LucyWhySmartIssue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I will!",
-                                        "fr": "I will!",
-                                        "es": "I will!"
+                                        "en": "What's the issue?",
+                                        "fr": "What's the issue?",
+                                        "es": "What's the issue?"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Great plan!",
-                                                "fr": "Great plan!",
-                                                "es": "Great plan!"
+                                                "en": "Well... here's Sylvie in the exact same spot...",
+                                                "fr": "Well... here's Sylvie in the exact same spot...",
+                                                "es": "Well... here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyWhySmartWillSherlock",
+                                        "Id": "LucyWhySmartIssueListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhySmartWillLearn",
+                                                "Id": "LucyWhySmartIssueLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -1257,10 +1190,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1297,12 +1230,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhySmartWillLearnMistakes",
+                                                    "Id": "LucyWhySmartIssueLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartWillLearnNo",
+                                                            "Id": "LucyWhySmartIssueLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1312,7 +1245,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartWillLearnYes",
+                                                            "Id": "LucyWhySmartIssueLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1325,12 +1258,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhySmartWillDetective",
+                                                "Id": "LucyWhySmartIssueAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -1342,10 +1275,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1382,12 +1315,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhySmartWillDetectiveMistakes",
+                                                    "Id": "LucyWhySmartIssueAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartWillDetectiveNo",
+                                                            "Id": "LucyWhySmartIssueAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1397,7 +1330,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartWillDetectiveYes",
+                                                            "Id": "LucyWhySmartIssueAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1413,54 +1346,54 @@
                                 },
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyWhySmartDo",
+                                    "Id": "LucyWhySmartMistake",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I do!",
-                                        "fr": "I do!",
-                                        "es": "I do!"
+                                        "en": "Big mistake",
+                                        "fr": "Big mistake",
+                                        "es": "Big mistake"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                                "en": "You're right...",
+                                                "fr": "You're right...",
+                                                "es": "You're right..."
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
+                                                "en": "Here's Sylvie in the exact same spot...",
+                                                "fr": "Here's Sylvie in the exact same spot...",
+                                                "es": "Here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyWhySmartDoSherlocks",
+                                        "Id": "LucyWhySmartMistakeListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhySmartDoLearn",
+                                                "Id": "LucyWhySmartMistakeLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -1477,10 +1410,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1517,12 +1450,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhySmartDoLearnMistakes",
+                                                    "Id": "LucyWhySmartMistakeLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartDoLearnNo",
+                                                            "Id": "LucyWhySmartMistakeLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1532,7 +1465,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartDoLearnYes",
+                                                            "Id": "LucyWhySmartMistakeLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1545,12 +1478,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhySmartDoDetective",
+                                                "Id": "LucyWhySmartMistakeAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -1562,10 +1495,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1602,12 +1535,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhySmartDoDetectiveMistakes",
+                                                    "Id": "LucyWhySmartMistakeAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartDoDetectiveNo",
+                                                            "Id": "LucyWhySmartMistakeAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1617,7 +1550,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhySmartDoDetectiveYes",
+                                                            "Id": "LucyWhySmartMistakeAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1666,79 +1599,55 @@
                                     "Source": "Giphy",
                                     "Path": "TBD"
                                 }
-                            },
-                            {
-                                "Type": "Text",
-                                "Label": {
-                                    "en": "She needed to be reacting to everything she heard!",
-                                    "fr": "She needed to be reacting to everything she heard!",
-                                    "es": "She needed to be reacting to everything she heard!"
-                                }
                             }
                         ],
                         "LinksTo": {
                             "Type": "Node",
-                            "Id": "LucyWhyKnewHeard",
+                            "Id": "LucyWhyKnewDeaf",
                             "ElementValue": "1",
                             "Commands": [
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyWhyKnewWill",
+                                    "Id": "LucyWhyKnewIssue",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I will!",
-                                        "fr": "I will!",
-                                        "es": "I will!"
+                                        "en": "What's the issue?",
+                                        "fr": "What's the issue?",
+                                        "es": "What's the issue?"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Great plan!",
-                                                "fr": "Great plan!",
-                                                "es": "Great plan!"
+                                                "en": "Well... here's Sylvie in the exact same spot...",
+                                                "fr": "Well... here's Sylvie in the exact same spot...",
+                                                "es": "Well... here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Text",
-                                            "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
-                                            }
-                                        },
-                                        {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyWhyKnewWillSherlock",
+                                        "Id": "LucyWhyKnewIssueListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhyKnewWillLearn",
+                                                "Id": "LucyWhyKnewIssueLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -1755,10 +1664,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1795,12 +1704,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhyKnewWillLearnMistakes",
+                                                    "Id": "LucyWhyKnewIssueLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewWillLearnNo",
+                                                            "Id": "LucyWhyKnewIssueLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1810,7 +1719,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewWillLearnYes",
+                                                            "Id": "LucyWhyKnewIssueLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1823,12 +1732,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhyKnewWillDetective",
+                                                "Id": "LucyWhyKnewIssueAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -1840,10 +1749,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -1880,12 +1789,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhyKnewWillDetectiveMistakes",
+                                                    "Id": "LucyWhyKnewIssueAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewWillDetectiveNo",
+                                                            "Id": "LucyWhyKnewIssueAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -1895,7 +1804,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewWillDetectiveYes",
+                                                            "Id": "LucyWhyKnewIssueAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -1911,54 +1820,54 @@
                                 },
                                 {
                                     "Type": "Node",
-                                    "Id": "LucyWhyKnewDo",
+                                    "Id": "LucyWhyKnewMistake",
                                     "ElementValue": "1",
                                     "CommandLabel": {
-                                        "en": "I do!",
-                                        "fr": "I do!",
-                                        "es": "I do!"
+                                        "en": "Big mistake",
+                                        "fr": "Big mistake",
+                                        "es": "Big mistake"
                                     },
                                     "Steps": [
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "fr": "Oh, she didn’t ever pick up on clues left by other players, either!",
-                                                "es": "Oh, she didn’t ever pick up on clues left by other players, either!"
+                                                "en": "You're right...",
+                                                "fr": "You're right...",
+                                                "es": "You're right..."
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Look at her, oblivious to all this evidence!",
-                                                "fr": "Look at her, oblivious to all this evidence!",
-                                                "es": "Look at her, oblivious to all this evidence!"
+                                                "en": "Here's Sylvie in the exact same spot...",
+                                                "fr": "Here's Sylvie in the exact same spot...",
+                                                "es": "Here's Sylvie in the exact same spot..."
                                             }
                                         },
                                         {
-                                            "Type": "Image",
+                                            "Type": "AnimatedGif",
                                             "Parameters": {
-                                                "Source": "Web",
-                                                "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                "Source": "Giphy",
+                                                "Path": "TBD"
                                             }
                                         },
                                         {
                                             "Type": "Text",
                                             "Label": {
-                                                "en": "Lucy was certainly no Sherlock Holmes...",
-                                                "fr": "Lucy was certainly no Sherlock Holmes...",
-                                                "es": "Lucy was certainly no Sherlock Holmes..."
+                                                "en": "Listening can help you find cool stuff!",
+                                                "fr": "Listening can help you find cool stuff!",
+                                                "es": "Listening can help you find cool stuff!"
                                             }
                                         }
                                     ],
                                     "LinksTo": {
                                         "Type": "Node",
-                                        "Id": "LucyWhyKnewDoSherlock",
+                                        "Id": "LucyWhyKnewMistakeListen",
                                         "ElementValue": "1",
                                         "Commands": [
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhyKnewDoLearn",
+                                                "Id": "LucyWhyKnewMistakeLearn",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
                                                     "en": "I can learn from that",
@@ -1975,10 +1884,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -2015,12 +1924,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhyKnewDoLearnMistakes",
+                                                    "Id": "LucyWhyKnewMistakeLearnMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewDoLearnNo",
+                                                            "Id": "LucyWhyKnewMistakeLearnNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -2030,7 +1939,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewDoLearnYes",
+                                                            "Id": "LucyWhyKnewMistakeLearnYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
@@ -2043,12 +1952,12 @@
                                             },
                                             {
                                                 "Type": "Node",
-                                                "Id": "LucyWhyKnewDoDetective",
+                                                "Id": "LucyWhyKnewMistakeAlways",
                                                 "ElementValue": "1",
                                                 "CommandLabel": {
-                                                    "en": "I’m a detective",
-                                                    "fr": "I’m a detective",
-                                                    "es": "I’m a detective"
+                                                    "en": "I always listen",
+                                                    "fr": "I always listen",
+                                                    "es": "I always listen"
                                                 },
                                                 "Steps": [
                                                     {
@@ -2060,10 +1969,10 @@
                                                         }
                                                     },
                                                     {
-                                                        "Type": "Image",
+                                                        "Type": "AnimatedGif",
                                                         "Parameters": {
-                                                            "Source": "Web",
-                                                            "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                                                            "Source": "Giphy",
+                                                            "Path": "trail"
                                                         }
                                                     },
                                                     {
@@ -2100,12 +2009,12 @@
                                                 ],
                                                 "LinksTo": {
                                                     "Type": "Node",
-                                                    "Id": "LucyWhyKnewDoDetectiveMistakes",
+                                                    "Id": "LucyWhyKnewMistakeAlwaysMistakes",
                                                     "ElementValue": "1",
                                                     "Commands": [
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewDoDetectiveNo",
+                                                            "Id": "LucyWhyKnewMistakeAlwaysNo",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "No way!",
@@ -2115,7 +2024,7 @@
                                                         },
                                                         {
                                                             "Type": "Leaf",
-                                                            "Id": "LucyWhyKnewDoDetectiveYes",
+                                                            "Id": "LucyWhyKnewMistakeAlwaysYes",
                                                             "ElementValue": "1",
                                                             "CommandLabel": {
                                                                 "en": "Yes 😃",
