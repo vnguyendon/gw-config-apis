@@ -21,16 +21,16 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "Just look at him struggle…",
-                "fr": "Just look at him struggle…",
-                "es": "Just look at him struggle…"
+                "en": "Why is he trying to build metal here?!",
+                "fr": "Why is he trying to build metal here?!",
+                "es": "Why is he trying to build metal here?!"
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "9M1C6ysPKiRYyWzEC0"
+                "Path": "buildmetal"
             }
         },
         {
@@ -79,16 +79,16 @@
                 {
                     "Type": "Text",
                     "Label": {
-                        "en": "he continually messed up his builds…",
-                        "fr": "he continually messed up his builds…",
-                        "es": "he continually messed up his builds…"
+                        "en": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+                        "fr": "he panicked while building and it didn't end well... he needed to plan where he was going!",
+                        "es": "he panicked while building and it didn't end well... he needed to plan where he was going!"
                     }
                 },
                 {
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "TgMOfXcAty9d2qZTRZ"
+                        "Path": "building panic"
                     }
                 }
             ],
@@ -127,7 +127,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "5T06kh1PNCOUtuuNyI"
+                                    "Path": "sylviebuild"
                                 }
                             }
                         ],
@@ -174,7 +174,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -189,7 +189,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -211,9 +211,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -228,7 +228,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -281,9 +281,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -298,7 +298,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -379,7 +379,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -394,7 +394,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -416,9 +416,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -433,7 +433,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -486,9 +486,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -503,7 +503,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -579,7 +579,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "5T06kh1PNCOUtuuNyI"
+                                    "Path": "sylviebuild"
                                 }
                             }
                         ],
@@ -626,7 +626,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -641,7 +641,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -663,9 +663,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -680,7 +680,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -733,9 +733,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -750,7 +750,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -831,7 +831,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -846,7 +846,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -868,9 +868,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -885,7 +885,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -938,9 +938,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -955,7 +955,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1042,7 +1042,7 @@
                     "Type": "AnimatedGif",
                     "Parameters": {
                         "Source": "Giphy",
-                        "Path": "TgMOfXcAty9d2qZTRZ"
+                        "Path": "building panic"
                     }
                 }
             ],
@@ -1081,7 +1081,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "5T06kh1PNCOUtuuNyI"
+                                    "Path": "sylviebuild"
                                 }
                             }
                         ],
@@ -1128,7 +1128,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -1143,7 +1143,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -1165,9 +1165,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1182,7 +1182,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1235,9 +1235,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1252,7 +1252,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1333,7 +1333,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -1348,7 +1348,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -1370,9 +1370,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1387,7 +1387,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1440,9 +1440,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1457,7 +1457,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1533,7 +1533,7 @@
                                 "Type": "AnimatedGif",
                                 "Parameters": {
                                     "Source": "Giphy",
-                                    "Path": "5T06kh1PNCOUtuuNyI"
+                                    "Path": "sylviebuild"
                                 }
                             }
                         ],
@@ -1580,7 +1580,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -1595,7 +1595,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -1617,9 +1617,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1634,7 +1634,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1687,9 +1687,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1704,7 +1704,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1785,7 +1785,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "TBD"
+                                                "Path": "neo"
                                             }
                                         },
                                         {
@@ -1800,7 +1800,7 @@
                                             "Type": "AnimatedGif",
                                             "Parameters": {
                                                 "Source": "Giphy",
-                                                "Path": "vNNFuZAYhRgzyqL4hk"
+                                                "Path": "dodge"
                                             }
                                         }
                                     ],
@@ -1822,9 +1822,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1839,7 +1839,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
@@ -1892,9 +1892,9 @@
                                                     {
                                                         "Type": "Text",
                                                         "Label": {
-                                                            "en": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "fr": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it...",
-                                                            "es": "Lastly, I don’t know why you guys insist on building these traps everywhere, but Ben never did it..."
+                                                            "en": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "fr": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!",
+                                                            "es": "Lastly, he fell for the most OBVIOUS trap ever... spikes behind a door!"
                                                         }
                                                     },
                                                     {
@@ -1909,7 +1909,7 @@
                                                         "Type": "AnimatedGif",
                                                         "Parameters": {
                                                             "Source": "Giphy",
-                                                            "Path": "1Ye2IK6O77gkj0Dcu5"
+                                                            "Path": "spike"
                                                         }
                                                     },
                                                     {
