@@ -13,39 +13,24 @@
         {
             "Type": "Text",
             "Label": {
-                "en": "He should have just axe-switched!",
-                "fr": "He should have just axe-switched!",
-                "es": "He should have just axe-switched!"
+                "en": "I really don’t know why he didn’t swing while jumping to save his momentum...",
+                "fr": "I really don’t know why he didn’t swing while jumping to save his momentum...",
+                "es": "I really don’t know why he didn’t swing while jumping to save his momentum..."
             }
         },
         {
             "Type": "AnimatedGif",
             "Parameters": {
                 "Source": "Giphy",
-                "Path": "1RzG3pgAxDJYegTBfe"
+                "Path": "jumpmine"
             }
         },
         {
             "Type": "Text",
             "Label": {
-                "en": "And I really don’t know why he didn’t swing while jumping to save his momentum...",
-                "fr": "And I really don’t know why he didn’t swing while jumping to save his momentum...",
-                "es": "And I really don’t know why he didn’t swing while jumping to save his momentum..."
-            }
-        },
-        {
-            "Type": "AnimatedGif",
-            "Parameters": {
-                "Source": "Giphy",
-                "Path": "555hXZtJlw5WO3Ss3F"
-            }
-        },
-        {
-            "Type": "Text",
-            "Label": {
-                "en": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…",
-                "fr": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…",
-                "es": "I know for a fact that my best, and longest surviving friend, Skilful Sylvie, does all of these things…"
+                "en": "As you can see, my best (and longest surviving) friend, Skilful Sylvie, always does it",
+                "fr": "As you can see, my best (and longest surviving) friend, Skilful Sylvie, always does it",
+                "es": "As you can see, my best (and longest surviving) friend, Skilful Sylvie, always does it"
             }
         },
         {
@@ -93,10 +78,10 @@
                     }
                 },
                 {
-                    "Type": "Image",
+                    "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                        "Source": "Giphy",
+                        "Path": "jumpmine"
                     }
                 }
             ],
@@ -527,10 +512,10 @@
                     }
                 },
                 {
-                    "Type": "Image",
+                    "Type": "AnimatedGif",
                     "Parameters": {
-                        "Source": "Web",
-                        "Path": "http://res.cloudinary.com/wavemining-ltd/image/upload/v1516876061/Einstein_tongue_kwbrn1.jpg"
+                        "Source": "Giphy",
+                        "Path": "jumpmine"
                     }
                 }
             ],
