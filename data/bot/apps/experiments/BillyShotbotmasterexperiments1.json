@@ -2,7 +2,7 @@
   {
     "GroupName": "Hero",
     "SequenceFiles": [
-      { "order" : 50, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]}
+      { "order" : 50, "file": ["/data/bot/sequences/appspecials/fortnite/Ben.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/Responsible.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/AppearanceMatters.json"]},
       { "order" : 80, "file": ["/data/bot/sequences/appspecials/astrology/ConflictTeenager.json"]},
