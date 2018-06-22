@@ -3,7 +3,7 @@
     "GroupName":"Test",
     "SequenceFiles" : [
       { "order": 10, "file":[
-            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]}
+            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json","/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]}
       ]
    }
 ]
