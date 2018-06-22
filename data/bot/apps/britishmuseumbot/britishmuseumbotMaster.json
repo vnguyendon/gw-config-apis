@@ -2,8 +2,9 @@
   {
     "GroupName":"BritishMuseum",
     "SequenceFiles" : [
-      { "order": 10, "file":[
-            "/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json","/data/bot/sequences/experiments/rui/should_show_commands_after_last_image.json"]}
+      { "order": 10, "file":["/data/bot/sequences/experiments/Billy2/Meroe.json"]},
+      { "order": 10, "file":["/data/bot/sequences/experiments/Billy2/Mausoleum.json"]},
+      { "order": 10, "file":["/data/bot/sequences/experiments/Billy2/BerlinVolute.json"]}
       ]
    }
 ]
