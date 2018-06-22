@@ -56,7 +56,7 @@
                 },
                 "Picture": {
                     "Source": "Web",
-                    "Path": "http://gw-static.azurewebsites.net/cvd/parent/shutterItems/small/shutterstock_197635112.jpg"
+                    "Path": "http://res.cloudinary.com/dk7wh86v4/image/upload/v1529660654/mausoleum2.jpg"
                 }
             },
             "LinksToFragment": {
